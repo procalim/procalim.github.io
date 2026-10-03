@@ -59,7 +59,7 @@ const imageFor = (route) => {
  */
 const vite = await createServer({ server: { middlewareMode: true }, appType: "custom", logLevel: "error" });
 const load = (file) => vite.ssrLoadModule(file);
-const [{ recipes }, { products }, { videos }, schema, { dictionary }] = await Promise.all([
+const [{ recipes, recipeText }, { products }, { videos }, schema, { dictionary }] = await Promise.all([
   load("/src/data/recipes.ts"),
   load("/src/data/products.ts"),
   load("/src/data/videos.ts"),
@@ -86,8 +86,8 @@ for (const recipe of recipes) {
     serves: recipe.serves,
     time: recipe.time,
     tags: recipe.tags,
-    ingredients: recipe.ingredients,
-    steps: recipe.steps,
+    ingredients: recipeText(recipe, "ar").ingredients,
+    steps: recipeText(recipe, "ar").steps,
   }));
 }
 for (const product of products) {
@@ -156,14 +156,15 @@ const fallbackBody = (route) => {
   const recipe = section === "recipes" && slug ? recipeBySlug.get(slug) : null;
   if (recipe) {
     const img = imageFor(route);
+    const text = recipeText(recipe, "ar");
     return (
       `<h1 style="${H1}">${escape(recipe.title.ar)} · ${escape(recipe.title.en)}</h1>\n` +
       `<p style="max-width:620px;margin:0 auto 20px;line-height:1.8">${escape(recipe.subtitle.ar)}<br />${escape(recipe.subtitle.en)}</p>\n` +
       (img ? `<img src="${img}" alt="${escape(recipe.title.ar)}" width="600" style="max-width:100%;height:auto;margin:0 auto 20px;display:block" />\n` : "") +
-      `<p>${escape(recipe.time)} · ${escape(recipe.serves)} servings</p>\n` +
-      `<h2>المكوّنات · Ingredients</h2>\n<ul style="${LIST}">${recipe.ingredients.map((i) => `<li>${escape(i)}</li>`).join("")}</ul>\n` +
-      `<h2>الطريقة · Method</h2>\n<ol style="${LIST}">${recipe.steps.map((t) => `<li>${escape(t)}</li>`).join("")}</ol>\n` +
-      (recipe.tip ? `<p style="${LIST}"><strong>نصيحة الشيف · Chef's tip:</strong> ${escape(recipe.tip)}</p>\n` : "") +
+      `<p>${escape(recipe.time)} · ${escape(recipe.serves)} أشخاص</p>\n` +
+      `<h2>المكوّنات</h2>\n<ul style="${LIST}">${text.ingredients.map((i) => `<li>${escape(i)}</li>`).join("")}</ul>\n` +
+      `<h2>طريقة التحضير</h2>\n<ol style="${LIST}">${text.steps.map((t) => `<li>${escape(t)}</li>`).join("")}</ol>\n` +
+      (text.tip ? `<p style="${LIST}"><strong>نصيحة الشيف:</strong> ${escape(text.tip)}</p>\n` : "") +
       `<p><a href="/shop/the-edible-codex" style="color:#C9A227">الوصفة من كتاب ذا إديبل كودكس · ٢٦١ وصفة</a></p>`
     );
   }

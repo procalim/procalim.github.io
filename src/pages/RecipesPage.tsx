@@ -3,7 +3,7 @@ import { Search } from "lucide-react";
 import Seo from "@/components/Seo";
 import RecipeCard from "@/components/RecipeCard";
 import { useLang } from "@/i18n/LanguageContext";
-import { recipes, recipeTags } from "@/data/recipes";
+import { recipes, recipeTags, recipeText } from "@/data/recipes";
 import { brandImages, site } from "@/data/site";
 
 const RecipesPage = () => {
@@ -25,6 +25,7 @@ const RecipesPage = () => {
         recipe.subtitle.en,
         recipe.tags.join(" "),
         recipe.ingredients.join(" "),
+        recipeText(recipe, "ar").ingredients.join(" "),
       ]
         .join(" ")
         .toLowerCase()
