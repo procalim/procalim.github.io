@@ -36,7 +36,14 @@ const RecipePage = () => {
   const photo = recipePhoto(recipe);
   // The sauce chapter sells the free booklet; everything else sells the book.
   const product = getProduct(recipe.source === "sauces" ? "the-five-sauces" : "the-edible-codex")!;
-  const related = recipes.filter((r) => r.slug !== recipe.slug).slice(0, 3);
+  // The three recipes after this one, wrapping round the list. Taking the first
+  // three for every page put the same three photographs under every recipe, and
+  // Google showed recipes in search with a neighbour's picture. It also meant
+  // only those three ever got a link from the rest of the site.
+  // الوصفات الثلاث التالية بدل أول ثلاث دائماً — كانت صورها تظهر في جوجل
+  // مكان صورة الوصفة نفسها.
+  const at = recipes.findIndex((r) => r.slug === recipe.slug);
+  const related = [1, 2, 3].map((step) => recipes[(at + step) % recipes.length]);
 
   return (
     <>
@@ -79,7 +86,7 @@ const RecipePage = () => {
       {/* The plate */}
       <section className="relative overflow-hidden bg-navy-700">
         {photo ? (
-          <img src={photo} alt={L(recipe.title)} className="absolute inset-0 h-full w-full object-cover" />
+          <img src={photo} alt={L(recipe.title)} fetchPriority="high" className="absolute inset-0 h-full w-full object-cover" />
         ) : (
           <div
             className="absolute inset-0"
