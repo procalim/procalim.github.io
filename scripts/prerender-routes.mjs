@@ -135,6 +135,60 @@ const markup = (route) => {
   return `    <script type="application/ld+json" data-page="true">${json}</script>\n`;
 };
 
+/**
+ * The page's own content, written into the static fallback.
+ *
+ * Every pre-rendered page was shipping the home page's fallback as its
+ * body: thirty-four addresses with the same H1 and the same paragraph.
+ * Anything that reads the HTML without running the app (Bing, link
+ * previews, AI crawlers, Google's first pass) saw one page thirty-four
+ * times. Each address now carries its own heading and its own text.
+ * كل صفحة كانت تحمل محتوى الصفحة الرئيسية نفسه في الـ HTML، فكانت تبدو
+ * لمحرّكات البحث ٣٤ نسخة من صفحة واحدة. الآن لكل صفحة عنوانها ونصّها.
+ */
+const H1 = "font-family:'Playfair Display',Amiri,Georgia,serif;font-size:32px;margin:0 0 12px";
+const LIST = "max-width:620px;margin:0 auto 24px;text-align:start;line-height:1.8";
+const recipeBySlug = new Map(recipes.map((r) => [r.slug, r]));
+const productBySlug = new Map(products.map((p) => [p.slug, p]));
+
+const fallbackBody = (route) => {
+  const [, section, slug] = route.path.split("/");
+  const recipe = section === "recipes" && slug ? recipeBySlug.get(slug) : null;
+  if (recipe) {
+    const img = imageFor(route);
+    return (
+      `<h1 style="${H1}">${escape(recipe.title.ar)} · ${escape(recipe.title.en)}</h1>\n` +
+      `<p style="max-width:620px;margin:0 auto 20px;line-height:1.8">${escape(recipe.subtitle.ar)}<br />${escape(recipe.subtitle.en)}</p>\n` +
+      (img ? `<img src="${img}" alt="${escape(recipe.title.ar)}" width="600" style="max-width:100%;height:auto;margin:0 auto 20px;display:block" />\n` : "") +
+      `<p>${escape(recipe.time)} · ${escape(recipe.serves)} servings</p>\n` +
+      `<h2>المكوّنات · Ingredients</h2>\n<ul style="${LIST}">${recipe.ingredients.map((i) => `<li>${escape(i)}</li>`).join("")}</ul>\n` +
+      `<h2>الطريقة · Method</h2>\n<ol style="${LIST}">${recipe.steps.map((t) => `<li>${escape(t)}</li>`).join("")}</ol>\n` +
+      (recipe.tip ? `<p style="${LIST}"><strong>نصيحة الشيف · Chef's tip:</strong> ${escape(recipe.tip)}</p>\n` : "") +
+      `<p><a href="/shop/the-edible-codex" style="color:#C9A227">الوصفة من كتاب ذا إديبل كودكس · ٢٦١ وصفة</a></p>`
+    );
+  }
+  const product = section === "shop" && slug ? productBySlug.get(slug) : null;
+  if (product) {
+    const price = product.price ? `$${product.price}` : "مجاناً · Free";
+    return (
+      `<h1 style="${H1}">${escape(product.title.ar)} · ${escape(product.title.en)}</h1>\n` +
+      `<p style="max-width:620px;margin:0 auto 20px;line-height:1.8">${escape(product.description.ar)}</p>\n` +
+      `<p style="color:#C9A227;font-size:20px">${price}</p>\n` +
+      `<p>تحميل فوري · وصول مدى الحياة · استرداد خلال ٣٠ يوماً</p>`
+    );
+  }
+  return null;
+};
+
+const withFallback = (html, route) => {
+  const body = fallbackBody(route);
+  if (!body) return html;
+  return html.replace(
+    /(<div id="static-fallback"[^>]*>)[\s\S]*?(<\/div>\s*<\/div>\s*(?:<script|<\/body>))/,
+    (_, open, close) => `${open}\n${body}\n      ${close}`,
+  );
+};
+
 /** Swaps in this route's own metadata, leaving the rest of the document alone. */
 const render = (route) => {
   const url = `${origin}${route.path}`;
@@ -142,7 +196,7 @@ const render = (route) => {
   const description = escape(route.description);
   const image = origin + (imageFor(route) ?? "/brand/logo-square.jpg");
 
-  return template
+  return withFallback(template, route)
     .replace(/<title>[\s\S]*?<\/title>/, `<title>${title}</title>`)
     .replace(
       /<meta\s+name="description"[\s\S]*?\/>/,
