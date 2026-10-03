@@ -1,4 +1,6 @@
 import type { Localized } from "@/i18n/LanguageContext";
+import type { Lang } from "@/i18n/dictionary";
+import { recipesAr } from "./recipes.ar";
 
 /**
  * وصفات مختارة من كتاب The Edible Codex — النصّ كما نُشر في الكتاب.
@@ -603,3 +605,16 @@ export const recipePhoto = (recipe: Recipe) => (recipe.photo ? photoBySlug[recip
 
 /** Every tag in use, for the filter row. */
 export const recipeTags = [...new Set(recipes.flatMap((r) => r.tags))].sort();
+
+/**
+ * Ingredients, method and tip in the reader's language. The book is English;
+ * the Arabic lives in recipes.ar.ts and falls back to English if a recipe
+ * has not been translated yet.
+ * المكوّنات والطريقة والنصيحة بلغة القارئ.
+ */
+export const recipeText = (recipe: Recipe, lang: Lang) =>
+  (lang === "ar" && recipesAr[recipe.slug]) || {
+    ingredients: recipe.ingredients,
+    steps: recipe.steps,
+    tip: recipe.tip,
+  };

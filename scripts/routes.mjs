@@ -79,7 +79,7 @@ export const routes = [
     path: `/recipes/${recipe.slug}`,
     priority: "0.8",
     changefreq: "monthly",
-    title: recipe.title,
+    title: `طريقة عمل ${recipe.title}`,
     description: `${recipe.subtitle} · ${recipeSuffix}`,
   })),
   {

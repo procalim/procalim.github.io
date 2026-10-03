@@ -7,7 +7,7 @@ import RecipeCard from "@/components/RecipeCard";
 import SectionHeading from "@/components/SectionHeading";
 import BuyButton from "@/components/BuyButton";
 import { useLang } from "@/i18n/LanguageContext";
-import { accentHex, getRecipe, recipePhoto, recipes } from "@/data/recipes";
+import { accentHex, getRecipe, recipePhoto, recipes, recipeText } from "@/data/recipes";
 import { getProduct } from "@/data/products";
 import { site } from "@/data/site";
 
@@ -36,12 +36,21 @@ const RecipePage = () => {
   const photo = recipePhoto(recipe);
   // The sauce chapter sells the free booklet; everything else sells the book.
   const product = getProduct(recipe.source === "sauces" ? "the-five-sauces" : "the-edible-codex")!;
-  const related = recipes.filter((r) => r.slug !== recipe.slug).slice(0, 3);
+  // The three recipes after this one, wrapping round the list. Taking the first
+  // three for every page put the same three photographs under every recipe, and
+  // Google showed recipes in search with a neighbour's picture. It also meant
+  // only those three ever got a link from the rest of the site.
+  // الوصفات الثلاث التالية بدل أول ثلاث دائماً — كانت صورها تظهر في جوجل
+  // مكان صورة الوصفة نفسها.
+  const text = recipeText(recipe, lang);
+  const flow = lang === "ar" ? "rtl" : "ltr";
+  const at = recipes.findIndex((r) => r.slug === recipe.slug);
+  const related = [1, 2, 3].map((step) => recipes[(at + step) % recipes.length]);
 
   return (
     <>
       <Seo
-        title={L(recipe.title)}
+        title={lang === "ar" ? `طريقة عمل ${L(recipe.title)}` : L(recipe.title)}
         description={`${L(recipe.subtitle)} · ${recipe.time} · ${t("seo.recipeSuffix")}`}
         image={photo ?? undefined}
         jsonLd={recipeGraph({
@@ -57,8 +66,8 @@ const RecipePage = () => {
           serves: recipe.serves,
           time: recipe.time,
           tags: recipe.tags,
-          ingredients: recipe.ingredients,
-          steps: recipe.steps,
+          ingredients: text.ingredients,
+          steps: text.steps,
         })}
       />
 
@@ -79,7 +88,7 @@ const RecipePage = () => {
       {/* The plate */}
       <section className="relative overflow-hidden bg-navy-700">
         {photo ? (
-          <img src={photo} alt={L(recipe.title)} className="absolute inset-0 h-full w-full object-cover" />
+          <img src={photo} alt={L(recipe.title)} fetchPriority="high" className="absolute inset-0 h-full w-full object-cover" />
         ) : (
           <div
             className="absolute inset-0"
@@ -115,10 +124,10 @@ const RecipePage = () => {
           <aside className="h-fit rounded-sm border border-gold/25 bg-ivory p-7 lg:sticky lg:top-28">
             <h2 className="text-[11px] font-semibold uppercase tracking-luxe text-gold">{t("recipes.ingredients")}</h2>
             <ul className="mt-5 space-y-3">
-              {recipe.ingredients.map((item) => (
+              {text.ingredients.map((item) => (
                 <li key={item} className="flex items-start gap-3 text-[14px] leading-relaxed text-navy-800/85">
                   <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rotate-45" style={{ background: accent }} />
-                  <span dir="ltr" className="text-start">
+                  <span dir={flow} className="text-start">
                     {item}
                   </span>
                 </li>
@@ -130,7 +139,7 @@ const RecipePage = () => {
           <div>
             <h2 className="text-[11px] font-semibold uppercase tracking-luxe text-gold">{t("recipes.method")}</h2>
             <ol className="mt-6 space-y-6">
-              {recipe.steps.map((step, i) => (
+              {text.steps.map((step, i) => (
                 <li key={step} className="flex gap-5">
                   <span
                     className="grid h-9 w-9 shrink-0 place-items-center rounded-sm font-display text-base text-ivory"
@@ -138,21 +147,21 @@ const RecipePage = () => {
                   >
                     {i + 1}
                   </span>
-                  <p dir="ltr" className="pt-1 text-start text-[15px] leading-relaxed text-navy-800/85">
+                  <p dir={flow} className="pt-1 text-start text-[15px] leading-relaxed text-navy-800/85">
                     {step}
                   </p>
                 </li>
               ))}
             </ol>
 
-            {recipe.tip && (
+            {text.tip && (
               <div className="mt-10 rounded-sm border-s-2 border-gold bg-ivory p-6">
                 <p className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-luxe text-gold">
                   <Lightbulb className="h-4 w-4" />
                   {t("recipes.tip")}
                 </p>
-                <p dir="ltr" className="mt-3 text-start text-[14px] leading-relaxed text-navy-800/85">
-                  {recipe.tip}
+                <p dir={flow} className="mt-3 text-start text-[14px] leading-relaxed text-navy-800/85">
+                  {text.tip}
                 </p>
               </div>
             )}
