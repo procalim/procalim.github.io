@@ -37,7 +37,9 @@ const HomePage = () => {
         description={t("seo.home.desc")}
         jsonLd={{
           "@context": "https://schema.org",
-          "@type": "Store",
+          // An online shop, not a shop front: "Store" is a local business to
+          // Google, which then asks for a street address and opening hours.
+          "@type": "OnlineStore",
           name: site.brand.name,
           description: t("hero.subtitle"),
           url: site.url,
