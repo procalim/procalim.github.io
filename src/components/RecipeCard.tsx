@@ -10,7 +10,7 @@ const RecipeCard = ({ recipe }: { recipe: Recipe }) => {
 
   return (
     <article className="card-luxe group flex h-full flex-col">
-      <Link to={`/recipes/${recipe.slug}`} className="block">
+      <Link to={`/recipes/${recipe.slug}/`} className="block">
         {/* The plate: the recipe's sauce colour on the book's navy */}
         <div className="relative flex aspect-[4/3] items-center justify-center overflow-hidden bg-navy-700">
           {photo ? (
@@ -42,7 +42,7 @@ const RecipeCard = ({ recipe }: { recipe: Recipe }) => {
 
       <div className="flex flex-1 flex-col p-6">
         <h3 className="font-display text-lg leading-snug text-navy-700">
-          <Link to={`/recipes/${recipe.slug}`} className="transition-colors hover:text-gold-600">
+          <Link to={`/recipes/${recipe.slug}/`} className="transition-colors hover:text-gold-600">
             {L(recipe.title)}
           </Link>
         </h3>
@@ -58,7 +58,7 @@ const RecipeCard = ({ recipe }: { recipe: Recipe }) => {
             {recipe.serves}
           </span>
           <Link
-            to={`/recipes/${recipe.slug}`}
+            to={`/recipes/${recipe.slug}/`}
             className="ms-auto flex items-center gap-1 font-semibold text-gold-600 hover:underline"
           >
             {t("recipes.read")}

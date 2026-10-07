@@ -15,7 +15,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { createServer } from "vite";
-import { origin, pageTitle, root, routes } from "./routes.mjs";
+import { origin, pageTitle, pageUrl, root, routes } from "./routes.mjs";
 
 const dist = path.join(root, "dist");
 const template = fs.readFileSync(path.join(dist, "index.html"), "utf8");
@@ -163,9 +163,9 @@ const fallbackBody = (route) => {
       (img ? `<img src="${img}" alt="${escape(recipe.title.ar)}" width="600" style="max-width:100%;height:auto;margin:0 auto 20px;display:block" />\n` : "") +
       `<p>${escape(recipe.time)} · ${escape(recipe.serves)} أشخاص</p>\n` +
       `<h2>المكوّنات</h2>\n<ul style="${LIST}">${text.ingredients.map((i) => `<li>${escape(i)}</li>`).join("")}</ul>\n` +
-      `<h2>طريقة التحضير</h2>\n<ol style="${LIST}">${text.steps.map((t) => `<li>${escape(t)}</li>`).join("")}</ol>\n` +
+      `<h2>طريقة التحضير</h2>\n<ol style="${LIST}">${text.steps.map((t, i) => `<li id="step-${i + 1}">${escape(t)}</li>`).join("")}</ol>\n` +
       (text.tip ? `<p style="${LIST}"><strong>نصيحة الشيف:</strong> ${escape(text.tip)}</p>\n` : "") +
-      `<p><a href="/shop/the-edible-codex" style="color:#C9A227">الوصفة من كتاب ذا إديبل كودكس · ٢٦١ وصفة</a></p>`
+      `<p><a href="/shop/the-edible-codex/" style="color:#C9A227">الوصفة من كتاب ذا إديبل كودكس · ٢٦١ وصفة</a></p>`
     );
   }
   const product = section === "shop" && slug ? productBySlug.get(slug) : null;
@@ -192,7 +192,7 @@ const withFallback = (html, route) => {
 
 /** Swaps in this route's own metadata, leaving the rest of the document alone. */
 const render = (route) => {
-  const url = `${origin}${route.path}`;
+  const url = pageUrl(route);
   const title = escape(pageTitle(route));
   const description = escape(route.description);
   const image = origin + (imageFor(route) ?? "/brand/logo-square.jpg");

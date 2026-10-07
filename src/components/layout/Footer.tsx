@@ -16,23 +16,23 @@ const Footer = () => {
   const [done, setDone] = useState(false);
 
   const explore = [
-    { to: "/shop", key: "nav.shop" as const },
-    { to: "/recipes", key: "nav.recipes" as const },
-    { to: "/videos", key: "videos.nav" as const },
-    { to: "/about", key: "nav.about" as const },
-    { to: "/contact", key: "nav.contact" as const },
+    { to: "/shop/", key: "nav.shop" as const },
+    { to: "/recipes/", key: "nav.recipes" as const },
+    { to: "/videos/", key: "videos.nav" as const },
+    { to: "/about/", key: "nav.about" as const },
+    { to: "/contact/", key: "nav.contact" as const },
   ];
   const help = [
-    { to: "/faq", key: "faq.eyebrow" as const },
-    { to: "/policies/refund", key: "legal.refund" as const },
-    { to: "/contact", key: "nav.contact" as const },
+    { to: "/faq/", key: "faq.eyebrow" as const },
+    { to: "/policies/refund/", key: "legal.refund" as const },
+    { to: "/contact/", key: "nav.contact" as const },
   ];
 
   const payments = ["Apple Pay", "Google Pay", "Visa", "MC", "Amex", "PayPal"];
   const legal = [
-    { to: "/policies/privacy", key: "legal.privacy" as const },
-    { to: "/policies/terms", key: "legal.terms" as const },
-    { to: "/policies/refund", key: "legal.refund" as const },
+    { to: "/policies/privacy/", key: "legal.privacy" as const },
+    { to: "/policies/terms/", key: "legal.terms" as const },
+    { to: "/policies/refund/", key: "legal.refund" as const },
   ];
 
   return (

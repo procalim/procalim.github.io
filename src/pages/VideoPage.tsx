@@ -28,7 +28,7 @@ const VideoPage = () => {
       <div className="container-luxe section text-center">
         <Seo title={t("videos.notFound")} description={t("videos.notFound")} />
         <h1 className="font-display text-3xl text-navy-700">{t("videos.notFound")}</h1>
-        <Link to="/videos" className="btn-gold mt-8 inline-flex">
+        <Link to="/videos/" className="btn-gold mt-8 inline-flex">
           {t("videos.all")}
         </Link>
       </div>
@@ -64,7 +64,7 @@ const VideoPage = () => {
             {t("nav.home")}
           </Link>
           <ChevronLeft className="h-3.5 w-3.5 rotate-180 flip-rtl" />
-          <Link to="/videos" className="hover:text-gold-600">
+          <Link to="/videos/" className="hover:text-gold-600">
             {t("videos.nav")}
           </Link>
           <ChevronLeft className="h-3.5 w-3.5 rotate-180 flip-rtl" />
@@ -119,7 +119,7 @@ const VideoPage = () => {
           <h2 className="font-display text-2xl text-navy-700">{t("videos.more")}</h2>
           <div className="mt-8 grid grid-cols-2 gap-5 md:grid-cols-3">
             {others.map((other) => (
-              <Link key={other.slug} to={`/videos/${other.slug}`} className="group">
+              <Link key={other.slug} to={`/videos/${other.slug}/`} className="group">
                 <img
                   src={videoPoster(other)}
                   alt={L(other.title)}
@@ -133,7 +133,7 @@ const VideoPage = () => {
             ))}
           </div>
 
-          <Link to="/videos" className="btn-outline-gold mt-10 inline-flex">
+          <Link to="/videos/" className="btn-outline-gold mt-10 inline-flex">
             {t("videos.all")}
             <ArrowRight className="h-4 w-4 flip-rtl" />
           </Link>

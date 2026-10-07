@@ -101,7 +101,7 @@ const AboutPage = () => {
           </div>
 
           <div className="mt-14 text-center">
-            <Link to="/shop/the-edible-codex" className="btn-gold">
+            <Link to="/shop/the-edible-codex/" className="btn-gold">
               {t("about.cta")}
               <ArrowRight className="h-4 w-4 flip-rtl" />
             </Link>

@@ -51,7 +51,7 @@ const FaqPage = () => {
           <h2 className="font-display text-xl text-navy-700">{t("contact.title")}</h2>
           <p className="mt-3 text-[14px] text-muted-foreground">{t("contact.subtitle")}</p>
           <div className="mt-6 flex flex-col justify-center gap-3 sm:flex-row">
-            <Link to="/contact" className="btn-navy">
+            <Link to="/contact/" className="btn-navy">
               {t("contact.eyebrow")}
             </Link>
             <a

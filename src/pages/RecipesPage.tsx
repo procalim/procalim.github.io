@@ -43,11 +43,11 @@ const RecipesPage = () => {
           "@type": "CollectionPage",
           name: t("recipes.title"),
           description: t("recipes.subtitle"),
-          url: `${site.url}/recipes`,
+          url: `${site.url}/recipes/`,
           hasPart: recipes.map((recipe) => ({
             "@type": "Recipe",
             name: L(recipe.title),
-            url: `${site.url}/recipes/${recipe.slug}`,
+            url: `${site.url}/recipes/${recipe.slug}/`,
           })),
         }}
       />
