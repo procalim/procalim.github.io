@@ -36,7 +36,7 @@ const ProductPage = () => {
       <div className="container-luxe py-32 text-center">
         <Seo title={t("product.notFound")} description={t("product.notFound")} />
         <h1 className="font-display text-3xl text-navy-700">{t("product.notFound")}</h1>
-        <Link to="/shop" className="btn-navy mt-8">
+        <Link to="/shop/" className="btn-navy mt-8">
           {t("product.backToShop")}
         </Link>
       </div>
@@ -78,7 +78,7 @@ const ProductPage = () => {
             {t("nav.home")}
           </Link>
           <ChevronLeft className="h-3.5 w-3.5 rotate-180 flip-rtl" />
-          <Link to="/shop" className="hover:text-gold-600">
+          <Link to="/shop/" className="hover:text-gold-600">
             {t("nav.shop")}
           </Link>
           <ChevronLeft className="h-3.5 w-3.5 rotate-180 flip-rtl" />

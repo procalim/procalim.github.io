@@ -16,7 +16,7 @@ const NotFoundPage = () => {
           <Link to="/" className="btn-gold">
             {t("nf.cta")}
           </Link>
-          <Link to="/shop" className="btn-outline-gold">
+          <Link to="/shop/" className="btn-outline-gold">
             {t("nav.shop")}
           </Link>
         </div>

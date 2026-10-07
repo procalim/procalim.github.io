@@ -18,7 +18,7 @@ const VideosPage = () => {
           "@type": "CollectionPage",
           name: t("seo.videos.title"),
           description: t("seo.videos.desc"),
-          url: `${site.url}/videos`,
+          url: `${site.url}/videos/`,
         }}
       />
 
@@ -39,7 +39,7 @@ const VideosPage = () => {
 
         <div className="mt-12 grid grid-cols-2 gap-6 md:grid-cols-4">
           {videos.map((video) => (
-            <Link key={video.slug} to={`/videos/${video.slug}`} className="group">
+            <Link key={video.slug} to={`/videos/${video.slug}/`} className="group">
               <img
                 src={videoPoster(video)}
                 alt={L(video.title)}

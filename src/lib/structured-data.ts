@@ -1,5 +1,6 @@
 import { breadcrumbList } from "@/lib/breadcrumbs";
 import { site } from "@/data/site";
+import { pageUrl } from "@/lib/page-url";
 
 /**
  * The structured data each page hands to search engines.
@@ -42,6 +43,38 @@ const isoDuration = (time: string) => {
   return match[2].toLowerCase() === "h" ? `PT${value}H` : `PT${value}M`;
 };
 
+/**
+ * One ingredient per entry, as Google reads recipeIngredient.
+ *
+ * A few recipes list a whole component on one line — "Garlic butter sauce:
+ * ½ cup butter, ¼ cup milk, 2 tbsp honey, …" — which reads well on the page
+ * but reached Search Console as "Invalid string length in recipeIngredient".
+ * Lines with a "Label:" prefix are split at their commas (never inside
+ * brackets) for the markup only; the page keeps its grouping.
+ * بعض الوصفات تجمع مكوّنات جزء كامل في سطر واحد؛ نفصلها في البيانات المنظَّمة
+ * فقط، مكوّناً في كل عنصر.
+ */
+const splitIngredients = (lines: string[]) =>
+  lines.flatMap((line) => {
+    const labelled = line.match(/^[^:()]{2,40}:\s*(.+)$/);
+    if (!labelled) return [line.trim()];
+    const parts: string[] = [];
+    let depth = 0;
+    let current = "";
+    for (const ch of labelled[1]) {
+      if (ch === "(") depth += 1;
+      if (ch === ")") depth = Math.max(0, depth - 1);
+      if ((ch === "," || ch === "،") && depth === 0) {
+        parts.push(current.trim());
+        current = "";
+      } else {
+        current += ch;
+      }
+    }
+    parts.push(current.trim());
+    return parts.filter(Boolean);
+  });
+
 const graph = (trail: Trail, entity: Record<string, unknown>) => ({
   "@context": "https://schema.org",
   "@graph": [breadcrumbList(trail), entity],
@@ -62,10 +95,11 @@ export const recipeGraph = (args: {
 }) =>
   graph(args.trail, {
     "@type": "Recipe",
+    url: pageUrl(args.trail[args.trail.length - 1].path),
     name: args.name,
     description: args.description,
     ...(args.photo ? { image: `${site.url}${args.photo}` } : {}),
-    author: { "@type": "Person", name: site.brand.chefEn, url: `${site.url}/about` },
+    author: { "@type": "Person", name: site.brand.chefEn, url: pageUrl("/about") },
     inLanguage: args.lang,
     recipeYield: args.serves,
     totalTime: isoDuration(args.time),
@@ -76,11 +110,14 @@ export const recipeGraph = (args: {
     ...(args.tags.find((tag) => CUISINES.has(tag))
       ? { recipeCuisine: args.tags.find((tag) => CUISINES.has(tag)) }
       : {}),
-    recipeIngredient: args.ingredients,
+    recipeIngredient: splitIngredients(args.ingredients),
+    // Each step is anchored on the page (#step-1, #step-2, …), so Google can
+    // link straight to it.
     recipeInstructions: args.steps.map((step, i) => ({
       "@type": "HowToStep",
       position: i + 1,
       text: step,
+      url: `${pageUrl(args.trail[args.trail.length - 1].path)}#step-${i + 1}`,
     })),
     isPartOf: { "@type": "Book", name: site.brand.name },
   });
@@ -105,7 +142,7 @@ export const productGraph = (args: {
     // reviews exist.
     offers: {
       "@type": "Offer",
-      url: `${site.url}/shop/${args.slug}`,
+      url: pageUrl(`/shop/${args.slug}`),
       price: args.price,
       priceCurrency: site.currency.code,
       availability: "https://schema.org/InStock",

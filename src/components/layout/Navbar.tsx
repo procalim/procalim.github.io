@@ -6,12 +6,12 @@ import { useLang } from "@/i18n/LanguageContext";
 
 const links = [
   { to: "/", key: "nav.home" },
-  { to: "/shop", key: "nav.shop" },
-  { to: "/recipes", key: "nav.recipes" },
-  { to: "/videos", key: "videos.nav" },
-  { to: "/about", key: "nav.about" },
-  { to: "/faq", key: "nav.faq" },
-  { to: "/contact", key: "nav.contact" },
+  { to: "/shop/", key: "nav.shop" },
+  { to: "/recipes/", key: "nav.recipes" },
+  { to: "/videos/", key: "videos.nav" },
+  { to: "/about/", key: "nav.about" },
+  { to: "/faq/", key: "nav.faq" },
+  { to: "/contact/", key: "nav.contact" },
 ] as const;
 
 const Navbar = () => {
@@ -101,7 +101,7 @@ const Navbar = () => {
               {t(link.key)}
             </NavLink>
           ))}
-          <Link to="/shop" className="btn-gold mt-4 w-full">
+          <Link to="/shop/" className="btn-gold mt-4 w-full">
             {t("hero.cta.primary")}
           </Link>
         </nav>

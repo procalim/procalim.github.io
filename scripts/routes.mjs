@@ -144,3 +144,12 @@ export const routes = [
 ];
 
 export const pageTitle = (route) => `${route.title} | ${brand}`;
+
+/**
+ * The address a route is served from. Each page is written as
+ * <path>/index.html, and GitHub Pages answers "/shop" with a 301 to
+ * "/shop/" — so the sitemap and canonicals must name the slashed form, or
+ * Google is handed a redirect instead of a page.
+ * العنوان الذي تُخدَم منه الصفحة فعلاً، بالشرطة الأخيرة.
+ */
+export const pageUrl = (route) => `${origin}${route.path.endsWith("/") ? route.path : `${route.path}/`}`;

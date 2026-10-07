@@ -78,11 +78,11 @@ const HomePage = () => {
             <p className="mt-6 max-w-lg text-[15px] leading-relaxed text-ivory/70 md:text-base">{t("hero.subtitle")}</p>
 
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-              <Link to={`/shop/${flagship.slug}`} className="btn-gold">
+              <Link to={`/shop/${flagship.slug}/`} className="btn-gold">
                 {t("hero.cta.primary")}
                 <ArrowRight className="h-4 w-4 flip-rtl" />
               </Link>
-              <Link to="/shop" className="btn-outline-gold">
+              <Link to="/shop/" className="btn-outline-gold">
                 {t("hero.cta.secondary")}
               </Link>
             </div>
@@ -236,7 +236,7 @@ const HomePage = () => {
           </div>
 
           <div className="mt-12 text-center">
-            <Link to="/shop" className="btn-navy">
+            <Link to="/shop/" className="btn-navy">
               {t("shop.viewAll")}
               <ArrowRight className="h-4 w-4 flip-rtl" />
             </Link>
@@ -259,7 +259,7 @@ const HomePage = () => {
         </div>
 
         <div className="mt-12 text-center">
-          <Link to="/recipes" className="btn-navy">
+          <Link to="/recipes/" className="btn-navy">
             {t("recipes.homeCta")}
             <ArrowRight className="h-4 w-4 flip-rtl" />
           </Link>
@@ -310,7 +310,7 @@ const HomePage = () => {
           <p className="mx-auto mt-5 max-w-xl text-[15px] leading-relaxed text-ivory/70">{t("offer.body")}</p>
 
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Link to={`/shop/${flagship.slug}`} className="btn-gold">
+            <Link to={`/shop/${flagship.slug}/`} className="btn-gold">
               {t("offer.cta")}
               <ArrowRight className="h-4 w-4 flip-rtl" />
             </Link>
@@ -337,7 +337,7 @@ const HomePage = () => {
         </Accordion>
 
         <div className="mt-10 text-center">
-          <Link to="/faq" className="btn-outline-gold text-navy-700 hover:text-ink">
+          <Link to="/faq/" className="btn-outline-gold text-navy-700 hover:text-ink">
             {t("faq.eyebrow")}
             <ArrowRight className="h-4 w-4 flip-rtl" />
           </Link>

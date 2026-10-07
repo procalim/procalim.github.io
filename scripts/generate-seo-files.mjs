@@ -8,7 +8,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
-import { origin, root, routes } from "./routes.mjs";
+import { origin, pageUrl, root, routes } from "./routes.mjs";
 
 const today = new Date().toISOString().slice(0, 10);
 
@@ -18,13 +18,13 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 ${routes
   .map(
     (route) => `  <url>
-    <loc>${origin}${route.path}</loc>
+    <loc>${pageUrl(route)}</loc>
     <lastmod>${today}</lastmod>
     <changefreq>${route.changefreq}</changefreq>
     <priority>${route.priority}</priority>
-    <xhtml:link rel="alternate" hreflang="ar" href="${origin}${route.path}" />
-    <xhtml:link rel="alternate" hreflang="en" href="${origin}${route.path}" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="${origin}${route.path}" />
+    <xhtml:link rel="alternate" hreflang="ar" href="${pageUrl(route)}" />
+    <xhtml:link rel="alternate" hreflang="en" href="${pageUrl(route)}" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="${pageUrl(route)}" />
   </url>`,
   )
   .join("\n")}

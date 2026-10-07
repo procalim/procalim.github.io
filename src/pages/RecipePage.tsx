@@ -25,7 +25,7 @@ const RecipePage = () => {
       <div className="container-luxe py-32 text-center">
         <Seo title={t("recipes.notFound")} description={t("recipes.notFound")} />
         <h1 className="font-display text-3xl text-navy-700">{t("recipes.notFound")}</h1>
-        <Link to="/recipes" className="btn-navy mt-8">
+        <Link to="/recipes/" className="btn-navy mt-8">
           {t("recipes.backToAll")}
         </Link>
       </div>
@@ -77,7 +77,7 @@ const RecipePage = () => {
             {t("nav.home")}
           </Link>
           <ChevronLeft className="h-3.5 w-3.5 rotate-180 flip-rtl" />
-          <Link to="/recipes" className="hover:text-gold-600">
+          <Link to="/recipes/" className="hover:text-gold-600">
             {t("nav.recipes")}
           </Link>
           <ChevronLeft className="h-3.5 w-3.5 rotate-180 flip-rtl" />
@@ -140,7 +140,7 @@ const RecipePage = () => {
             <h2 className="text-[11px] font-semibold uppercase tracking-luxe text-gold">{t("recipes.method")}</h2>
             <ol className="mt-6 space-y-6">
               {text.steps.map((step, i) => (
-                <li key={step} className="flex gap-5">
+                <li key={step} id={`step-${i + 1}`} className="flex gap-5">
                   <span
                     className="grid h-9 w-9 shrink-0 place-items-center rounded-sm font-display text-base text-ivory"
                     style={{ background: accent }}
@@ -190,7 +190,7 @@ const RecipePage = () => {
           ))}
         </div>
         <div className="mt-12 text-center">
-          <Link to="/recipes" className="btn-navy">
+          <Link to="/recipes/" className="btn-navy">
             {t("recipes.backToAll")}
             <ArrowRight className="h-4 w-4 flip-rtl" />
           </Link>

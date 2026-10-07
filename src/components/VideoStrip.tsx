@@ -53,7 +53,7 @@ const VideoCard = ({ video }: { video: SiteVideo }) => {
         {/* The title links to the clip's own watch page, which is where it can
             be indexed and where the technique is written out. */}
         <h3 className="font-display text-[15px] leading-snug text-navy-700">
-          <Link to={`/videos/${video.slug}`} className="transition-colors hover:text-gold-600">
+          <Link to={`/videos/${video.slug}/`} className="transition-colors hover:text-gold-600">
             {L(video.title)}
           </Link>
         </h3>
@@ -89,7 +89,7 @@ const VideoStrip = () => {
         </div>
 
         <div className="mt-10 text-center">
-          <Link to="/videos" className="btn-outline-gold">
+          <Link to="/videos/" className="btn-outline-gold">
             {t("videos.all")}
           </Link>
         </div>

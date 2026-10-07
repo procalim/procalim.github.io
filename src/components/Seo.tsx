@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useLang } from "@/i18n/LanguageContext";
 import { site } from "@/data/site";
+import { pageUrl } from "@/lib/page-url";
 
 type SeoProps = {
   title: string;
@@ -45,7 +46,7 @@ const Seo = ({
   useEffect(() => {
     const full = `${title} | ${brand}`;
     const origin = site.url.replace(/\/$/, "");
-    const canonical = origin + window.location.pathname;
+    const canonical = pageUrl(window.location.pathname);
     const absoluteImage = image.startsWith("http") ? image : origin + image.replace(/^\./, "");
 
     document.title = full;
