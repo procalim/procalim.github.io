@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/components/LocalLink";
 import { useLang } from "@/i18n/LanguageContext";
 import { brandImages, site } from "@/data/site";
 

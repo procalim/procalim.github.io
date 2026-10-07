@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useLang } from "@/i18n/LanguageContext";
 import { site } from "@/data/site";
 import { pageUrl } from "@/lib/page-url";
+import { localePath } from "@/i18n/locale-path";
 
 type SeoProps = {
   title: string;
@@ -60,11 +61,13 @@ const Seo = ({
     setMeta('meta[name="twitter:description"]', "name", "twitter:description", description);
     setMeta('meta[name="twitter:image"]', "name", "twitter:image", absoluteImage);
 
-    // One address per page, and both languages point at it.
+    // Each language has its own address, and each version names both, so
+    // Google shows Arabic searchers the Arabic page and everyone else the
+    // English one. لكل لغة عنوانها، وكل نسخة تشير إلى الأخرى.
     setLink("canonical", canonical);
-    setLink("alternate", canonical, "ar");
-    setLink("alternate", canonical, "en");
-    setLink("alternate", canonical, "x-default");
+    setLink("alternate", pageUrl(localePath(window.location.pathname, "ar")), "ar");
+    setLink("alternate", pageUrl(localePath(window.location.pathname, "en")), "en");
+    setLink("alternate", pageUrl(localePath(window.location.pathname, "en")), "x-default");
   }, [title, description, image, brand, lang]);
 
   useEffect(() => {

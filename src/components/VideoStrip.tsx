@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/components/LocalLink";
 import { Play } from "lucide-react";
 import { useLang } from "@/i18n/LanguageContext";
 import { videos, videoClip, videoPoster, type SiteVideo } from "@/data/videos";

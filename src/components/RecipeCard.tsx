@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/components/LocalLink";
 import { ArrowRight, Clock, Users } from "lucide-react";
 import { useLang } from "@/i18n/LanguageContext";
 import { accentHex, recipePhoto, type Recipe } from "@/data/recipes";

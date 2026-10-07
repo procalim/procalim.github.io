@@ -1,12 +1,13 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/components/LocalLink";
 import Seo from "@/components/Seo";
+import { localePath } from "@/i18n/locale-path";
 import { useLang } from "@/i18n/LanguageContext";
 import { videoPoster, videos } from "@/data/videos";
 import { site } from "@/data/site";
 
 /** The index of the watch pages. */
 const VideosPage = () => {
-  const { t, L } = useLang();
+  const { t, L, lang } = useLang();
 
   return (
     <>
@@ -18,7 +19,7 @@ const VideosPage = () => {
           "@type": "CollectionPage",
           name: t("seo.videos.title"),
           description: t("seo.videos.desc"),
-          url: `${site.url}/videos/`,
+          url: `${site.url}${localePath("/videos/", lang)}`,
         }}
       />
 

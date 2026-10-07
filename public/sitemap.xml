@@ -7,8 +7,17 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/shop/</loc>
@@ -16,8 +25,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/shop/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/shop/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/shop/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/shop/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/shop/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/shop/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/shop/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/shop/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/shop/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/shop/the-edible-codex/</loc>
@@ -25,8 +43,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/shop/the-edible-codex/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/shop/the-edible-codex/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/shop/the-edible-codex/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/shop/the-edible-codex/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/shop/the-edible-codex/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/shop/the-edible-codex/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/shop/the-edible-codex/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/shop/the-edible-codex/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/shop/the-edible-codex/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/shop/the-five-sauces/</loc>
@@ -34,8 +61,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/shop/the-five-sauces/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/shop/the-five-sauces/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/shop/the-five-sauces/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/shop/the-five-sauces/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/shop/the-five-sauces/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/shop/the-five-sauces/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/shop/the-five-sauces/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/shop/the-five-sauces/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/shop/the-five-sauces/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/recipes/</loc>
@@ -43,8 +79,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/recipes/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/recipes/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/recipes/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/recipes/the-original-baked-feta-pasta/</loc>
@@ -52,8 +97,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/the-original-baked-feta-pasta/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/recipes/the-original-baked-feta-pasta/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/recipes/the-original-baked-feta-pasta/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/the-original-baked-feta-pasta/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/the-original-baked-feta-pasta/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/recipes/the-original-baked-feta-pasta/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/the-original-baked-feta-pasta/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/the-original-baked-feta-pasta/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/the-original-baked-feta-pasta/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/recipes/marry-me-chicken/</loc>
@@ -61,8 +115,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/marry-me-chicken/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/recipes/marry-me-chicken/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/recipes/marry-me-chicken/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/marry-me-chicken/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/marry-me-chicken/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/recipes/marry-me-chicken/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/marry-me-chicken/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/marry-me-chicken/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/marry-me-chicken/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/recipes/quesabirria-tacos/</loc>
@@ -70,8 +133,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/quesabirria-tacos/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/recipes/quesabirria-tacos/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/recipes/quesabirria-tacos/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/quesabirria-tacos/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/quesabirria-tacos/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/recipes/quesabirria-tacos/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/quesabirria-tacos/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/quesabirria-tacos/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/quesabirria-tacos/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/recipes/gigi-hadid-spicy-vodka-pasta/</loc>
@@ -79,8 +151,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/gigi-hadid-spicy-vodka-pasta/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/recipes/gigi-hadid-spicy-vodka-pasta/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/recipes/gigi-hadid-spicy-vodka-pasta/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/gigi-hadid-spicy-vodka-pasta/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/gigi-hadid-spicy-vodka-pasta/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/recipes/gigi-hadid-spicy-vodka-pasta/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/gigi-hadid-spicy-vodka-pasta/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/gigi-hadid-spicy-vodka-pasta/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/gigi-hadid-spicy-vodka-pasta/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/recipes/emily-mariko-salmon-rice-bowl/</loc>
@@ -88,8 +169,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/emily-mariko-salmon-rice-bowl/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/recipes/emily-mariko-salmon-rice-bowl/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/recipes/emily-mariko-salmon-rice-bowl/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/emily-mariko-salmon-rice-bowl/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/emily-mariko-salmon-rice-bowl/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/recipes/emily-mariko-salmon-rice-bowl/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/emily-mariko-salmon-rice-bowl/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/emily-mariko-salmon-rice-bowl/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/emily-mariko-salmon-rice-bowl/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/recipes/green-goddess-salad/</loc>
@@ -97,8 +187,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/green-goddess-salad/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/recipes/green-goddess-salad/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/recipes/green-goddess-salad/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/green-goddess-salad/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/green-goddess-salad/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/recipes/green-goddess-salad/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/green-goddess-salad/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/green-goddess-salad/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/green-goddess-salad/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/recipes/sushi-bake/</loc>
@@ -106,8 +205,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/sushi-bake/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/recipes/sushi-bake/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/recipes/sushi-bake/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/sushi-bake/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/sushi-bake/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/recipes/sushi-bake/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/sushi-bake/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/sushi-bake/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/sushi-bake/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/recipes/smashed-potatoes/</loc>
@@ -115,8 +223,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/smashed-potatoes/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/recipes/smashed-potatoes/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/recipes/smashed-potatoes/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/smashed-potatoes/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/smashed-potatoes/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/recipes/smashed-potatoes/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/smashed-potatoes/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/smashed-potatoes/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/smashed-potatoes/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/recipes/bang-bang-shrimp/</loc>
@@ -124,8 +241,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/bang-bang-shrimp/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/recipes/bang-bang-shrimp/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/recipes/bang-bang-shrimp/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/bang-bang-shrimp/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/bang-bang-shrimp/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/recipes/bang-bang-shrimp/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/bang-bang-shrimp/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/bang-bang-shrimp/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/bang-bang-shrimp/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/recipes/dalgona-coffee/</loc>
@@ -133,8 +259,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/dalgona-coffee/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/recipes/dalgona-coffee/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/recipes/dalgona-coffee/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/dalgona-coffee/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/dalgona-coffee/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/recipes/dalgona-coffee/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/dalgona-coffee/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/dalgona-coffee/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/dalgona-coffee/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/recipes/crinkle-cake/</loc>
@@ -142,8 +277,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/crinkle-cake/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/recipes/crinkle-cake/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/recipes/crinkle-cake/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/crinkle-cake/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/crinkle-cake/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/recipes/crinkle-cake/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/crinkle-cake/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/crinkle-cake/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/crinkle-cake/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/recipes/french-onion-grilled-cheese/</loc>
@@ -151,8 +295,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/french-onion-grilled-cheese/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/recipes/french-onion-grilled-cheese/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/recipes/french-onion-grilled-cheese/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/french-onion-grilled-cheese/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/french-onion-grilled-cheese/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/recipes/french-onion-grilled-cheese/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/french-onion-grilled-cheese/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/french-onion-grilled-cheese/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/french-onion-grilled-cheese/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/recipes/whipped-feta-hot-honey-dip/</loc>
@@ -160,8 +313,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/whipped-feta-hot-honey-dip/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/recipes/whipped-feta-hot-honey-dip/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/recipes/whipped-feta-hot-honey-dip/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/whipped-feta-hot-honey-dip/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/whipped-feta-hot-honey-dip/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/recipes/whipped-feta-hot-honey-dip/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/whipped-feta-hot-honey-dip/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/whipped-feta-hot-honey-dip/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/whipped-feta-hot-honey-dip/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/recipes/korean-cream-cheese-garlic-bread/</loc>
@@ -169,8 +331,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/korean-cream-cheese-garlic-bread/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/recipes/korean-cream-cheese-garlic-bread/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/recipes/korean-cream-cheese-garlic-bread/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/korean-cream-cheese-garlic-bread/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/korean-cream-cheese-garlic-bread/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/recipes/korean-cream-cheese-garlic-bread/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/korean-cream-cheese-garlic-bread/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/korean-cream-cheese-garlic-bread/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/korean-cream-cheese-garlic-bread/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/recipes/viral-cucumber-salad/</loc>
@@ -178,8 +349,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/viral-cucumber-salad/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/recipes/viral-cucumber-salad/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/recipes/viral-cucumber-salad/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/viral-cucumber-salad/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/viral-cucumber-salad/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/recipes/viral-cucumber-salad/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/viral-cucumber-salad/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/viral-cucumber-salad/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/viral-cucumber-salad/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/recipes/beet-and-pickled-ginger/</loc>
@@ -187,8 +367,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/beet-and-pickled-ginger/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/recipes/beet-and-pickled-ginger/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/recipes/beet-and-pickled-ginger/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/beet-and-pickled-ginger/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/beet-and-pickled-ginger/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/recipes/beet-and-pickled-ginger/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/beet-and-pickled-ginger/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/beet-and-pickled-ginger/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/beet-and-pickled-ginger/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/recipes/herb-and-chlorophyll/</loc>
@@ -196,8 +385,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/herb-and-chlorophyll/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/recipes/herb-and-chlorophyll/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/recipes/herb-and-chlorophyll/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/herb-and-chlorophyll/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/herb-and-chlorophyll/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/recipes/herb-and-chlorophyll/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/herb-and-chlorophyll/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/herb-and-chlorophyll/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/herb-and-chlorophyll/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/recipes/aged-balsamic-and-date/</loc>
@@ -205,8 +403,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/aged-balsamic-and-date/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/recipes/aged-balsamic-and-date/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/recipes/aged-balsamic-and-date/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/aged-balsamic-and-date/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/aged-balsamic-and-date/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/recipes/aged-balsamic-and-date/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/recipes/aged-balsamic-and-date/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/recipes/aged-balsamic-and-date/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/recipes/aged-balsamic-and-date/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/videos/</loc>
@@ -214,8 +421,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/videos/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/videos/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/videos/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/videos/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/videos/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/videos/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/videos/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/videos/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/videos/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/videos/fried-cheese/</loc>
@@ -223,8 +439,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/videos/fried-cheese/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/videos/fried-cheese/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/videos/fried-cheese/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/videos/fried-cheese/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/videos/fried-cheese/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/videos/fried-cheese/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/videos/fried-cheese/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/videos/fried-cheese/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/videos/fried-cheese/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/videos/one-second-chips/</loc>
@@ -232,8 +457,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/videos/one-second-chips/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/videos/one-second-chips/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/videos/one-second-chips/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/videos/one-second-chips/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/videos/one-second-chips/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/videos/one-second-chips/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/videos/one-second-chips/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/videos/one-second-chips/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/videos/one-second-chips/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/videos/hollandaise-heat/</loc>
@@ -241,8 +475,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/videos/hollandaise-heat/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/videos/hollandaise-heat/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/videos/hollandaise-heat/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/videos/hollandaise-heat/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/videos/hollandaise-heat/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/videos/hollandaise-heat/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/videos/hollandaise-heat/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/videos/hollandaise-heat/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/videos/hollandaise-heat/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/videos/crispy-rice-press/</loc>
@@ -250,8 +493,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/videos/crispy-rice-press/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/videos/crispy-rice-press/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/videos/crispy-rice-press/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/videos/crispy-rice-press/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/videos/crispy-rice-press/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/videos/crispy-rice-press/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/videos/crispy-rice-press/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/videos/crispy-rice-press/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/videos/crispy-rice-press/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/about/</loc>
@@ -259,8 +511,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/about/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/about/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/about/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/about/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/about/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/about/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/about/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/faq/</loc>
@@ -268,8 +529,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/faq/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/faq/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/faq/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/faq/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/faq/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/faq/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/faq/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/faq/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/faq/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/contact/</loc>
@@ -277,8 +547,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/contact/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/contact/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/contact/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/contact/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/contact/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/contact/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/contact/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/policies/privacy/</loc>
@@ -286,8 +565,17 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/policies/privacy/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/policies/privacy/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/policies/privacy/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/policies/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/policies/privacy/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/policies/privacy/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/policies/privacy/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/policies/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/policies/privacy/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/policies/terms/</loc>
@@ -295,8 +583,17 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/policies/terms/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/policies/terms/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/policies/terms/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/policies/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/policies/terms/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/policies/terms/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/policies/terms/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/policies/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/policies/terms/" />
   </url>
   <url>
     <loc>https://ediblecodex.com/policies/refund/</loc>
@@ -304,7 +601,16 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/policies/refund/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/policies/refund/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/policies/refund/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/policies/refund/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/policies/refund/" />
+  </url>
+  <url>
+    <loc>https://ediblecodex.com/en/policies/refund/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ediblecodex.com/policies/refund/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ediblecodex.com/en/policies/refund/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ediblecodex.com/en/policies/refund/" />
   </url>
 </urlset>
