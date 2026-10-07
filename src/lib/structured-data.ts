@@ -36,6 +36,15 @@ const COURSES = new Set(["Appetizer", "Salad", "Dessert", "Drinks", "Coffee", "B
 const CUISINES = new Set(["Middle Eastern", "Mexican", "Italian", "Korean", "Japanese",
                           "Thai", "French", "Chinese", "Indian", "Greek", "American"]);
 
+/**
+ * Where the shop sells. A digital download reaches everywhere, but Google
+ * wants named countries for delivery and returns: the Arab markets the
+ * book is written for, and the largest English-speaking and European ones.
+ * الدول التي تُعلَن فيها سياسة التوصيل والاسترداد.
+ */
+const MARKETS = ["SA", "AE", "KW", "QA", "BH", "OM", "JO", "EG", "MA", "LB", "IQ",
+                 "US", "GB", "CA", "AU", "DE", "FR", "NL", "SE", "TR"];
+
 const isoDuration = (time: string) => {
   const match = time.match(/^(\d+)\s*(min|h)$/i);
   if (!match) return time;
@@ -140,6 +149,7 @@ export const productGraph = (args: {
     // placeholders, and publishing invented ratings as structured data would
     // mislead shoppers and breach Google's guidelines. Add it once real
     // reviews exist.
+    sku: args.slug,
     offers: {
       "@type": "Offer",
       url: pageUrl(`/shop/${args.slug}`),
@@ -147,6 +157,32 @@ export const productGraph = (args: {
       priceCurrency: site.currency.code,
       availability: "https://schema.org/InStock",
       itemCondition: "https://schema.org/NewCondition",
+      // Google's merchant-listing report asks every product for a delivery
+      // and a returns policy, and flags each one that has neither. Both are
+      // true here: the book is a download — nothing to ship, nothing to pay,
+      // there the moment the order clears — and the 30-day refund is the one
+      // the policies page promises.
+      // جوجل يطلب لكل منتج سياسة توصيل واسترداد؛ التحميل فوري ومجاني،
+      // والاسترداد خلال ٣٠ يوماً كما في صفحة السياسات.
+      shippingDetails: {
+        "@type": "OfferShippingDetails",
+        shippingRate: { "@type": "MonetaryAmount", value: 0, currency: site.currency.code },
+        shippingDestination: MARKETS.map((country) => ({ "@type": "DefinedRegion", addressCountry: country })),
+        deliveryTime: {
+          "@type": "ShippingDeliveryTime",
+          handlingTime: { "@type": "QuantitativeValue", minValue: 0, maxValue: 0, unitCode: "DAY" },
+          transitTime: { "@type": "QuantitativeValue", minValue: 0, maxValue: 0, unitCode: "DAY" },
+        },
+      },
+      hasMerchantReturnPolicy: {
+        "@type": "MerchantReturnPolicy",
+        applicableCountry: MARKETS,
+        returnPolicyCategory: "https://schema.org/MerchantReturnFiniteReturnWindow",
+        merchantReturnDays: 30,
+        returnFees: "https://schema.org/FreeReturn",
+        refundType: "https://schema.org/FullRefund",
+        merchantReturnLink: pageUrl("/policies/refund"),
+      },
     },
   });
 
