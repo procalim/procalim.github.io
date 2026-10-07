@@ -2,12 +2,13 @@ import { useMemo, useState } from "react";
 import { Search } from "lucide-react";
 import Seo from "@/components/Seo";
 import RecipeCard from "@/components/RecipeCard";
+import { localePath } from "@/i18n/locale-path";
 import { useLang } from "@/i18n/LanguageContext";
 import { recipes, recipeTags, recipeText } from "@/data/recipes";
 import { brandImages, site } from "@/data/site";
 
 const RecipesPage = () => {
-  const { t, L } = useLang();
+  const { t, L, lang } = useLang();
   const [query, setQuery] = useState("");
   const [tag, setTag] = useState("all");
 
@@ -43,11 +44,11 @@ const RecipesPage = () => {
           "@type": "CollectionPage",
           name: t("recipes.title"),
           description: t("recipes.subtitle"),
-          url: `${site.url}/recipes/`,
+          url: `${site.url}${localePath("/recipes/", lang)}`,
           hasPart: recipes.map((recipe) => ({
             "@type": "Recipe",
             name: L(recipe.title),
-            url: `${site.url}/recipes/${recipe.slug}/`,
+            url: `${site.url}${localePath(`/recipes/${recipe.slug}/`, lang)}`,
           })),
         }}
       />

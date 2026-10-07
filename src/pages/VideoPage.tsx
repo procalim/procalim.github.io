@@ -1,8 +1,10 @@
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
+import { Link } from "@/components/LocalLink";
 import { ArrowRight, Check, ChevronLeft } from "lucide-react";
 import Seo from "@/components/Seo";
 import { videoGraph } from "@/lib/structured-data";
 import BuyButton from "@/components/BuyButton";
+import { localePath } from "@/i18n/locale-path";
 import { useLang } from "@/i18n/LanguageContext";
 import { getProduct } from "@/data/products";
 import { getVideo, videoClip, videoPoster, videos } from "@/data/videos";
@@ -45,9 +47,9 @@ const VideoPage = () => {
         image={videoPoster(video)}
         jsonLd={videoGraph({
           trail: [
-            { name: t("nav.home"), path: "/" },
-            { name: t("videos.nav"), path: "/videos" },
-            { name: L(video.title), path: `/videos/${video.slug}` },
+            { name: t("nav.home"), path: localePath("/", lang) },
+            { name: t("videos.nav"), path: localePath("/videos", lang) },
+            { name: L(video.title), path: localePath(`/videos/${video.slug}`, lang) },
           ],
           name: L(video.title),
           description: L(video.description),

@@ -15,7 +15,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { createServer } from "vite";
-import { origin, pageTitle, pageUrl, root, routes } from "./routes.mjs";
+import { alternates, enPath, origin, pageTitle, pageUrl, root, routes } from "./routes.mjs";
 
 const dist = path.join(root, "dist");
 const template = fs.readFileSync(path.join(dist, "index.html"), "utf8");
@@ -59,65 +59,78 @@ const imageFor = (route) => {
  */
 const vite = await createServer({ server: { middlewareMode: true }, appType: "custom", logLevel: "error" });
 const load = (file) => vite.ssrLoadModule(file);
-const [{ recipes, recipeText }, { products }, { videos }, schema, { dictionary }] = await Promise.all([
+const [{ recipes, recipeText }, { products }, { videos }, schema, { dictionary }, { policies }] = await Promise.all([
   load("/src/data/recipes.ts"),
   load("/src/data/products.ts"),
   load("/src/data/videos.ts"),
   load("/src/lib/structured-data.ts"),
   load("/src/i18n/dictionary.ts"),
+  load("/src/data/policies.ts"),
 ]);
 await vite.close();
 
-/** Arabic is what the page serves by default, so it is what the build writes. */
-const say = (key) => dictionary[key].ar;
+/**
+ * Every page is written twice: Arabic at its address, English at /en/….
+ * The English copy carries its own title, description, body and structured
+ * data, so Google can index it on its own and show it to English searchers.
+ * كل صفحة تُكتب مرتين: عربية في عنوانها، وإنجليزية تحت /en بعنوانها
+ * ووصفها ونصّها وبياناتها المنظَّمة.
+ */
+const LANGS = ["ar", "en"];
+const say = (key, lang) => dictionary[key][lang];
+const at = (p, lang) => (lang === "en" ? enPath(p) : p);
 
 const structuredData = new Map();
-for (const recipe of recipes) {
-  structuredData.set(`/recipes/${recipe.slug}`, schema.recipeGraph({
-    trail: [
-      { name: say("nav.home"), path: "/" },
-      { name: say("nav.recipes"), path: "/recipes" },
-      { name: recipe.title.ar, path: `/recipes/${recipe.slug}` },
-    ],
-    name: recipe.title.ar,
-    description: recipe.subtitle.ar,
-    photo: recipe.photo ? hashed(recipe.slug) : null,
-    lang: "ar",
-    serves: recipe.serves,
-    time: recipe.time,
-    tags: recipe.tags,
-    ingredients: recipeText(recipe, "ar").ingredients,
-    steps: recipeText(recipe, "ar").steps,
-  }));
-}
-for (const product of products) {
-  structuredData.set(`/shop/${product.slug}`, schema.productGraph({
-    trail: [
-      { name: say("nav.home"), path: "/" },
-      { name: say("nav.shop"), path: "/shop" },
-      { name: product.title.ar, path: `/shop/${product.slug}` },
-    ],
-    name: product.title.ar,
-    description: product.description.ar,
-    image: product.image,
-    slug: product.slug,
-    price: product.price,
-  }));
-}
-for (const video of videos) {
-  structuredData.set(`/videos/${video.slug}`, schema.videoGraph({
-    trail: [
-      { name: say("nav.home"), path: "/" },
-      { name: say("videos.nav"), path: "/videos" },
-      { name: video.title.ar, path: `/videos/${video.slug}` },
-    ],
-    name: video.title.ar,
-    description: video.description.ar,
-    thumbnail: hashed(video.slug) ?? "",
-    clip: hashed(video.slug, "mp4") ?? "",
-    duration: video.duration,
-    lang: "ar",
-  }));
+for (const lang of LANGS) {
+  const home = { name: say("nav.home", lang), path: at("/", lang) };
+  for (const recipe of recipes) {
+    const text = recipeText(recipe, lang);
+    structuredData.set(at(`/recipes/${recipe.slug}`, lang), schema.recipeGraph({
+      trail: [
+        home,
+        { name: say("nav.recipes", lang), path: at("/recipes", lang) },
+        { name: recipe.title[lang], path: at(`/recipes/${recipe.slug}`, lang) },
+      ],
+      name: recipe.title[lang],
+      description: recipe.subtitle[lang],
+      photo: recipe.photo ? hashed(recipe.slug) : null,
+      lang,
+      serves: recipe.serves,
+      time: recipe.time,
+      tags: recipe.tags,
+      ingredients: text.ingredients,
+      steps: text.steps,
+    }));
+  }
+  for (const product of products) {
+    structuredData.set(at(`/shop/${product.slug}`, lang), schema.productGraph({
+      trail: [
+        home,
+        { name: say("nav.shop", lang), path: at("/shop", lang) },
+        { name: product.title[lang], path: at(`/shop/${product.slug}`, lang) },
+      ],
+      name: product.title[lang],
+      description: product.description[lang],
+      image: product.image,
+      slug: product.slug,
+      price: product.price,
+    }));
+  }
+  for (const video of videos) {
+    structuredData.set(at(`/videos/${video.slug}`, lang), schema.videoGraph({
+      trail: [
+        home,
+        { name: say("videos.nav", lang), path: at("/videos", lang) },
+        { name: video.title[lang], path: at(`/videos/${video.slug}`, lang) },
+      ],
+      name: video.title[lang],
+      description: video.description[lang],
+      thumbnail: hashed(video.slug) ?? "",
+      clip: hashed(video.slug, "mp4") ?? "",
+      duration: video.duration,
+      lang,
+    }));
+  }
 }
 
 const escape = (value) =>
@@ -128,8 +141,8 @@ const escape = (value) =>
  * without running a line of the app.
  * البيانات المنظَّمة داخل الصفحة نفسها، يقرأها جوجل بلا جافاسكربت.
  */
-const markup = (route) => {
-  const data = structuredData.get(route.path);
+const markup = (page) => {
+  const data = structuredData.get(page.path);
   if (!data) return "";
   const json = JSON.stringify(data).replace(/</g, "\\u003c");
   return `    <script type="application/ld+json" data-page="true">${json}</script>\n`;
@@ -150,39 +163,84 @@ const H1 = "font-family:'Playfair Display',Amiri,Georgia,serif;font-size:32px;ma
 const LIST = "max-width:620px;margin:0 auto 24px;text-align:start;line-height:1.8";
 const recipeBySlug = new Map(recipes.map((r) => [r.slug, r]));
 const productBySlug = new Map(products.map((p) => [p.slug, p]));
+const videoBySlug = new Map(videos.map((v) => [v.slug, v]));
+const policyBySlug = new Map(policies.map((p) => [p.slug, p]));
 
-const fallbackBody = (route) => {
+const WORDS = {
+  ar: { people: "أشخاص", ingredients: "المكوّنات", method: "طريقة التحضير", tip: "نصيحة الشيف:",
+        fromBook: "الوصفة من كتاب ذا إديبل كودكس · ٢٦١ وصفة", free: "مجاناً · Free" },
+  en: { people: "servings", ingredients: "Ingredients", method: "Method", tip: "Chef's tip:",
+        fromBook: "From The Edible Codex · 261 recipes", free: "Free" },
+};
+
+const fallbackBody = (route, lang) => {
   const [, section, slug] = route.path.split("/");
+  const w = WORDS[lang];
   const recipe = section === "recipes" && slug ? recipeBySlug.get(slug) : null;
   if (recipe) {
     const img = imageFor(route);
-    const text = recipeText(recipe, "ar");
+    const text = recipeText(recipe, lang);
+    const heading = lang === "ar" ? `${recipe.title.ar} · ${recipe.title.en}` : recipe.title.en;
     return (
-      `<h1 style="${H1}">${escape(recipe.title.ar)} · ${escape(recipe.title.en)}</h1>\n` +
-      `<p style="max-width:620px;margin:0 auto 20px;line-height:1.8">${escape(recipe.subtitle.ar)}<br />${escape(recipe.subtitle.en)}</p>\n` +
-      (img ? `<img src="${img}" alt="${escape(recipe.title.ar)}" width="600" style="max-width:100%;height:auto;margin:0 auto 20px;display:block" />\n` : "") +
-      `<p>${escape(recipe.time)} · ${escape(recipe.serves)} أشخاص</p>\n` +
-      `<h2>المكوّنات</h2>\n<ul style="${LIST}">${text.ingredients.map((i) => `<li>${escape(i)}</li>`).join("")}</ul>\n` +
-      `<h2>طريقة التحضير</h2>\n<ol style="${LIST}">${text.steps.map((t, i) => `<li id="step-${i + 1}">${escape(t)}</li>`).join("")}</ol>\n` +
-      (text.tip ? `<p style="${LIST}"><strong>نصيحة الشيف:</strong> ${escape(text.tip)}</p>\n` : "") +
-      `<p><a href="/shop/the-edible-codex/" style="color:#C9A227">الوصفة من كتاب ذا إديبل كودكس · ٢٦١ وصفة</a></p>`
+      `<h1 style="${H1}">${escape(heading)}</h1>\n` +
+      `<p style="max-width:620px;margin:0 auto 20px;line-height:1.8">${escape(recipe.subtitle[lang])}</p>\n` +
+      (img ? `<img src="${img}" alt="${escape(recipe.title[lang])}" width="600" style="max-width:100%;height:auto;margin:0 auto 20px;display:block" />\n` : "") +
+      `<p>${escape(recipe.time)} · ${escape(recipe.serves)} ${w.people}</p>\n` +
+      `<h2>${w.ingredients}</h2>\n<ul style="${LIST}">${text.ingredients.map((i) => `<li>${escape(i)}</li>`).join("")}</ul>\n` +
+      `<h2>${w.method}</h2>\n<ol style="${LIST}">${text.steps.map((t, i) => `<li id="step-${i + 1}">${escape(t)}</li>`).join("")}</ol>\n` +
+      (text.tip ? `<p style="${LIST}"><strong>${w.tip}</strong> ${escape(text.tip)}</p>\n` : "") +
+      `<p><a href="${at("/shop/the-edible-codex/", lang)}" style="color:#C9A227">${w.fromBook}</a></p>`
     );
   }
   const product = section === "shop" && slug ? productBySlug.get(slug) : null;
   if (product) {
-    const price = product.price ? `$${product.price}` : "مجاناً · Free";
+    const price = product.price ? `$${product.price}` : w.free;
+    const heading = lang === "ar" ? `${product.title.ar} · ${product.title.en}` : product.title.en;
     return (
-      `<h1 style="${H1}">${escape(product.title.ar)} · ${escape(product.title.en)}</h1>\n` +
-      `<p style="max-width:620px;margin:0 auto 20px;line-height:1.8">${escape(product.description.ar)}</p>\n` +
+      `<h1 style="${H1}">${escape(heading)}</h1>\n` +
+      `<p style="max-width:620px;margin:0 auto 20px;line-height:1.8">${escape(product.description[lang])}</p>\n` +
       `<p style="color:#C9A227;font-size:20px">${price}</p>\n` +
-      `<p>تحميل فوري · وصول مدى الحياة · استرداد خلال ٣٠ يوماً</p>`
+      `<p>${escape(say("seo.productSuffix", lang))}</p>`
     );
+  }
+  if (lang === "en") {
+    // English pages with no body of their own above still get English text,
+    // not the bilingual home-page fallback. الصفحات الإنجليزية الباقية.
+    const meta = englishMeta(route);
+    return `<h1 style="${H1}">${escape(meta.title)}</h1>\n<p style="max-width:620px;margin:0 auto 20px;line-height:1.8">${escape(meta.description)}</p>`;
   }
   return null;
 };
 
-const withFallback = (html, route) => {
-  const body = fallbackBody(route);
+/** Title and description of a route in English, from the same sources the app reads. */
+const englishMeta = (route) => {
+  const [, section, slug] = route.path.split("/");
+  const fixed = { "": "home", shop: "shop", recipes: "recipes", videos: "videos", about: "about", faq: "faq", contact: "contact" };
+  if (!slug && section in fixed) {
+    const key = fixed[section];
+    return { title: say(`seo.${key}.title`, "en"), description: say(`seo.${key}.desc`, "en") };
+  }
+  if (section === "recipes") {
+    const r = recipeBySlug.get(slug);
+    return { title: r.title.en, description: `${r.subtitle.en} · ${r.time} · ${say("seo.recipeSuffix", "en")}` };
+  }
+  if (section === "shop") {
+    const p = productBySlug.get(slug);
+    return { title: p.title.en, description: `${p.subtitle.en} · ${say("seo.productSuffix", "en")}` };
+  }
+  if (section === "videos") {
+    const v = videoBySlug.get(slug);
+    return { title: v.title.en, description: v.description.en };
+  }
+  if (section === "policies") {
+    const p = policyBySlug.get(slug);
+    return { title: p.title.en, description: p.sections[0].body.en };
+  }
+  throw new Error(`No English title for ${route.path}`);
+};
+
+const withFallback = (html, route, lang) => {
+  const body = fallbackBody(route, lang);
   if (!body) return html;
   return html.replace(
     /(<div id="static-fallback"[^>]*>)[\s\S]*?(<\/div>\s*<\/div>\s*(?:<script|<\/body>))/,
@@ -191,13 +249,18 @@ const withFallback = (html, route) => {
 };
 
 /** Swaps in this route's own metadata, leaving the rest of the document alone. */
-const render = (route) => {
-  const url = pageUrl(route);
-  const title = escape(pageTitle(route));
-  const description = escape(route.description);
+const render = (route, lang) => {
+  const page = { path: at(route.path, lang) };
+  const { ar, en } = alternates(route);
+  const url = lang === "en" ? en : ar;
+  const meta = lang === "en" ? englishMeta(route) : null;
+  const title = escape(meta ? `${meta.title} | The Edible Codex` : pageTitle(route));
+  const description = escape(meta ? meta.description : route.description);
   const image = origin + (imageFor(route) ?? "/brand/logo-square.jpg");
 
-  return withFallback(template, route)
+  let html = withFallback(template, route, lang);
+  if (lang === "en") html = html.replace('<html lang="ar" dir="rtl">', '<html lang="en" dir="ltr">');
+  return html
     .replace(/<title>[\s\S]*?<\/title>/, `<title>${title}</title>`)
     .replace(
       /<meta\s+name="description"[\s\S]*?\/>/,
@@ -222,17 +285,21 @@ const render = (route) => {
     .replace(
       "</head>",
       `  <link rel="canonical" href="${url}" />\n    <meta property="og:url" content="${url}" />\n` +
-        `${markup(route)}  </head>`,
+        `    <link rel="alternate" hreflang="ar" href="${ar}" />\n` +
+        `    <link rel="alternate" hreflang="en" href="${en}" />\n` +
+        `    <link rel="alternate" hreflang="x-default" href="${en}" />\n` +
+        `${markup(page)}  </head>`,
     );
 };
 
 let written = 0;
 for (const route of routes) {
-  const target =
-    route.path === "/" ? path.join(dist, "index.html") : path.join(dist, route.path, "index.html");
-  fs.mkdirSync(path.dirname(target), { recursive: true });
-  fs.writeFileSync(target, render(route));
-  written += 1;
+  for (const lang of LANGS) {
+    const target = path.join(dist, at(route.path, lang), "index.html");
+    fs.mkdirSync(path.dirname(target), { recursive: true });
+    fs.writeFileSync(target, render(route, lang));
+    written += 1;
+  }
 }
 
 /**

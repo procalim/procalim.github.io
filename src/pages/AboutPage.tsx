@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/components/LocalLink";
 import { ArrowRight, Award, Eye, Ruler } from "lucide-react";
 import Seo from "@/components/Seo";
 import SectionHeading from "@/components/SectionHeading";

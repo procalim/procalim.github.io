@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/components/LocalLink";
 import { Instagram, Mail, MapPin, Phone, Send } from "lucide-react";
 import { useLang } from "@/i18n/LanguageContext";
 import { site } from "@/data/site";

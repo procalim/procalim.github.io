@@ -1,11 +1,13 @@
 import { useEffect } from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
+import { Link } from "@/components/LocalLink";
 import { ArrowRight, ChevronLeft, Clock, Lightbulb, Users } from "lucide-react";
 import Seo from "@/components/Seo";
 import { recipeGraph } from "@/lib/structured-data";
 import RecipeCard from "@/components/RecipeCard";
 import SectionHeading from "@/components/SectionHeading";
 import BuyButton from "@/components/BuyButton";
+import { localePath } from "@/i18n/locale-path";
 import { useLang } from "@/i18n/LanguageContext";
 import { accentHex, getRecipe, recipePhoto, recipes, recipeText } from "@/data/recipes";
 import { getProduct } from "@/data/products";
@@ -55,9 +57,9 @@ const RecipePage = () => {
         image={photo ?? undefined}
         jsonLd={recipeGraph({
           trail: [
-            { name: t("nav.home"), path: "/" },
-            { name: t("nav.recipes"), path: "/recipes" },
-            { name: L(recipe.title), path: `/recipes/${recipe.slug}` },
+            { name: t("nav.home"), path: localePath("/", lang) },
+            { name: t("nav.recipes"), path: localePath("/recipes", lang) },
+            { name: L(recipe.title), path: localePath(`/recipes/${recipe.slug}`, lang) },
           ],
           name: L(recipe.title),
           description: L(recipe.subtitle),

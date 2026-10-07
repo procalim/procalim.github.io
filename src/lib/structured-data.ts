@@ -154,7 +154,7 @@ const paidProduct = (args: ProductArgs) =>
     sku: args.slug,
     offers: {
       "@type": "Offer",
-      url: pageUrl(`/shop/${args.slug}`),
+      url: pageUrl(args.trail[args.trail.length - 1].path),
       price: args.price,
       priceCurrency: site.currency.code,
       availability: "https://schema.org/InStock",
@@ -199,7 +199,7 @@ const freeBook = (args: ProductArgs) =>
     name: args.name,
     description: args.description,
     image: `${site.url}${args.image}`,
-    url: pageUrl(`/shop/${args.slug}`),
+    url: pageUrl(args.trail[args.trail.length - 1].path),
     author: { "@type": "Person", name: site.brand.chefEn, url: pageUrl("/about") },
     publisher: { "@type": "Organization", name: site.brand.name },
     bookFormat: "https://schema.org/EBook",

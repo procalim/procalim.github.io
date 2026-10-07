@@ -153,3 +153,16 @@ export const pageTitle = (route) => `${route.title} | ${brand}`;
  * العنوان الذي تُخدَم منه الصفحة فعلاً، بالشرطة الأخيرة.
  */
 export const pageUrl = (route) => `${origin}${route.path.endsWith("/") ? route.path : `${route.path}/`}`;
+
+/**
+ * The English twin of an address. Arabic lives at the root, English under
+ * /en — the same rule as src/i18n/locale-path.ts.
+ * العنوان الإنجليزي المقابل: العربية في الجذر والإنجليزية تحت /en.
+ */
+export const enPath = (path) => (path === "/" ? "/en/" : `/en${path}`);
+
+/** Both addresses of a route, for hreflang. */
+export const alternates = (route) => ({
+  ar: pageUrl(route),
+  en: pageUrl({ path: enPath(route.path) }),
+});

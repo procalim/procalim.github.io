@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { Link, NavLink, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { Link, NavLink } from "@/components/LocalLink";
 import { Globe, Menu, X } from "lucide-react";
 import Logo from "@/components/Logo";
 import { useLang } from "@/i18n/LanguageContext";

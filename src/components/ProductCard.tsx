@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/components/LocalLink";
 import { Star } from "lucide-react";
 import { formatPrice, useLang } from "@/i18n/LanguageContext";
 import BuyButton from "@/components/BuyButton";

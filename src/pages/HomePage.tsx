@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/components/LocalLink";
 import { ArrowRight, BookOpen, ChefHat, Check, Droplets, Infinity as InfinityIcon, Quote, Star } from "lucide-react";
 import Seo from "@/components/Seo";
+import { localePath } from "@/i18n/locale-path";
 import SectionHeading from "@/components/SectionHeading";
 import ProductCard from "@/components/ProductCard";
 import TrustStrip from "@/components/TrustStrip";
@@ -42,7 +43,7 @@ const HomePage = () => {
           "@type": "OnlineStore",
           name: site.brand.name,
           description: t("hero.subtitle"),
-          url: site.url,
+          url: `${site.url}${localePath("/", lang)}`,
           logo: `${site.url}/brand/logo-square.jpg`,
           image: `${site.url}/brand/logo-square.jpg`,
           founder: { "@type": "Person", name: site.brand.chefEn },

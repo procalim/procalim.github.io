@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
+import { Link } from "@/components/LocalLink";
 import { ChevronLeft, Check, Download, RotateCcw, ShieldCheck, Star } from "lucide-react";
 import Seo from "@/components/Seo";
+import { localePath } from "@/i18n/locale-path";
 import { productGraph } from "@/lib/structured-data";
 import ProductCard from "@/components/ProductCard";
 import SectionHeading from "@/components/SectionHeading";
@@ -60,9 +62,9 @@ const ProductPage = () => {
         image={product.image}
         jsonLd={productGraph({
           trail: [
-            { name: t("nav.home"), path: "/" },
-            { name: t("nav.shop"), path: "/shop" },
-            { name: L(product.title), path: `/shop/${product.slug}` },
+            { name: t("nav.home"), path: localePath("/", lang) },
+            { name: t("nav.shop"), path: localePath("/shop", lang) },
+            { name: L(product.title), path: localePath(`/shop/${product.slug}`, lang) },
           ],
           name: L(product.title),
           description: L(product.description),
