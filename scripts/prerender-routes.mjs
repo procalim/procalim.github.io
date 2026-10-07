@@ -235,7 +235,35 @@ for (const route of routes) {
   written += 1;
 }
 
+/**
+ * Addresses Google may still hold from earlier versions of the site: the
+ * /product/<slug> shape the shop first used, and four products that were
+ * retired. Without a page behind them they surface as "Not found (404)" in
+ * Search Console. Each gets a stub that sends the visitor — and Google,
+ * which reads an immediate meta refresh as a permanent redirect — to the
+ * page that replaced it.
+ * عناوين قديمة قد يعرفها جوجل؛ لكل منها صفحة تحوّل فوراً إلى بديلها حتى لا
+ * تظهر خطأ 404 في Search Console.
+ */
+const RETIRED = ["chefs-table-bundle", "meat-and-fire", "signature-plating-masterclass", "the-sauce-lab"];
+const moved = new Map([
+  ...products.map((p) => [`/product/${p.slug}`, `/shop/${p.slug}`]),
+  ...RETIRED.flatMap((slug) => [[`/product/${slug}`, "/shop"], [`/shop/${slug}`, "/shop"]]),
+  ["/index", "/"],
+]);
+for (const [from, to] of moved) {
+  const target = pageUrl({ path: to });
+  const stub =
+    `<!doctype html>\n<html lang="ar"><head><meta charset="utf-8" />\n` +
+    `<title>${escape(pageTitle(routes.find((r) => r.path === to)))}</title>\n` +
+    `<link rel="canonical" href="${target}" />\n` +
+    `<meta http-equiv="refresh" content="0; url=${target}" />\n` +
+    `</head><body><a href="${target}">${target}</a></body></html>\n`;
+  fs.mkdirSync(path.join(dist, from), { recursive: true });
+  fs.writeFileSync(path.join(dist, from, "index.html"), stub);
+}
+
 // Kept for any address not in the list — a mistyped URL still lands in the app.
 fs.writeFileSync(path.join(dist, "404.html"), template);
 
-console.log(`prerender: ${written} routes written under dist/`);
+console.log(`prerender: ${written} routes written under dist/, ${moved.size} old addresses redirected`);

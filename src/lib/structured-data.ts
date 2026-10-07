@@ -131,14 +131,16 @@ export const recipeGraph = (args: {
     isPartOf: { "@type": "Book", name: site.brand.name },
   });
 
-export const productGraph = (args: {
+type ProductArgs = {
   trail: Trail;
   name: string;
   description: string;
   image: string;
   slug: string;
   price: number;
-}) =>
+};
+
+const paidProduct = (args: ProductArgs) =>
   graph(args.trail, {
     "@type": "Product",
     name: args.name,
@@ -185,6 +187,27 @@ export const productGraph = (args: {
       },
     },
   });
+
+// A free download is not a merchant listing: Google requires a price
+// above zero there and reports "Invalid price" for every 0. It is
+// described as what it is, a free book, which no report validates against
+// shopping rules.
+// المنتج المجاني ليس عرضاً تجارياً عند جوجل (يرفض السعر صفر)، فنصفه كتاباً مجانياً.
+const freeBook = (args: ProductArgs) =>
+  graph(args.trail, {
+    "@type": "Book",
+    name: args.name,
+    description: args.description,
+    image: `${site.url}${args.image}`,
+    url: pageUrl(`/shop/${args.slug}`),
+    author: { "@type": "Person", name: site.brand.chefEn, url: pageUrl("/about") },
+    publisher: { "@type": "Organization", name: site.brand.name },
+    bookFormat: "https://schema.org/EBook",
+    isAccessibleForFree: true,
+  });
+
+export const productGraph = (args: ProductArgs) =>
+  args.price > 0 ? paidProduct(args) : freeBook(args);
 
 export const videoGraph = (args: {
   trail: Trail;
