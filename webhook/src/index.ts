@@ -106,7 +106,7 @@ const handlePayment = async (env: Env, payment: Payment): Promise<Response> => {
 
   let emailId: string | null;
   try {
-    emailId = await sendEmail(env, to, thankYouEmail(product), `thanks/${payment.id}`);
+    emailId = await sendEmail(env, to, thankYouEmail(product, payment.id), `thanks/${payment.id}`);
   } catch (error) {
     // Answer 500 so Whop retries; nothing was recorded, so the retry tries again.
     log("error", "thanks.failed", { payment: payment.id, to: maskEmail(to), error: String(error) });
