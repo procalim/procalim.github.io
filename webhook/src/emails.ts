@@ -243,3 +243,69 @@ export const reviewEmail = (product: Product): Email => {
     ].join("\n"),
   };
 };
+
+/**
+ * A one-off email for buyers who got the free guide before these emails
+ * existed: the link to what they already own, a review request, and the
+ * full book. Sent by scripts/send-catchup.ts, never by the webhook.
+ * رسالة لمرة واحدة لمن حصل على الدليل المجاني قبل تفعيل الرسائل: رابط
+ * المحتوى، وطلب تقييم، وعرض الكتاب الكامل.
+ */
+export const catchUpEmail = (gift: Product, book: Product, bookPage: Localized): Email => {
+  const offer = (lang: Lang) => {
+    const t = lang === "ar"
+      ? { eyebrow: "الخطوة التالية في مطبخك", title: "جاهز للكتاب الكامل؟", price: "٩٫٩٩ دولار فقط", was: "بدل ١٩٫٩٩", cta: "احصل على الكتاب ←", note: "تحميل فوري · وصول مدى الحياة · استرداد كامل خلال ٣٠ يوماً" }
+      : { eyebrow: "The next step in your kitchen", title: "Ready for the full book?", price: "Just $9.99", was: "was $19.99", cta: "Get the book →", note: "Instant download · lifetime access · 30-day full refund" };
+    return [
+      row(`${eyebrow(t.eyebrow, lang)}${headline(t.title, lang)}`, "8px 32px 8px"),
+      row(productCard(book), "8px 32px 8px"),
+      row(features(book.features, lang), "16px 32px 8px"),
+      row(`<p style="margin:0;text-align:center;font-family:Georgia,serif;font-size:28px;color:${GOLD}">${t.price} <span style="font-size:16px;color:${MUTED};text-decoration:line-through">${t.was}</span></p>`, "16px 32px 8px"),
+      row(button(bookPage[lang], t.cta), "16px 32px 8px"),
+      row(`<p style="margin:0;text-align:center;font-family:${fontOf(lang)};font-size:13px;color:${MUTED}">${t.note}</p>`, "8px 32px 8px"),
+    ].join("");
+  };
+
+  const html = shell(
+    `هديتك تنتظرك: ${gift.name.ar} — رابط الوصول بالداخل · Your free guide is waiting`,
+    [
+      row(`${eyebrow("🎁 هديتك تنتظرك", "ar")}${headline(`${gift.name.ar} — صارت لك`, "ar")}${paragraph(
+        `حصلت قبل فترة على <strong style="color:${IVORY}">${escape(gift.name.ar)}</strong> من ذا إديبل كودكس، وحبينا نتأكد إنها وصلتك. هذا رابط الوصول المباشر:`,
+        "ar",
+      ).replace("text-align:right", "text-align:center")}`, "16px 32px 8px"),
+      row(productCard(gift), "12px 32px 8px"),
+      row(button(gift.url, "افتح الدليل الآن ←"), "24px 32px 12px"),
+      row(paragraph("سجّل الدخول في Whop بنفس هذا الإيميل، وتلقى الدليل جاهز للتحميل.", "ar", MUTED, 14).replace("text-align:right", "text-align:center"), "0 32px 8px"),
+      row(`${paragraph("وإذا جربت صلصة منها، قيّمنا بنقرة — يفرق معنا كثير:", "ar", IVORY, 15).replace("text-align:right", "text-align:center")}${stars(gift.url)}`, "16px 32px 8px"),
+      row(divider),
+      offer("ar"),
+      row(divider),
+      row(`${eyebrow("Your free guide is waiting", "en")}${headline(`${gift.name.en} — it's yours`, "en")}${paragraph(
+        `You picked up <strong style="color:${IVORY}">${escape(gift.name.en)}</strong> from The Edible Codex, and we wanted to make sure it reached you. Here's your direct link:`,
+        "en",
+      ).replace("text-align:left", "text-align:center")}`, "0 32px 8px"),
+      row(button(gift.url, "Open the guide →"), "16px 32px 12px"),
+      row(`${paragraph("Tried one of the sauces? A one-tap review means a lot:", "en", IVORY, 15).replace("text-align:left", "text-align:center")}${stars(gift.url)}`, "8px 32px 8px"),
+      row(divider),
+      offer("en"),
+      row(paragraph("Questions? Just reply to this email. · عندك سؤال؟ رد على هذا الإيميل مباشرة.", "en", MUTED, 13).replace("text-align:left", "text-align:center"), "16px 32px 28px"),
+    ].join(""),
+  );
+  return {
+    subject: `🎁 هديتك تنتظرك: ${gift.name.ar} · Your free guide is waiting`,
+    html,
+    text: [
+      `هديتك تنتظرك: ${gift.name.ar}`,
+      `رابط الوصول: ${gift.url}`,
+      "سجّل الدخول في Whop بنفس هذا الإيميل.",
+      `قيّمنا: ${gift.url}`,
+      "",
+      `جاهز للكتاب الكامل؟ ${book.name.ar} — ٩٫٩٩ دولار بدل ١٩٫٩٩: ${bookPage.ar}`,
+      "",
+      `Your free guide is waiting: ${gift.name.en} — ${gift.url}`,
+      `Ready for the full book? ${book.name.en} — $9.99 (was $19.99): ${bookPage.en}`,
+      "",
+      "The Edible Codex · https://ediblecodex.com",
+    ].join("\n"),
+  };
+};
