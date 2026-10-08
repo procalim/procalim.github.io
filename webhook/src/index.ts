@@ -72,6 +72,12 @@ const sendEmail = async (env: Env, to: string, email: Email, idempotencyKey: str
       from: env.EMAIL_FROM,
       to: [to],
       ...(env.EMAIL_REPLY_TO ? { reply_to: env.EMAIL_REPLY_TO } : {}),
+      // Gmail and Yahoo trust mail that offers a one-click way out; without
+      // it a new sending domain lands in spam far more often.
+      // جوجل يثق أكثر بالرسائل التي تتيح إلغاء الاشتراك.
+      ...(env.EMAIL_REPLY_TO
+        ? { headers: { "List-Unsubscribe": `<mailto:${env.EMAIL_REPLY_TO}?subject=unsubscribe>` } }
+        : {}),
       subject: email.subject,
       html: email.html,
       text: email.text,

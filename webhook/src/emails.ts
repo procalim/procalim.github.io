@@ -119,7 +119,7 @@ const footer = `
     <span style="color:#4A5A75">&nbsp;·&nbsp;</span>
     <a href="${INSTAGRAM}" target="_blank" style="color:${MUTED};text-decoration:none">Instagram</a>
   </p>
-  <p dir="rtl" style="margin:0;font-family:${fontOf("ar")};font-size:12px;line-height:1.7;color:#6B7A93">وصلتك هذه الرسالة لأنك طلبت من ذا إديبل كودكس.<br><span dir="ltr">You're receiving this because you ordered from The Edible Codex.</span></p>
+  <p dir="rtl" style="margin:0;font-family:${fontOf("ar")};font-size:12px;line-height:1.7;color:#6B7A93">وصلتك هذه الرسالة لأنك طلبت من ذا إديبل كودكس. لإيقاف الرسائل، رد بكلمة «إلغاء».<br><span dir="ltr">You're receiving this because you ordered from The Edible Codex. Reply "unsubscribe" to stop these emails.</span></p>
 </td></tr>`;
 
 const shell = (preheader: string, rows: string) => `<!doctype html>

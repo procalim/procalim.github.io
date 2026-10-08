@@ -47,7 +47,11 @@ for (const to of valid) {
       "Content-Type": "application/json",
       "Idempotency-Key": mode === "test" ? `catchup-test/${Date.now()}` : `catchup/${to}`,
     },
-    body: JSON.stringify({ from, to: [to], reply_to: replyTo, subject: email.subject, html: email.html, text: email.text }),
+    body: JSON.stringify({
+      from, to: [to], reply_to: replyTo,
+      headers: { "List-Unsubscribe": `<mailto:${replyTo}?subject=unsubscribe>` },
+      subject: email.subject, html: email.html, text: email.text,
+    }),
   });
   if (res.ok) {
     sent += 1;
