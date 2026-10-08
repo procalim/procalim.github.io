@@ -36,7 +36,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
           cache-dependency-path: webhook/package-lock.json
 
@@ -56,18 +56,21 @@ jobs:
       - name: Find or create the ORDERS store
         run: |
           TITLE=edible-codex-orders
-          ID=$(npx wrangler kv namespace list | node -e '
-            let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{
-              const hit=JSON.parse(s.slice(s.indexOf("["))).find(n=>n.title===process.argv[1]);
-              process.stdout.write(hit?hit.id:"");
-            })' "$TITLE")
+          # Prints the id of the namespace titled $TITLE, or nothing; fails
+          # loudly with wrangler's own message if the listing is not JSON.
+          find_id() {
+            npx wrangler kv namespace list > kv.json
+            node -e '
+              const s=require("fs").readFileSync("kv.json","utf8");
+              const at=s.indexOf("[");
+              if (at<0) { console.error(s); process.exit(1); }
+              const hit=JSON.parse(s.slice(at)).find(n=>n.title===process.argv[1]);
+              process.stdout.write(hit?hit.id:"");' "$TITLE"
+          }
+          ID=$(find_id)
           if [ -z "$ID" ]; then
             npx wrangler kv namespace create "$TITLE"
-            ID=$(npx wrangler kv namespace list | node -e '
-              let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{
-                const hit=JSON.parse(s.slice(s.indexOf("["))).find(n=>n.title===process.argv[1]);
-                process.stdout.write(hit?hit.id:"");
-              })' "$TITLE")
+            ID=$(find_id)
           fi
           test -n "$ID"
           sed -i "s/REPLACE_WITH_KV_NAMESPACE_ID/$ID/" wrangler.toml
