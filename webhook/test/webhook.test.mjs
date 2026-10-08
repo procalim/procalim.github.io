@@ -62,7 +62,8 @@ before(async () => {
     ["wrangler", "dev", "--port", "8799", "--ip", "127.0.0.1", "--test-scheduled", "--persist-to", mkdtempSync(join(tmpdir(), "kv-")),
      "--var", `WHOP_WEBHOOK_SECRET:${SECRET}`, "--var", "EMAIL_API_KEY:re_test", "--var", "EMAIL_REPLY_TO:support@example.com",
      "--var", "RESEND_API_URL:http://127.0.0.1:8798", "--var", "REVIEW_DELAY_DAYS:0"],
-    { stdio: ["ignore", "pipe", "pipe"], env: { ...process.env, WRANGLER_SEND_METRICS: "false" } },
+    // Its own process group, so stopping it also stops the runtime it starts.
+    { stdio: ["ignore", "pipe", "pipe"], detached: true, env: { ...process.env, WRANGLER_SEND_METRICS: "false" } },
   );
   worker.logs = "";
   worker.stdout.on("data", (d) => (worker.logs += d));
@@ -74,7 +75,12 @@ before(async () => {
   throw new Error("wrangler dev did not start:\n" + worker.logs);
 });
 
-after(() => { worker?.kill(); resend?.close(); });
+after(() => {
+  if (worker?.pid) {
+    try { process.kill(-worker.pid, "SIGTERM"); } catch {}
+  }
+  resend?.close();
+});
 
 test("a forged signature is refused and sends nothing", async () => {
   const res = await deliver(payment("pay_forged", "plan_yC2EH8kuwf8pi"), { secret: "ws_wrong" });
