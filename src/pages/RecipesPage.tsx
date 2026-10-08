@@ -8,7 +8,7 @@ import { recipes, recipeTags, recipeText } from "@/data/recipes";
 import { brandImages, site } from "@/data/site";
 
 const RecipesPage = () => {
-  const { t, L, lang } = useLang();
+  const { t, lang } = useLang();
   const [query, setQuery] = useState("");
   const [tag, setTag] = useState("all");
 
@@ -45,11 +45,22 @@ const RecipesPage = () => {
           name: t("recipes.title"),
           description: t("recipes.subtitle"),
           url: `${site.url}${localePath("/recipes/", lang)}`,
-          hasPart: recipes.map((recipe) => ({
-            "@type": "Recipe",
-            name: L(recipe.title),
-            url: `${site.url}${localePath(`/recipes/${recipe.slug}/`, lang)}`,
-          })),
+          // A list of links, not thirteen Recipes: each "Recipe" here carried
+          // only a name and a URL, and Google validated every one as a full
+          // recipe — "Missing field image" (critical), ingredients,
+          // instructions… The recipes are described in full on their own
+          // pages; this page only points at them, the way Google's summary-page
+          // markup asks.
+          // قائمة روابط لا وصفات: كل "Recipe" هنا كان بلا صورة ولا مكوّنات،
+          // فاعتبرها جوجل وصفات ناقصة وأبلغ عن أخطاء.
+          mainEntity: {
+            "@type": "ItemList",
+            itemListElement: recipes.map((recipe, index) => ({
+              "@type": "ListItem",
+              position: index + 1,
+              url: `${site.url}${localePath(`/recipes/${recipe.slug}/`, lang)}`,
+            })),
+          },
         }}
       />
 
