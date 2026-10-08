@@ -12,22 +12,23 @@ Plans and their links live in `src/products.ts`; the email copy in `src/emails.t
 A retried webhook never sends a second email: each one is recorded under the
 payment ID in KV and sent with a Resend idempotency key.
 
-## One-time setup
+## One-time setup (no computer needed)
 
-1. **Resend:** create an account, add and verify the domain `ediblecodex.com`
-   (it shows the DNS records to add), then create an API key.
-2. **Cloudflare:** from this folder,
-   ```sh
-   npm install
-   npx wrangler login
-   npx wrangler kv namespace create ORDERS   # paste the id into wrangler.toml
-   npx wrangler secret put EMAIL_API_KEY      # the Resend key, re_…
-   npx wrangler secret put EMAIL_REPLY_TO     # the inbox that answers customers
-   npm run deploy                             # prints the Worker's URL
-   ```
-3. **Whop:** Developer → Webhooks → create a webhook to that URL with the
-   `payment.succeeded` event. Copy its `ws_…` secret, then
-   `npx wrangler secret put WHOP_WEBHOOK_SECRET`.
+1. **Resend:** verify the domain `ediblecodex.com`, then create an API key
+   with sending access.
+2. **Cloudflare:** create an API token from the **Edit Cloudflare Workers**
+   template, and note the **Account ID** on the dashboard.
+3. **GitHub:** Settings → Secrets and variables → Actions → add
+   `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `EMAIL_API_KEY`,
+   `EMAIL_REPLY_TO`.
+4. **Deploy:** Actions → *Deploy order-email webhook* → Run workflow. The
+   run's summary shows the Worker URL. (It creates the KV store itself.)
+5. **Whop:** Developer → Webhooks → new webhook to that URL with the
+   `payment.succeeded` event. Copy its `ws_…` secret into a GitHub secret
+   named `WHOP_WEBHOOK_SECRET`, then run the workflow once more.
+
+From a computer, the same is `npx wrangler deploy` plus
+`npx wrangler secret put <NAME>` for each secret.
 
 ## Checking it
 

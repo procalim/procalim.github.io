@@ -1,0 +1,101 @@
+name: Deploy order-email webhook
+
+# Deploys webhook/ (the Cloudflare Worker that emails buyers) from GitHub,
+# so nothing has to be run on a computer. Run it from the Actions tab, or let
+# it run on its own when webhook/ changes on main.
+#
+# Repository secrets it reads (Settings → Secrets and variables → Actions):
+#   CLOUDFLARE_API_TOKEN   token from the "Edit Cloudflare Workers" template
+#   CLOUDFLARE_ACCOUNT_ID  shown on the Cloudflare dashboard
+#   EMAIL_API_KEY          Resend API key (re_…)
+#   EMAIL_REPLY_TO         inbox that answers customers' replies
+#   WHOP_WEBHOOK_SECRET    ws_… secret of the Whop webhook (add after the first deploy)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["webhook/**", ".github/workflows/deploy-webhook.yml"]
+
+concurrency:
+  group: deploy-webhook
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: webhook
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      WRANGLER_SEND_METRICS: "false"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: webhook/package-lock.json
+
+      - name: Check the Cloudflare secrets are set
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo "::error::Add CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID as repository secrets first."
+            exit 1
+          fi
+
+      - run: npm ci
+
+      - run: npm run typecheck
+
+      # The KV store that remembers sent emails. Created on the first run,
+      # reused afterwards; its id is written into wrangler.toml for this deploy.
+      - name: Find or create the ORDERS store
+        run: |
+          TITLE=edible-codex-orders
+          ID=$(npx wrangler kv namespace list | node -e '
+            let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{
+              const hit=JSON.parse(s.slice(s.indexOf("["))).find(n=>n.title===process.argv[1]);
+              process.stdout.write(hit?hit.id:"");
+            })' "$TITLE")
+          if [ -z "$ID" ]; then
+            npx wrangler kv namespace create "$TITLE"
+            ID=$(npx wrangler kv namespace list | node -e '
+              let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{
+                const hit=JSON.parse(s.slice(s.indexOf("["))).find(n=>n.title===process.argv[1]);
+                process.stdout.write(hit?hit.id:"");
+              })' "$TITLE")
+          fi
+          test -n "$ID"
+          sed -i "s/REPLACE_WITH_KV_NAMESPACE_ID/$ID/" wrangler.toml
+          echo "ORDERS store: $ID"
+
+      - name: Deploy
+        run: npx wrangler deploy | tee deploy.log
+
+      # Only the secrets that are set are pushed; a missing one is reported,
+      # never written as empty.
+      - name: Set the Worker's secrets
+        env:
+          EMAIL_API_KEY: ${{ secrets.EMAIL_API_KEY }}
+          EMAIL_REPLY_TO: ${{ secrets.EMAIL_REPLY_TO }}
+          WHOP_WEBHOOK_SECRET: ${{ secrets.WHOP_WEBHOOK_SECRET }}
+        run: |
+          for NAME in EMAIL_API_KEY EMAIL_REPLY_TO WHOP_WEBHOOK_SECRET; do
+            VALUE=$(printenv "$NAME" || true)
+            if [ -n "$VALUE" ]; then
+              printf '%s' "$VALUE" | npx wrangler secret put "$NAME"
+            else
+              echo "::warning::$NAME is not set yet — emails will not send until it is."
+            fi
+          done
+
+      - name: Show the webhook URL
+        run: |
+          URL=$(grep -oE 'https://[a-zA-Z0-9.-]+\.workers\.dev' deploy.log | head -1)
+          echo "Webhook URL: $URL"
+          echo "### Webhook URL for Whop" >> "$GITHUB_STEP_SUMMARY"
+          echo "\`$URL\`" >> "$GITHUB_STEP_SUMMARY"
