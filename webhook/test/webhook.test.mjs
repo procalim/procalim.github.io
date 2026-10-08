@@ -38,12 +38,21 @@ const deliver = async (event, { secret, deliveryId = `msg_${Math.random().toStri
   });
 };
 
+/** Shaped like a real delivery: Whop nests the plan and the buyer. */
 const payment = (id, plan, email = "buyer@example.com") => ({
-  id: `evt_${id}`,
+  id: `msg_${id}`,
   type: "payment.succeeded",
   api_version: "v1",
   timestamp: new Date().toISOString(),
-  data: { id, plan_id: plan, customer_email: email, status: "paid" },
+  data: {
+    id,
+    status: "paid",
+    total: 0,
+    plan: { id: plan, internal_notes: "", metadata: {} },
+    user: { id: "user_test", username: "buyer", email, name: null },
+    member: { id: "mber_test", phone: null },
+    product: { id: "prod_test", route: "the-edible-codex-five-sauces" },
+  },
 });
 
 before(async () => {
@@ -91,6 +100,7 @@ test("a forged signature is refused and sends nothing", async () => {
 test("payment.succeeded for the free guide sends the thank-you at once", async () => {
   const res = await deliver(payment("pay_free1", "plan_yC2EH8kuwf8pi"));
   assert.equal(res.status, 200);
+  assert.deepEqual(await res.json(), { result: "ok" });
   assert.equal(sent.length, 1);
   const mail = sent[0];
   assert.deepEqual(mail.to, ["buyer@example.com"]);
@@ -116,6 +126,14 @@ test("the cookbook links to the cookbook", async () => {
   assert.deepEqual(sent[1].to, ["reader@example.com"]);
 });
 
+test("the flat REST shape (plan_id, customer_email) works too", async () => {
+  const flat = { ...payment("pay_flat1", "x"), data: { id: "pay_flat1", plan_id: "plan_em9IY2N3WR5Je", customer_email: "flat@example.com" } };
+  const res = await deliver(flat);
+  assert.deepEqual(await res.json(), { result: "ok" });
+  assert.deepEqual(sent.at(-1).to, ["flat@example.com"]);
+  sent.pop(); // keep the counts below about the main flow
+});
+
 test("other plans and other events are acknowledged and ignored", async () => {
   assert.equal((await deliver(payment("pay_other", "plan_somethingelse"))).status, 200);
   assert.equal((await deliver({ ...payment("pay_x", "plan_yC2EH8kuwf8pi"), type: "payment.failed" })).status, 200);
@@ -126,13 +144,13 @@ test("the cron sends each due review request once", async () => {
   await fetch(`${WORKER}/__scheduled?cron=17+*+*+*+*`);
   await new Promise((r) => setTimeout(r, 1500));
   const reviews = sent.filter((m) => m.key?.startsWith("review/"));
-  assert.deepEqual(reviews.map((m) => m.key).sort(), ["review/pay_book1", "review/pay_free1"]);
+  assert.deepEqual(reviews.map((m) => m.key).sort(), ["review/pay_book1", "review/pay_flat1", "review/pay_free1"]);
   assert.match(reviews.find((m) => m.key === "review/pay_free1").subject, /وش رأيك/);
   assert.match(reviews.find((m) => m.key === "review/pay_free1").html, /the-edible-codex-five-sauces/);
 
   await fetch(`${WORKER}/__scheduled?cron=17+*+*+*+*`);
   await new Promise((r) => setTimeout(r, 1500));
-  assert.equal(sent.filter((m) => m.key?.startsWith("review/")).length, 2);
+  assert.equal(sent.filter((m) => m.key?.startsWith("review/")).length, 3);
 });
 
 test("every send was logged", () => {

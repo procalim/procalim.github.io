@@ -27,11 +27,31 @@ export interface Env {
   RESEND_API_URL?: string;
 }
 
-type Payment = { id: string; plan_id: string | null; customer_email: string | null };
+/**
+ * The fields read off a payment. The webhook nests them — `plan.id`,
+ * `user.email` — where the REST API's payment has flat `plan_id` and
+ * `customer_email`; both shapes are accepted, so the handler keeps working
+ * whichever one a delivery carries.
+ * Whop يرسل رقم الخطة والإيميل داخل plan و user؛ نقرأ الشكلين.
+ */
+type Payment = {
+  id: string;
+  plan_id?: string | null;
+  plan?: { id?: string | null } | null;
+  customer_email?: string | null;
+  user?: { email?: string | null } | null;
+};
+
+const planOf = (payment: Payment) => payment.plan_id ?? payment.plan?.id ?? null;
+const emailOf = (payment: Payment) => (payment.customer_email ?? payment.user?.email ?? "").trim() || null;
 type WhopEvent = { id: string; type: string; data: Payment };
 type PendingReview = { paymentId: string; email: string; planId: string };
 
 const DAY = 24 * 60 * 60 * 1000;
+
+/** Whop's webhook log expects JSON back and flags plain text as invalid. */
+const reply = (result: string, status = 200) =>
+  new Response(JSON.stringify({ result }), { status, headers: { "content-type": "application/json" } });
 
 /** One JSON line per event, readable in `wrangler tail` and the Workers logs. */
 const log = (level: "info" | "warn" | "error", event: string, fields: Record<string, unknown> = {}) =>
@@ -66,21 +86,22 @@ const sendEmail = async (env: Env, to: string, email: Email, idempotencyKey: str
 const reviewKey = (due: Date, paymentId: string) => `review:${due.toISOString()}:${paymentId}`;
 
 const handlePayment = async (env: Env, payment: Payment): Promise<Response> => {
-  const product: Product | undefined = payment.plan_id ? PRODUCTS[payment.plan_id] : undefined;
+  const planId = planOf(payment);
+  const product: Product | undefined = planId ? PRODUCTS[planId] : undefined;
   if (!product) {
-    log("info", "payment.ignored", { payment: payment.id, plan: payment.plan_id, reason: "plan not handled" });
-    return new Response("ignored", { status: 200 });
+    log("info", "payment.ignored", { payment: payment.id, plan: planId, reason: "plan not handled" });
+    return reply("ignored");
   }
-  const to = payment.customer_email?.trim();
+  const to = emailOf(payment);
   if (!to) {
     // A retry would carry the same empty field, so there is nothing to wait for.
-    log("error", "payment.no_email", { payment: payment.id, plan: payment.plan_id });
-    return new Response("no buyer email", { status: 200 });
+    log("error", "payment.no_email", { payment: payment.id, plan: planId });
+    return reply("no buyer email");
   }
 
   if (await env.ORDERS.get(`thanks:${payment.id}`)) {
     log("info", "thanks.duplicate", { payment: payment.id });
-    return new Response("already sent", { status: 200 });
+    return reply("already sent");
   }
 
   let emailId: string | null;
@@ -89,19 +110,19 @@ const handlePayment = async (env: Env, payment: Payment): Promise<Response> => {
   } catch (error) {
     // Answer 500 so Whop retries; nothing was recorded, so the retry tries again.
     log("error", "thanks.failed", { payment: payment.id, to: maskEmail(to), error: String(error) });
-    return new Response("email failed", { status: 500 });
+    return reply("email failed", 500);
   }
-  log("info", "thanks.sent", { payment: payment.id, plan: payment.plan_id, to: maskEmail(to), emailId });
+  log("info", "thanks.sent", { payment: payment.id, plan: planId, to: maskEmail(to), emailId });
 
   const configured = Number(env.REVIEW_DELAY_DAYS);
   const days = env.REVIEW_DELAY_DAYS && Number.isFinite(configured) && configured >= 0 ? configured : 4;
   const due = new Date(Date.now() + days * DAY);
-  const pending: PendingReview = { paymentId: payment.id, email: to, planId: payment.plan_id! };
+  const pending: PendingReview = { paymentId: payment.id, email: to, planId: planId! };
   await env.ORDERS.put(reviewKey(due, payment.id), JSON.stringify(pending));
   await env.ORDERS.put(`thanks:${payment.id}`, JSON.stringify({ sentAt: new Date().toISOString(), emailId }));
   log("info", "review.scheduled", { payment: payment.id, due: due.toISOString() });
 
-  return new Response("ok", { status: 200 });
+  return reply("ok");
 };
 
 /** Sends every review request that has come due. Failures stay queued for the next run. */
@@ -156,12 +177,12 @@ export default {
       });
     } catch (error) {
       log("warn", "webhook.rejected", { error: String(error) });
-      return new Response("invalid signature", { status: 401 });
+      return reply("invalid signature", 401);
     }
 
     if (event.type !== "payment.succeeded") {
       log("info", "webhook.ignored", { type: event.type, webhook: event.id });
-      return new Response("ignored", { status: 200 });
+      return reply("ignored");
     }
     return handlePayment(env, event.data);
   },
