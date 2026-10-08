@@ -10,6 +10,8 @@ type SeoProps = {
   image?: string;
   /** Structured data for this page, handed to search engines as JSON-LD. */
   jsonLd?: Record<string, unknown>;
+  /** Keep this page out of search results (e.g. the post-checkout page). */
+  noindex?: boolean;
 };
 
 const setMeta = (selector: string, attr: "name" | "property", key: string, content: string) => {
@@ -40,6 +42,7 @@ const Seo = ({
   description,
   image = `${import.meta.env.BASE_URL}brand/logo-square.jpg`,
   jsonLd,
+  noindex = false,
 }: SeoProps) => {
   const { lang } = useLang();
   const brand = lang === "ar" ? site.brand.nameAr : site.brand.name;
@@ -56,6 +59,8 @@ const Seo = ({
     setMeta('meta[property="og:description"]', "property", "og:description", description);
     setMeta('meta[property="og:image"]', "property", "og:image", absoluteImage);
     setMeta('meta[property="og:url"]', "property", "og:url", canonical);
+    if (noindex) setMeta('meta[name="robots"]', "name", "robots", "noindex");
+    else document.head.querySelector('meta[name="robots"]')?.remove();
     setMeta('meta[property="og:locale"]', "property", "og:locale", lang === "ar" ? "ar_SA" : "en_US");
     setMeta('meta[name="twitter:title"]', "name", "twitter:title", full);
     setMeta('meta[name="twitter:description"]', "name", "twitter:description", description);
@@ -68,7 +73,7 @@ const Seo = ({
     setLink("alternate", pageUrl(localePath(window.location.pathname, "ar")), "ar");
     setLink("alternate", pageUrl(localePath(window.location.pathname, "en")), "en");
     setLink("alternate", pageUrl(localePath(window.location.pathname, "en")), "x-default");
-  }, [title, description, image, brand, lang]);
+  }, [title, description, image, brand, lang, noindex]);
 
   useEffect(() => {
     if (!jsonLd) return;

@@ -279,8 +279,28 @@ export const dictionary = {
     ar: "طرق دفع أخرى (تحويل بنكي · ACH · عملات رقمية)",
     en: "Other payment methods (bank wire · ACH · crypto)",
   },
-  "checkout.express": { ar: "الدفع السريع", en: "Express checkout" },
-  "checkout.orCard": { ar: "أو ادفع بالبطاقة هنا", en: "or pay by card here" },
+
+  /* ── After checkout · بعد الدفع ── */
+  "done.title": { ar: "حالة الدفع", en: "Payment status" },
+  "done.succeeded.title": { ar: "تمّ الدفع بنجاح", en: "Payment received" },
+  "done.succeeded.body": {
+    ar: "شكراً لك. ستصلك رسالة من Whop على بريدك فيها الإيصال ورابط التحميل.",
+    en: "Thank you. Whop is emailing your receipt and download access.",
+  },
+  "done.failed.title": { ar: "لم يكتمل الدفع", en: "The payment didn't go through" },
+  "done.failed.body": {
+    ar: "لم يُخصم أي مبلغ. يمكنك المحاولة مجدداً، أو اختيار طريقة دفع أخرى.",
+    en: "You haven't been charged. You can try again, or choose another payment method.",
+  },
+  "done.canceled.title": { ar: "أُلغي الدفع", en: "The payment was canceled" },
+  "done.processing.title": { ar: "جارٍ تأكيد الدفع", en: "Confirming your payment" },
+  "done.processing.body": {
+    ar: "قد يستغرق ذلك دقائق. ستصلك رسالة من Whop فور تأكيده — لا حاجة لإعادة الدفع.",
+    en: "This can take a few minutes. Whop will email you as soon as it's confirmed — no need to pay again.",
+  },
+  "done.reference": { ar: "رقم العملية", en: "Payment reference" },
+  "done.retry": { ar: "العودة إلى المتجر", en: "Back to the shop" },
+  "done.home": { ar: "الصفحة الرئيسية", en: "Home" },
 
   /* ── Technique videos · مقاطع التقنيات ── */
   "videos.eyebrow": { ar: "من المطبخ", en: "From the kitchen" },

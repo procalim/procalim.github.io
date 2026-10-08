@@ -1,109 +1,38 @@
-import { useEffect, useRef, useState } from "react";
-import { ArrowRight, ExternalLink, Loader2, Wallet } from "lucide-react";
+import { useMemo, useState } from "react";
+import { ArrowRight, ExternalLink, Loader2 } from "lucide-react";
+import { WhopElements, Checkout, CheckoutElement } from "@whop/elements-react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { formatPrice, useLang } from "@/i18n/LanguageContext";
-import { loadWhopCheckout } from "@/lib/whopCheckout";
+import { loadCheckout } from "@/lib/whopCheckout";
 import { buyLink, onBuyClick } from "@/lib/buy";
+import { pageUrl } from "@/lib/page-url";
+import { localePath } from "@/i18n/locale-path";
 import { site } from "@/data/site";
 import type { Product } from "@/data/products";
 
 type Props = { product: Product; withPrice?: boolean; className?: string };
 
 /**
- * Opens Whop's checkout inside the site. If the embed cannot render — the
- * script is blocked, the plan has no embed — the same dialog offers the
- * hosted checkout instead, so the sale is never lost to a blank box.
+ * Opens Whop's checkout inside the site, through Whop Elements. If the
+ * element cannot load — the SDK is blocked, the plan refuses to embed — the
+ * same dialog offers the hosted checkout instead, so the sale is never lost
+ * to a blank box.
+ * الدفع داخل الموقع عبر Whop Elements؛ وإن تعذّر تحميله يُعرض رابط صفحة الدفع على Whop.
  */
 const BuyButton = ({ product, withPrice = false, className = "" }: Props) => {
   const { t, L, lang } = useLang();
   const [open, setOpen] = useState(false);
-  const [embedFailed, setEmbedFailed] = useState(false);
-  const [embedReady, setEmbedReady] = useState(false);
-  /** Whether Whop resolved a wallet for this device: unknown → yes → no. */
-  const [wallet, setWallet] = useState<"pending" | "ready" | "none">("pending");
-  const mountRef = useRef<HTMLDivElement | null>(null);
-  const walletRef = useRef<HTMLDivElement | null>(null);
+  const [failed, setFailed] = useState(false);
 
   const isFree = product.price === 0;
   const hostedUrl = buyLink(product, lang);
   const label = isFree ? t("product.getFree") : t("product.buyNow");
 
-  useEffect(() => {
-    if (!open || !product.planId) return;
-
-    let cancelled = false;
-    setEmbedFailed(false);
-    setEmbedReady(false);
-
-    loadWhopCheckout().catch(() => {
-      if (!cancelled) setEmbedFailed(true);
-    });
-
-    // Watch for the checkout appearing, so the loading line disappears the
-    // moment it does; if nothing appears the visitor gets the hosted link
-    // rather than an empty frame.
-    const poll = window.setInterval(() => {
-      if (cancelled) return;
-      if (mountRef.current?.childElementCount) {
-        setEmbedReady(true);
-        window.clearInterval(poll);
-      }
-    }, 250);
-
-    const timer = window.setTimeout(() => {
-      if (!cancelled && !mountRef.current?.childElementCount) setEmbedFailed(true);
-    }, 6000);
-
-    return () => {
-      cancelled = true;
-      window.clearInterval(poll);
-      window.clearTimeout(timer);
-    };
-  }, [open, product.planId]);
-
-  /**
-   * Apple Pay and Google Pay come from Whop's own express element, which the
-   * checkout script registers as <whop-express-checkout-button>. Mounting it
-   * here keeps the wallet sheet on this site rather than sending the buyer to
-   * whop.com. The element reports which wallet — if any — this device offers,
-   * and the block stays collapsed unless one actually rendered.
-   * زر المحافظ من Whop نفسه، يعمل داخل الموقع دون مغادرته.
-   */
-  useEffect(() => {
-    if (!open || !product.planId) return;
-
-    const host = walletRef.current;
-    if (!host) return;
-
-    setWallet("pending");
-    loadWhopCheckout().catch(() => setWallet("none"));
-
-    const el = document.createElement("whop-express-checkout-button");
-    el.setAttribute("plan-id", product.planId);
-    el.setAttribute("return-url", window.location.href);
-    el.setAttribute("theme", "light");
-    el.style.display = "block";
-
-    const onResolved = (event: Event) => {
-      const rendered = (event as CustomEvent<{ rendered?: string }>).detail?.rendered;
-      setWallet(rendered && rendered !== "none" ? "ready" : "none");
-    };
-    el.addEventListener("express-method-resolved", onResolved);
-    host.replaceChildren(el);
-
-    // An older checkout script would never define the element, so stop
-    // reserving room for it rather than leaving a gap above the card form.
-    const giveUp = window.setTimeout(
-      () => setWallet((state) => (state === "pending" ? "none" : state)),
-      5000,
-    );
-
-    return () => {
-      window.clearTimeout(giveUp);
-      el.removeEventListener("express-method-resolved", onResolved);
-      host.replaceChildren();
-    };
-  }, [open, product.planId]);
+  // Started only once the dialog opens, so pages that never check out never
+  // load the SDK. Off-site payment steps (3DS, bank pages) come back to the
+  // return page in the buyer's language, which reads `payment` and `status`.
+  const elements = useMemo(() => (open ? loadCheckout() : null), [open]);
+  const returnUrl = pageUrl(localePath("/checkout/complete/", lang));
 
   // No plan id configured — behave exactly as before, a plain outbound link.
   if (!product.planId) {
@@ -127,6 +56,7 @@ const BuyButton = ({ product, withPrice = false, className = "" }: Props) => {
         type="button"
         onClick={() => {
           onBuyClick(product);
+          setFailed(false);
           setOpen(true);
         }}
         className={`btn-gold ${className}`}
@@ -142,40 +72,30 @@ const BuyButton = ({ product, withPrice = false, className = "" }: Props) => {
           </DialogHeader>
 
           <div className="px-4 py-4">
-            {!embedFailed ? (
+            {!failed ? (
               <>
-                {/* Clipped rather than display:none while the wallet is still
-                    resolving, so Whop's frame keeps a real width to measure
-                    itself against and the card form below does not jump. */}
-                <div className={wallet === "ready" ? "" : "max-h-0 overflow-hidden opacity-0"}>
-                  <p className="mb-2 flex items-center justify-center gap-1.5 text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
-                    <Wallet className="h-3.5 w-3.5 text-gold-600" />
-                    {t("checkout.express")}
-                  </p>
-                  <div ref={walletRef} />
-                  <div className="my-4 flex items-center gap-3">
-                    <span className="h-px flex-1 bg-border" />
-                    <span className="text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
-                      {t("checkout.orCard")}
-                    </span>
-                    <span className="h-px flex-1 bg-border" />
-                  </div>
-                </div>
+                <WhopElements
+                  elements={elements}
+                  locale="en"
+                  appearance={{ theme: { appearance: "light" } }}
+                  onLoadError={() => setFailed(true)}
+                >
+                  <Checkout
+                    plan={product.planId}
+                    returnUrl={returnUrl}
+                    attribution={{ source: `ediblecodex.com/${product.slug}` }}
+                    fallback={
+                      <p className="flex min-h-[420px] items-center justify-center gap-2 text-[12px] text-muted-foreground">
+                        <Loader2 className="h-3.5 w-3.5 animate-spin text-gold" />
+                        {t("checkout.loading")}
+                      </p>
+                    }
+                  >
+                    <CheckoutElement className="min-h-[420px]" onError={() => setFailed(true)} />
+                  </Checkout>
+                </WhopElements>
 
-                <div
-                  ref={mountRef}
-                  data-whop-checkout-plan-id={product.planId}
-                  data-whop-checkout-theme="light"
-                  className="min-h-[420px]"
-                />
-                {!embedReady && (
-                  <p className="mt-3 flex items-center justify-center gap-2 text-[12px] text-muted-foreground">
-                    <Loader2 className="h-3.5 w-3.5 animate-spin text-gold" />
-                    {t("checkout.loading")}
-                  </p>
-                )}
-
-                {/* The hosted page carries methods the embed leaves out. */}
+                {/* The hosted page stays one tap away. */}
                 <a
                   href={hostedUrl}
                   target="_blank"
