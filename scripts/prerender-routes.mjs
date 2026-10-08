@@ -303,6 +303,24 @@ for (const route of routes) {
 }
 
 /**
+ * The page Whop returns buyers to after an off-site payment step. It must
+ * answer 200 (GitHub Pages would otherwise serve it as a 404), but it is not
+ * a page anyone should find in search, so it stays out of the sitemap and
+ * says noindex.
+ * صفحة العودة من الدفع: تُكتب لتُخدم بنجاح، لكنها خارج خريطة الموقع ومحجوبة عن الفهرسة.
+ */
+for (const lang of LANGS) {
+  const title = escape(`${say("done.title", lang)} | ${lang === "en" ? "The Edible Codex" : "ذا إديبل كودكس"}`);
+  let html = template
+    .replace(/<title>[\s\S]*?<\/title>/, `<title>${title}</title>`)
+    .replace("</head>", `  <meta name="robots" content="noindex" />\n  </head>`);
+  if (lang === "en") html = html.replace('<html lang="ar" dir="rtl">', '<html lang="en" dir="ltr">');
+  const target = path.join(dist, at("/checkout/complete/", lang), "index.html");
+  fs.mkdirSync(path.dirname(target), { recursive: true });
+  fs.writeFileSync(target, html);
+}
+
+/**
  * Addresses Google may still hold from earlier versions of the site: the
  * /product/<slug> shape the shop first used, and four products that were
  * retired. Without a page behind them they surface as "Not found (404)" in

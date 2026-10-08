@@ -23,6 +23,7 @@ import ContactPage from "@/pages/ContactPage";
 import FaqPage from "@/pages/FaqPage";
 import PolicyPage from "@/pages/PolicyPage";
 import NotFoundPage from "@/pages/NotFoundPage";
+import CheckoutCompletePage from "@/pages/CheckoutCompletePage";
 
 const queryClient = new QueryClient();
 
@@ -57,6 +58,7 @@ const App = () => (
                       <Route path={`${prefix}/faq`} element={<FaqPage />} />
                       <Route path={`${prefix}/contact`} element={<ContactPage />} />
                       <Route path={`${prefix}/policies/:slug`} element={<PolicyPage />} />
+                      <Route path={`${prefix}/checkout/complete`} element={<CheckoutCompletePage />} />
                     </Fragment>
                   ))}
                   <Route path="/index" element={<Navigate to="/" replace />} />
