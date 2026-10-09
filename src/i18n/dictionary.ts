@@ -14,6 +14,17 @@ export const dictionary = {
   "nav.close": { ar: "إغلاق", en: "Close" },
   "nav.skip": { ar: "تخطَّ إلى المحتوى", en: "Skip to content" },
   "reviews.swipe": { ar: "اسحب لرؤية المزيد", en: "Swipe for more" },
+
+  /* ── Home · the 3D book ── */
+  "flip.eyebrow": { ar: "قلّب الكتاب بنفسك", en: "Turn the Pages Yourself" },
+  "flip.hint": { ar: "انزل لتفتح الكتاب وتقلّب صفحاته", en: "Scroll to open the book and turn its pages" },
+  "flip.counter": { ar: "وصفة من داخل الكتاب", en: "recipes from inside the book" },
+  "flip.serves": { ar: "لـ", en: "Serves" },
+  "flip.end.title": { ar: "وصفة أخرى بانتظارك في الكتاب", en: "more recipes waiting inside the book" },
+  "flip.end.body": {
+    ar: "هذه ١٨ وصفة فقط. الكتاب كاملاً: ٣٦١ وصفة في ٣٨٦ صفحة، بتحميل فوري.",
+    en: "That was just 18. The full book: 361 recipes across 386 pages, instant download.",
+  },
   "nav.cart": { ar: "السلة", en: "Cart" },
   "nav.search": { ar: "بحث", en: "Search" },
   "nav.language": { ar: "English", en: "العربية" },
