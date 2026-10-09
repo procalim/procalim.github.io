@@ -12,7 +12,7 @@ import { faqs, getProduct, testimonials } from "@/data/products";
 import BuyButton from "@/components/BuyButton";
 import { bookPages, brandImages, site } from "@/data/site";
 import PlateStory from "@/components/cinematic/PlateStory";
-import BookReveal from "@/components/cinematic/BookReveal";
+import BookFlip3D from "@/components/cinematic/BookFlip3D";
 import GoldBand from "@/components/cinematic/GoldBand";
 import RecipeReel from "@/components/cinematic/RecipeReel";
 import SauceFeature from "@/components/cinematic/SauceFeature";
@@ -151,7 +151,7 @@ const HomePage = () => {
       </section>
 
       {/* ── FLAGSHIP · the book opens, then the offer ── */}
-      <BookReveal />
+      <BookFlip3D />
 
       <section className="texture-navy pb-14 pt-2 md:pb-20 md:pt-6">
         <div className="container-luxe grid items-center gap-14 lg:grid-cols-2">
