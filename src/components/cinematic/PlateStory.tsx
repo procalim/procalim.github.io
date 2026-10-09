@@ -5,6 +5,7 @@ import { useLang } from "@/i18n/LanguageContext";
 import type { DictKey } from "@/i18n/dictionary";
 import { brandImages } from "@/data/site";
 import { clamp01, easeOut, prefersReducedMotion, useScrollProgress } from "@/hooks/use-scroll-progress";
+import Picture from "@/components/Picture";
 
 /**
  * The home page opens on the plates themselves. The section is three screens
@@ -120,7 +121,7 @@ const PlateStory = ({ flagshipPath }: { flagshipPath: string }) => {
         {/* The plates — black on black, so the photographs melt into the stage */}
         <div className="absolute inset-x-0 bottom-[118px] top-[36%] sm:bottom-[170px] lg:inset-y-0 lg:bottom-0 lg:start-auto lg:w-[56%]">
           {SCENES.map((scene, i) => (
-            <img
+            <Picture
               key={scene.image}
               ref={(el) => (images.current[i] = el)}
               src={scene.image}
@@ -172,7 +173,7 @@ const PlateStory = ({ flagshipPath }: { flagshipPath: string }) => {
                       {t(scene.line1)}
                       <span className="block gold-text">{t(scene.line2)}</span>
                     </Heading>
-                    <p className="mt-3 max-w-md text-[13px] leading-relaxed text-ivory/75 md:text-base lg:mt-5">
+                    <p className="mt-3 max-w-md text-[14px] leading-relaxed text-ivory/80 md:text-base lg:mt-5">
                       {t(scene.body)}
                     </p>
                   </div>
@@ -200,9 +201,9 @@ const PlateStory = ({ flagshipPath }: { flagshipPath: string }) => {
             </div>
 
             <div className="flex items-center gap-4">
-              <span className="font-poster text-sm text-gold" dir="ltr">
+              <span className="font-poster text-sm tabular-nums text-gold" dir="ltr">
                 <span ref={counter}>01</span>
-                <span className="text-ivory/40"> / {String(SCENES.length).padStart(2, "0")}</span>
+                <span className="text-ivory/60"> / {String(SCENES.length).padStart(2, "0")}</span>
               </span>
               <div className="h-px flex-1 overflow-hidden bg-ivory/15">
                 <div ref={bar} className="h-full origin-[left] bg-gold rtl:origin-[right]" style={{ transform: "scaleX(0)" }} />

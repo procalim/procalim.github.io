@@ -39,7 +39,7 @@ const App = () => (
             <div className="flex min-h-screen flex-col">
               <AnnouncementBar />
               <Navbar />
-              <main className="flex-1">
+              <main id="main" tabIndex={-1} className="flex-1 outline-none">
                 <Routes>
                   {/* Every page twice: Arabic at the root, English under /en.
                       كل صفحة مرتين: العربية في الجذر والإنجليزية تحت /en. */}

@@ -62,7 +62,7 @@ const Navbar = () => {
           <button
             type="button"
             onClick={toggleLang}
-            className="flex items-center gap-1.5 rounded-sm border border-gold/35 px-3 py-2 text-[11px] font-semibold uppercase tracking-[0.12em] text-gold transition-colors hover:border-gold hover:text-ivory"
+            className="flex h-11 items-center gap-1.5 rounded-sm border border-gold/35 px-3 text-[11px] font-semibold uppercase tracking-[0.12em] text-gold transition-colors hover:border-gold hover:text-ivory"
           >
             <Globe className="h-3.5 w-3.5" />
             {t("nav.language")}
@@ -74,7 +74,7 @@ const Navbar = () => {
             onClick={() => setOpen((v) => !v)}
             aria-label={open ? t("nav.close") : t("nav.menu")}
             aria-expanded={open}
-            className="grid h-10 w-10 place-items-center rounded-sm text-gold lg:hidden"
+            className="grid h-11 w-11 place-items-center rounded-sm text-gold lg:hidden"
           >
             {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </button>

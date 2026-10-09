@@ -12,6 +12,8 @@ export const dictionary = {
   "nav.contact": { ar: "تواصل", en: "Contact" },
   "nav.menu": { ar: "القائمة", en: "Menu" },
   "nav.close": { ar: "إغلاق", en: "Close" },
+  "nav.skip": { ar: "تخطَّ إلى المحتوى", en: "Skip to content" },
+  "reviews.swipe": { ar: "اسحب لرؤية المزيد", en: "Swipe for more" },
   "nav.cart": { ar: "السلة", en: "Cart" },
   "nav.search": { ar: "بحث", en: "Search" },
   "nav.language": { ar: "English", en: "العربية" },

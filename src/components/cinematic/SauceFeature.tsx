@@ -7,6 +7,7 @@ import type { DictKey } from "@/i18n/dictionary";
 import { getProduct } from "@/data/products";
 import { brandImages } from "@/data/site";
 import { prefersReducedMotion, sceneState, useScrollProgress } from "@/hooks/use-scroll-progress";
+import Picture from "@/components/Picture";
 
 /**
  * The free guide gets its own scene. The finished plate — all five sauces
@@ -86,7 +87,7 @@ const SauceFeature = () => {
               {t("sauces.line1")}
               <span className="block gold-text">{t("sauces.line2")}</span>
             </h2>
-            <p className="mt-3 max-w-md text-[13px] leading-relaxed text-ivory/75 md:text-[15px]">
+            <p className="mt-3 max-w-md text-[14px] leading-relaxed text-ivory/80 md:text-[15px]">
               {t("sauces.body")}
             </p>
 
@@ -123,7 +124,7 @@ const SauceFeature = () => {
               <BuyButton product={product} />
               <Link
                 to={`/shop/${product.slug}/`}
-                className="text-[12px] font-semibold uppercase tracking-[0.16em] text-gold hover:text-ivory"
+                className="inline-flex min-h-[44px] items-center text-[12px] font-semibold uppercase tracking-[0.16em] text-gold hover:text-ivory"
               >
                 {t("sauces.more")}
               </Link>
@@ -132,7 +133,7 @@ const SauceFeature = () => {
 
           {/* The plate */}
           <div className="order-2 flex h-[28svh] min-h-0 justify-center lg:h-[62svh]">
-            <img
+            <Picture
               ref={plate}
               src={brandImages.fiveSauces}
               alt={t("sauces.alt")}
@@ -146,7 +147,7 @@ const SauceFeature = () => {
             <BuyButton product={product} className="flex-1" />
             <Link
               to={`/shop/${product.slug}/`}
-              className="shrink-0 text-[11px] font-semibold uppercase tracking-[0.14em] text-gold"
+              className="inline-flex min-h-[44px] shrink-0 items-center text-[12px] font-semibold uppercase tracking-[0.14em] text-gold"
             >
               {t("sauces.more")}
               <ArrowRight className="ms-1 inline h-3 w-3 flip-rtl" />

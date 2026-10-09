@@ -57,7 +57,7 @@ const VideoCard = ({ video }: { video: SiteVideo }) => {
             {L(video.title)}
           </Link>
         </h3>
-        <p className="mt-1 line-clamp-3 text-[12px] leading-relaxed text-ivory/55">
+        <p className="mt-1 line-clamp-3 text-[12.5px] leading-relaxed text-ivory/70">
           {L(video.description)}
         </p>
       </figcaption>
@@ -83,8 +83,10 @@ const VideoStrip = () => {
         </p>
 
         <div className="mt-8 grid grid-cols-2 gap-4 md:mt-12 md:grid-cols-4 md:gap-6">
-          {videos.map((video) => (
-            <VideoCard key={video.slug} video={video} />
+          {videos.map((video, i) => (
+            <div key={video.slug} data-reveal={i}>
+              <VideoCard video={video} />
+            </div>
           ))}
         </div>
 

@@ -16,7 +16,7 @@ const TrustStrip = () => {
         {items.map(({ Icon, label }) => (
           <div key={label} className="flex items-center justify-center gap-2.5 px-3 py-3.5 md:py-5">
             <Icon className="h-4 w-4 shrink-0 text-ink md:h-5 md:w-5" />
-            <span className="text-[10.5px] font-bold uppercase tracking-[0.12em] text-ink md:text-[11px]">{label}</span>
+            <span className="text-[11px] font-bold uppercase tracking-[0.12em] text-ink md:text-[11px]">{label}</span>
           </div>
         ))}
       </div>

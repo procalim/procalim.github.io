@@ -7,7 +7,11 @@ const AnnouncementBar = () => {
 
   return (
     <div className="relative overflow-hidden bg-ink py-2.5">
-      <div className="flex w-max animate-marquee items-center gap-12 whitespace-nowrap will-change-transform">
+      {/* The first thing a keyboard reaches: a way past the header */}
+      <a href="#main" className="skip-link">
+        {t("nav.skip")}
+      </a>
+      <div className="flex w-max animate-marquee items-center gap-12 whitespace-nowrap will-change-transform hover:[animation-play-state:paused] motion-reduce:animate-none">
         {[0, 1].map((pass) => (
           <div key={pass} className="flex items-center gap-12" aria-hidden={pass === 1}>
             {messages.map((message) => (

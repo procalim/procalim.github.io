@@ -1,5 +1,6 @@
+import { useRef } from "react";
 import { Link } from "@/components/LocalLink";
-import { ArrowRight, BookOpen, ChefHat, Check, Droplets, Infinity as InfinityIcon, Quote, Star } from "lucide-react";
+import { ArrowRight, BookOpen, ChefHat, Check, ChevronsLeftRight, Droplets, Infinity as InfinityIcon, Quote, Star } from "lucide-react";
 import Seo from "@/components/Seo";
 import { localePath } from "@/i18n/locale-path";
 import SectionHeading from "@/components/SectionHeading";
@@ -15,10 +16,14 @@ import BookReveal from "@/components/cinematic/BookReveal";
 import GoldBand from "@/components/cinematic/GoldBand";
 import RecipeReel from "@/components/cinematic/RecipeReel";
 import SauceFeature from "@/components/cinematic/SauceFeature";
+import { useReveal } from "@/hooks/use-reveal";
+import Picture from "@/components/Picture";
 
 const HomePage = () => {
   const { t, L, lang } = useLang();
   const flagship = getProduct("the-edible-codex")!;
+  const page = useRef<HTMLDivElement>(null);
+  useReveal(page);
 
   const valueProps = [
     { Icon: ChefHat, title: t("value.1.title"), body: t("value.1.body") },
@@ -28,7 +33,7 @@ const HomePage = () => {
   ];
 
   return (
-    <>
+    <div ref={page} className="bg-ink">
       <Seo
         title={t("seo.home.title")}
         description={t("seo.home.desc")}
@@ -71,17 +76,19 @@ const HomePage = () => {
       {/* ── THE CHEF ── */}
       <section className="texture-dark overflow-hidden py-14 md:py-20">
         <div className="container-luxe grid items-center gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-16">
-          <div className="relative mx-auto w-full max-w-sm lg:max-w-none">
+          <div data-reveal className="relative mx-auto w-full max-w-sm lg:max-w-none">
             <div className="absolute -inset-3 rounded-sm border border-gold/25" aria-hidden="true" />
-            <img
+            <Picture
               src={brandImages.chefPortrait}
+              width={1100}
+              height={1473}
               alt={lang === "ar" ? site.brand.chefAr : site.brand.chefEn}
               loading="lazy"
               className="relative aspect-[4/5] w-full rounded-sm object-cover object-top shadow-luxe"
             />
           </div>
 
-          <div>
+          <div data-reveal="2">
             <span className="eyebrow eyebrow-start">{t("chef.eyebrow")}</span>
             <h2 className="font-poster mt-4 text-[clamp(2.4rem,8vw,5rem)] uppercase leading-[0.95] text-ivory">
               {lang === "ar" ? site.brand.chefAr : site.brand.chefEn}
@@ -99,7 +106,7 @@ const HomePage = () => {
               ].map((stat) => (
                 <div key={stat.label}>
                   <dt className="font-poster text-4xl text-gold md:text-5xl">{stat.value}</dt>
-                  <dd className="mt-1.5 text-[11px] uppercase leading-relaxed tracking-[0.1em] text-ivory/50">
+                  <dd className="mt-1.5 text-[11px] uppercase leading-relaxed tracking-[0.1em] text-ivory/70">
                     {stat.label}
                   </dd>
                 </div>
@@ -125,8 +132,8 @@ const HomePage = () => {
           />
 
           <div className="-mt-4 grid grid-cols-2 gap-px overflow-hidden rounded-sm border border-gold/30 bg-gold/30 lg:grid-cols-4">
-            {valueProps.map(({ Icon, title, body }) => (
-              <div key={title} className="group bg-ink/90 p-4 transition-colors duration-300 hover:bg-navy-800 md:p-8">
+            {valueProps.map(({ Icon, title, body }, i) => (
+              <div key={title} data-reveal={i + 1} className="group bg-ink/90 p-4 transition-colors duration-300 hover:bg-navy-800 md:p-8">
                 <span className="grid h-10 w-10 place-items-center rounded-sm bg-gold-gradient text-ink md:h-12 md:w-12">
                   <Icon className="h-5 w-5" />
                 </span>
@@ -145,7 +152,7 @@ const HomePage = () => {
         <div className="container-luxe grid items-center gap-14 lg:grid-cols-2">
           <div className="relative order-2 hidden lg:order-1 lg:block">
             <div className="absolute -inset-4 rounded-sm border border-gold/20" aria-hidden="true" />
-            <img
+            <Picture
               src={bookPages.onScreen}
               alt={L(flagship.title)}
               loading="lazy"
@@ -153,7 +160,7 @@ const HomePage = () => {
             />
           </div>
 
-          <div className="order-1 lg:order-2">
+          <div data-reveal className="order-1 lg:order-2">
             <span className="eyebrow eyebrow-start">{t("featured.eyebrow")}</span>
             <h2 className="mt-5 font-display text-3xl leading-tight text-ivory md:text-[2.7rem]">
               {t("featured.title")}
@@ -173,11 +180,11 @@ const HomePage = () => {
 
             <div className="mt-7 flex flex-wrap items-center gap-6">
               <div className="flex items-baseline gap-3">
-                <span className="font-display text-4xl text-gold">
+                <span className="font-display text-4xl tabular-nums text-gold">
                   {formatPrice(flagship.price, lang, site.currency.symbol)}
                 </span>
                 {flagship.compareAt && (
-                  <span className="text-lg text-ivory/40 line-through">
+                  <span className="text-lg text-ivory/60 line-through tabular-nums">
                     {formatPrice(flagship.compareAt, lang, site.currency.symbol)}
                   </span>
                 )}
@@ -192,12 +199,17 @@ const HomePage = () => {
       <section className="texture-dark py-14 md:py-20">
         <div className="container-luxe">
           <SectionHeading eyebrow={t("reviews.eyebrow")} title={t("reviews.title")} subtitle={t("reviews.rating")} tone="light" />
+          <p className="-mt-8 mb-5 flex items-center justify-center gap-2 text-[12px] uppercase tracking-[0.14em] text-gold/85 md:hidden">
+            <ChevronsLeftRight className="h-4 w-4" aria-hidden="true" />
+            {t("reviews.swipe")}
+          </p>
         </div>
 
         <div className="-mt-4 flex snap-x snap-mandatory gap-4 overflow-x-auto px-5 pb-2 [scrollbar-width:none] md:container-luxe md:grid md:grid-cols-2 md:gap-6 md:overflow-visible lg:grid-cols-3 [&::-webkit-scrollbar]:hidden">
-          {testimonials.map((review) => (
+          {testimonials.map((review, i) => (
             <blockquote
               key={L(review.name)}
+              data-reveal={Math.min(i, 3)}
               className="flex w-[82%] shrink-0 snap-center flex-col rounded-sm border border-gold/25 bg-navy-800/60 p-6 md:w-auto"
             >
               <div className="flex items-center gap-1">
@@ -210,7 +222,7 @@ const HomePage = () => {
                 <Quote className="h-5 w-5 shrink-0 text-gold/50 flip-rtl" />
                 <div>
                   <p className="font-display text-[14px] text-gold">{L(review.name)}</p>
-                  <p className="mt-0.5 text-[10px] uppercase tracking-[0.12em] text-ivory/45">
+                  <p className="mt-0.5 text-[11px] uppercase tracking-[0.12em] text-ivory/65">
                     {L(review.role)} · {t("reviews.verified")}
                   </p>
                 </div>
@@ -222,7 +234,7 @@ const HomePage = () => {
 
       {/* ── OFFER ── */}
       <section className="relative overflow-hidden border-y border-gold/40 bg-ink">
-        <img
+        <Picture
           src={brandImages.chefShrimp}
           alt=""
           aria-hidden="true"
@@ -230,7 +242,7 @@ const HomePage = () => {
           className="absolute inset-0 h-full w-full object-cover opacity-15"
         />
         <div className="container-luxe relative z-10 py-16 text-center md:py-24">
-          <span className="eyebrow">{t("offer.eyebrow")}</span>
+          <span data-reveal className="eyebrow">{t("offer.eyebrow")}</span>
           <h2 className="font-poster mx-auto mt-6 max-w-3xl text-[clamp(2.2rem,7vw,4.4rem)] uppercase leading-[0.95] text-ivory text-balance">
             {t("offer.title")}
           </h2>
@@ -241,7 +253,7 @@ const HomePage = () => {
               {t("offer.cta")}
               <ArrowRight className="h-4 w-4 flip-rtl" />
             </Link>
-            <span className="text-[12px] uppercase tracking-[0.14em] text-ivory/50">{t("product.guaranteeValue")}</span>
+            <span className="text-[12px] uppercase tracking-[0.14em] text-ivory/70">{t("product.guaranteeValue")}</span>
           </div>
         </div>
       </section>
@@ -253,7 +265,7 @@ const HomePage = () => {
 
           <Accordion type="single" collapsible className="mx-auto -mt-4 max-w-3xl">
             {faqs.slice(0, 4).map((faq, i) => (
-              <AccordionItem key={i} value={`faq-${i}`} className="border-b border-gold/25">
+              <AccordionItem key={i} data-reveal={i} value={`faq-${i}`} className="border-b border-gold/25">
                 <AccordionTrigger className="py-5 text-start font-display text-base text-ivory hover:text-gold hover:no-underline [&>svg]:text-gold">
                   {L(faq.q)}
                 </AccordionTrigger>
@@ -272,7 +284,7 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 

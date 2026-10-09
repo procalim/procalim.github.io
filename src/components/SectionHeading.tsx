@@ -9,7 +9,7 @@ type Props = {
 const SectionHeading = ({ eyebrow, title, subtitle, align = "center", tone = "dark" }: Props) => {
   const isCenter = align === "center";
   return (
-    <div className={`${isCenter ? "mx-auto max-w-2xl text-center" : "max-w-2xl text-start"} mb-12`}>
+    <div data-reveal className={`${isCenter ? "mx-auto max-w-2xl text-center" : "max-w-2xl text-start"} mb-12`}>
       {eyebrow && <span className={`eyebrow ${isCenter ? "" : "eyebrow-start"}`}>{eyebrow}</span>}
       <h2
         className={`mt-5 text-3xl leading-tight md:text-[2.6rem] ${

@@ -3,6 +3,7 @@ import { useLang } from "@/i18n/LanguageContext";
 import type { DictKey } from "@/i18n/dictionary";
 import { bookPages } from "@/data/site";
 import { clamp01, easeOut, prefersReducedMotion, useScrollProgress } from "@/hooks/use-scroll-progress";
+import Picture from "@/components/Picture";
 
 /**
  * The book opens itself. The cover sits alone in the middle of a pinned
@@ -78,7 +79,7 @@ const BookReveal = () => {
           <h2 className="font-poster mx-auto mt-3 text-[clamp(2.4rem,9.5vw,6rem)] uppercase leading-[0.95] text-ivory">
             {t("reveal.line1")} <span className="gold-text sm:inline block">{t("reveal.line2")}</span>
           </h2>
-          <p className="mx-auto mt-3 max-w-xl text-[13px] leading-relaxed text-ivory/70 md:text-[15px]">
+          <p className="mx-auto mt-3 max-w-xl text-[14px] leading-relaxed text-ivory/80 md:text-[15px]">
             {t("reveal.body")}
           </p>
         </div>
@@ -91,14 +92,14 @@ const BookReveal = () => {
               className="absolute w-[30vw] max-w-[260px] will-change-transform md:w-[17vw]"
               style={{ opacity: 0, zIndex: 5 - Math.abs(page.slot) }}
             >
-              <img
+              <Picture
                 src={page.image}
                 alt={t(page.label)}
                 loading="lazy"
                 decoding="async"
                 className="aspect-[4/5] w-full rounded-sm object-cover shadow-luxe ring-1 ring-gold/25"
               />
-              <figcaption className="mt-2 text-center text-[10px] uppercase tracking-[0.16em] text-gold/80">
+              <figcaption className="mt-2 text-center text-[11px] uppercase tracking-[0.16em] text-gold/80">
                 {t(page.label)}
               </figcaption>
             </figure>
@@ -109,7 +110,7 @@ const BookReveal = () => {
             className="relative z-10 w-[38vw] max-w-[290px] will-change-transform md:w-[19vw]"
           >
             <div className="absolute -inset-3 rounded-sm border border-gold/30" aria-hidden="true" />
-            <img
+            <Picture
               src={bookPages.cover}
               alt={t("featured.title")}
               loading="lazy"

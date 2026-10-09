@@ -12,7 +12,7 @@ const GoldBand = () => {
 
   return (
     <div className="relative overflow-hidden border-y border-gold/30 bg-gold-gradient py-4 md:py-5">
-      <div className="flex w-max animate-marquee items-center whitespace-nowrap will-change-transform motion-reduce:animate-none">
+      <div className="flex w-max animate-marquee items-center whitespace-nowrap will-change-transform hover:[animation-play-state:paused] motion-reduce:animate-none">
         {[0, 1].map((pass) => (
           <div key={pass} className="flex items-center" aria-hidden={pass === 1}>
             {items.map((item) => (
