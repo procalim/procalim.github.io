@@ -40,7 +40,7 @@ export const products: Product[] = [
     id: 1,
     slug: "the-edible-codex",
     title: { ar: "٢٦١ وصفة احترافية + ١٠٠ وصفة مجاناً", en: "261 Chef Recipes + 100 Free" },
-    subtitle: { ar: "كتاب رقمي — ذا إديبل كودكس في ٣٨٦ صفحة", en: "A digital book — The Edible Codex in 386 pages" },
+    subtitle: { ar: "٣٦١ وصفة في ٣٨٦ صفحة — مطبخ مطعم كامل بسعر وجبة واحدة", en: "361 recipes in 386 pages — a restaurant kitchen for the price of one meal" },
     description: {
       ar: "المجلّد الرقمي الكامل: ٣٦١ وصفة في ٣٨٦ صفحة — ٢٦١ وصفة من المطبخ المحترف، ومعها ١٠٠ وصفة من الوصفات التي اجتاحت الإنترنت، مجاناً. كل وصفة على صفحة واحدة، بصورتها الخاصة، بالمقادير والخطوات وملاحظة الشيف — لا تقليب بين صفحتين وأنت تطبخ.",
       en: "The complete digital volume: 361 recipes across 386 pages — 261 from a professional kitchen, plus 100 of the internet's most-cooked dishes, free. Every recipe sits on a single page with its own photograph, its measurements, its method and a chef's note — no flipping back and forth while you cook.",
@@ -75,7 +75,7 @@ export const products: Product[] = [
     id: 2,
     slug: "the-five-sauces",
     title: { ar: "الصلصات الخمس", en: "The Five Signature Sauces" },
-    subtitle: { ar: "خمس صلصات ملوّنة — هديّة مجانية", en: "Five colour sauces — free gift" },
+    subtitle: { ar: "خمس صلصات ملوّنة — السرّ خلف كل طبق، مجاناً", en: "Five colour sauces — the secret behind every plate, free" },
     description: {
       ar: "الصلصة هي الفرق بين طبق جيّد وطبق يُذكر. خمس صلصات — البنجر، الكركم، الأعشاب، الفلفل المشوي، والبلسمك المركّز — بنِسَب مضبوطة بالجرام، وخطوات مصوّرة، وطرق حفظ ومدد صلاحية واضحة. نفس الصلصات التي تراها في صور الأطباق.",
       en: "Sauce is the difference between a good plate and a memorable one. Five sauces — beetroot, turmeric, herb, roasted pepper and reduced balsamic — with exact ratios in grams, photographed steps, storage methods and honest shelf lives. The same sauces you see on the plates.",
