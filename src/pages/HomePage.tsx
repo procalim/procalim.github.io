@@ -73,6 +73,8 @@ const HomePage = () => {
 
       <VideoStrip />
 
+      <div className="gold-divider" aria-hidden="true" />
+
       {/* ── THE CHEF ── */}
       <section className="texture-dark overflow-hidden py-14 md:py-20">
         <div className="container-luxe grid items-center gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-16">
@@ -121,6 +123,8 @@ const HomePage = () => {
         </div>
       </section>
 
+      <div className="gold-divider" aria-hidden="true" />
+
       {/* ── VALUE PROPS ── */}
       <section className="texture-navy py-14 md:py-20">
         <div className="container-luxe">
@@ -129,6 +133,7 @@ const HomePage = () => {
             title={t("value.title")}
             subtitle={t("value.subtitle")}
             tone="light"
+            numeral="01"
           />
 
           <div className="-mt-4 grid grid-cols-2 gap-px overflow-hidden rounded-sm border border-gold/30 bg-gold/30 lg:grid-cols-4">
@@ -195,10 +200,12 @@ const HomePage = () => {
         </div>
       </section>
 
+      <div className="gold-divider" aria-hidden="true" />
+
       {/* ── REVIEWS · swiped sideways on a phone rather than stacked ── */}
       <section className="texture-dark py-14 md:py-20">
         <div className="container-luxe">
-          <SectionHeading eyebrow={t("reviews.eyebrow")} title={t("reviews.title")} subtitle={t("reviews.rating")} tone="light" />
+          <SectionHeading eyebrow={t("reviews.eyebrow")} title={t("reviews.title")} subtitle={t("reviews.rating")} tone="light" numeral="02" />
           <p className="-mt-8 mb-5 flex items-center justify-center gap-2 text-[12px] uppercase tracking-[0.14em] text-gold/85 md:hidden">
             <ChevronsLeftRight className="h-4 w-4" aria-hidden="true" />
             {t("reviews.swipe")}
@@ -258,10 +265,12 @@ const HomePage = () => {
         </div>
       </section>
 
+      <div className="gold-divider" aria-hidden="true" />
+
       {/* ── FAQ ── */}
       <section className="texture-navy py-14 md:py-20">
         <div className="container-luxe">
-          <SectionHeading eyebrow={t("faq.eyebrow")} title={t("faq.title")} subtitle={t("faq.subtitle")} tone="light" />
+          <SectionHeading eyebrow={t("faq.eyebrow")} title={t("faq.title")} subtitle={t("faq.subtitle")} tone="light" numeral="03" />
 
           <Accordion type="single" collapsible className="mx-auto -mt-4 max-w-3xl">
             {faqs.slice(0, 4).map((faq, i) => (

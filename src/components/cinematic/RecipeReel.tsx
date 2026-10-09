@@ -114,6 +114,12 @@ const RecipeReel = () => {
           />
         </div>
 
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0"
+          style={{ background: "radial-gradient(ellipse at 50% 35%, transparent 45%, rgba(0,0,0,0.5) 100%)" }}
+        />
+
         {/* Section label and progress, pinned to the top */}
         <div className="absolute inset-x-0 top-[86px] z-10">
           <div className="container-luxe flex items-center gap-4">

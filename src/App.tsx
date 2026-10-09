@@ -10,6 +10,7 @@ import AnnouncementBar from "@/components/layout/AnnouncementBar";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
+import SmoothScroll from "@/components/layout/SmoothScroll";
 import RouteTracker from "@/components/RouteTracker";
 import HomePage from "@/pages/HomePage";
 import ShopPage from "@/pages/ShopPage";
@@ -35,8 +36,10 @@ const App = () => (
           <Sonner />
           <BrowserRouter basename={import.meta.env.BASE_URL}>
             <ScrollToTop />
+            <SmoothScroll />
             <RouteTracker />
             <div className="flex min-h-screen flex-col">
+              <div className="film-grain" aria-hidden="true" />
               <AnnouncementBar />
               <Navbar />
               <main id="main" tabIndex={-1} className="flex-1 outline-none">
