@@ -82,7 +82,7 @@ const RecipeReel = () => {
     <section
       ref={section}
       className="relative bg-ink"
-      style={{ height: `${scenes.length * 75 + 30}svh` }}
+      style={{ height: `${scenes.length * 58 + 22}svh` }}
       aria-label={t("reel.eyebrow")}
     >
       <div className="sticky top-0 h-[100svh] overflow-hidden">

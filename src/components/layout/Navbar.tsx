@@ -33,11 +33,11 @@ const Navbar = () => {
   return (
     <header
       className={`sticky top-0 z-50 border-b transition-all duration-300 ${
-        scrolled ? "border-gold/25 bg-ivory/95 shadow-sm backdrop-blur-md" : "border-transparent bg-ivory"
+        scrolled ? "border-gold/30 bg-ink/95 shadow-luxe backdrop-blur-md" : "border-gold/15 bg-ink"
       }`}
     >
       <div className="container-luxe flex h-[74px] items-center justify-between gap-4">
-        <Logo />
+        <Logo tone="light" />
 
         <nav className="hidden items-center gap-9 lg:flex">
           {links.map((link) => (
@@ -48,8 +48,8 @@ const Navbar = () => {
               className={({ isActive }) =>
                 `relative py-1 text-[12px] font-semibold uppercase tracking-[0.16em] transition-colors after:absolute after:-bottom-0.5 after:start-0 after:h-px after:bg-gold after:transition-all after:duration-300 ${
                   isActive
-                    ? "text-gold-600 after:w-full"
-                    : "text-navy-700/80 after:w-0 hover:text-gold-600 hover:after:w-full"
+                    ? "text-gold after:w-full"
+                    : "text-ivory/75 after:w-0 hover:text-gold hover:after:w-full"
                 }`
               }
             >
@@ -62,7 +62,7 @@ const Navbar = () => {
           <button
             type="button"
             onClick={toggleLang}
-            className="flex items-center gap-1.5 rounded-sm border border-navy/15 px-3 py-2 text-[11px] font-semibold uppercase tracking-[0.12em] text-navy-700 transition-colors hover:border-gold hover:text-gold-600"
+            className="flex items-center gap-1.5 rounded-sm border border-gold/35 px-3 py-2 text-[11px] font-semibold uppercase tracking-[0.12em] text-gold transition-colors hover:border-gold hover:text-ivory"
           >
             <Globe className="h-3.5 w-3.5" />
             {t("nav.language")}
@@ -74,7 +74,7 @@ const Navbar = () => {
             onClick={() => setOpen((v) => !v)}
             aria-label={open ? t("nav.close") : t("nav.menu")}
             aria-expanded={open}
-            className="grid h-10 w-10 place-items-center rounded-sm text-navy-700 lg:hidden"
+            className="grid h-10 w-10 place-items-center rounded-sm text-gold lg:hidden"
           >
             {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </button>
@@ -83,7 +83,7 @@ const Navbar = () => {
 
       {/* Mobile drawer */}
       <div
-        className={`overflow-hidden border-t border-gold/20 bg-ivory transition-[max-height] duration-300 lg:hidden ${
+        className={`overflow-hidden border-t border-gold/20 bg-ink transition-[max-height] duration-300 lg:hidden ${
           open ? "max-h-96" : "max-h-0 border-t-0"
         }`}
       >
@@ -94,8 +94,8 @@ const Navbar = () => {
               to={link.to}
               end={link.to === "/"}
               className={({ isActive }) =>
-                `border-b border-border/60 py-3.5 text-[13px] font-semibold uppercase tracking-[0.14em] last:border-0 ${
-                  isActive ? "text-gold-600" : "text-navy-700"
+                `border-b border-gold/10 py-3.5 text-[13px] font-semibold uppercase tracking-[0.14em] last:border-0 ${
+                  isActive ? "text-gold" : "text-ivory/85"
                 }`
               }
             >

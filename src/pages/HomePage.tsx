@@ -3,14 +3,11 @@ import { ArrowRight, BookOpen, ChefHat, Check, Droplets, Infinity as InfinityIco
 import Seo from "@/components/Seo";
 import { localePath } from "@/i18n/locale-path";
 import SectionHeading from "@/components/SectionHeading";
-import ProductCard from "@/components/ProductCard";
 import TrustStrip from "@/components/TrustStrip";
 import VideoStrip from "@/components/VideoStrip";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { formatPrice, useLang } from "@/i18n/LanguageContext";
-import { faqs, getProduct, products, testimonials } from "@/data/products";
-import { recipes } from "@/data/recipes";
-import RecipeCard from "@/components/RecipeCard";
+import { faqs, getProduct, testimonials } from "@/data/products";
 import BuyButton from "@/components/BuyButton";
 import { bookPages, brandImages, site } from "@/data/site";
 import PlateStory from "@/components/cinematic/PlateStory";
@@ -72,7 +69,7 @@ const HomePage = () => {
       <VideoStrip />
 
       {/* ── THE CHEF ── */}
-      <section className="texture-dark section overflow-hidden">
+      <section className="texture-dark overflow-hidden py-14 md:py-20">
         <div className="container-luxe grid items-center gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-16">
           <div className="relative mx-auto w-full max-w-sm lg:max-w-none">
             <div className="absolute -inset-3 rounded-sm border border-gold/25" aria-hidden="true" />
@@ -118,28 +115,35 @@ const HomePage = () => {
       </section>
 
       {/* ── VALUE PROPS ── */}
-      <section className="section container-luxe">
-        <SectionHeading eyebrow={t("featured.eyebrow")} title={t("value.title")} subtitle={t("value.subtitle")} />
+      <section className="texture-navy py-14 md:py-20">
+        <div className="container-luxe">
+          <SectionHeading
+            eyebrow={t("featured.eyebrow")}
+            title={t("value.title")}
+            subtitle={t("value.subtitle")}
+            tone="light"
+          />
 
-        <div className="grid gap-px overflow-hidden rounded-sm border border-gold/20 bg-gold/20 sm:grid-cols-2 lg:grid-cols-4">
-          {valueProps.map(({ Icon, title, body }) => (
-            <div key={title} className="group bg-white p-8 transition-colors duration-300 hover:bg-ivory">
-              <span className="grid h-12 w-12 place-items-center rounded-sm bg-navy text-gold transition-colors duration-300 group-hover:bg-gold group-hover:text-ink">
-                <Icon className="h-5 w-5" />
-              </span>
-              <h3 className="mt-6 font-display text-lg text-navy-700">{title}</h3>
-              <p className="mt-3 text-[13px] leading-relaxed text-muted-foreground">{body}</p>
-            </div>
-          ))}
+          <div className="-mt-4 grid grid-cols-2 gap-px overflow-hidden rounded-sm border border-gold/30 bg-gold/30 lg:grid-cols-4">
+            {valueProps.map(({ Icon, title, body }) => (
+              <div key={title} className="group bg-ink/90 p-4 transition-colors duration-300 hover:bg-navy-800 md:p-8">
+                <span className="grid h-10 w-10 place-items-center rounded-sm bg-gold-gradient text-ink md:h-12 md:w-12">
+                  <Icon className="h-5 w-5" />
+                </span>
+                <h3 className="mt-4 font-display text-[15px] text-gold md:mt-6 md:text-lg">{title}</h3>
+                <p className="mt-2 text-[12px] leading-relaxed text-ivory/65 md:mt-3 md:text-[13px]">{body}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
       {/* ── FLAGSHIP · the book opens, then the offer ── */}
       <BookReveal />
 
-      <section className="texture-navy section pt-4 md:pt-8">
+      <section className="texture-navy pb-14 pt-2 md:pb-20 md:pt-6">
         <div className="container-luxe grid items-center gap-14 lg:grid-cols-2">
-          <div className="relative order-2 lg:order-1">
+          <div className="relative order-2 hidden lg:order-1 lg:block">
             <div className="absolute -inset-4 rounded-sm border border-gold/20" aria-hidden="true" />
             <img
               src={bookPages.onScreen}
@@ -156,7 +160,7 @@ const HomePage = () => {
             </h2>
             <p className="mt-5 text-[15px] leading-relaxed text-ivory/70">{t("featured.body")}</p>
 
-            <ul className="mt-8 space-y-3.5">
+            <ul className="mt-6 space-y-3">
               {["featured.bullet.1", "featured.bullet.2", "featured.bullet.3", "featured.bullet.4"].map((key) => (
                 <li key={key} className="flex items-start gap-3 text-[14px] text-ivory/85">
                   <span className="mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full bg-gold/15 text-gold">
@@ -167,7 +171,7 @@ const HomePage = () => {
               ))}
             </ul>
 
-            <div className="mt-9 flex flex-wrap items-center gap-6">
+            <div className="mt-7 flex flex-wrap items-center gap-6">
               <div className="flex items-baseline gap-3">
                 <span className="font-display text-4xl text-gold">
                   {formatPrice(flagship.price, lang, site.currency.symbol)}
@@ -184,69 +188,32 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* ── EDITIONS ── */}
-      <section className="bg-ivory-dim/50 section">
+      {/* ── REVIEWS · swiped sideways on a phone rather than stacked ── */}
+      <section className="texture-dark py-14 md:py-20">
         <div className="container-luxe">
-          <SectionHeading eyebrow={t("shop.eyebrow")} title={t("shop.title")} subtitle={t("shop.subtitle")} />
-
-          <div className="mx-auto grid max-w-4xl gap-7 sm:grid-cols-2">
-            {products.map((product) => (
-              <ProductCard key={product.id} product={product} />
-            ))}
-          </div>
-
-          <div className="mt-12 text-center">
-            <Link to="/shop/" className="btn-navy">
-              {t("shop.viewAll")}
-              <ArrowRight className="h-4 w-4 flip-rtl" />
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* ── FREE RECIPES ── */}
-      <section className="section container-luxe">
-        <SectionHeading
-          eyebrow={t("recipes.eyebrow")}
-          title={t("recipes.homeTitle")}
-          subtitle={t("recipes.homeBody")}
-        />
-
-        <div className="grid gap-7 sm:grid-cols-2 lg:grid-cols-3">
-          {recipes.slice(0, 3).map((recipe) => (
-            <RecipeCard key={recipe.slug} recipe={recipe} />
-          ))}
+          <SectionHeading eyebrow={t("reviews.eyebrow")} title={t("reviews.title")} subtitle={t("reviews.rating")} tone="light" />
         </div>
 
-        <div className="mt-12 text-center">
-          <Link to="/recipes/" className="btn-navy">
-            {t("recipes.homeCta")}
-            <ArrowRight className="h-4 w-4 flip-rtl" />
-          </Link>
-        </div>
-      </section>
-
-      {/* ── REVIEWS ── */}
-      <section className="section container-luxe">
-        <SectionHeading eyebrow={t("reviews.eyebrow")} title={t("reviews.title")} subtitle={t("reviews.rating")} />
-
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="-mt-4 flex snap-x snap-mandatory gap-4 overflow-x-auto px-5 pb-2 [scrollbar-width:none] md:container-luxe md:grid md:grid-cols-2 md:gap-6 md:overflow-visible lg:grid-cols-3 [&::-webkit-scrollbar]:hidden">
           {testimonials.map((review) => (
-            <blockquote key={L(review.name)} className="card-luxe flex h-full flex-col p-7">
-              <Quote className="h-7 w-7 text-gold/35 flip-rtl" />
-              <p className="mt-4 flex-1 text-[14px] leading-relaxed text-navy-800/85">“{L(review.quote)}”</p>
-
-              <div className="mt-6 flex items-center gap-1">
+            <blockquote
+              key={L(review.name)}
+              className="flex w-[82%] shrink-0 snap-center flex-col rounded-sm border border-gold/25 bg-navy-800/60 p-6 md:w-auto"
+            >
+              <div className="flex items-center gap-1">
                 {Array.from({ length: review.rating }).map((_, i) => (
                   <Star key={i} className="h-3.5 w-3.5 fill-gold text-gold" />
                 ))}
               </div>
-
-              <footer className="mt-4 border-t border-border pt-4">
-                <p className="font-display text-[15px] text-navy-700">{L(review.name)}</p>
-                <p className="mt-0.5 text-[11px] uppercase tracking-[0.12em] text-muted-foreground">
-                  {L(review.role)} · {t("reviews.verified")}
-                </p>
+              <p className="mt-4 flex-1 text-[14px] leading-relaxed text-ivory/85">“{L(review.quote)}”</p>
+              <footer className="mt-5 flex items-center gap-3 border-t border-gold/15 pt-4">
+                <Quote className="h-5 w-5 shrink-0 text-gold/50 flip-rtl" />
+                <div>
+                  <p className="font-display text-[14px] text-gold">{L(review.name)}</p>
+                  <p className="mt-0.5 text-[10px] uppercase tracking-[0.12em] text-ivory/45">
+                    {L(review.role)} · {t("reviews.verified")}
+                  </p>
+                </div>
               </footer>
             </blockquote>
           ))}
@@ -254,7 +221,7 @@ const HomePage = () => {
       </section>
 
       {/* ── OFFER ── */}
-      <section className="texture-dark relative overflow-hidden">
+      <section className="relative overflow-hidden border-y border-gold/40 bg-ink">
         <img
           src={brandImages.chefShrimp}
           alt=""
@@ -262,7 +229,7 @@ const HomePage = () => {
           loading="lazy"
           className="absolute inset-0 h-full w-full object-cover opacity-15"
         />
-        <div className="container-luxe relative z-10 py-20 text-center md:py-28">
+        <div className="container-luxe relative z-10 py-16 text-center md:py-24">
           <span className="eyebrow">{t("offer.eyebrow")}</span>
           <h2 className="font-poster mx-auto mt-6 max-w-3xl text-[clamp(2.2rem,7vw,4.4rem)] uppercase leading-[0.95] text-ivory text-balance">
             {t("offer.title")}
@@ -280,27 +247,29 @@ const HomePage = () => {
       </section>
 
       {/* ── FAQ ── */}
-      <section className="section container-luxe">
-        <SectionHeading eyebrow={t("faq.eyebrow")} title={t("faq.title")} subtitle={t("faq.subtitle")} />
+      <section className="texture-navy py-14 md:py-20">
+        <div className="container-luxe">
+          <SectionHeading eyebrow={t("faq.eyebrow")} title={t("faq.title")} subtitle={t("faq.subtitle")} tone="light" />
 
-        <Accordion type="single" collapsible className="mx-auto max-w-3xl">
-          {faqs.slice(0, 4).map((faq, i) => (
-            <AccordionItem key={i} value={`faq-${i}`} className="border-b border-gold/20">
-              <AccordionTrigger className="py-5 text-start font-display text-base text-navy-700 hover:text-gold-600 hover:no-underline">
-                {L(faq.q)}
-              </AccordionTrigger>
-              <AccordionContent className="pb-5 text-[14px] leading-relaxed text-muted-foreground">
-                {L(faq.a)}
-              </AccordionContent>
-            </AccordionItem>
-          ))}
-        </Accordion>
+          <Accordion type="single" collapsible className="mx-auto -mt-4 max-w-3xl">
+            {faqs.slice(0, 4).map((faq, i) => (
+              <AccordionItem key={i} value={`faq-${i}`} className="border-b border-gold/25">
+                <AccordionTrigger className="py-5 text-start font-display text-base text-ivory hover:text-gold hover:no-underline [&>svg]:text-gold">
+                  {L(faq.q)}
+                </AccordionTrigger>
+                <AccordionContent className="pb-5 text-[14px] leading-relaxed text-ivory/70">
+                  {L(faq.a)}
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
 
-        <div className="mt-10 text-center">
-          <Link to="/faq/" className="btn-outline-gold text-navy-700 hover:text-ink">
-            {t("faq.eyebrow")}
-            <ArrowRight className="h-4 w-4 flip-rtl" />
-          </Link>
+          <div className="mt-8 text-center">
+            <Link to="/faq/" className="btn-outline-gold">
+              {t("faq.eyebrow")}
+              <ArrowRight className="h-4 w-4 flip-rtl" />
+            </Link>
+          </div>
         </div>
       </section>
     </>

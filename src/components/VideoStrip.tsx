@@ -22,7 +22,7 @@ const VideoCard = ({ video }: { video: SiteVideo }) => {
 
   return (
     <figure className="group">
-      <div className="relative overflow-hidden rounded-lg border border-gold/20 bg-ink shadow-sm">
+      <div className="relative overflow-hidden rounded-lg border border-gold/30 bg-ink shadow-gold-glow">
         <video
           ref={ref}
           className="aspect-[9/16] w-full object-cover"
@@ -52,12 +52,12 @@ const VideoCard = ({ video }: { video: SiteVideo }) => {
       <figcaption className="mt-3">
         {/* The title links to the clip's own watch page, which is where it can
             be indexed and where the technique is written out. */}
-        <h3 className="font-display text-[15px] leading-snug text-navy-700">
-          <Link to={`/videos/${video.slug}/`} className="transition-colors hover:text-gold-600">
+        <h3 className="font-display text-[14px] leading-snug text-ivory md:text-[15px]">
+          <Link to={`/videos/${video.slug}/`} className="transition-colors hover:text-gold">
             {L(video.title)}
           </Link>
         </h3>
-        <p className="mt-1 text-[12.5px] leading-relaxed text-muted-foreground">
+        <p className="mt-1 line-clamp-3 text-[12px] leading-relaxed text-ivory/55">
           {L(video.description)}
         </p>
       </figcaption>
@@ -70,27 +70,30 @@ const VideoStrip = () => {
   const { t } = useLang();
 
   return (
-    <section className="border-b border-border bg-white py-16 md:py-20">
+    <section className="texture-dark py-14 md:py-20">
       <div className="container-luxe">
-        <p className="text-center text-[11px] uppercase tracking-[0.28em] text-gold-600">
+        <p className="text-center text-[11px] uppercase tracking-[0.28em] text-gold">
           {t("videos.eyebrow")}
         </p>
-        <h2 className="mt-3 text-center font-display text-3xl text-navy-700 md:text-4xl">
+        <h2 className="font-poster mt-3 text-center text-[clamp(2rem,8vw,3.6rem)] uppercase leading-[0.95] text-ivory">
           {t("videos.title")}
         </h2>
-        <p className="mx-auto mt-3 max-w-2xl text-center text-[15px] leading-relaxed text-muted-foreground">
+        <p className="mx-auto mt-3 max-w-2xl text-center text-[14px] leading-relaxed text-ivory/65 md:text-[15px]">
           {t("videos.subtitle")}
         </p>
 
-        <div className="mt-10 grid grid-cols-2 gap-5 md:mt-12 md:grid-cols-4 md:gap-6">
+        <div className="mt-8 grid grid-cols-2 gap-4 md:mt-12 md:grid-cols-4 md:gap-6">
           {videos.map((video) => (
             <VideoCard key={video.slug} video={video} />
           ))}
         </div>
 
-        <div className="mt-10 text-center">
-          <Link to="/videos/" className="btn-outline-gold">
+        <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
+          <Link to="/videos/" className="btn-outline-gold w-full sm:w-auto">
             {t("videos.all")}
+          </Link>
+          <Link to="/recipes/" className="btn-gold w-full sm:w-auto">
+            {t("recipes.homeCta")}
           </Link>
         </div>
       </div>

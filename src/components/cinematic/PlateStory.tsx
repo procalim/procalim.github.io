@@ -115,7 +115,7 @@ const PlateStory = ({ flagshipPath }: { flagshipPath: string }) => {
   useScrollProgress(section, render);
 
   return (
-    <section ref={section} className="relative h-[320svh] bg-ink" aria-label={t("hero.title.line1")}>
+    <section ref={section} className="relative h-[270svh] bg-ink" aria-label={t("hero.title.line1")}>
       <div className="sticky top-0 h-[100svh] overflow-hidden">
         {/* The plates — black on black, so the photographs melt into the stage */}
         <div className="absolute inset-x-0 bottom-[118px] top-[36%] sm:bottom-[170px] lg:inset-y-0 lg:bottom-0 lg:start-auto lg:w-[56%]">

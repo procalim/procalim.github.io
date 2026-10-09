@@ -67,7 +67,7 @@ const SauceFeature = () => {
   if (!product) return null;
 
   return (
-    <section ref={section} className="relative h-[260svh] bg-ink" aria-label={t("sauces.line1")}>
+    <section ref={section} className="relative h-[215svh] bg-ink" aria-label={t("sauces.line1")}>
       <div className="sticky top-0 flex h-[100svh] flex-col overflow-hidden pt-[88px]">
         <div
           aria-hidden="true"

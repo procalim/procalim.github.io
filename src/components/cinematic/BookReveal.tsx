@@ -71,7 +71,7 @@ const BookReveal = () => {
   useScrollProgress(section, render);
 
   return (
-    <section ref={section} className="texture-navy relative h-[240svh]">
+    <section ref={section} className="texture-navy relative h-[195svh]">
       <div className="sticky top-0 flex h-[100svh] flex-col overflow-hidden pt-[92px]">
         <div ref={words} className="container-luxe relative z-20 text-center will-change-transform">
           <span className="eyebrow">{t("featured.eyebrow")}</span>
