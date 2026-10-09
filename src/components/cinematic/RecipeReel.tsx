@@ -117,7 +117,9 @@ const RecipeReel = () => {
         {/* Section label and progress, pinned to the top */}
         <div className="absolute inset-x-0 top-[86px] z-10">
           <div className="container-luxe flex items-center gap-4">
-            <span className="eyebrow eyebrow-start shrink-0">{t("reel.eyebrow")}</span>
+            <h2 className="shrink-0">
+              <span className="eyebrow eyebrow-start">{t("reel.eyebrow")}</span>
+            </h2>
             <div className="flex flex-1 gap-1.5">
               {scenes.map((scene, i) => (
                 <span key={scene.slug} className="h-[2px] flex-1 overflow-hidden bg-ivory/20">
@@ -129,9 +131,9 @@ const RecipeReel = () => {
                 </span>
               ))}
             </div>
-            <span className="font-poster shrink-0 text-sm text-gold" dir="ltr">
+            <span className="font-poster shrink-0 text-sm tabular-nums text-gold" dir="ltr">
               <span ref={counter}>01</span>
-              <span className="text-ivory/40"> / {String(scenes.length).padStart(2, "0")}</span>
+              <span className="text-ivory/60"> / {String(scenes.length).padStart(2, "0")}</span>
             </span>
           </div>
         </div>
@@ -157,12 +159,12 @@ const RecipeReel = () => {
                     {t(scene.hook1)}
                     <span className="block gold-text">{t(scene.hook2)}</span>
                   </h3>
-                  <p className="mt-3 max-w-md text-[13px] leading-relaxed text-ivory/75 md:text-[15px]">
+                  <p className="mt-3 max-w-md text-[14px] leading-relaxed text-ivory/80 md:text-[15px]">
                     {t(scene.body)}
                   </p>
                   <Link
                     to={`/recipes/${scene.slug}/`}
-                    className="mt-5 inline-flex items-center gap-2 border-b border-gold/60 pb-1 text-[12px] font-semibold uppercase tracking-[0.16em] text-gold transition-colors hover:text-ivory"
+                    className="mt-4 inline-flex min-h-[44px] items-center gap-2 border-b border-gold/60 text-[12px] font-semibold uppercase tracking-[0.16em] text-gold transition-colors hover:text-ivory"
                   >
                     {t("reel.cta")}
                     <ArrowRight className="h-3.5 w-3.5 flip-rtl" />
