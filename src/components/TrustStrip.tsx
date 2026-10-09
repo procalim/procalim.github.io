@@ -11,12 +11,12 @@ const TrustStrip = () => {
   ];
 
   return (
-    <div className="border-y border-gold/20 bg-white">
-      <div className="container-luxe grid grid-cols-2 divide-gold/15 md:grid-cols-4 md:divide-x rtl:md:divide-x-reverse">
+    <div className="border-b border-ink/20 bg-gold-gradient">
+      <div className="container-luxe grid grid-cols-2 divide-ink/15 md:grid-cols-4 md:divide-x rtl:md:divide-x-reverse">
         {items.map(({ Icon, label }) => (
-          <div key={label} className="flex items-center justify-center gap-3 px-4 py-6">
-            <Icon className="h-5 w-5 shrink-0 text-gold" />
-            <span className="text-[11px] font-semibold uppercase tracking-[0.14em] text-navy-700">{label}</span>
+          <div key={label} className="flex items-center justify-center gap-2.5 px-3 py-3.5 md:py-5">
+            <Icon className="h-4 w-4 shrink-0 text-ink md:h-5 md:w-5" />
+            <span className="text-[10.5px] font-bold uppercase tracking-[0.12em] text-ink md:text-[11px]">{label}</span>
           </div>
         ))}
       </div>
