@@ -190,6 +190,93 @@
     line-height: 1.25;
   }
 
+  /* Film grain over the whole page — the texture of a printed photograph,
+     barely there, never in the way of a tap.
+     حبيبات فيلم خفيفة فوق الصفحة كلها، كملمس الصورة المطبوعة. */
+  .film-grain {
+    @apply pointer-events-none fixed inset-0 z-[60];
+    opacity: 0.07;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  }
+
+  /* A gold glint that crosses the main buttons every few seconds. */
+  .btn-gold {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+  }
+
+  .btn-gold::after {
+    content: "";
+    position: absolute;
+    inset: -20% auto -20% -40%;
+    width: 35%;
+    z-index: -1;
+    background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.55), transparent);
+    transform: skewX(-18deg) translateX(0);
+    animation: glint 4.5s ease-in-out infinite;
+  }
+
+  @keyframes glint {
+    0%, 62% { transform: skewX(-18deg) translateX(0); }
+    100% { transform: skewX(-18deg) translateX(520%); }
+  }
+
+  /* A hairline of gold with a diamond at its centre, between sections. */
+  .gold-divider {
+    @apply relative h-px w-full bg-gradient-to-r from-transparent via-gold/70 to-transparent;
+  }
+
+  .gold-divider::after {
+    content: "";
+    @apply absolute left-1/2 top-1/2 h-2 w-2 -translate-x-1/2 -translate-y-1/2 rotate-45 border border-gold bg-ink;
+  }
+
+  /* Headline lines that rise out of a mask on first paint. */
+  .rise-line {
+    display: block;
+    overflow: hidden;
+    padding-block: 0.06em;
+  }
+
+  .rise-line > span {
+    display: block;
+    animation: rise 1s cubic-bezier(0.16, 1, 0.3, 1) both;
+    animation-delay: var(--rise-delay, 0ms);
+  }
+
+  @keyframes rise {
+    from { transform: translateY(105%); }
+    to { transform: none; }
+  }
+
+  /* The first plate comes into focus as the page opens. */
+  .plate-focus-in {
+    animation: focus-in 1.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+
+  @keyframes focus-in {
+    from { filter: blur(14px) brightness(0.6); }
+    to { filter: none; }
+  }
+
+  /* Oversized outlined numeral behind a section heading. */
+  .chapter-numeral {
+    @apply pointer-events-none absolute left-1/2 top-0 -translate-x-1/2 -translate-y-[38%] select-none font-poster leading-none;
+    font-size: clamp(7rem, 30vw, 15rem);
+    color: transparent;
+    -webkit-text-stroke: 1.5px rgba(201, 162, 39, 0.42);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .btn-gold::after,
+    .plate-focus-in,
+    .rise-line > span {
+      animation: none;
+    }
+  }
+
   /* First stop for keyboard users: jumps past the header. */
   .skip-link {
     @apply fixed start-4 top-3 z-[100] -translate-y-24 rounded-sm bg-gold px-4 py-3 text-[13px] font-semibold text-ink transition-transform;

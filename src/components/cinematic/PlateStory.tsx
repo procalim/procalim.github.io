@@ -1,4 +1,4 @@
-import { useCallback, useRef } from "react";
+import { useCallback, useRef, type CSSProperties } from "react";
 import { ArrowRight } from "lucide-react";
 import { Link } from "@/components/LocalLink";
 import { useLang } from "@/i18n/LanguageContext";
@@ -129,11 +129,20 @@ const PlateStory = ({ flagshipPath }: { flagshipPath: string }) => {
               fetchPriority={i === 0 ? "high" : undefined}
               loading={i === 0 ? "eager" : "lazy"}
               decoding="async"
-              className="absolute inset-0 h-full w-full object-cover object-[50%_80%] will-change-transform lg:origin-bottom lg:object-contain lg:object-bottom"
+              className={`absolute inset-0 h-full w-full object-cover object-[50%_80%] will-change-transform lg:origin-bottom lg:object-contain lg:object-bottom ${
+                i === 0 ? "plate-focus-in" : ""
+              }`}
               style={{ opacity: i === 0 ? 1 : 0 }}
             />
           ))}
         </div>
+
+        {/* Vignette: the corners fall away into black, like a lens */}
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0"
+          style={{ background: "radial-gradient(ellipse at 50% 60%, transparent 50%, rgba(0,0,0,0.55) 100%)" }}
+        />
 
         {/* Shade for the words: top and bottom on a phone, the side on a desktop */}
         <div
@@ -170,8 +179,22 @@ const PlateStory = ({ flagshipPath }: { flagshipPath: string }) => {
                   >
                     <span className="eyebrow eyebrow-start">{t(scene.eyebrow)}</span>
                     <Heading className="font-poster mt-3 text-[clamp(2.5rem,10.5vw,7.2rem)] uppercase leading-[0.95] text-ivory lg:mt-5 lg:text-[clamp(3.5rem,5.6vw,6rem)]">
-                      {t(scene.line1)}
-                      <span className="block gold-text">{t(scene.line2)}</span>
+                      {i === 0 ? (
+                        // The opening headline rises out of a mask on first paint.
+                        <>
+                          <span className="rise-line">
+                            <span>{t(scene.line1)}</span>
+                          </span>
+                          <span className="rise-line" style={{ "--rise-delay": "140ms" } as CSSProperties}>
+                            <span className="gold-text">{t(scene.line2)}</span>
+                          </span>
+                        </>
+                      ) : (
+                        <>
+                          {t(scene.line1)}
+                          <span className="block gold-text">{t(scene.line2)}</span>
+                        </>
+                      )}
                     </Heading>
                     <p className="mt-3 max-w-md text-[14px] leading-relaxed text-ivory/80 md:text-base lg:mt-5">
                       {t(scene.body)}
