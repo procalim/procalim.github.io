@@ -13,6 +13,9 @@ import { recipes } from "@/data/recipes";
 import RecipeCard from "@/components/RecipeCard";
 import BuyButton from "@/components/BuyButton";
 import { bookPages, brandImages, site } from "@/data/site";
+import PlateStory from "@/components/cinematic/PlateStory";
+import BookReveal from "@/components/cinematic/BookReveal";
+import GoldBand from "@/components/cinematic/GoldBand";
 
 const HomePage = () => {
   const { t, L, lang } = useLang();
@@ -23,12 +26,6 @@ const HomePage = () => {
     { Icon: BookOpen, title: t("value.2.title"), body: t("value.2.body") },
     { Icon: Droplets, title: t("value.3.title"), body: t("value.3.body") },
     { Icon: InfinityIcon, title: t("value.4.title"), body: t("value.4.body") },
-  ];
-
-  const gallery = [
-    { image: brandImages.chefShrimp, title: t("gallery.1.title"), body: t("gallery.1.body") },
-    { image: brandImages.chefDuck, title: t("gallery.2.title"), body: t("gallery.2.body") },
-    { image: brandImages.chefBeef, title: t("gallery.3.title"), body: t("gallery.3.body") },
   ];
 
   return (
@@ -57,87 +54,60 @@ const HomePage = () => {
         }}
       />
 
-      {/* ── HERO ── */}
-      <section className="texture-dark relative overflow-hidden">
-        {/* The chef and his pass, blurred back so the headline stays readable */}
-        <img
-          src={brandImages.heroBackdrop}
-          alt=""
-          aria-hidden="true"
-          fetchPriority="high"
-          className="absolute inset-0 h-full w-full scale-105 object-cover opacity-80 blur-[3px] md:opacity-75 md:blur-[4px]"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-ink/70 via-ink/45 to-ink/85" />
+      {/* ── HERO · the plates, scene by scene as the visitor scrolls ── */}
+      <PlateStory flagshipPath={`/shop/${flagship.slug}/`} />
 
-        <div className="container-luxe relative z-10 grid items-center gap-12 py-16 lg:grid-cols-[1.05fr_0.95fr] lg:py-24">
-          <div className="animate-fade-in">
-            <span className="eyebrow eyebrow-start">{t("hero.eyebrow")}</span>
+      <GoldBand />
 
-            <h1 className="mt-6 font-display text-[clamp(2.6rem,7vw,4.6rem)] font-semibold leading-[1.05] text-ivory text-balance">
-              {t("hero.title.line1")}
-              <span className="block gold-text animate-shimmer">{t("hero.title.line2")}</span>
-            </h1>
+      <TrustStrip />
 
-            <p className="mt-6 max-w-lg text-[15px] leading-relaxed text-ivory/70 md:text-base">{t("hero.subtitle")}</p>
+      <VideoStrip />
 
-            <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-              <Link to={`/shop/${flagship.slug}/`} className="btn-gold">
-                {t("hero.cta.primary")}
-                <ArrowRight className="h-4 w-4 flip-rtl" />
-              </Link>
-              <Link to="/shop/" className="btn-outline-gold">
-                {t("hero.cta.secondary")}
-              </Link>
-            </div>
+      {/* ── THE CHEF ── */}
+      <section className="texture-dark section overflow-hidden">
+        <div className="container-luxe grid items-center gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-16">
+          <div className="relative mx-auto w-full max-w-sm lg:max-w-none">
+            <div className="absolute -inset-3 rounded-sm border border-gold/25" aria-hidden="true" />
+            <img
+              src={brandImages.chefPortrait}
+              alt={lang === "ar" ? site.brand.chefAr : site.brand.chefEn}
+              loading="lazy"
+              className="relative aspect-[4/5] w-full rounded-sm object-cover object-top shadow-luxe"
+            />
+          </div>
 
-            <dl className="mt-12 grid max-w-lg grid-cols-3 gap-6 border-t border-gold/20 pt-8">
+          <div>
+            <span className="eyebrow eyebrow-start">{t("chef.eyebrow")}</span>
+            <h2 className="font-poster mt-4 text-[clamp(2.4rem,8vw,5rem)] uppercase leading-[0.95] text-ivory">
+              {lang === "ar" ? site.brand.chefAr : site.brand.chefEn}
+            </h2>
+            <blockquote className="mt-6 border-s-2 border-gold ps-5 font-display text-xl leading-relaxed text-ivory/90 md:text-2xl">
+              “{t("hero.portrait.line")}”
+            </blockquote>
+            <p className="mt-4 text-[12px] uppercase tracking-[0.16em] text-gold/80">{t("hero.portrait.brand")}</p>
+
+            <dl className="mt-10 grid max-w-lg grid-cols-3 gap-6 border-t border-gold/20 pt-8">
               {[
                 { value: "261", label: t("hero.stat.recipes") },
                 { value: "100", label: t("hero.stat.bonus") },
                 { value: "12K+", label: t("hero.stat.readers") },
               ].map((stat) => (
                 <div key={stat.label}>
-                  <dt className="font-display text-3xl text-gold md:text-4xl">{stat.value}</dt>
+                  <dt className="font-poster text-4xl text-gold md:text-5xl">{stat.value}</dt>
                   <dd className="mt-1.5 text-[11px] uppercase leading-relaxed tracking-[0.1em] text-ivory/50">
                     {stat.label}
                   </dd>
                 </div>
               ))}
             </dl>
-          </div>
 
-          {/* The chef, in a gold frame — on the phone too, where most of the
-              traffic is. Hiding it below lg left a bare band of statistics
-              between the headline and the trust row.
-              الصورة تظهر على الهاتف أيضاً، حيث يأتي أغلب الزوّار. */}
-          <div className="relative mx-auto w-full max-w-sm animate-fade-in-slow lg:max-w-none">
-            <div className="absolute -inset-3 rounded-sm border border-gold/25" aria-hidden="true" />
-            <div className="absolute -inset-8 hidden rounded-sm border border-gold/10 lg:block" aria-hidden="true" />
-            <img
-              src={brandImages.chefPortrait}
-              alt={lang === "ar" ? site.brand.chefAr : site.brand.chefEn}
-              className="relative aspect-[4/5] w-full rounded-sm object-cover object-top shadow-luxe"
-              fetchPriority="high"
-            />
-            {/* Under the photo on a phone, over it from sm up — the overlay
-                would otherwise sit on Skyline's head.
-                تحت الصورة على الهاتف، وفوقها على الشاشات الأكبر. */}
-            <div className="relative mt-3 rounded-sm border border-gold/25 bg-ink/85 px-5 py-4 backdrop-blur-sm sm:absolute sm:bottom-5 sm:start-5 sm:end-5 sm:mt-0">
-              <p className="font-display text-base text-ivory">
-                {lang === "ar" ? site.brand.chefAr : site.brand.chefEn}
-              </p>
-              <p className="mt-1.5 text-[12px] leading-relaxed text-gold/90">{t("hero.portrait.line")}</p>
-              <p className="mt-2 text-[10px] uppercase tracking-[0.16em] text-ivory/45">
-                {t("hero.portrait.brand")}
-              </p>
-            </div>
+            <Link to="/about/" className="btn-outline-gold mt-10">
+              {t("chef.cta")}
+              <ArrowRight className="h-4 w-4 flip-rtl" />
+            </Link>
           </div>
         </div>
       </section>
-
-      <TrustStrip />
-
-      <VideoStrip />
 
       {/* ── VALUE PROPS ── */}
       <section className="section container-luxe">
@@ -156,13 +126,15 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* ── FLAGSHIP ── */}
-      <section className="texture-navy section">
+      {/* ── FLAGSHIP · the book opens, then the offer ── */}
+      <BookReveal />
+
+      <section className="texture-navy section pt-4 md:pt-8">
         <div className="container-luxe grid items-center gap-14 lg:grid-cols-2">
           <div className="relative order-2 lg:order-1">
             <div className="absolute -inset-4 rounded-sm border border-gold/20" aria-hidden="true" />
             <img
-              src={bookPages.cover}
+              src={bookPages.onScreen}
               alt={L(flagship.title)}
               loading="lazy"
               className="relative w-full rounded-sm object-cover shadow-luxe"
@@ -201,29 +173,6 @@ const HomePage = () => {
               <BuyButton product={flagship} />
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* ── GALLERY ── */}
-      <section className="section container-luxe">
-        <SectionHeading eyebrow={t("gallery.eyebrow")} title={t("gallery.title")} subtitle={t("gallery.subtitle")} />
-
-        <div className="grid gap-6 md:grid-cols-3">
-          {gallery.map((item) => (
-            <figure key={item.title} className="group relative overflow-hidden rounded-sm bg-ink">
-              <img
-                src={item.image}
-                alt={item.title}
-                loading="lazy"
-                className="aspect-[3/4] w-full object-cover object-bottom transition-transform duration-700 group-hover:scale-105"
-              />
-              <div className="absolute inset-0 bg-ink-fade" />
-              <figcaption className="absolute bottom-0 start-0 end-0 p-6">
-                <h3 className="font-display text-lg text-ivory">{item.title}</h3>
-                <p className="mt-1.5 text-[12px] uppercase tracking-[0.12em] text-gold/85">{item.body}</p>
-              </figcaption>
-            </figure>
-          ))}
         </div>
       </section>
 
@@ -307,7 +256,7 @@ const HomePage = () => {
         />
         <div className="container-luxe relative z-10 py-20 text-center md:py-28">
           <span className="eyebrow">{t("offer.eyebrow")}</span>
-          <h2 className="mx-auto mt-6 max-w-2xl font-display text-3xl leading-tight text-ivory md:text-[2.8rem] text-balance">
+          <h2 className="font-poster mx-auto mt-6 max-w-3xl text-[clamp(2.2rem,7vw,4.4rem)] uppercase leading-[0.95] text-ivory text-balance">
             {t("offer.title")}
           </h2>
           <p className="mx-auto mt-5 max-w-xl text-[15px] leading-relaxed text-ivory/70">{t("offer.body")}</p>

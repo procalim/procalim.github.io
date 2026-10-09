@@ -149,6 +149,28 @@
     @apply w-full rounded-sm border border-border bg-white px-4 py-3 text-sm text-navy-800 outline-none transition-colors placeholder:text-muted-foreground focus:border-gold focus:ring-1 focus:ring-gold;
   }
 
+  /* Poster headlines for the cinematic home page: a tall condensed face in
+     English, a heavy Kufi in Arabic. The RTL rule has to out-rank the
+     base rule that gives every Arabic heading Amiri.
+     عناوين ضخمة للواجهة السينمائية: Anton بالإنجليزية وكوفي ثقيل بالعربية. */
+  .font-poster {
+    font-family: "Anton", "Noto Kufi Arabic", "Impact", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+  }
+
+  /* Which way the home hero's shade runs: from the words toward the plate. */
+  html[dir="rtl"] {
+    --story-side: left;
+  }
+
+  html[dir="rtl"] .font-poster {
+    font-family: "Noto Kufi Arabic", "Tajawal", sans-serif;
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 1.25;
+  }
+
   /* Subtle woven texture used behind dark sections */
   .texture-dark {
     background-color: #0A0A0B;
