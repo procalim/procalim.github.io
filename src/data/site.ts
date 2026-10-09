@@ -102,6 +102,8 @@ export const brandImages = {
   chefDuck: `${base}brand/chef-duck-cherry.jpg`,
   chefBeef: `${base}brand/chef-beef-tenderloin.jpg`,
   codexCover: `${base}brand/edible-codex-cover.jpg`,
+  /** The finished plate with all five sauces drawn across it */
+  fiveSauces: `${base}brand/email/five-sauces.jpg`,
 } as const;
 
 /**

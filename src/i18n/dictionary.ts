@@ -22,11 +22,17 @@ export const dictionary = {
 
   /* ── Home · hero ── */
   "hero.eyebrow": { ar: "مطبخ المؤلف · إصدار رقمي", en: "Author's Kitchen · Digital Edition" },
-  "hero.title.line1": { ar: "فنّ الطبق", en: "The Art of" },
-  "hero.title.line2": { ar: "الاحترافي", en: "The Plate" },
+  "hero.title.line1": {
+    ar: "اطبخ كأنك",
+    en: "Cook Like",
+  },
+  "hero.title.line2": {
+    ar: "شيف مطعم",
+    en: "A Fine-Dining Chef",
+  },
   "hero.subtitle": {
-    ar: "٢٦١ وصفة مُنسَّقة + ١٠٠ وصفة مجاناً، مصوَّرة ومشروحة خطوة بخطوة، من مطبخ محترف إلى مطبخك.",
-    en: "261 curated recipes + 100 free, photographed and broken down step by step — from a professional kitchen to yours.",
+    ar: "٣٦١ وصفة تحوّل مطبخ بيتك إلى مطبخ مطعم — نفس المقادير، نفس الخطوات، ونفس الطبق الذي تراه في الصورة.",
+    en: "361 recipes that turn your home kitchen into a restaurant pass — the same measurements, the same steps, the same plate you see in the photo.",
   },
   "hero.cta.primary": { ar: "احصل على النسخة", en: "Get the Codex" },
   "hero.cta.secondary": { ar: "تصفّح المتجر", en: "Browse the Shop" },
@@ -42,33 +48,66 @@ export const dictionary = {
 
   /* ── Home · the plate story (scroll-driven hero scenes) ── */
   "story.2.eyebrow": { ar: "الفصل الثاني · الصلصات", en: "Chapter Two · The Sauces" },
-  "story.2.line1": { ar: "الصلصة", en: "The Sauce" },
-  "story.2.line2": { ar: "توقيع الشيف", en: "Is the Signature" },
+  "story.2.line1": {
+    ar: "سرّ المطاعم",
+    en: "The Secret",
+  },
+  "story.2.line2": {
+    ar: "في ملعقة صلصة",
+    en: "Is in the Sauce",
+  },
   "story.2.body": {
-    ar: "صلصات ملوّنة بنِسَب مضبوطة بالجرام — هي الفرق بين طبق جيّد وطبق لا يُنسى.",
-    en: "Colour sauces measured to the gram — the difference between a good plate and one they remember.",
+    ar: "خطّ واحد من الصلصة، ويمسك ضيوفك الجوال قبل الشوكة. نعلّمك كيف ترسمه — بالجرام، وبالصور.",
+    en: "One stroke of sauce and your guests reach for their phone before their fork. We show you how to draw it — to the gram, in pictures.",
   },
   "story.3.eyebrow": { ar: "الفصل الثالث · الطبق الرئيسي", en: "Chapter Three · The Main" },
-  "story.3.line1": { ar: "من مطبخي", en: "From My Pass" },
-  "story.3.line2": { ar: "إلى مطبخك", en: "To Your Table" },
+  "story.3.line1": {
+    ar: "لن يصدّقوا",
+    en: "They Won't Believe",
+  },
+  "story.3.line2": {
+    ar: "أنك طبخته",
+    en: "You Made This",
+  },
   "story.3.body": {
-    ar: "كل وصفة على صفحة واحدة: الصورة، المقادير، الخطوات، وملاحظة الشيف. بلا تعقيد، وبلا تخمين.",
-    en: "Every recipe on a single page: the photograph, the measurements, the method and a chef's note. No guesswork.",
+    ar: "تندرلوين، بطّ، روبيان… مكتوبة كما يطبخها الشيف فعلاً. بلا تخمين، بلا طبق فاشل، بلا إحراج أمام الضيوف.",
+    en: "Tenderloin, duck, shrimp — written the way the chef actually cooks them. No guessing, no failed plates, no apologising to guests.",
   },
 
   /* ── Home · scrolling band ── */
-  "band.1": { ar: "٢٦١ وصفة احترافية", en: "261 chef recipes" },
-  "band.2": { ar: "١٠٠ وصفة مجاناً", en: "100 free recipes" },
-  "band.3": { ar: "صلصات بالجرام", en: "Sauces to the gram" },
-  "band.4": { ar: "تحميل فوري", en: "Instant download" },
-  "band.5": { ar: "تحديثات مدى الحياة", en: "Lifetime updates" },
+  "band.1": {
+    ar: "٣٦١ وصفة",
+    en: "361 recipes",
+  },
+  "band.2": {
+    ar: "١٠٠ وصفة اجتاحت الإنترنت",
+    en: "100 viral recipes",
+  },
+  "band.3": {
+    ar: "صلصات بالجرام",
+    en: "Sauces to the gram",
+  },
+  "band.4": {
+    ar: "تحميل فوري",
+    en: "Instant download",
+  },
+  "band.5": {
+    ar: "بسعر وجبة واحدة",
+    en: "The price of one meal",
+  },
 
   /* ── Home · the book reveal ── */
-  "reveal.line1": { ar: "٣٦١ وصفة.", en: "361 Recipes." },
-  "reveal.line2": { ar: "٣٨٦ صفحة.", en: "386 Pages." },
+  "reveal.line1": {
+    ar: "مطبخ محترف",
+    en: "A Pro Kitchen",
+  },
+  "reveal.line2": {
+    ar: "في جيبك",
+    en: "In Your Pocket",
+  },
   "reveal.body": {
-    ar: "افتح الكتاب: لكل وصفة صفحتها وصورتها الخاصة، مكتوبة كما تُطبخ في مطبخ محترف — وتُقرأ على الجوال واللوح والحاسوب.",
-    en: "Open the book: every recipe has its own page and its own photograph, written the way a professional kitchen cooks it — and it reads on phone, tablet and desktop.",
+    ar: "٣٦١ وصفة في ٣٨٦ صفحة — لكل طبق صورته ومقاديره وملاحظة الشيف. افتحه على جوالك وأنت أمام الموقد، وابدأ الليلة.",
+    en: "361 recipes across 386 pages — every plate with its own photograph, measurements and chef's note. Open it on your phone at the stove and start tonight.",
   },
   "reveal.page.cover": { ar: "الغلاف", en: "The cover" },
   "reveal.page.contents": { ar: "الفهرس", en: "Contents" },
@@ -79,6 +118,67 @@ export const dictionary = {
   /* ── Home · the chef ── */
   "chef.eyebrow": { ar: "الشيف", en: "The Chef" },
   "chef.cta": { ar: "قصة الشيف", en: "The chef's story" },
+
+  /* ── Home · the recipe reel (one plate from the book per scroll) ── */
+  "reel.eyebrow": { ar: "من داخل الكتاب", en: "Inside the Book" },
+  "reel.cta": { ar: "افتح الوصفة مجاناً", en: "Open the recipe — free" },
+  "reel.1.hook1": { ar: "القرمشة التي", en: "The Crunch That" },
+  "reel.1.hook2": { ar: "كسرت الإنترنت", en: "Broke the Internet" },
+  "reel.1.body": {
+    ar: "روبيان مقرمش بصلصة كريمية حارّة. جرّبها مرة واحدة… وستُطلب منك في كل عزومة.",
+    en: "Crisp shrimp in a creamy, fiery sauce. Make it once — and you'll be asked for it at every dinner.",
+  },
+  "reel.2.hook1": { ar: "الجبنة التي", en: "The Cheese Pull" },
+  "reel.2.hook2": { ar: "لا تنتهي", en: "That Never Ends" },
+  "reel.2.body": {
+    ar: "بصل مكرمل ببطء، جبنة تذوب وتمتد، خبز ذهبي يطقطق. أشهى عشر دقائق في يومك.",
+    en: "Slow-caramelised onion, cheese that melts and stretches, bread that crackles gold. The best ten minutes of your day.",
+  },
+  "reel.3.hook1": { ar: "التاكو الذي", en: "The Taco" },
+  "reel.3.hook2": { ar: "يُغمَّس", en: "You Dunk" },
+  "reel.3.body": {
+    ar: "لحم مطهو لساعات حتى يتفتّت، تورتيلا مقرمشة، ومرق غني تغمس فيه كل لقمة. لن تعود للتاكو العادي.",
+    en: "Meat braised for hours until it falls apart, a crisp tortilla, and a rich broth for every bite. Ordinary tacos are over.",
+  },
+  "reel.4.hook1": { ar: "بطاطا عادية؟", en: "Plain Potatoes?" },
+  "reel.4.hook2": { ar: "ليس بعد اليوم", en: "Not Anymore" },
+  "reel.4.body": {
+    ar: "اسحقها، حمّرها حتى تتكسّر أطرافها، وشاهدها تختفي من الصحن قبل أن تجلس.",
+    en: "Smash them, roast them until the edges shatter, and watch the plate empty before you sit down.",
+  },
+  "reel.5.hook1": { ar: "الحلو والمالح", en: "Sweet, Salty," },
+  "reel.5.hook2": { ar: "في غمسة واحدة", en: "Gone in Minutes" },
+  "reel.5.body": {
+    ar: "فيتا مخفوقة كالحرير مع عسل حار. المقبّلات التي سيسألك الجميع عن وصفتها.",
+    en: "Feta whipped silk-smooth under hot honey. The starter everyone will ask you the recipe for.",
+  },
+  "reel.6.hook1": { ar: "ثلاثة مكوّنات", en: "Three Ingredients." },
+  "reel.6.hook2": { ar: "حيّرت العالم", en: "One Viral Cloud" },
+  "reel.6.body": {
+    ar: "قهوة مخفوقة كالسحاب فوق حليب بارد — دقيقتان، ومقهى كامل في كوبك.",
+    en: "Coffee whipped into a cloud over cold milk — two minutes, and a whole café in your glass.",
+  },
+
+  /* ── Home · the five sauces (free guide) ── */
+  "sauces.eyebrow": { ar: "هديّة مجانية · الصلصات الخمس", en: "Free Gift · The Five Sauces" },
+  "sauces.line1": { ar: "خمس صلصات", en: "Five Sauces" },
+  "sauces.line2": { ar: "تغيّر كل طبق", en: "That Change Every Plate" },
+  "sauces.body": {
+    ar: "نفس الصلصات التي تراها في صور الشيف، بالجرام وبالصور — مجاناً بالكامل. حمّلها الآن، وارسم الليلة أول طبق يليق بالكاميرا.",
+    en: "The same sauces you see in the chef's photos, to the gram and in pictures — completely free. Download them now and draw your first camera-ready plate tonight.",
+  },
+  "sauces.more": { ar: "تفاصيل الدليل", en: "See the guide" },
+  "sauces.alt": { ar: "طبق بالصلصات الخمس", en: "A plate drawn with the five sauces" },
+  "sauce.1.name": { ar: "البنجر", en: "Beetroot" },
+  "sauce.1.line": { ar: "الأحمر الذي يوقف التمرير.", en: "The red that stops the scroll." },
+  "sauce.2.name": { ar: "الكركم", en: "Turmeric" },
+  "sauce.2.line": { ar: "ذهب حقيقي على طبقك.", en: "Real gold on your plate." },
+  "sauce.3.name": { ar: "الأعشاب", en: "Herb" },
+  "sauce.3.line": { ar: "أخضر حيّ لا يبهت.", en: "A living green that never fades." },
+  "sauce.4.name": { ar: "الفلفل المشوي", en: "Roasted Pepper" },
+  "sauce.4.line": { ar: "دفء مدخّن بلون الغروب.", en: "Smoky warmth the colour of sunset." },
+  "sauce.5.name": { ar: "البلسمك المركّز", en: "Reduced Balsamic" },
+  "sauce.5.line": { ar: "اللمسة الأخيرة لكل شيف.", en: "Every chef's finishing stroke." },
 
   /* ── Value props ── */
   "value.title": { ar: "لماذا هذا الإصدار مختلف", en: "Why This Edition Is Different" },
@@ -221,13 +321,22 @@ export const dictionary = {
   "reviews.rating": { ar: "٤٫٩ من ٥ · أكثر من ٨٠٠ تقييم", en: "4.9 / 5 · 800+ ratings" },
 
   /* ── Offer strip ── */
-  "offer.eyebrow": { ar: "عرض الإطلاق", en: "Launch Offer" },
-  "offer.title": { ar: "النسخة الكاملة + الهدية", en: "The Complete Edition + Bonus" },
-  "offer.body": {
-    ar: "احصل على ٢٦١ وصفة مع فصل الـ١٠٠ وصفة السريعة مجاناً، بسعر الإطلاق ولفترة محدودة.",
-    en: "Get all 261 recipes with the 100 quick-meals chapter free, at launch pricing for a limited time.",
+  "offer.eyebrow": {
+    ar: "عرض الإطلاق · ٩٫٩٩$ بدل ١٩٫٩٩$",
+    en: "Launch offer · $9.99, was $19.99",
   },
-  "offer.cta": { ar: "اطلب الآن", en: "Order now" },
+  "offer.title": {
+    ar: "الليلة، اطبخ طبقاً يتذكّرونه",
+    en: "Tonight, Cook a Plate They'll Remember",
+  },
+  "offer.body": {
+    ar: "بأقل من سعر وجبة واحدة في مطعم، تحصل على ٣٦١ وصفة تطبخها العمر كله. وإن لم تعجبك، نعيد لك مالك كاملاً خلال ٣٠ يوماً — بلا أسئلة.",
+    en: "For less than one restaurant meal, you get 361 recipes to cook for the rest of your life. And if it's not for you, we refund every cent within 30 days — no questions.",
+  },
+  "offer.cta": {
+    ar: "ابدأ الآن",
+    en: "Start now",
+  },
 
   /* ── Newsletter ── */
   "news.title": { ar: "انضم إلى قائمة المطبخ", en: "Join the Kitchen List" },

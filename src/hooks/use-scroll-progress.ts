@@ -63,5 +63,24 @@ export const clamp01 = (value: number) => Math.min(1, Math.max(0, value));
 /** Fast start, soft landing — how a plate is set down. */
 export const easeOut = (value: number) => 1 - Math.pow(1 - clamp01(value), 3);
 
+/**
+ * Where scene `i` of `count` stands when the scroll is at `position`
+ * (0…count): how visible it is, and how far it has settled (0…1). Scenes
+ * cross-fade over `fade` of their slot; the first is on stage from the start
+ * and the last never leaves.
+ * حالة كل مشهد: درجة ظهوره ومدى استقراره.
+ */
+export const sceneState = (position: number, i: number, count: number, fade = 0.18) => {
+  const local = position - i;
+  const fadeIn = i === 0 ? 1 : clamp01((local + fade) / fade);
+  const fadeOut = i === count - 1 ? 1 : clamp01((1 - local) / fade);
+  return {
+    opacity: Math.min(fadeIn, fadeOut),
+    fadeIn,
+    fadeOut,
+    settle: easeOut(clamp01((local + fade) / (1 + fade))),
+  };
+};
+
 export const prefersReducedMotion = () =>
   typeof window !== "undefined" && window.matchMedia("(prefers-reduced-motion: reduce)").matches;

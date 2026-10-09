@@ -16,6 +16,8 @@ import { bookPages, brandImages, site } from "@/data/site";
 import PlateStory from "@/components/cinematic/PlateStory";
 import BookReveal from "@/components/cinematic/BookReveal";
 import GoldBand from "@/components/cinematic/GoldBand";
+import RecipeReel from "@/components/cinematic/RecipeReel";
+import SauceFeature from "@/components/cinematic/SauceFeature";
 
 const HomePage = () => {
   const { t, L, lang } = useLang();
@@ -60,6 +62,12 @@ const HomePage = () => {
       <GoldBand />
 
       <TrustStrip />
+
+      {/* ── INSIDE THE BOOK · one plate per scroll ── */}
+      <RecipeReel />
+
+      {/* ── THE FIVE SAUCES · the free guide ── */}
+      <SauceFeature />
 
       <VideoStrip />
 
