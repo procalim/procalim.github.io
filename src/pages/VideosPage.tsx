@@ -4,6 +4,7 @@ import { localePath } from "@/i18n/locale-path";
 import { useLang } from "@/i18n/LanguageContext";
 import { videoPoster, videos } from "@/data/videos";
 import { site } from "@/data/site";
+import PageHero from "@/components/PageHero";
 
 /** The index of the watch pages. */
 const VideosPage = () => {
@@ -23,22 +24,16 @@ const VideosPage = () => {
         }}
       />
 
-      <section className="section container-luxe">
-        {/* Written out rather than via SectionHeading, which always renders an
-            h2 — an index page needs an h1 of its own. */}
-        <div className="mx-auto max-w-2xl text-center">
-          <p className="text-[11px] uppercase tracking-[0.28em] text-gold-600">
-            {t("videos.eyebrow")}
-          </p>
-          <h1 className="mt-3 font-display text-3xl text-navy-700 md:text-4xl">
-            {t("videos.title")}
-          </h1>
-          <p className="mt-3 text-[15px] leading-relaxed text-muted-foreground">
-            {t("videos.subtitle")}
-          </p>
-        </div>
+      <PageHero
+        eyebrow={t("videos.eyebrow")}
+        title={t("videos.title")}
+        subtitle={t("videos.subtitle")}
+        image={videoPoster(videos[1])}
+        focus="center 40%"
+      />
 
-        <div className="mt-12 grid grid-cols-2 gap-6 md:grid-cols-4">
+      <section className="section container-luxe">
+        <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
           {videos.map((video) => (
             <Link key={video.slug} to={`/videos/${video.slug}/`} className="group">
               <img
@@ -47,7 +42,7 @@ const VideosPage = () => {
                 loading="lazy"
                 className="aspect-[9/16] w-full rounded-lg border border-gold/20 object-cover transition-opacity group-hover:opacity-90"
               />
-              <h2 className="mt-3 font-display text-[15px] leading-snug text-navy-700">
+              <h2 className="mt-3 font-display text-[15px] leading-snug text-ivory">
                 {L(video.title)}
               </h2>
               <p className="mt-1.5 text-[12.5px] leading-relaxed text-muted-foreground">

@@ -65,7 +65,14 @@ const SCENES: Scene[] = [
 /** How much of its slot a scene spends fading in and out. */
 const FADE = 0.18;
 
-const PlateStory = ({ flagshipPath }: { flagshipPath: string }) => {
+const PlateStory = ({
+  flagshipPath,
+  headingLevel = "h1",
+}: {
+  flagshipPath: string;
+  /** The first scene's heading level: h1 when this opens the page. */
+  headingLevel?: "h1" | "h2";
+}) => {
   const { t } = useLang();
   const section = useRef<HTMLElement>(null);
   const images = useRef<(HTMLImageElement | null)[]>([]);
@@ -166,7 +173,7 @@ const PlateStory = ({ flagshipPath }: { flagshipPath: string }) => {
         <div className="container-luxe relative z-10 h-full">
           <div className="relative h-full">
             {SCENES.map((scene, i) => {
-              const Heading = i === 0 ? "h1" : "h2";
+              const Heading = i === 0 ? headingLevel : "h2";
               return (
                 <div
                   key={scene.line1}

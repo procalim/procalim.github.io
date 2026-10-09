@@ -26,20 +26,22 @@ const AboutPage = () => {
       <Seo title={t("seo.about.title")} description={t("seo.about.desc")} image={brandImages.chefPortrait} />
 
       {/* Hero */}
-      <section className="texture-dark relative overflow-hidden">
+      <section data-no-reveal className="texture-dark relative overflow-hidden">
         <div className="container-luxe relative z-10 grid items-center gap-12 py-16 lg:grid-cols-2 lg:py-24">
           <div>
             <span className="eyebrow eyebrow-start">{t("about.eyebrow")}</span>
-            <h1 className="mt-6 font-display text-4xl leading-tight text-ivory md:text-[3.2rem] text-balance">
-              {t("about.title")}
+            <h1 className="font-poster mt-5 text-[clamp(2.6rem,10vw,5.6rem)] uppercase leading-[0.95] text-ivory">
+              <span className="rise-line">
+                <span className="gold-text">{t("about.title")}</span>
+              </span>
             </h1>
             <p className="mt-6 max-w-lg text-[15px] leading-relaxed text-ivory/70 md:text-base">{t("about.lead")}</p>
 
             <dl className="mt-12 grid max-w-md grid-cols-3 gap-6 border-t border-gold/20 pt-8">
               {numbers.map((item) => (
                 <div key={item.label}>
-                  <dt className="font-display text-3xl text-gold">{item.value}</dt>
-                  <dd className="mt-1.5 text-[11px] uppercase leading-relaxed tracking-[0.1em] text-ivory/50">
+                  <dt className="font-poster text-4xl tabular-nums text-gold">{item.value}</dt>
+                  <dd className="mt-1.5 text-[11px] uppercase leading-relaxed tracking-[0.1em] text-ivory/70">
                     {item.label}
                   </dd>
                 </div>
@@ -52,7 +54,7 @@ const AboutPage = () => {
             <img
               src={brandImages.chefPortrait}
               alt={lang === "ar" ? site.brand.chefAr : site.brand.chefEn}
-              className="relative aspect-[4/5] w-full rounded-sm object-cover object-top shadow-luxe"
+              className="plate-focus-in relative aspect-[4/5] w-full rounded-sm object-cover object-top shadow-luxe"
             />
           </div>
         </div>
@@ -63,8 +65,8 @@ const AboutPage = () => {
       {/* Story */}
       <section className="section container-luxe">
         <div className="mx-auto max-w-3xl">
-          <div className="prose prose-lg max-w-none text-navy-800/85 prose-p:leading-relaxed">
-            <p className="font-display text-xl leading-relaxed text-navy-700">{t("about.p1")}</p>
+          <div className="prose prose-lg prose-invert max-w-none text-ivory/85 prose-p:leading-relaxed">
+            <p className="font-display text-xl leading-relaxed text-ivory">{t("about.p1")}</p>
             <p>{t("about.p2")}</p>
             <p>{t("about.p3")}</p>
           </div>

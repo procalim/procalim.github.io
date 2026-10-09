@@ -37,7 +37,7 @@ const ProductPage = () => {
     return (
       <div className="container-luxe py-32 text-center">
         <Seo title={t("product.notFound")} description={t("product.notFound")} />
-        <h1 className="font-display text-3xl text-navy-700">{t("product.notFound")}</h1>
+        <h1 className="font-display text-3xl text-ivory">{t("product.notFound")}</h1>
         <Link to="/shop/" className="btn-navy mt-8">
           {t("product.backToShop")}
         </Link>
@@ -74,17 +74,17 @@ const ProductPage = () => {
         })}
       />
 
-      <div className="border-b border-border bg-white">
+      <div className="border-b border-border bg-navy-700/60">
         <div className="container-luxe flex items-center gap-2 py-4 text-[12px] text-muted-foreground">
-          <Link to="/" className="hover:text-gold-600">
+          <Link to="/" className="hover:text-gold">
             {t("nav.home")}
           </Link>
           <ChevronLeft className="h-3.5 w-3.5 rotate-180 flip-rtl" />
-          <Link to="/shop/" className="hover:text-gold-600">
+          <Link to="/shop/" className="hover:text-gold">
             {t("nav.shop")}
           </Link>
           <ChevronLeft className="h-3.5 w-3.5 rotate-180 flip-rtl" />
-          <span className="truncate text-navy-700">{L(product.title)}</span>
+          <span className="truncate text-ivory">{L(product.title)}</span>
         </div>
       </div>
 
@@ -146,13 +146,13 @@ const ProductPage = () => {
               </span>
             </div>
 
-            <h1 className="mt-4 font-display text-3xl leading-tight text-navy-700 md:text-[2.5rem]">
+            <h1 className="mt-4 font-display text-3xl leading-tight text-ivory md:text-[2.5rem]">
               {L(product.title)}
             </h1>
-            <p className="mt-3 text-[15px] text-gold-600">{L(product.subtitle)}</p>
+            <p className="mt-3 text-[15px] text-gold">{L(product.subtitle)}</p>
 
             <div className="mt-6 flex items-baseline gap-4">
-              <span className={`font-display text-4xl ${isFree ? "text-gold-600" : "text-navy-700"}`}>
+              <span className={`font-display text-4xl ${isFree ? "text-gold" : "text-ivory"}`}>
                 {isFree ? t("product.free") : formatPrice(product.price, lang, site.currency.symbol)}
               </span>
               {product.compareAt && (
@@ -162,7 +162,7 @@ const ProductPage = () => {
               )}
             </div>
 
-            <p className="mt-6 text-[15px] leading-relaxed text-navy-800/80">{L(product.description)}</p>
+            <p className="mt-6 text-[15px] leading-relaxed text-ivory/80">{L(product.description)}</p>
 
             <div className="my-8 gold-rule" />
 
@@ -170,12 +170,12 @@ const ProductPage = () => {
             <BuyButton product={product} withPrice className="w-full text-base" />
 
             {onWhop ? (
-              <div className="mt-4 rounded-sm border border-gold/25 bg-ivory px-5 py-4 text-center">
-                <p className="flex items-center justify-center gap-2 text-[12px] text-navy-700">
+              <div className="mt-4 rounded-sm border border-gold/25 bg-ink px-5 py-4 text-center">
+                <p className="flex items-center justify-center gap-2 text-[12px] text-ivory">
                   <ShieldCheck className="h-4 w-4 shrink-0 text-gold" />
                   {t("product.whopNote")}
                 </p>
-                <p className="mt-1.5 text-[12px] font-semibold text-gold-600">{t("product.whopBy")}</p>
+                <p className="mt-1.5 text-[12px] font-semibold text-gold">{t("product.whopBy")}</p>
                 <p className="mt-2 text-[11px] text-muted-foreground">{t("product.whopTrust")}</p>
 
                 <div className="mt-4 border-t border-gold/20 pt-3">
@@ -186,7 +186,7 @@ const ProductPage = () => {
                     {["Apple Pay", "Google Pay", "Visa", "Mastercard", "Amex", "PayPal"].map((method) => (
                       <span
                         key={method}
-                        className="rounded-sm border border-border bg-white px-2 py-1 text-[9px] font-semibold uppercase tracking-[0.06em] text-navy-700"
+                        className="rounded-sm border border-border bg-navy-700/60 px-2 py-1 text-[9px] font-semibold uppercase tracking-[0.06em] text-ivory"
                       >
                         {method}
                       </span>
@@ -202,12 +202,12 @@ const ProductPage = () => {
             )}
 
             {/* Included */}
-            <div className="mt-9 rounded-sm border border-gold/25 bg-ivory p-7">
+            <div className="mt-9 rounded-sm border border-gold/25 bg-ink p-7">
               <h2 className="text-[11px] font-semibold uppercase tracking-luxe text-gold">{t("product.includes")}</h2>
               <ul className="mt-5 space-y-3">
                 {product.features.map((feature) => (
-                  <li key={L(feature)} className="flex items-start gap-3 text-[14px] text-navy-800/85">
-                    <span className="mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full bg-gold/15 text-gold-600">
+                  <li key={L(feature)} className="flex items-start gap-3 text-[14px] text-ivory/85">
+                    <span className="mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full bg-gold/15 text-gold">
                       <Check className="h-3 w-3" />
                     </span>
                     {L(feature)}
@@ -228,7 +228,7 @@ const ProductPage = () => {
                   <dt className="w-28 shrink-0 text-[12px] font-semibold uppercase tracking-[0.1em] text-muted-foreground">
                     {label}
                   </dt>
-                  <dd className="text-[14px] text-navy-800/85">{value}</dd>
+                  <dd className="text-[14px] text-ivory/85">{value}</dd>
                 </div>
               ))}
             </dl>
@@ -236,7 +236,7 @@ const ProductPage = () => {
             <Accordion type="single" collapsible className="mt-8">
               {faqs.slice(0, 3).map((faq, i) => (
                 <AccordionItem key={i} value={`p-faq-${i}`} className="border-b border-border">
-                  <AccordionTrigger className="py-4 text-start font-display text-[15px] text-navy-700 hover:text-gold-600 hover:no-underline">
+                  <AccordionTrigger className="py-4 text-start font-display text-[15px] text-ivory hover:text-gold hover:no-underline">
                     {L(faq.q)}
                   </AccordionTrigger>
                   <AccordionContent className="pb-4 text-[14px] leading-relaxed text-muted-foreground">
@@ -250,7 +250,7 @@ const ProductPage = () => {
       </section>
 
       {related.length > 0 && (
-        <section className="bg-ivory-dim/50 section">
+        <section className="bg-navy-700/40 section">
           <div className="container-luxe">
             <SectionHeading eyebrow={t("shop.eyebrow")} title={t("product.related")} />
             <div className="mx-auto grid max-w-xl gap-7">

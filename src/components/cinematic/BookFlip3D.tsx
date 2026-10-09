@@ -112,7 +112,8 @@ const EndPage = () => {
   );
 };
 
-const BookFlip3D = () => {
+const BookFlip3D = ({ headingLevel = "h2" }: { headingLevel?: "h1" | "h2" }) => {
+  const Heading = headingLevel;
   const { t, L, lang } = useLang();
   const flagship = getProduct("the-edible-codex");
   const rtl = lang === "ar";
@@ -236,92 +237,99 @@ const BookFlip3D = () => {
         {/* Headline over the closed book; it steps aside as the cover opens */}
         <div ref={words} className="container-luxe relative z-20 text-center">
           <span className="eyebrow">{t("flip.eyebrow")}</span>
-          <h2 className="font-poster mt-2 text-[clamp(2.1rem,8.5vw,5rem)] uppercase leading-[0.95] text-ivory">
-            {t("reveal.line1")} <span className="gold-text">{t("reveal.line2")}</span>
-          </h2>
+          <Heading className="font-poster mt-2 text-[clamp(2.1rem,8.5vw,5rem)] uppercase leading-[0.95] text-ivory">
+            <span className="rise-line">
+              <span>
+                {t("reveal.line1")} <span className="gold-text">{t("reveal.line2")}</span>
+              </span>
+            </span>
+          </Heading>
         </div>
 
         {/* The book */}
         <div className="relative flex flex-1 items-center justify-center" style={{ perspective: "1800px", ...pageStyle }}>
-          <div
-            ref={book}
-            className="relative will-change-transform"
-            style={{
-              width: "calc(var(--pw) * 2)",
-              height: "calc(var(--pw) * 1.25)",
-              transformStyle: "preserve-3d",
-              fontSize: "calc(var(--pw) / 13)",
-            }}
-          >
-            {/* The boards: the back of the book, under every page */}
+          {/* The book arrives: it drops in from above, turning, as the page opens */}
+          <div className="book-arrive" style={{ transformStyle: "preserve-3d" }}>
             <div
-              className="absolute top-0 h-full w-1/2 rounded-sm bg-ink shadow-luxe ring-1 ring-gold/30"
-              style={{ [rtl ? "right" : "left"]: "50%", transform: "translateZ(-1px)" }}
+              ref={book}
+              className="relative will-change-transform"
+              style={{
+                width: "calc(var(--pw) * 2)",
+                height: "calc(var(--pw) * 1.25)",
+                transformStyle: "preserve-3d",
+                fontSize: "calc(var(--pw) / 13)",
+              }}
             >
-              <img
-                src={brandImages.logoCrest}
-                alt=""
-                aria-hidden="true"
-                className="absolute left-1/2 top-1/2 w-1/3 -translate-x-1/2 -translate-y-1/2 opacity-60"
-              />
-            </div>
-            <div
-              ref={farBoard}
-              className="absolute top-0 h-full w-1/2 rounded-sm bg-ink shadow-luxe"
-              style={{ [rtl ? "left" : "right"]: "50%", transform: "translateZ(-1px)", opacity: 0 }}
-            />
-
-            {leaves.map((leaf, i) => (
+              {/* The boards: the back of the book, under every page */}
               <div
-                key={leaf.front.key}
-                ref={(el) => (leafEls.current[i] = el)}
-                className="absolute top-0 h-full w-1/2"
-                style={{
-                  [rtl ? "right" : "left"]: "50%",
-                  transformOrigin: rtl ? "right center" : "left center",
-                  transformStyle: "preserve-3d",
-                  transform: `translateZ(${(count - i) * 0.7}px)`,
-                }}
+                className="absolute top-0 h-full w-1/2 rounded-sm bg-ink shadow-luxe ring-1 ring-gold/30"
+                style={{ [rtl ? "right" : "left"]: "50%", transform: "translateZ(-1px)" }}
               >
-                <div
-                  className="absolute inset-0 overflow-hidden rounded-sm"
-                  style={{ backfaceVisibility: "hidden", WebkitBackfaceVisibility: "hidden" }}
-                >
-                  {leaf.front.node}
-                  {/* The spine's shadow on the page */}
-                  <div
-                    className="pointer-events-none absolute inset-y-0 w-[12%]"
-                    style={{
-                      [rtl ? "right" : "left"]: 0,
-                      background: `linear-gradient(to ${rtl ? "left" : "right"}, rgba(0,0,0,0.28), transparent)`,
-                    }}
-                  />
-                </div>
-                <div
-                  className="absolute inset-0 overflow-hidden rounded-sm"
-                  style={{
-                    transform: "rotateY(180deg)",
-                    backfaceVisibility: "hidden",
-                    WebkitBackfaceVisibility: "hidden",
-                  }}
-                >
-                  {leaf.back.node}
-                  <div
-                    className="pointer-events-none absolute inset-y-0 w-[12%]"
-                    style={{
-                      [rtl ? "left" : "right"]: 0,
-                      background: `linear-gradient(to ${rtl ? "right" : "left"}, rgba(0,0,0,0.28), transparent)`,
-                    }}
-                  />
-                </div>
-                {/* Light falling across a page as it turns */}
-                <div
-                  ref={(el) => (shades.current[i] = el)}
-                  className="pointer-events-none absolute inset-0 rounded-sm bg-gradient-to-r from-black/0 via-black/40 to-black/0"
-                  style={{ opacity: 0 }}
+                <img
+                  src={brandImages.logoCrest}
+                  alt=""
+                  aria-hidden="true"
+                  className="absolute left-1/2 top-1/2 w-1/3 -translate-x-1/2 -translate-y-1/2 opacity-60"
                 />
               </div>
-            ))}
+              <div
+                ref={farBoard}
+                className="absolute top-0 h-full w-1/2 rounded-sm bg-ink shadow-luxe"
+                style={{ [rtl ? "left" : "right"]: "50%", transform: "translateZ(-1px)", opacity: 0 }}
+              />
+
+              {leaves.map((leaf, i) => (
+                <div
+                  key={leaf.front.key}
+                  ref={(el) => (leafEls.current[i] = el)}
+                  className="absolute top-0 h-full w-1/2"
+                  style={{
+                    [rtl ? "right" : "left"]: "50%",
+                    transformOrigin: rtl ? "right center" : "left center",
+                    transformStyle: "preserve-3d",
+                    transform: `translateZ(${(count - i) * 0.7}px)`,
+                  }}
+                >
+                  <div
+                    className="absolute inset-0 overflow-hidden rounded-sm"
+                    style={{ backfaceVisibility: "hidden", WebkitBackfaceVisibility: "hidden" }}
+                  >
+                    {leaf.front.node}
+                    {/* The spine's shadow on the page */}
+                    <div
+                      className="pointer-events-none absolute inset-y-0 w-[12%]"
+                      style={{
+                        [rtl ? "right" : "left"]: 0,
+                        background: `linear-gradient(to ${rtl ? "left" : "right"}, rgba(0,0,0,0.28), transparent)`,
+                      }}
+                    />
+                  </div>
+                  <div
+                    className="absolute inset-0 overflow-hidden rounded-sm"
+                    style={{
+                      transform: "rotateY(180deg)",
+                      backfaceVisibility: "hidden",
+                      WebkitBackfaceVisibility: "hidden",
+                    }}
+                  >
+                    {leaf.back.node}
+                    <div
+                      className="pointer-events-none absolute inset-y-0 w-[12%]"
+                      style={{
+                        [rtl ? "left" : "right"]: 0,
+                        background: `linear-gradient(to ${rtl ? "right" : "left"}, rgba(0,0,0,0.28), transparent)`,
+                      }}
+                    />
+                  </div>
+                  {/* Light falling across a page as it turns */}
+                  <div
+                    ref={(el) => (shades.current[i] = el)}
+                    className="pointer-events-none absolute inset-0 rounded-sm bg-gradient-to-r from-black/0 via-black/40 to-black/0"
+                    style={{ opacity: 0 }}
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
 

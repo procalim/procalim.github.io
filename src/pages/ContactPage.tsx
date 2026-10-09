@@ -2,8 +2,9 @@ import { useState } from "react";
 import { Clock, Mail, MapPin, MessageCircle, Phone, Send } from "lucide-react";
 import Seo from "@/components/Seo";
 import { useLang } from "@/i18n/LanguageContext";
-import { site, whatsappLink } from "@/data/site";
+import { brandImages, site, whatsappLink } from "@/data/site";
 import { toast } from "@/hooks/use-toast";
+import PageHero from "@/components/PageHero";
 
 const ContactPage = () => {
   const { t, lang } = useLang();
@@ -50,13 +51,13 @@ const ContactPage = () => {
     <>
       <Seo title={t("seo.contact.title")} description={t("seo.contact.desc")} />
 
-      <section className="texture-navy">
-        <div className="container-luxe py-16 text-center md:py-20">
-          <span className="eyebrow">{t("contact.eyebrow")}</span>
-          <h1 className="mt-5 font-display text-4xl text-ivory md:text-5xl">{t("contact.title")}</h1>
-          <p className="mx-auto mt-4 max-w-xl text-[15px] text-ivory/70">{t("contact.subtitle")}</p>
-        </div>
-      </section>
+      <PageHero
+        eyebrow={t("contact.eyebrow")}
+        title={t("contact.title")}
+        subtitle={t("contact.subtitle")}
+        image={brandImages.chefPortrait}
+        focus="center 25%"
+      />
 
       <section className="section container-luxe">
         <div className="grid gap-12 lg:grid-cols-[1fr_1.4fr] lg:gap-16">
@@ -73,11 +74,11 @@ const ContactPage = () => {
                       {label}
                     </p>
                     {href ? (
-                      <a href={href} dir="ltr" className="mt-1 block text-[15px] text-navy-700 hover:text-gold-600">
+                      <a href={href} dir="ltr" className="mt-1 block text-[15px] text-ivory hover:text-gold">
                         {value}
                       </a>
                     ) : (
-                      <p className="mt-1 text-[15px] text-navy-700">{value}</p>
+                      <p className="mt-1 text-[15px] text-ivory">{value}</p>
                     )}
                   </div>
                 </li>
@@ -96,7 +97,7 @@ const ContactPage = () => {
           </div>
 
           {/* Form */}
-          <form onSubmit={submit} className="rounded-sm border border-gold/25 bg-white p-7 shadow-luxe md:p-10">
+          <form onSubmit={submit} className="rounded-sm border border-gold/25 bg-navy-700/60 p-7 shadow-luxe md:p-10">
             <div className="grid gap-5 sm:grid-cols-2">
               <label className="block">
                 <span className="mb-2 block text-[11px] font-semibold uppercase tracking-[0.14em] text-muted-foreground">

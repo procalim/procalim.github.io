@@ -4,39 +4,40 @@
 
 @layer base {
   :root {
-    /* Light surface: ivory paper with navy ink */
-    --background: 43 39% 95%;
-    --foreground: 220 62% 10%;
+    /* The whole site sits on the book's own palette: ink, navy and gold.
+       الموقع كله على ألوان الكتاب: أسود، كحلي، ذهبي. */
+    --background: 240 6% 4%;
+    --foreground: 43 39% 95%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 220 62% 10%;
+    --card: 216 64% 12%;
+    --card-foreground: 43 39% 95%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 220 62% 10%;
+    --popover: 216 64% 10%;
+    --popover-foreground: 43 39% 95%;
 
-    /* Navy */
-    --primary: 216 62% 20%;
-    --primary-foreground: 43 39% 95%;
+    /* Gold leads; navy supports */
+    --primary: 45 68% 47%;
+    --primary-foreground: 240 6% 4%;
 
-    --secondary: 40 30% 90%;
-    --secondary-foreground: 216 62% 20%;
+    --secondary: 216 50% 16%;
+    --secondary-foreground: 43 39% 95%;
 
-    --muted: 40 22% 90%;
-    --muted-foreground: 220 15% 38%;
+    --muted: 216 40% 14%;
+    --muted-foreground: 40 22% 74%;
 
-    /* Gold */
     --accent: 45 68% 47%;
     --accent-foreground: 240 6% 4%;
 
-    --destructive: 0 72% 46%;
+    --destructive: 0 72% 52%;
     --destructive-foreground: 43 39% 95%;
 
-    --border: 40 18% 84%;
-    --input: 40 18% 84%;
+    --border: 45 35% 24%;
+    --input: 45 35% 28%;
     --ring: 45 68% 47%;
 
     --radius: 0.35rem;
   }
+
 
   * {
     @apply border-border;
@@ -98,7 +99,7 @@
     height: 10px;
   }
   ::-webkit-scrollbar-track {
-    background: #EDE6D8;
+    background: #0A0A0B;
   }
   ::-webkit-scrollbar-thumb {
     background: #C9A227;
@@ -140,11 +141,11 @@
   }
 
   .card-luxe {
-    @apply relative overflow-hidden rounded-sm border border-gold/15 bg-white shadow-luxe transition-all duration-300;
+    @apply relative overflow-hidden rounded-sm border border-gold/20 bg-navy-700/60 shadow-luxe transition-all duration-300;
   }
 
   .card-luxe:hover {
-    @apply border-gold/45 -translate-y-1;
+    @apply border-gold/50 -translate-y-1 shadow-gold-glow;
   }
 
   .card-dark {
@@ -161,11 +162,11 @@
   }
 
   .btn-navy {
-    @apply inline-flex items-center justify-center gap-2 rounded-sm bg-navy px-7 py-3.5 text-[13px] font-semibold uppercase tracking-[0.16em] text-ivory transition-all duration-300 hover:bg-navy-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2;
+    @apply inline-flex items-center justify-center gap-2 rounded-sm border border-gold/60 bg-navy-700 px-7 py-3.5 text-[13px] font-semibold uppercase tracking-[0.16em] text-gold transition-all duration-300 hover:bg-gold hover:text-ink active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-ink;
   }
 
   .field-luxe {
-    @apply w-full rounded-sm border border-border bg-white px-4 py-3 text-sm text-navy-800 outline-none transition-colors placeholder:text-muted-foreground focus:border-gold focus:ring-1 focus:ring-gold;
+    @apply w-full rounded-sm border border-gold/25 bg-ink/60 px-4 py-3 text-base text-ivory outline-none transition-colors placeholder:text-ivory/40 focus:border-gold focus:ring-1 focus:ring-gold;
   }
 
   /* Poster headlines for the cinematic home page: a tall condensed face in
@@ -261,6 +262,38 @@
     to { filter: none; }
   }
 
+  /* Inner-page heroes: the photograph settles from slightly closer (the
+     independent `scale` property, so the scroll parallax on `transform`
+     still applies), and the subtitle follows the headline up. */
+  .hero-drift {
+    animation: drift 2.4s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+
+  @keyframes drift {
+    from { scale: 1.18; opacity: 0; }
+    to { scale: 1; }
+  }
+
+  .hero-fade {
+    animation: fade-up 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+    animation-delay: var(--fade-delay, 0ms);
+  }
+
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(18px); }
+    to { opacity: 1; transform: none; }
+  }
+
+  /* The 3D book's entrance on the home page. */
+  .book-arrive {
+    animation: book-arrive 1.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+
+  @keyframes book-arrive {
+    from { opacity: 0; transform: translateY(-120px) rotateX(55deg) rotateZ(-8deg); }
+    to { opacity: 1; transform: none; }
+  }
+
   /* Oversized outlined numeral behind a section heading. */
   .chapter-numeral {
     @apply pointer-events-none absolute left-1/2 top-0 -translate-x-1/2 -translate-y-[38%] select-none font-poster leading-none;
@@ -272,6 +305,9 @@
   @media (prefers-reduced-motion: reduce) {
     .btn-gold::after,
     .plate-focus-in,
+    .hero-drift,
+    .hero-fade,
+    .book-arrive,
     .rise-line > span {
       animation: none;
     }
@@ -289,7 +325,7 @@
   /* Scroll-in reveal for the unpinned sections: hidden only once JavaScript
      has armed it, so a page without scripts shows everything.
      ظهور تدريجي للأقسام عند الوصول إليها؛ بدون جافاسكربت يظهر كل شيء. */
-  .reveal-armed [data-reveal] {
+  .reveal-armed [data-reveal-target] {
     opacity: 0;
     transform: translateY(28px);
     transition:
@@ -298,7 +334,7 @@
     transition-delay: var(--reveal-delay, 0ms);
   }
 
-  .reveal-armed [data-reveal].is-revealed {
+  .reveal-armed [data-reveal-target].is-revealed {
     opacity: 1;
     transform: none;
   }
