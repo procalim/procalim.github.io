@@ -11,6 +11,7 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
 import SmoothScroll from "@/components/layout/SmoothScroll";
+import PageMotion from "@/components/layout/PageMotion";
 import RouteTracker from "@/components/RouteTracker";
 import HomePage from "@/pages/HomePage";
 import ShopPage from "@/pages/ShopPage";
@@ -37,6 +38,7 @@ const App = () => (
           <BrowserRouter basename={import.meta.env.BASE_URL}>
             <ScrollToTop />
             <SmoothScroll />
+            <PageMotion />
             <RouteTracker />
             <div className="flex min-h-screen flex-col">
               <div className="film-grain" aria-hidden="true" />

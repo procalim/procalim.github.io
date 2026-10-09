@@ -66,9 +66,9 @@ const BuyButton = ({ product, withPrice = false, className = "" }: Props) => {
       </button>
 
       <Dialog open={open} onOpenChange={setOpen}>
-        <DialogContent className="max-h-[92vh] w-[calc(100vw-24px)] max-w-lg overflow-y-auto border-gold/30 bg-ivory p-0 sm:w-full">
+        <DialogContent className="max-h-[92vh] w-[calc(100vw-24px)] max-w-lg overflow-y-auto border-gold/30 bg-ink p-0 sm:w-full">
           <DialogHeader className="border-b border-gold/20 px-6 py-4 text-start">
-            <DialogTitle className="pe-8 font-display text-lg text-navy-700">{L(product.title)}</DialogTitle>
+            <DialogTitle className="pe-8 font-display text-lg text-ivory">{L(product.title)}</DialogTitle>
           </DialogHeader>
 
           <div className="px-4 py-4">
@@ -77,7 +77,7 @@ const BuyButton = ({ product, withPrice = false, className = "" }: Props) => {
                 <WhopElements
                   elements={elements}
                   locale="en"
-                  appearance={{ theme: { appearance: "light" } }}
+                  appearance={{ theme: { appearance: "dark" } }}
                   onLoadError={() => setFailed(true)}
                 >
                   <Checkout
@@ -100,7 +100,7 @@ const BuyButton = ({ product, withPrice = false, className = "" }: Props) => {
                   href={hostedUrl}
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="mt-4 flex items-center justify-center gap-1.5 border-t border-border pt-4 text-[12px] text-muted-foreground underline underline-offset-4 transition-colors hover:text-gold-600"
+                  className="mt-4 flex items-center justify-center gap-1.5 border-t border-border pt-4 text-[12px] text-muted-foreground underline underline-offset-4 transition-colors hover:text-gold"
                 >
                   {t("checkout.moreMethods")}
                   <ExternalLink className="h-3 w-3" />
@@ -108,7 +108,7 @@ const BuyButton = ({ product, withPrice = false, className = "" }: Props) => {
               </>
             ) : (
               <div className="py-10 text-center">
-                <p className="text-[14px] leading-relaxed text-navy-800/85">{t("checkout.embedFailed")}</p>
+                <p className="text-[14px] leading-relaxed text-ivory/85">{t("checkout.embedFailed")}</p>
                 <a
                   href={hostedUrl}
                   target="_blank"

@@ -29,7 +29,7 @@ const VideoPage = () => {
     return (
       <div className="container-luxe section text-center">
         <Seo title={t("videos.notFound")} description={t("videos.notFound")} />
-        <h1 className="font-display text-3xl text-navy-700">{t("videos.notFound")}</h1>
+        <h1 className="font-display text-3xl text-ivory">{t("videos.notFound")}</h1>
         <Link to="/videos/" className="btn-gold mt-8 inline-flex">
           {t("videos.all")}
         </Link>
@@ -60,17 +60,17 @@ const VideoPage = () => {
         })}
       />
 
-      <div className="border-b border-border bg-white">
+      <div className="border-b border-border bg-navy-700/60">
         <div className="container-luxe flex items-center gap-2 py-4 text-[12px] text-muted-foreground">
-          <Link to="/" className="hover:text-gold-600">
+          <Link to="/" className="hover:text-gold">
             {t("nav.home")}
           </Link>
           <ChevronLeft className="h-3.5 w-3.5 rotate-180 flip-rtl" />
-          <Link to="/videos/" className="hover:text-gold-600">
+          <Link to="/videos/" className="hover:text-gold">
             {t("videos.nav")}
           </Link>
           <ChevronLeft className="h-3.5 w-3.5 rotate-180 flip-rtl" />
-          <span className="truncate text-navy-700">{L(video.title)}</span>
+          <span className="truncate text-ivory">{L(video.title)}</span>
         </div>
       </div>
 
@@ -89,25 +89,25 @@ const VideoPage = () => {
 
           <div>
             <p className="eyebrow eyebrow-start">{t("videos.eyebrow")}</p>
-            <h1 className="mt-5 font-display text-[clamp(1.8rem,4vw,2.8rem)] leading-tight text-navy-700">
+            <h1 className="mt-5 font-display text-[clamp(1.8rem,4vw,2.8rem)] leading-tight text-ivory">
               {L(video.title)}
             </h1>
             <p className="mt-5 text-[15px] leading-relaxed text-muted-foreground">
               {L(video.description)}
             </p>
 
-            <h2 className="mt-10 font-display text-xl text-navy-700">{t("videos.why")}</h2>
+            <h2 className="mt-10 font-display text-xl text-ivory">{t("videos.why")}</h2>
             <ul className="mt-5 space-y-4">
               {(lang === "ar" ? video.notes.ar : video.notes.en).map((note) => (
-                <li key={note} className="flex gap-3 text-[15px] leading-relaxed text-navy-800/85">
-                  <Check className="mt-1 h-4 w-4 shrink-0 text-gold-600" />
+                <li key={note} className="flex gap-3 text-[15px] leading-relaxed text-ivory/85">
+                  <Check className="mt-1 h-4 w-4 shrink-0 text-gold" />
                   {note}
                 </li>
               ))}
             </ul>
 
-            <div className="mt-10 rounded-sm border border-gold/25 bg-ivory p-6">
-              <p className="text-[15px] leading-relaxed text-navy-800/85">{t("videos.bookPitch")}</p>
+            <div className="mt-10 rounded-sm border border-gold/25 bg-ink p-6">
+              <p className="text-[15px] leading-relaxed text-ivory/85">{t("videos.bookPitch")}</p>
               <div className="mt-5">
                 <BuyButton product={flagship} withPrice />
               </div>
@@ -116,9 +116,9 @@ const VideoPage = () => {
         </div>
       </section>
 
-      <section className="bg-ivory-dim/50 section">
+      <section className="bg-navy-700/40 section">
         <div className="container-luxe">
-          <h2 className="font-display text-2xl text-navy-700">{t("videos.more")}</h2>
+          <h2 className="font-display text-2xl text-ivory">{t("videos.more")}</h2>
           <div className="mt-8 grid grid-cols-2 gap-5 md:grid-cols-3">
             {others.map((other) => (
               <Link key={other.slug} to={`/videos/${other.slug}/`} className="group">
@@ -128,7 +128,7 @@ const VideoPage = () => {
                   loading="lazy"
                   className="aspect-[9/16] w-full rounded-lg border border-gold/20 object-cover transition-opacity group-hover:opacity-90"
                 />
-                <h3 className="mt-3 font-display text-[15px] leading-snug text-navy-700">
+                <h3 className="mt-3 font-display text-[15px] leading-snug text-ivory">
                   {L(other.title)}
                 </h3>
               </Link>

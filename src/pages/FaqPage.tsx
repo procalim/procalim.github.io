@@ -5,6 +5,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { useLang } from "@/i18n/LanguageContext";
 import { faqs } from "@/data/products";
 import { site, whatsappLink } from "@/data/site";
+import PageHero from "@/components/PageHero";
 
 const FaqPage = () => {
   const { t, L, lang } = useLang();
@@ -25,19 +26,13 @@ const FaqPage = () => {
         }}
       />
 
-      <section className="texture-navy">
-        <div className="container-luxe py-16 text-center md:py-20">
-          <span className="eyebrow">{t("faq.eyebrow")}</span>
-          <h1 className="mt-5 font-display text-4xl text-ivory md:text-5xl">{t("faq.title")}</h1>
-          <p className="mx-auto mt-4 max-w-xl text-[15px] text-ivory/70">{t("faq.subtitle")}</p>
-        </div>
-      </section>
+      <PageHero eyebrow={t("faq.eyebrow")} title={t("faq.title")} subtitle={t("faq.subtitle")} />
 
       <section className="section container-luxe">
         <Accordion type="single" collapsible className="mx-auto max-w-3xl">
           {faqs.map((faq, i) => (
-            <AccordionItem key={i} value={`all-faq-${i}`} className="border-b border-gold/20">
-              <AccordionTrigger className="py-5 text-start font-display text-base text-navy-700 hover:text-gold-600 hover:no-underline md:text-lg">
+            <AccordionItem key={i} data-reveal={i} value={`all-faq-${i}`} className="border-b border-gold/20">
+              <AccordionTrigger className="py-5 text-start font-display text-base text-ivory hover:text-gold hover:no-underline md:text-lg">
                 {L(faq.q)}
               </AccordionTrigger>
               <AccordionContent className="pb-6 text-[14px] leading-relaxed text-muted-foreground">
@@ -47,8 +42,8 @@ const FaqPage = () => {
           ))}
         </Accordion>
 
-        <div className="mx-auto mt-14 max-w-3xl rounded-sm border border-gold/25 bg-ivory p-8 text-center">
-          <h2 className="font-display text-xl text-navy-700">{t("contact.title")}</h2>
+        <div className="mx-auto mt-14 max-w-3xl rounded-sm border border-gold/25 bg-ink p-8 text-center">
+          <h2 className="font-display text-xl text-ivory">{t("contact.title")}</h2>
           <p className="mt-3 text-[14px] text-muted-foreground">{t("contact.subtitle")}</p>
           <div className="mt-6 flex flex-col justify-center gap-3 sm:flex-row">
             <Link to="/contact/" className="btn-navy">
@@ -60,7 +55,7 @@ const FaqPage = () => {
               )}
               target="_blank"
               rel="noreferrer noopener"
-              className="btn-outline-gold text-navy-700 hover:text-ink"
+              className="btn-outline-gold text-ivory hover:text-ink"
             >
               <MessageCircle className="h-4 w-4" />
               {t("contact.whatsapp")}

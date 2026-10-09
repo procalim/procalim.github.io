@@ -41,10 +41,10 @@ const CheckoutCompletePage = () => {
       <Seo title={t("done.title")} description={view.body} noindex />
       <div className="container-luxe flex min-h-[60vh] flex-col items-center justify-center py-24 text-center">
         <view.Icon className={`h-14 w-14 ${view.tone}`} aria-hidden />
-        <h1 className="mt-6 font-display text-2xl text-ivory md:text-3xl">{view.title}</h1>
+        <h1 className="font-poster mt-6 text-[clamp(2rem,8vw,3.6rem)] uppercase leading-[0.95] text-ivory">{view.title}</h1>
         <p className="mt-3 max-w-md text-[15px] leading-relaxed text-ivory/70">{view.body}</p>
         {reference && (
-          <p className="mt-4 text-[12px] text-ivory/45">
+          <p className="mt-4 text-[12px] text-ivory/70">
             {t("done.reference")}: <span dir="ltr">{reference}</span>
           </p>
         )}

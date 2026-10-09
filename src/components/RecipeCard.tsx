@@ -41,8 +41,8 @@ const RecipeCard = ({ recipe }: { recipe: Recipe }) => {
       </Link>
 
       <div className="flex flex-1 flex-col p-6">
-        <h3 className="font-display text-lg leading-snug text-navy-700">
-          <Link to={`/recipes/${recipe.slug}/`} className="transition-colors hover:text-gold-600">
+        <h3 className="font-display text-lg leading-snug text-ivory">
+          <Link to={`/recipes/${recipe.slug}/`} className="transition-colors hover:text-gold">
             {L(recipe.title)}
           </Link>
         </h3>
@@ -59,7 +59,7 @@ const RecipeCard = ({ recipe }: { recipe: Recipe }) => {
           </span>
           <Link
             to={`/recipes/${recipe.slug}/`}
-            className="ms-auto flex items-center gap-1 font-semibold text-gold-600 hover:underline"
+            className="ms-auto flex items-center gap-1 font-semibold text-gold hover:underline"
           >
             {t("recipes.read")}
             <ArrowRight className="h-3.5 w-3.5 flip-rtl" />

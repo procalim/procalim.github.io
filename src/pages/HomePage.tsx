@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import { Link } from "@/components/LocalLink";
 import { ArrowRight, BookOpen, ChefHat, Check, ChevronsLeftRight, Droplets, Infinity as InfinityIcon, Quote, Star } from "lucide-react";
 import Seo from "@/components/Seo";
@@ -16,14 +15,11 @@ import BookFlip3D from "@/components/cinematic/BookFlip3D";
 import GoldBand from "@/components/cinematic/GoldBand";
 import RecipeReel from "@/components/cinematic/RecipeReel";
 import SauceFeature from "@/components/cinematic/SauceFeature";
-import { useReveal } from "@/hooks/use-reveal";
 import Picture from "@/components/Picture";
 
 const HomePage = () => {
   const { t, L, lang } = useLang();
   const flagship = getProduct("the-edible-codex")!;
-  const page = useRef<HTMLDivElement>(null);
-  useReveal(page);
 
   const valueProps = [
     { Icon: ChefHat, title: t("value.1.title"), body: t("value.1.body") },
@@ -33,7 +29,7 @@ const HomePage = () => {
   ];
 
   return (
-    <div ref={page} className="bg-ink">
+    <div className="bg-ink">
       <Seo
         title={t("seo.home.title")}
         description={t("seo.home.desc")}
@@ -58,10 +54,13 @@ const HomePage = () => {
         }}
       />
 
-      {/* ── HERO · the plates, scene by scene as the visitor scrolls ── */}
-      <PlateStory flagshipPath={`/shop/${flagship.slug}/`} />
+      {/* ── HERO · the book in 3D, opened and turned by the scroll ── */}
+      <BookFlip3D headingLevel="h1" />
 
       <GoldBand />
+
+      {/* ── THE PLATES · scene by scene as the visitor scrolls ── */}
+      <PlateStory flagshipPath={`/shop/${flagship.slug}/`} headingLevel="h2" />
 
       <TrustStrip />
 
@@ -150,8 +149,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* ── FLAGSHIP · the book opens, then the offer ── */}
-      <BookFlip3D />
+      {/* ── FLAGSHIP · the offer ── */}
 
       <section className="texture-navy pb-14 pt-2 md:pb-20 md:pt-6">
         <div className="container-luxe grid items-center gap-14 lg:grid-cols-2">

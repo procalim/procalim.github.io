@@ -58,15 +58,15 @@ const ProductCard = ({ product }: { product: Product }) => {
           <span className="ms-1 text-[11px] text-muted-foreground">({product.reviews})</span>
         </div>
 
-        <h3 className="font-display text-lg leading-snug text-navy-700">
-          <Link to={`/shop/${product.slug}/`} className="transition-colors hover:text-gold-600">
+        <h3 className="font-display text-lg leading-snug text-ivory">
+          <Link to={`/shop/${product.slug}/`} className="transition-colors hover:text-gold">
             {L(product.title)}
           </Link>
         </h3>
         <p className="mt-2 flex-1 text-[13px] leading-relaxed text-muted-foreground">{L(product.subtitle)}</p>
 
         <div className="mt-5 flex items-baseline gap-2">
-          <span className={`font-display text-2xl ${isFree ? "text-gold-600" : "text-navy-700"}`}>
+          <span className={`font-display text-2xl ${isFree ? "text-gold" : "text-ivory"}`}>
             {isFree ? t("product.free") : formatPrice(product.price, lang, site.currency.symbol)}
           </span>
           {product.compareAt && (

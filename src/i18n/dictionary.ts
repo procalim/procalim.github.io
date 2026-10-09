@@ -14,6 +14,7 @@ export const dictionary = {
   "nav.close": { ar: "إغلاق", en: "Close" },
   "nav.skip": { ar: "تخطَّ إلى المحتوى", en: "Skip to content" },
   "reviews.swipe": { ar: "اسحب لرؤية المزيد", en: "Swipe for more" },
+  "legal.eyebrow": { ar: "السياسات", en: "Policies" },
 
   /* ── Home · the 3D book ── */
   "flip.eyebrow": { ar: "قلّب الكتاب بنفسك", en: "Turn the Pages Yourself" },
