@@ -40,6 +40,46 @@ export const dictionary = {
   "hero.portrait.brand": { ar: "مؤسّس ذا إديبل كودكس · عمّان", en: "Founder of The Edible Codex · Amman" },
   "hero.scroll": { ar: "تابع النزول", en: "Scroll" },
 
+  /* ── Home · the plate story (scroll-driven hero scenes) ── */
+  "story.2.eyebrow": { ar: "الفصل الثاني · الصلصات", en: "Chapter Two · The Sauces" },
+  "story.2.line1": { ar: "الصلصة", en: "The Sauce" },
+  "story.2.line2": { ar: "توقيع الشيف", en: "Is the Signature" },
+  "story.2.body": {
+    ar: "صلصات ملوّنة بنِسَب مضبوطة بالجرام — هي الفرق بين طبق جيّد وطبق لا يُنسى.",
+    en: "Colour sauces measured to the gram — the difference between a good plate and one they remember.",
+  },
+  "story.3.eyebrow": { ar: "الفصل الثالث · الطبق الرئيسي", en: "Chapter Three · The Main" },
+  "story.3.line1": { ar: "من مطبخي", en: "From My Pass" },
+  "story.3.line2": { ar: "إلى مطبخك", en: "To Your Table" },
+  "story.3.body": {
+    ar: "كل وصفة على صفحة واحدة: الصورة، المقادير، الخطوات، وملاحظة الشيف. بلا تعقيد، وبلا تخمين.",
+    en: "Every recipe on a single page: the photograph, the measurements, the method and a chef's note. No guesswork.",
+  },
+
+  /* ── Home · scrolling band ── */
+  "band.1": { ar: "٢٦١ وصفة احترافية", en: "261 chef recipes" },
+  "band.2": { ar: "١٠٠ وصفة مجاناً", en: "100 free recipes" },
+  "band.3": { ar: "صلصات بالجرام", en: "Sauces to the gram" },
+  "band.4": { ar: "تحميل فوري", en: "Instant download" },
+  "band.5": { ar: "تحديثات مدى الحياة", en: "Lifetime updates" },
+
+  /* ── Home · the book reveal ── */
+  "reveal.line1": { ar: "٣٦١ وصفة.", en: "361 Recipes." },
+  "reveal.line2": { ar: "٣٨٦ صفحة.", en: "386 Pages." },
+  "reveal.body": {
+    ar: "افتح الكتاب: لكل وصفة صفحتها وصورتها الخاصة، مكتوبة كما تُطبخ في مطبخ محترف — وتُقرأ على الجوال واللوح والحاسوب.",
+    en: "Open the book: every recipe has its own page and its own photograph, written the way a professional kitchen cooks it — and it reads on phone, tablet and desktop.",
+  },
+  "reveal.page.cover": { ar: "الغلاف", en: "The cover" },
+  "reveal.page.contents": { ar: "الفهرس", en: "Contents" },
+  "reveal.page.recipe": { ar: "صفحة وصفة", en: "A recipe page" },
+  "reveal.page.screen": { ar: "على كل شاشة", en: "On every screen" },
+  "reveal.page.chef": { ar: "الشيف", en: "The chef" },
+
+  /* ── Home · the chef ── */
+  "chef.eyebrow": { ar: "الشيف", en: "The Chef" },
+  "chef.cta": { ar: "قصة الشيف", en: "The chef's story" },
+
   /* ── Value props ── */
   "value.title": { ar: "لماذا هذا الإصدار مختلف", en: "Why This Edition Is Different" },
   "value.subtitle": {
