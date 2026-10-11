@@ -4,6 +4,7 @@ import { WhopElements, Checkout, CheckoutElement } from "@whop/elements-react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { formatPrice, useLang } from "@/i18n/LanguageContext";
 import { loadCheckout } from "@/lib/whopCheckout";
+import { rememberCheckout } from "@/lib/last-checkout";
 import { buyLink, onBuyClick } from "@/lib/buy";
 import { pageUrl } from "@/lib/page-url";
 import { localePath } from "@/i18n/locale-path";
@@ -32,7 +33,9 @@ const BuyButton = ({ product, withPrice = false, className = "" }: Props) => {
   // load the SDK. Off-site payment steps (3DS, bank pages) come back to the
   // return page in the buyer's language, which reads `payment` and `status`.
   const elements = useMemo(() => (open ? loadCheckout() : null), [open]);
-  const returnUrl = pageUrl(localePath("/checkout/complete/", lang));
+  // The product rides along so the return page can open it on Whop; Whop
+  // adds `payment` and `status` beside it.
+  const returnUrl = `${pageUrl(localePath("/checkout/complete/", lang))}?product=${product.slug}`;
 
   // No plan id configured — behave exactly as before, a plain outbound link.
   if (!product.planId) {
@@ -58,6 +61,7 @@ const BuyButton = ({ product, withPrice = false, className = "" }: Props) => {
           onBuyClick(product);
           setFailed(false);
           setOpen(true);
+          rememberCheckout(product.slug);
         }}
         className={`btn-gold ${className}`}
       >
