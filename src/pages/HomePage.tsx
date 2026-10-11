@@ -12,6 +12,7 @@ import BuyButton from "@/components/BuyButton";
 import { bookPages, brandImages, site } from "@/data/site";
 import PlateStory from "@/components/cinematic/PlateStory";
 import BookFlip3D from "@/components/cinematic/BookFlip3D";
+import ChipsFilm from "@/components/cinematic/ChipsFilm";
 import GoldBand from "@/components/cinematic/GoldBand";
 import RecipeReel from "@/components/cinematic/RecipeReel";
 import SauceFeature from "@/components/cinematic/SauceFeature";
@@ -56,6 +57,9 @@ const HomePage = () => {
 
       {/* ── HERO · the book in 3D, opened and turned by the scroll ── */}
       <BookFlip3D headingLevel="h1" />
+
+      {/* ── THE FILM · the chef's one-second chips, played by the scroll ── */}
+      <ChipsFilm />
 
       <GoldBand />
 

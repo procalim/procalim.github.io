@@ -16,6 +16,29 @@ export const dictionary = {
   "reviews.swipe": { ar: "اسحب لرؤية المزيد", en: "Swipe for more" },
   "legal.eyebrow": { ar: "السياسات", en: "Policies" },
 
+  /* ── Home · the chips film (scroll-scrubbed) ── */
+  "film.eyebrow": { ar: "من مطبخ الشيف · فيلم", en: "From the Chef's Kitchen · Film" },
+  "film.alt": { ar: "الشيف يقلي ورق الأرز فينتفخ شيبساً مقرمشاً", en: "The chef frying rice paper as it puffs into crisp chips" },
+  "film.1.line1": { ar: "ورقة أرز", en: "One Sheet of" },
+  "film.1.line2": { ar: "عادية جداً", en: "Rice Paper" },
+  "film.1.body": {
+    ar: "تبدأ بورقة رخيصة من أي متجر. مقصّ واحد، ومثلّثات بحجم اللقمة.",
+    en: "It starts with a cheap sheet from any shop. One pair of scissors, bite-sized triangles.",
+  },
+  "film.2.line1": { ar: "ثانية واحدة", en: "One Second" },
+  "film.2.line2": { ar: "في الزيت", en: "In Hot Oil" },
+  "film.2.body": {
+    ar: "تلمس الزيت الحار… وتنتفخ أمامك كالسحاب. لا عجين، لا فرن، لا انتظار.",
+    en: "It touches the hot oil and blooms like a cloud in front of you. No dough, no oven, no waiting.",
+  },
+  "film.3.line1": { ar: "شيبس مطاعم", en: "Restaurant Chips" },
+  "film.3.line2": { ar: "بلا أي مجهود", en: "With Zero Effort" },
+  "film.3.body": {
+    ar: "رشّة بابريكا، ورشّة أعشاب — وطبق مقرمش يختفي قبل أن تجلس. هذه واحدة فقط من حيل الكتاب.",
+    en: "A dust of paprika, a pinch of herbs, and a crisp plate that's gone before you sit down. Just one of the book's tricks.",
+  },
+  "film.cta": { ar: "شاهد الطريقة كاملة", en: "Watch the full technique" },
+
   /* ── Home · the 3D book ── */
   "flip.eyebrow": { ar: "قلّب الكتاب بنفسك", en: "Turn the Pages Yourself" },
   "flip.hint": { ar: "انزل لتفتح الكتاب وتقلّب صفحاته", en: "Scroll to open the book and turn its pages" },
