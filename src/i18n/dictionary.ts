@@ -462,6 +462,12 @@ export const dictionary = {
     en: "This can take a few minutes. Whop will email you as soon as it's confirmed — no need to pay again.",
   },
   "done.reference": { ar: "رقم العملية", en: "Payment reference" },
+  "done.access.title": { ar: "منتجك جاهز على Whop", en: "Your purchase is ready on Whop" },
+  "done.access.body": {
+    ar: "اضغط الزر لفتح منتجك الآن، وسجّل الدخول بنفس البريد الذي دفعت به.",
+    en: "Tap the button to open it now — sign in with the same email you paid with.",
+  },
+  "done.access.cta": { ar: "افتح منتجي على Whop", en: "Open my purchase on Whop" },
   "done.retry": { ar: "العودة إلى المتجر", en: "Back to the shop" },
   "done.home": { ar: "الصفحة الرئيسية", en: "Home" },
 

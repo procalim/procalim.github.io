@@ -1,8 +1,10 @@
 import { useSearchParams } from "react-router-dom";
-import { CheckCircle2, Clock, XCircle } from "lucide-react";
+import { CheckCircle2, Clock, ExternalLink, XCircle } from "lucide-react";
 import { Link } from "@/components/LocalLink";
 import Seo from "@/components/Seo";
 import { useLang } from "@/i18n/LanguageContext";
+import { getProduct, products } from "@/data/products";
+import { lastCheckout } from "@/lib/last-checkout";
 
 /**
  * Where Whop sends the buyer back after an off-site payment step (3DS, a
@@ -17,11 +19,16 @@ import { useLang } from "@/i18n/LanguageContext";
  * يمكن كتابتها يدوياً، وWhop هو من يسلّم المشتريات.
  */
 const CheckoutCompletePage = () => {
-  const { t } = useLang();
+  const { t, L } = useLang();
   const [params] = useSearchParams();
   const status = params.get("status");
   const payment = params.get("payment");
   const reference = payment && /^pay_[A-Za-z0-9]+$/.test(payment) ? payment : null;
+  // What was bought: named on the return URL, else remembered from this tab.
+  // Unknown, every product is offered — the button only opens Whop, where
+  // access is checked against the buyer's own account.
+  const bought = getProduct(params.get("product") ?? undefined) ?? getProduct(lastCheckout() ?? undefined);
+  const openable = (bought ? [bought] : products).filter((p) => p.accessUrl);
 
   const view =
     status === "succeeded"
@@ -48,6 +55,23 @@ const CheckoutCompletePage = () => {
             {t("done.reference")}: <span dir="ltr">{reference}</span>
           </p>
         )}
+        {/* After a payment, the way to what was bought — on Whop, signed in
+            with the email used at checkout. */}
+        {!view.retry && openable.length > 0 && (
+          <div className="mt-9 w-full max-w-md rounded-sm border border-gold/40 bg-navy-700/60 p-6 shadow-gold-glow">
+            <p className="font-display text-lg text-ivory">{t("done.access.title")}</p>
+            <p className="mt-2 text-[13px] leading-relaxed text-ivory/75">{t("done.access.body")}</p>
+            <div className="mt-5 flex flex-col gap-3">
+              {openable.map((p) => (
+                <a key={p.slug} href={p.accessUrl} target="_blank" rel="noreferrer noopener" className="btn-gold w-full">
+                  {openable.length > 1 ? L(p.title) : t("done.access.cta")}
+                  <ExternalLink className="h-4 w-4" />
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
         <div className="mt-9 flex flex-col gap-3 sm:flex-row">
           <Link to="/shop/" className={view.retry ? "btn-gold" : "btn-outline-gold"}>
             {t("done.retry")}
