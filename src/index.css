@@ -294,6 +294,19 @@
     to { opacity: 1; transform: none; }
   }
 
+  /* The marquees in Arabic. A row wider than its box hangs off the left in
+     right-to-left text, so sliding it left (as in English) slides it out of
+     view and leaves the band empty; in Arabic it slides right instead.
+     الشريط المتحرك بالعربية يتحرك لليمين، وإلا خرج النص من الشاشة. */
+  html[dir="rtl"] .animate-marquee {
+    animation-name: marquee-x-rtl;
+  }
+
+  @keyframes marquee-x-rtl {
+    from { transform: translateX(0); }
+    to { transform: translateX(50%); }
+  }
+
   /* Oversized outlined numeral behind a section heading. */
   .chapter-numeral {
     @apply pointer-events-none absolute left-1/2 top-0 -translate-x-1/2 -translate-y-[38%] select-none font-poster leading-none;
