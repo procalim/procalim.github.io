@@ -34,7 +34,7 @@
          where scripts do not run, so it never flashes before React mounts
          while still being plain markup for crawlers and site importers.
          المحتوى الاحتياطي مخفيّ عن الزوّار ويظهر فقط لمن لا يشغّل الجافاسكربت. -->
-    <noscript><style>#static-fallback{display:block !important}</style></noscript>
+    <noscript><style>#static-fallback{display:block !important}#app-shell{display:none !important}</style></noscript>
     <style>body{background:#0B1B33}</style>
 
     <!-- Absolute, not relative: this one document is served for every route,
@@ -58,6 +58,21 @@
 
   <body>
     <div id="root">
+      <!-- First screen, painted from the HTML alone before the app's code has
+           arrived: the dark stage, the wordmark and the page's headline. On a
+           slow connection the page used to stay blank until the bundle loaded;
+           now something real shows at once, and React replaces it on mount.
+           Hidden where scripts do not run (the static fallback shows instead).
+           شاشة أولى تظهر فوراً من الـ HTML قبل وصول كود الموقع. -->
+      <div id="app-shell" aria-hidden="true" style="min-height:100vh;background:#0A0A0B;color:#F4EFE4;font-family:Tajawal,Inter,system-ui,sans-serif">
+        <div style="height:36px;background:#0A0A0B"></div>
+        <div style="height:74px;display:flex;align-items:center;justify-content:center;border-bottom:1px solid rgba(201,162,39,.18);font-family:'Playfair Display',Georgia,serif;font-size:18px;font-weight:600">The&nbsp;<span style="color:#C9A227">Edible</span>&nbsp;Codex</div>
+        <div style="padding:96px 20px 0;text-align:center">
+          <p style="margin:0 0 14px;color:#C9A227;font-size:11px;letter-spacing:.3em">THE EDIBLE CODEX</p>
+          <p data-shell-title style="margin:0 auto;max-width:720px;font-size:clamp(34px,9vw,72px);line-height:1.15;font-weight:800">مطبخ محترف في جيبك</p>
+          <!--shell-image-->
+        </div>
+      </div>
       <!-- ─────────────────────────────────────────────────────────────
            Static fallback · محتوى ثابت
            React replaces this the moment it mounts. It exists for

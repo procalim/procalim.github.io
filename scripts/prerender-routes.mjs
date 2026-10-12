@@ -288,6 +288,13 @@ const ownBody = (route, lang) => {
   return `<h1 style="${H1}">${escape(meta.title)}</h1>\n<p style="${P}">${escape(meta.description)}</p>`;
 };
 
+/** The headline the first screen shows before the app arrives. */
+const shellTitle = (route, lang) => {
+  if (route.path === "/") return lang === "en" ? "A Pro Kitchen In Your Pocket" : "مطبخ محترف في جيبك";
+  if (lang === "en") return englishMeta(route).title;
+  return route.title;
+};
+
 /** Title and description of a route in English, from the same sources the app reads. */
 const englishMeta = (route) => {
   const [, section, slug] = route.path.split("/");
@@ -335,6 +342,18 @@ const render = (route, lang) => {
   const image = origin + (imageFor(route) ?? "/brand/logo-square.jpg");
 
   let html = withFallback(template, route, lang);
+  // The first screen shows this page's own headline. الشاشة الأولى بعنوان الصفحة.
+  html = html.replace(/(<p data-shell-title[^>]*>)[\s\S]*?(<\/p>)/, (_, open, close) => `${open}${escape(shellTitle(route, lang))}${close}`);
+  // On the home page the first screen also shows the book's cover, loaded
+  // straight from the HTML at high priority: it is the page's largest image,
+  // and it no longer waits for the app's code to be asked for.
+  // الصفحة الرئيسية: غلاف الكتاب في الشاشة الأولى، يُحمَّل فوراً.
+  if (route.path === "/") {
+    html = html.replace(
+      "<!--shell-image-->",
+      `<img src="/brand/book/cover.webp" alt="" width="200" height="250" fetchpriority="high" style="display:block;margin:40px auto 0;width:min(46vw,200px);height:auto;border-radius:2px;box-shadow:0 0 40px rgba(201,162,39,.25)" />`,
+    );
+  }
   if (lang === "en") html = html.replace('<html lang="ar" dir="rtl">', '<html lang="en" dir="ltr">');
   return html
     .replace(/<title>[\s\S]*?<\/title>/, `<title>${title}</title>`)
