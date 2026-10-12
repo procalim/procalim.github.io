@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "@/components/LocalLink";
 import { Instagram, Mail, MapPin, Phone, Send } from "lucide-react";
+import { useLocation } from "react-router-dom";
 import { useLang } from "@/i18n/LanguageContext";
 import { site } from "@/data/site";
 
@@ -12,6 +13,15 @@ const PaymentMark = ({ label }: { label: string }) => (
 
 const Footer = () => {
   const { t, lang } = useLang();
+  const { pathname } = useLocation();
+  // Share the page the visitor is on. شارك الصفحة الحالية.
+  const here = encodeURIComponent(`${site.url}${pathname}`);
+  const shares = [
+    { label: "WhatsApp", href: `https://wa.me/?text=${here}` },
+    { label: "Facebook", href: `https://www.facebook.com/sharer/sharer.php?u=${here}` },
+    { label: "X", href: `https://twitter.com/intent/tweet?url=${here}` },
+    { label: "Pinterest", href: `https://pinterest.com/pin/create/button/?url=${here}` },
+  ];
   const [email, setEmail] = useState("");
   const [done, setDone] = useState(false);
 
@@ -132,6 +142,21 @@ const Footer = () => {
           <div className="flex items-center gap-2" title={t("footer.payments")}>
             {payments.map((p) => (
               <PaymentMark key={p} label={p} />
+            ))}
+          </div>
+
+          <div className="flex flex-wrap items-center justify-center gap-2" aria-label={t("footer.share")}>
+            <span className="text-[11px] uppercase tracking-[0.14em] text-ivory/60">{t("footer.share")}</span>
+            {shares.map(({ label, href }) => (
+              <a
+                key={label}
+                href={href}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="inline-flex h-9 min-w-[44px] items-center justify-center rounded-sm border border-gold/25 px-2.5 text-[11px] font-semibold text-ivory/75 transition-colors hover:border-gold hover:text-gold"
+              >
+                {label}
+              </a>
             ))}
           </div>
 

@@ -15,6 +15,7 @@ export const dictionary = {
   "nav.skip": { ar: "تخطَّ إلى المحتوى", en: "Skip to content" },
   "reviews.swipe": { ar: "اسحب لرؤية المزيد", en: "Swipe for more" },
   "legal.eyebrow": { ar: "السياسات", en: "Policies" },
+  "footer.share": { ar: "شارك", en: "Share" },
 
   /* ── Home · the chips film (scroll-scrubbed) ── */
   "film.eyebrow": { ar: "من مطبخ الشيف · فيلم", en: "From the Chef's Kitchen · Film" },
