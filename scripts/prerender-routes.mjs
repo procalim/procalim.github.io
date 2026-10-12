@@ -173,7 +173,82 @@ const WORDS = {
         fromBook: "From The Edible Codex · 261 recipes", free: "Free" },
 };
 
+const P = "max-width:620px;margin:0 auto 18px;line-height:1.8";
+const LINK = "color:#C9A227";
+
+/**
+ * The home page's own text. The pinned, scroll-driven scenes say all this
+ * in pictures; a reader that does not run the app (Bing, link previews, AI
+ * crawlers, SEO checkers) gets it in words — what the book is, what is in
+ * it, the free guide, the chef — instead of a two-line summary.
+ * نصّ الصفحة الرئيسية لمن لا يشغّل الجافاسكربت: الكتاب، محتواه، الدليل
+ * المجاني، والشيف — بدل سطرين فقط.
+ */
+const HOME = {
+  ar: {
+    h1: "ذا إديبل كودكس — اطبخ كأنك شيف مطعم",
+    paras: [
+      "ذا إديبل كودكس كتاب طبخ رقمي من تأليف الشيف أحمد سلامة، فيه ٣٦١ وصفة في ٣٨٦ صفحة: ٢٦١ وصفة من المطبخ المحترف، ومعها ١٠٠ وصفة من أشهر الوصفات التي اجتاحت الإنترنت. لكل وصفة صفحتها الخاصة، بصورتها، ومقاديرها المضبوطة، وخطواتها، وملاحظة الشيف — مكتوبة كما تُطبخ فعلاً في مطبخ مطعم، لا كما تُكتب في الكتب.",
+      "الصلصة هي الفرق بين طبق جيّد وطبق لا يُنسى. لذلك في الكتاب فصل كامل عن الصلصات الملوّنة: البنجر، الكركم، الأعشاب، الفلفل المشوي، والبلسمك المركّز، بنِسَب بالجرام وطريقة رسمها على الطبق. ويمكنك أن تبدأ مجاناً بدليل الصلصات الخمس.",
+      "الكتاب ملف رقمي يُقرأ على الجوال واللوح والحاسوب، بتحميل فوري بعد الدفع وتحديثات مجانية مدى الحياة، وسعره ٩٫٩٩ دولار — أقل من سعر وجبة واحدة في مطعم — مع ضمان استرداد كامل خلال ٣٠ يوماً.",
+      "على الموقع ١٨ وصفة كاملة من الكتاب مجاناً، ومقاطع قصيرة لتقنيات المطبخ مثل شيبس ورق الأرز الذي ينتفخ في ثانية واحدة، وصوص الهولنديز، والأرز المقرمش.",
+    ],
+  },
+  en: {
+    h1: "The Edible Codex — Cook Like a Fine-Dining Chef",
+    paras: [
+      "The Edible Codex is a digital cookbook by Chef Ahmet Salameh: 361 recipes across 386 pages — 261 from a professional kitchen, plus 100 of the internet's most-cooked dishes. Every recipe has its own page, its own photograph, exact measurements, a step-by-step method and a chef's note, written the way a restaurant kitchen actually cooks it.",
+      "Sauce is the difference between a good plate and one people remember, so the book gives a whole chapter to colour sauces — beetroot, turmeric, herb, roasted pepper and reduced balsamic — with ratios in grams and how to draw each one on the plate. You can start for free with the Five Signature Sauces guide.",
+      "The book is a digital file that reads on phone, tablet and desktop, with instant download after payment and free lifetime updates. It costs $9.99 — less than one restaurant meal — with a full 30-day money-back guarantee.",
+      "The site also publishes 18 complete recipes from the book for free, and short technique videos such as rice-paper chips that puff up in one second, hollandaise and crispy rice.",
+    ],
+  },
+};
+
+const SECTIONS = {
+  ar: { explore: "تصفّح الموقع", recipes: "وصفات مجانية من الكتاب", videos: "تقنيات مصوّرة", share: "شارك الصفحة",
+        nav: [["/", "الرئيسية"], ["/shop/", "المتجر"], ["/recipes/", "الوصفات"], ["/videos/", "المقاطع"], ["/about/", "عن الشيف"], ["/faq/", "الأسئلة الشائعة"], ["/contact/", "تواصل"]] },
+  en: { explore: "Explore the site", recipes: "Free recipes from the book", videos: "Technique videos", share: "Share this page",
+        nav: [["/", "Home"], ["/shop/", "Shop"], ["/recipes/", "Recipes"], ["/videos/", "Videos"], ["/about/", "About the chef"], ["/faq/", "FAQ"], ["/contact/", "Contact"]] },
+};
+
+/**
+ * Links every pre-rendered page carries beneath its own content: the site's
+ * sections, both products, every free recipe and every video, and share
+ * links for the page itself — so no page reads as a dead end to a crawler.
+ * روابط في أسفل كل صفحة: أقسام الموقع، المنتجان، كل الوصفات والمقاطع،
+ * وروابط المشاركة.
+ */
+const siteLinks = (route, lang) => {
+  const t = SECTIONS[lang];
+  const list = (items) =>
+    `<ul style="${LIST};list-style:none;padding:0">${items.map(([href, label]) => `<li><a href="${href}" style="${LINK}">${escape(label)}</a></li>`).join("")}</ul>`;
+  const url = pageUrl({ path: at(route.path, lang) });
+  const u = encodeURIComponent(url);
+  return (
+    `<h2>${t.explore}</h2>\n` +
+    list([
+      ...t.nav.map(([p, label]) => [at(p, lang), label]),
+      ...products.map((p) => [at(`/shop/${p.slug}/`, lang), p.title[lang]]),
+    ]) +
+    `\n<h2>${t.recipes}</h2>\n` +
+    list(recipes.map((r) => [at(`/recipes/${r.slug}/`, lang), r.title[lang]])) +
+    `\n<h2>${t.videos}</h2>\n` +
+    list(videos.map((v) => [at(`/videos/${v.slug}/`, lang), v.title[lang]])) +
+    `\n<p style="${P}">${t.share}: ` +
+    `<a href="https://wa.me/?text=${u}" style="${LINK}">WhatsApp</a> · ` +
+    `<a href="https://www.facebook.com/sharer/sharer.php?u=${u}" style="${LINK}">Facebook</a> · ` +
+    `<a href="https://twitter.com/intent/tweet?url=${u}" style="${LINK}">X</a> · ` +
+    `<a href="https://pinterest.com/pin/create/button/?url=${u}" style="${LINK}">Pinterest</a></p>`
+  );
+};
+
 const fallbackBody = (route, lang) => {
+  const own = ownBody(route, lang);
+  return own === null ? null : `${own}\n${siteLinks(route, lang)}`;
+};
+
+const ownBody = (route, lang) => {
   const [, section, slug] = route.path.split("/");
   const w = WORDS[lang];
   const recipe = section === "recipes" && slug ? recipeBySlug.get(slug) : null;
@@ -203,13 +278,14 @@ const fallbackBody = (route, lang) => {
       `<p>${escape(say("seo.productSuffix", lang))}</p>`
     );
   }
-  if (lang === "en") {
-    // English pages with no body of their own above still get English text,
-    // not the bilingual home-page fallback. الصفحات الإنجليزية الباقية.
-    const meta = englishMeta(route);
-    return `<h1 style="${H1}">${escape(meta.title)}</h1>\n<p style="max-width:620px;margin:0 auto 20px;line-height:1.8">${escape(meta.description)}</p>`;
+  if (route.path === "/") {
+    const home = HOME[lang];
+    return `<h1 style="${H1}">${escape(home.h1)}</h1>\n` + home.paras.map((t) => `<p style="${P}">${escape(t)}</p>`).join("\n");
   }
-  return null;
+  // Every other page: its own title and description, in its own language —
+  // never the home page's text. لكل صفحة عنوانها ووصفها بلغتها.
+  const meta = lang === "en" ? englishMeta(route) : { title: route.title, description: route.description };
+  return `<h1 style="${H1}">${escape(meta.title)}</h1>\n<p style="${P}">${escape(meta.description)}</p>`;
 };
 
 /** Title and description of a route in English, from the same sources the app reads. */
