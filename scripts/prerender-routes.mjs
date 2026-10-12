@@ -351,7 +351,7 @@ const render = (route, lang) => {
   if (route.path === "/") {
     html = html.replace(
       "<!--shell-image-->",
-      `<img src="/brand/book/cover.webp" alt="" width="200" height="250" fetchpriority="high" style="display:block;margin:40px auto 0;width:min(46vw,200px);height:auto;border-radius:2px;box-shadow:0 0 40px rgba(201,162,39,.25)" />`,
+      `<img src="/brand/book/cover.webp" alt="" width="270" height="338" fetchpriority="high" style="display:block;margin:40px auto 0;width:min(64vw,270px);height:auto;border-radius:2px;box-shadow:0 0 40px rgba(201,162,39,.25)" />`,
     );
   }
   if (lang === "en") html = html.replace('<html lang="ar" dir="rtl">', '<html lang="en" dir="ltr">');

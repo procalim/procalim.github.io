@@ -127,12 +127,17 @@ const BookFlip3D = ({ headingLevel = "h2" }: { headingLevel?: "h1" | "h2" }) => 
   // How many leaves have turned — drives the caption and which photographs
   // are worth loading. It changes once per page, not once per frame.
   const [turned, setTurned] = useState(0);
+  const [progressStarted, setProgressStarted] = useState(false);
   const turnedRef = useRef(0);
   /** Photographs load only for the pages within reach of the open spread. */
   const near = (leaf: number) => Math.abs(leaf - turned) <= 3;
   /** Recipe photographs wait until the cover has opened, so they never
    * compete with the opening image while the page loads. */
   const nearPhoto = (leaf: number) => turned > 0 && near(leaf);
+  /** The pages under the cover are drawn only once the reader starts turning:
+   * hidden behind the closed cover, they still counted as the page's largest
+   * image and held its load time back. الصفحات تحت الغلاف تُرسم عند بدء التقليب. */
+  const opened = turned > 0 || progressStarted;
 
   // Leaf 0 is the cover (the chef behind it), leaf 1 the contents (the first
   // plate behind it); after that each leaf carries one recipe's text on its
@@ -141,10 +146,10 @@ const BookFlip3D = ({ headingLevel = "h2" }: { headingLevel?: "h1" | "h2" }) => 
   const leaves: Leaf[] = [
     {
       front: { key: "cover", node: <ImagePage src={bookPages.cover} alt={t("featured.title")} /> },
-      back: { key: "chef", node: <ImagePage src={bookPages.frontispiece} alt={t("reveal.page.chef")} /> },
+      back: { key: "chef", node: opened ? <ImagePage src={bookPages.frontispiece} alt={t("reveal.page.chef")} /> : <div className="h-full w-full" style={{ background: paper }} /> },
     },
     {
-      front: { key: "contents", node: <ImagePage src={bookPages.contents} alt={t("reveal.page.contents")} /> },
+      front: { key: "contents", node: opened ? <ImagePage src={bookPages.contents} alt={t("reveal.page.contents")} /> : <div className="h-full w-full" style={{ background: paper }} /> },
       back: { key: `photo-${recipes[0].slug}`, node: <PhotoPage recipe={recipes[0]} load={nearPhoto(1)} /> },
     },
     ...recipes.map((recipe, i) => ({
@@ -209,6 +214,7 @@ const BookFlip3D = ({ headingLevel = "h2" }: { headingLevel?: "h1" | "h2" }) => 
         words.current.style.opacity = String(Math.max(0.0, fade));
       }
 
+      if (progress > 0.01) setProgressStarted(true);
       const nowTurned = flips.filter((f) => f > 0.5).length;
       if (nowTurned !== turnedRef.current) {
         turnedRef.current = nowTurned;
