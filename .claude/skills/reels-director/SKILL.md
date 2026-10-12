@@ -63,8 +63,10 @@ AVOID: cut to black, fade out, ending on a still, slow pacing, shots longer than
 Attach the user's face photo as Image 1. Price: 12 s x 12 credits = 144 (confirm with get_cost).
 
 ## On-video texts (added in editing, after seeing the real footage)
-Plain white bold text with shadow, small, slightly below centre, **no box**, Arabic line on
-top and English under it, recipe name label under each text.
+**No box anywhere and no recipe-name label** (the user saw a skip spike when the name
+appeared twice). Big white Arabic line with a dark outline and soft shadow, one key word in
+gold (`<b>`), a small English line under it, slightly below centre. The recipe name may
+appear once at most (in the hook), never as a separate label.
 
 | time | text | length |
 |---|---|---|

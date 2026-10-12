@@ -1,9 +1,9 @@
 // Renders transparent 1080x1920 PNG text overlays for reels.
 // Usage: node overlay.mjs spec.json outDir
-// spec: { "label": "🌮 Big Mac Smash Tacos · <span>تاكو البيج ماك</span>",
-//         "y": 1250,
-//         "items": { "hook": { "ar": "تاكو بيج ماك بيتي", "en": "Big Mac Tacos" } } }
-// Style: plain white bold text with shadow, no box (boxes in the first seconds raised skip rate).
+// spec: { "y": 1250,
+//         "items": { "hook": { "ar": "تاكو <b>بيج ماك</b> بيتي", "en": "Big Mac Tacos" } } }
+// Style: no box, no label pill, recipe name never repeated. Big white Arabic with a dark
+// outline and soft shadow, one <b>word</b> in gold, small English line under it.
 import { chromium } from "playwright";
 import fs from "fs";
 import path from "path";
@@ -20,19 +20,16 @@ const css = `
 @font-face{font-family:Taj;font-weight:800;src:url(${FS}/tajawal/files/tajawal-latin-800-normal.woff2);unicode-range:U+0000-024F}
 html,body{margin:0;width:1080px;height:1920px;background:transparent}
 .wrap{position:absolute;left:40px;right:40px;display:flex;flex-direction:column;align-items:center;text-align:center;white-space:nowrap}
-.ar{font:800 58px/1.25 Taj,'Noto Color Emoji',sans-serif;color:#fff;direction:rtl;text-shadow:0 3px 10px rgba(0,0,0,.7),0 0 3px rgba(0,0,0,.8)}
-.en{margin-top:4px;font:700 40px/1.2 IS,'Noto Color Emoji',sans-serif;color:#fff;text-shadow:0 3px 10px rgba(0,0,0,.7),0 0 3px rgba(0,0,0,.8)}
-b{color:#E9C24A}
-.name{margin-top:14px;font:700 22px/1 IS,'Noto Color Emoji',sans-serif;color:#E9C24A;background:rgba(10,10,11,.55);border-radius:20px;padding:9px 20px 8px}
-.name span{font-family:Taj;font-weight:800}`;
+.ar{font:800 74px/1.2 Taj,'Noto Color Emoji',sans-serif;color:#fff;direction:rtl;-webkit-text-stroke:7px #0b0b0b;paint-order:stroke fill;text-shadow:0 6px 18px rgba(0,0,0,.55)}
+.en{margin-top:2px;font:700 34px/1.2 IS,'Noto Color Emoji',sans-serif;color:rgba(255,255,255,.9);letter-spacing:.5px;-webkit-text-stroke:4px #0b0b0b;paint-order:stroke fill;text-shadow:0 4px 12px rgba(0,0,0,.5)}
+b{color:#F2C14E;font-weight:800}`;
 
 fs.mkdirSync(outDir, { recursive: true });
 const browser = await chromium.launch({ executablePath: process.env.CHROMIUM_PATH || "/opt/pw-browsers/chromium", args: ["--allow-file-access-from-files"] }).catch(() => chromium.launch());
 const page = await browser.newPage({ viewport: { width: 1080, height: 1920 } });
 for (const [key, v] of Object.entries(spec.items)) {
   const y = v.y || spec.y || 1250;
-  const label = spec.label ? `<div class="name">${spec.label}</div>` : "";
-  const html = `<html><head><meta charset="utf-8"><style>${css}</style></head><body><div class="wrap" style="top:${y}px"><div class="ar" dir="rtl">${v.ar || ""}</div><div class="en">${v.en || ""}</div>${label}</div></body></html>`;
+  const html = `<html><head><meta charset="utf-8"><style>${css}</style></head><body><div class="wrap" style="top:${y}px"><div class="ar" dir="rtl">${v.ar || ""}</div><div class="en">${v.en || ""}</div></div></body></html>`;
   const tmp = path.join(outDir, `_${key}.html`);
   fs.writeFileSync(tmp, html);
   await page.goto("file://" + path.resolve(tmp));
