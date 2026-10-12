@@ -48,10 +48,12 @@
     <link rel="apple-touch-icon" href="/brand/icon-180.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Tajawal:wght@300;400;500;700&family=Amiri:wght@400;700&family=Anton&family=Noto+Kufi+Arabic:wght@800&display=swap"
-    />
+    <!-- Fonts load without holding up the first paint: the page shows in
+         the fallback face at once and swaps in the brand faces when they
+         arrive (display=swap). The 300 weights were never used.
+         الخطوط تُحمَّل دون أن تؤخّر ظهور الصفحة. -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&amp;family=Inter:wght@400;500;600;700&amp;family=Tajawal:wght@400;500;700&amp;family=Amiri:wght@400;700&amp;family=Anton&amp;family=Noto+Kufi+Arabic:wght@800&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&amp;family=Inter:wght@400;500;600;700&amp;family=Tajawal:wght@400;500;700&amp;family=Amiri:wght@400;700&amp;family=Anton&amp;family=Noto+Kufi+Arabic:wght@800&amp;display=swap" /></noscript>
   </head>
 
   <body>

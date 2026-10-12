@@ -25,11 +25,30 @@ export const useReveal = (key: string) => {
     const root = document.querySelector("main");
     if (!root || prefersReducedMotion() || !("IntersectionObserver" in window)) return;
 
-    // Wait a frame so the new route has painted.
-    let observer: IntersectionObserver | null = null;
-    const frame = requestAnimationFrame(() => {
+    // Elements already handled — a rescan (after a deferred section mounts)
+    // arms only what is new.
+    const seen = new WeakSet<Element>();
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          const el = entry.target as HTMLElement;
+          el.classList.add("is-revealed");
+          observer.unobserve(el);
+          // Once in place, hand the element back to its own styles, so a
+          // card's hover keeps its quick transition rather than the reveal's.
+          window.setTimeout(() => {
+            el.removeAttribute("data-reveal-target");
+            el.classList.remove("is-revealed");
+          }, 1200);
+        });
+      },
+      { rootMargin: "0px 0px -6% 0px", threshold: 0.08 },
+    );
+
+    const scan = () => {
       const targets = Array.from(root.querySelectorAll<HTMLElement>(AUTO)).filter(
-        (el) => !el.closest(".sticky, [data-no-reveal], nav, header"),
+        (el) => !seen.has(el) && !el.closest(".sticky, [data-no-reveal], nav, header"),
       );
       // Nested matches (a heading inside a card) would animate twice; keep
       // only the outermost.
@@ -39,37 +58,26 @@ export const useReveal = (key: string) => {
         return true;
       });
 
-      observer = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
-            if (!entry.isIntersecting) return;
-            const el = entry.target as HTMLElement;
-            el.classList.add("is-revealed");
-            observer?.unobserve(el);
-            // Once in place, hand the element back to its own styles, so a
-            // card's hover keeps its quick transition rather than the reveal's.
-            window.setTimeout(() => {
-              el.removeAttribute("data-reveal-target");
-              el.classList.remove("is-revealed");
-            }, 1200);
-          });
-        },
-        { rootMargin: "0px 0px -6% 0px", threshold: 0.08 },
-      );
-
       outer.forEach((el) => {
+        seen.add(el);
         const explicit = el.dataset.reveal;
         const index = explicit ? Number(explicit) || 0 : Array.prototype.indexOf.call(el.parentElement?.children ?? [], el);
         el.style.setProperty("--reveal-delay", `${Math.min(Math.max(index, 0), 5) * 60}ms`);
         el.setAttribute("data-reveal-target", "");
-        observer?.observe(el);
+        observer.observe(el);
       });
       root.classList.add("reveal-armed");
-    });
+    };
+
+    // Wait a frame so the new route has painted; scan again whenever a
+    // deferred section mounts.
+    const frame = requestAnimationFrame(scan);
+    window.addEventListener("reveal:rescan", scan);
 
     return () => {
       cancelAnimationFrame(frame);
-      observer?.disconnect();
+      window.removeEventListener("reveal:rescan", scan);
+      observer.disconnect();
       root.classList.remove("reveal-armed");
       root.querySelectorAll(".is-revealed").forEach((el) => el.classList.remove("is-revealed"));
     };

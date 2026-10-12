@@ -4,6 +4,7 @@ import Seo from "@/components/Seo";
 import { useLang } from "@/i18n/LanguageContext";
 import { brandImages, site, whatsappLink } from "@/data/site";
 import { toast } from "@/hooks/use-toast";
+import { Toaster } from "@/components/ui/toaster";
 import PageHero from "@/components/PageHero";
 
 const ContactPage = () => {
@@ -50,6 +51,7 @@ const ContactPage = () => {
   return (
     <>
       <Seo title={t("seo.contact.title")} description={t("seo.contact.desc")} />
+      <Toaster />
 
       <PageHero
         eyebrow={t("contact.eyebrow")}
