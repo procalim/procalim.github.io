@@ -1,0 +1,12 @@
+{
+  "name": "content-studio",
+  "private": true,
+  "type": "module",
+  "description": "Overlay renderer for Instagram reel texts (Playwright + local fonts).",
+  "dependencies": {
+    "@fontsource/instrument-sans": "5.3.0",
+    "@fontsource/roboto-condensed": "5.0.14",
+    "@fontsource/tajawal": "5.3.0",
+    "playwright": "1.63.0"
+  }
+}
