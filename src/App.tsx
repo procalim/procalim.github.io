@@ -1,43 +1,31 @@
-import { Fragment } from "react";
+import { Fragment, lazy, Suspense } from "react";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { Toaster } from "@/components/ui/toaster";
-import { Toaster as Sonner } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
 import { LanguageProvider } from "@/i18n/LanguageContext";
 import { EN_PREFIX } from "@/i18n/locale-path";
 import AnnouncementBar from "@/components/layout/AnnouncementBar";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
-import SmoothScroll from "@/components/layout/SmoothScroll";
 import PageMotion from "@/components/layout/PageMotion";
 import RouteTracker from "@/components/RouteTracker";
 import HomePage from "@/pages/HomePage";
-import ShopPage from "@/pages/ShopPage";
-import RecipesPage from "@/pages/RecipesPage";
-import RecipePage from "@/pages/RecipePage";
-import VideosPage from "@/pages/VideosPage";
-import VideoPage from "@/pages/VideoPage";
-import ProductPage from "@/pages/ProductPage";
-import AboutPage from "@/pages/AboutPage";
-import ContactPage from "@/pages/ContactPage";
-import FaqPage from "@/pages/FaqPage";
-import PolicyPage from "@/pages/PolicyPage";
-import NotFoundPage from "@/pages/NotFoundPage";
-import CheckoutCompletePage from "@/pages/CheckoutCompletePage";
-
-const queryClient = new QueryClient();
+const ShopPage = lazy(() => import("@/pages/ShopPage"));
+const RecipesPage = lazy(() => import("@/pages/RecipesPage"));
+const RecipePage = lazy(() => import("@/pages/RecipePage"));
+const VideosPage = lazy(() => import("@/pages/VideosPage"));
+const VideoPage = lazy(() => import("@/pages/VideoPage"));
+const ProductPage = lazy(() => import("@/pages/ProductPage"));
+const AboutPage = lazy(() => import("@/pages/AboutPage"));
+const ContactPage = lazy(() => import("@/pages/ContactPage"));
+const FaqPage = lazy(() => import("@/pages/FaqPage"));
+const PolicyPage = lazy(() => import("@/pages/PolicyPage"));
+const NotFoundPage = lazy(() => import("@/pages/NotFoundPage"));
+const CheckoutCompletePage = lazy(() => import("@/pages/CheckoutCompletePage"));
 
 const App = () => (
-  <QueryClientProvider client={queryClient}>
     <LanguageProvider>
-      <TooltipProvider>
-          <Toaster />
-          <Sonner />
           <BrowserRouter basename={import.meta.env.BASE_URL}>
             <ScrollToTop />
-            <SmoothScroll />
             <PageMotion />
             <RouteTracker />
             <div className="flex min-h-screen flex-col">
@@ -45,6 +33,9 @@ const App = () => (
               <AnnouncementBar />
               <Navbar />
               <main id="main" tabIndex={-1} className="flex-1 outline-none">
+                {/* Inner pages arrive as their own chunks; the dark stage holds
+                    the space for the moment one is loading. */}
+                <Suspense fallback={<div className="min-h-screen bg-ink" />}>
                 <Routes>
                   {/* Every page twice: Arabic at the root, English under /en.
                       كل صفحة مرتين: العربية في الجذر والإنجليزية تحت /en. */}
@@ -69,13 +60,12 @@ const App = () => (
                   <Route path="/index" element={<Navigate to="/" replace />} />
                   <Route path="*" element={<NotFoundPage />} />
                 </Routes>
+                </Suspense>
               </main>
               <Footer />
             </div>
           </BrowserRouter>
-        </TooltipProvider>
-    </LanguageProvider>
-  </QueryClientProvider>
+      </LanguageProvider>
 );
 
 export default App;

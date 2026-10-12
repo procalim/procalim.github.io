@@ -1,15 +1,16 @@
-import { useMemo, useState } from "react";
+import { lazy, Suspense, useState } from "react";
 import { ArrowRight, ExternalLink, Loader2 } from "lucide-react";
-import { WhopElements, Checkout, CheckoutElement } from "@whop/elements-react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { formatPrice, useLang } from "@/i18n/LanguageContext";
-import { loadCheckout } from "@/lib/whopCheckout";
 import { rememberCheckout } from "@/lib/last-checkout";
 import { buyLink, onBuyClick } from "@/lib/buy";
 import { pageUrl } from "@/lib/page-url";
 import { localePath } from "@/i18n/locale-path";
 import { site } from "@/data/site";
 import type { Product } from "@/data/products";
+
+/** Whop's checkout, split into its own chunk and loaded on first open. */
+const CheckoutEmbed = lazy(() => import("@/components/CheckoutEmbed"));
 
 type Props = { product: Product; withPrice?: boolean; className?: string };
 
@@ -29,10 +30,9 @@ const BuyButton = ({ product, withPrice = false, className = "" }: Props) => {
   const hostedUrl = buyLink(product, lang);
   const label = isFree ? t("product.getFree") : t("product.buyNow");
 
-  // Started only once the dialog opens, so pages that never check out never
-  // load the SDK. Off-site payment steps (3DS, bank pages) come back to the
-  // return page in the buyer's language, which reads `payment` and `status`.
-  const elements = useMemo(() => (open ? loadCheckout() : null), [open]);
+  // The Whop SDK and its loader live in CheckoutEmbed, fetched only when the
+  // dialog first opens. Off-site payment steps (3DS, bank pages) come back to
+  // the return page in the buyer's language, which reads `payment` and `status`.
   // The product rides along so the return page can open it on Whop; Whop
   // adds `payment` and `status` beside it.
   const returnUrl = `${pageUrl(localePath("/checkout/complete/", lang))}?product=${product.slug}`;
@@ -78,26 +78,16 @@ const BuyButton = ({ product, withPrice = false, className = "" }: Props) => {
           <div className="px-4 py-4">
             {!failed ? (
               <>
-                <WhopElements
-                  elements={elements}
-                  locale="en"
-                  appearance={{ theme: { appearance: "dark" } }}
-                  onLoadError={() => setFailed(true)}
+                <Suspense
+                  fallback={
+                    <p className="flex min-h-[420px] items-center justify-center gap-2 text-[12px] text-muted-foreground">
+                      <Loader2 className="h-3.5 w-3.5 animate-spin text-gold" />
+                      {t("checkout.loading")}
+                    </p>
+                  }
                 >
-                  <Checkout
-                    plan={product.planId}
-                    returnUrl={returnUrl}
-                    attribution={{ source: `ediblecodex.com/${product.slug}` }}
-                    fallback={
-                      <p className="flex min-h-[420px] items-center justify-center gap-2 text-[12px] text-muted-foreground">
-                        <Loader2 className="h-3.5 w-3.5 animate-spin text-gold" />
-                        {t("checkout.loading")}
-                      </p>
-                    }
-                  >
-                    <CheckoutElement className="min-h-[420px]" onError={() => setFailed(true)} />
-                  </Checkout>
-                </WhopElements>
+                  <CheckoutEmbed product={product} returnUrl={returnUrl} onFailed={() => setFailed(true)} />
+                </Suspense>
 
                 {/* The hosted page stays one tap away. */}
                 <a

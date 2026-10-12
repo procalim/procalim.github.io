@@ -46,7 +46,7 @@ const PhotoPage = ({ recipe, load }: { recipe: Recipe; load: boolean }) => {
   return (
     <div className="relative h-full w-full bg-ink">
       {photo && (
-        <img src={photo} alt={L(recipe.title)} loading="lazy" decoding="async" className="h-full w-full object-cover" />
+        <img src={photo} alt={L(recipe.title)} loading="lazy" decoding="async" fetchPriority="low" className="h-full w-full object-cover" />
       )}
       <div className="absolute inset-0 bg-gradient-to-t from-ink/90 via-ink/10 to-transparent" />
       <div className="absolute inset-x-0 bottom-0 p-[7%]">
@@ -130,6 +130,9 @@ const BookFlip3D = ({ headingLevel = "h2" }: { headingLevel?: "h1" | "h2" }) => 
   const turnedRef = useRef(0);
   /** Photographs load only for the pages within reach of the open spread. */
   const near = (leaf: number) => Math.abs(leaf - turned) <= 3;
+  /** Recipe photographs wait until the cover has opened, so they never
+   * compete with the opening image while the page loads. */
+  const nearPhoto = (leaf: number) => turned > 0 && near(leaf);
 
   // Leaf 0 is the cover (the chef behind it), leaf 1 the contents (the first
   // plate behind it); after that each leaf carries one recipe's text on its
@@ -142,14 +145,14 @@ const BookFlip3D = ({ headingLevel = "h2" }: { headingLevel?: "h1" | "h2" }) => 
     },
     {
       front: { key: "contents", node: <ImagePage src={bookPages.contents} alt={t("reveal.page.contents")} /> },
-      back: { key: `photo-${recipes[0].slug}`, node: <PhotoPage recipe={recipes[0]} load={near(1)} /> },
+      back: { key: `photo-${recipes[0].slug}`, node: <PhotoPage recipe={recipes[0]} load={nearPhoto(1)} /> },
     },
     ...recipes.map((recipe, i) => ({
       recipe,
       front: { key: `text-${recipe.slug}`, node: <RecipePage recipe={recipe} /> },
       back:
         i + 1 < recipes.length
-          ? { key: `photo-${recipes[i + 1].slug}`, node: <PhotoPage recipe={recipes[i + 1]} load={near(i + 2)} /> }
+          ? { key: `photo-${recipes[i + 1].slug}`, node: <PhotoPage recipe={recipes[i + 1]} load={nearPhoto(i + 2)} /> }
           : { key: "end", node: <EndPage /> },
     })),
   ];
@@ -294,7 +297,9 @@ const BookFlip3D = ({ headingLevel = "h2" }: { headingLevel?: "h1" | "h2" }) => 
                     className="absolute inset-0 overflow-hidden rounded-sm"
                     style={{ backfaceVisibility: "hidden", WebkitBackfaceVisibility: "hidden" }}
                   >
-                    {leaf.front.node}
+                    {/* Pages far from the open spread stay blank paper until reached —
+                        twenty full pages built at once kept a phone busy on load. */}
+                    {near(i) ? leaf.front.node : <div className="h-full w-full" style={{ background: paper }} />}
                     {/* The spine's shadow on the page */}
                     <div
                       className="pointer-events-none absolute inset-y-0 w-[12%]"
@@ -312,7 +317,7 @@ const BookFlip3D = ({ headingLevel = "h2" }: { headingLevel?: "h1" | "h2" }) => 
                       WebkitBackfaceVisibility: "hidden",
                     }}
                   >
-                    {leaf.back.node}
+                    {near(i) ? leaf.back.node : <div className="h-full w-full" style={{ background: paper }} />}
                     <div
                       className="pointer-events-none absolute inset-y-0 w-[12%]"
                       style={{

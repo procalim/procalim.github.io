@@ -13,6 +13,7 @@ import { bookPages, brandImages, site } from "@/data/site";
 import PlateStory from "@/components/cinematic/PlateStory";
 import BookFlip3D from "@/components/cinematic/BookFlip3D";
 import ChipsFilm from "@/components/cinematic/ChipsFilm";
+import Deferred from "@/components/Deferred";
 import GoldBand from "@/components/cinematic/GoldBand";
 import RecipeReel from "@/components/cinematic/RecipeReel";
 import SauceFeature from "@/components/cinematic/SauceFeature";
@@ -59,21 +60,31 @@ const HomePage = () => {
       <BookFlip3D headingLevel="h1" />
 
       {/* ── THE FILM · the chef's one-second chips, played by the scroll ── */}
-      <ChipsFilm />
+      <Deferred height="330svh">
+        <ChipsFilm />
+      </Deferred>
 
       <GoldBand />
 
       {/* ── THE PLATES · scene by scene as the visitor scrolls ── */}
-      <PlateStory flagshipPath={`/shop/${flagship.slug}/`} headingLevel="h2" />
+      <Deferred height="270svh">
+        <PlateStory flagshipPath={`/shop/${flagship.slug}/`} headingLevel="h2" />
+      </Deferred>
 
       <TrustStrip />
 
       {/* ── INSIDE THE BOOK · one plate per scroll ── */}
-      <RecipeReel />
+      <Deferred height="370svh">
+        <RecipeReel />
+      </Deferred>
 
       {/* ── THE FIVE SAUCES · the free guide ── */}
-      <SauceFeature />
+      <Deferred height="215svh">
+        <SauceFeature />
+      </Deferred>
 
+      {/* Everything below the scenes mounts as the visitor nears it */}
+      <Deferred height="400svh">
       <VideoStrip />
 
       <div className="gold-divider" aria-hidden="true" />
@@ -295,6 +306,7 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+      </Deferred>
     </div>
   );
 };
