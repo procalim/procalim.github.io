@@ -47,8 +47,8 @@ export const dictionary = {
   "flip.serves": { ar: "لـ", en: "Serves" },
   "flip.end.title": { ar: "وصفة أخرى بانتظارك في الكتاب", en: "more recipes waiting inside the book" },
   "flip.end.body": {
-    ar: "هذه ١٨ وصفة فقط. الكتاب كاملاً: ٣٦١ وصفة في ٣٨٦ صفحة، بتحميل فوري.",
-    en: "That was just 18. The full book: 361 recipes across 386 pages, instant download.",
+    ar: "هذه ٢٨ وصفة فقط. الكتاب كاملاً: ٣٦١ وصفة في ٣٨٦ صفحة، بتحميل فوري.",
+    en: "That was just 28. The full book: 361 recipes across 386 pages, instant download.",
   },
   "nav.cart": { ar: "السلة", en: "Cart" },
   "nav.search": { ar: "بحث", en: "Search" },
@@ -532,7 +532,7 @@ export const dictionary = {
     ar: "إصداران: ذا إديبل كودكس بـ ٩٫٩٩ دولاراً، والصلصات الخمس المميّزة مجاناً. تحميل فوري، وصول مدى الحياة، واسترداد خلال ٣٠ يوماً.",
     en: "Two editions: The Edible Codex for $9.99, and The Five Signature Sauces free. Instant download, lifetime access, 30-day refund.",
   },
-  "seo.recipes.title": { ar: "١٨ وصفة مجانية مصوّرة", en: "18 Free Recipes, Photographed" },
+  "seo.recipes.title": { ar: "٢٨ وصفة مجانية مصوّرة", en: "28 Free Recipes, Photographed" },
   "seo.recipes.desc": {
     ar: "وصفات مجانية من الكتاب — تاكو كيسابيريا، مطري مي تشكن، باستا الفيتا المخبوزة وغيرها. مقادير دقيقة، خطوات واضحة، وصورة للطبق النهائي.",
     en: "Free recipes from the book — quesabirria tacos, marry me chicken, baked feta pasta and more. Exact quantities, clear steps, and a photo of the finished plate.",

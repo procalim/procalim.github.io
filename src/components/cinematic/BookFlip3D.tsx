@@ -14,7 +14,7 @@ import { clamp01, easeOut, prefersReducedMotion, useScrollProgress } from "@/hoo
  * It arrives closed and tilted, swings round to face the reader, the cover
  * opens, and then every page turns in turn: on the left the plate, on the
  * right its recipe — eighteen of them, the ones published on the site —
- * before the last page invites the reader to the other 343.
+ * before the last page invites the reader to the rest of the 361.
  *
  * Built with CSS 3D transforms rather than WebGL: the pages stay real HTML
  * (sharp text, real images, nothing extra to download), and a phone turns
@@ -105,7 +105,7 @@ const EndPage = () => {
   const { t } = useLang();
   return (
     <div className="texture-navy flex h-full w-full flex-col items-center justify-center p-[10%] text-center">
-      <span className="font-poster text-[2.6em] leading-none text-gold">+343</span>
+      <span className="font-poster text-[2.6em] leading-none text-gold">+{361 - recipes.length}</span>
       <p className="mt-[0.5em] font-display text-[0.95em] leading-snug text-ivory">{t("flip.end.title")}</p>
       <p className="mt-[0.5em] text-[0.6em] leading-relaxed text-ivory/75">{t("flip.end.body")}</p>
     </div>
