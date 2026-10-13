@@ -22,6 +22,34 @@ const stylesReady = (): Promise<void> => {
   });
 };
 
+/**
+ * The inline first screen (#app-shell, in index.html) covers the page until
+ * the app has painted beneath it, then fades away. It waits for its own cover
+ * image, at most a couple of seconds, so that image is painted first and
+ * stays the page's largest element. يختفي غطاء الشاشة الأولى بعد ظهور الموقع.
+ */
+const retireShell = () => {
+  const shell = document.getElementById("app-shell");
+  if (!shell) return;
+  const cover = shell.querySelector("img");
+  const imageShown = new Promise<void>((resolve) => {
+    if (!cover || cover.complete) return resolve();
+    cover.addEventListener("load", () => resolve(), { once: true });
+    cover.addEventListener("error", () => resolve(), { once: true });
+    window.setTimeout(resolve, 2500);
+  });
+  imageShown.then(() =>
+    requestAnimationFrame(() =>
+      requestAnimationFrame(() => {
+        shell.style.opacity = "0";
+        shell.style.pointerEvents = "none";
+        window.setTimeout(() => shell.remove(), 400);
+      }),
+    ),
+  );
+};
+
 stylesReady().then(() => {
   createRoot(document.getElementById("root")!).render(<App />);
+  retireShell();
 });

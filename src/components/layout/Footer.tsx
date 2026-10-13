@@ -52,7 +52,7 @@ const Footer = () => {
         <div className="container-luxe grid gap-8 py-14 lg:grid-cols-2 lg:items-center">
           <div>
             <span className="eyebrow eyebrow-start">{site.brand.taglineEn}</span>
-            <h3 className="mt-4 font-display text-2xl text-ivory md:text-3xl">{t("news.title")}</h3>
+            <h2 className="mt-4 font-display text-2xl text-ivory md:text-3xl">{t("news.title")}</h2>
             <p className="mt-3 max-w-md text-sm leading-relaxed text-ivory/65">{t("news.body")}</p>
           </div>
 
@@ -87,9 +87,9 @@ const Footer = () => {
       {/* Link columns */}
       <div className="container-luxe grid gap-10 py-14 md:grid-cols-2 lg:grid-cols-4">
         <div>
-          <h4 className="font-display text-xl">
+          <h3 className="font-display text-xl">
             The <span className="gold-text">Edible</span> Codex
-          </h4>
+          </h3>
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-ivory/60">{t("footer.about")}</p>
 
           <ul className="mt-6 space-y-2.5 text-sm text-ivory/70">
@@ -118,7 +118,7 @@ const Footer = () => {
           { title: t("footer.legal"), items: legal },
         ].map((col) => (
           <div key={col.title}>
-            <h5 className="text-[11px] font-semibold uppercase tracking-luxe text-gold">{col.title}</h5>
+            <h4 className="text-[11px] font-semibold uppercase tracking-luxe text-gold">{col.title}</h4>
             <ul className="mt-5 space-y-3">
               {col.items.map((item) => (
                 <li key={`${col.title}-${item.to}-${item.key}`}>

@@ -1,0 +1,24 @@
+# The Edible Codex
+
+> A digital cookbook by Chef Ahmet Salameh: 361 recipes across 386 pages (261 chef recipes plus 100 viral dishes), each with its own photograph, exact measurements, step-by-step method and a chef's note. The site is bilingual: Arabic at the root, English under /en/. It publishes 28 complete recipes from the book for free, short technique videos, and a free guide to five colour sauces.
+
+## Products
+
+- [The Edible Codex — the complete book ($9.99)](https://ediblecodex.com/en/shop/the-edible-codex/): 361 recipes, instant digital download, free lifetime updates, 30-day refund.
+- [The Five Signature Sauces (free)](https://ediblecodex.com/en/shop/the-five-sauces/): beetroot, turmeric, herb, roasted pepper and reduced balsamic sauces, with ratios in grams.
+
+## Free recipes
+
+- [All free recipes](https://ediblecodex.com/en/recipes/): complete recipes from the book with ingredients, method and the chef's note.
+- [الوصفات المجانية بالعربية](https://ediblecodex.com/recipes/): the same recipes in Arabic.
+
+## Videos
+
+- [Technique videos](https://ediblecodex.com/en/videos/): short clips of kitchen techniques from the book.
+
+## About
+
+- [About the chef](https://ediblecodex.com/en/about/)
+- [FAQ](https://ediblecodex.com/en/faq/)
+- [Contact](https://ediblecodex.com/en/contact/)
+- [Refund policy](https://ediblecodex.com/en/policies/refund/)
