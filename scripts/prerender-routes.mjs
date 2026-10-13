@@ -18,7 +18,24 @@ import { createServer } from "vite";
 import { alternates, enPath, origin, pageTitle, pageUrl, root, routes } from "./routes.mjs";
 
 const dist = path.join(root, "dist");
-const template = fs.readFileSync(path.join(dist, "index.html"), "utf8");
+/**
+ * The app's stylesheet stops blocking the first paint. Every page opens on
+ * a first screen styled inline, so nothing needs the 113 kB stylesheet
+ * before the app itself is ready; it is preloaded instead, and the app
+ * attaches it and waits for it before mounting (src/main.tsx), so no page is
+ * ever shown unstyled. Where scripts do not run, <noscript> links it as usual.
+ * ملف التنسيق لا يؤخّر ظهور الصفحة؛ يُحمَّل بالتوازي ويُطبَّق قبل ظهور الموقع.
+ */
+const unblockCss = (html) =>
+  html.replace(
+    /<link rel="stylesheet" crossorigin href="(\/assets\/[^"]+\.css)">/,
+    (_, href) =>
+      `<link rel="preload" as="style" crossorigin href="${href}" data-app-css>\n` +
+      `    <noscript><link rel="stylesheet" crossorigin href="${href}"></noscript>`,
+  );
+
+const template = unblockCss(fs.readFileSync(path.join(dist, "index.html"), "utf8"));
+fs.writeFileSync(path.join(dist, "index.html"), template);
 
 /**
  * The picture a page should show when it is shared or listed in a result.
