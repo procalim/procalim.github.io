@@ -45,7 +45,8 @@ A hyper-dynamic cinematic cooking video for [RECIPE NAME], exactly 12 seconds, c
 
 CHARACTER: the man in the reference image (@Image1) is the chef, exactly his face: Middle Eastern man, early 30s, thick mustache no beard, brown aviator glasses, thin gold chain, white t-shirt under a black apron with brown leather suspenders, black nitrile gloves. His face only ever appears in motion, never in a still shot.
 
-RECIPE (exact from the book, every step once, nothing added): [STEPS FROM THE BOOK PAGE, IN ORDER]
+RECIPE (follow exactly, every step once, in this order, nothing added):
+[PASTE THE BOOK PAGE VERBATIM: title, INGREDIENTS, METHOD, CHEF'S NOTE. Do not write "from the book".]
 
 0.0-1.0s PUNCH 1: [most violent first action of the recipe: slam / smash / drop / crack]. The camera shakes on impact.
 1.0-3.0s: [next 1-2 recipe steps, fast cuts]
@@ -64,6 +65,7 @@ SOUND: heavy bass hit on every PUNCH, real cooking sounds on every action, one l
 AVOID: cut to black, fade out, ending on a still, slow pacing, shots longer than 1.5 seconds, a still shot of the face, gentle placing, pork, bacon, alcohol, packaging, logos, text, extra fingers, deformed hands, distorted face.
 ```
 Attach the user's face photo as Image 1. Price: 12 s x 12 credits = 144 (confirm with get_cost).
+Ready prompts live in `content-studio/prompts/` (Big Mac smash tacos, baked feta pasta).
 
 ## On-video texts (added in editing, after seeing the real footage)
 **No box anywhere and no recipe-name label** (the user saw a skip spike when the name
