@@ -35,6 +35,9 @@ description: >
   chips footage with a big hook box raised skip rate from 25.8% to 37.5%.
 - Raw-ingredient openings and calm top-down AI footage dropped viewers at second 1-2.
 - One single 18 s generation cannot follow a 37-cut reference; do not promise a 1:1 match.
+- Mala (slow macro opening) 53.1% skip; feta (wide raw-ingredient opening, Wan footage)
+  51.4% skip. Both lost half the viewers by second 2. Frame one must already be action.
+- Several variables changed per post taught nothing. One change per post, log the numbers.
 
 ## The template (fill the [brackets] for any recipe; 12 s; Seedance 2.5, 1080p, 9:16)
 ```
@@ -68,13 +71,19 @@ appeared twice). Big white Arabic line with a dark outline and soft shadow, one 
 gold (`<b>`), a small English line under it, slightly below centre. The recipe name may
 appear once at most (in the hook), never as a separate label.
 
-| time | text | length |
-|---|---|---|
-| 0.3-2.5 s | hook | 3 words |
-| 3.0 s | rehook 1 (e.g. «شوف هلّق 👀») | 2-3 words |
-| 6.0 s | share ask (e.g. «ابعته لصاحبك 😂») | 2-3 words |
-| 9.0 s | rehook 2 (e.g. «اسمع 🔊») | 2-3 words |
-| 10.5-12 s | keyword CTA «اكتب «…»» | 2-3 words |
+Structure: Hook -> Question/Delay 1 -> Rehook -> Question/Delay 2 -> Answer. The hook asks
+a question that only the last shot answers; a new text lands every 3 s on a PUNCH.
+
+| time | beat | text | length |
+|---|---|---|---|
+| 0.3-2.8 s | Hook | a question the ending answers (e.g. «برغر ولا تاكو؟») | 3 words |
+| 3.0-5.8 s | Question/Delay 1 | keep it open (e.g. «لسا ما خلصنا 👀») | 2-3 words |
+| 6.0-8.8 s | Rehook | the key move (e.g. «هون السر») | 2-3 words |
+| 9.0-10.4 s | Question/Delay 2 | e.g. «اسمع الصوت 🔊» | 2-3 words |
+| 10.5-12 s | Answer + CTA | the answer, small line «اكتب «…»» | 2-4 words |
+
+The share ask lives in the first caption line and the pinned comment, not on the video.
+Generation stays on Seedance 2.5 with the template above (Wan and Genjutsu did not match it).
 
 Time every text to the generated shots, never to the prompt timecodes. Cut any shot that
 breaks the book recipe, shows logos or misspelt packaging, or invents food.
