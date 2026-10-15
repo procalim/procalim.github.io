@@ -51,7 +51,7 @@ export const PRODUCTS: Record<string, Product> = {
       { ar: "كل وصفة كاملة على صفحة واحدة", en: "Every recipe complete on one page" },
       { ar: "ملاحظة الشيف مع كل وصفة", en: "A chef's note with every recipe" },
       { ar: "يُقرأ على الجوال واللوح والحاسوب", en: "Reads on phone, tablet and desktop" },
-      { ar: "تحديثات مجانية مدى الحياة", en: "Free lifetime updates" },
+      { ar: "تحميل فوري بعد الدفع", en: "Instant download after payment" },
     ],
     image: `${IMAGES}/cookbook.jpg`,
     price: { ar: "١٤٫٩٩ دولار", en: "$14.99" },

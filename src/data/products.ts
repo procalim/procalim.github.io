@@ -59,7 +59,7 @@ export const products: Product[] = [
       { ar: "كل وصفة كاملة على صفحة واحدة", en: "Every recipe complete on one page" },
       { ar: "ملاحظة الشيف مع كل وصفة", en: "A chef's note with every recipe" },
       { ar: "ملف رقمي يُقرأ على الجوال واللوح والحاسوب", en: "A digital file that reads on phone, tablet and desktop" },
-      { ar: "تحميل فوري وتحديثات مجانية مدى الحياة", en: "Instant download and free lifetime updates" },
+      { ar: "تحميل فوري بعد الدفع، احفظه على جهازك", en: "Instant download after payment, yours to save on your device" },
     ],
     image: bookPages.cover,
     gallery: [
@@ -178,8 +178,8 @@ export const faqs: { q: Localized; a: Localized }[] = [
   {
     q: { ar: "كيف أستلم الكتاب بعد الشراء؟", en: "How do I receive the book after buying?" },
     a: {
-      ar: "الدفع يتم عبر Whop، وفور إتمامه يصلك رابط التحميل مباشرة على بريدك. الرابط يبقى فعّالاً ويمكنك إعادة التحميل في أي وقت.",
-      en: "Payment goes through Whop, and the download link reaches your email the moment it completes. The link stays active and you can re-download any time.",
+      ar: "الدفع يتم عبر Whop، وفور إتمامه يصلك رابط التحميل مباشرة على بريدك. احفظ الملف على جهازك بعد التحميل.",
+      en: "Payment goes through Whop, and the download link reaches your email the moment it completes. Save the file to your device once it downloads.",
     },
   },
   {
