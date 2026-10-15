@@ -64,7 +64,7 @@ SOUND: heavy bass hit on every PUNCH, real cooking sounds on every action, one l
 
 AVOID: cut to black, fade out, ending on a still, slow pacing, shots longer than 1.5 seconds, a still shot of the face, gentle placing, pork, bacon, alcohol, packaging, logos, text, extra fingers, deformed hands, distorted face.
 ```
-Attach the user's face photo as Image 1. Price: 12 s x 12 credits = 144 (confirm with get_cost).
+Attach the user's face photo as Image 1. Price (live quote 2026-10-15): 12 s 1080p = 192 credits, 12 s 720p = 84 (confirm with get_cost).
 Ready prompts live in `content-studio/prompts/` (Big Mac smash tacos, baked feta pasta).
 
 ## On-video texts (added in editing, after seeing the real footage)
