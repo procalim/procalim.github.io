@@ -453,6 +453,12 @@ for (const lang of LANGS) {
         `  <script>digistorePromocode({ "product_id": 749266, "adjust_domain": true });</script>\n` +
         `  </head>`,
     );
+  // Digistore24 trusted badge (top bar plus its legal footer), required on the sales page.
+  // شارة Digistore24 الموثوقة مع تذييلها القانوني، مطلوبة في صفحة البيع.
+  html = html.replace(
+    "</body>",
+    `  <script src="https://www.digistore24.com/trusted-badge/48650/C7uZh06f95jKog2/salespage"></script>\n  </body>`,
+  );
   if (lang === "en") html = html.replace('<html lang="ar" dir="rtl">', '<html lang="en" dir="ltr">');
   const target = path.join(dist, at("/codex/", lang), "index.html");
   fs.mkdirSync(path.dirname(target), { recursive: true });

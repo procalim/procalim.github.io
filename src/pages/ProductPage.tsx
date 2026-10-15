@@ -196,10 +196,6 @@ const ProductPage = ({ digistoreSlug }: Props = {}) => {
             {/* One button, straight to checkout — no forms, no cart. */}
             <BuyButton product={product} withPrice className="w-full text-base" />
 
-            {viaDigistore && product.digistoreTrustBadge && (
-              <div className="mt-4 flex justify-center" dangerouslySetInnerHTML={{ __html: product.digistoreTrustBadge }} />
-            )}
-
             {onWhop ? (
               <div className="mt-4 rounded-sm border border-gold/25 bg-ink px-5 py-4 text-center">
                 <p className="flex items-center justify-center gap-2 text-[12px] text-ivory">
@@ -291,9 +287,6 @@ const ProductPage = ({ digistoreSlug }: Props = {}) => {
 
       {viaDigistore && (
         <footer className="border-t border-border py-10 text-center text-[12px] text-muted-foreground">
-          {product.digistoreFooterBadge && (
-            <div className="mb-5 flex justify-center" dangerouslySetInnerHTML={{ __html: product.digistoreFooterBadge }} />
-          )}
           <p>
             {lang === "ar"
               ? "يتم الدفع عبر Digistore24.com · ضمان استرداد خلال ٦٠ يوماً"
