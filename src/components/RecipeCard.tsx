@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/components/LocalLink";
 import { ArrowRight, Clock, Users } from "lucide-react";
 import { useLang } from "@/i18n/LanguageContext";
 import { accentHex, recipePhoto, type Recipe } from "@/data/recipes";
@@ -10,7 +10,7 @@ const RecipeCard = ({ recipe }: { recipe: Recipe }) => {
 
   return (
     <article className="card-luxe group flex h-full flex-col">
-      <Link to={`/recipes/${recipe.slug}`} className="block">
+      <Link to={`/recipes/${recipe.slug}/`} className="block">
         {/* The plate: the recipe's sauce colour on the book's navy */}
         <div className="relative flex aspect-[4/3] items-center justify-center overflow-hidden bg-navy-700">
           {photo ? (
@@ -41,8 +41,8 @@ const RecipeCard = ({ recipe }: { recipe: Recipe }) => {
       </Link>
 
       <div className="flex flex-1 flex-col p-6">
-        <h3 className="font-display text-lg leading-snug text-navy-700">
-          <Link to={`/recipes/${recipe.slug}`} className="transition-colors hover:text-gold-600">
+        <h3 className="font-display text-lg leading-snug text-ivory">
+          <Link to={`/recipes/${recipe.slug}/`} className="transition-colors hover:text-gold">
             {L(recipe.title)}
           </Link>
         </h3>
@@ -58,8 +58,8 @@ const RecipeCard = ({ recipe }: { recipe: Recipe }) => {
             {recipe.serves}
           </span>
           <Link
-            to={`/recipes/${recipe.slug}`}
-            className="ms-auto flex items-center gap-1 font-semibold text-gold-600 hover:underline"
+            to={`/recipes/${recipe.slug}/`}
+            className="ms-auto flex items-center gap-1 font-semibold text-gold hover:underline"
           >
             {t("recipes.read")}
             <ArrowRight className="h-3.5 w-3.5 flip-rtl" />

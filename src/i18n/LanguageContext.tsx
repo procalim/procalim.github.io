@@ -1,7 +1,6 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
 import { dictionary, type DictKey, type Lang } from "./dictionary";
-
-const STORAGE_KEY = "codex.lang";
+import { langFromPath, localePath } from "./locale-path";
 
 /** A string that exists in both languages — used by the data files. */
 export type Localized = { ar: string; en: string };
@@ -20,29 +19,40 @@ type LanguageValue = {
 
 const LanguageContext = createContext<LanguageValue | null>(null);
 
-const readInitialLang = (): Lang => {
-  if (typeof window === "undefined") return "ar";
-  const stored = window.localStorage.getItem(STORAGE_KEY);
-  if (stored === "ar" || stored === "en") return stored;
-  return navigator.language?.toLowerCase().startsWith("ar") ? "ar" : "ar";
+/**
+ * The address decides the language — /en/… is English, everything else
+ * Arabic — so a page always says the same thing to a reader and to Google.
+ * It used to come from the browser's storage, which Google never has.
+ * اللغة يحدّدها العنوان، فيرى الزائر وجوجل الصفحة نفسها.
+ */
+const pathWithoutBase = () => {
+  const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+  const { pathname } = window.location;
+  return base && pathname.startsWith(base) ? pathname.slice(base.length) || "/" : pathname;
 };
 
+const readInitialLang = (): Lang => (typeof window === "undefined" ? "ar" : langFromPath(pathWithoutBase()));
+
 export const LanguageProvider = ({ children }: { children: ReactNode }) => {
-  const [lang, setLangState] = useState<Lang>(readInitialLang);
+  const [lang] = useState<Lang>(readInitialLang);
 
   useEffect(() => {
-    const dir = lang === "ar" ? "rtl" : "ltr";
     document.documentElement.lang = lang;
-    document.documentElement.dir = dir;
-    try {
-      window.localStorage.setItem(STORAGE_KEY, lang);
-    } catch {
-      /* storage can be blocked — the site still works without it */
-    }
+    document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
   }, [lang]);
 
-  const setLang = useCallback((next: Lang) => setLangState(next), []);
-  const toggleLang = useCallback(() => setLangState((prev) => (prev === "ar" ? "en" : "ar")), []);
+  // Switching language opens the same page at the other language's address.
+  // تغيير اللغة يفتح الصفحة نفسها بعنوان اللغة الأخرى.
+  const setLang = useCallback(
+    (next: Lang) => {
+      if (next === lang) return;
+      const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+      const { search, hash } = window.location;
+      window.location.assign(`${base}${localePath(pathWithoutBase(), next)}${search}${hash}`);
+    },
+    [lang],
+  );
+  const toggleLang = useCallback(() => setLang(lang === "ar" ? "en" : "ar"), [lang, setLang]);
 
   const value = useMemo<LanguageValue>(
     () => ({

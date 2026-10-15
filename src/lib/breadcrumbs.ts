@@ -1,4 +1,4 @@
-import { site } from "@/data/site";
+import { pageUrl } from "@/lib/page-url";
 
 /**
  * Breadcrumb markup for a page that already shows a breadcrumb trail.
@@ -14,6 +14,6 @@ export const breadcrumbList = (trail: { name: string; path: string }[]) => ({
     "@type": "ListItem",
     position: index + 1,
     name: step.name,
-    item: `${site.url}${step.path}`,
+    item: pageUrl(step.path),
   })),
 });

@@ -2,12 +2,14 @@ import { useMemo, useState } from "react";
 import { Search } from "lucide-react";
 import Seo from "@/components/Seo";
 import RecipeCard from "@/components/RecipeCard";
+import { localePath } from "@/i18n/locale-path";
 import { useLang } from "@/i18n/LanguageContext";
 import { recipes, recipeTags, recipeText } from "@/data/recipes";
 import { brandImages, site } from "@/data/site";
+import PageHero from "@/components/PageHero";
 
 const RecipesPage = () => {
-  const { t, L } = useLang();
+  const { t, lang } = useLang();
   const [query, setQuery] = useState("");
   const [tag, setTag] = useState("all");
 
@@ -43,28 +45,33 @@ const RecipesPage = () => {
           "@type": "CollectionPage",
           name: t("recipes.title"),
           description: t("recipes.subtitle"),
-          url: `${site.url}/recipes`,
-          hasPart: recipes.map((recipe) => ({
-            "@type": "Recipe",
-            name: L(recipe.title),
-            url: `${site.url}/recipes/${recipe.slug}`,
-          })),
+          url: `${site.url}${localePath("/recipes/", lang)}`,
+          // A list of links, not thirteen Recipes: each "Recipe" here carried
+          // only a name and a URL, and Google validated every one as a full
+          // recipe — "Missing field image" (critical), ingredients,
+          // instructions… The recipes are described in full on their own
+          // pages; this page only points at them, the way Google's summary-page
+          // markup asks.
+          // قائمة روابط لا وصفات: كل "Recipe" هنا كان بلا صورة ولا مكوّنات،
+          // فاعتبرها جوجل وصفات ناقصة وأبلغ عن أخطاء.
+          mainEntity: {
+            "@type": "ItemList",
+            itemListElement: recipes.map((recipe, index) => ({
+              "@type": "ListItem",
+              position: index + 1,
+              url: `${site.url}${localePath(`/recipes/${recipe.slug}/`, lang)}`,
+            })),
+          },
         }}
       />
 
-      <section className="texture-navy relative overflow-hidden">
-        <img
-          src={brandImages.chefBeef}
-          alt=""
-          aria-hidden="true"
-          className="absolute inset-0 h-full w-full object-cover object-bottom opacity-20"
-        />
-        <div className="container-luxe relative z-10 py-16 text-center md:py-20">
-          <span className="eyebrow">{t("recipes.eyebrow")}</span>
-          <h1 className="mt-5 font-display text-4xl text-ivory md:text-5xl">{t("recipes.title")}</h1>
-          <p className="mx-auto mt-4 max-w-xl text-[15px] leading-relaxed text-ivory/70">{t("recipes.subtitle")}</p>
-        </div>
-      </section>
+      <PageHero
+        eyebrow={t("recipes.eyebrow")}
+        title={t("recipes.title")}
+        subtitle={t("recipes.subtitle")}
+        image={brandImages.chefBeef}
+        focus="center 72%"
+      />
 
       <section className="section container-luxe">
         <div className="mx-auto max-w-2xl">
@@ -97,7 +104,7 @@ const RecipesPage = () => {
                   className={`shrink-0 snap-start rounded-sm border px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.12em] transition-all duration-300 ${
                     active
                       ? "border-gold bg-gold-gradient text-ink"
-                      : "border-border text-navy-700 hover:border-gold hover:text-gold-600"
+                      : "border-border text-ivory hover:border-gold hover:text-gold"
                   }`}
                 >
                   {value === "all" ? t("shop.all") : value}
@@ -126,7 +133,7 @@ const RecipesPage = () => {
                 setQuery("");
                 setTag("all");
               }}
-              className="mt-4 text-[12px] font-semibold uppercase tracking-[0.14em] text-gold-600 underline underline-offset-4"
+              className="mt-4 text-[12px] font-semibold uppercase tracking-[0.14em] text-gold underline underline-offset-4"
             >
               {t("shop.clear")}
             </button>

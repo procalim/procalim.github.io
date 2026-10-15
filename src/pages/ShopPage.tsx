@@ -4,6 +4,7 @@ import TrustStrip from "@/components/TrustStrip";
 import { useLang } from "@/i18n/LanguageContext";
 import { products } from "@/data/products";
 import { brandImages } from "@/data/site";
+import PageHero from "@/components/PageHero";
 
 const ShopPage = () => {
   const { t } = useLang();
@@ -12,19 +13,13 @@ const ShopPage = () => {
     <>
       <Seo title={t("seo.shop.title")} description={t("seo.shop.desc")} />
 
-      <section className="texture-navy relative overflow-hidden">
-        <img
-          src={brandImages.chefDuck}
-          alt=""
-          aria-hidden="true"
-          className="absolute inset-0 h-full w-full object-cover opacity-20"
-        />
-        <div className="container-luxe relative z-10 py-16 text-center md:py-20">
-          <span className="eyebrow">{t("shop.eyebrow")}</span>
-          <h1 className="mt-5 font-display text-4xl text-ivory md:text-5xl">{t("shop.title")}</h1>
-          <p className="mx-auto mt-4 max-w-xl text-[15px] leading-relaxed text-ivory/70">{t("shop.subtitle")}</p>
-        </div>
-      </section>
+      <PageHero
+        eyebrow={t("shop.eyebrow")}
+        title={t("shop.title")}
+        subtitle={t("shop.subtitle")}
+        image={brandImages.chefDuck}
+        focus="center 70%"
+      />
 
       <TrustStrip />
 

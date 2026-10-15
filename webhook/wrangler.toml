@@ -1,0 +1,28 @@
+# Whop → order emails. Deploy with `npm run deploy` from this folder.
+# Secrets are never written here; set them with `wrangler secret put`:
+#   WHOP_WEBHOOK_SECRET   the ws_… signing secret Whop shows for this endpoint
+#   EMAIL_API_KEY         the Resend API key (re_…)
+#   EMAIL_REPLY_TO        the inbox that answers customers' replies
+name = "edible-codex-webhook"
+main = "src/index.ts"
+compatibility_date = "2026-10-01"
+
+[vars]
+EMAIL_FROM = "The Edible Codex <hello@ediblecodex.com>"
+# Days between the thank-you email and the review request.
+REVIEW_DELAY_DAYS = "4"
+
+# Remembers which payments were emailed (so a retried webhook sends nothing
+# twice) and holds review emails until they are due.
+# Create it once with `npx wrangler kv namespace create ORDERS` and paste the
+# id it prints below.
+[[kv_namespaces]]
+binding = "ORDERS"
+id = "REPLACE_WITH_KV_NAMESPACE_ID"
+
+# Hourly: send any review email whose day has come.
+[triggers]
+crons = ["17 * * * *"]
+
+[observability]
+enabled = true

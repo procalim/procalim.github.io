@@ -1,0 +1,38 @@
+name: Send catch-up email (free guide buyers)
+
+# One-off: emails everyone in the CATCHUP_EMAILS secret their Five Sauces
+# link, a review request and the full-book offer. Run "test" first: it sends
+# a single copy to EMAIL_REPLY_TO so you can see it before anyone else does.
+# The list lives in a secret, never in the repository or the run's inputs.
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "test = one copy to you · send = everyone on the list"
+        type: choice
+        options: [test, send]
+        default: test
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: webhook
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: webhook/package-lock.json
+      - run: npm ci
+      - name: Send
+        env:
+          MODE: ${{ inputs.mode }}
+          EMAIL_API_KEY: ${{ secrets.EMAIL_API_KEY }}
+          EMAIL_REPLY_TO: ${{ secrets.EMAIL_REPLY_TO }}
+          CATCHUP_EMAILS: ${{ secrets.CATCHUP_EMAILS }}
+          EMAIL_FROM: "The Edible Codex <hello@ediblecodex.com>"
+        run: npm run catchup

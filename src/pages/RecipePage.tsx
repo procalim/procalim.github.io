@@ -1,11 +1,13 @@
 import { useEffect } from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
+import { Link } from "@/components/LocalLink";
 import { ArrowRight, ChevronLeft, Clock, Lightbulb, Users } from "lucide-react";
 import Seo from "@/components/Seo";
 import { recipeGraph } from "@/lib/structured-data";
 import RecipeCard from "@/components/RecipeCard";
 import SectionHeading from "@/components/SectionHeading";
 import BuyButton from "@/components/BuyButton";
+import { localePath } from "@/i18n/locale-path";
 import { useLang } from "@/i18n/LanguageContext";
 import { accentHex, getRecipe, recipePhoto, recipes, recipeText } from "@/data/recipes";
 import { getProduct } from "@/data/products";
@@ -24,8 +26,8 @@ const RecipePage = () => {
     return (
       <div className="container-luxe py-32 text-center">
         <Seo title={t("recipes.notFound")} description={t("recipes.notFound")} />
-        <h1 className="font-display text-3xl text-navy-700">{t("recipes.notFound")}</h1>
-        <Link to="/recipes" className="btn-navy mt-8">
+        <h1 className="font-display text-3xl text-ivory">{t("recipes.notFound")}</h1>
+        <Link to="/recipes/" className="btn-navy mt-8">
           {t("recipes.backToAll")}
         </Link>
       </div>
@@ -55,9 +57,9 @@ const RecipePage = () => {
         image={photo ?? undefined}
         jsonLd={recipeGraph({
           trail: [
-            { name: t("nav.home"), path: "/" },
-            { name: t("nav.recipes"), path: "/recipes" },
-            { name: L(recipe.title), path: `/recipes/${recipe.slug}` },
+            { name: t("nav.home"), path: localePath("/", lang) },
+            { name: t("nav.recipes"), path: localePath("/recipes", lang) },
+            { name: L(recipe.title), path: localePath(`/recipes/${recipe.slug}`, lang) },
           ],
           name: L(recipe.title),
           description: L(recipe.subtitle),
@@ -71,17 +73,17 @@ const RecipePage = () => {
         })}
       />
 
-      <div className="border-b border-border bg-white">
+      <div className="border-b border-border bg-navy-700/60">
         <div className="container-luxe flex items-center gap-2 py-4 text-[12px] text-muted-foreground">
-          <Link to="/" className="hover:text-gold-600">
+          <Link to="/" className="hover:text-gold">
             {t("nav.home")}
           </Link>
           <ChevronLeft className="h-3.5 w-3.5 rotate-180 flip-rtl" />
-          <Link to="/recipes" className="hover:text-gold-600">
+          <Link to="/recipes/" className="hover:text-gold">
             {t("nav.recipes")}
           </Link>
           <ChevronLeft className="h-3.5 w-3.5 rotate-180 flip-rtl" />
-          <span className="truncate text-navy-700">{L(recipe.title)}</span>
+          <span className="truncate text-ivory">{L(recipe.title)}</span>
         </div>
       </div>
 
@@ -121,11 +123,11 @@ const RecipePage = () => {
       <section className="section container-luxe">
         <div className="mx-auto grid max-w-5xl gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-16">
           {/* Ingredients */}
-          <aside className="h-fit rounded-sm border border-gold/25 bg-ivory p-7 lg:sticky lg:top-28">
+          <aside className="h-fit rounded-sm border border-gold/25 bg-ink p-7 lg:sticky lg:top-28">
             <h2 className="text-[11px] font-semibold uppercase tracking-luxe text-gold">{t("recipes.ingredients")}</h2>
             <ul className="mt-5 space-y-3">
               {text.ingredients.map((item) => (
-                <li key={item} className="flex items-start gap-3 text-[14px] leading-relaxed text-navy-800/85">
+                <li key={item} className="flex items-start gap-3 text-[14px] leading-relaxed text-ivory/85">
                   <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rotate-45" style={{ background: accent }} />
                   <span dir={flow} className="text-start">
                     {item}
@@ -140,14 +142,14 @@ const RecipePage = () => {
             <h2 className="text-[11px] font-semibold uppercase tracking-luxe text-gold">{t("recipes.method")}</h2>
             <ol className="mt-6 space-y-6">
               {text.steps.map((step, i) => (
-                <li key={step} className="flex gap-5">
+                <li key={step} id={`step-${i + 1}`} className="flex gap-5">
                   <span
                     className="grid h-9 w-9 shrink-0 place-items-center rounded-sm font-display text-base text-ivory"
                     style={{ background: accent }}
                   >
                     {i + 1}
                   </span>
-                  <p dir={flow} className="pt-1 text-start text-[15px] leading-relaxed text-navy-800/85">
+                  <p dir={flow} className="pt-1 text-start text-[15px] leading-relaxed text-ivory/85">
                     {step}
                   </p>
                 </li>
@@ -155,12 +157,12 @@ const RecipePage = () => {
             </ol>
 
             {text.tip && (
-              <div className="mt-10 rounded-sm border-s-2 border-gold bg-ivory p-6">
+              <div className="mt-10 rounded-sm border-s-2 border-gold bg-ink p-6">
                 <p className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-luxe text-gold">
                   <Lightbulb className="h-4 w-4" />
                   {t("recipes.tip")}
                 </p>
-                <p dir={flow} className="mt-3 text-start text-[14px] leading-relaxed text-navy-800/85">
+                <p dir={flow} className="mt-3 text-start text-[14px] leading-relaxed text-ivory/85">
                   {text.tip}
                 </p>
               </div>
@@ -190,7 +192,7 @@ const RecipePage = () => {
           ))}
         </div>
         <div className="mt-12 text-center">
-          <Link to="/recipes" className="btn-navy">
+          <Link to="/recipes/" className="btn-navy">
             {t("recipes.backToAll")}
             <ArrowRight className="h-4 w-4 flip-rtl" />
           </Link>

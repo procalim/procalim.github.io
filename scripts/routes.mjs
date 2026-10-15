@@ -71,7 +71,7 @@ export const routes = [
     path: "/recipes",
     priority: "0.9",
     changefreq: "weekly",
-    title: "١٣ وصفة مجانية مصوّرة",
+    title: "٢٨ وصفة مجانية مصوّرة",
     description:
       "وصفات مجانية من الكتاب — تاكو كيسابيريا، مطري مي تشكن، باستا الفيتا المخبوزة وغيرها. مقادير دقيقة، خطوات واضحة، وصورة للطبق النهائي.",
   },
@@ -144,3 +144,25 @@ export const routes = [
 ];
 
 export const pageTitle = (route) => `${route.title} | ${brand}`;
+
+/**
+ * The address a route is served from. Each page is written as
+ * <path>/index.html, and GitHub Pages answers "/shop" with a 301 to
+ * "/shop/" — so the sitemap and canonicals must name the slashed form, or
+ * Google is handed a redirect instead of a page.
+ * العنوان الذي تُخدَم منه الصفحة فعلاً، بالشرطة الأخيرة.
+ */
+export const pageUrl = (route) => `${origin}${route.path.endsWith("/") ? route.path : `${route.path}/`}`;
+
+/**
+ * The English twin of an address. Arabic lives at the root, English under
+ * /en — the same rule as src/i18n/locale-path.ts.
+ * العنوان الإنجليزي المقابل: العربية في الجذر والإنجليزية تحت /en.
+ */
+export const enPath = (path) => (path === "/" ? "/en/" : `/en${path}`);
+
+/** Both addresses of a route, for hreflang. */
+export const alternates = (route) => ({
+  ar: pageUrl(route),
+  en: pageUrl({ path: enPath(route.path) }),
+});

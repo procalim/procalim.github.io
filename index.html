@@ -34,7 +34,7 @@
          where scripts do not run, so it never flashes before React mounts
          while still being plain markup for crawlers and site importers.
          المحتوى الاحتياطي مخفيّ عن الزوّار ويظهر فقط لمن لا يشغّل الجافاسكربت. -->
-    <noscript><style>#static-fallback{display:block !important}</style></noscript>
+    <noscript><style>#static-fallback{display:block !important}#app-shell{display:none !important}</style></noscript>
     <style>body{background:#0B1B33}</style>
 
     <!-- Absolute, not relative: this one document is served for every route,
@@ -48,13 +48,32 @@
     <link rel="apple-touch-icon" href="/brand/icon-180.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Tajawal:wght@300;400;500;700&family=Amiri:wght@400;700&display=swap"
-    />
+    <!-- Fonts load without holding up the first paint: the page shows in
+         the fallback face at once and swaps in the brand faces when they
+         arrive (display=swap). The 300 weights were never used.
+         الخطوط تُحمَّل دون أن تؤخّر ظهور الصفحة. -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&amp;family=Inter:wght@400;500;600;700&amp;family=Tajawal:wght@400;500;700&amp;family=Amiri:wght@400;700&amp;family=Anton&amp;family=Noto+Kufi+Arabic:wght@800&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&amp;family=Inter:wght@400;500;600;700&amp;family=Tajawal:wght@400;500;700&amp;family=Amiri:wght@400;700&amp;family=Anton&amp;family=Noto+Kufi+Arabic:wght@800&amp;display=swap" /></noscript>
   </head>
 
   <body>
+    <!-- First screen, painted from the HTML alone before the app's code has
+           arrived: the dark stage, the wordmark and the page's headline. On a
+           slow connection the page used to stay blank until the bundle loaded;
+           now something real shows at once, and React replaces it on mount.
+           It sits outside #root, over the app, and fades once the app has
+           mounted (src/main.tsx), so its cover stays the page's first large
+           image. Hidden where scripts do not run (the static fallback shows instead).
+           شاشة أولى تظهر فوراً من الـ HTML قبل وصول كود الموقع. -->
+      <div id="app-shell" aria-hidden="true" style="position:fixed;inset:0;z-index:90;overflow:hidden;transition:opacity .35s ease;background:#0B1B33;color:#F4EFE4;font-family:Tajawal,Inter,system-ui,sans-serif">
+        <div style="height:36px;background:#0A0A0B"></div>
+        <div dir="ltr" style="height:74px;display:flex;align-items:center;justify-content:center;background:#0A0A0B;border-bottom:1px solid rgba(201,162,39,.18);font-family:'Playfair Display',Georgia,serif;font-size:18px;font-weight:600">The&nbsp;<span style="color:#C9A227">Edible</span>&nbsp;Codex</div>
+        <div style="padding:96px 20px 0;text-align:center">
+          <p style="margin:0 0 14px;color:#C9A227;font-size:11px;letter-spacing:.3em">THE EDIBLE CODEX</p>
+          <p data-shell-title style="margin:0 auto;max-width:720px;font-size:clamp(34px,9vw,72px);line-height:1.15;font-weight:800">مطبخ محترف في جيبك</p>
+          <!--shell-image-->
+        </div>
+      </div>
     <div id="root">
       <!-- ─────────────────────────────────────────────────────────────
            Static fallback · محتوى ثابت
