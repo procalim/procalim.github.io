@@ -22,10 +22,25 @@ const THUMB_COLS: Record<number, string> = {
   6: "grid-cols-3 sm:grid-cols-6",
 };
 
-const ProductPage = () => {
-  const { slug } = useParams();
+type Props = {
+  /**
+   * The Digistore24 sales page (/codex): the same book page, but the buy
+   * button goes to the Digistore24 order form so affiliate sales are credited.
+   * صفحة بيع Digistore24: نفس صفحة الكتاب، وزر الشراء يذهب لصفحة دفع Digistore24.
+   */
+  digistoreSlug?: string;
+};
+
+const ProductPage = ({ digistoreSlug }: Props = {}) => {
+  const params = useParams();
+  const slug = digistoreSlug ?? params.slug;
   const { t, L, lang } = useLang();
-  const product = getProduct(slug);
+  const catalogued = getProduct(slug);
+  const viaDigistore = Boolean(digistoreSlug && catalogued?.digistoreUrl);
+  const product =
+    catalogued && viaDigistore
+      ? { ...catalogued, checkoutUrl: catalogued.digistoreUrl, planId: undefined }
+      : catalogued;
   const [active, setActive] = useState(0);
 
   useEffect(() => {
@@ -50,9 +65,9 @@ const ProductPage = () => {
     : 0;
 
   const whopUrl = checkoutUrlFor(product);
-  const onWhop = Boolean(whopUrl);
+  const onWhop = Boolean(whopUrl) && !viaDigistore;
   const isFree = product.price === 0;
-  const related = products.filter((p) => p.slug !== product.slug);
+  const related = viaDigistore ? [] : products.filter((p) => p.slug !== product.slug);
 
   return (
     <>
@@ -60,7 +75,8 @@ const ProductPage = () => {
         title={L(product.title)}
         description={`${L(product.subtitle)} · ${t("seo.productSuffix")}`}
         image={product.image}
-        jsonLd={productGraph({
+        noindex={viaDigistore}
+        jsonLd={viaDigistore ? undefined : productGraph({
           trail: [
             { name: t("nav.home"), path: localePath("/", lang) },
             { name: t("nav.shop"), path: localePath("/shop", lang) },

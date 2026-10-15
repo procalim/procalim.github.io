@@ -433,6 +433,24 @@ for (const lang of LANGS) {
 }
 
 /**
+ * The Digistore24 sales page for the book: the book page with its buy button
+ * pointed at the Digistore24 order form, so affiliate sales are credited. It
+ * must answer 200, but it duplicates the shop page, so it stays out of the
+ * sitemap and says noindex.
+ * صفحة بيع Digistore24: تُخدم بنجاح، لكنها خارج خريطة الموقع ومحجوبة عن الفهرسة.
+ */
+for (const lang of LANGS) {
+  const title = lang === "en" ? "The Edible Codex | 361 Recipes" : "ذا إديبل كودكس | ٣٦١ وصفة";
+  let html = template
+    .replace(/<title>[\s\S]*?<\/title>/, `<title>${escape(title)}</title>`)
+    .replace("</head>", `  <meta name="robots" content="noindex" />\n  </head>`);
+  if (lang === "en") html = html.replace('<html lang="ar" dir="rtl">', '<html lang="en" dir="ltr">');
+  const target = path.join(dist, at("/codex/", lang), "index.html");
+  fs.mkdirSync(path.dirname(target), { recursive: true });
+  fs.writeFileSync(target, html);
+}
+
+/**
  * Addresses Google may still hold from earlier versions of the site: the
  * /product/<slug> shape the shop first used, and four products that were
  * retired. Without a page behind them they surface as "Not found (404)" in
