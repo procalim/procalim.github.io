@@ -37,9 +37,6 @@ export type Product = {
   accessUrl?: string;
   /** Digistore24 order form, used on the affiliate sales page (/codex). */
   digistoreUrl?: string;
-  /** Digistore24 badge snippets (HTML from the vendor account), shown on /codex. */
-  digistoreTrustBadge?: string;
-  digistoreFooterBadge?: string;
 };
 
 /**
