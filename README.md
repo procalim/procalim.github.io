@@ -33,8 +33,8 @@ All content lives in four files — you never have to dig through components.
 > **مهم:** التقييمات في `products.ts` نماذج توضيحية — استبدلها بتقييمات عملائك الحقيقيين قبل النشر.
 > **Important:** the reviews in `products.ts` are placeholders — replace them with real customer reviews before launch.
 
-> الأسعار الحالية: الإصدار الرئيسي **$9.99** والباقي مُسعَّر حوله. احرص أن يطابق السعر ما هو معروض على Whop.
-> Current pricing: the flagship is **$9.99** and the rest is scaled around it — keep it in sync with Whop.
+> الأسعار الحالية: الإصدار الرئيسي **$14.99** والباقي مُسعَّر حوله. احرص أن يطابق السعر ما هو معروض على Whop.
+> Current pricing: the flagship is **$14.99** and the rest is scaled around it — keep it in sync with Whop.
 
 ## ٣. الصور · Brand images
 
@@ -74,7 +74,7 @@ Each product carries a `focus` value (e.g. `"center 75%"`) that decides which pa
 
 | المنتج | السعر | رابط Whop |
 | --- | --- | --- |
-| الكتاب | $9.99 | `whop.com/the-edible-codex/the-edible-codex-cookbook/` |
+| الكتاب | $14.99 | `whop.com/the-edible-codex/the-edible-codex-cookbook/` |
 | الصلصات الخمس | مجاناً | `whop.com/the-edible-codex/the-edible-codex-five-sauces/` |
 
 سعر `0` يُعرض تلقائياً كـ «مجاناً» ويتغيّر نص الزر إلى «احصل عليه مجاناً».

@@ -54,7 +54,7 @@ export const PRODUCTS: Record<string, Product> = {
       { ar: "تحديثات مجانية مدى الحياة", en: "Free lifetime updates" },
     ],
     image: `${IMAGES}/cookbook.jpg`,
-    price: { ar: "٩٫٩٩ دولار", en: "$9.99" },
+    price: { ar: "١٤٫٩٩ دولار", en: "$14.99" },
     url: "https://whop.com/the-edible-codex-cookbook",
   },
 };

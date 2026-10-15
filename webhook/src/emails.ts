@@ -254,8 +254,8 @@ export const reviewEmail = (product: Product): Email => {
 export const catchUpEmail = (gift: Product, book: Product, bookPage: Localized): Email => {
   const offer = (lang: Lang) => {
     const t = lang === "ar"
-      ? { eyebrow: "الخطوة التالية في مطبخك", title: "جاهز للكتاب الكامل؟", price: "٩٫٩٩ دولار فقط", was: "بدل ١٩٫٩٩", cta: "احصل على الكتاب ←", note: "تحميل فوري · وصول مدى الحياة · استرداد كامل خلال ٣٠ يوماً" }
-      : { eyebrow: "The next step in your kitchen", title: "Ready for the full book?", price: "Just $9.99", was: "was $19.99", cta: "Get the book →", note: "Instant download · lifetime access · 30-day full refund" };
+      ? { eyebrow: "الخطوة التالية في مطبخك", title: "جاهز للكتاب الكامل؟", price: "١٤٫٩٩ دولار فقط", was: "بدل ٢٩٫٩٩", cta: "احصل على الكتاب ←", note: "تحميل فوري · وصول مدى الحياة · استرداد كامل خلال ٣٠ يوماً" }
+      : { eyebrow: "The next step in your kitchen", title: "Ready for the full book?", price: "Just $14.99", was: "was $29.99", cta: "Get the book →", note: "Instant download · lifetime access · 30-day full refund" };
     return [
       row(`${eyebrow(t.eyebrow, lang)}${headline(t.title, lang)}`, "8px 32px 8px"),
       row(productCard(book), "8px 32px 8px"),
@@ -300,10 +300,10 @@ export const catchUpEmail = (gift: Product, book: Product, bookPage: Localized):
       "سجّل الدخول في Whop بنفس هذا الإيميل.",
       `قيّمنا: ${gift.url}`,
       "",
-      `جاهز للكتاب الكامل؟ ${book.name.ar} — ٩٫٩٩ دولار بدل ١٩٫٩٩: ${bookPage.ar}`,
+      `جاهز للكتاب الكامل؟ ${book.name.ar} — ١٤٫٩٩ دولار بدل ٢٩٫٩٩: ${bookPage.ar}`,
       "",
       `Your free guide is waiting: ${gift.name.en} — ${gift.url}`,
-      `Ready for the full book? ${book.name.en} — $9.99 (was $19.99): ${bookPage.en}`,
+      `Ready for the full book? ${book.name.en} — $14.99 (was $29.99): ${bookPage.en}`,
       "",
       "The Edible Codex · https://ediblecodex.com",
     ].join("\n"),
