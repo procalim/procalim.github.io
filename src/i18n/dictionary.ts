@@ -311,13 +311,13 @@ export const dictionary = {
      عناوين مكتوبة لنتيجة البحث لا للصفحة نفسها. */
   "seo.home.title": { ar: "٢٦١ وصفة مصوّرة خطوة بخطوة", en: "261 Recipes, Photographed Step by Step" },
   "seo.home.desc": {
-    ar: "كتاب طبخ رقمي من مطبخ محترف — ٢٦١ وصفة مصوّرة ومشروحة بالجرام والكوب، مع ١٠٠ وصفة سريعة هدية. تحميل فوري بـ ٩٫٩٩ دولاراً واسترداد خلال ٣٠ يوماً.",
-    en: "A digital cookbook from a professional kitchen — 261 photographed recipes written in grams and cups, plus 100 quick meals free. Instant download for $9.99, 30-day refund.",
+    ar: "كتاب طبخ رقمي من مطبخ محترف — ٢٦١ وصفة مصوّرة ومشروحة بالجرام والكوب، مع ١٠٠ وصفة سريعة هدية. تحميل فوري بـ ١٤٫٩٩ دولاراً واسترداد خلال ٣٠ يوماً.",
+    en: "A digital cookbook from a professional kitchen — 261 photographed recipes written in grams and cups, plus 100 quick meals free. Instant download for $14.99, 30-day refund.",
   },
   "seo.shop.title": { ar: "الكتاب الكامل والصلصات الخمس", en: "The Book & The Five Sauces" },
   "seo.shop.desc": {
-    ar: "إصداران: ذا إديبل كودكس بـ ٩٫٩٩ دولاراً، والصلصات الخمس المميّزة مجاناً. تحميل فوري، وصول مدى الحياة، واسترداد خلال ٣٠ يوماً.",
-    en: "Two editions: The Edible Codex for $9.99, and The Five Signature Sauces free. Instant download, lifetime access, 30-day refund.",
+    ar: "إصداران: ذا إديبل كودكس بـ ١٤٫٩٩ دولاراً، والصلصات الخمس المميّزة مجاناً. تحميل فوري، وصول مدى الحياة، واسترداد خلال ٣٠ يوماً.",
+    en: "Two editions: The Edible Codex for $14.99, and The Five Signature Sauces free. Instant download, lifetime access, 30-day refund.",
   },
   "seo.recipes.title": { ar: "١٣ وصفة مجانية مصوّرة", en: "13 Free Recipes, Photographed" },
   "seo.recipes.desc": {

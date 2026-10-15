@@ -25,7 +25,7 @@ description: >
 5. **Never blame the user.** Report numbers, not guesses. Change one variable per test.
 6. Talk to the user in Levantine Arabic, minimal English words.
 7. Captions: English first then Arabic, 3-5 hashtags, no em dashes, each copy item in its
-   own code block. Recipe count is always 361. Book price 9.99 USD, instant download,
+   own code block. Recipe count is always 361. Book price 14.99 USD (was 9.99), instant download,
    30-day refund.
 
 ## What the data proved (keep using)
