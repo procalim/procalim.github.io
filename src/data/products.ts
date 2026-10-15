@@ -35,6 +35,8 @@ export type Product = {
    * صفحة المنتج على Whop التي يفتح منها المشتري ما اشتراه.
    */
   accessUrl?: string;
+  /** Digistore24 order form, used on the affiliate sales page (/codex). */
+  digistoreUrl?: string;
 };
 
 /**
@@ -77,6 +79,7 @@ export const products: Product[] = [
     checkoutUrl: "https://whop.com/c/the-edible-codex-cookbook/codex",
     planId: "plan_em9IY2N3WR5Je",
     accessUrl: "https://whop.com/the-edible-codex-cookbook",
+    digistoreUrl: "https://www.checkout-ds24.com/product/749266",
   },
   {
     id: 2,

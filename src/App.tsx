@@ -54,6 +54,8 @@ const App = () => (
                       <Route path={`${prefix}/faq`} element={<FaqPage />} />
                       <Route path={`${prefix}/contact`} element={<ContactPage />} />
                       <Route path={`${prefix}/policies/:slug`} element={<PolicyPage />} />
+                      {/* Digistore24 affiliate sales page for the book */}
+                      <Route path={`${prefix}/codex`} element={<ProductPage digistoreSlug="the-edible-codex" />} />
                       <Route path={`${prefix}/checkout/complete`} element={<CheckoutCompletePage />} />
                     </Fragment>
                   ))}
