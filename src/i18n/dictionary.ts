@@ -54,7 +54,7 @@ export const dictionary = {
   "nav.search": { ar: "بحث", en: "Search" },
   "nav.language": { ar: "English", en: "العربية" },
 
-  "announce.1": { ar: "تحميل فوري بعد الشراء · وصول مدى الحياة", en: "Instant download · Lifetime access" },
+  "announce.1": { ar: "تحميل فوري بعد الشراء · يعمل على كل الأجهزة", en: "Instant download · Works on every device" },
   "announce.2": { ar: "هدية: ١٠٠ وصفة سريعة مجاناً مع كل نسخة", en: "Bonus: 100 free quick meals with every copy" },
   "announce.3": { ar: "ضمان استرداد خلال ٣٠ يوماً", en: "30-day money-back guarantee" },
 
@@ -239,10 +239,10 @@ export const dictionary = {
     ar: "مكتبة صلصات ملوّنة كاملة: البنجر، الكركم، الأعشاب، الفلفل المشوي والبلسمك.",
     en: "A full colour-sauce library: beetroot, turmeric, herb, roasted pepper and balsamic.",
   },
-  "value.4.title": { ar: "وصول مدى الحياة", en: "Lifetime Access" },
+  "value.4.title": { ar: "تحميل فوري", en: "Instant Download" },
   "value.4.body": {
-    ar: "تحميل فوري، تحديثات مجانية للأبد، ويعمل على الجوال واللوح والحاسوب.",
-    en: "Instant download, free updates forever, readable on phone, tablet and desktop.",
+    ar: "ملف يصلك فوراً بعد الدفع، تحفظه على جهازك، ويعمل على الجوال واللوح والحاسوب.",
+    en: "A file in your hands the moment you pay, yours to save, readable on phone, tablet and desktop.",
   },
 
   /* ── Featured product ── */
@@ -529,8 +529,8 @@ export const dictionary = {
   },
   "seo.shop.title": { ar: "الكتاب الكامل والصلصات الخمس", en: "The Book & The Five Sauces" },
   "seo.shop.desc": {
-    ar: "إصداران: ذا إديبل كودكس بـ ١٤٫٩٩ دولاراً، والصلصات الخمس المميّزة مجاناً. تحميل فوري، وصول مدى الحياة، واسترداد خلال ٣٠ يوماً.",
-    en: "Two editions: The Edible Codex for $14.99, and The Five Signature Sauces free. Instant download, lifetime access, 30-day refund.",
+    ar: "إصداران: ذا إديبل كودكس بـ ١٤٫٩٩ دولاراً، والصلصات الخمس المميّزة مجاناً. تحميل فوري، واسترداد خلال ٣٠ يوماً.",
+    en: "Two editions: The Edible Codex for $14.99, and The Five Signature Sauces free. Instant download, 30-day refund.",
   },
   "seo.recipes.title": { ar: "٢٨ وصفة مجانية مصوّرة", en: "28 Free Recipes, Photographed" },
   "seo.recipes.desc": {
@@ -553,8 +553,8 @@ export const dictionary = {
     en: "Questions about the book or your order? Message us on WhatsApp and we reply within hours.",
   },
   "seo.productSuffix": {
-    ar: "تحميل فوري · وصول مدى الحياة · استرداد خلال ٣٠ يوماً",
-    en: "Instant download · lifetime access · 30-day refund",
+    ar: "تحميل فوري · استرداد خلال ٣٠ يوماً",
+    en: "Instant download · 30-day refund",
   },
   "seo.recipeSuffix": {
     ar: "وصفة مجانية مصوّرة خطوة بخطوة من ذا إديبل كودكس",

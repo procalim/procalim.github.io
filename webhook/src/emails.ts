@@ -94,7 +94,7 @@ const summary = (product: Product, reference: string, lang: Lang) => {
 
 const steps = (lang: Lang) => {
   const items = lang === "ar"
-    ? ["اضغط زر «افتح المحتوى» أعلاه.", "سجّل الدخول في Whop بنفس هذا الإيميل.", "حمّل الملف أو اقرأه مباشرة — هو لك مدى الحياة."]
+    ? ["اضغط زر «افتح المحتوى» أعلاه.", "سجّل الدخول في Whop بنفس هذا الإيميل.", "حمّل الملف أو اقرأه مباشرة — واحفظه على جهازك."]
     : ["Tap “Open your content” above.", "Sign in to Whop with this same email.", "Download or read it right away — it's yours for life."];
   return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" dir="${dirOf(lang)}">${items
     .map(
@@ -254,8 +254,8 @@ export const reviewEmail = (product: Product): Email => {
 export const catchUpEmail = (gift: Product, book: Product, bookPage: Localized): Email => {
   const offer = (lang: Lang) => {
     const t = lang === "ar"
-      ? { eyebrow: "الخطوة التالية في مطبخك", title: "جاهز للكتاب الكامل؟", price: "١٤٫٩٩ دولار فقط", was: "بدل ٢٩٫٩٩", cta: "احصل على الكتاب ←", note: "تحميل فوري · وصول مدى الحياة · استرداد كامل خلال ٣٠ يوماً" }
-      : { eyebrow: "The next step in your kitchen", title: "Ready for the full book?", price: "Just $14.99", was: "was $29.99", cta: "Get the book →", note: "Instant download · lifetime access · 30-day full refund" };
+      ? { eyebrow: "الخطوة التالية في مطبخك", title: "جاهز للكتاب الكامل؟", price: "١٤٫٩٩ دولار فقط", was: "بدل ٢٩٫٩٩", cta: "احصل على الكتاب ←", note: "تحميل فوري · استرداد كامل خلال ٣٠ يوماً" }
+      : { eyebrow: "The next step in your kitchen", title: "Ready for the full book?", price: "Just $14.99", was: "was $29.99", cta: "Get the book →", note: "Instant download · 30-day full refund" };
     return [
       row(`${eyebrow(t.eyebrow, lang)}${headline(t.title, lang)}`, "8px 32px 8px"),
       row(productCard(book), "8px 32px 8px"),

@@ -40,7 +40,7 @@ const recipes = readEntries("src/data/recipes.ts");
 const clips = readEntries("src/data/videos.ts");
 
 const brand = "ذا إديبل كودكس";
-const productSuffix = "تحميل فوري · وصول مدى الحياة · استرداد خلال ٣٠ يوماً";
+const productSuffix = "تحميل فوري · استرداد خلال ٣٠ يوماً";
 const recipeSuffix = "وصفة مجانية مصوّرة خطوة بخطوة من ذا إديبل كودكس";
 
 export const routes = [
@@ -58,7 +58,7 @@ export const routes = [
     changefreq: "weekly",
     title: "الكتاب الكامل والصلصات الخمس",
     description:
-      "إصداران: ذا إديبل كودكس بـ ١٤٫٩٩ دولاراً، والصلصات الخمس المميّزة مجاناً. تحميل فوري، وصول مدى الحياة، واسترداد خلال ٣٠ يوماً.",
+      "إصداران: ذا إديبل كودكس بـ ١٤٫٩٩ دولاراً، والصلصات الخمس المميّزة مجاناً. تحميل فوري، واسترداد خلال ٣٠ يوماً.",
   },
   ...products.map((product) => ({
     path: `/shop/${product.slug}`,
