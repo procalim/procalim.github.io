@@ -443,7 +443,16 @@ for (const lang of LANGS) {
   const title = lang === "en" ? "The Edible Codex | 361 Recipes" : "ذا إديبل كودكس | ٣٦١ وصفة";
   let html = template
     .replace(/<title>[\s\S]*?<\/title>/, `<title>${escape(title)}</title>`)
-    .replace("</head>", `  <meta name="robots" content="noindex" />\n  </head>`);
+    .replace(
+      "</head>",
+      `  <meta name="robots" content="noindex" />\n` +
+        // Digistore24 promocode: carries the affiliate id from the affiliate's
+        // link to the order form, so the sale is credited to them.
+        // كود Digistore24: ينقل رقم المسوّق إلى صفحة الدفع لتُحسب له العمولة.
+        `  <script src="https://www.digistore24-scripts.com/service/digistore.js"></script>\n` +
+        `  <script>digistorePromocode({ "product_id": 749266, "adjust_domain": true });</script>\n` +
+        `  </head>`,
+    );
   if (lang === "en") html = html.replace('<html lang="ar" dir="rtl">', '<html lang="en" dir="ltr">');
   const target = path.join(dist, at("/codex/", lang), "index.html");
   fs.mkdirSync(path.dirname(target), { recursive: true });

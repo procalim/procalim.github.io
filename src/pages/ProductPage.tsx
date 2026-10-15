@@ -90,6 +90,13 @@ const ProductPage = ({ digistoreSlug }: Props = {}) => {
         })}
       />
 
+      {viaDigistore ? (
+        <header className="border-b border-border bg-navy-700/60">
+          <div className="container-luxe py-5 text-center font-display text-xl text-ivory">
+            The <span className="text-gold">Edible</span> Codex
+          </div>
+        </header>
+      ) : (
       <div className="border-b border-border bg-navy-700/60">
         <div className="container-luxe flex items-center gap-2 py-4 text-[12px] text-muted-foreground">
           <Link to="/" className="hover:text-gold">
@@ -103,6 +110,7 @@ const ProductPage = ({ digistoreSlug }: Props = {}) => {
           <span className="truncate text-ivory">{L(product.title)}</span>
         </div>
       </div>
+      )}
 
       <section className="section container-luxe">
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
@@ -150,6 +158,8 @@ const ProductPage = ({ digistoreSlug }: Props = {}) => {
 
           {/* Buy box */}
           <div>
+            {/* The ratings are still placeholders, so the Digistore24 page leaves them out. */}
+            {!viaDigistore && (
             <div className="flex items-center gap-2">
               {Array.from({ length: 5 }).map((_, i) => (
                 <Star
@@ -161,6 +171,7 @@ const ProductPage = ({ digistoreSlug }: Props = {}) => {
                 {product.rating} · {product.reviews} {t("reviews.count")}
               </span>
             </div>
+            )}
 
             <h1 className="mt-4 font-display text-3xl leading-tight text-ivory md:text-[2.5rem]">
               {L(product.title)}
@@ -184,6 +195,10 @@ const ProductPage = ({ digistoreSlug }: Props = {}) => {
 
             {/* One button, straight to checkout — no forms, no cart. */}
             <BuyButton product={product} withPrice className="w-full text-base" />
+
+            {viaDigistore && product.digistoreTrustBadge && (
+              <div className="mt-4 flex justify-center" dangerouslySetInnerHTML={{ __html: product.digistoreTrustBadge }} />
+            )}
 
             {onWhop ? (
               <div className="mt-4 rounded-sm border border-gold/25 bg-ink px-5 py-4 text-center">
@@ -237,7 +252,14 @@ const ProductPage = ({ digistoreSlug }: Props = {}) => {
               {[
                 { Icon: Download, label: t("product.format"), value: t("product.formatValue") },
                 { Icon: ShieldCheck, label: t("product.delivery"), value: t("product.deliveryValue") },
-                { Icon: RotateCcw, label: t("product.guarantee"), value: t("product.guaranteeValue") },
+                {
+                  Icon: RotateCcw,
+                  label: t("product.guarantee"),
+                  // Digistore24 only allows 60, 90 or 180 days; its refund is 60.
+                  value: viaDigistore
+                    ? lang === "ar" ? "استرداد كامل خلال ٦٠ يوماً" : "Full refund within 60 days"
+                    : t("product.guaranteeValue"),
+                },
               ].map(({ Icon, label, value }) => (
                 <div key={label} className="flex items-center gap-4 py-4">
                   <Icon className="h-4 w-4 shrink-0 text-gold" />
@@ -249,6 +271,7 @@ const ProductPage = ({ digistoreSlug }: Props = {}) => {
               ))}
             </dl>
 
+            {!viaDigistore && (
             <Accordion type="single" collapsible className="mt-8">
               {faqs.slice(0, 3).map((faq, i) => (
                 <AccordionItem key={i} value={`p-faq-${i}`} className="border-b border-border">
@@ -261,9 +284,32 @@ const ProductPage = ({ digistoreSlug }: Props = {}) => {
                 </AccordionItem>
               ))}
             </Accordion>
+            )}
           </div>
         </div>
       </section>
+
+      {viaDigistore && (
+        <footer className="border-t border-border py-10 text-center text-[12px] text-muted-foreground">
+          {product.digistoreFooterBadge && (
+            <div className="mb-5 flex justify-center" dangerouslySetInnerHTML={{ __html: product.digistoreFooterBadge }} />
+          )}
+          <p>
+            {lang === "ar"
+              ? "يتم الدفع عبر Digistore24.com · ضمان استرداد خلال ٦٠ يوماً"
+              : "Payment is processed by Digistore24.com · 60-day money-back guarantee"}
+          </p>
+          <p className="mt-3 flex justify-center gap-4">
+            <a href={localePath("/policies/privacy/", lang)} className="hover:text-gold">
+              {lang === "ar" ? "الخصوصية" : "Privacy"}
+            </a>
+            <a href={localePath("/policies/terms/", lang)} className="hover:text-gold">
+              {lang === "ar" ? "الشروط" : "Terms"}
+            </a>
+          </p>
+          <p className="mt-3">© The Edible Codex</p>
+        </footer>
+      )}
 
       {related.length > 0 && (
         <section className="bg-navy-700/40 section">

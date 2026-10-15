@@ -1,5 +1,5 @@
-import { Fragment, lazy, Suspense } from "react";
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { Fragment, lazy, Suspense, type ReactNode } from "react";
+import { BrowserRouter, Navigate, Route, Routes, useLocation } from "react-router-dom";
 import { LanguageProvider } from "@/i18n/LanguageContext";
 import { EN_PREFIX } from "@/i18n/locale-path";
 import AnnouncementBar from "@/components/layout/AnnouncementBar";
@@ -22,16 +22,34 @@ const PolicyPage = lazy(() => import("@/pages/PolicyPage"));
 const NotFoundPage = lazy(() => import("@/pages/NotFoundPage"));
 const CheckoutCompletePage = lazy(() => import("@/pages/CheckoutCompletePage"));
 
+/**
+ * The Digistore24 sales page (/codex) must not link to any other checkout,
+ * so it is served without the site's bar, navigation and footer.
+ * صفحة Digistore24 تُعرض بلا شريط الإعلان والقائمة والتذييل، لأنها لا يجوز أن تربط بدفع آخر.
+ */
+const isBarePage = (pathname: string) => /\/codex\/?$/.test(pathname);
+
+const Chrome = ({ children }: { children: ReactNode }) => {
+  const { pathname } = useLocation();
+  const bare = isBarePage(pathname);
+  return (
+    <div className="flex min-h-screen flex-col">
+      <div className="film-grain" aria-hidden="true" />
+      {!bare && <AnnouncementBar />}
+      {!bare && <Navbar />}
+      {children}
+      {!bare && <Footer />}
+    </div>
+  );
+};
+
 const App = () => (
     <LanguageProvider>
           <BrowserRouter basename={import.meta.env.BASE_URL}>
             <ScrollToTop />
             <PageMotion />
             <RouteTracker />
-            <div className="flex min-h-screen flex-col">
-              <div className="film-grain" aria-hidden="true" />
-              <AnnouncementBar />
-              <Navbar />
+            <Chrome>
               <main id="main" tabIndex={-1} className="flex-1 outline-none">
                 {/* Inner pages arrive as their own chunks; the dark stage holds
                     the space for the moment one is loading. */}
@@ -64,8 +82,7 @@ const App = () => (
                 </Routes>
                 </Suspense>
               </main>
-              <Footer />
-            </div>
+            </Chrome>
           </BrowserRouter>
       </LanguageProvider>
 );
