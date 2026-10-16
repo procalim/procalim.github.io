@@ -38,6 +38,11 @@ description: >
 - Mala (slow macro opening) 53.1% skip; feta (wide raw-ingredient opening, Wan footage)
   51.4% skip. Both lost half the viewers by second 2. Frame one must already be action.
 - Several variables changed per post taught nothing. One change per post, log the numbers.
+- Multi-clip generations (Katana plates, re-rolls) forget the food between clips: the taco
+  beef was thin in plates A/B and a thick burger patty in the lid-off and topping clips.
+  Every clip after the first gets a frame of the previous clip's food as an extra image
+  reference, the prompt states the food's exact shape ("thin smashed beef covering the whole
+  tortilla, not a patty"), and QA compares the food shape across clips before delivery.
 
 ## The template (fill the [brackets] for any recipe; 12 s; Seedance 2.5, 1080p, 9:16)
 ```
