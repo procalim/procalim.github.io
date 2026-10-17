@@ -229,3 +229,59 @@ export const videoGraph = (args: {
     inLanguage: args.lang,
     publisher: { "@type": "Organization", name: site.brand.name },
   });
+
+/**
+ * A search guide: an article by the chef, the recipes it lists (as links,
+ * not as Recipes — each is described in full on its own page), and its
+ * questions and answers.
+ * دليل البحث: مقال للشيف، وقائمة روابط الوصفات، وأسئلته وأجوبته.
+ */
+export const guideGraph = (args: {
+  trail: Trail;
+  name: string;
+  description: string;
+  /** Site-relative path of the cover photograph, or null. */
+  image: string | null;
+  lang: string;
+  items: { name: string; path: string }[];
+  faq: { q: string; a: string }[];
+}) => {
+  const url = pageUrl(args.trail[args.trail.length - 1].path);
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      breadcrumbList(args.trail),
+      {
+        "@type": "Article",
+        "@id": `${url}#article`,
+        headline: args.name,
+        description: args.description,
+        url,
+        ...(args.image ? { image: `${site.url}${args.image}` } : {}),
+        inLanguage: args.lang,
+        datePublished: "2026-10-17",
+        dateModified: "2026-10-17",
+        author: { "@type": "Person", name: site.brand.chefEn, url: pageUrl("/about") },
+        publisher: { "@type": "Organization", name: site.brand.name, url: pageUrl("/") },
+        mainEntity: {
+          "@type": "ItemList",
+          numberOfItems: args.items.length,
+          itemListElement: args.items.map((item, index) => ({
+            "@type": "ListItem",
+            position: index + 1,
+            name: item.name,
+            url: pageUrl(item.path),
+          })),
+        },
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: args.faq.map((item) => ({
+          "@type": "Question",
+          name: item.q,
+          acceptedAnswer: { "@type": "Answer", text: item.a },
+        })),
+      },
+    ],
+  };
+};

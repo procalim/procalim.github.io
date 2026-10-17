@@ -14,6 +14,8 @@ const RecipesPage = lazy(() => import("@/pages/RecipesPage"));
 const RecipePage = lazy(() => import("@/pages/RecipePage"));
 const VideosPage = lazy(() => import("@/pages/VideosPage"));
 const VideoPage = lazy(() => import("@/pages/VideoPage"));
+const GuidesPage = lazy(() => import("@/pages/GuidesPage"));
+const GuidePage = lazy(() => import("@/pages/GuidePage"));
 const ProductPage = lazy(() => import("@/pages/ProductPage"));
 const AboutPage = lazy(() => import("@/pages/AboutPage"));
 const ContactPage = lazy(() => import("@/pages/ContactPage"));
@@ -68,6 +70,8 @@ const App = () => (
                       <Route path={`${prefix}/recipes/:slug`} element={<RecipePage />} />
                       <Route path={`${prefix}/videos`} element={<VideosPage />} />
                       <Route path={`${prefix}/videos/:slug`} element={<VideoPage />} />
+                      <Route path={`${prefix}/guides`} element={<GuidesPage />} />
+                      <Route path={`${prefix}/guides/:slug`} element={<GuidePage />} />
                       <Route path={`${prefix}/about`} element={<AboutPage />} />
                       <Route path={`${prefix}/faq`} element={<FaqPage />} />
                       <Route path={`${prefix}/contact`} element={<ContactPage />} />
