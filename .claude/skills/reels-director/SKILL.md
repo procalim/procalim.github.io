@@ -41,6 +41,11 @@ description: >
   7.34 s avg watch (68%), about 28% to the end, 1 share and 2 saves on 2.4K views after 3.5 h,
   91% from the Reels tab. No cliff at second 1-2 any more; the loss is a steady slide in the
   middle. Next test: arancini, one locked-camera Seedance clip, one top hook only.
+- Dubai Chocolate (10 s): 7.1K views, 8.86 s avg, ~45% to the end, 0 shares 4 saves. Good
+  completion alone did not spread it. Maqluba (19 s, static finished-dish first frame): 5.3K
+  views, 11.23 s avg, ~30% to the end, 15 shares 17 saves (2.8 shares per 1K views, the best
+  rate, above crinkle cake's 2.0). A reel needs both completion and shares. Next test: Maqluba
+  again in the 12 s chicken-parm format, flip as the payoff (topic fixed, format changed).
 - Several variables changed per post taught nothing. One change per post, log the numbers.
 - Multi-clip generations (Katana plates, re-rolls) forget the food between clips: the taco
   beef was thin in plates A/B and a thick burger patty in the lid-off and topping clips.
