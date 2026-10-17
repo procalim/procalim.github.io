@@ -18,10 +18,12 @@ type Props = {
   image?: string;
   /** CSS object-position for the photograph. */
   focus?: string;
+  /** A long headline (a search guide's full title) set smaller. */
+  compact?: boolean;
   children?: ReactNode;
 };
 
-const PageHero = ({ eyebrow, title, subtitle, image = brandImages.heroBackdrop, focus = "center", children }: Props) => {
+const PageHero = ({ eyebrow, title, subtitle, image = brandImages.heroBackdrop, focus = "center", compact = false, children }: Props) => {
   const section = useRef<HTMLElement>(null);
   const photo = useRef<HTMLImageElement>(null);
   const words = useRef<HTMLDivElement>(null);
@@ -77,7 +79,11 @@ const PageHero = ({ eyebrow, title, subtitle, image = brandImages.heroBackdrop, 
 
       <div ref={words} className="container-luxe relative z-10 pb-12 pt-28 text-center will-change-transform md:pb-16">
         <span className="eyebrow">{eyebrow}</span>
-        <h1 className="font-poster mx-auto mt-4 max-w-4xl text-[clamp(2.6rem,10vw,6rem)] uppercase leading-[0.95] text-ivory">
+        <h1
+          className={`font-poster mx-auto mt-4 max-w-4xl uppercase text-ivory ${
+            compact ? "text-[clamp(1.9rem,7vw,3.6rem)] leading-[1.05]" : "text-[clamp(2.6rem,10vw,6rem)] leading-[0.95]"
+          }`}
+        >
           <span className="rise-line">
             <span className="gold-text">{title}</span>
           </span>

@@ -38,6 +38,7 @@ const readEntries = (file) => {
 const products = readEntries("src/data/products.ts");
 const recipes = readEntries("src/data/recipes.ts");
 const clips = readEntries("src/data/videos.ts");
+const guides = readEntries("src/data/guides.ts");
 
 const brand = "ذا إديبل كودكس";
 const productSuffix = "تحميل فوري · استرداد خلال ٣٠ يوماً";
@@ -96,6 +97,21 @@ export const routes = [
     changefreq: "monthly",
     title: clip.title,
     description: clip.description,
+  })),
+  {
+    path: "/guides",
+    priority: "0.8",
+    changefreq: "weekly",
+    title: "أدلة الطبخ — وصفات الترند وأفكار العشاء",
+    description:
+      "أدلة من الشيف أحمد سلامة: أشهر وصفات تيك توك، أفكار عشاء سهلة، شوكولاتة دبي وحلويات الترند، وصفات كورية، مقبلات للعزائم، وصوصات لتزيين الأطباق.",
+  },
+  ...guides.map((guide) => ({
+    path: `/guides/${guide.slug}`,
+    priority: "0.8",
+    changefreq: "monthly",
+    title: guide.title,
+    description: guide.description,
   })),
   {
     path: "/about",

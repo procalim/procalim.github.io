@@ -65,6 +65,7 @@ const imageFor = (route) => {
   if (section === "recipes" && slug) return hashed(slug);
   if (section === "videos" && slug) return hashed(slug);
   if (section === "shop" && slug) return PRODUCT_IMAGE[slug] ?? null;
+  if (section === "guides" && slug) return guideCover.get(slug) ?? null;
   return null;
 };
 
@@ -76,14 +77,17 @@ const imageFor = (route) => {
  */
 const vite = await createServer({ server: { middlewareMode: true }, appType: "custom", logLevel: "error" });
 const load = (file) => vite.ssrLoadModule(file);
-const [{ recipes, recipeText }, { products }, { videos }, schema, { dictionary }, { policies }] = await Promise.all([
+const [{ recipes, recipeText }, { products }, { videos }, schema, { dictionary }, { policies }, { guides }] = await Promise.all([
   load("/src/data/recipes.ts"),
   load("/src/data/products.ts"),
   load("/src/data/videos.ts"),
   load("/src/lib/structured-data.ts"),
   load("/src/i18n/dictionary.ts"),
   load("/src/data/policies.ts"),
+  load("/src/data/guides.ts"),
 ]);
+// A guide's picture is its cover recipe's photograph. صورة الدليل صورة وصفته.
+const guideCover = new Map(guides.map((g) => [g.slug, hashed(g.cover)]));
 await vite.close();
 
 /**
@@ -98,6 +102,7 @@ const say = (key, lang) => dictionary[key][lang];
 const at = (p, lang) => (lang === "en" ? enPath(p) : p);
 
 const structuredData = new Map();
+const recipeBySlugEarly = new Map(recipes.map((r) => [r.slug, r]));
 for (const lang of LANGS) {
   const home = { name: say("nav.home", lang), path: at("/", lang) };
   for (const recipe of recipes) {
@@ -150,6 +155,25 @@ for (const lang of LANGS) {
   }
 }
 
+for (const lang of LANGS) {
+  const home = { name: say("nav.home", lang), path: at("/", lang) };
+  for (const guide of guides) {
+    structuredData.set(at(`/guides/${guide.slug}`, lang), schema.guideGraph({
+      trail: [
+        home,
+        { name: say("guides.nav", lang), path: at("/guides", lang) },
+        { name: guide.title[lang], path: at(`/guides/${guide.slug}`, lang) },
+      ],
+      name: guide.title[lang],
+      description: guide.description[lang],
+      image: guideCover.get(guide.slug),
+      lang,
+      items: guide.picks.map((p) => ({ name: recipeBySlugEarly.get(p.recipe).title[lang], path: at(`/recipes/${p.recipe}`, lang) })),
+      faq: guide.faq.map((f) => ({ q: f.q[lang], a: f.a[lang] })),
+    }));
+  }
+}
+
 const escape = (value) =>
   value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
@@ -182,6 +206,11 @@ const recipeBySlug = new Map(recipes.map((r) => [r.slug, r]));
 const productBySlug = new Map(products.map((p) => [p.slug, p]));
 const videoBySlug = new Map(videos.map((v) => [v.slug, v]));
 const policyBySlug = new Map(policies.map((p) => [p.slug, p]));
+const guideBySlug = new Map(guides.map((g) => [g.slug, g]));
+const GUIDE_WORDS = {
+  ar: { picks: "الوصفات", tips: "نصائح الشيف", faq: "أسئلة شائعة" },
+  en: { picks: "The recipes", tips: "Chef's notes", faq: "Questions" },
+};
 
 const WORDS = {
   ar: { people: "أشخاص", ingredients: "المكوّنات", method: "طريقة التحضير", tip: "نصيحة الشيف:",
@@ -223,10 +252,10 @@ const HOME = {
 };
 
 const SECTIONS = {
-  ar: { explore: "تصفّح الموقع", recipes: "وصفات مجانية من الكتاب", videos: "تقنيات مصوّرة", share: "شارك الصفحة",
-        nav: [["/", "الرئيسية"], ["/shop/", "المتجر"], ["/recipes/", "الوصفات"], ["/videos/", "المقاطع"], ["/about/", "عن الشيف"], ["/faq/", "الأسئلة الشائعة"], ["/contact/", "تواصل"]] },
-  en: { explore: "Explore the site", recipes: "Free recipes from the book", videos: "Technique videos", share: "Share this page",
-        nav: [["/", "Home"], ["/shop/", "Shop"], ["/recipes/", "Recipes"], ["/videos/", "Videos"], ["/about/", "About the chef"], ["/faq/", "FAQ"], ["/contact/", "Contact"]] },
+  ar: { explore: "تصفّح الموقع", guides: "أدلة الطبخ", recipes: "وصفات مجانية من الكتاب", videos: "تقنيات مصوّرة", share: "شارك الصفحة",
+        nav: [["/", "الرئيسية"], ["/shop/", "المتجر"], ["/recipes/", "الوصفات"], ["/guides/", "أدلة الطبخ"], ["/videos/", "المقاطع"], ["/about/", "عن الشيف"], ["/faq/", "الأسئلة الشائعة"], ["/contact/", "تواصل"]] },
+  en: { explore: "Explore the site", guides: "Cooking guides", recipes: "Free recipes from the book", videos: "Technique videos", share: "Share this page",
+        nav: [["/", "Home"], ["/shop/", "Shop"], ["/recipes/", "Recipes"], ["/guides/", "Guides"], ["/videos/", "Videos"], ["/about/", "About the chef"], ["/faq/", "FAQ"], ["/contact/", "Contact"]] },
 };
 
 /**
@@ -248,6 +277,8 @@ const siteLinks = (route, lang) => {
       ...t.nav.map(([p, label]) => [at(p, lang), label]),
       ...products.map((p) => [at(`/shop/${p.slug}/`, lang), p.title[lang]]),
     ]) +
+    `\n<h2>${t.guides}</h2>\n` +
+    list(guides.map((g) => [at(`/guides/${g.slug}/`, lang), g.title[lang]])) +
     `\n<h2>${t.recipes}</h2>\n` +
     list(recipes.map((r) => [at(`/recipes/${r.slug}/`, lang), r.title[lang]])) +
     `\n<h2>${t.videos}</h2>\n` +
@@ -295,6 +326,35 @@ const ownBody = (route, lang) => {
       `<p>${escape(say("seo.productSuffix", lang))}</p>`
     );
   }
+  const guide = section === "guides" && slug ? guideBySlug.get(slug) : null;
+  if (guide) {
+    const img = imageFor(route);
+    const g = GUIDE_WORDS[lang];
+    return (
+      `<h1 style="${H1}">${escape(guide.title[lang])}</h1>\n` +
+      (img ? `<img src="${img}" alt="${escape(guide.title[lang])}" width="600" style="max-width:100%;height:auto;margin:0 auto 20px;display:block" />\n` : "") +
+      guide.intro.map((p) => `<p style="${P}">${escape(p[lang])}</p>`).join("\n") +
+      `\n<h2>${g.picks}</h2>\n<ol style="${LIST}">` +
+      guide.picks
+        .map((p) => {
+          const r = recipeBySlug.get(p.recipe);
+          return `<li><h3 style="font-size:18px;margin:12px 0 4px"><a href="${at(`/recipes/${r.slug}/`, lang)}" style="${LINK}">${escape(r.title[lang])}</a></h3>${escape(p.why[lang])} · ${escape(r.time)}</li>`;
+        })
+        .join("") +
+      `</ol>\n<h2>${g.tips}</h2>\n` +
+      guide.tips.map((tip) => `<h3>${escape(tip.heading[lang])}</h3>\n<p style="${P}">${escape(tip.body[lang])}</p>`).join("\n") +
+      `\n<h2>${g.faq}</h2>\n` +
+      guide.faq.map((f) => `<h3>${escape(f.q[lang])}</h3>\n<p style="${P}">${escape(f.a[lang])}</p>`).join("\n") +
+      `\n<p><a href="${at(`/shop/${guide.product}/`, lang)}" style="${LINK}">${escape(productBySlug.get(guide.product).title[lang])}</a></p>`
+    );
+  }
+  if (route.path === "/guides") {
+    const meta = lang === "en" ? englishMeta(route) : { title: route.title, description: route.description };
+    return (
+      `<h1 style="${H1}">${escape(meta.title)}</h1>\n<p style="${P}">${escape(meta.description)}</p>\n` +
+      `<ul style="${LIST}">${guides.map((g) => `<li><h2 style="font-size:18px;margin:12px 0 4px"><a href="${at(`/guides/${g.slug}/`, lang)}" style="${LINK}">${escape(g.title[lang])}</a></h2>${escape(g.description[lang])}</li>`).join("")}</ul>`
+    );
+  }
   if (route.path === "/") {
     const home = HOME[lang];
     return `<h1 style="${H1}">${escape(home.h1)}</h1>\n` + home.paras.map((t) => `<p style="${P}">${escape(t)}</p>`).join("\n");
@@ -315,7 +375,7 @@ const shellTitle = (route, lang) => {
 /** Title and description of a route in English, from the same sources the app reads. */
 const englishMeta = (route) => {
   const [, section, slug] = route.path.split("/");
-  const fixed = { "": "home", shop: "shop", recipes: "recipes", videos: "videos", about: "about", faq: "faq", contact: "contact" };
+  const fixed = { "": "home", guides: "guides", shop: "shop", recipes: "recipes", videos: "videos", about: "about", faq: "faq", contact: "contact" };
   if (!slug && section in fixed) {
     const key = fixed[section];
     return { title: say(`seo.${key}.title`, "en"), description: say(`seo.${key}.desc`, "en") };
@@ -331,6 +391,10 @@ const englishMeta = (route) => {
   if (section === "videos") {
     const v = videoBySlug.get(slug);
     return { title: v.title.en, description: v.description.en };
+  }
+  if (section === "guides") {
+    const g = guideBySlug.get(slug);
+    return { title: g.title.en, description: g.description.en };
   }
   if (section === "policies") {
     const p = policyBySlug.get(slug);
