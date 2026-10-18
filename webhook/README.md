@@ -1,7 +1,8 @@
 # Order emails · رسائل الطلبات
 
-A Cloudflare Worker that receives Whop's `payment.succeeded` webhook and emails
-the buyer through [Resend](https://resend.com):
+A Cloudflare Worker that receives Whop's `payment.succeeded` webhook — and
+`membership.activated`, for the free guide claimed from its Whop page without
+a payment — and emails the buyer through [Resend](https://resend.com):
 
 | When | Email | Link |
 |---|---|---|
@@ -26,6 +27,10 @@ payment ID in KV and sent with a Resend idempotency key.
 5. **Whop:** Developer → Webhooks → new webhook to that URL with the
    `payment.succeeded` event. Copy its `ws_…` secret into a GitHub secret
    named `WHOP_WEBHOOK_SECRET`, then run the workflow once more.
+6. **Free claims:** add the `membership.activated` event to the same webhook,
+   and create a Whop API key with the `member:email:read` permission as a
+   GitHub secret named `WHOP_API_KEY`; run the workflow once more. A free
+   claim carries no payment and no email, so the Worker looks the email up.
 
 From a computer, the same is `npx wrangler deploy` plus
 `npx wrangler secret put <NAME>` for each secret.

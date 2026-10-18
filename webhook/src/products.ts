@@ -17,6 +17,8 @@ export type Product = {
   /** What the buyer paid, as shown in the order summary. */
   price: Localized;
   url: string;
+  /** A free plan, claimed without a payment — emailed on `membership.activated`. */
+  free?: boolean;
 };
 
 const IMAGES = "https://ediblecodex.com/brand/email";
@@ -38,6 +40,7 @@ export const PRODUCTS: Record<string, Product> = {
     image: `${IMAGES}/five-sauces.jpg`,
     price: { ar: "مجاناً", en: "Free" },
     url: "https://whop.com/the-edible-codex-five-sauces",
+    free: true,
   },
   plan_em9IY2N3WR5Je: {
     name: { ar: "ذا إديبل كودكس", en: "The Edible Codex" },
