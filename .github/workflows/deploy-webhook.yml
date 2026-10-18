@@ -10,6 +10,7 @@ name: Deploy order-email webhook
 #   EMAIL_API_KEY          Resend API key (re_…)
 #   EMAIL_REPLY_TO         inbox that answers customers' replies
 #   WHOP_WEBHOOK_SECRET    ws_… secret of the Whop webhook (add after the first deploy)
+#   WHOP_API_KEY           Whop API key with member:email:read — emails free claims
 
 on:
   workflow_dispatch:
@@ -86,8 +87,9 @@ jobs:
           EMAIL_API_KEY: ${{ secrets.EMAIL_API_KEY }}
           EMAIL_REPLY_TO: ${{ secrets.EMAIL_REPLY_TO }}
           WHOP_WEBHOOK_SECRET: ${{ secrets.WHOP_WEBHOOK_SECRET }}
+          WHOP_API_KEY: ${{ secrets.WHOP_API_KEY }}
         run: |
-          for NAME in EMAIL_API_KEY EMAIL_REPLY_TO WHOP_WEBHOOK_SECRET; do
+          for NAME in EMAIL_API_KEY EMAIL_REPLY_TO WHOP_WEBHOOK_SECRET WHOP_API_KEY; do
             VALUE=$(printenv "$NAME" || true)
             if [ -n "$VALUE" ]; then
               printf '%s' "$VALUE" | npx wrangler secret put "$NAME"

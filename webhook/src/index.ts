@@ -5,7 +5,8 @@ import { reviewEmail, thankYouEmail, type Email } from "./emails";
 /**
  * Whop payment webhook → order emails · رسائل الطلب من Whop
  *
- * On `payment.succeeded` for one of the plans in ./products, the buyer gets a
+ * On `payment.succeeded` — or `membership.activated`, for a free plan claimed
+ * without a payment — for one of the plans in ./products, the buyer gets a
  * thank-you email at once, and a review request is queued for a few days
  * later. An hourly cron sends the review requests that have come due.
  *
@@ -19,6 +20,13 @@ import { reviewEmail, thankYouEmail, type Email } from "./emails";
 export interface Env {
   ORDERS: KVNamespace;
   WHOP_WEBHOOK_SECRET: string;
+  /**
+   * Whop API key with the member:email:read permission. Needed only for
+   * `membership.activated`, whose payload carries no email address.
+   */
+  WHOP_API_KEY?: string;
+  /** Tests only: a stand-in for Whop's API. */
+  WHOP_API_URL?: string;
   EMAIL_API_KEY: string;
   EMAIL_FROM: string;
   EMAIL_REPLY_TO?: string;
@@ -44,7 +52,8 @@ type Payment = {
 
 const planOf = (payment: Payment) => payment.plan_id ?? payment.plan?.id ?? null;
 const emailOf = (payment: Payment) => (payment.customer_email ?? payment.user?.email ?? "").trim() || null;
-type WhopEvent = { id: string; type: string; data: Payment };
+type Membership = { id: string; plan_id?: string | null; user_id?: string | null };
+type WhopEvent = { id: string; type: string; data: Payment & Membership };
 type PendingReview = { paymentId: string; email: string; planId: string };
 
 const DAY = 24 * 60 * 60 * 1000;
@@ -91,6 +100,9 @@ const sendEmail = async (env: Env, to: string, email: Email, idempotencyKey: str
 /** Review keys sort by when they fall due, so the cron reads them in order. */
 const reviewKey = (due: Date, paymentId: string) => `review:${due.toISOString()}:${paymentId}`;
 
+/** One thank-you per person per product, whichever event reports it first. */
+const personKey = (planId: string, email: string) => `sent:${planId}:${email.toLowerCase()}`;
+
 const handlePayment = async (env: Env, payment: Payment): Promise<Response> => {
   const planId = planOf(payment);
   const product: Product | undefined = planId ? PRODUCTS[planId] : undefined;
@@ -104,8 +116,51 @@ const handlePayment = async (env: Env, payment: Payment): Promise<Response> => {
     log("error", "payment.no_email", { payment: payment.id, plan: planId });
     return reply("no buyer email");
   }
+  return sendThanks(env, payment.id, planId!, product, to);
+};
 
-  if (await env.ORDERS.get(`thanks:${payment.id}`)) {
+/**
+ * Someone claimed a plan without a payment — the free guide taken from its
+ * Whop page sends `membership.activated`, never `payment.succeeded`. The
+ * payload has no email, so it is looked up on the membership through
+ * Whop's API.
+ * الحصول على الدليل المجاني من صفحته على Whop لا يُنشئ دفعة؛ نقرأ الإيميل من
+ * العضوية عبر واجهة Whop.
+ */
+const handleMembership = async (env: Env, membership: Membership): Promise<Response> => {
+  const planId = membership.plan_id ?? null;
+  const product: Product | undefined = planId ? PRODUCTS[planId] : undefined;
+  // Paid plans are emailed from their payment; only a free claim has none.
+  if (!product?.free) {
+    log("info", "membership.ignored", { membership: membership.id, plan: planId, reason: "not a free plan" });
+    return reply("ignored");
+  }
+  if (!env.WHOP_API_KEY) {
+    log("warn", "membership.no_api_key", { membership: membership.id });
+    return reply("no api key");
+  }
+  const query = new URLSearchParams({ plan_id: planId!, first: "20" });
+  if (membership.user_id) query.set("user_id", membership.user_id);
+  const response = await fetch(`${env.WHOP_API_URL ?? "https://api.whop.com/api/v1"}/memberships?${query}`, {
+    headers: { Authorization: `Bearer ${env.WHOP_API_KEY}` },
+  });
+  if (!response.ok) {
+    // Answer 500 so Whop retries the delivery.
+    log("error", "membership.lookup_failed", { membership: membership.id, status: response.status });
+    return reply("lookup failed", 500);
+  }
+  const list = (await response.json()) as { data?: { id: string; user?: { email?: string | null } | null }[] };
+  const to = (list.data?.find((m) => m.id === membership.id)?.user?.email ?? "").trim() || null;
+  if (!to) {
+    log("error", "membership.no_email", { membership: membership.id, plan: planId });
+    return reply("no member email");
+  }
+  return sendThanks(env, membership.id, planId!, product, to);
+};
+
+const sendThanks = async (env: Env, ref: string, planId: string, product: Product, to: string): Promise<Response> => {
+  const payment = { id: ref };
+  if ((await env.ORDERS.get(`thanks:${payment.id}`)) || (await env.ORDERS.get(personKey(planId, to)))) {
     log("info", "thanks.duplicate", { payment: payment.id });
     return reply("already sent");
   }
@@ -123,9 +178,10 @@ const handlePayment = async (env: Env, payment: Payment): Promise<Response> => {
   const configured = Number(env.REVIEW_DELAY_DAYS);
   const days = env.REVIEW_DELAY_DAYS && Number.isFinite(configured) && configured >= 0 ? configured : 4;
   const due = new Date(Date.now() + days * DAY);
-  const pending: PendingReview = { paymentId: payment.id, email: to, planId: planId! };
+  const pending: PendingReview = { paymentId: payment.id, email: to, planId };
   await env.ORDERS.put(reviewKey(due, payment.id), JSON.stringify(pending));
   await env.ORDERS.put(`thanks:${payment.id}`, JSON.stringify({ sentAt: new Date().toISOString(), emailId }));
+  await env.ORDERS.put(personKey(planId, to), payment.id);
   log("info", "review.scheduled", { payment: payment.id, due: due.toISOString() });
 
   return reply("ok");
@@ -186,11 +242,10 @@ export default {
       return reply("invalid signature", 401);
     }
 
-    if (event.type !== "payment.succeeded") {
-      log("info", "webhook.ignored", { type: event.type, webhook: event.id });
-      return reply("ignored");
-    }
-    return handlePayment(env, event.data);
+    if (event.type === "payment.succeeded") return handlePayment(env, event.data);
+    if (event.type === "membership.activated") return handleMembership(env, event.data);
+    log("info", "webhook.ignored", { type: event.type, webhook: event.id });
+    return reply("ignored");
   },
 
   async scheduled(_controller: ScheduledController, env: Env): Promise<void> {

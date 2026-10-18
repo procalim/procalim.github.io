@@ -57,6 +57,12 @@ const payment = (id, plan, email = "buyer@example.com") => ({
 
 before(async () => {
   resend = createServer((req, res) => {
+    // Also stands in for Whop's API: the membership list with its member's email.
+    if (req.method === "GET" && req.url.startsWith("/memberships")) {
+      res.writeHead(req.headers.authorization === "Bearer apik_test" ? 200 : 401, { "content-type": "application/json" });
+      res.end(JSON.stringify({ data: [{ id: "mem_free1", user: { id: "user_free", email: "claimer@example.com" } }] }));
+      return;
+    }
     let raw = "";
     req.on("data", (c) => (raw += c));
     req.on("end", () => {
@@ -70,7 +76,8 @@ before(async () => {
     "npx",
     ["wrangler", "dev", "--port", "8799", "--ip", "127.0.0.1", "--test-scheduled", "--persist-to", mkdtempSync(join(tmpdir(), "kv-")),
      "--var", `WHOP_WEBHOOK_SECRET:${SECRET}`, "--var", "EMAIL_API_KEY:re_test", "--var", "EMAIL_REPLY_TO:support@example.com",
-     "--var", "RESEND_API_URL:http://127.0.0.1:8798", "--var", "REVIEW_DELAY_DAYS:0"],
+     "--var", "RESEND_API_URL:http://127.0.0.1:8798",
+     "--var", "WHOP_API_URL:http://127.0.0.1:8798", "--var", "WHOP_API_KEY:apik_test", "--var", "REVIEW_DELAY_DAYS:0"],
     // Its own process group, so stopping it also stops the runtime it starts.
     { stdio: ["ignore", "pipe", "pipe"], detached: true, env: { ...process.env, WRANGLER_SEND_METRICS: "false" } },
   );
@@ -158,4 +165,33 @@ test("every send was logged", () => {
     assert.ok(worker.logs.includes(`"event":"${event}"`), `missing log ${event}`);
   }
   assert.ok(!worker.logs.includes("buyer@example.com"), "full addresses must not reach the logs");
+});
+
+/** A free claim from the product page: a membership, no payment, no email in the payload. */
+const activated = (id, plan) => ({
+  id: `msg_${id}`,
+  type: "membership.activated",
+  api_version: "v1",
+  timestamp: new Date().toISOString(),
+  data: { id, plan_id: plan, user_id: "user_free", product_id: "prod_test", status: "active" },
+});
+
+test("a free claim without a payment is emailed once, looked up through Whop", async () => {
+  const before = sent.length;
+  const res = await deliver(activated("mem_free1", "plan_yC2EH8kuwf8pi"));
+  assert.equal(res.status, 200);
+  const mail = sent.slice(before).filter((m) => m.to?.[0] === "claimer@example.com");
+  assert.equal(mail.length, 1);
+  assert.equal(mail[0].key, "thanks/mem_free1");
+
+  // The same person reported again as a payment gets nothing new.
+  await deliver(payment("pay_free_dup", "plan_yC2EH8kuwf8pi", "claimer@example.com"));
+  assert.equal(sent.slice(before).filter((m) => m.to?.[0] === "claimer@example.com" && /^thanks/.test(m.key)).length, 1);
+});
+
+test("a paid plan's membership is left to its payment", async () => {
+  const before = sent.length;
+  const res = await deliver(activated("mem_paid1", "plan_em9IY2N3WR5Je"));
+  assert.equal(res.status, 200);
+  assert.equal(sent.length, before);
 });
