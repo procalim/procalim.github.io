@@ -104,5 +104,5 @@ comment that asks for a mention or the keyword. Share line is also the first cap
    `https://ediblecodex.com/shop/the-edible-codex`, extra message after 1 day, autoAnswers.
 3. Fix quick-setup quirks: remove `<code>` from the extra message with
    `automations_messages_update`, add «شوف الكتاب 📕» on it and
-   «الصلصات مجاناً 🎁» `https://whop.com/checkout/plan_yC2EH8kuwf8pi` on the recipe message.
+   «الصلصات مجاناً 🎁» `https://whop.com/the-edible-codex-five-sauces` on the recipe message.
 4. Tell the user to test with a comment from another account.
