@@ -3,7 +3,7 @@ import { ArrowRight, ExternalLink, Loader2 } from "lucide-react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { formatPrice, useLang } from "@/i18n/LanguageContext";
 import { rememberCheckout } from "@/lib/last-checkout";
-import { buyLink, onBuyClick } from "@/lib/buy";
+import { buyLink, freeLink, onBuyClick } from "@/lib/buy";
 import { pageUrl } from "@/lib/page-url";
 import { localePath } from "@/i18n/locale-path";
 import { site } from "@/data/site";
@@ -37,8 +37,9 @@ const BuyButton = ({ product, withPrice = false, className = "" }: Props) => {
   // adds `payment` and `status` beside it.
   const returnUrl = `${pageUrl(localePath("/checkout/complete/", lang))}?product=${product.slug}`;
 
-  // No plan id configured — behave exactly as before, a plain outbound link.
-  if (!product.planId) {
+  // No plan id configured, or a free product (straight to its Whop page, no
+  // payment form) — a plain outbound link.
+  if (!product.planId || freeLink(product)) {
     return (
       <a
         href={hostedUrl}
