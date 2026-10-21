@@ -37,12 +37,26 @@ description: >
 - One single 18 s generation cannot follow a 37-cut reference; do not promise a 1:1 match.
 - Mala (slow macro opening) 53.1% skip; feta (wide raw-ingredient opening, Wan footage)
   51.4% skip. Both lost half the viewers by second 2. Frame one must already be action.
+- Big Mac tacos (Katana, 5 clips, 608 credits, 10.75 s, action from frame one): 33.1% skip,
+  7.34 s avg watch (68%), about 28% to the end, 1 share and 2 saves on 2.4K views after 3.5 h,
+  91% from the Reels tab. No cliff at second 1-2 any more; the loss is a steady slide in the
+  middle. Next test: arancini, one locked-camera Seedance clip, one top hook only.
+- Dubai Chocolate (10 s): 7.1K views, 8.86 s avg, ~45% to the end, 0 shares 4 saves. Good
+  completion alone did not spread it. Maqluba (19 s, static finished-dish first frame): 5.3K
+  views, 11.23 s avg, ~30% to the end, 15 shares 17 saves (2.8 shares per 1K views, the best
+  rate, above crinkle cake's 2.0). A reel needs both completion and shares. Next test: Maqluba
+  again in the 12 s chicken-parm format, flip as the payoff (topic fixed, format changed).
 - Mac & cheese balls (Seedance 2.5 with a competitor reel as video_references for motion only,
   book recipe p329, 9.5 s, short on-screen cards of 6 words or fewer, each line scored 85+ with
   hookscore): 28.5% skip, 7 s avg watch (74%), ~35% to the end, 1.9K views in 80 min (faster than
   the typical reel). AI rendered the inside as plain cheese with no macaroni: always ask for the
   filling to be visible ("many macaroni tubes visible in both halves") and QA the break shot.
 - Several variables changed per post taught nothing. One change per post, log the numbers.
+- Multi-clip generations (Katana plates, re-rolls) forget the food between clips: the taco
+  beef was thin in plates A/B and a thick burger patty in the lid-off and topping clips.
+  Every clip after the first gets a frame of the previous clip's food as an extra image
+  reference, the prompt states the food's exact shape ("thin smashed beef covering the whole
+  tortilla, not a patty"), and QA compares the food shape across clips before delivery.
 
 ## The template (fill the [brackets] for any recipe; 12 s; Seedance 2.5, 1080p, 9:16)
 ```
@@ -69,7 +83,7 @@ SOUND: heavy bass hit on every PUNCH, real cooking sounds on every action, one l
 
 AVOID: cut to black, fade out, ending on a still, slow pacing, shots longer than 1.5 seconds, a still shot of the face, gentle placing, pork, bacon, alcohol, packaging, logos, text, extra fingers, deformed hands, distorted face.
 ```
-Attach the user's face photo as Image 1. Price: 12 s x 12 credits = 144 (confirm with get_cost).
+Attach the user's face photo as Image 1. Price (live quote 2026-10-15): 12 s 1080p = 192 credits, 12 s 720p = 84 (confirm with get_cost).
 Ready prompts live in `content-studio/prompts/` (Big Mac smash tacos, baked feta pasta).
 
 ## On-video texts (added in editing, after seeing the real footage)
