@@ -111,6 +111,17 @@ breaks the book recipe, shows logos or misspelt packaging, or invents food.
 Renderer: `content-studio/overlay.mjs`. ffmpeg: `python3 -c "import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())"`.
 Loudness about -14 to -16 LUFS.
 
+## Target audience (owner's call, 2026-10-21)
+The buyer is the home cook, mostly women. Account audience is 76% men, so every reel is also
+a test of who it reaches: ask for the reel's Audience tab (gender, non-followers) after 24 h
+and log the women %.
+
+## Every delivered video comes with the full package
+Download link, then in this order: SEO title, recipe verbatim from the book (English and the
+Arabic edition), 3-5 hashtags, pinned comment (the recipe), ready replies for the first hour,
+posting time, and the exact numbers to send back after 24 h (skip rate, average watch, shares,
+saves, follows, Audience tab gender and non-follower %).
+
 ## Protocol after the edit («البروتوكول»)
 Title `Recipe | Hook | Arabic hook`, English caption, Arabic caption with 3-5 hashtags, pinned
 comment that asks for a mention or the keyword. Share line is also the first caption line.
