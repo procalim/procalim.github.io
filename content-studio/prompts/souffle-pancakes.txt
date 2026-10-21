@@ -1,42 +1,43 @@
-A hyper-dynamic cinematic cooking video for Japanese Souffle Pancakes, exactly 10 seconds, cut like a trailer. Every shot is 0.6 to 1.4 seconds long, hard cuts on the beat, no shot lingers. The whole video builds toward ONE payoff that is held back until 8.4 seconds: the tall pancakes jiggling hard on the plate. Never show the finished pancakes before 7.6 seconds.
+A hyper-dynamic cinematic cooking video for Japanese Soufflé Pancakes, exactly 12 seconds, cut like a trailer. Every shot is 0.5 to 1.5 seconds long, hard cuts on the beat, no shot lingers, relentless forward momentum. A high-impact PUNCH moment lands at 0s, 3s, 6s and 9s, each one as strong as the opening.
 
 CHARACTER: the man in the reference image (@Image1) is the chef, exactly his face: Middle Eastern man, early 30s, thick mustache no beard, brown aviator glasses, thin gold chain, white t-shirt under a black apron with brown leather suspenders, black nitrile gloves. His face only ever appears in motion, never in a still shot.
 
-PLATE: the white plate with a thin gold rim from @Image2, used only for serving at the end.
+PLATE: the white plate with a thin gold rim from @Image2.
 
 RECIPE (follow exactly, every step once, in this order, nothing added):
-Japanese Souffle Pancakes
+Japanese Soufflé Pancakes
+Tall, jiggly, fluffy pancakes that melt in your mouth.
 INGREDIENTS
-- 2 Eggs (separated)
-- 2 tbsp Milk
-- 1/2 tsp Vanilla extract
-- 3 tbsp Cake flour (or All-purpose flour)
-- 1/4 tsp Baking powder
-- 2 tbsp Sugar
-- Oil for greasing
+— 2 Eggs (separated)
+— 2 tbsp Milk
+— ½ tsp Vanilla extract
+— 3 tbsp Cake flour (or All-purpose flour)
+— ¼ tsp Baking powder
+— 2 tbsp Sugar
+— Oil for greasing
 METHOD
-1. Mix egg yolks, milk, and vanilla. Sift in flour and baking powder; mix until smooth.
-2. In a separate clean bowl, whip egg whites. Gradually add sugar until stiff glossy peaks form.
-3. Gently fold meringue into yolk mixture in 3 batches. Do not overmix.
-4. Heat non-stick pan over LOW heat. Lightly grease.
-5. Scoop tall mounds of batter. Add 1 tsp water to empty pan spaces and cover with lid (to steam).
-6. Cook 4-5 minutes, flip gently, cook another 4-5 minutes covered.
-7. Serve immediately with powdered sugar and syrup.
-CHEF'S NOTE: LOW heat is the secret, these pancakes steam as much as they cook.
+01 Mix egg yolks, milk, and vanilla. Sift in flour and baking powder; mix until smooth.
+02 In a separate clean bowl, whip egg whites. Gradually add sugar until stiff glossy peaks form.
+03 Gently fold meringue into yolk mixture in 3 batches. Do not overmix.
+04 Heat non-stick pan over LOW heat. Lightly grease.
+05 Scoop tall mounds of batter. Add 1 tsp water to empty pan spaces and cover with lid (to steam).
+06 Cook 4–5 minutes, flip gently, cook another 4–5 minutes covered.
+07 Serve immediately with powdered sugar and syrup.
+CHEF'S NOTE
+LOW heat is the secret — these pancakes steam as much as they cook
 
-0.0-0.8s PUNCH 1: the chef cracks 2 eggs hard on the rim of a glass bowl, one in each hand, the whites fall into one bowl and the yolks drop into a second bowl. The camera shakes on impact. Frame one is already in motion.
-0.8-1.6s: milk and vanilla splash onto the yolks, fast whisk; flour and baking powder sifted in like snow, batter turns smooth.
-1.6-3.0s PUNCH 2: extreme macro, electric mixer whips the whites at full speed, sugar streams in, the foam turns white and glossy; the chef lifts the whisk and a stiff glossy peak stands straight up.
-3.0-4.2s: the meringue is folded into the yolk batter in 3 quick batches with a spatula, airy and thick, never stirred.
-4.2-5.0s: a black non-stick pan on a very low blue flame, brushed lightly with oil.
-5.0-6.4s PUNCH 3: tall mounds of batter piled high in the pan; 1 tsp of water poured into the empty spaces of the pan, a loud sizzle and a burst of steam toward the lens; the lid slams down.
-6.4-7.6s: the lid lifts, steam rolls out, the chef flips one tall pancake gently with a spatula, golden brown underneath, the lid goes back on.
-7.6-8.4s: three tall pancakes stacked on the white gold-rim plate, powdered sugar falls like snow, syrup pours over the top.
-8.4-9.6s PAYOFF: extreme close-up near the lens, the chef taps the plate twice and the tall pancakes jiggle and wobble hard, soft and bouncy, the loudest and longest moment of the video.
-9.6-10.0s: the chef grabs 2 eggs again and lifts them high above the bowl, ready to crack, the motion continuing into the opening shot so the video loops. No cut to black.
+0.0-1.0s PUNCH 1: the chef cracks 2 eggs hard on the rim of a glass bowl, one in each hand, the whites drop into one bowl and the yolks into a second bowl. The camera shakes on impact.
+1.0-3.0s: milk and vanilla splash onto the yolks; flour and baking powder sifted in like snow; fast whisk until smooth, fast cuts.
+3.0-4.0s PUNCH 2: Extreme macro. The egg whites whipped at full speed, sugar streaming in, the foam exploding into stiff glossy white peaks, flecks of meringue flying toward the lens.
+4.0-6.0s: the meringue folded into the yolk batter in 3 quick batches, airy and thick; a black non-stick pan on a very low flame, lightly greased, fast cuts, the chef's face sharp behind the motion.
+6.0-7.0s PUNCH 3: whip-pan into the pan: tall mounds of batter scooped high, 1 tsp of water hits the empty spaces of the pan, a burst of steam toward the lens, the lid slams down.
+7.0-9.0s: the lid lifts, steam rolls out, one tall pancake flipped gently, golden brown, lid back on; three tall pancakes stacked on the white gold-rim plate, powdered sugar falling like snow, syrup pouring over the top, fast cuts.
+9.0-10.0s PUNCH 4: Extreme close-up near the lens: the chef taps the plate and the tall pancakes jiggle and wobble hard, soft and bouncy.
+10.0-11.2s: The chef takes one big real bite, the pancake clearly missing a bite, soft and airy inside.
+11.2-12.0s: The chef grabs 2 eggs again and lifts them high above the bowl, ready to crack, the motion continuing into the opening shot so the video loops. No cut to black.
 
 VISUAL STYLE: high contrast, dark black kitchen falling to pure black, hard warm tungsten key light 2700 K raking from camera left, deep shadows, macro on textures, heavy motion blur on every fast movement, handheld shake on every impact, natural colours.
 
-SOUND: heavy bass hit on every PUNCH, real cooking sounds on every action, loud egg crack at the start, loud sizzle and steam hiss when the water hits the pan, a soft bouncy wobble sound on the jiggle. No music, no voice.
+SOUND: heavy bass hit on every PUNCH, real cooking sounds on every action, loud egg crack at the start, loud sizzle and steam hiss when the water hits the pan, one soft bouncy wobble as the loudest moment. No music, no voice.
 
-AVOID: showing the finished pancakes before 7.6 s, cut to black, fade out, ending on a still, slow pacing, shots longer than 1.4 seconds, a still shot of the face, flat or thin pancakes, high flame, butter, cream, fruit, extra toppings, pork, alcohol, packaging, logos, text, extra fingers, deformed hands, distorted face.
+AVOID: cut to black, fade out, ending on a still, slow pacing, shots longer than 1.5 seconds, a still shot of the face, gentle placing, flat or thin pancakes, high flame, butter, cream, fruit, extra toppings, pork, bacon, alcohol, packaging, logos, text, extra fingers, deformed hands, distorted face.
