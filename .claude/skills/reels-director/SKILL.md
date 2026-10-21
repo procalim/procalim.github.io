@@ -37,6 +37,11 @@ description: >
 - One single 18 s generation cannot follow a 37-cut reference; do not promise a 1:1 match.
 - Mala (slow macro opening) 53.1% skip; feta (wide raw-ingredient opening, Wan footage)
   51.4% skip. Both lost half the viewers by second 2. Frame one must already be action.
+- Mac & cheese balls (Seedance 2.5 with a competitor reel as video_references for motion only,
+  book recipe p329, 9.5 s, short on-screen cards of 6 words or fewer, each line scored 85+ with
+  hookscore): 28.5% skip, 7 s avg watch (74%), ~35% to the end, 1.9K views in 80 min (faster than
+  the typical reel). AI rendered the inside as plain cheese with no macaroni: always ask for the
+  filling to be visible ("many macaroni tubes visible in both halves") and QA the break shot.
 - Several variables changed per post taught nothing. One change per post, log the numbers.
 
 ## The template (fill the [brackets] for any recipe; 12 s; Seedance 2.5, 1080p, 9:16)
