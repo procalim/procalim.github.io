@@ -112,9 +112,12 @@ Renderer: `content-studio/overlay.mjs`. ffmpeg: `python3 -c "import imageio_ffmp
 Loudness about -14 to -16 LUFS.
 
 ## Target audience (owner's call, 2026-10-21)
-The buyer is the home cook, mostly women. Account audience is 76% men, so every reel is also
-a test of who it reaches: ask for the reel's Audience tab (gender, non-followers) after 24 h
-and log the women %.
+The buyer is the home cook, mostly women. Composio insights (this_month, 2026-10-21): reached
+audience 76% women of known gender (F 176,976 / M 54,387), engaged 79% women, ages 25-34 then
+18-24, top countries SA then JO, IQ, EG, AE. This month is dominated by the Crinkle Cake reach,
+so still ask for each reel's Audience tab (gender, non-followers) after 24 h and log the women %.
+Per-reach shares and saves of normal reels match or beat the Crinkle Cake (e.g. Apple Tart 0.81%
+shares/reach vs 0.28%); the gap is distribution, and outliers had skip rate at or under ~33%.
 
 ## Every delivered video comes with the full package
 Download link, then in this order: SEO title, recipe verbatim from the book (English and the
