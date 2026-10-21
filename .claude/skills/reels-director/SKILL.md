@@ -51,6 +51,12 @@ description: >
   hookscore): 28.5% skip, 7 s avg watch (74%), ~35% to the end, 1.9K views in 80 min (faster than
   the typical reel). AI rendered the inside as plain cheese with no macaroni: always ask for the
   filling to be visible ("many macaroni tubes visible in both halves") and QA the break shot.
+- Completion to the end is the owner's target metric (45-60%; most reels sit at 20-35%, Crinkle
+  Cake started at 56%). Hold the payoff (result, break, jiggle, cut) for the last 1.5 s and never
+  show the finished food earlier: mac & cheese v3 moved the break shot to 1.2 s and ended at ~35%.
+  Use a loop ending. No text on the payoff, and the share ask stays off the video.
+- Recipe numbers on the site (`N° 056`) are the book's recipe numbers (cornflake tenders N° 076 =
+  «رقم 076», Arabic PDF page 219 of 380), not page numbers. Find the page by that number.
 - Several variables changed per post taught nothing. One change per post, log the numbers.
 - Multi-clip generations (Katana plates, re-rolls) forget the food between clips: the taco
   beef was thin in plates A/B and a thick burger patty in the lid-off and topping clips.
