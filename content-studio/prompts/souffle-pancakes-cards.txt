@@ -1,0 +1,11 @@
+Japanese Soufflé Pancakes, book p203 (N° 056). On-screen cards, Arabic only, added in editing.
+Timed to the generated shots, not to these timecodes, if they differ.
+
+0.3-2.8   Hook      بيضتين بس؟ ما حدا رح يصدّقك
+3.0-5.8   Delay 1   ٣ دفعات بس. ما حدا بقلّك
+6.0-8.8   Rehook    معلقة وحدة بس. ما حدا بقلّك
+9.0-10.4  Delay 2   ثانيتين بس. لا ترمش
+10.5-12   CTA       لا تضيّع الوصفة. اكتب «بان كيك»
+
+English sources (hookscore 100 each): Only 2 eggs. Nobody believes you / Only 3 folds. Nobody tells you /
+Only 1 tsp. Nobody tells you / Only 2 seconds. Don't blink, you / Don't lose your recipe. Comment Pancake
