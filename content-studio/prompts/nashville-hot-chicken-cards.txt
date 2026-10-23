@@ -1,5 +1,5 @@
 Nashville Hot Chicken Sandwich, book p351 (N° 200). On-screen cards, Arabic only, curiosity formula.
-y 300 (below the top 14% Instagram UI band, y<270), centred (shift 25 px left), 56 px. Audio -14.9 LUFS.
+y 300 (below the top 14% Instagram UI band, y<270), centred, Tajawal 800 at 66 px (CTA 62 px), tested at phone width 390. Audio -14.9 LUFS.
 
 0.05-2.8  Hook      زيت واحد بس. ما حدا بقلّك          Only 1 oil. Nobody tells you (100)
 3.0-5.8   Delay 1   غطستين بس. ما حدا بقلّك            Only 2 dips. Nobody tells you (100)
