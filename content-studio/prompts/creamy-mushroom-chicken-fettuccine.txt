@@ -1,0 +1,78 @@
+Creamy One-Pan Mushroom Chicken Fettuccine: the reference video's own recipe ("That Foodie Girl",
+11.7 s), read frame by frame; the owner will add it to the book. One clip, Genjutsu Lite, Nashville
+format. Attach: @Video1 = the reference .mov as is (11.7 s, under the 15 s limit), @Image1 = face.
+
+What the reference shows:
+0.0-0.75   finished creamy mushroom fettuccine in the pan, a fork twirls and lifts the noodles
+0.75-2.0   2 seasoned seared chicken breasts, sliced, laid on top with a spatula, parsley, fork
+2.0-2.5    fork lifts a creamy twirl beside the chicken
+2.5-3.0    empty pan, a heart-shaped piece of butter melting
+3.0-4.0    tongs lay 2 thin raw chicken breasts with a red spice rub into the foaming butter
+4.0-5.5    flipped, deep golden crust, browned butter juices
+5.5-5.75   chicken lifted out
+5.75-6.25  chopped shallot dropped into the drippings
+6.25-7.0   stirred until soft
+7.0-7.5    sliced white mushrooms dropped in
+7.5-8.25   stirred until golden
+8.25-8.5   clear broth poured in
+8.5-9.0    cream poured in
+9.0-9.75   grated cheese, then chili flakes and dried herbs sprinkled over
+9.75-10.5  dry fettuccine nests laid into the sauce with tongs
+10.5-11.25 stirred, the pasta cooked and creamy
+11.25-11.7 the finished pan with parsley (loops to the opening)
+
+THE RECIPE (for the book; quantities are suggestions for the owner to confirm)
+Creamy One-Pan Mushroom Chicken Fettuccine
+INGREDIENTS
+— 2 Thin chicken breast cutlets
+— The Rub: 1 tbsp Olive oil, 1 tsp Paprika, 1 tsp Garlic powder, ½ tsp Chili flakes, 1 tsp Dried Italian herbs, Salt, Pepper
+— 2 tbsp Butter
+— 1 Shallot (finely chopped) + 2 cloves Garlic (minced)
+— 200 g White mushrooms (sliced)
+— 1½ cups Chicken broth (halal)
+— 1 cup Cooking cream
+— ½ cup Grated parmesan (halal-certified)
+— 1 tsp Italian seasoning + ½ tsp Chili flakes + Black pepper
+— 250 g Fettuccine nests (uncooked)
+— Chopped parsley
+METHOD
+01 Rub the chicken with the oil and spices.
+02 Melt the butter in a large pan and sear the chicken 4–5 minutes per side until golden. Set aside.
+03 In the same pan, soften the shallot and garlic in the drippings.
+04 Add the mushrooms and cook until golden.
+05 Pour in the broth and cream, then add the parmesan and seasoning.
+06 Lay in the dry fettuccine nests and simmer 10–12 minutes, stirring, until the pasta is tender and the sauce is creamy.
+07 Slice the chicken, lay it on top and finish with parsley.
+
+===== PROMPT =====
+A vertical ASMR cooking video of Creamy One-Pan Mushroom Chicken Fettuccine, exactly 12 seconds.
+
+REFERENCE VIDEO (@Video1): copy its exact shots, timing, camera framing, hand and tong motion and cut rhythm, and the exact same food and the same steps in the same order. Do not copy its person, kitchen, stove, white pan, colours or audio.
+
+THE FOOD SHAPES (the same in every shot, never change): the chicken is exactly 2 thin whole chicken breast cutlets, flat, about 18 cm long, raw with a red-orange spice rub, then seared deep golden; only in the first 2.5 seconds are they sliced across into strips that keep the breast shape. The pasta is flat fettuccine ribbons (dry nests before cooking). The mushrooms are sliced white button mushrooms. Never cubes, never nuggets, never spaghetti, never penne, never round pasta.
+
+CHARACTER: the man in the reference image (@Image1) is the chef: Middle Eastern man, early 30s, thick mustache no beard, brown aviator glasses, thin gold chain, plain white t-shirt under a black apron with brown leather suspenders, black nitrile gloves on both hands. Mostly his black-gloved hands with black tongs and a black spatula are seen.
+
+0.0-0.75s: Close-up, frame one already moving: in a black pan, a fork twirls and lifts creamy mushroom fettuccine, glossy cream sauce dripping.
+0.75-2.0s: Black-gloved hands lay the 2 seared golden chicken breasts, sliced across, on top of the creamy pasta; chopped parsley and chili flakes on top; a fork beside them.
+2.0-2.5s: The fork lifts a creamy twirl of fettuccine next to the chicken.
+2.5-3.0s: Hard cut: the empty black pan on the stove, a heart-shaped piece of butter melting and foaming.
+3.0-4.0s: Black tongs lay the 2 thin raw chicken breasts with a red-orange spice rub into the foaming butter.
+4.0-5.5s: The 2 breasts flipped, a deep golden crust, browned butter juices bubbling around them.
+5.5-5.75s: The tongs lift the chicken out of the pan.
+5.75-6.25s: Finely chopped shallot dropped into the golden drippings.
+6.25-7.0s: Stirred with a black spatula until soft.
+7.0-7.5s: Sliced white mushrooms dropped in.
+7.5-8.25s: Stirred until golden.
+8.25-8.5s: Clear chicken broth poured in.
+8.5-9.0s: A thick stream of cream poured in.
+9.0-9.75s: Grated parmesan, then chili flakes and dried herbs sprinkled over the creamy sauce.
+9.75-10.5s: Black tongs lay dry fettuccine nests into the sauce.
+10.5-11.25s: Stirred with the spatula, the fettuccine now soft, cooked and coated in creamy sauce.
+11.25-12.0s: The finished pan of creamy mushroom fettuccine with chopped parsley, the motion continuing into the opening shot so the video loops. No cut to black.
+
+VISUAL STYLE: dark black luxury kitchen, black pan on a black stove, warm tungsten key light 2700 K from camera left, high contrast, deep shadows, sharp focus on the food, natural colours.
+
+SOUND: loud ASMR close-mic sound, the butter sizzling, the chicken searing loudly, the shallot and mushrooms hissing, the broth and cream pours, the creamy pasta being stirred. The sear is the loudest moment. No music, no voice.
+
+AVOID: chicken changing shape or number between shots, chicken cubes, nuggets, spaghetti, penne, round pasta, extra vegetables, wine, bacon, pork, ham, alcohol, a white pan, bare hands, text, logos, packaging, music, talking, extra people, extra fingers, deformed hands, distorted face.
