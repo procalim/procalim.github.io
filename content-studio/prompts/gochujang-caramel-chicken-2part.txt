@@ -1,50 +1,54 @@
-Gochujang Caramel Fried Chicken, book p303 (N° 152). Two 10 s clips, same format as the Nashville prompt.
+Gochujang Caramel Fried Chicken, book p303 (N° 152). Two 10 s clips, Nashville format.
+v2 after the first run: the chicken changed shape between shots (big piece, breasts, strips, cubes,
+small balls, flat patties, round balls). Fix: one fixed shape and count, matched to the strips in the
+reference video, written into every shot, plus a hard list of shapes to avoid.
 Part 1: @Video1 = kimchi-ref-part1.mp4, @Image1 face, @Image2 white gold-rim plate.
-Part 2: @Video1 = kimchi-ref-part2.mp4, @Image1 face, @Image2 plate, @Image3 frame of the glazed chicken from Part 1.
+Part 2: @Video1 = kimchi-ref-part2.mp4, @Image1 face, @Image2 plate, @Image3 a frame of the glazed
+chicken from the NEW Part 1 (the opening tear shot), so the food matches.
 
 ===== PART 1 =====
 A vertical ASMR Korean fried chicken video of Gochujang Caramel Fried Chicken, exactly 10 seconds.
 
-REFERENCE VIDEO (@Video1): copy its exact shots, timing, camera framing, hand motion and cut rhythm: the close-up of the hands tearing the crispy chicken, the cut to the man eating at the table, the knife cutting the chicken, the chicken in the glass dish with the white powder poured over it and mixed. Use @Video1 for motion and timing only. Do not copy its person, kitchen, checkered board, colours, shirt text or audio.
+REFERENCE VIDEO (@Video1): copy its exact shots, timing, camera framing, hand motion and cut rhythm. Use @Video1 for motion and timing only. Do not copy its person, kitchen, checkered board, colours, shirt text or audio.
 
-CHARACTER: the man in the reference image (@Image1) is the chef, exactly his face: Middle Eastern man, early 30s, thick mustache no beard, brown aviator glasses, thin gold chain, plain white t-shirt with no text under a black apron with brown leather suspenders, black nitrile gloves.
+THE CHICKEN SHAPE (the same in every shot, never changes): boneless chicken thighs cut into long thick chunks, each chunk about 8 cm long and 3 cm thick, the same long shape as the pieces in @Video1. Always exactly 6 pieces. Never round balls, never small cubes, never flat patties, never whole breasts, never drumsticks, no bones.
+
+CHARACTER: the man in the reference image (@Image1) is the chef, exactly his face: Middle Eastern man, early 30s, thick mustache no beard, brown aviator glasses, thin gold chain, plain white t-shirt with no text under a black apron with brown leather suspenders, black nitrile gloves on both hands.
 
 PLATE: the white plate with a thin gold rim from @Image2.
 
-THE CHICKEN (exactly as in the recipe, halal chicken, no pork):
+THE RECIPE (halal chicken, no pork):
 Gochujang Caramel Fried Chicken
-The ultimate Korean fried chicken hack, creating a shell that is simultaneously sticky, sweet, and aggressively spicy.
 INGREDIENTS
 — 1 lb Boneless Chicken Thighs (cut into chunks)
 — 1 cup Cornstarch
 — Oil for frying
 — The Caramel: 3 tbsp Gochujang (Korean chili paste), 2 tbsp Honey, 2 tbsp Brown sugar, 1 tbsp Soy sauce, 1 tbsp Water.
 01 Toss the chicken chunks in the cornstarch until heavily coated.
-Look: big crispy golden boneless chicken thigh chunks, every piece shining with a thick glossy deep red gochujang caramel, sesame seeds on top.
 
-0.0-2.5s: Extreme close-up, frame one already moving: two black-gloved hands tear one glossy red gochujang caramel chicken chunk in half over the white gold-rim plate, the crispy shell cracking, steam rising from the juicy white chicken inside, sticky caramel stretching between the halves.
-2.5-5.0s: Hard cut to a front medium shot at eye level: the chef sits at a dark table in the black kitchen, the white gold-rim plate of glossy red chicken in front of him, he takes big crunchy bites of the chicken held in his gloved hands, chewing with pleasure.
-5.0-7.5s: Hard cut, close-up on a black cutting board: a knife cuts raw boneless chicken thighs into chunks, gloved hand holding the chicken, fast cuts.
-7.5-10.0s: The raw chicken chunks in a glass dish, white cornstarch poured over them and tossed by gloved hands until heavily coated, white powder puffing up.
+0.0-2.5s: Extreme close-up, frame one already moving: black-gloved hands tear one long crispy chunk (8 cm long, 3 cm thick) coated in thick glossy deep red gochujang caramel with sesame seeds, over the white gold-rim plate with 5 more identical glazed long chunks; the crispy shell cracks, steam rises from the juicy chicken inside, sticky caramel stretches between the halves.
+2.5-5.0s: Hard cut to a front medium shot at eye level: the chef sits at a dark table in the black kitchen; in front of him the white gold-rim plate holds 5 identical glossy red long chunks (the plate is never empty); he takes a big crunchy bite of the long glazed chunk in his gloved hands, the chunk clearly shorter after the bite.
+5.0-7.5s: Hard cut, close-up on a black cutting board: raw boneless chicken thighs (uneven, darker pink thigh meat, not smooth breasts) cut lengthwise with a knife into 6 long thick chunks, each 8 cm long and 3 cm thick.
+7.5-10.0s: The same 6 raw long chunks lying in a glass dish, white cornstarch poured over them and tossed by gloved hands until heavily coated; still exactly 6 long white-coated chunks, the same long shape.
 
 VISUAL STYLE: dark black luxury kitchen, warm tungsten key light 2700 K from camera left, high contrast, deep shadows, sharp focus on the food and the face, natural colours.
 
 SOUND: loud ASMR close-mic sound, the crispy shell cracking on the tear, every crunch of the bite amplified and loud, the knife hitting the board, the soft puff of cornstarch. The first bite is the loudest moment. No music, no voice.
 
-AVOID: text, shirt text, logos, packaging, music, talking, extra people, checkered board, the chicken staying whole after a bite, pork, bacon, alcohol, extra fingers, deformed hands, distorted face.
+AVOID: chicken changing shape, size or number between shots, round balls, meatballs, small cubes, nuggets, flat patties, discs, whole chicken breasts, drumsticks, bones, an empty plate, text, shirt text, logos, packaging, music, talking, extra people, checkered board, pork, bacon, alcohol, extra fingers, deformed hands, distorted face.
 
 ===== PART 2 =====
 A vertical ASMR Korean fried chicken video of Gochujang Caramel Fried Chicken, exactly 10 seconds, continuing the same video.
 
-REFERENCE VIDEO (@Video1): copy its exact shots, timing, camera framing, hand motion and cut rhythm: the hands coating the chicken, the frying with chopsticks, the dark sauce poured and stirred in the pan, the glazed chicken lifted with chopsticks. Use @Video1 for motion and timing only. Do not copy its person, kitchen, checkered board, colours or audio.
+REFERENCE VIDEO (@Video1): copy its exact shots, timing, camera framing, hand motion and cut rhythm. Use @Video1 for motion and timing only. Do not copy its person, kitchen, checkered board, colours or audio.
 
-CHARACTER: the hands are the black-gloved hands of the man in @Image1: Middle Eastern man, thin gold chain, white t-shirt under a black apron with brown leather suspenders, black nitrile gloves.
+THE CHICKEN SHAPE (the same in every shot, never changes): exactly 6 long thick boneless chicken thigh chunks, each about 8 cm long and 3 cm thick, the same long shape as the pieces in @Video1 and in @Image3. Never round balls, never small cubes, never flat patties, never whole breasts, never drumsticks, no bones.
 
-PLATE: the white plate with a thin gold rim from @Image2.
+FOOD MATCH (@Image3): the finished glazed chicken must look exactly like @Image3.
 
-FOOD MATCH (@Image3): the finished chicken must look exactly like @Image3.
+CHARACTER: the hands are the black-gloved hands of the man in @Image1 (white t-shirt, black apron with brown leather suspenders, thin gold chain). Both hands always in black nitrile gloves, no bare skin on the hands.
 
-THE CHICKEN (exactly as in the recipe, halal chicken, no pork):
+THE RECIPE (halal chicken, no pork):
 Gochujang Caramel Fried Chicken
 INGREDIENTS
 — 1 lb Boneless Chicken Thighs (cut into chunks)
@@ -57,13 +61,13 @@ INGREDIENTS
 04 Simmer the sauce over medium heat until it bubbles vigorously and thickens into a sticky syrup.
 05 Toss the crispy chicken in the bubbling caramel off the heat until every piece shines. Garnish with sesame seeds.
 
-0.0-2.5s: Close-up: black-gloved hands press the white cornstarch onto the chicken chunks in the glass dish until every piece is heavily coated.
-2.5-5.5s: Close-up of a black pot of hot oil: the coated chicken chunks lowered in, the oil erupting into loud bubbles, black chopsticks turning the pieces as they turn super crispy and golden, then lifted onto a wire rack to drain.
-5.5-7.5s: A black wok: red gochujang, a thick stream of honey, brown sugar, soy sauce and water poured in and stirred, bubbling vigorously and thickening into a sticky glossy deep red syrup.
-7.5-10.0s: The crispy chicken in a glass tray tossed in the bubbling caramel until every piece shines, sesame seeds on top, then black chopsticks lift one glossy red chunk straight toward the lens, sticky caramel dripping. No cut to black.
+0.0-2.5s: Close-up: black-gloved hands press white cornstarch onto the 6 raw long chunks in the glass dish until every piece is heavily coated white. The chunks are raw before this, never already fried.
+2.5-5.5s: Close-up of a black pot of hot oil: the same 6 white-coated long chunks lowered in one by one, the oil erupting into loud bubbles, black chopsticks turning them as they turn super crispy and golden, still 6 long chunks, then lifted onto a wire rack to drain.
+5.5-7.5s: A black wok: red gochujang, a thick golden stream of honey, brown sugar, dark soy sauce and a splash of water poured in and stirred, bubbling vigorously and thickening into a sticky glossy deep red syrup. Nothing else falls into the wok.
+7.5-10.0s: The same 6 crispy long chunks in a glass tray tossed in the bubbling caramel until every piece shines, sesame seeds on top, then black chopsticks lift one long glossy red chunk straight toward the lens, sticky caramel dripping. No cut to black.
 
 VISUAL STYLE: dark black luxury kitchen, warm tungsten key light 2700 K from camera left, high contrast, deep shadows, sharp focus on the food, natural colours.
 
 SOUND: loud ASMR close-mic sound, the oil erupting and crackling amplified and loud, the thick honey pour, the sauce bubbling, the sticky toss, the crispy pieces clicking together. The oil eruption is the loudest moment. No music, no voice.
 
-AVOID: text, logos, packaging, music, talking, extra people, checkered board, chicken that looks different from @Image3, pork, bacon, alcohol, extra fingers, deformed hands, distorted face.
+AVOID: chicken changing shape, size or number between shots, round balls, meatballs, small cubes, nuggets, flat patties, discs, whole chicken breasts, drumsticks, bones, chicken that is already fried before the cornstarch, bare hands, anything dropped into the sauce, chicken that looks different from @Image3, text, logos, packaging, music, talking, extra people, checkered board, pork, bacon, alcohol, extra fingers, deformed hands, distorted face.

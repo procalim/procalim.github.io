@@ -57,6 +57,11 @@ description: >
   Use a loop ending. No text on the payoff, and the share ask stays off the video.
 - Recipe numbers on the site (`N° 056`) are the book's recipe numbers (cornflake tenders N° 076 =
   «رقم 076», Arabic PDF page 219 of 380), not page numbers. Find the page by that number.
+- Gochujang chicken (Genjutsu Lite, motion from a reference video, 2 x 10 s): the chicken changed
+  shape in almost every shot (big piece, breasts, strips, cubes, balls, flat patties) because the
+  prompt said "chunks" once while the reference showed long strips. With a motion reference, pick
+  the food shape the reference already has, give exact size and count, repeat it in every shot,
+  and list the wrong shapes in AVOID (balls, cubes, patties, breasts, bones, empty plate).
 - Several variables changed per post taught nothing. One change per post, log the numbers.
 - Multi-clip generations (Katana plates, re-rolls) forget the food between clips: the taco
   beef was thin in plates A/B and a thick burger patty in the lid-off and topping clips.
