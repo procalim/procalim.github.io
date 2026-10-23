@@ -2,7 +2,8 @@ Kunafa-Crusted Soy Garlic Chicken Tenders, final cut 18.0 s = Part 1 (0-10) + Pa
 (first 2 s of Part 2 dropped: glazed strips showed up in the raw marinade). Arabic only, y 300,
 centred, Tajawal 800 66 px (CTA second line 50 px). Audio -13.6 LUFS.
 
-0.05-2.8  Hook      ولا بقسماط. عجينة وحدة بس          Never breadcrumbs. Only 1 dough, you (100)
+0.05-2.8  Hook      بقسماط ولا عجينة وحدة؟            Breadcrumbs vs 1 dough. Not close, you (100), formula #17 Head To Head
+          (was «ولا بقسماط» = #2 Negative Command, the mac & cheese formula that underperformed)
 3.0-5.8   Delay 1   لا تخمّن هلق. صدرين بس              Don't guess yet. Only 2 breasts (94.8)
 6.3-9.8   Rehook    كاسة حليب بس. ما حدا بقلّك           Only 1 cup milk. Nobody tells you (100)
 10.0-12.9 Delay 2   مش بقسماط. ما حدا بيعرفها           Not breadcrumbs. Nobody guesses it, you (87)
