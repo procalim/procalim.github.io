@@ -112,6 +112,9 @@ a question that only the last shot answers; a new text lands every 3 s on a PUNC
 The share ask lives in the first caption line and the pinned comment, not on the video.
 Generation stays on Seedance 2.5 with the template above (Wan and Genjutsu did not match it).
 
+Text position: test it on a frame with the Instagram UI zones drawn (top 14% y<270, bottom 35%
+y>1248, right rail x>880 from y 1000). The top 230-270 band is still covered on some phones, so the
+top card starts at y 300, centred; the right 230 px rule matters only beside the rail (y>1000).
 Time every text to the generated shots, never to the prompt timecodes. Cut any shot that
 breaks the book recipe, shows logos or misspelt packaging, or invents food.
 Renderer: `content-studio/overlay.mjs`. ffmpeg: `python3 -c "import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())"`.
