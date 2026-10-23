@@ -2,8 +2,14 @@ Kunafa-Crusted Soy Garlic Chicken Tenders, final cut 18.0 s = Part 1 (0-10) + Pa
 (first 2 s of Part 2 dropped: glazed strips showed up in the raw marinade). Arabic only, y 300,
 centred, Tajawal 800 66 px (CTA second line 50 px). Audio -13.6 LUFS.
 
-0.05-2.8  Hook      دجاجك بيطرى بعد ٥ دقايق؟           If you lose the crunch in 5 minutes, don't skip 18 seconds (100), #10 If This, Then Watch
-          (earlier tries: «ولا بقسماط» #2 Negative Command, «بقسماط ولا عجينة وحدة؟» #17, owner: same idea)
+0.05-2.8  Hook      PENDING owner's pick (ig-reel loop, 3 formulas, hookscore):
+          #11 Numbered With A Favourite  ٣ خطوات. التانية ما حدا بيعملها
+              "3 steps to your crunch. Step 2 is the secret nobody does." (100)
+          #10 If This, Then Watch        دجاجك بيطرى بعد ٥ دقايق؟
+              "If you lose the crunch in 5 minutes, don't skip 18 seconds." (100)
+          #18 Cold Open Demo             شوف شو صار بصدرين دجاج
+              "Watch what your 2 chicken breasts turn into. Nobody guesses it first." (93.8)
+          Rejected: «ولا بقسماط» (#2, the mac & cheese formula), «بقسماط ولا عجينة وحدة؟» (#17, same idea)
 3.0-5.8   Delay 1   لا تخمّن هلق. صدرين بس              Don't guess yet. Only 2 breasts (94.8)
 6.3-9.8   Rehook    كاسة حليب بس. ما حدا بقلّك           Only 1 cup milk. Nobody tells you (100)
 10.0-12.9 Delay 2   مش بقسماط. ما حدا بيعرفها           Not breadcrumbs. Nobody guesses it, you (87)
