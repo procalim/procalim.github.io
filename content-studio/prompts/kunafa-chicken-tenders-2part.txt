@@ -76,13 +76,13 @@ REFERENCE VIDEO (@Video1): copy its exact shots, timing, camera framing, hand mo
 
 THE CHICKEN SHAPE (the same in every shot, never changes): the same 8 long chicken breast strips, each about 12 cm long and 3 to 4 cm wide, exactly like the strips in @Video1 and @Image3. Never round balls, never cubes, never flat patties, never thighs, no bones.
 
-FOOD MATCH (@Image3): the fried strip must look exactly like @Image3.
+FOOD MATCH (@Image3): @Image3 shows the finished strip. Use it ONLY for the last 2 seconds (8.25-10.0s). Before that the strips are NOT finished: from 0.0 to 2.5s they are raw pink chicken in a pink milk marinade, then white with batter, then covered in pale dry kataifi strands. No green onion and no glaze anywhere before 8.25s.
 
 CHARACTER: the hands are the black-gloved hands of the man in @Image1 (white t-shirt, black apron with brown leather suspenders, thin gold chain). Both hands always in black nitrile gloves, no bare skin.
 
-0.0-0.5s: The 8 long strips in the pink-orange milk marinade in the glass dish.
-0.5-2.5s: Top-down close-up of the coating station: a bowl of thick white flour batter, the dish of marinated strips, a tray of dry golden kataifi strands (shredded kunafa dough). A gloved hand dips one long strip in the batter, then presses it into the kataifi until it is fully covered in strands.
-2.5-5.5s: Close-up of a black pot of hot oil: the kataifi-covered strips lowered in, the oil bubbling hard, chopsticks and tongs turning them as the strands turn into a crispy golden orange crust, still long strips.
+0.0-0.5s: The 8 long raw pink strips in the pink-orange milk marinade in the glass dish (raw chicken, no crust, no glaze, no green onion).
+0.5-2.5s: Top-down close-up of the coating station: a bowl of thick white flour batter, the dish of marinated strips, a tray of dry golden kataifi strands (shredded kunafa dough). A gloved hand dips one long raw strip in the batter, then presses it into the pale dry kataifi until it is fully covered in strands. The dish beside it holds only raw marinated strips.
+2.5-5.5s: Close-up of a black pot of hot oil: the pale kataifi-covered strips (no green onion) lowered in, the oil bubbling hard, chopsticks and tongs turning them as the strands turn into a crispy golden orange crust, still long strips.
 5.5-7.25s: A white pan on the stove: dark soy sauce poured in, then a thick clear stream of syrup poured in a slow spiral, then a spoon of minced garlic.
 7.25-8.25s: The sauce bubbling and thickening into a glossy dark red glaze.
 8.25-9.0s: Black chopsticks dip one crispy long strip into a glass tray of the glaze.
@@ -92,4 +92,4 @@ VISUAL STYLE: dark black luxury kitchen, warm tungsten key light 2700 K from cam
 
 SOUND: loud ASMR close-mic sound, the oil bubbling and crackling amplified and loud, the thick syrup pour, the sauce bubbling, the sticky dip, the crispy strands crackling. The oil is the loudest moment. No music, no voice.
 
-AVOID: chicken changing shape, size or number between shots, round balls, nuggets, cubes, flat patties, thighs, drumsticks, bones, a smooth breadcrumb crust instead of kataifi strands, chicken already fried before the coating, anything dropped into the sauce except the garlic, bare hands, chicken that looks different from @Image3, text, logos, packaging, music, talking, extra people, checkered board, pork, bacon, alcohol, extra fingers, deformed hands, distorted face.
+AVOID: glazed or fried-looking strips in the marinade dish, green onion before the last 2 seconds, chicken changing shape, size or number between shots, round balls, nuggets, cubes, flat patties, thighs, drumsticks, bones, a smooth breadcrumb crust instead of kataifi strands, chicken already fried before the coating, anything dropped into the sauce except the garlic, bare hands, chicken that looks different from @Image3, text, logos, packaging, music, talking, extra people, checkered board, pork, bacon, alcohol, extra fingers, deformed hands, distorted face.
