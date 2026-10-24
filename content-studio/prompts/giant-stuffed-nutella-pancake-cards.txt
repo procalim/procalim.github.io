@@ -1,0 +1,19 @@
+Giant Stuffed Chocolate Banana Pancake, on-screen cards. Arabic only, y 720 (middle of the safe
+area), centred, Tajawal 800 at 60 px. Times follow the reference shots; re-time to the generated clip.
+
+ig-reel loop, 3 formulas (hookscore + classifier):
+  93.8 #18 Cold Open Demo       "Watch what your 1 pancake hides in 10 seconds. Nobody guesses first."
+                                 شوف شو مخبّى جوّا هالبان كيك
+  93.8 #11 Numbered + Favourite  "2 layers in your 1 pancake, but nobody expects the middle one."
+                                 طبقتين. اللي بالنص ما حدا بيتوقعها
+  88.0 #21 Mid-Sentence Start    "...and that's when 1 pancake floated. You won't believe it until 3 seconds."
+                                 …وفجأة البان كيك طار
+Chosen: #21. The video has an impossible moment (the pancake floats out of the pan at 3.0 s); the
+hook drops the viewer mid-story and pays it off at second 3, well before halfway (skill rule).
+If the generated clip loses the float, switch to #18.
+
+0.0-2.9   Hook      …وفجأة البان كيك طار                 #21 (88)
+3.0-5.2   Delay 1   ملعقة وحدة بس. ما حدا بقلّك           Only 1 spoon. Nobody tells you. (100)
+5.3-6.9   Rehook    ٣ دقايق كل جهة. ما حدا بقلّك          Only 3 minutes a side. Nobody tells you. (100)
+7.0-8.7   Delay 2   لا ترمش. ثانيتين بس                  Don't blink. Only 2 seconds, you. (100)
+8.8-end   CTA       لا تضيّعها. الوصفة بأول تعليق         Don't lose it. Your recipe is in the 1st comment. (100)

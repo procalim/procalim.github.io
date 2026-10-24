@@ -1,0 +1,70 @@
+Giant Stuffed Chocolate Banana Pancake: the reference video's own recipe ("Ilknur Karabay", 10.3 s),
+read frame by frame; the owner will add it to the book. One clip, Genjutsu Lite, Nashville format.
+Attach: @Video1 = the reference .mp4 as is (10.3 s), @Image1 = face, @Image2 = white gold-rim plate.
+
+What the reference shows:
+0.0-0.75   flash-forward: the finished giant pancake on a white plate, chocolate chips, a knife cutting
+0.75-1.75  thick batter poured into a small pan, spreading into a full circle
+1.75-3.0   the pancake cooks, bubbles on top, a spatula at the edge
+3.0-3.75   the half-cooked pancake lifts up out of the pan and floats above it, batter dripping
+           down into the pan as a fresh layer (a camera trick)
+3.75-4.5   a big spoon of chocolate hazelnut spread on the batter layer
+4.5-5.0    sliced banana coins poured on from a gold cup
+5.0-5.25   the floating pancake comes back down and covers the filling
+5.25-5.5   flipped, golden brown in the pan
+5.75-6.0   slid onto a white plate
+6.25-6.75  chocolate chips sprinkled over
+7.0-8.5    a knife cuts it into wedges
+8.75-10.3  one wedge pulled out: molten chocolate spread and banana inside
+
+THE RECIPE (for the book; quantities are suggestions for the owner to confirm)
+Giant Stuffed Chocolate Banana Pancake
+INGREDIENTS
+— 1 cup Flour
+— 1 tbsp Sugar
+— 2 tsp Baking powder
+— Pinch of Salt
+— 1 Egg
+— ¾ cup Milk
+— 2 tbsp Melted butter
+— ½ tsp Vanilla (alcohol-free)
+— The Filling: 2 tbsp Chocolate hazelnut spread, 1 Banana (sliced into coins)
+— Chocolate chips (for the top)
+— Butter for the pan
+METHOD
+01 Whisk the flour, sugar, baking powder and salt. Add the egg, milk, melted butter and vanilla and whisk into a thick batter.
+02 Butter a small pan over LOW heat and pour in half the batter.
+03 Spoon the chocolate spread into the centre and cover it with the banana slices, keeping the edges clear.
+04 Pour the rest of the batter over the filling to seal it.
+05 Cover and cook 3 minutes until bubbles form, flip, and cook 3 more minutes until golden.
+06 Slide onto a plate, sprinkle with chocolate chips and cut while warm.
+
+===== PROMPT =====
+A vertical ASMR dessert video of a Giant Stuffed Chocolate Banana Pancake, exactly 10 seconds.
+
+REFERENCE VIDEO (@Video1): copy its exact shots, timing, camera framing, hand and spatula motion and cut rhythm, the floating pancake moment, the exact same food and the same steps in the same order. Do not copy its person, bare hands, wooden counter, grey pan, gold canister, colours or audio.
+
+THE FOOD SHAPES (the same in every shot, never change): exactly 1 giant round pancake, about 20 cm wide and 4 cm thick, golden brown outside, soft and fluffy inside. The filling is 1 big spoon of glossy chocolate hazelnut spread and round banana coins, only in the centre. Small chocolate chips on top at the end. Never a stack of small pancakes, never a crepe, never a waffle.
+
+CHARACTER: the man in the reference image (@Image1) is the chef: Middle Eastern man, early 30s, thick mustache no beard, brown aviator glasses, thin gold chain, plain white t-shirt under a black apron with brown leather suspenders, black nitrile gloves on both hands. Mostly his black-gloved hands are seen.
+
+PLATE: the white plate with a thin gold rim from @Image2.
+
+0.0-0.75s: Close-up, frame one already moving: the finished giant pancake on the white gold-rim plate covered in chocolate chips, a black-gloved hand cuts into it with a knife.
+0.75-1.75s: Hard cut: thick pale batter poured into a small black pan, spreading into one full circle.
+1.75-3.0s: The pancake cooks, small bubbles rising on top, a spatula touches the edge.
+3.0-3.75s: The half-cooked pancake lifts up out of the pan and floats above it in the air, thick batter dripping down into the pan as a fresh layer.
+3.75-4.5s: A black-gloved hand spoons 1 big glossy spoon of chocolate hazelnut spread onto the centre of the batter layer.
+4.5-5.0s: Round banana coins poured on top of the chocolate from a gold cup.
+5.0-5.25s: The floating pancake comes down and covers the filling completely.
+5.25-5.75s: Flipped: the top is now deep golden brown in the pan.
+5.75-6.25s: The giant pancake slid onto the white gold-rim plate.
+6.25-7.0s: A black-gloved hand sprinkles small chocolate chips over the top.
+7.0-8.75s: A knife cuts the pancake into wedges, the soft pancake pressing under the blade.
+8.75-10.0s: One wedge pulled out toward the lens: molten chocolate hazelnut spread and banana ooze from the middle, a thick stretch of chocolate. No cut to black.
+
+VISUAL STYLE: dark black luxury kitchen, black pan on a black stove, warm tungsten key light 2700 K from camera left, high contrast, deep shadows, sharp focus on the food, natural colours.
+
+SOUND: loud ASMR close-mic sound, the thick batter pouring, the soft sizzle in the pan, the spread and banana landing, the chocolate chips pattering, the knife pressing through soft pancake, the slow molten chocolate pull. The molten pull is the loudest moment. No music, no voice.
+
+AVOID: the pancake changing size or shape, a stack of small pancakes, crepes, waffles, the filling showing before 3.75s except in the opening flash-forward plate, bare hands, a wooden counter, a grey pan, alcohol, pork, text, logos, packaging, music, talking, extra people, extra fingers, deformed hands, distorted face.
