@@ -1,8 +1,9 @@
-Creamy One-Pan Mushroom Chicken Fettuccine, on-screen cards (Arabic only, curiosity format of the
-pancake cards). Times follow the reference shots; re-time to the generated clip.
+Creamy One-Pan Mushroom Chicken Fettuccine, final cut 11.42 s (last 0.3 s dropped: a gloved hand
+in the sauce). Arabic only, y 300, centred, Tajawal 800 at 60 px, x264 crf 15 slow, audio -13.7 LUFS.
 
-0.3-2.8   Hook      مقلاية وحدة بس؟ ما حدا بيصدّق          Only 1 pan? Nobody believes you. (100)
-3.0-5.8   Delay 1   ٤ دقايق كل جهة. ما حدا بقلّك           Only 4 minutes a side. Nobody tells you. (100)
-6.0-8.8   Rehook    لا تغسل المقلاية. ما حدا بقلّك          Don't wash your pan. Nobody tells you. (87)
-9.0-10.4  Delay 2   لا تسلق الباستا. مقلاية وحدة بس        Don't boil your pasta. Only 1 pan. (100)
-10.5-12   CTA       لا تضيّع الوصفة. اكتب «باستا»          Don't lose your recipe. Comment Pasta. (100)
+0.0-2.7   Hook      مقلاية وحدة بس؟ ما حدا بيصدّق          Only 1 pan? Nobody believes you. (100)
+2.75-5.6  Delay 1   ٤ دقايق كل جهة. ما حدا بقلّك           Only 4 minutes a side. Nobody tells you. (100)
+5.7-7.95  Rehook    لا تغسل المقلاية. ما حدا بقلّك          Don't wash your pan. Nobody tells you. (87)
+8.0-9.8   Delay 2   لا تسلق الباستا. مقلاية وحدة           Don't boil your pasta. Only 1 pan. (100)
+9.9-end   CTA       لا تضيّعها. الوصفة بأول تعليق          Don't lose it. Your recipe is in the 1st comment. (100)
+Recipe goes in the pinned first comment (ChatPlace is not connected, so no comment keyword).
