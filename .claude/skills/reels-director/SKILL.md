@@ -120,6 +120,8 @@ Generation stays on Seedance 2.5 with the template above (Wan and Genjutsu did n
 Text position: test it on a frame with the Instagram UI zones drawn (top 14% y<270, bottom 35%
 y>1248, right rail x>880 from y 1000). The top 230-270 band is still covered on some phones, so the
 top card starts at y 300, centred; the right 230 px rule matters only beside the rail (y>1000).
+Owner's call (2026-10-24): put the cards in the middle of the safe area, y ~720 (text centre ~y 750),
+in the viewer's eye line, not at the top.
 Time every text to the generated shots, never to the prompt timecodes. Cut any shot that
 breaks the book recipe, shows logos or misspelt packaging, or invents food.
 Renderer: `content-studio/overlay.mjs`. ffmpeg: `python3 -c "import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())"`.
