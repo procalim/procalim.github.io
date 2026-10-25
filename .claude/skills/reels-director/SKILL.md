@@ -62,6 +62,12 @@ description: >
   prompt said "chunks" once while the reference showed long strips. With a motion reference, pick
   the food shape the reference already has, give exact size and count, repeat it in every shot,
   and list the wrong shapes in AVOID (balls, cubes, patties, breasts, bones, empty plate).
+- Fettuccine (Genjutsu Lite, 11.4 s, opened on the finished creamy pasta, hook card in the middle
+  of the frame over the cream sauce): retention read off the graph ~90% at 1 s, ~60% at 2 s, ~45% at
+  3 s, ~35% at 4 s, ~20% at the end; 83.9% of views from the Reels tab. The cliff is in seconds 1-3:
+  a calm top-down shot of the finished dish (the payoff shown first, nothing new for 2.7 s) and white
+  text on a light cream background that is hard to read at feed size. Next test, one variable: open on
+  the loudest action shot and keep the finished dish for the end.
 - Several variables changed per post taught nothing. One change per post, log the numbers.
 - Multi-clip generations (Katana plates, re-rolls) forget the food between clips: the taco
   beef was thin in plates A/B and a thick burger patty in the lid-off and topping clips.
