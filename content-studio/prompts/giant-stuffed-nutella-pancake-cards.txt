@@ -22,3 +22,9 @@ removed; the last second (knife + molten reveal, frames 223-246) moved to the st
 5.5-7.0   Rehook    ٣ دقايق كل جهة. ما حدا بقلّك          (100)      flip, onto the plate
 7.1-8.25  Delay 2   لا ترمش. ثانيتين بس                  (100)      chocolate chips
 8.3-end   CTA       لا تضيّعها. الوصفة بأول تعليق         (100)      knife, loops into the reveal
+
+Pre-publish pass (whole reel): soft stretches sped up (opening knife 1.6x, spread 1.3x, chips 1.4x, end
+knife 1.6x), silent opening fixed with the knife sound from the same shot, 3 frames trimmed off the
+opening knife. Final 8.38 s, prepublish.py: no risk flags. Cards re-timed to the shots:
+0.0-3.35 hook (until the float ends), 3.40-5.02 spoon, 5.12-6.55 three minutes, 6.62-end CTA
+(the «لا ترمش» card dropped: after the speed-up it would have been under 1 s).

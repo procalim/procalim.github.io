@@ -1,8 +1,10 @@
-# Pre-publish scroll-risk check for a finished reel. Run on every video before it is delivered.
+# Pre-publish scroll-risk check for a finished reel. Run on every video before it is delivered;
+# every flag, anywhere in the reel, gets fixed, not only the first 3 s.
 # Usage: python3 prepublish.py reel.mp4 [--source raw.mp4] [--band 640 830]
 # Per half second it reports motion, cuts, loudness and how light the background is under the text
 # band, then flags the moments where a viewer is most likely to scroll:
-#   DEAD   no cut and little motion
+#   DEAD   no cut and motion under 5 (the fettuccine opening that lost half the viewers read 4.8)
+#   SLOW   no cut and motion under 8 (a soft spot, fix it too)
 #   LONG   inside a shot that has run more than 2 s
 #   QUIET  audio more than 10 dB below the reel's median
 #   EARLY  any of the above inside the first 3 s (counts double: that is where reels are lost)
@@ -39,6 +41,8 @@ y0, y1 = int(a.band[0] * H / 1920), int(a.band[1] * H / 1920)
 rows, n = [], int(np.ceil(dur / WIN))
 for k in range(n):
     t0, t1 = k * WIN, min((k + 1) * WIN, dur)
+    if t1 - t0 < 0.25:          # a sliver at the very end has no frames to compare
+        continue
     s0, s1 = int(t0 * FPS), max(int(t1 * FPS), int(t0 * FPS) + 1)
     motion = diff[s0:s1].mean() if s1 <= len(diff) else diff[s0:].mean() if s0 < len(diff) else 0
     cut = any(t0 <= c < t1 for c in cuts)
@@ -54,8 +58,10 @@ print(f"duration {dur:.2f}s, {len(cuts)} cuts, median motion {med_m:.1f}, median
 risky = []
 for r in rows:
     flags = []
-    if r["motion"] < 0.35 * med_m and not r["cut"]:
+    if r["motion"] < 5 and not r["cut"]:
         flags.append("DEAD")
+    elif r["motion"] < 8 and not r["cut"]:
+        flags.append("SLOW")
     if r["shot"] > 2.0 and not r["cut"]:
         flags.append("LONG")
     if r["db"] < med_db - 10:
