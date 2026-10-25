@@ -145,14 +145,17 @@ three parts pass, and the delivery message shows the result table.
    recipe pasted (book page, or the reference recipe the owner approved); exact food shape, size and
    count written into every shot; AVOID lists the wrong shapes; an escalation map with something new
    every second; the payoff only as a flash of 1.5 s or less at the start, the full payoff at the end.
-2. **Text**: ig-reel loop (3 hooks, 3 formulas, hookscore, classifier); every card 6 words or fewer
+2. **Text**: read `content-studio/hook-log.md` first. Hook and rehook use different formulas, neither
+   used in the last 3 reels, and no card phrase or pattern from the last 5 reels (the owner finds the
+   same hook every time boring). Then the ig-reel loop (3 hooks, 3 formulas, hookscore, classifier); every card 6 words or fewer
    and 85+; cards in the middle of the safe area, two lines if needed, the largest size that keeps
    x 227-853 (72 px Tajawal 800, 12 px stroke, dark glow); every card checked on a phone-width frame
    (390 px) over its real background.
 3. **Video**: run `python3 content-studio/prepublish.py final.mp4 --source notext.mp4 --band y0 y1`.
    It flags, per half second, DEAD (no cut, little motion), LONG (shot over 2 s), QUIET (audio 10 dB
    under the median), SLOW and EARLY. Fix every flag in the whole reel, not only the first 3 s
-   (speed a soft stretch up 1.25-1.6x, trim a dead tail, swap in sound from the same shot), then
+   (speed a soft stretch up 1.25-1.6x, trim a dead tail, swap in sound from the same shot, lift a quiet
+   generation with compression and a brick-wall limiter until it reads -14 LUFS), then
    re-run until it prints none. Re-check every card against its shot after any speed change: a card
    must sit on the moment it talks about (the pancake hook had to stay up until the float ended). Also: loudness -14 to -16 LUFS, loop seam checked frame by frame, no wrong food
    or bare hands in any frame.

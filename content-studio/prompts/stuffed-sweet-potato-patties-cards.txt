@@ -21,3 +21,14 @@ the middle it promises is on screen at 6.4 s, before halfway.
 10.0-12.4 has no card: the cheese pull plays clean.
 After generation, same strategy as the pancake: a flash of 1 s or less of the cheese pull may open the
 reel; decide with the pre-publish check, not before.
+
+FINAL (owner: the #11 «ما حدا بيتوقعه» hook is the same every time; new rule, see hook-log.md).
+Last 2 s of the generation dropped (bad dip and bite) plus the odd sauce-bowl shot; the pull-apart
+(frames 266-281) moved to the start, the end knife sped up 1.5x so it runs into it. Audio was quiet
+(-21.9 LUFS, dips to 31 dB): compressor + 15 dB into a brick-wall limiter, -14.2 LUFS.
+Final 11.58 s, prepublish.py: none. Cards (72 px, 2-3 lines, middle):
+0.0-3.0   Hook     الطريقة الوحيدة / ولادك ما بيحسّوا / بالسبانخ   #26 Superlative (87)
+          "The only way your kids never notice 2 cups of spinach."
+3.1-6.5   Delay    ولا بيضة. / والأقراص بتمسك                    "Zero eggs, but your 3 patties still hold." (100)
+6.6-9.8   Rehook   اسرق حركة / النايلون هاي                       #9 The Steal (93.8)
+9.85-end  CTA      الوصفة بأول تعليق. / احفظها                    "1st comment: your full recipe. Save it before you lose it." (100)
