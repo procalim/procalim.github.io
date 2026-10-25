@@ -1,0 +1,23 @@
+Stuffed Sweet Potato Patties, on-screen cards. Arabic only, two lines, middle of the safe area,
+Tajawal 800 at 72 px, 12 px stroke + dark glow, x 227-853. Times follow the 15 s reference; re-time
+to the generated clip and run the full pre-publish check (prepublish.py, phone-size readability).
+
+ig-reel loop, 3 formulas (hookscore + classifier):
+  93.8 #11 Numbered + Favourite  "3 patties from your 1 sweet potato, but nobody expects the middle."
+                                  ٣ أقراص. / اللي جوّا ما حدا بيتوقعه
+  88.0 #18 Cold Open Demo         "Watch what your 1 sweet potato hides in 15 seconds. Nobody guesses first."
+                                  شوف شو مخبّى / جوّا حبة البطاطا
+  84.4 #20 Permission             "You don't need 1 slice of bread. Only 1 sweet potato."
+                                  ما بدك خبز. / حبة بطاطا وحدة بس
+       (hookscore reads every "You ..." opener as the weak opener "yo", so #20 tops out near 84)
+Chosen: #11. It is the formula for keeping people through the middle (the completion problem), and
+the middle it promises is on screen at 6.4 s, before halfway.
+
+0.0-3.0    Hook      ٣ أقراص. / اللي جوّا ما حدا بيتوقعه        #11 (93.8)
+3.4-5.7    Delay 1   ٣ مكونات بس. / ما حدا بقلّك               Only 3 ingredients. Nobody tells you. (100)
+5.75-8.3   Rehook    كيس نايلون بس. / ما حدا بقلّك             Only 1 plastic wrap. Nobody tells you. (100)
+8.3-10.0   Delay 2   ٣ دقايق كل جهة. / ما حدا بقلّك            Only 3 minutes a side. Nobody tells you. (100)
+12.4-end   CTA       لا تضيّعها. / الوصفة بأول تعليق           Don't lose it. Your recipe is in the 1st comment. (100)
+10.0-12.4 has no card: the cheese pull plays clean.
+After generation, same strategy as the pancake: a flash of 1 s or less of the cheese pull may open the
+reel; decide with the pre-publish check, not before.

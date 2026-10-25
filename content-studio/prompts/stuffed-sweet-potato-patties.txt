@@ -1,0 +1,83 @@
+Cheesy Beef & Spinach Stuffed Sweet Potato Patties: the reference video's own recipe ("Rima fit food",
+17.6 s, sped up 1.173x to 15.0 s so Genjutsu Lite takes it), read frame by frame; the owner will add it
+to the book. One clip, Nashville format.
+Attach: @Video1 = sweet-potato-ref-15s.mp4, @Image1 = face, @Image2 = white gold-rim plate.
+
+What the 15 s reference shows:
+0.0-0.43   a raw sweet potato laid on a lined tray
+0.43-0.85  pricked with a fork
+0.85-1.28  olive oil drizzled over
+1.28-2.98  baked: wrinkled dark skin, the skin peeled back
+2.98-3.41  the peeled orange flesh on a plate
+3.41-4.05  mashed with a fork
+4.05-4.47  shredded mozzarella added
+4.47-4.77  a cup of flour added
+4.77-5.03  salt and pepper ground over
+5.03-5.75  kneaded by a gloved hand into an orange dough
+5.75-6.39  a scoop of dough on plastic wrap, flattened with a spoon
+6.39-6.82  browned ground beef with spinach spooned in the centre
+6.82-7.46  mozzarella on top of the filling
+7.46-8.31  the plastic wrap gathered and twisted into a tight ball
+8.31-8.95  unwrapped and pressed flat into a thick patty
+8.95-10.01 3 patties pan-fried, flipped, golden crust
+10.01-10.65 one patty cut in half with a knife
+10.65-12.36 pulled open: beef, spinach and melted cheese inside
+12.36-13.85 dipped into a bowl of tomato sauce
+13.85-15.0 a big bite
+
+THE RECIPE (for the book; quantities are suggestions for the owner to confirm)
+Cheesy Beef & Spinach Stuffed Sweet Potato Patties
+INGREDIENTS
+— 2 Medium sweet potatoes
+— 1 tbsp Olive oil
+— 1 cup Shredded mozzarella (½ for the dough, ½ for the filling; halal-certified)
+— ½ cup Flour
+— Salt and Pepper
+— The Filling: 250 g Ground beef (halal), 1 small Red onion (chopped), 2 cups Fresh spinach, 1 tsp Paprika, Salt, Pepper
+— Oil for the pan
+— Tomato sauce for dipping
+METHOD
+01 Prick the sweet potatoes, rub with the olive oil and bake at 400°F (200°C) for 45–50 minutes until soft.
+02 Brown the beef with the onion, stir in the spinach until it wilts, and season with paprika, salt and pepper.
+03 Peel and mash the sweet potatoes, then mix in half the mozzarella, the flour, salt and pepper into a soft dough.
+04 Put a scoop of dough on plastic wrap, flatten it, add the filling and mozzarella, gather the wrap and twist it into a ball, then unwrap and press into a thick patty.
+05 Pan-fry in a little oil for 3–4 minutes per side until golden.
+06 Cut open and serve with tomato sauce.
+
+===== PROMPT =====
+A vertical ASMR cooking video of Cheesy Beef and Spinach Stuffed Sweet Potato Patties, exactly 15 seconds.
+
+REFERENCE VIDEO (@Video1): copy its exact shots, timing, camera framing, hand and knife motion and cut rhythm, the exact same food and the same steps in the same order. Do not copy its person, wooden board, kitchen, candle, colours or audio.
+
+THE FOOD SHAPES (the same in every shot, never change): 1 large orange sweet potato, about 20 cm long. Then a bright orange sweet potato dough. Then exactly 3 round thick patties, about 10 cm wide and 2.5 cm thick, deep golden brown outside. The filling is browned ground beef with wilted spinach and melted white mozzarella, only in the centre of each patty. Never flat thin pancakes, never balls, never burgers in buns.
+
+CHARACTER: the man in the reference image (@Image1) is the chef, exactly his face: Middle Eastern man, early 30s, thick mustache no beard, brown aviator glasses, thin gold chain, plain white t-shirt under a black apron with brown leather suspenders, black nitrile gloves on both hands. Mostly his black-gloved hands are seen; his face appears only in the last shot.
+
+PLATE: the white plate with a thin gold rim from @Image2.
+
+0.0-0.43s: Close-up, frame one already moving: a black-gloved hand lays 1 raw orange sweet potato on a black baking tray lined with paper.
+0.43-0.85s: A fork pricks holes along it.
+0.85-1.28s: Olive oil drizzled over it in a thin golden stream.
+1.28-2.98s: Baked: the skin dark and wrinkled, black-gloved hands peel the skin back to show bright orange flesh.
+2.98-3.41s: The peeled orange flesh on the white gold-rim plate.
+3.41-4.05s: Mashed fast with a fork.
+4.05-4.47s: A handful of shredded mozzarella dropped on top.
+4.47-4.77s: A cup of flour poured over it.
+4.77-5.03s: Salt and pepper ground over from a gold grinder.
+5.03-5.75s: A black-gloved hand kneads it into a soft orange dough.
+5.75-6.39s: A scoop of the dough pressed flat on clear plastic wrap on a black board.
+6.39-6.82s: Browned ground beef with wilted spinach spooned into the centre.
+6.82-7.46s: Shredded mozzarella pressed on top of the filling.
+7.46-8.31s: The plastic wrap gathered and twisted into a tight round ball.
+8.31-8.95s: Unwrapped and pressed flat between gloved palms into a thick round patty.
+8.95-10.01s: 3 patties sizzling in a black pan, flipped with a spatula, deep golden crust.
+10.01-10.65s: A knife cuts one patty in half on the black board.
+10.65-12.36s: Black-gloved hands pull the halves apart toward the lens: browned beef, green spinach and stretchy melted mozzarella inside.
+12.36-13.85s: One half dipped deep into a bowl of thick red tomato sauce, the sauce dripping.
+13.85-15.0s: Hard cut to a front medium shot: the chef in the black kitchen takes one big real bite, the patty clearly missing a bite. No cut to black.
+
+VISUAL STYLE: dark black luxury kitchen, black tray, black board, black pan, warm tungsten key light 2700 K from camera left, high contrast, deep shadows, sharp focus on the food, natural colours.
+
+SOUND: loud ASMR close-mic sound, the fork pricking, the oil drizzle, the mash, the flour landing, the pepper grinder, the wrap twisting, the patties sizzling loudly in the pan, the knife through the crust, the cheese pull, the thick sauce dip, the big bite. The sizzle and the cheese pull are the loudest moments. No music, no voice.
+
+AVOID: the food changing shape or number between shots, thin pancakes, balls, burgers in buns, bare hands, a wooden board, a candle, a woman, pork, bacon, ham, alcohol, text, logos, packaging, music, talking, extra people, extra fingers, deformed hands, distorted face.
