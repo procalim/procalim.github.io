@@ -128,6 +128,11 @@ y>1248, right rail x>880 from y 1000). The top 230-270 band is still covered on 
 top card starts at y 300, centred; the right 230 px rule matters only beside the rail (y>1000).
 Owner's call (2026-10-24): put the cards in the middle of the safe area, y ~720 (text centre ~y 750),
 in the viewer's eye line, not at the top.
+Readability (fettuccine lesson): in the middle the text sits on the food, often a light background.
+Use the strong style there: Tajawal 800 at 64-66 px, black stroke 12 px, dark glow
+(text-shadow 0 0 22px #000e, 0 0 44px #000d, 0 6px 18px #000e). Before delivery, check every card on
+a frame scaled to phone width (390 px) over its real background; if it is not readable at a glance,
+it is not done.
 Time every text to the generated shots, never to the prompt timecodes. Cut any shot that
 breaks the book recipe, shows logos or misspelt packaging, or invents food.
 Renderer: `content-studio/overlay.mjs`. ffmpeg: `python3 -c "import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())"`.
