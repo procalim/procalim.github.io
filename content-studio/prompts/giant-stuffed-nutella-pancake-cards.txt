@@ -1,5 +1,6 @@
-Giant Stuffed Chocolate Banana Pancake, on-screen cards. Arabic only, y 720 (middle of the safe
-area), centred, Tajawal 800 at 60 px. Times follow the reference shots; re-time to the generated clip.
+Giant Stuffed Chocolate Banana Pancake, on-screen cards. Arabic only, two lines per card, y 660 (middle of the safe
+area), centred, Tajawal 800 at 72 px, 12 px black stroke + dark glow (largest size that keeps every
+card inside x 227-853, the skill's right 230 px rule); checked at phone width on every background. Times follow the reference shots; re-time to the generated clip.
 
 ig-reel loop, 3 formulas (hookscore + classifier):
   93.8 #18 Cold Open Demo       "Watch what your 1 pancake hides in 10 seconds. Nobody guesses first."
