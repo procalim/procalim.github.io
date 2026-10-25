@@ -138,6 +138,26 @@ breaks the book recipe, shows logos or misspelt packaging, or invents food.
 Renderer: `content-studio/overlay.mjs`. ffmpeg: `python3 -c "import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())"`.
 Loudness about -14 to -16 LUFS.
 
+## Pre-publish check (every video, no exceptions)
+The owner loses posts and days when a flaw is found after posting. Nothing is delivered until all
+three parts pass, and the delivery message shows the result table.
+1. **Prompt** (before generation): the reels-director template or the reference-video format;
+   recipe pasted (book page, or the reference recipe the owner approved); exact food shape, size and
+   count written into every shot; AVOID lists the wrong shapes; an escalation map with something new
+   every second; the payoff only as a flash of 1.5 s or less at the start, the full payoff at the end.
+2. **Text**: ig-reel loop (3 hooks, 3 formulas, hookscore, classifier); every card 6 words or fewer
+   and 85+; cards in the middle of the safe area, two lines if needed, the largest size that keeps
+   x 227-853 (72 px Tajawal 800, 12 px stroke, dark glow); every card checked on a phone-width frame
+   (390 px) over its real background.
+3. **Video**: run `python3 content-studio/prepublish.py final.mp4 --source notext.mp4 --band y0 y1`.
+   It flags, per half second, DEAD (no cut, little motion), LONG (shot over 2 s), QUIET (audio 10 dB
+   under the median) and EARLY (any of these in the first 3 s). Fix every EARLY flag before delivery;
+   report the rest. Also: loudness -14 to -16 LUFS, loop seam checked frame by frame, no wrong food
+   or bare hands in any frame.
+Lesson (giant pancake): the generated clip was silent in its last 0.8 s; moving that second to the
+start made the molten reveal silent at 0.5-1.0 s. The check caught it; the fix was the knife sound
+from the same shot.
+
 ## Target audience (owner's call, 2026-10-21)
 The buyer is the home cook, mostly women. Composio insights (this_month, 2026-10-21): reached
 audience 76% women of known gender (F 176,976 / M 54,387), engaged 79% women, ages 25-34 then
