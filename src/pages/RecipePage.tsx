@@ -9,7 +9,7 @@ import SectionHeading from "@/components/SectionHeading";
 import BuyButton from "@/components/BuyButton";
 import { localePath } from "@/i18n/locale-path";
 import { useLang } from "@/i18n/LanguageContext";
-import { accentHex, getRecipe, recipePhoto, recipes, recipeText } from "@/data/recipes";
+import { accentHex, getRecipe, recipePhoto, recipes, recipeText } from "@/data/recipe-library";
 import { getProduct } from "@/data/products";
 import { site } from "@/data/site";
 

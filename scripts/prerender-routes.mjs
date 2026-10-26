@@ -78,7 +78,7 @@ const imageFor = (route) => {
 const vite = await createServer({ server: { middlewareMode: true }, appType: "custom", logLevel: "error" });
 const load = (file) => vite.ssrLoadModule(file);
 const [{ recipes, recipeText }, { products }, { videos }, schema, { dictionary }, { policies }, { guides }] = await Promise.all([
-  load("/src/data/recipes.ts"),
+  load("/src/data/recipe-library.ts"),
   load("/src/data/products.ts"),
   load("/src/data/videos.ts"),
   load("/src/lib/structured-data.ts"),
@@ -241,7 +241,7 @@ const HOME = {
       "ذا إديبل كودكس كتاب طبخ رقمي من تأليف الشيف أحمد سلامة، فيه ٣٦١ وصفة في ٣٨٦ صفحة: ٢٦١ وصفة من المطبخ المحترف، ومعها ١٠٠ وصفة من أشهر الوصفات التي اجتاحت الإنترنت. لكل وصفة صفحتها الخاصة، بصورتها، ومقاديرها المضبوطة، وخطواتها، وملاحظة الشيف — مكتوبة كما تُطبخ فعلاً في مطبخ مطعم، لا كما تُكتب في الكتب.",
       "الصلصة هي الفرق بين طبق جيّد وطبق لا يُنسى. لذلك في الكتاب فصل كامل عن الصلصات الملوّنة: البنجر، الكركم، الأعشاب، الفلفل المشوي، والبلسمك المركّز، بنِسَب بالجرام وطريقة رسمها على الطبق. ويمكنك أن تبدأ مجاناً بدليل الصلصات الخمس.",
       "الكتاب ملف رقمي يُقرأ على الجوال واللوح والحاسوب، بتحميل فوري بعد الدفع، وسعره ١٤٫٩٩ دولار — أقل من سعر وجبة واحدة في مطعم — مع ضمان استرداد كامل خلال ٣٠ يوماً.",
-      "على الموقع ٢٨ وصفة كاملة من الكتاب مجاناً، ومقاطع قصيرة لتقنيات المطبخ مثل شيبس ورق الأرز الذي ينتفخ في ثانية واحدة، وصوص الهولنديز، والأرز المقرمش.",
+      "على الموقع ٥٨ وصفة كاملة من الكتاب مجاناً، ومقاطع قصيرة لتقنيات المطبخ مثل شيبس ورق الأرز الذي ينتفخ في ثانية واحدة، وصوص الهولنديز، والأرز المقرمش.",
     ],
   },
   en: {
@@ -250,7 +250,7 @@ const HOME = {
       "The Edible Codex is a digital cookbook by Chef Ahmet Salameh: 361 recipes across 386 pages — 261 from a professional kitchen, plus 100 of the internet's most-cooked dishes. Every recipe has its own page, its own photograph, exact measurements, a step-by-step method and a chef's note, written the way a restaurant kitchen actually cooks it.",
       "Sauce is the difference between a good plate and one people remember, so the book gives a whole chapter to colour sauces — beetroot, turmeric, herb, roasted pepper and reduced balsamic — with ratios in grams and how to draw each one on the plate. You can start for free with the Five Signature Sauces guide.",
       "The book is a digital file that reads on phone, tablet and desktop, with instant download after payment. It costs $14.99 — less than one restaurant meal — with a full 30-day money-back guarantee.",
-      "The site also publishes 28 complete recipes from the book for free, and short technique videos such as rice-paper chips that puff up in one second, hollandaise and crispy rice.",
+      "The site also publishes 58 complete recipes from the book for free, and short technique videos such as rice-paper chips that puff up in one second, hollandaise and crispy rice.",
     ],
   },
 };

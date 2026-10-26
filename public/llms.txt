@@ -1,6 +1,6 @@
 # The Edible Codex
 
-> A digital cookbook by Chef Ahmet Salameh: 361 recipes across 386 pages (261 chef recipes plus 100 viral dishes), each with its own photograph, exact measurements, step-by-step method and a chef's note. The site is bilingual: Arabic at the root, English under /en/. It publishes 28 complete recipes from the book for free, short technique videos, and a free guide to five colour sauces.
+> A digital cookbook by Chef Ahmet Salameh: 361 recipes across 386 pages (261 chef recipes plus 100 viral dishes), each with its own photograph, exact measurements, step-by-step method and a chef's note. The site is bilingual: Arabic at the root, English under /en/. It publishes 58 complete recipes from the book for free, short technique videos, and a free guide to five colour sauces.
 
 ## Products
 
@@ -21,6 +21,12 @@
 - [Easy Korean recipes at home](https://ediblecodex.com/en/guides/korean-recipes-at-home/)
 - [Party appetizers & side dishes](https://ediblecodex.com/en/guides/party-appetizers-and-sides/)
 - [Colourful sauces for plating](https://ediblecodex.com/en/guides/sauces-for-plating/)
+- [Arabic food recipes](https://ediblecodex.com/en/guides/arabic-food-recipes/)
+- [Homemade bread recipes](https://ediblecodex.com/en/guides/homemade-bread-recipes/)
+- [Easy chicken recipes](https://ediblecodex.com/en/guides/easy-chicken-recipes/)
+- [Easy dessert recipes](https://ediblecodex.com/en/guides/easy-dessert-recipes/)
+- [Pasta & noodle recipes](https://ediblecodex.com/en/guides/pasta-and-noodle-recipes/)
+- [Ramadan iftar recipes](https://ediblecodex.com/en/guides/ramadan-iftar-recipes/)
 - [أدلة الطبخ بالعربية](https://ediblecodex.com/guides/): the same guides in Arabic.
 
 ## Videos

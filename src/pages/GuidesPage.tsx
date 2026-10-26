@@ -5,7 +5,7 @@ import PageHero from "@/components/PageHero";
 import { localePath } from "@/i18n/locale-path";
 import { useLang } from "@/i18n/LanguageContext";
 import { guides } from "@/data/guides";
-import { getRecipe, recipePhoto } from "@/data/recipes";
+import { getRecipe, recipePhoto } from "@/data/recipe-library";
 import { site } from "@/data/site";
 
 /** The index of the search guides. فهرس أدلة الطبخ. */

@@ -898,7 +898,8 @@ export const recipes: Recipe[] = [
       "Season with salt. Cool to room temperature before use; it thickens noticeably as it cools.",
     ],
     tip: "This is the heaviest of the five. It reads almost black on the plate and should always land last.",
-  },];
+  },
+];
 
 export const getRecipe = (slug?: string) => recipes.find((r) => r.slug === slug);
 
@@ -919,9 +920,6 @@ const photoBySlug = Object.fromEntries(
 
 /** URL of a recipe's plate photo, or null when it has none yet. */
 export const recipePhoto = (recipe: Recipe) => (recipe.photo ? photoBySlug[recipe.slug] ?? null : null);
-
-/** Every tag in use, for the filter row. */
-export const recipeTags = [...new Set(recipes.flatMap((r) => r.tags))].sort();
 
 /**
  * Ingredients, method and tip in the reader's language. The book is English;

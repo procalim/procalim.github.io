@@ -371,6 +371,370 @@ export const guides: Guide[] = [
       },
     ],
   },
+  {
+    slug: "arabic-food-recipes",
+    cover: "maqluba",
+    product: "the-edible-codex",
+    eyebrow: { ar: "من مطبخنا", en: "Arabic Kitchen" },
+    title: {
+      ar: "أكلات عربية سهلة — المقلوبة والكبة والفتوش وشوربة العدس",
+      en: "Arabic Food Recipes — Maqluba, Kibbeh, Fattoush & Lentil Soup",
+    },
+    description: {
+      ar: "أشهر الأكلات العربية بطريقة سهلة ومضبوطة: المقلوبة، الكبة المقلية، الفتوش، شوربة العدس، والحلويات الشرقية — بمقادير دقيقة وخطوات واضحة من مطبخ الشيف أحمد سلامة.",
+      en: "Classic Arabic food made simple and exact: maqluba, fried kibbeh, fattoush, lentil soup and Middle Eastern desserts — precise measurements and clear steps from Chef Ahmet Salameh's kitchen.",
+    },
+    intro: [
+      {
+        ar: "الأكل العربي هو أكل البيت والعزائم والجمعات: صينية مقلوبة تنقلب على الطاولة، كبة مقرمشة من برّا وطرية من جوّا، وشوربة عدس بتدفّي أول لقمة بالإفطار. هاي الوصفات اللي بيدوّر عليها الناس أكثر شي بالسعودية والأردن والعالم العربي.",
+        en: "Arabic food is the food of home, of guests and of family tables: a pot of maqluba flipped in front of everyone, kibbeh crisp outside and soft inside, and a bowl of lentil soup that opens the evening. These are the Arabic dishes people search for most across Saudi Arabia, Jordan and the Arab world.",
+      },
+      {
+        ar: "كتبناها بالجرام والكوب، وبالترتيب الصحيح، حتى تطلع معك من أول مرة متل ما بتطلع بمطبخ الشيف.",
+        en: "Each one is written in grams and cups, in the right order, so it comes out the first time the way it does in the chef's kitchen.",
+      },
+    ],
+    picks: [
+      { recipe: "maqluba", why: { ar: "الطبق الذي يُقلب أمام الضيوف — السر في ترتيب الطبقات وراحة القدر قبل القلب.", en: "The dish flipped in front of guests — the secret is the layering and resting the pot before it turns." } },
+      { recipe: "kibbeh", why: { ar: "كبة مقلية بقشرة برغل رقيقة وحشوة لحمة غنية.", en: "Fried kibbeh with a thin bulgur shell and a rich meat filling." } },
+      { recipe: "fattoush", why: { ar: "سلطة الخبز المحمّص بالسماق ودبس الرمان — رفيقة كل سفرة.", en: "Toasted bread salad with sumac and pomegranate molasses — on every table." } },
+      { recipe: "lentil-soup", why: { ar: "شوربة العدس الكلاسيكية — أول طبق على سفرة الإفطار.", en: "Classic lentil soup — the first bowl of the evening." } },
+      { recipe: "crinkle-cake", why: { ar: "حلوى فيلو مجعّدة بالقطر، سهلة وتبهر الضيوف.", en: "Crinkled phyllo soaked in syrup, easy and impressive." } },
+      { recipe: "dubai-pistachio-kunafa-chocolate", why: { ar: "الكنافة والفستق بشوكولاتة — أشهر حلوى عربية بالعالم اليوم.", en: "Kunafa and pistachio in chocolate — the world's most famous Arab dessert right now." } },
+    ],
+    tips: [
+      {
+        heading: { ar: "سر المقلوبة اللي ما بتخرب", en: "The maqluba that never collapses" },
+        body: {
+          ar: "رتّب الطبقات بإحكام، ولا تحرّك القدر أثناء الطبخ، واتركه يرتاح ١٠ دقائق قبل القلب. الراحة هي اللي بتخلي الرز يتماسك.",
+          en: "Pack the layers firmly, never stir the pot while it cooks, and rest it 10 minutes before flipping. The rest is what makes the rice hold its shape.",
+        },
+      },
+      {
+        heading: { ar: "سفرة عربية كاملة", en: "A full Arabic table" },
+        body: {
+          ar: "شوربة العدس للبداية، فتوش وكبة بالوسط، مقلوبة كطبق رئيسي، والكرينكل كيك للحلو. سفرة كاملة من ٥ وصفات.",
+          en: "Lentil soup to start, fattoush and kibbeh in the middle, maqluba as the main and crinkle cake to finish. A full table from five recipes.",
+        },
+      },
+    ],
+    faq: [
+      {
+        q: { ar: "ما هي أشهر أكلة عربية؟", en: "What is the most famous Arabic dish?" },
+        a: { ar: "تختلف من بلد لبلد، لكن المقلوبة والكبة والفتوش وشوربة العدس من أكثر الأكلات العربية بحثاً وطبخاً في السعودية والأردن.", en: "It varies by country, but maqluba, kibbeh, fattoush and lentil soup are among the most searched and cooked Arabic dishes in Saudi Arabia and Jordan." },
+      },
+      {
+        q: { ar: "كيف أمنع الكبة من التفتت عند القلي؟", en: "How do I stop kibbeh breaking apart when frying?" },
+        a: { ar: "اعجن البرغل جيداً حتى يتماسك، وبرّد الكبة قبل القلي، واقلها في زيت ساخن بما يكفي حتى تتكوّن القشرة بسرعة.", en: "Knead the bulgur shell until it holds together, chill the kibbeh before frying, and fry in oil hot enough that the crust sets quickly." },
+      },
+      {
+        q: { ar: "هل الوصفات حلال؟", en: "Are the recipes halal?" },
+        a: { ar: "نعم، كل وصفات الموقع والكتاب حلال، بدون لحم خنزير وبدون كحول.", en: "Yes — every recipe on the site and in the book is halal, with no pork and no alcohol." },
+      },
+    ],
+  },
+  {
+    slug: "homemade-bread-recipes",
+    cover: "focaccia-bread",
+    product: "the-edible-codex",
+    eyebrow: { ar: "من الفرن", en: "From the Oven" },
+    title: {
+      ar: "وصفات خبز بيتي سهلة — ساوردو، فوكاتشا، نان، بيغل وبريوش",
+      en: "Homemade Bread Recipes — Sourdough, Focaccia, Naan, Bagels & Brioche",
+    },
+    description: {
+      ar: "طريقة عمل الخبز في البيت خطوة بخطوة: خبز الساوردو، الفوكاتشا، خبز النان، البيغل، البريوش، خبز الموز وخبز الذرة — بمقادير دقيقة من مطبخ شيف محترف.",
+      en: "How to make bread at home, step by step: sourdough, focaccia, naan, bagels, brioche, banana bread and cornbread — exact measurements from a professional chef's kitchen.",
+    },
+    intro: [
+      {
+        ar: "ريحة الخبز الطالع من الفرن ما في شي بيشبهها. والخبز البيتي أسهل مما تتوقع: طحين، ماء، خميرة، ملح، ووقت. الفرق كله بالمقادير الدقيقة وبمعرفة متى العجينة جاهزة.",
+        en: "Nothing smells like bread coming out of your own oven, and homemade bread is easier than it looks: flour, water, yeast, salt and time. The whole difference is exact measurements and knowing when the dough is ready.",
+      },
+      {
+        ar: "رتّبنا الوصفات من الأسهل للأصعب: من خبز الموز اللي ما بدّه خميرة، لحد الساوردو اللي بدّه صبر.",
+        en: "They're ordered from easiest to most demanding: from banana bread, which needs no yeast at all, to sourdough, which needs patience.",
+      },
+    ],
+    picks: [
+      { recipe: "banana-bread", why: { ar: "بدون خميرة ولا عجن — أسهل خبز بالقائمة وأكثرها بحثاً.", en: "No yeast, no kneading — the easiest loaf here and the most searched." } },
+      { recipe: "cornbread", why: { ar: "خبز الذرة الأمريكي، جاهز بأقل من ساعة.", en: "Classic American cornbread, ready in under an hour." } },
+      { recipe: "naan-bread", why: { ar: "خبز النان الطري بالمقلاة، بدون فرن تنور.", en: "Soft naan in a pan, no tandoor needed." } },
+      { recipe: "focaccia-bread", why: { ar: "فوكاتشا إيطالية بزيت الزيتون وفقاعات هوا كبيرة.", en: "Italian focaccia with olive oil and big airy bubbles." } },
+      { recipe: "bagels", why: { ar: "البيغل الحقيقي يُسلق قبل الخبز — هذا سر قشرته اللامعة.", en: "Real bagels are boiled before baking — that's the shiny chewy crust." } },
+      { recipe: "brioche-bread", why: { ar: "بريوش غني بالزبدة والبيض، طري كالقطن.", en: "Brioche rich with butter and eggs, soft as cotton." } },
+      { recipe: "sourdough-bread", why: { ar: "خبز الساوردو بالخميرة الطبيعية — مشروع ويستحق.", en: "Naturally leavened sourdough — a project, and worth it." } },
+    ],
+    tips: [
+      {
+        heading: { ar: "كيف تعرف إن العجينة اختمرت؟", en: "How to tell the dough has risen enough" },
+        body: {
+          ar: "اضغط العجينة بإصبعك: إذا رجعت ببطء وتركت أثراً خفيفاً فهي جاهزة. إذا رجعت فوراً بدها وقت، وإذا ما رجعت أبداً فاختمرت زيادة.",
+          en: "Press the dough with a finger: if it springs back slowly and leaves a slight dent, it's ready. Springs back at once, it needs more time; doesn't spring back at all, it's over-proofed.",
+        },
+      },
+      {
+        heading: { ar: "الميزان أهم من الكوب", en: "Weigh, don't scoop" },
+        body: {
+          ar: "بالخبز، الفرق بين كوب طحين مضغوط وكوب خفيف ممكن يوصل ٣٠ غراماً. لهيك كتبنا المقادير بالغرام حيث أمكن.",
+          en: "In bread, a packed cup of flour and a light one can differ by 30 grams. That's why the recipes give grams wherever they can.",
+        },
+      },
+    ],
+    faq: [
+      {
+        q: { ar: "ما أسهل خبز أعمله بالبيت؟", en: "What's the easiest bread to make at home?" },
+        a: { ar: "خبز الموز وخبز الذرة لا يحتاجان خميرة ولا عجن. ومن خبز الخميرة، الفوكاتشا والنان الأسهل للمبتدئين.", en: "Banana bread and cornbread need no yeast and no kneading. Of the yeasted breads, focaccia and naan are the easiest for beginners." },
+      },
+      {
+        q: { ar: "هل أحتاج عجّانة؟", en: "Do I need a stand mixer?" },
+        a: { ar: "لا. كل الوصفات تنجح بالعجن باليد، العجّانة فقط توفّر الوقت.", en: "No. Every recipe works kneaded by hand; a mixer only saves time." },
+      },
+      {
+        q: { ar: "كيف أحفظ الخبز البيتي؟", en: "How do I store homemade bread?" },
+        a: { ar: "يومين بكيس قماش أو ورق على حرارة الغرفة، أو قطّعه وجمّده حتى ٣ أشهر وحمّص الشرائح مباشرة من الفريزر.", en: "Two days in a cloth or paper bag at room temperature, or slice and freeze for up to 3 months and toast straight from frozen." },
+      },
+    ],
+  },
+  {
+    slug: "easy-chicken-recipes",
+    cover: "roast-chicken",
+    product: "the-edible-codex",
+    eyebrow: { ar: "دجاج", en: "Chicken" },
+    title: {
+      ar: "وصفات دجاج سهلة ولذيذة — بالفرن، فاهيتا، تكا ماسالا ورز مقلي",
+      en: "Easy Chicken Recipes — Roast Chicken, Fajitas, Tikka Masala & Fried Rice",
+    },
+    description: {
+      ar: "أطيب وصفات الدجاج السهلة للعشاء: دجاج محمّر بالفرن، فاهيتا الدجاج، دجاج تكا ماسالا، الرز المقلي بالدجاج، دجاج ماري مي وأصابع الدجاج المقرمشة — مجرّبة من شيف.",
+      en: "The best easy chicken recipes for dinner: classic roast chicken, chicken fajitas, chicken tikka masala, chicken fried rice, Marry Me Chicken and crispy tenders — chef-tested.",
+    },
+    intro: [
+      {
+        ar: "الدجاج هو أكثر شي بيدوّر عليه الناس لما يسألوا «شو نطبخ اليوم؟». رخيص، سهل، وبيقبل كل النكهات: من التتبيلة الهندية للمكسيكية للإيطالية.",
+        en: "Chicken is what most people search for when they ask \"what's for dinner?\" It's affordable, easy and takes every flavour: Indian, Mexican, Italian and beyond.",
+      },
+      {
+        ar: "هاي أفضل وصفات الدجاج بالموقع، من طبق العيلة بالفرن لحد عشا ٣٠ دقيقة.",
+        en: "These are the best chicken recipes on the site, from the family roast to a 30-minute weeknight dinner.",
+      },
+    ],
+    picks: [
+      { recipe: "roast-chicken", why: { ar: "دجاجة كاملة محمّرة بجلد مقرمش ولحم طري — طبق العيلة.", en: "A whole roast chicken with crisp skin and juicy meat — the family dish." } },
+      { recipe: "chicken-tikka-masala", why: { ar: "دجاج متبّل بصلصة طماطم وكريمة هندية غنية.", en: "Marinated chicken in a rich Indian tomato-cream sauce." } },
+      { recipe: "chicken-fajitas", why: { ar: "فاهيتا مكسيكية بالفلفل الملوّن، جاهزة بنص ساعة.", en: "Mexican fajitas with bright peppers, ready in half an hour." } },
+      { recipe: "chicken-fried-rice", why: { ar: "رز مقلي بالدجاج أطيب من المطعم — والسر رز البارحة.", en: "Chicken fried rice better than takeout — the secret is yesterday's rice." } },
+      { recipe: "marry-me-chicken", why: { ar: "صدور دجاج بصلصة كريمية بالطماطم المجففة.", en: "Chicken breasts in a creamy sun-dried tomato sauce." } },
+      { recipe: "cheese-buldak", why: { ar: "دجاج كوري حار تحت طبقة جبنة ذائبة.", en: "Fiery Korean chicken under melted cheese." } },
+      { recipe: "cornflake-chicken-tenders", why: { ar: "أصابع دجاج مقرمشة بالكورن فليكس — المفضّلة عند الأطفال.", en: "Cornflake-crusted tenders — the kids' favourite." } },
+    ],
+    tips: [
+      {
+        heading: { ar: "كيف يضل الدجاج طري؟", en: "How to keep chicken juicy" },
+        body: {
+          ar: "لا تطبخه زيادة، وخليه يرتاح ٥ لـ ١٠ دقائق بعد الفرن أو المقلاة قبل التقطيع. هيك العصارة بترجع للحم بدل ما تسيل على اللوح.",
+          en: "Don't overcook it, and rest it 5 to 10 minutes after the oven or pan before slicing, so the juices settle back into the meat instead of running onto the board.",
+        },
+      },
+      {
+        heading: { ar: "تتبيلة واحدة لأسبوع", en: "One marinade, a whole week" },
+        body: {
+          ar: "تبّل كمية دجاج مرة وحدة وقسّمها: نصها فاهيتا اليوم، ونصها تكا ماسالا بعد يومين.",
+          en: "Marinate one batch and split it: half becomes fajitas tonight, half becomes tikka masala two days later.",
+        },
+      },
+    ],
+    faq: [
+      {
+        q: { ar: "ما أسرع وصفة دجاج للعشاء؟", en: "What's the quickest chicken dinner?" },
+        a: { ar: "فاهيتا الدجاج ودجاج ماري مي، كل واحدة جاهزة بحوالي ٣٠ دقيقة.", en: "Chicken fajitas and Marry Me Chicken, each ready in about 30 minutes." },
+      },
+      {
+        q: { ar: "صدر دجاج أم أفخاذ؟", en: "Breast or thigh?" },
+        a: { ar: "الأفخاذ أطرى وأصعب تنشف، والصدر أخف. للتكا ماسالا والرز المقلي الأفخاذ أفضل.", en: "Thighs are juicier and harder to dry out; breast is leaner. For tikka masala and fried rice, thighs win." },
+      },
+      {
+        q: { ar: "كم يحتاج الدجاج الكامل بالفرن؟", en: "How long does a whole chicken take to roast?" },
+        a: { ar: "تقريباً ساعة إلى ساعة وربع لدجاجة متوسطة، والتفاصيل الدقيقة في صفحة الوصفة.", en: "Roughly an hour to an hour and a quarter for a medium bird; the exact steps are on the recipe page." },
+      },
+    ],
+  },
+  {
+    slug: "easy-dessert-recipes",
+    cover: "pan-banging-chocolate-chip-cookies",
+    product: "the-edible-codex",
+    eyebrow: { ar: "حلويات", en: "Sweet" },
+    title: {
+      ar: "حلويات سهلة وسريعة — كوكيز، سينابون، براونيز وتيراميسو لوتس",
+      en: "Easy Dessert Recipes — Cookies, Cinnamon Rolls, Brownies & Biscoff Tiramisu",
+    },
+    description: {
+      ar: "أسهل الحلويات في البيت: كوكيز الشوكولاتة بالحواف المقرمشة، حيلة السينابون، براونيز الموتشي، تيراميسو اللوتس، بان كيك الصينية وخبز الموز — بخطوات واضحة من شيف.",
+      en: "The easiest desserts to make at home: crispy-edged chocolate chip cookies, the cinnamon roll hack, mochi brownies, Biscoff tiramisu, sheet pan pancakes and banana bread — clear chef steps.",
+    },
+    intro: [
+      {
+        ar: "مش كل حلو لازم يكون صعب. هاي الحلويات بتنعمل بمكوّنات موجودة بأي بيت، وأغلبها جاهز بأقل من ساعة، وكل وحدة فيها حيلة صغيرة بتفرق.",
+        en: "Not every dessert has to be hard. These are made with what's already in most kitchens, most are ready in under an hour, and each one has one small trick that makes the difference.",
+      },
+      {
+        ar: "الكوكيز والسينابون من أكثر الحلويات بحثاً بالسعودية والأردن، فبلّشنا فيهم.",
+        en: "Cookies and cinnamon rolls are among the most searched desserts in Saudi Arabia and Jordan, so they lead the list.",
+      },
+    ],
+    picks: [
+      { recipe: "pan-banging-chocolate-chip-cookies", why: { ar: "ضرب الصينية بالفرن يعطي حواف مقرمشة بحلقات ووسط طري.", en: "Banging the pan gives crisp rippled edges and a gooey centre." } },
+      { recipe: "cinnamon-roll-hack", why: { ar: "لفائف قرفة جاهزة بطعم سينابون — السر كريمة الطبخ.", en: "Store-bought rolls that taste like Cinnabon — the secret is heavy cream." } },
+      { recipe: "mochi-brownies", why: { ar: "براونيز بقوام الموتشي المطاطي — ترند بطحين الأرز الدبق.", en: "Brownies with a chewy mochi bite — made with glutinous rice flour." } },
+      { recipe: "biscoff-tiramisu", why: { ar: "تيراميسو بدون قهوة، بالوتس وكريمة اللوتس.", en: "Tiramisu without coffee, made with Lotus Biscoff." } },
+      { recipe: "sheet-pan-pancakes", why: { ar: "بان كيك لكل العيلة بصينية وحدة، بدون قلب.", en: "Pancakes for the whole family in one tray, no flipping." } },
+      { recipe: "banana-bread", why: { ar: "خبز الموز — أحلى طريقة لاستعمال الموز الناضج زيادة.", en: "Banana bread — the best use for overripe bananas." } },
+      { recipe: "japanese-souffle-pancakes", why: { ar: "بان كيك سوفليه ياباني هشّ ومرتفع.", en: "Tall, airy Japanese soufflé pancakes." } },
+    ],
+    tips: [
+      {
+        heading: { ar: "برّد العجينة قبل الخبز", en: "Chill the dough first" },
+        body: {
+          ar: "١٥ دقيقة بالفريزر للكوكيز بتمنعها تفرش وتخليها أسمك. نفس القاعدة لأي عجينة فيها زبدة.",
+          en: "Fifteen minutes in the freezer stops cookies spreading and keeps them thick. The same rule works for any butter-rich dough.",
+        },
+      },
+      {
+        heading: { ar: "حلو بدون فرن", en: "No-bake options" },
+        body: {
+          ar: "تيراميسو اللوتس ما بدّه فرن أبداً، وبينعمل قبل يوم. مثالي للعزائم.",
+          en: "Biscoff tiramisu needs no oven at all and is made a day ahead — ideal for guests.",
+        },
+      },
+    ],
+    faq: [
+      {
+        q: { ar: "ما أسهل حلى أعمله للضيوف؟", en: "What's the easiest dessert for guests?" },
+        a: { ar: "تيراميسو اللوتس: بدون فرن، يُحضّر قبل يوم، ويُقدّم بارداً.", en: "Biscoff tiramisu: no oven, made a day ahead, served cold." },
+      },
+      {
+        q: { ar: "ليش الكوكيز عندي بتفرش؟", en: "Why do my cookies spread flat?" },
+        a: { ar: "غالباً الزبدة سخنة زيادة أو العجينة مش مبرّدة. برّد كرات العجينة ١٥ دقيقة قبل الخبز.", en: "Usually the butter was too warm or the dough wasn't chilled. Freeze the dough balls for 15 minutes before baking." },
+      },
+      {
+        q: { ar: "هل تيراميسو اللوتس فيه قهوة أو كحول؟", en: "Does the Biscoff tiramisu contain coffee or alcohol?" },
+        a: { ar: "لا، النسخة في الكتاب بدون قهوة وبدون كحول.", en: "No — the book's version has no coffee and no alcohol." },
+      },
+    ],
+  },
+  {
+    slug: "pasta-and-noodle-recipes",
+    cover: "lasagna-al-forno",
+    product: "the-edible-codex",
+    eyebrow: { ar: "باستا ونودلز", en: "Pasta & Noodles" },
+    title: {
+      ar: "وصفات باستا ونودلز — لازانيا، باد تاي، فو ورامن",
+      en: "Pasta & Noodle Recipes — Lasagna, Pad Thai, Pho & Ramen",
+    },
+    description: {
+      ar: "أشهر وصفات الباستا والنودلز من حول العالم: لازانيا الفرن، باد تاي التايلندي، شوربة الفو الفيتنامية، رامن كايلي جينر، سلطة المعكرونة وباستا الفيتا — بمقادير دقيقة.",
+      en: "The world's favourite pasta and noodle recipes: classic baked lasagna, Thai pad thai, Vietnamese pho, Kylie Jenner's ramen, Italian pasta salad and baked feta pasta — exact measurements.",
+    },
+    intro: [
+      {
+        ar: "الباستا والنودلز هم أكتر أكل بيجمع العالم: من لازانيا إيطاليا لباد تاي تايلند لفو فيتنام. وكلهم بيعتمدوا على شغلتين: صلصة مضبوطة ووقت سلق صحيح.",
+        en: "Pasta and noodles are what the whole world eats: lasagna from Italy, pad thai from Thailand, pho from Vietnam. They all depend on two things — a well-built sauce and exact cooking time.",
+      },
+    ],
+    picks: [
+      { recipe: "lasagna-al-forno", why: { ar: "لازانيا الفرن الكلاسيكية بطبقات اللحمة والبشاميل.", en: "Classic baked lasagna with meat sauce and béchamel layers." } },
+      { recipe: "pad-thai", why: { ar: "باد تاي حامض حلو مالح — النسخة اللي بالمطاعم.", en: "Sweet, sour and salty pad thai — the restaurant version." } },
+      { recipe: "pho", why: { ar: "شوربة فو فيتنامية بمرق بهارات عطري ولحمة رقيقة.", en: "Vietnamese pho with a fragrant spiced broth and thin beef." } },
+      { recipe: "kylie-jenner-ramen", why: { ar: "حيلة على الرامن الجاهز بالزبدة والثوم والبيض.", en: "The instant ramen hack with butter, garlic and egg." } },
+      { recipe: "italian-pasta-salad", why: { ar: "سلطة معكرونة إيطالية باردة للعزائم والرحلات.", en: "Cold Italian pasta salad for parties and picnics." } },
+      { recipe: "the-original-baked-feta-pasta", why: { ar: "باستا الفيتا المخبوزة — الوصفة اللي بلّشت الترند.", en: "Baked feta pasta — the one that started the trend." } },
+      { recipe: "honeycomb-pasta-pie", why: { ar: "ريغاتوني واقفة كخلية النحل وتتقطّع كالكيك.", en: "Rigatoni stood up like honeycomb and sliced like cake." } },
+    ],
+    tips: [
+      {
+        heading: { ar: "ماء السلق ذهب", en: "Pasta water is gold" },
+        body: {
+          ar: "قبل ما تصفّي الباستا، احتفظ بكوب من ماء السلق. النشا اللي فيه بيربط الصلصة بالمعكرونة وبيعطيها لمعة.",
+          en: "Before draining, save a cup of the cooking water. Its starch binds the sauce to the pasta and gives it shine.",
+        },
+      },
+    ],
+    faq: [
+      {
+        q: { ar: "ما الفرق بين الباد تاي والنودلز العادية؟", en: "What makes pad thai different?" },
+        a: { ar: "الباد تاي يُعمل بنودلز الأرز العريضة وصلصة التمر الهندي، ويُقدّم مع الفول السوداني والليمون.", en: "Pad thai uses flat rice noodles and a tamarind sauce, finished with peanuts and lime." },
+      },
+      {
+        q: { ar: "هل اللازانيا تُحضّر مسبقاً؟", en: "Can lasagna be made ahead?" },
+        a: { ar: "نعم، جهّزها قبل يوم واحفظها بالثلاجة، واخبزها قبل التقديم مع ١٠ دقائق زيادة.", en: "Yes — assemble it a day ahead, refrigerate, and bake before serving, adding about 10 minutes." },
+      },
+    ],
+  },
+  {
+    slug: "ramadan-iftar-recipes",
+    cover: "lentil-soup",
+    product: "the-edible-codex",
+    eyebrow: { ar: "رمضان", en: "Ramadan" },
+    title: {
+      ar: "أفكار إفطار رمضان — شوربات وسلطات وأطباق رئيسية وحلويات",
+      en: "Ramadan Iftar Recipes — Soups, Salads, Mains & Desserts",
+    },
+    description: {
+      ar: "سفرة إفطار رمضان كاملة: شوربة العدس، الفتوش، سلطة سيزر، الكبة، المقلوبة، الدجاج المحمّر، يخنة اللحم، والحلويات — وصفات حلال مجرّبة من الشيف أحمد سلامة.",
+      en: "A complete Ramadan iftar table: lentil soup, fattoush, Caesar salad, kibbeh, maqluba, roast chicken, beef stew and desserts — tested halal recipes from Chef Ahmet Salameh.",
+    },
+    intro: [
+      {
+        ar: "سفرة الإفطار إلها ترتيب: شي دافي يفتح المعدة، سلطة منعشة، مقبلات، طبق رئيسي يجمع العيلة، وحلو مع القهوة. هاي القائمة بتغطي كل شي، وكلها حلال ومجرّبة.",
+        en: "An iftar table has an order: something warm to open the fast, a fresh salad, small bites, a main that gathers the family, and something sweet with coffee. This list covers all of it, every recipe halal and tested.",
+      },
+      {
+        ar: "خطّط أسبوعك: الشوربة والسلطة بتنعمل يومياً، والأطباق الرئيسية بتتبدل، وأغلب الحلويات بتنعمل قبل يوم.",
+        en: "Plan the week: soup and salad daily, mains that rotate, and desserts that are mostly made a day ahead.",
+      },
+    ],
+    picks: [
+      { recipe: "lentil-soup", why: { ar: "الشوربة الأولى على كل سفرة إفطار.", en: "The first bowl on every iftar table." } },
+      { recipe: "fattoush", why: { ar: "الفتوش — سلطة الإفطار الأشهر.", en: "Fattoush — the iftar salad." } },
+      { recipe: "caesar-salad", why: { ar: "سلطة سيزر بصلصتها الكريمية والخبز المحمّص.", en: "Caesar salad with its creamy dressing and croutons." } },
+      { recipe: "kibbeh", why: { ar: "كبة مقلية — من أطيب مقبلات رمضان.", en: "Fried kibbeh — a Ramadan favourite." } },
+      { recipe: "maqluba", why: { ar: "المقلوبة — طبق العيلة الرئيسي.", en: "Maqluba — the family main." } },
+      { recipe: "roast-chicken", why: { ar: "دجاج محمّر بالفرن بقليل من الجهد.", en: "Roast chicken with very little effort." } },
+      { recipe: "beef-stew", why: { ar: "يخنة لحم طرية بتنطبخ على مهل.", en: "Tender beef stew, slow-cooked." } },
+      { recipe: "crinkle-cake", why: { ar: "كرينكل كيك بالقطر — حلو رمضاني سهل.", en: "Crinkle cake in syrup — an easy Ramadan sweet." } },
+      { recipe: "biscoff-tiramisu", why: { ar: "تيراميسو اللوتس بدون فرن — يُحضّر قبل الإفطار بيوم.", en: "No-bake Biscoff tiramisu — made the day before." } },
+    ],
+    tips: [
+      {
+        heading: { ar: "جهّز قبل العصر", en: "Prep before the afternoon" },
+        body: {
+          ar: "اقطع خضار الفتوش واحفظها بالثلاجة بدون صلصة، وحمّص الخبز مسبقاً، واخلط الصلصة قبل التقديم مباشرة حتى يضل كل شي مقرمش.",
+          en: "Chop the fattoush vegetables and keep them chilled without dressing, toast the bread ahead, and dress just before serving so everything stays crisp.",
+        },
+      },
+      {
+        heading: { ar: "خفيف بعد الصيام", en: "Light first, then the main" },
+        body: {
+          ar: "ابدأ بالشوربة والسلطة، واترك الطبق الرئيسي لبعد الصلاة. المعدة بترتاح والسفرة بتطوّل.",
+          en: "Start with soup and salad and leave the main for after prayer — easier on the stomach, and the table lasts longer.",
+        },
+      },
+    ],
+    faq: [
+      {
+        q: { ar: "ما أفضل شوربة للإفطار؟", en: "What's the best soup for iftar?" },
+        a: { ar: "شوربة العدس هي الأشهر والأخف على المعدة بعد الصيام، وهي الأكثر بحثاً بالأردن.", en: "Lentil soup is the classic and the gentlest after fasting — and the most searched in Jordan." },
+      },
+      {
+        q: { ar: "هل كل الوصفات حلال؟", en: "Are all the recipes halal?" },
+        a: { ar: "نعم، كل الوصفات حلال بدون لحم خنزير وبدون كحول.", en: "Yes — every recipe is halal, with no pork and no alcohol." },
+      },
+      {
+        q: { ar: "ما أسهل حلى لرمضان؟", en: "What's the easiest Ramadan dessert?" },
+        a: { ar: "تيراميسو اللوتس لأنه بدون فرن ويُحضّر قبل يوم، والكرينكل كيك إذا بدك حلو شرقي.", en: "Biscoff tiramisu, since it's no-bake and made a day ahead; crinkle cake if you want a Middle Eastern sweet." },
+      },
+    ],
+  },
 ];
 
 export const getGuide = (slug?: string) => guides.find((g) => g.slug === slug);

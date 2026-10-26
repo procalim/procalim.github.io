@@ -36,7 +36,7 @@ const readEntries = (file) => {
 };
 
 const products = readEntries("src/data/products.ts");
-const recipes = readEntries("src/data/recipes.ts");
+const recipes = [...readEntries("src/data/recipes.ts"), ...readEntries("src/data/recipes.extra.ts")];
 const clips = readEntries("src/data/videos.ts");
 const guides = readEntries("src/data/guides.ts");
 
@@ -72,9 +72,9 @@ export const routes = [
     path: "/recipes",
     priority: "0.9",
     changefreq: "weekly",
-    title: "٢٨ وصفة مجانية مصوّرة",
+    title: "٥٨ وصفة مجانية مصوّرة",
     description:
-      "وصفات مجانية من الكتاب — تاكو كيسابيريا، مطري مي تشكن، باستا الفيتا المخبوزة وغيرها. مقادير دقيقة، خطوات واضحة، وصورة للطبق النهائي.",
+      "وصفات مجانية من الكتاب — المقلوبة، الكبة، الفتوش، الكوكيز، اللازانيا، دجاج ماري مي وباستا الفيتا وغيرها. مقادير دقيقة، خطوات واضحة، وصورة للطبق النهائي.",
   },
   ...recipes.map((recipe) => ({
     path: `/recipes/${recipe.slug}`,
@@ -104,7 +104,7 @@ export const routes = [
     changefreq: "weekly",
     title: "أدلة الطبخ — وصفات الترند وأفكار العشاء",
     description:
-      "أدلة من الشيف أحمد سلامة: أشهر وصفات تيك توك، أفكار عشاء سهلة، شوكولاتة دبي وحلويات الترند، وصفات كورية، مقبلات للعزائم، وصوصات لتزيين الأطباق.",
+      "أدلة من الشيف أحمد سلامة: أكلات عربية، أفكار إفطار رمضان، وصفات دجاج، خبز بيتي، حلويات سهلة، باستا ونودلز، وصفات تيك توك، أفكار عشاء، شوكولاتة دبي، وصفات كورية ومقبلات للعزائم.",
   },
   ...guides.map((guide) => ({
     path: `/guides/${guide.slug}`,
