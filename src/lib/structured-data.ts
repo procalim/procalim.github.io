@@ -285,3 +285,45 @@ export const guideGraph = (args: {
     ],
   };
 };
+
+/**
+ * The home page: the shop itself (an online store, not a street-front
+ * business) and the website, so a search for the brand can show its name,
+ * logo and Instagram. It was added by the app only; it is now also written
+ * into the HTML.
+ * الصفحة الرئيسية: المتجر والموقع، مكتوبة في الـ HTML نفسه.
+ */
+export const homeGraph = (args: { description: string; lang: string; path: string }) => {
+  const url = pageUrl(args.path);
+  const origin = site.url.replace(/\/$/, "");
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        // An online shop, not a shop front: "Store" is a local business to
+        // Google, which then asks for a street address and opening hours.
+        "@type": "OnlineStore",
+        "@id": `${origin}/#store`,
+        name: site.brand.name,
+        alternateName: site.brand.nameAr,
+        description: args.description,
+        url,
+        logo: `${origin}/brand/logo-square.jpg`,
+        image: `${origin}/brand/logo-square.jpg`,
+        founder: { "@type": "Person", name: site.brand.chefEn, url: pageUrl("/about") },
+        telephone: site.contact.phoneDisplay,
+        address: { "@type": "PostalAddress", addressLocality: "Amman", addressCountry: "JO" },
+        sameAs: [site.social.instagram],
+      },
+      {
+        "@type": "WebSite",
+        "@id": `${origin}/#website`,
+        name: site.brand.name,
+        alternateName: site.brand.nameAr,
+        url,
+        inLanguage: args.lang,
+        publisher: { "@id": `${origin}/#store` },
+      },
+    ],
+  };
+};
