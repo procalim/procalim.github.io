@@ -8,7 +8,7 @@ import { guideGraph } from "@/lib/structured-data";
 import { localePath } from "@/i18n/locale-path";
 import { useLang } from "@/i18n/LanguageContext";
 import { getGuide, guides } from "@/data/guides";
-import { getRecipe, recipePhoto } from "@/data/recipes";
+import { getRecipe, recipePhoto } from "@/data/recipe-library";
 import NotFoundPage from "@/pages/NotFoundPage";
 
 /**

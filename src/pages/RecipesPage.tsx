@@ -4,7 +4,7 @@ import Seo from "@/components/Seo";
 import RecipeCard from "@/components/RecipeCard";
 import { localePath } from "@/i18n/locale-path";
 import { useLang } from "@/i18n/LanguageContext";
-import { recipes, recipeTags, recipeText } from "@/data/recipes";
+import { recipes, recipeTags, recipeText } from "@/data/recipe-library";
 import { brandImages, site } from "@/data/site";
 import PageHero from "@/components/PageHero";
 
