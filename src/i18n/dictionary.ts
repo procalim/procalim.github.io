@@ -539,8 +539,8 @@ export const dictionary = {
   },
   "seo.guides.title": { ar: "أدلة الطبخ — وصفات الترند وأفكار العشاء", en: "Cooking Guides — Viral Recipes & Dinner Ideas" },
   "seo.guides.desc": {
-    ar: "أدلة من الشيف أحمد سلامة: أكلات عربية، أفكار إفطار رمضان، وصفات دجاج، خبز بيتي، حلويات سهلة، باستا ونودلز، وصفات تيك توك، أفكار عشاء، شوكولاتة دبي، وصفات كورية ومقبلات للعزائم.",
-    en: "Guides from Chef Ahmet Salameh: Arabic food, Ramadan iftar, chicken recipes, homemade bread, easy desserts, pasta and noodles, viral TikTok recipes, dinner ideas, Dubai chocolate, Korean recipes and party appetizers.",
+    ar: "أدلة من الشيف أحمد سلامة: طبخات سهلة، أفكار غداء، سلطات، شوربات، سحور وإفطار رمضان، أكلات عزايم، طبخات لحمة ودجاج، أكلات عربية، خبز بيتي، حلويات سهلة، فطور ووصفات الترند.",
+    en: "Guides from Chef Ahmet Salameh: breakfast ideas, lunch ideas, salads, soups, beef and chicken recipes, Ramadan suhoor and iftar, dinner party menus, Arabic food, homemade bread, easy desserts and viral recipes.",
   },
   "guides.nav": { ar: "أدلة الطبخ", en: "Guides" },
   "guides.eyebrow": { ar: "من الشيف", en: "From the Chef" },

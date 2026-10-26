@@ -57,7 +57,7 @@ export const guides: Guide[] = [
       { recipe: "dubai-pistachio-kunafa-chocolate", why: { ar: "ترند ٢٠٢٤ الأكبر: كنافة محمّصة وكريمة فستق داخل شوكولاتة مقرمشة.", en: "The biggest trend of 2024: toasted kunafa and pistachio cream inside a snapping chocolate shell." } },
       { recipe: "viral-cucumber-salad", why: { ar: "عشر دقائق، برطمان واحد، وسلطة تُؤكل كاملة. خفيفة ومنعشة.", en: "Ten minutes, one jar, and a salad you finish in one sitting. Light and fresh." } },
       { recipe: "onion-boil", why: { ar: "بصلة كاملة بالزبدة الحارة تنفتح كالزهرة — شكلها وحده يجعلها ترند.", en: "A whole onion in spicy butter that opens like a flower — the look alone made it viral." } },
-      { recipe: "volcano-cheese-ramen", why: { ar: "نودلز إندومي تتحوّل إلى طبق مطعم في عشر دقائق.", en: "Instant noodles turned into a restaurant bowl in ten minutes." } },
+      { recipe: "volcano-cheese-ramen", why: { ar: "النودلز الكورية الجاهزة تتحوّل إلى طبق مطعم في عشر دقائق.", en: "Instant noodles turned into a restaurant bowl in ten minutes." } },
       { recipe: "gigi-hadid-spicy-vodka-pasta", why: { ar: "صلصة وردية كريمية حارّة أصبحت من أشهر وصفات الباستا في العالم.", en: "A creamy, spicy pink sauce that became one of the world's most-made pastas." } },
       { recipe: "crookie-croissant-cookie", why: { ar: "كرواسون محشو بعجينة الكوكيز ومخبوز مرة ثانية — ترند المخابز الباريسية.", en: "A croissant stuffed with cookie dough and baked again — the Paris bakery trend." } },
       { recipe: "korean-cream-cheese-garlic-bread", why: { ar: "خبز محشو بالجبنة الكريمية ومغموس بزبدة الثوم — طعم الشارع الكوري.", en: "Bread stuffed with cream cheese and soaked in garlic butter — Korean street food at home." } },
@@ -242,7 +242,7 @@ export const guides: Guide[] = [
     ],
     picks: [
       { recipe: "cheese-buldak", why: { ar: "دجاج النار الكوري تحت طبقة موتزاريلا — الحرارة والجبنة في توازن.", en: "Korean fire chicken under a blanket of mozzarella — heat and cheese in balance." } },
-      { recipe: "volcano-cheese-ramen", why: { ar: "أشهر طريقة لترقية نودلز الإندومي، في ١٠ دقائق.", en: "The most famous way to upgrade instant noodles, in 10 minutes." } },
+      { recipe: "volcano-cheese-ramen", why: { ar: "أشهر طريقة لترقية النودلز الكورية الجاهزة، في ١٠ دقائق.", en: "The most famous way to upgrade instant noodles, in 10 minutes." } },
       { recipe: "korean-cream-cheese-garlic-bread", why: { ar: "خبز شوارع سيول: جبنة كريمية حلوة وزبدة ثوم مالحة.", en: "Seoul street bread: sweet cream cheese and salty garlic butter." } },
       { recipe: "dalgona-coffee", why: { ar: "القهوة الكورية المخفوقة التي اجتاحت العالم عام ٢٠٢٠.", en: "The Korean whipped coffee that took over the world in 2020." } },
       { recipe: "sushi-bake", why: { ar: "ليست كورية، لكنها من نفس عائلة النكهات الآسيوية التي يحبها محبّو البولداك.", en: "Not Korean, but the same family of Asian flavours buldak fans love." } },
@@ -484,7 +484,7 @@ export const guides: Guide[] = [
     faq: [
       {
         q: { ar: "ما أسهل خبز أعمله بالبيت؟", en: "What's the easiest bread to make at home?" },
-        a: { ar: "خبز الموز وخبز الذرة لا يحتاجان خميرة ولا عجن. ومن خبز الخميرة، الفوكاتشا والنان الأسهل للمبتدئين.", en: "Banana bread and cornbread need no yeast and no kneading. Of the yeasted breads, focaccia and naan are the easiest for beginners." },
+        a: { ar: "خبز الموز وخبز الذرة وخبز النان لا تحتاج خميرة. ومن خبز الخميرة، الفوكاتشا الأسهل للمبتدئين.", en: "Banana bread, cornbread and naan need no yeast. Of the yeasted breads, focaccia is the easiest for beginners." },
       },
       {
         q: { ar: "هل أحتاج عجّانة؟", en: "Do I need a stand mixer?" },
@@ -732,6 +732,505 @@ export const guides: Guide[] = [
       {
         q: { ar: "ما أسهل حلى لرمضان؟", en: "What's the easiest Ramadan dessert?" },
         a: { ar: "تيراميسو اللوتس لأنه بدون فرن ويُحضّر قبل يوم، والكرينكل كيك إذا بدك حلو شرقي.", en: "Biscoff tiramisu, since it's no-bake and made a day ahead; crinkle cake if you want a Middle Eastern sweet." },
+      },
+    ],
+  },
+
+  /* ── Built on measured search interest (Google Trends, Saudi Arabia,
+     Jordan and worldwide, 12 months to 26 Oct 2026): سلطات, غداء, طبخات,
+     سحور, شوربات, عزايم; breakfast ideas, beef recipes, soup and salad
+     recipes. مبنية على أرقام Google Trends. ── */
+  {
+    slug: "salad-recipes",
+    cover: "caesar-salad",
+    product: "the-edible-codex",
+    eyebrow: { ar: "سلطات", en: "Salads" },
+    title: {
+      ar: "سلطات سهلة ولذيذة — فتوش، سيزر، سلطة البطاطس والمعكرونة",
+      en: "Salad Recipes — Fattoush, Caesar, Potato & Pasta Salad",
+    },
+    description: {
+      ar: "أطيب وصفات السلطات للغداء والعزائم: الفتوش، سلطة سيزر، سلطة البطاطس بالمايونيز، سلطة المعكرونة الإيطالية، سلطة الخيار وسلطة الإلهة الخضراء — بمقادير دقيقة وصلصات مضبوطة.",
+      en: "The best salad recipes for lunch and gatherings: fattoush, Caesar salad, classic potato salad, Italian pasta salad, the viral cucumber salad and green goddess salad — exact measurements and dressings.",
+    },
+    intro: [
+      {
+        ar: "السلطة مش طبق جانبي بس: هي أول شي بيخلص عن السفرة. والفرق بين سلطة عادية وسلطة بتنطلب مرة ثانية هو الصلصة: الحموضة الصح، الملح الصح، وتوقيت خلطها.",
+        en: "A salad isn't just a side — it's often the first bowl to empty. The difference between an ordinary salad and one people ask for again is the dressing: the right acidity, the right salt and when it goes on.",
+      },
+      {
+        ar: "جمعنا السلطات العربية والعالمية الأكثر طلباً، من الفتوش بالسماق لسيزر بصلصتها الكريمية، وكل وحدة بمكوّناتها الدقيقة.",
+        en: "Here are the most requested Arab and international salads, from sumac fattoush to creamy Caesar, each with exact ingredients.",
+      },
+    ],
+    picks: [
+      { recipe: "fattoush", why: { ar: "خضار ونعناع وخبز مقرمش بصلصة السماق والليمون.", en: "Vegetables, mint and crisp pita in a sumac-lemon dressing." } },
+      { recipe: "caesar-salad", why: { ar: "خس روماني بصلصة سيزر كريمية وبارميزان وخبز محمّص.", en: "Romaine in a creamy Caesar dressing with parmesan and croutons." } },
+      { recipe: "american-potato-salad", why: { ar: "سلطة البطاطس الكلاسيكية بالمايونيز والبيض والخردل.", en: "Classic potato salad with mayo, egg and mustard." } },
+      { recipe: "italian-pasta-salad", why: { ar: "سلطة معكرونة باردة بالخضار والجبنة، تتحضّر مسبقاً.", en: "Cold pasta salad with vegetables and cheese, made ahead." } },
+      { recipe: "viral-cucumber-salad", why: { ar: "سلطة خيار بعشر دقائق، بتنخض بعلبة وحدة.", en: "A cucumber salad in ten minutes, shaken in one container." } },
+      { recipe: "green-goddess-salad", why: { ar: "خضار مفروم ناعم بصلصة أعشاب خضراء، يؤكل كغموس.", en: "Finely chopped vegetables in a green herb dressing, eaten like a dip." } },
+    ],
+    tips: [
+      {
+        heading: { ar: "متى تحط الصلصة؟", en: "When to dress a salad" },
+        body: {
+          ar: "سلطات الخس والخبز (فتوش، سيزر) بتنخلط قبل التقديم مباشرة حتى ما يذبل الخس ولا يطرى الخبز. سلطات البطاطس والمعكرونة بالعكس: بتطيب أكثر إذا ارتاحت بالثلاجة ساعة.",
+          en: "Leaf and bread salads (fattoush, Caesar) are dressed just before serving so the lettuce stays crisp and the bread stays crunchy. Potato and pasta salads are the opposite: they taste better after an hour in the fridge.",
+        },
+      },
+      {
+        heading: { ar: "نشّف الخضار", en: "Dry your greens" },
+        body: {
+          ar: "الخس المبلول بيخفف الصلصة وبيخليها تنزل لتحت الصحن. نشّفه منيح بعد الغسيل.",
+          en: "Wet lettuce waters the dressing down and it pools at the bottom of the bowl. Dry leaves well after washing.",
+        },
+      },
+    ],
+    faq: [
+      {
+        q: { ar: "ما الفرق بين الفتوش والتبولة؟", en: "What's the difference between fattoush and tabbouleh?" },
+        a: { ar: "الفتوش خضار مقطّعة كبار مع خبز محمّص وصلصة سماق، والتبولة بقدونس مفروم ناعم مع برغل.", en: "Fattoush is chunky vegetables with toasted bread and a sumac dressing; tabbouleh is finely chopped parsley with bulgur." },
+      },
+      {
+        q: { ar: "أي سلطة تتحضّر قبل يوم؟", en: "Which salad can be made a day ahead?" },
+        a: { ar: "سلطة البطاطس وسلطة المعكرونة، وتطيب أكثر بعد ما ترتاح بالثلاجة.", en: "Potato salad and pasta salad — both improve after resting in the fridge." },
+      },
+      {
+        q: { ar: "هل صلصة سيزر فيها سمك؟", en: "Does Caesar dressing contain fish?" },
+        a: { ar: "نعم، صلصة سيزر الأصلية في الكتاب فيها أنشوفة، وهي حلال.", en: "Yes — the book's classic Caesar dressing uses anchovies, which are halal." },
+      },
+    ],
+  },
+  {
+    slug: "lunch-ideas",
+    cover: "chicken-tikka-masala",
+    product: "the-edible-codex",
+    eyebrow: { ar: "الغداء", en: "Lunch" },
+    title: {
+      ar: "أفكار غداء — طبخات غداء سهلة للعائلة",
+      en: "Lunch Ideas — Easy Family Lunch Recipes",
+    },
+    description: {
+      ar: "شو نطبخ على الغداء؟ أفكار غداء للعائلة بالدجاج واللحمة والرز: مقلوبة، دجاج تكا ماسالا، لازانيا، يخنة لحم، دجاج بالفرن ورز مقلي — بمقادير دقيقة وخطوات واضحة.",
+      en: "What to cook for lunch? Family lunch ideas with chicken, beef and rice: maqluba, chicken tikka masala, lasagna, beef stew, roast chicken and fried rice — exact measurements, clear steps.",
+    },
+    intro: [
+      {
+        ar: "الغداء عندنا هو الوجبة الرئيسية: الطبخة اللي بتجمع العيلة. وأصعب سؤال كل يوم هو «شو نطبخ اليوم؟». هاي قائمة طبخات غداء مجرّبة، فيها الرز واللحمة والدجاج والمعكرونة، حتى ما تتكرر الطبخة بالأسبوع.",
+        en: "In much of the Arab world lunch is the main meal — the dish that brings the family together — and the daily question is \"what are we cooking today?\". This is a tested list of lunch dishes with rice, beef, chicken and pasta, so the week never repeats.",
+      },
+      {
+        ar: "كل طبق معه وقته، فبتعرف من أول نظرة إذا بيلحق قبل الضهر.",
+        en: "Each dish shows its time, so you know at a glance whether it's ready by midday.",
+      },
+    ],
+    picks: [
+      { recipe: "maqluba", why: { ar: "طبخة الجمعة: رز وباذنجان وبطاطا ودجاج أو لحم.", en: "The Friday dish: rice, aubergine, potato and chicken or lamb." } },
+      { recipe: "chicken-tikka-masala", why: { ar: "دجاج بصلصة طماطم وكريمة هندية، مع رز أو نان.", en: "Chicken in an Indian tomato-cream sauce, with rice or naan." } },
+      { recipe: "lasagna-al-forno", why: { ar: "لازانيا باللحمة والبشاميل، صينية بتكفي العيلة.", en: "Lasagna with meat sauce and béchamel — one tray feeds the family." } },
+      { recipe: "beef-stew", why: { ar: "يخنة لحمة وخضار، بتنطبخ على مهل.", en: "Beef and vegetable stew, slow-cooked." } },
+      { recipe: "roast-chicken", why: { ar: "دجاجة كاملة بالفرن بجلد مقرمش.", en: "A whole roast chicken with crisp skin." } },
+      { recipe: "chicken-fried-rice", why: { ar: "رز مقلي بالدجاج والخضار بـ ٢٥ دقيقة.", en: "Chicken fried rice in 25 minutes." } },
+      { recipe: "classic-meatloaf", why: { ar: "رغيف لحمة بالفرن مع صلصة لامعة.", en: "A baked beef loaf with a glossy glaze." } },
+      { recipe: "quesabirria-tacos", why: { ar: "تاكو البيريا بالجبنة لغداء العطلة.", en: "Cheesy birria tacos for a weekend lunch." } },
+    ],
+    tips: [
+      {
+        heading: { ar: "خطة غداء أسبوع", en: "A week of lunches" },
+        body: {
+          ar: "يوم رز (مقلوبة أو رز مقلي)، يوم دجاج (بالفرن أو تكا)، يوم لحمة (يخنة أو ميت لوف)، ويوم معكرونة (لازانيا). هيك ما في تكرار.",
+          en: "A rice day (maqluba or fried rice), a chicken day (roast or tikka), a beef day (stew or meatloaf) and a pasta day (lasagna). Nothing repeats.",
+        },
+      },
+      {
+        heading: { ar: "حضّر من الليل", en: "Prep the night before" },
+        body: {
+          ar: "تبّل الدجاج وقطّع الخضار من الليل، وطبخة الغداء بتصير نص الوقت.",
+          en: "Marinate the chicken and chop the vegetables the night before, and lunch takes half the time.",
+        },
+      },
+    ],
+    faq: [
+      {
+        q: { ar: "شو أطبخ على الغداء اليوم؟", en: "What should I cook for lunch today?" },
+        a: { ar: "إذا عندك وقت: المقلوبة أو اللازانيا. إذا مستعجل: الرز المقلي بالدجاج بـ ٢٥ دقيقة.", en: "With time: maqluba or lasagna. In a hurry: chicken fried rice in 25 minutes." },
+      },
+      {
+        q: { ar: "ما أسهل غداء للعائلة؟", en: "What's the easiest family lunch?" },
+        a: { ar: "الدجاج بالفرن: تجهيز قليل والفرن بيشتغل عنك.", en: "Roast chicken: little prep, and the oven does the work." },
+      },
+      {
+        q: { ar: "هل الوصفات حلال؟", en: "Are the recipes halal?" },
+        a: { ar: "نعم، كل الوصفات حلال بدون لحم خنزير وبدون كحول.", en: "Yes — every recipe is halal, with no pork and no alcohol." },
+      },
+    ],
+  },
+  {
+    slug: "easy-home-cooking",
+    cover: "chicken-fajitas",
+    product: "the-edible-codex",
+    eyebrow: { ar: "طبخات", en: "Home Cooking" },
+    title: {
+      ar: "طبخات سهلة وسريعة — طبخات بيتية بأقل من ساعة",
+      en: "Easy Home Cooking — Simple Recipes in Under an Hour",
+    },
+    description: {
+      ar: "طبخات سهلة وسريعة للبيت بمكوّنات موجودة بكل مطبخ: دجاج ماري مي، فاهيتا، تاكو اللحمة، باستا الفيتا، رز مقلي، شوربة عدس ورامن — أغلبها جاهز بأقل من ساعة.",
+      en: "Easy, quick home cooking with what's already in your kitchen: Marry Me Chicken, fajitas, beef tacos, baked feta pasta, fried rice, lentil soup and ramen — most ready in under an hour.",
+    },
+    intro: [
+      {
+        ar: "مش كل يوم في وقت لطبخة كبيرة. هاي طبخات بيتية سهلة: مكوّنات قليلة، خطوات واضحة، وأغلبها بمقلاة وحدة أو صينية وحدة، يعني جلي أقل كمان.",
+        en: "Not every day has time for a big cook. These are easy home dishes: few ingredients, clear steps, mostly one pan or one tray — which also means less washing up.",
+      },
+      {
+        ar: "رتّبناها من الأسرع للأطول، من ١٠ دقائق لساعة.",
+        en: "They run from quickest to longest, from 10 minutes to an hour.",
+      },
+    ],
+    picks: [
+      { recipe: "kylie-jenner-ramen", why: { ar: "١٠ دقائق: رامن بالزبدة والثوم والبيض.", en: "10 minutes: ramen with butter, garlic and egg." } },
+      { recipe: "beef-tacos", why: { ar: "٢٠ دقيقة: تاكو اللحمة المفرومة.", en: "20 minutes: ground beef tacos." } },
+      { recipe: "chicken-fried-rice", why: { ar: "٢٥ دقيقة: رز مقلي من رز البارحة.", en: "25 minutes: fried rice from yesterday's rice." } },
+      { recipe: "marry-me-chicken", why: { ar: "٣٠ دقيقة: دجاج بصلصة كريمية بمقلاة وحدة.", en: "30 minutes: creamy chicken in one pan." } },
+      { recipe: "chicken-fajitas", why: { ar: "٣٥ دقيقة: فاهيتا بالفلفل الملوّن.", en: "35 minutes: fajitas with bright peppers." } },
+      { recipe: "the-original-baked-feta-pasta", why: { ar: "٤٥ دقيقة: باستا الفيتا والفرن بيشتغل عنك.", en: "45 minutes: baked feta pasta — the oven does the work." } },
+      { recipe: "lentil-soup", why: { ar: "ساعة: شوربة عدس دافية ومشبعة.", en: "An hour: warm, filling lentil soup." } },
+    ],
+    tips: [
+      {
+        heading: { ar: "خزانة الطبخ السريع", en: "The quick-cooking cupboard" },
+        body: {
+          ar: "خلي دايماً عندك: رز، معكرونة، عدس، طماطم معلبة، بصل، ثوم، بيض، وجبنة. مع هدول بتطلع أغلب طبخات هالقائمة.",
+          en: "Keep rice, pasta, lentils, canned tomatoes, onions, garlic, eggs and cheese in stock — they cover most dishes on this list.",
+        },
+      },
+      {
+        heading: { ar: "قطّع أول، اطبخ بعدين", en: "Chop first, cook second" },
+        body: {
+          ar: "جهّز كل المكوّنات قبل ما تشعل النار. الطبخ السريع بيصير أسرع لما ما توقف بالنص تقطّع بصلة.",
+          en: "Prep everything before the heat goes on. Quick cooking gets quicker when you never stop halfway to chop an onion.",
+        },
+      },
+    ],
+    faq: [
+      {
+        q: { ar: "ما أسرع طبخة؟", en: "What's the fastest dish here?" },
+        a: { ar: "رامن كايلي جينر بـ ١٠ دقائق، وبعدها تاكو اللحمة بـ ٢٠ دقيقة.", en: "Kylie Jenner's ramen in 10 minutes, then beef tacos in 20." },
+      },
+      {
+        q: { ar: "طبخة بدون لحمة؟", en: "A dish without meat?" },
+        a: { ar: "شوربة العدس وباستا الفيتا المخبوزة.", en: "Lentil soup and baked feta pasta." },
+      },
+      {
+        q: { ar: "طبخة بمقلاة وحدة؟", en: "A one-pan dish?" },
+        a: { ar: "دجاج ماري مي والفاهيتا والرز المقلي.", en: "Marry Me Chicken, fajitas and fried rice." },
+      },
+    ],
+  },
+  {
+    slug: "suhoor-recipes",
+    cover: "bagels",
+    product: "the-edible-codex",
+    eyebrow: { ar: "سحور رمضان", en: "Suhoor" },
+    title: {
+      ar: "أفكار سحور رمضان — أكلات سحور خفيفة ومشبعة",
+      en: "Suhoor Ideas — Light, Filling Ramadan Suhoor Recipes",
+    },
+    description: {
+      ar: "أفكار سحور رمضان خفيفة ومشبعة: غموس الفيتا بالخبز، خبز النان، الفوكاتشا، البيغل، خبز الموز، خبز الذرة والفتوش — وصفات حلال سهلة تتحضّر مسبقاً.",
+      en: "Light, filling Ramadan suhoor ideas: whipped feta with warm bread, naan, focaccia, bagels, banana bread, cornbread and fattoush — easy halal recipes you can prepare ahead.",
+    },
+    intro: [
+      {
+        ar: "السحور لازم يكون خفيف على المعدة ومشبع لساعات، وما في حدا بده يطبخ الساعة ٣ الصبح. لهيك اخترنا أكلات بتتحضّر قبل، أو بتجهز بدقائق.",
+        en: "Suhoor has to be light on the stomach yet keep you full for hours — and nobody wants to cook at 3 a.m. So these are dishes made ahead, or ready in minutes.",
+      },
+      {
+        ar: "الخبز البيتي ملك السحور: بتخبزه بالنهار، وبالسحور بتسخنه وبتقدمه مع الجبنة والسلطة.",
+        en: "Homemade bread rules suhoor: bake it in the day, warm it at night and serve it with cheese and salad.",
+      },
+    ],
+    picks: [
+      { recipe: "whipped-feta-hot-honey-dip", why: { ar: "غموس فيتا مخفوقة بـ ٥ دقائق مع الخبز الدافي.", en: "Whipped feta in 5 minutes with warm bread." } },
+      { recipe: "naan-bread", why: { ar: "خبز نان بالمقلاة بدون خميرة.", en: "Pan naan with no yeast." } },
+      { recipe: "focaccia-bread", why: { ar: "فوكاتشا بزيت الزيتون، تنخبز بالنهار وتتسخن بالسحور.", en: "Olive oil focaccia, baked by day and warmed at suhoor." } },
+      { recipe: "bagels", why: { ar: "بيغل مع الجبنة — مشبع لساعات.", en: "Bagels with cheese — filling for hours." } },
+      { recipe: "fattoush", why: { ar: "سلطة خفيفة ومنعشة قبل الصيام.", en: "A light, fresh salad before the fast." } },
+      { recipe: "banana-bread", why: { ar: "خبز الموز للي بيحب سحور حلو.", en: "Banana bread for a sweeter suhoor." } },
+      { recipe: "cornbread", why: { ar: "خبز الذرة، جاهز بأقل من ساعة وبدون خميرة.", en: "Cornbread, under an hour, no yeast." } },
+    ],
+    tips: [
+      {
+        heading: { ar: "اخبز بالنهار، سخّن بالسحور", en: "Bake by day, warm at suhoor" },
+        body: {
+          ar: "الخبز والفوكاتشا وخبز الموز بيضلوا طيبين ليوم كامل. لفّهم بقماشة، وسخّنهم ٥ دقائق بالفرن قبل السحور.",
+          en: "Bread, focaccia and banana bread keep well for a day. Wrap them in a cloth and warm them for 5 minutes before suhoor.",
+        },
+      },
+      {
+        heading: { ar: "خفّف الملح والسكر", en: "Go easy on salt and sugar" },
+        body: {
+          ar: "الأكل المالح زيادة بيعطّش بالنهار. خليك على الجبنة الخفيفة والخضار والخبز.",
+          en: "Very salty food makes the fast thirstier. Keep to mild cheese, vegetables and bread.",
+        },
+      },
+    ],
+    faq: [
+      {
+        q: { ar: "شو أفضل أكل للسحور؟", en: "What's the best food for suhoor?" },
+        a: { ar: "خبز مع جبنة أو بيض، وخضار أو سلطة. بيشبع لساعات وخفيف على المعدة.", en: "Bread with cheese or eggs, plus vegetables or salad — filling for hours and gentle on the stomach." },
+      },
+      {
+        q: { ar: "شو أحضّر للسحور من قبل؟", en: "What can I prepare for suhoor in advance?" },
+        a: { ar: "الخبز البيتي، الفوكاتشا، خبز الموز وخبز الذرة. كلهم بيتحضّروا بالنهار.", en: "Homemade bread, focaccia, banana bread and cornbread — all made during the day." },
+      },
+      {
+        q: { ar: "متى رمضان ٢٠٢٧؟", en: "When is Ramadan 2027?" },
+        a: { ar: "من المتوقّع أن يبدأ رمضان ١٤٤٨ هـ حوالي ٨ شباط (فبراير) ٢٠٢٧، حسب رؤية الهلال.", en: "Ramadan 1448 AH is expected to begin around 8 February 2027, depending on the moon sighting." },
+      },
+    ],
+  },
+  {
+    slug: "soup-recipes",
+    cover: "pho",
+    product: "the-edible-codex",
+    eyebrow: { ar: "شوربات", en: "Soups" },
+    title: {
+      ar: "شوربات سهلة ودافية — شوربة العدس، الفو، يخنة اللحم ورامن",
+      en: "Soup Recipes — Lentil Soup, Pho, Beef Stew & Ramen",
+    },
+    description: {
+      ar: "أطيب الشوربات للشتاء ورمضان: شوربة العدس، شوربة الفو الفيتنامية، يخنة اللحم بالخضار ورامن البركان بالجبنة — بمقادير دقيقة وخطوات واضحة.",
+      en: "The best soups for winter and Ramadan: hearty lentil soup, Vietnamese pho, beef stew with vegetables and volcano cheese ramen — exact measurements, clear steps.",
+    },
+    intro: [
+      {
+        ar: "الشوربة أول شي بيدفي البيت بالشتا، وأول طبق على سفرة رمضان. هاي شوربات من العالم: العدس العربية، الفو الفيتنامية، واليخنة اللي بتنطبخ على مهل.",
+        en: "Soup is the first thing that warms a house in winter and the first bowl on a Ramadan table. These come from around the world: Arab lentil soup, Vietnamese pho and a slow-cooked stew.",
+      },
+    ],
+    picks: [
+      { recipe: "lentil-soup", why: { ar: "شوربة العدس الكلاسيكية، أول طبق بالإفطار.", en: "Classic lentil soup, the first bowl at iftar." } },
+      { recipe: "pho", why: { ar: "مرق بهارات عطري مع نودلز الأرز وشرائح لحم.", en: "A fragrant spiced broth with rice noodles and thin beef." } },
+      { recipe: "beef-stew", why: { ar: "يخنة لحم بالبطاطا والجزر، دافية ومشبعة.", en: "Beef stew with potatoes and carrots, warm and filling." } },
+      { recipe: "volcano-cheese-ramen", why: { ar: "رامن كوري حار بالجبنة بـ ١٠ دقائق.", en: "Spicy Korean ramen with cheese in 10 minutes." } },
+    ],
+    tips: [
+      {
+        heading: { ar: "المرق هو الشوربة", en: "The broth is the soup" },
+        body: {
+          ar: "حمّر البصل والبهارات قبل ما تحط السائل، وخلي الشوربة تغلي على نار هادية مش قوية. هيك بيطلع المرق غني وصافي.",
+          en: "Brown the onions and spices before the liquid goes in, and keep the soup at a gentle simmer, not a rolling boil. The broth comes out rich and clear.",
+        },
+      },
+      {
+        heading: { ar: "بتطيب تاني يوم", en: "Better the next day" },
+        body: {
+          ar: "الشوربات واليخنات بتطيب أكثر تاني يوم. اطبخ كمية واحفظها بالثلاجة ٣ أيام أو بالفريزر شهر.",
+          en: "Soups and stews taste even better the next day. Cook a batch and keep it 3 days in the fridge or a month in the freezer.",
+        },
+      },
+    ],
+    faq: [
+      {
+        q: { ar: "أسهل شوربة للمبتدئين؟", en: "Easiest soup for beginners?" },
+        a: { ar: "شوربة العدس: مكوّنات بسيطة ونتيجة مضمونة.", en: "Lentil soup: simple ingredients and a sure result." },
+      },
+      {
+        q: { ar: "ما هي شوربة الفو؟", en: "What is pho?" },
+        a: { ar: "شوربة نودلز فيتنامية بمرق لحم متبّل بالبهارات، تُقدّم مع الأعشاب الطازجة والليمون.", en: "A Vietnamese noodle soup in a spiced beef broth, served with fresh herbs and lime." },
+      },
+      {
+        q: { ar: "كم تعيش الشوربة بالثلاجة؟", en: "How long does soup keep in the fridge?" },
+        a: { ar: "حتى ٣ أيام بعلبة مسكّرة، أو حتى شهر بالفريزر.", en: "Up to 3 days in a sealed container, or about a month in the freezer." },
+      },
+    ],
+  },
+  {
+    slug: "breakfast-ideas",
+    cover: "sheet-pan-pancakes",
+    product: "the-edible-codex",
+    eyebrow: { ar: "الفطور", en: "Breakfast" },
+    title: {
+      ar: "أفكار فطور سهلة — بان كيك، سينابون، بيغل وخبز الموز",
+      en: "Breakfast Ideas — Pancakes, Cinnamon Rolls, Bagels & Banana Bread",
+    },
+    description: {
+      ar: "أفكار فطور سهلة لنهاية الأسبوع والعائلة: بان كيك الصينية، البان كيك الياباني، حيلة السينابون، البيغل، البريوش، خبز الموز وقهوة الدالغونا — بخطوات واضحة.",
+      en: "Easy breakfast ideas for weekends and families: sheet pan pancakes, Japanese soufflé pancakes, the cinnamon roll hack, bagels, brioche, banana bread and dalgona coffee — clear steps.",
+    },
+    intro: [
+      {
+        ar: "فطور الجمعة والعطلة بيستاهل شي مميّز: بان كيك لكل العيلة، سينابون طالع من الفرن، أو بيغل طازة. وكلهم أسهل مما بتتوقّع.",
+        en: "A weekend breakfast deserves something special: pancakes for everyone, cinnamon rolls straight from the oven, or fresh bagels — all easier than they look.",
+      },
+      {
+        ar: "في أفكار بتجهز بربع ساعة، وفي أفكار بتتحضّر من الليل.",
+        en: "Some are ready in a quarter of an hour; some are prepared the night before.",
+      },
+    ],
+    picks: [
+      { recipe: "sheet-pan-pancakes", why: { ar: "بان كيك لكل العيلة بصينية وحدة، بدون قلب.", en: "Pancakes for the whole family in one tray, no flipping." } },
+      { recipe: "japanese-souffle-pancakes", why: { ar: "بان كيك ياباني هش ومرتفع.", en: "Tall, airy Japanese soufflé pancakes." } },
+      { recipe: "cinnamon-roll-hack", why: { ar: "سينابون طري بحيلة الكريمة.", en: "Soft cinnamon rolls with the cream trick." } },
+      { recipe: "bagels", why: { ar: "بيغل بيتي بيتسلق ويتخبز.", en: "Homemade bagels, boiled then baked." } },
+      { recipe: "brioche-bread", why: { ar: "بريوش بالزبدة والبيض، مثالي للتوست.", en: "Butter-and-egg brioche, perfect for toast." } },
+      { recipe: "banana-bread", why: { ar: "خبز الموز للفطور مع القهوة.", en: "Banana bread with morning coffee." } },
+      { recipe: "dalgona-coffee", why: { ar: "قهوة الدالغونا المخفوقة بـ ١٠ دقائق.", en: "Whipped dalgona coffee in 10 minutes." } },
+    ],
+    tips: [
+      {
+        heading: { ar: "حضّر من الليل", en: "Start the night before" },
+        body: {
+          ar: "عجينة البريوش والبيغل بترتاح بالثلاجة طول الليل، وبالصبح بس بتخبز. فطور طازة بدون استيقاظ بكير.",
+          en: "Brioche and bagel dough can rest in the fridge overnight, so in the morning you only bake — a fresh breakfast without an early alarm.",
+        },
+      },
+      {
+        heading: { ar: "صينية وحدة للعيلة", en: "One tray for everyone" },
+        body: {
+          ar: "بان كيك الصينية بيخليك تقسم الصينية لزوايا: توت، شوكولاتة، موز. كل واحد بياخد طعمه بنفس الوقت.",
+          en: "Sheet pan pancakes let you split the tray into zones — blueberry, chocolate, banana — so everyone gets their favourite at once.",
+        },
+      },
+    ],
+    faq: [
+      {
+        q: { ar: "ما أسرع فطور؟", en: "What's the quickest breakfast?" },
+        a: { ar: "قهوة الدالغونا بـ ١٠ دقائق، وبان كيك الصينية بـ ٢٥ دقيقة.", en: "Dalgona coffee in 10 minutes, and sheet pan pancakes in 25." },
+      },
+      {
+        q: { ar: "فطور مميّز للضيوف؟", en: "A special breakfast for guests?" },
+        a: { ar: "السينابون والبان كيك الياباني، الاثنين بيبهروا.", en: "Cinnamon rolls and Japanese soufflé pancakes — both impress." },
+      },
+      {
+        q: { ar: "بدون خميرة؟", en: "Without yeast?" },
+        a: { ar: "خبز الموز والبان كيك ما بدهم خميرة.", en: "Banana bread and the pancakes need no yeast." },
+      },
+    ],
+  },
+  {
+    slug: "beef-recipes",
+    cover: "classic-meatloaf",
+    product: "the-edible-codex",
+    eyebrow: { ar: "لحمة", en: "Beef" },
+    title: {
+      ar: "طبخات باللحمة — كبة، لازانيا، تاكو، يخنة وميت لوف",
+      en: "Beef Recipes — Kibbeh, Lasagna, Tacos, Stew & Meatloaf",
+    },
+    description: {
+      ar: "أطيب طبخات اللحمة واللحمة المفرومة: الكبة المقلية، لازانيا الفرن، تاكو اللحمة، تاكو البيريا، يخنة اللحم، ميت لوف وشوربة الفو — وصفات حلال بمقادير دقيقة.",
+      en: "The best beef and ground beef recipes: fried kibbeh, baked lasagna, beef tacos, birria tacos, beef stew, meatloaf and pho — halal recipes with exact measurements.",
+    },
+    intro: [
+      {
+        ar: "اللحمة المفرومة من أكثر المكوّنات اللي بتنطبخ بالبيت: بتصير كبة، لازانيا، تاكو أو ميت لوف. واللحمة القطع بتصير يخنة أو شوربة فو.",
+        en: "Ground beef is one of the most-cooked ingredients at home: kibbeh, lasagna, tacos, meatloaf. Cubed beef becomes stew, sliced beef becomes pho.",
+      },
+      {
+        ar: "كل الوصفات حلال، وفيها الطبخات السريعة والطبخات اللي بتاخد وقتها.",
+        en: "Every recipe is halal, from quick weeknight dishes to slow weekend cooks.",
+      },
+    ],
+    picks: [
+      { recipe: "kibbeh", why: { ar: "كبة مقلية بقشرة برغل وحشوة لحمة.", en: "Fried kibbeh with a bulgur shell and meat filling." } },
+      { recipe: "lasagna-al-forno", why: { ar: "لازانيا بصلصة اللحمة والبشاميل.", en: "Lasagna with meat sauce and béchamel." } },
+      { recipe: "beef-tacos", why: { ar: "تاكو اللحمة المفرومة بـ ٢٠ دقيقة.", en: "Ground beef tacos in 20 minutes." } },
+      { recipe: "quesabirria-tacos", why: { ar: "تاكو البيريا بلحمة مطهوّة ببطء.", en: "Birria tacos with slow-cooked beef." } },
+      { recipe: "beef-stew", why: { ar: "يخنة لحم بالخضار على نار هادية.", en: "Beef stew with vegetables, slow-simmered." } },
+      { recipe: "classic-meatloaf", why: { ar: "ميت لوف بالفرن مع صلصة لامعة.", en: "Baked meatloaf with a glossy glaze." } },
+      { recipe: "pho", why: { ar: "شوربة فو بشرائح لحم رقيقة.", en: "Pho with thin slices of beef." } },
+    ],
+    tips: [
+      {
+        heading: { ar: "حمّر اللحمة صح", en: "Brown the beef properly" },
+        body: {
+          ar: "سخّن المقلاة منيح، وحمّر اللحمة على دفعات حتى ما تنسلق بعصارتها. التحمير هو اللي بيعطي الطعم.",
+          en: "Get the pan hot and brown the beef in batches so it sears instead of stewing in its juices. The browning is where the flavour comes from.",
+        },
+      },
+      {
+        heading: { ar: "القطعة المناسبة", en: "The right cut" },
+        body: {
+          ar: "لليخنة استعمل قطعة فيها دهن وأنسجة متل الكتف، لأنها بتطرى مع الطبخ الطويل. وللمفرومة خلي فيها شوية دهن حتى ما تنشف.",
+          en: "For stew use a cut with some fat and connective tissue, like chuck, which softens with long cooking. For mince, keep a little fat so it doesn't dry out.",
+        },
+      },
+    ],
+    faq: [
+      {
+        q: { ar: "شو أطبخ باللحمة المفرومة؟", en: "What can I make with ground beef?" },
+        a: { ar: "كبة، لازانيا، تاكو، أو ميت لوف. كلهم بهالصفحة.", en: "Kibbeh, lasagna, tacos or meatloaf — all on this page." },
+      },
+      {
+        q: { ar: "كيف تصير اللحمة طرية باليخنة؟", en: "How do I get tender beef in a stew?" },
+        a: { ar: "نار هادية ووقت طويل، تقريباً ساعتين لثلاث، بقطعة متل الكتف.", en: "Low heat and time — about two to three hours — with a cut like chuck." },
+      },
+      {
+        q: { ar: "هل الوصفات حلال؟", en: "Are the recipes halal?" },
+        a: { ar: "نعم، كلها حلال بدون لحم خنزير وبدون كحول.", en: "Yes — all halal, with no pork and no alcohol." },
+      },
+    ],
+  },
+  {
+    slug: "dinner-party-recipes",
+    cover: "sushi-bake",
+    product: "the-edible-codex",
+    eyebrow: { ar: "عزايم", en: "Gatherings" },
+    title: {
+      ar: "أكلات عزايم — أطباق رئيسية ومقبلات وحلويات للضيوف",
+      en: "Dinner Party Recipes — Mains, Starters & Desserts for Guests",
+    },
+    description: {
+      ar: "أفكار أكلات عزايم بتبيّض الوجه: المقلوبة، الكبة، الدجاج بالفرن، السوشي المخبوز، كيكة الباستا خلية النحل، روبيان بانغ بانغ، الكرينكل كيك وتيراميسو اللوتس.",
+      en: "Dinner party recipes that impress: maqluba, kibbeh, roast chicken, sushi bake, honeycomb pasta pie, bang bang shrimp, crinkle cake and Biscoff tiramisu.",
+    },
+    intro: [
+      {
+        ar: "العزيمة بدها أطباق بتنعمل بكميات، بتتحضّر قبل، وبتبيّض الوجه على الطاولة. هاي قائمة كاملة: مقبلات، أطباق رئيسية، وحلو، وأغلبها بيتجهّز قبل وصول الضيوف.",
+        en: "A gathering needs dishes that scale, can be made ahead and look spectacular on the table. Here's a full menu — starters, mains and dessert — most of it ready before the guests arrive.",
+      },
+    ],
+    picks: [
+      { recipe: "kibbeh", why: { ar: "مقبلات: كبة مقلية بتخلص أول شي.", en: "Starter: fried kibbeh, always first to go." } },
+      { recipe: "bang-bang-shrimp", why: { ar: "مقبلات: روبيان مقرمش بصلصة حلوة حارة.", en: "Starter: crispy shrimp in a sweet-spicy sauce." } },
+      { recipe: "maqluba", why: { ar: "رئيسي: المقلوبة بتنقلب قدام الضيوف.", en: "Main: maqluba, flipped in front of the guests." } },
+      { recipe: "roast-chicken", why: { ar: "رئيسي: دجاج كامل بالفرن.", en: "Main: a whole roast chicken." } },
+      { recipe: "sushi-bake", why: { ar: "رئيسي: سوشي مخبوز بصينية للمشاركة.", en: "Main: a sushi bake tray for sharing." } },
+      { recipe: "honeycomb-pasta-pie", why: { ar: "رئيسي: باستا بتتقطّع كالكيك.", en: "Main: pasta sliced like a cake." } },
+      { recipe: "crinkle-cake", why: { ar: "حلو: كرينكل كيك بالقطر.", en: "Dessert: crinkle cake in syrup." } },
+      { recipe: "biscoff-tiramisu", why: { ar: "حلو: تيراميسو اللوتس، بيتحضّر قبل يوم.", en: "Dessert: Biscoff tiramisu, made the day before." } },
+    ],
+    tips: [
+      {
+        heading: { ar: "جدول العزيمة", en: "The party timeline" },
+        body: {
+          ar: "قبل يوم: التيراميسو وحشوة الكبة. الصبح: جهّز المقلوبة والسلطات. قبل ساعة: الدجاج بالفرن. آخر ربع ساعة: قلي الكبة والروبيان حتى يوصلوا مقرمشين.",
+          en: "The day before: tiramisu and the kibbeh filling. Morning: assemble the maqluba and salads. An hour out: the chicken goes in. Last fifteen minutes: fry the kibbeh and shrimp so they arrive crisp.",
+        },
+      },
+      {
+        heading: { ar: "كم كمية؟", en: "How much to make" },
+        body: {
+          ar: "احسب طبق رئيسي لكل ٤ لـ ٦ أشخاص، ومقبلات بقطعتين لـ ٣ قطع للشخص.",
+          en: "Plan one main for every 4 to 6 guests, and 2 to 3 pieces of each starter per person.",
+        },
+      },
+    ],
+    faq: [
+      {
+        q: { ar: "شو أطبخ لعزيمة؟", en: "What should I cook for a dinner party?" },
+        a: { ar: "طبق رئيسي متل المقلوبة أو الدجاج بالفرن، مع كبة وسلطة، وتيراميسو اللوتس للحلو.", en: "A main like maqluba or roast chicken, with kibbeh and a salad, and Biscoff tiramisu for dessert." },
+      },
+      {
+        q: { ar: "شو بتحضّر قبل يوم؟", en: "What can be made the day before?" },
+        a: { ar: "التيراميسو، حشوة الكبة، والسلطات اللي ما فيها خس.", en: "The tiramisu, the kibbeh filling and salads without lettuce." },
+      },
+      {
+        q: { ar: "عزيمة بميزانية قليلة؟", en: "A party on a budget?" },
+        a: { ar: "المقلوبة بالدجاج وكيكة الباستا خلية النحل بيكفّوا عدد كبير بتكلفة قليلة.", en: "Chicken maqluba and the honeycomb pasta pie feed a crowd for little cost." },
       },
     ],
   },
