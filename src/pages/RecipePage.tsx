@@ -12,6 +12,7 @@ import { useLang } from "@/i18n/LanguageContext";
 import { accentHex, getRecipe, recipePhoto, recipes, recipeText } from "@/data/recipe-library";
 import { getProduct } from "@/data/products";
 import { site } from "@/data/site";
+import { recipeSeo } from "@/data/recipe-seo";
 
 const RecipePage = () => {
   const { slug } = useParams();
@@ -47,13 +48,15 @@ const RecipePage = () => {
   const text = recipeText(recipe, lang);
   const flow = lang === "ar" ? "rtl" : "ltr";
   const at = recipes.findIndex((r) => r.slug === recipe.slug);
+  // The search-result title and description, written around what people type.
+  const seo = recipeSeo[recipe.slug];
   const related = [1, 2, 3].map((step) => recipes[(at + step) % recipes.length]);
 
   return (
     <>
       <Seo
-        title={lang === "ar" ? `طريقة عمل ${L(recipe.title)}` : L(recipe.title)}
-        description={`${L(recipe.subtitle)} · ${recipe.time} · ${t("seo.recipeSuffix")}`}
+        title={seo ? L(seo.title) : lang === "ar" ? `طريقة عمل ${L(recipe.title)}` : L(recipe.title)}
+        description={seo ? L(seo.description) : `${L(recipe.subtitle)} · ${recipe.time} · ${t("seo.recipeSuffix")}`}
         image={photo ?? undefined}
         jsonLd={recipeGraph({
           trail: [

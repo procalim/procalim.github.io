@@ -77,7 +77,7 @@ const imageFor = (route) => {
  */
 const vite = await createServer({ server: { middlewareMode: true }, appType: "custom", logLevel: "error" });
 const load = (file) => vite.ssrLoadModule(file);
-const [{ recipes, recipeText }, { products }, { videos }, schema, { dictionary }, { policies }, { guides }] = await Promise.all([
+const [{ recipes, recipeText }, { products }, { videos }, schema, { dictionary }, { policies }, { guides }, { recipeSeo }] = await Promise.all([
   load("/src/data/recipe-library.ts"),
   load("/src/data/products.ts"),
   load("/src/data/videos.ts"),
@@ -85,6 +85,7 @@ const [{ recipes, recipeText }, { products }, { videos }, schema, { dictionary }
   load("/src/i18n/dictionary.ts"),
   load("/src/data/policies.ts"),
   load("/src/data/guides.ts"),
+  load("/src/data/recipe-seo.ts"),
 ]);
 // A guide's picture is its cover recipe's photograph. صورة الدليل صورة وصفته.
 const guideCover = new Map(guides.map((g) => [g.slug, hashed(g.cover)]));
@@ -422,8 +423,16 @@ const render = (route, lang) => {
   const { ar, en } = alternates(route);
   const url = lang === "en" ? en : ar;
   const meta = lang === "en" ? englishMeta(route) : null;
-  const title = escape(meta ? `${meta.title} | The Edible Codex` : pageTitle(route));
-  const description = escape(meta ? meta.description : route.description);
+  // A recipe's search-result title and description, written around the
+  // words people type (recipe-seo.ts). عنوان ووصف نتيجة البحث للوصفة.
+  const [, section, slug] = route.path.split("/");
+  const seo = section === "recipes" && slug ? recipeSeo[slug] : null;
+  const title = escape(
+    seo
+      ? `${seo.title[lang]} | ${lang === "en" ? "The Edible Codex" : "ذا إديبل كودكس"}`
+      : meta ? `${meta.title} | The Edible Codex` : pageTitle(route),
+  );
+  const description = escape(seo ? seo.description[lang] : meta ? meta.description : route.description);
   const image = origin + (imageFor(route) ?? "/brand/logo-square.jpg");
 
   let html = withFallback(template, route, lang);

@@ -397,7 +397,7 @@ export const guides: Guide[] = [
     picks: [
       { recipe: "maqluba", why: { ar: "الطبق الذي يُقلب أمام الضيوف — السر في ترتيب الطبقات وراحة القدر قبل القلب.", en: "The dish flipped in front of guests — the secret is the layering and resting the pot before it turns." } },
       { recipe: "kibbeh", why: { ar: "كبة مقلية بقشرة برغل رقيقة وحشوة لحمة غنية.", en: "Fried kibbeh with a thin bulgur shell and a rich meat filling." } },
-      { recipe: "fattoush", why: { ar: "سلطة الخبز المحمّص بالسماق ودبس الرمان — رفيقة كل سفرة.", en: "Toasted bread salad with sumac and pomegranate molasses — on every table." } },
+      { recipe: "fattoush", why: { ar: "سلطة الخضار والخبز المقرمش بصلصة السماق والليمون — رفيقة كل سفرة.", en: "Crisp pita and vegetables in a sumac-lemon dressing — on every table." } },
       { recipe: "lentil-soup", why: { ar: "شوربة العدس الكلاسيكية — أول طبق على سفرة الإفطار.", en: "Classic lentil soup — the first bowl of the evening." } },
       { recipe: "crinkle-cake", why: { ar: "حلوى فيلو مجعّدة بالقطر، سهلة وتبهر الضيوف.", en: "Crinkled phyllo soaked in syrup, easy and impressive." } },
       { recipe: "dubai-pistachio-kunafa-chocolate", why: { ar: "الكنافة والفستق بشوكولاتة — أشهر حلوى عربية بالعالم اليوم.", en: "Kunafa and pistachio in chocolate — the world's most famous Arab dessert right now." } },
