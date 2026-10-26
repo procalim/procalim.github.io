@@ -132,9 +132,9 @@ export const recipeSeo: Record<string, RecipeSeo> = {
     },
   },
   "volcano-cheese-ramen": {
-    title: { ar: "طريقة عمل رامن البركان بالجبنة — نودلز الإندومي", en: "Volcano Cheese Ramen Recipe — Instant Noodle Upgrade" },
+    title: { ar: "طريقة عمل رامن البركان بالجبنة — نودلز كورية حارة", en: "Volcano Cheese Ramen Recipe — Instant Noodle Upgrade" },
     description: {
-      ar: "طريقة عمل رامن البركان بالجبنة: نودلز إندومي تتحوّل إلى طبق مطعم حار وجبنة ذائبة في ١٠ دقائق.",
+      ar: "طريقة عمل رامن البركان بالجبنة: نودلز كورية جاهزة تتحوّل إلى طبق مطعم حار وجبنة ذائبة في ١٠ دقائق.",
       en: "Volcano cheese ramen recipe: instant noodles turned into a spicy, cheesy restaurant bowl in 10 minutes.",
     },
   },

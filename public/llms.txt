@@ -27,6 +27,14 @@
 - [Easy dessert recipes](https://ediblecodex.com/en/guides/easy-dessert-recipes/)
 - [Pasta & noodle recipes](https://ediblecodex.com/en/guides/pasta-and-noodle-recipes/)
 - [Ramadan iftar recipes](https://ediblecodex.com/en/guides/ramadan-iftar-recipes/)
+- [Salad recipes](https://ediblecodex.com/en/guides/salad-recipes/)
+- [Lunch ideas](https://ediblecodex.com/en/guides/lunch-ideas/)
+- [Easy home cooking](https://ediblecodex.com/en/guides/easy-home-cooking/)
+- [Ramadan suhoor ideas](https://ediblecodex.com/en/guides/suhoor-recipes/)
+- [Soup recipes](https://ediblecodex.com/en/guides/soup-recipes/)
+- [Breakfast ideas](https://ediblecodex.com/en/guides/breakfast-ideas/)
+- [Beef recipes](https://ediblecodex.com/en/guides/beef-recipes/)
+- [Dinner party recipes](https://ediblecodex.com/en/guides/dinner-party-recipes/)
 - [أدلة الطبخ بالعربية](https://ediblecodex.com/guides/): the same guides in Arabic.
 
 ## Videos
