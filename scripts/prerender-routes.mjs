@@ -156,6 +156,10 @@ for (const lang of LANGS) {
 }
 
 for (const lang of LANGS) {
+  structuredData.set(at("/", lang), schema.homeGraph({ description: say("hero.subtitle", lang), lang, path: at("/", lang) }));
+}
+
+for (const lang of LANGS) {
   const home = { name: say("nav.home", lang), path: at("/", lang) };
   for (const guide of guides) {
     structuredData.set(at(`/guides/${guide.slug}`, lang), schema.guideGraph({

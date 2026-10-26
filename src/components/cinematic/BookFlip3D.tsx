@@ -253,6 +253,9 @@ const BookFlip3D = ({ headingLevel = "h2" }: { headingLevel?: "h1" | "h2" }) => 
               </span>
             </span>
           </Heading>
+          {/* The way to buy, there from the first second, not only after the
+              last page; it steps aside with the headline as the cover opens. */}
+          {flagship && <BuyButton product={flagship} withPrice className="mt-4 min-h-[44px] px-6 py-2.5 text-[12px]" />}
         </div>
 
         {/* The book */}

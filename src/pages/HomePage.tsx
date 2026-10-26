@@ -1,6 +1,7 @@
 import { Link } from "@/components/LocalLink";
 import { ArrowRight, BookOpen, ChefHat, Check, ChevronsLeftRight, Droplets, Infinity as InfinityIcon, Quote, Star } from "lucide-react";
 import Seo from "@/components/Seo";
+import { homeGraph } from "@/lib/structured-data";
 import { localePath } from "@/i18n/locale-path";
 import SectionHeading from "@/components/SectionHeading";
 import TrustStrip from "@/components/TrustStrip";
@@ -35,25 +36,7 @@ const HomePage = () => {
       <Seo
         title={t("seo.home.title")}
         description={t("seo.home.desc")}
-        jsonLd={{
-          "@context": "https://schema.org",
-          // An online shop, not a shop front: "Store" is a local business to
-          // Google, which then asks for a street address and opening hours.
-          "@type": "OnlineStore",
-          name: site.brand.name,
-          description: t("hero.subtitle"),
-          url: `${site.url}${localePath("/", lang)}`,
-          logo: `${site.url}/brand/logo-square.jpg`,
-          image: `${site.url}/brand/logo-square.jpg`,
-          founder: { "@type": "Person", name: site.brand.chefEn },
-          telephone: site.contact.phoneDisplay,
-          address: { "@type": "PostalAddress", addressLocality: "Amman", addressCountry: "JO" },
-          sameAs: [site.social.instagram],
-          // The clips' VideoObject markup lives on their watch pages, not here:
-          // Google treats a video as supplementary wherever the page is about
-          // something else, and refuses to index it.
-          // بيانات الفيديو على صفحات المقاطع، لأن جوجل لا يفهرسها هنا.
-        }}
+        jsonLd={homeGraph({ description: t("hero.subtitle"), lang, path: localePath("/", lang) })}
       />
 
       {/* ── HERO · the book in 3D, opened and turned by the scroll ── */}
