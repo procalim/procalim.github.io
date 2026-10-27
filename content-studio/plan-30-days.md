@@ -42,3 +42,19 @@ Skip 47% -> 33% or less; avg watch 6.5 s -> 9 s; follows per 1,000 reach 1 -> 2.
 ## Still needed from the owner
 Whop sales and checkout visits for the last 30 days; ChatPlace DM and click counts (ChatPlace needs to be
 re-authorised in claude.ai connector settings); Genjutsu Lite generations per month on his plan (balance 27.72).
+
+## Test 1 (owner's call, 2026-10-27): one reel first, then decide
+The owner makes one week-1 reel and reads its numbers before anything else is produced. Thresholds were set
+before posting, from the account's own data, so the result cannot be argued after the fact:
+| metric (24 h) | pass | account now |
+|---|---|---|
+| skip rate | 33% or less (top-10 average 32%) | 47% (last 2 weeks) |
+| average watch | 9 s or more on a 15 s reel | 6.5 s |
+| watched to the end (retention graph) | 45% or more | about 20-35% |
+| shares per 1,000 reach | 3 or more | about 3 on good reels |
+| saves per 1,000 reach | 5 or more | 4.4 median of the last 40 |
+Pass on skip and average watch: keep the plan and make the next reel. Pass on skip only: the opening works, the
+middle does not; fix the middle before the next reel. Fail on skip: stop, research competitors within 10x of the
+account (ig-viral), rebuild the plan from that and the skills, and check everything again before spending credits.
+Insights come from Composio (views, reach, skip, average watch, shares, saves); completion comes from the owner's
+retention-graph screenshot.
