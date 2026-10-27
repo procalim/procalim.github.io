@@ -163,6 +163,13 @@ Lesson (giant pancake): the generated clip was silent in its last 0.8 s; moving 
 start made the molten reveal silent at 0.5-1.0 s. The check caught it; the fix was the knife sound
 from the same shot.
 
+## Account audit (2026-10-27, Instagram Insights via Composio)
+Last 29 days: 450K reach, +438 follows (43 unfollows), 5,613 profile views, 43 link clicks: about 1 follow per
+1,000 reached, 7.8% of profile visitors follow, 0.8% tap the link. That is a profile problem, not a hook problem.
+Last 40 reels: top 10 skip 32% / 9.2 s, bottom 10 skip 52% / 5.9 s. Views halved from September to late October
+while posting daily, so volume is not the lever. Arab dishes and trend desserts are the outliers (Crinkle 153x,
+Mansaf 15x, Shawarma 3.6x; tanghulu best sends). The 30-day plan built on this is in content-studio/plan-30-days.md.
+
 ## Target audience (owner's call, 2026-10-21)
 The buyer is the home cook, mostly women. Composio insights (this_month, 2026-10-21): reached
 audience 76% women of known gender (F 176,976 / M 54,387), engaged 79% women, ages 25-34 then
