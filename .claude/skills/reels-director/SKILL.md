@@ -163,6 +163,27 @@ Lesson (giant pancake): the generated clip was silent in its last 0.8 s; moving 
 start made the molten reveal silent at 0.5-1.0 s. The check caught it; the fix was the knife sound
 from the same shot.
 
+## Before every generation (owner's rule, 2026-10-27; also when the owner generates himself)
+Nothing is generated, and no prompt is handed over for generation, until this check is done and its table is
+shown to the owner:
+1. Read `content-studio/generation-log.md` and `content-studio/hook-log.md` first. Every check line in the
+   generation log applies to the new prompt.
+2. Re-read the book page; table "book step -> shot"; every step once, in order, nothing added.
+3. Food lock: shape, size and count in every shot; AVOID lists the wrong shapes; counts match between the lock
+   and the shots; fillings stay where the book puts them.
+4. Physics a viewer would call out (hot trays, leaking fillings, impossible moves), at most ~2 actions per
+   second of a shot, the loop seam shows the same state as frame one.
+5. Halal, including extracts and sauces; identity block; no text, logos or packaging in the prompt.
+6. Instagram skills: ig-reel shape (motion in frame one, hook done by 3 s, no beat over 4 s, payoff in the last
+   3 s, the last card echoes a word of the hook), hook loop with hookscore 85+ on every card, hook-log rules.
+7. Exact price from `generate_video` with `get_cost: true` for the model, duration and resolution the owner chose.
+
+## After every generation (success or errors)
+Add a row to `content-studio/generation-log.md`: what came out right, every error with its time and frame, the
+cause, and the prompt change that prevents it; a new kind of error also becomes a new check line there. After
+24 h add the numbers (skip, average watch, watched to the end, shares and saves per 1,000 reach) against the
+test thresholds in `content-studio/plan-30-days.md`.
+
 ## Account audit (2026-10-27, Instagram Insights via Composio)
 Last 29 days: 450K reach, +438 follows (43 unfollows), 5,613 profile views, 43 link clicks: about 1 follow per
 1,000 reached, 7.8% of profile visitors follow, 0.8% tap the link. That is a profile problem, not a hook problem.
@@ -177,6 +198,10 @@ audience 76% women of known gender (F 176,976 / M 54,387), engaged 79% women, ag
 so still ask for each reel's Audience tab (gender, non-followers) after 24 h and log the women %.
 Per-reach shares and saves of normal reels match or beat the Crinkle Cake (e.g. Apple Tart 0.81%
 shares/reach vs 0.28%); the gap is distribution, and outliers had skip rate at or under ~33%.
+Owner's call (2026-10-27): about half of the Arab audience is fluent in English, and the buyers come from that
+half (the book is an English digital download bought online; people who do not read English or do not buy
+online are not buyers). So reach comes from Arab dishes and Arabic hooks, sales from English: cards are a big
+Arabic line with a small English line under it, captions English first, DMs and the profile bilingual.
 
 ## Every delivered video comes with the full package
 Download link, then in this order: SEO title, recipe verbatim from the book (English and the
