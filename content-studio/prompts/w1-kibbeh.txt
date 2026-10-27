@@ -1,0 +1,68 @@
+Kibbeh (Fried Bulgur & Meat Croquettes): book HOT APPETIZERS N° 01, page 55. Week 1 of the 30-day plan, series A «أكلاتنا».
+Seedance 2.5 omni_reference, 15 s, 9:16. @Image1 = the owner's face photo. Written with the cookcut method (state map,
+chronological opening, camera trajectories, spectacle peaks, silent lock) inside the reels-director 15 s punch format.
+
+BOOK STEP -> SHOT
+01 Process shell ingredients to a fine paste          -> shots 1-3 (0.0-3.0 s)
+02 Saute filling ingredients until browned             -> shots 4-5 (3.0-5.6 s)
+03 Form torpedo shapes: flatten, stuff, seal           -> shots 6-8 (5.6-9.0 s)
+04 Deep-fry at 350°F (175°C) until deep brown          -> shots 9-10 (9.0-12.0 s)
+(template) one real bite, then the loop                -> shots 11-12 (12.0-15.0 s)
+Not in the book and not shown: no sauce, no plate garnish, no salad, no lemon.
+
+===== PROMPT =====
+SCENE CONTEXT: A vertical 9:16 hyper-dynamic cinematic cooking commercial for Kibbeh (fried bulgur and meat croquettes), exactly 15 seconds, cut like a trailer. Most shots are 0.5 to 1.5 seconds and none is longer than 1.8 seconds, hard cuts on the beat, relentless forward momentum. A high-impact PUNCH lands at 0s, 3s, 6s, 9s and 12s, each as strong as the opening. Dark black luxury kitchen, black stone counter, black pan, black food processor.
+
+REFERENCE CONTROL: The man in @Image1 is the cook, exactly his face: Middle Eastern man, early 30s, thick mustache, no beard, brown aviator glasses, thin gold chain, plain white t-shirt under a black apron with brown leather straps, black nitrile gloves on both hands at all times. His face appears only in motion, never in a still shot. He never speaks.
+
+RECIPE (follow exactly, every step once, in this order, nothing added):
+Kibbeh (Fried Bulgur & Meat Croquettes)
+INGREDIENTS
+— 1½ cups Fine Bulgur
+— 450g Lean Ground Lamb or Beef (shell)
+— Onion
+— Allspice
+— Salt
+— Pepper | Filling: Ground Lamb
+— Pine Nuts
+— Allspice
+— Olive Oil
+METHOD
+01 Process shell ingredients to a fine paste.
+02 Saute filling ingredients until browned.
+03 Form torpedo shapes: flatten shell mixture, stuff with filling, seal.
+04 Deep-fry at 350°F (175°C) until deep brown and cooked through.
+All meat is halal lamb or beef, no pork.
+
+FOOD SHAPES (the same in every shot, never change): the shell is a smooth fine beige-pink paste. The filling is crumbly browned ground lamb with golden pine nuts. The finished kibbeh are exactly 6 torpedo shapes, each about 9 cm long and 4 cm thick, with two pointed ends and a smooth surface that fries to a deep brown ridged crust. Never round balls, never flat patties, never discs, never falafel, never meatballs in sauce.
+
+PROCESS ORDER / NON-REPETITION LOCK: raw shell ingredients -> fine paste -> filling browned -> torpedoes shaped and sealed -> deep-fried deep brown -> bitten. Every stage happens once and only moves forward. The finished kibbeh never appear before shot 10.
+
+HERO + ENERGY PRIORITY: frame one is already violent action. Something new happens every second. No two calm shots in a row.
+
+SHOT 01 — 0.0-0.8s PUNCH 1: The cook slams the black food processor lid down on raw ground lamb, chopped onion and fine bulgur; the blade roars and the mixture whips around. The camera rides down with the lid (object-lock), then shakes on impact.
+SHOT 02 — 0.8-1.8s: Extreme macro: allspice, salt and black pepper fall into the spinning mixture, the grains vanishing into it. Fast speed ramp.
+SHOT 03 — 1.8-3.0s: Fast pull-back from the bowl to a medium hero frame as the cook lifts the lid and scoops out the smooth fine beige-pink paste with one gloved hand.
+SHOT 04 — 3.0-4.2s PUNCH 2: Low object-level angle at the rim of a black pan: ground lamb hits hot olive oil, oil spits toward the lens, a handful of pine nuts and a pinch of allspice land in the same instant. Heavy motion blur.
+SHOT 05 — 4.2-5.6s: True 90° top-down: compressed time as the filling turns from pink to deep brown and the pine nuts turn golden, the cook tossing the pan once.
+SHOT 06 — 5.6-6.6s PUNCH 3: Whip-pan to the black board: the gloved palm flattens a piece of shell paste into a thin cup in one firm press, and a spoon drops browned filling into it.
+SHOT 07 — 6.6-7.8s: Close action: the fingers close the cup around the filling, seal it and roll it into a torpedo with two pointed ends.
+SHOT 08 — 7.8-9.0s: Worksurface skim along the board that rises to reveal exactly 6 sealed raw torpedoes in a row, the cook placing the sixth.
+SHOT 09 — 9.0-10.2s PUNCH 4: Camera at the surface of deep oil: the torpedoes are lowered in with a slotted spoon and the oil erupts into violent bubbling toward the lens.
+SHOT 10 — 10.2-12.0s: Compressed time in the oil, beige turning deep brown; the slotted spoon lifts the 6 deep brown torpedoes out, oil dripping in a short slow-motion accent.
+SHOT 11 — 12.0-13.6s PUNCH 5: Hard cut to a front medium shot: the cook takes one big real bite of one torpedo, the crust cracks loudly, steam escapes and the browned lamb and pine nut filling is clearly visible inside. The kibbeh is clearly missing a bite. Mouth opens only for the bite.
+SHOT 12 — 13.6-15.0s: The cook grabs the food processor lid again and lifts it high, ready to slam, the motion continuing into the opening shot so the video loops. No cut to black.
+
+HERO PERFORMANCE: an expert under pressure; whole-body cause and effect from hand to shoulder; two short task-driven accents only (the lid slam, the pan toss). No posing, no presenting to camera.
+
+SCALE RHYTHM + CAMERA TRAJECTORIES + SPEED: wide -> macro -> hero -> low -> top-down -> close -> skim -> surface -> medium. One true 90° top-down (shot 05), two extreme macros (shots 02 and 09). Every move has a start, a path and an end. Speed alternates between real-time impacts, speed ramps, one slow-motion accent and two compressed-time transformations.
+
+SILENT PERFORMANCE LOCK: completely nonverbal. No voice, no talking, no lip movement, no reactions.
+
+CONTINUITY + PHYSICS: the food keeps its exact shape and count from shot to shot; real gravity, real oil behaviour, real steam.
+
+LIGHTING: high contrast, the kitchen falling to pure black, hard warm tungsten key light 2700 K raking from camera left, deep shadows, macro on textures, heavy motion blur on fast movement, handheld shake on every impact, natural colours.
+
+AUDIO: heavy bass hit on every PUNCH, real cooking sounds on every action (processor roar, oil hiss, the crust crack as the loudest moment). No music, no voice, no whooshes.
+
+AVOID: the food changing shape or number, round balls, flat patties, discs, falafel, sauce, salad, lemon, plates with garnish, bare hands, a still shot of the face, talking, cut to black, fade out, ending on a still, shots longer than 1.8 seconds, pork, bacon, alcohol, packaging, logos, text, extra fingers, deformed hands, distorted face.

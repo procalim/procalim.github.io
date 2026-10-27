@@ -1,0 +1,75 @@
+Viral "Pan-banging" Chocolate Chip Cookies: book N° 120, pages 269-270. Week 1 of the 30-day plan, series B «حلويات الترند».
+Seedance 2.5 omni_reference, 15 s, 9:16. @Image1 = the owner's face photo.
+
+BOOK STEP -> SHOT
+01 Preheat 350°F; foil, dull side up, no parchment       -> shot 1 (0.0-0.7 s)
+02 Brown the butter; cool; whisk sugars, egg, vanilla    -> shots 2-3 (0.7-3.0 s)
+03 Flour and baking soda; fold in the chunks             -> shot 4 (3.0-4.2 s)
+04 Large balls (3 tbsp); freeze 15 minutes               -> shot 5 (4.2-5.4 s)
+05-06 3 balls on the sheet; bake 10 minutes              -> shot 6 (5.4-6.4 s)
+07 The hack: lift and drop the sheet (bang 1)            -> shot 7 (6.4-7.8 s)
+08 Bake 2 more, bang again, 2 more times (bangs 2-4)     -> shot 8 (7.8-9.4 s)
+09 Sea salt, cool, crispy rippled edges                  -> shot 9 (9.4-11.0 s)
+(template) one real bite, the bitten cookie, the loop   -> shots 10-12 (11.0-15.0 s)
+Note for the owner: the book has 1 tsp vanilla extract, which contains alcohol. The prompt keeps the book word for word.
+
+===== PROMPT =====
+SCENE CONTEXT: A vertical 9:16 hyper-dynamic cinematic baking commercial for pan-banging chocolate chunk cookies, exactly 15 seconds, cut like a trailer. Most shots are 0.5 to 1.5 seconds and none is longer than 1.8 seconds, hard cuts on the beat, relentless forward momentum. A high-impact PUNCH lands at 0s, 3s, 6s, 9s and 12s. Dark black luxury kitchen, black stone counter, black oven with a glass door, black mixing bowl.
+
+REFERENCE CONTROL: The man in @Image1 is the baker, exactly his face: Middle Eastern man, early 30s, thick mustache, no beard, brown aviator glasses, thin gold chain, plain white t-shirt under a black apron with brown leather straps, black nitrile gloves on both hands at all times. His face appears only in motion, never in a still shot. He never speaks.
+
+RECIPE (follow exactly, every step once, in this order, nothing added):
+Viral "Pan-banging" Chocolate Chip Cookies
+INGREDIENTS
+— 1/2 cup Unsalted Butter
+— 3/4 cup Brown Sugar
+— 1/4 cup Granulated Sugar
+— 1 Egg
+— 1 tsp Vanilla extract
+— 1 cup All-purpose Flour
+— 1/2 tsp Baking soda
+— 1 cup High-quality Chocolate Chunks (not chips)
+— Flaky Sea Salt
+METHOD
+01 Preheat oven to 350°F (175°C). Line a baking sheet with aluminum foil (dull side up)—do not use parchment paper for this technique.
+02 Melt the butter in a pan until it browns slightly and smells nutty. Let it cool slightly, then whisk vigorously with both sugars, the egg, and vanilla until smooth.
+03 Stir in the flour and baking soda until just combined. Fold in the chocolate chunks.
+04 Form into large balls (about 3 tbsp each). Freeze the dough balls for 15 minutes.
+05 Place 3-4 balls on the baking sheet with plenty of space between them.
+06 Bake for 10 minutes.
+07 The Hack: Open the oven door, lift the baking sheet a few inches, and let it drop heavily against the oven rack. The cookies will deflate and ripple.
+08 Close the door, bake 2 more minutes, and bang the pan again. Repeat this 2 more times (total baking time 16-18 minutes).
+09 Remove, sprinkle with sea salt, and let cool completely to reveal the crispy, rippled edges!
+
+FOOD SHAPES (the same in every shot, never change): exactly 3 large dough balls, each about 5 cm across, studded with big irregular chocolate chunks, never small chips. On the foil they spread into exactly 3 wide flat round cookies, each about 11 cm across, with a gooey center and concentric crispy rippled rings around the edge; every bang adds one more visible ring. The sheet is lined with crinkled aluminum foil, dull side up, never parchment paper.
+
+PROCESS ORDER / NON-REPETITION LOCK: foil-lined sheet -> browned butter -> smooth dough -> chunks folded in -> frozen balls -> baking -> bang 1 -> bangs 2 to 4 -> salted and cooled -> bitten. The 4 bangs are the book's own steps 07 and 08; each one leaves more rings than the last, so the state always moves forward. The finished rippled cookies never appear before shot 9.
+
+HERO + ENERGY PRIORITY: frame one is already action. Something new happens every second. No two calm shots in a row.
+
+SHOT 01 — 0.0-0.7s PUNCH 1: The baker rips a sheet of aluminum foil off the roll with a loud tear and slaps it dull side up onto a black baking sheet; the camera, locked to the sheet, jolts on impact.
+SHOT 02 — 0.7-1.8s: Low angle at the rim of a black pan: a block of butter hits the heat and foams, then turns golden brown with dark specks; fast speed ramp.
+SHOT 03 — 1.8-3.0s: Fast push into the black bowl: the brown butter pours over brown and white sugar, an egg cracked in one-handed, a spoon of vanilla, the whisk attacking it until smooth and glossy.
+SHOT 04 — 3.0-4.2s PUNCH 2: True 90° top-down: flour and baking soda snow down onto the glossy mixture, then big chocolate chunks cascade in and a spatula folds them through.
+SHOT 05 — 4.2-5.4s: Close action: gloved hands roll exactly 3 large chunky dough balls, about 3 tablespoons each, onto a tray; compressed time inside the freezer as frost forms on them.
+SHOT 06 — 5.4-6.4s: Object-level camera on the foil as the 3 frozen balls land with space between them; the oven door closes; compressed time through the glass as they spread.
+SHOT 07 — 6.4-7.8s PUNCH 3: The oven door swings open, the baker lifts the sheet a few inches and drops it hard on the rack; the camera at rack level, the cookies deflate and the first ring ripples out in a short slow-motion accent.
+SHOT 08 — 7.8-9.4s PUNCH 4: Three more bangs, each one faster (speed ramp), the camera circling the oven door in a short arc; with every bang one more crispy ring forms around each cookie.
+SHOT 09 — 9.4-11.0s: True 90° top-down: the sheet is out, the baker's pinch drops flaky sea salt from high above, the flakes falling in slow motion onto the 3 wide rippled cookies; compressed time as they cool.
+SHOT 10 — 11.0-12.2s: Hard cut to a front medium shot: the baker takes one big real bite through the crispy rippled edge, a loud crunch. The cookie is clearly missing a bite. Mouth opens only for the bite.
+SHOT 11 — 12.2-13.6s PUNCH 5: Extreme close-up near the lens on the bitten cookie: the crispy rings and the gooey chocolate center stretching, a few salt flakes catching the light.
+SHOT 12 — 13.6-15.0s: The baker grabs the foil roll again and starts to rip a new sheet, the motion continuing into the opening shot so the video loops. No cut to black.
+
+HERO PERFORMANCE: an expert under pressure; whole-body cause and effect; two short task-driven accents only (the one-handed egg crack, the sheet drop). No posing, no presenting to camera.
+
+SCALE RHYTHM + CAMERA TRAJECTORIES + SPEED: medium -> low -> push -> top-down -> close -> object-level -> rack level -> arc -> top-down -> medium. Two true top-downs (shots 04 and 09), extreme macro on the butter specks and the salt flakes. Speed alternates between real-time impacts, speed ramps, slow-motion accents on the first bang and the salt, and compressed time in the freezer and the oven.
+
+SILENT PERFORMANCE LOCK: completely nonverbal. No voice, no talking, no lip movement, no reactions.
+
+CONTINUITY + PHYSICS: always exactly 3 cookies, same size, same chunks; real gravity on the drop, real butter foam, real steam.
+
+LIGHTING: high contrast, the kitchen falling to pure black, hard warm tungsten key light 2700 K raking from camera left, the oven glow as a second warm source, deep shadows, macro on textures, heavy motion blur on fast movement, handheld shake on every impact, natural colours.
+
+AUDIO: heavy bass hit on every PUNCH, the foil tear, the butter foam, the whisk on the bowl, a loud metal clang on every bang, the bite crunch as the loudest moment. No music, no voice, no whooshes.
+
+AVOID: the cookies changing shape or number, thick domed cookies, small chocolate chips, parchment paper, cookie sandwiches, plates with garnish, bare hands, a still shot of the face, talking, cut to black, fade out, ending on a still, shots longer than 1.8 seconds, pork, packaging, logos, text, extra fingers, deformed hands, distorted face.

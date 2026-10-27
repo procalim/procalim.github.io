@@ -1,0 +1,24 @@
+Week 1 on-screen cards (Arabic, middle of the safe area, Tajawal 800 72 px, 12 px stroke + dark glow, x 227-853).
+Hook, rehook and CTA chosen with the ig-reel loop (3 formulas per hook, hookscore); delays and exact times are written
+after generation, on the real shots. hook-log.md checked: none of #21, #3, #2, #26, #9 (the last 3 reels), no worn-out
+phrase, and the three reels use 6 different formulas between them.
+
+KIBBEH (Sat 31 Oct)
+  candidates: #8 Insider Leak 87.0 | #13 Before/After 81.4 | #7 Wrong Way Right Way 68.8
+  Hook    #8   «سر الكبة / اللي المطاعم بتخبّيه»     "The 1 kibbeh secret restaurants never tell your mum." 87.0
+  Rehook  #7   «مش بالحشوة… / بالتسكيرة»              "Not your filling: your only kibbeh secret is 1 seal." 87.0  (on shot 07, the seal)
+  CTA          «كلمة وحدة: «كبة» / والوصفة عندك»     "1 word gets your free kibbeh recipe. No link needed." 87.0
+
+COOKIES (Sun 1 Nov)
+  candidates: #18 Cold Open Demo 87.0 | #12 Objection 84.4 | #24 Reveal 62.2
+  Hook    #18  «شوف شو بتعمل / ٤ خبطات»               "Watch 4 pan bangs fix your cookie. No mixer, no secret." 87.0
+  Rehook  #22  «افتح الفرن / وخبّط الصينية»            "4 bangs on your pan, never gently. No mixer needed." 87.0  (on shot 07, bang 1)
+  CTA          «علّق «كوكيز» / وبتوصلك بالخاص»       "Comment cookies: your free recipe lands in 1 DM, no link." 87.0
+
+SMASH BURGERS (Mon 2 Nov)
+  candidates: #17 Head To Head 100 | #2 Negative Command 100 (used in the last 5 reels, skipped) | #10 If This Then Watch 50.4
+  Hook    #17  «هالابينو فوق / ولا جوّا البرغر؟»        "Jalapeño inside versus on top of your 1 patty? Not close." 100  (answered by shot 11)
+  Rehook  #24  «الجبنة الكريمية / جوّا اللحمة»          "The secret is never on top: 2 tbsp inside your beef." 87.0  (on shot 02, the stuffing)
+  CTA          «اكتب «برغر» / والوصفة بالخاص»          "Type burger: your free recipe in 1 DM, no link." 87.0
+
+The ChatPlace keyword for each reel is the CTA word (كبة / كوكيز / برغر); the caption opens with the same line.
