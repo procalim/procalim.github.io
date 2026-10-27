@@ -33,3 +33,12 @@ BILINGUAL (owner, 2026-10-27: the buyers are the English-fluent half). Big Arabi
   Burgers  hook   «هالابينو فوق / ولا جوّا البرغر؟»          Jalapeño on top or inside?
            rehook «الجبنة الكريمية / جوّا اللحمة»           Cream cheese goes inside
            CTA    «اكتب «برغر» / والوصفة بالخاص»            Comment BURGER for the recipe
+
+KIBBEH, FINAL (2026-10-27, rewritten after the owner's review). Reels-director structure, ig-reel loop, hookscore:
+  0.3-2.8   Hook     #8 Insider Leak  «سر الكبة / اللي المطاعم بتخبّيه»      The secret restaurants never mention   87
+            candidates: #8 87.0 | #7 Wrong Way Right Way 84.4 | #10 If This Then Watch 75.0
+  3.0-5.6   Delay 1                   «قبل الزيت… / في خطوة وحدة بتفرق»      Only 1 step matters before the oil     100
+  5.6-8.8   Rehook   #7               «مش بالحشوة… / بالتسكيرة»               Not the filling. The seal.             87
+  9.0-10.4  Delay 2                   «ولا طقّة بالزيت / بس طشّ»               No crack, only the sizzle              100
+  10.4-13.6 no text: the fry, the lift and the bite play clean (no text on the payoff)
+  13.6-15.0 CTA                       «كلمة وحدة: «كبة» / والوصفة عندك»      Comment KIBBEH for the recipe          87  (echoes «كبة» from the hook)

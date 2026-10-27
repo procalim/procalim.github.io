@@ -3,7 +3,7 @@ Seedance 2.5 omni_reference, 15 s, 9:16. @Image1 = the owner's face photo. Writt
 chronological opening, camera trajectories, spectacle peaks, silent lock) inside the reels-director 15 s punch format.
 
 BOOK STEP -> SHOT
-01 Process shell ingredients to a fine paste          -> shots 1-3 (0.0-3.0 s)
+01 Process shell ingredients to a fine paste          -> shots 1-3 (0.0-3.0 s), all shell ingredients already in the bowl
 02 Saute filling ingredients until browned             -> shots 4-5 (3.0-5.6 s)
 03 Form torpedo shapes: flatten, stuff, seal           -> shots 6-8 (5.6-9.0 s)
 04 Deep-fry at 350°F (175°C) until deep brown          -> shots 9-10 (9.0-12.0 s)
@@ -40,13 +40,13 @@ PROCESS ORDER / NON-REPETITION LOCK: raw shell ingredients -> fine paste -> fill
 
 HERO + ENERGY PRIORITY: frame one is already violent action. Something new happens every second. No two calm shots in a row.
 
-SHOT 01 — 0.0-0.8s PUNCH 1: The cook slams the black food processor lid down on raw ground lamb, chopped onion and fine bulgur; the blade roars and the mixture whips around. The camera rides down with the lid (object-lock), then shakes on impact.
-SHOT 02 — 0.8-1.8s: Extreme macro: allspice, salt and black pepper fall into the spinning mixture, the grains vanishing into it. Fast speed ramp.
+SHOT 01 — 0.0-0.8s PUNCH 1: Frame one is already in motion: the cook slams the lid onto the black food processor, which already holds the fine bulgur, raw ground lamb, onion, allspice, salt and pepper; the blade is already spinning and the mixture explodes against the walls into a blur. The camera rides down with the lid (object-lock), then shakes on impact.
+SHOT 02 — 0.8-1.8s: Extreme macro through the clear bowl: compressed time as the grains and meat turn into a smooth fine paste. Fast speed ramp.
 SHOT 03 — 1.8-3.0s: Fast pull-back from the bowl to a medium hero frame as the cook lifts the lid and scoops out the smooth fine beige-pink paste with one gloved hand.
-SHOT 04 — 3.0-4.2s PUNCH 2: Low object-level angle at the rim of a black pan: ground lamb hits hot olive oil, oil spits toward the lens, a handful of pine nuts and a pinch of allspice land in the same instant. Heavy motion blur.
+SHOT 04 — 3.0-4.2s PUNCH 2: Low object-level angle at the rim of a black pan: ground lamb, pine nuts and allspice hit hot olive oil together and the oil spits toward the lens. Heavy motion blur.
 SHOT 05 — 4.2-5.6s: True 90° top-down: compressed time as the filling turns from pink to deep brown and the pine nuts turn golden, the cook tossing the pan once.
 SHOT 06 — 5.6-6.6s PUNCH 3: Whip-pan to the black board: the gloved palm flattens a piece of shell paste into a thin cup in one firm press, and a spoon drops browned filling into it.
-SHOT 07 — 6.6-7.8s: Close action: the fingers close the cup around the filling, seal it and roll it into a torpedo with two pointed ends.
+SHOT 07 — 6.6-7.8s: Close action: the fingers close the cup over the filling and roll it into a sealed torpedo with two pointed ends.
 SHOT 08 — 7.8-9.0s: Worksurface skim along the board that rises to reveal exactly 6 sealed raw torpedoes in a row, the cook placing the sixth.
 SHOT 09 — 9.0-10.2s PUNCH 4: Camera at the surface of deep oil: the torpedoes are lowered in with a slotted spoon and the oil erupts into violent bubbling toward the lens.
 SHOT 10 — 10.2-12.0s: Compressed time in the oil, beige turning deep brown; the slotted spoon lifts the 6 deep brown torpedoes out, oil dripping in a short slow-motion accent.
@@ -55,7 +55,7 @@ SHOT 12 — 13.6-15.0s: The cook grabs the food processor lid again and lifts it
 
 HERO PERFORMANCE: an expert under pressure; whole-body cause and effect from hand to shoulder; two short task-driven accents only (the lid slam, the pan toss). No posing, no presenting to camera.
 
-SCALE RHYTHM + CAMERA TRAJECTORIES + SPEED: wide -> macro -> hero -> low -> top-down -> close -> skim -> surface -> medium. One true 90° top-down (shot 05), two extreme macros (shots 02 and 09). Every move has a start, a path and an end. Speed alternates between real-time impacts, speed ramps, one slow-motion accent and two compressed-time transformations.
+SCALE RHYTHM + CAMERA TRAJECTORIES + SPEED: object-lock -> macro -> hero -> low -> top-down -> close -> skim -> surface -> medium. One true 90° top-down (shot 05), two extreme macros (shots 02 and 09). Every move has a start, a path and an end. Speed alternates between real-time impacts, speed ramps, one slow-motion accent and two compressed-time transformations.
 
 SILENT PERFORMANCE LOCK: completely nonverbal. No voice, no talking, no lip movement, no reactions.
 
@@ -65,4 +65,4 @@ LIGHTING: high contrast, the kitchen falling to pure black, hard warm tungsten k
 
 AUDIO: heavy bass hit on every PUNCH, real cooking sounds on every action (processor roar, oil hiss, the crust crack as the loudest moment). No music, no voice, no whooshes.
 
-AVOID: the food changing shape or number, round balls, flat patties, discs, falafel, sauce, salad, lemon, plates with garnish, bare hands, a still shot of the face, talking, cut to black, fade out, ending on a still, shots longer than 1.8 seconds, pork, bacon, alcohol, packaging, logos, text, extra fingers, deformed hands, distorted face.
+AVOID: ingredients falling into a closed food processor, a still shot of raw ingredients, the food changing shape or number, round balls, flat patties, discs, falafel, sauce, salad, lemon, plates with garnish, bare hands, a still shot of the face, talking, cut to black, fade out, ending on a still, shots longer than 1.8 seconds, pork, bacon, alcohol, packaging, logos, text, extra fingers, deformed hands, distorted face.
