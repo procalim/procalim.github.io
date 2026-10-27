@@ -165,6 +165,13 @@ Lesson (giant pancake): the generated clip was silent in its last 0.8 s; moving 
 start made the molten reveal silent at 0.5-1.0 s. The check caught it; the fix was the knife sound
 from the same shot.
 
+## New shapes (owner's call, 2026-10-27)
+Every recipe gets a shape nobody has made, the way the Crinkle Cake (153x) looked like nothing else, with its dry
+crackling sound as the loudest moment. Keep the book's ingredients and the other steps; change only the shaping
+step, say so in the prompt header, and show the changed step in the pinned recipe so the owner can add it to the
+book. The new shape must be physically makeable and pass the physics check. First one: Kibbeh Nests
+(`content-studio/prompts/w1-kibbeh-nests.txt`).
+
 ## Before every generation (owner's rule, 2026-10-27; also when the owner generates himself)
 Nothing is generated, and no prompt is handed over for generation, until this check is done and its table is
 shown to the owner:

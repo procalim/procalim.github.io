@@ -42,3 +42,13 @@ KIBBEH, FINAL (2026-10-27, rewritten after the owner's review). Reels-director s
   9.0-10.4  Delay 2                   «ولا طقّة بالزيت / بس طشّ»               No crack, only the sizzle              100
   10.4-13.6 no text: the fry, the lift and the bite play clean (no text on the payoff)
   13.6-15.0 CTA                       «كلمة وحدة: «كبة» / والوصفة عندك»      Comment KIBBEH for the recipe          87  (echoes «كبة» from the hook)
+
+KIBBEH NESTS (new shape, replaces the torpedo version). ig-reel loop + hookscore + classifier; hook-log checked
+(#16 never used; #2 rejected because the classifier read "Never seen..." as #2, used in the fettuccine reel).
+  0.3-2.8   Hook     #16 Verbatim Question «هاي لسا كبة؟ / أداة وحدة غيّرتها»   Is this still kibbeh?             100
+            candidates: #16 100 | #2 100 (blocked by hook-log) | unclassified 87
+  3.0-5.4   Delay 1                        «نفس الوصفة… / بس مش نفس الشكل»     Same recipe. Not the same shape.  87
+  6.4-8.8   Rehook   #24 Reveal            «السر: / مكبس البطاطا»               The secret: a potato ricer        87
+  9.0-10.2  Delay 2                        «اسمع الطقطقة 🔊»                    Hear the crackle                  100
+  10.2-13.4 no text: the fry and the break play clean (the break answers the hook)
+  13.4-15.0 CTA                            «كلمة وحدة: «كبة» / والوصفة عندك»   Comment KIBBEH for the recipe     87
