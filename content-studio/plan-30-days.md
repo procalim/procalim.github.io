@@ -51,8 +51,8 @@ before posting, from the account's own data, so the result cannot be argued afte
 | skip rate | 33% or less (top-10 average 32%) | 47% (last 2 weeks) |
 | average watch | 9 s or more on a 15 s reel | 6.5 s |
 | watched to the end (retention graph) | 45% or more | about 20-35% |
-| shares per 1,000 reach | 3 or more | about 3 on good reels |
-| saves per 1,000 reach | 5 or more | 4.4 median of the last 40 |
+| shares per 1,000 reach | 3 or more | 2.0 median of the last 40 |
+| saves per 1,000 reach | 5 or more | 3.4 median of the last 40 |
 Pass on skip and average watch: keep the plan and make the next reel. Pass on skip only: the opening works, the
 middle does not; fix the middle before the next reel. Fail on skip: stop, research competitors within 10x of the
 account (ig-viral), rebuild the plan from that and the skills, and check everything again before spending credits.
