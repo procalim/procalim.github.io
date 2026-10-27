@@ -90,7 +90,7 @@ export const extraRecipes: Recipe[] = [
     accent: "gold",
     time: "25 min",
     serves: "6",
-    tags: ["American", "Viral"],
+    tags: ["American", "Breakfast", "Viral"],
     title: { ar: "بان كيك الصينية", en: "Sheet Pan Pancakes" },
     subtitle: {
       ar: "بان كيك يُخبز دفعة واحدة في صينية الفرن ويُقطّع مربعات بإضافات مختلفة في كل زاوية.",
@@ -329,7 +329,7 @@ export const extraRecipes: Recipe[] = [
     accent: "orange",
     time: "10 min",
     serves: "1",
-    tags: ["Japanese", "Viral", "Quick"],
+    tags: ["Japanese", "Dinner", "Viral", "Quick"],
     title: { ar: "رامن كايلي جينر", en: "Kylie Jenner’s Ramen" },
     subtitle: {
       ar: "رامن سريع التحضير بالزبدة والثوم والبيض يحوّل النودلز الجاهزة إلى طبق كريمي غني.",

@@ -31,7 +31,7 @@ export type Trail = { name: string; path: string }[];
  * worse than leaving the field out.
  * الوسوم تحمل نوع الطبق ومطبخه؛ نأخذ المعروف منها فقط ولا نخمّن الباقي.
  */
-const COURSES = new Set(["Appetizer", "Salad", "Dessert", "Drinks", "Coffee", "Bread",
+const COURSES = new Set(["Appetizer", "Breakfast", "Salad", "Dessert", "Drinks", "Coffee", "Bread",
                          "Sides", "Sandwich", "Dinner", "Pasta", "Sauce"]);
 const CUISINES = new Set(["Middle Eastern", "Mexican", "Italian", "Korean", "Japanese",
                           "Thai", "French", "Chinese", "Indian", "Greek", "American"]);
