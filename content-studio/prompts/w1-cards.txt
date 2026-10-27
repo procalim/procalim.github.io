@@ -22,3 +22,14 @@ SMASH BURGERS (Mon 2 Nov)
   CTA          «اكتب «برغر» / والوصفة بالخاص»          "Type burger: your free recipe in 1 DM, no link." 87.0
 
 The ChatPlace keyword for each reel is the CTA word (كبة / كوكيز / برغر); the caption opens with the same line.
+
+BILINGUAL (owner, 2026-10-27: the buyers are the English-fluent half). Big Arabic line + small English line under it.
+  Kibbeh   hook   «سر الكبة / اللي المطاعم بتخبّيه»        The seal restaurants never mention
+           rehook «مش بالحشوة… / بالتسكيرة»                Not the filling. The seal.
+           CTA    «كلمة وحدة: «كبة» / والوصفة عندك»        Comment KIBBEH for the recipe
+  Cookies  hook   «شوف شو بتعمل / ٤ خبطات»                 Watch what 4 bangs do
+           rehook «افتح الفرن / وخبّط الصينية»              Open the oven. Bang it.
+           CTA    «علّق «كوكيز» / والـ ٤ خبطات بالخاص»     Comment COOKIES for all 4
+  Burgers  hook   «هالابينو فوق / ولا جوّا البرغر؟»          Jalapeño on top or inside?
+           rehook «الجبنة الكريمية / جوّا اللحمة»           Cream cheese goes inside
+           CTA    «اكتب «برغر» / والوصفة بالخاص»            Comment BURGER for the recipe

@@ -25,7 +25,7 @@ $1,000 a month. Both are stretch goals; the plan measures weekly and changes cou
 5. 20 minutes of engagement a day before posting (5 reach / 3 peers / 2 buyers).
 
 ## Calendar (dish suggestions from the book; hook numbers from hooks.json, all unused so far)
-- W1: 28 profile + ChatPlace; 29 sweet potato (C); 30 carousel cookies p269; 31 kibbeh p55 (A, #7);
+- W1: 28 profile + ChatPlace; 29 sweet potato (C); 30 carousel fattoush p34 (was cookies, which is the Sunday reel); 31 kibbeh p55 (A, #8);
   1 cookies p269 (B, #18); 2 jalapeño smash burgers p296 (C, #17); 3 review.
 - W2: 4 pita p18 (A, #24); 5 cinnamon roll hack p209 (B, #4); 6 offer carousel; 7 chicken tagine p75 (A, #13);
   8 frozen honey jelly p194 (B, #10); 9 maqluba v2 p82, flip at the end (A, #19); 10 review, weakest series drops.
