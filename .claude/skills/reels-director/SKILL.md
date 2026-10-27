@@ -24,6 +24,8 @@ description: >
    t-shirt, black apron with brown leather straps, thin gold chain, brown aviators.
 5. **Never blame the user.** Report numbers, not guesses. Change one variable per test.
 6. Talk to the user in Levantine Arabic, minimal English words.
+   Work day by day (owner, 2026-10-27): one day's tasks per message, short, no multi-page plan documents or
+   PDF dumps unless he asks. The prompt and the content come first.
 7. Captions: English first then Arabic, 3-5 hashtags, no em dashes, each copy item in its
    own code block. Recipe count is always 361. Book price 14.99 USD (was 9.99), instant download,
    30-day refund.
@@ -198,10 +200,11 @@ audience 76% women of known gender (F 176,976 / M 54,387), engaged 79% women, ag
 so still ask for each reel's Audience tab (gender, non-followers) after 24 h and log the women %.
 Per-reach shares and saves of normal reels match or beat the Crinkle Cake (e.g. Apple Tart 0.81%
 shares/reach vs 0.28%); the gap is distribution, and outliers had skip rate at or under ~33%.
-Owner's call (2026-10-27): about half of the Arab audience is fluent in English, and the buyers come from that
-half (the book is an English digital download bought online; people who do not read English or do not buy
-online are not buyers). So reach comes from Arab dishes and Arabic hooks, sales from English: cards are a big
-Arabic line with a small English line under it, captions English first, DMs and the profile bilingual.
+Owner's call (2026-10-27): the book is international, not an Arab book, and the model is a competitor who sells
+his own cookbook (Jalal Sam: one promise, the recipe count, "cookbook out now"). About half of the Arab audience
+is fluent in English and the buyers come from that half. Profile and name field in English, international
+positioning; Arab dishes stay in the mix because they performed, not as the identity. Cards: a big Arabic line
+with a small English line under it; captions English first.
 
 ## Every delivered video comes with the full package
 Download link, then in this order: SEO title, recipe verbatim from the book (English and the
