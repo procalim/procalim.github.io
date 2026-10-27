@@ -31,7 +31,7 @@ METHOD
 05 Top with Pepper Jack cheese, let it melt, and serve on toasted buns with spicy mayo.
 The beef is halal beef, no pork.
 
-FOOD SHAPES (the same in every shot, never change): exactly 2 balls of raw ground beef, each about 6 cm across. Each ball smashes into 1 thin wide patty about 12 cm across with lacy crispy edges and a deep brown crust. The filling is white cream cheese with small green diced jalapeño pieces, always inside the patty, never on top. Exactly 2 square slices of pale Pepper Jack cheese, 1 per patty. 2 burgers, each 1 patty in 1 toasted bun with orange spicy mayo. Never thick pub patties, never sliders, never bacon, never pickles, never lettuce or tomato.
+FOOD SHAPES (the same in every shot, never change): exactly 2 balls of raw ground beef, each about 6 cm across. Each ball smashes into 1 flat patty about 10 cm across and 1.5 cm thick, with lacy crispy edges and a deep brown crust. The filling is a sealed pocket of white cream cheese with small green diced jalapeño pieces in the centre of the patty, never on top, never leaking out. Exactly 2 square slices of pale Pepper Jack cheese, 1 per patty. 2 burgers, each 1 patty in 1 toasted bun with orange spicy mayo. Never thick pub patties, never sliders, never bacon, never pickles, never lettuce or tomato.
 
 PROCESS ORDER / NON-REPETITION LOCK: jalapeño cream cheese mixed -> 2 stuffed sealed balls -> smashed -> seasoned and crusted -> flipped -> cheese melted -> assembled on toasted buns -> bitten. Each patty is smashed once. The finished burger never appears before shot 9.
 
@@ -41,12 +41,12 @@ SHOT 01 — 0.0-0.9s PUNCH 1: Diced green jalapeños slide off the knife blade i
 SHOT 02 — 0.9-2.0s: Close action: a gloved thumb presses a deep indent into a raw beef ball and a spoon packs the green-flecked cream cheese into it.
 SHOT 03 — 2.0-3.0s: Fast push in: the fingers pinch the beef closed over the filling, sealing it; the second sealed ball already beside it.
 SHOT 04 — 3.0-4.0s PUNCH 2: Low object-level angle at the smoking skillet: the first ball drops onto the iron and the spatula slams it flat in one hit; fat spatters toward the lens, the camera shakes.
-SHOT 05 — 4.0-5.0s: True 90° top-down: the second ball is smashed beside the first, two thin lacy patties hissing side by side.
+SHOT 05 — 4.0-5.0s: True 90° top-down: the second ball is smashed beside the first, two flat lacy patties hissing side by side, both still sealed.
 SHOT 06 — 5.0-6.0s: Extreme macro: salt and black pepper rain onto the raw tops while the edges crisp and brown in compressed time.
 SHOT 07 — 6.0-7.2s PUNCH 3: The spatula scrapes under and flips a patty; short slow-motion accent at the top of the flip revealing the deep brown crust, then hard back to real time as it lands.
 SHOT 08 — 7.2-8.6s: Pepper Jack slices laid on both patties and melting in compressed time, while the buns toast cut side down on the iron beside them.
-SHOT 09 — 8.6-10.0s PUNCH 4: Worksurface skim: orange spicy mayo spread on the toasted bun, the cheesy patty slid on, the top bun slammed down so the mayo squeezes out; whip-pan out.
-SHOT 10 — 10.0-11.6s: Hard cut to a front medium shot: the cook takes one big real bite, a loud crunch. The burger is clearly missing a bite. Mouth opens only for the bite.
+SHOT 09 — 8.6-10.0s PUNCH 4: Worksurface skim: orange spicy mayo spread on 2 toasted buns, the 2 cheesy patties slid on, the top buns slammed down so the mayo squeezes out; whip-pan out.
+SHOT 10 — 10.0-11.6s: Hard cut to a front medium shot: the cook lifts one of the 2 burgers and takes one big real bite, a loud crunch. The burger is clearly missing a bite. Mouth opens only for the bite.
 SHOT 11 — 11.6-13.2s PUNCH 5: Extreme close-up near the lens on the bitten burger: the cross-section shows the white cream cheese and green jalapeño inside the patty, the Pepper Jack stretching, steam rising.
 SHOT 12 — 13.2-15.0s: The cook grabs the knife with diced jalapeños again and tips it over the cream cheese bowl, the motion continuing into the opening shot so the video loops. No cut to black.
 
@@ -62,4 +62,4 @@ LIGHTING: high contrast, the kitchen falling to pure black, hard warm tungsten k
 
 AUDIO: heavy bass hit on every PUNCH, the knife scrape, the loud skillet sizzle on the smash, the spatula scrape, the bite crunch as the loudest moment. No music, no voice, no whooshes.
 
-AVOID: the patties changing shape or number, thick pub patties, sliders, jalapeños on top of the patty, bacon, pickles, lettuce, tomato, onion rings, fries, plates with garnish, bare hands, a still shot of the face, talking, cut to black, fade out, ending on a still, shots longer than 1.8 seconds, pork, alcohol, packaging, logos, text, extra fingers, deformed hands, distorted face.
+AVOID: cream cheese leaking out or sitting on top, the patties changing shape or number, thick pub patties, sliders, jalapeños on top of the patty, bacon, pickles, lettuce, tomato, onion rings, fries, plates with garnish, bare hands, a still shot of the face, talking, cut to black, fade out, ending on a still, shots longer than 1.8 seconds, pork, alcohol, packaging, logos, text, extra fingers, deformed hands, distorted face.
