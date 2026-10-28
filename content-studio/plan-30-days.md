@@ -58,3 +58,12 @@ middle does not; fix the middle before the next reel. Fail on skip: stop, resear
 account (ig-viral), rebuild the plan from that and the skills, and check everything again before spending credits.
 Insights come from Composio (views, reach, skip, average watch, shares, saves); completion comes from the owner's
 retention-graph screenshot.
+
+### Test 1 result: sweet potato patties (posted 27 Oct, read at 21.5 h)
+23K views (7x the account median, 12x the last two weeks), 15K reach, 99.4% non-followers, Reels tab 79%, Explore 19%.
+Skip 44.0% (fail, though Instagram marks it lower than usual), average watch 7.56 s on 11.58 s (65%), end ~31% (fail),
+shares 8.7 per 1,000 reach (pass, 4x the median), saves 13.9 (pass, 4x). Funnel: 1 comment, 40 profile visits,
+0 link taps on the first day; the CTA was «الوصفة بأول تعليق. احفظها», no comment keyword.
+By the rule as written this fails on skip; it is also the best reel in a month on views, shares and saves. Proposed to
+the owner: a reel passes on views 3x the median or shares + saves 2x the median; skip and completion stay the things to
+fix, not the gate. Decision pending.
