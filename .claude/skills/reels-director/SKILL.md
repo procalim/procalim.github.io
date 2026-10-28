@@ -71,6 +71,15 @@ description: >
   text on a light cream background that is hard to read at feed size. Next test, one variable: open on
   the loudest action shot and keep the finished dish for the end.
 - Several variables changed per post taught nothing. One change per post, log the numbers.
+- Stuffed sweet potato patties (27 Oct; Genjutsu Lite motion from a competitor reel, recipe from that reel, 11.58 s,
+  1 s cheese-pull flash at the start then the reference order, 3-line hook for mothers «الطريقة الوحيدة ولادك ما
+  بيحسّوا بالسبانخ», CTA «الوصفة بأول تعليق. احفظها», daily engagement round running): 23K views in 21.5 h (7x the
+  median), 99.4% non-followers, skip 44%, 7.56 s average (65%), ~31% to the end, shares 8.7 and saves 13.9 per 1,000
+  reach (4x the medians). Retention ~90% at 1 s, ~70% at 2.5 s, ~57% at 3.5 s: right after the flash the reference
+  goes to calm raw steps (potato on a tray, fork, oil). Owner's call (2026-10-28): keep this reel's strategy as it
+  is, including the engagement round; only the hook and the video get better. Next improvements: hook in 2 lines and
+  6 words or fewer; after the flash, no calm raw step (cut or speed the reference's slow opening 1.5-2x) so something
+  new lands every second through 0-5 s.
 - Multi-clip generations (Katana plates, re-rolls) forget the food between clips: the taco
   beef was thin in plates A/B and a thick burger patty in the lid-off and topping clips.
   Every clip after the first gets a frame of the previous clip's food as an extra image
