@@ -174,6 +174,20 @@ Lesson (giant pancake): the generated clip was silent in its last 0.8 s; moving 
 start made the molten reveal silent at 0.5-1.0 s. The check caught it; the fix was the knife sound
 from the same shot.
 
+## The sweet potato beat template (owner's call, 2026-10-28: every reel, every recipe)
+Read from the reel that did 23K in 21.5 h. Every new recipe is written step by step on this structure, on Seedance
+2.5 (no motion reference), in a new shape, then the full pre-generation check:
+1. Flash, about 1 s: the pull-apart or reveal, moved from the end in the edit; the hook card sits on it.
+2. 0.5-3.5 s: the base prep, but always the most violent version of it (slam, spit, pour). The sweet potato lost 90% ->
+   57% here on calm raw steps; never put a calm raw step here.
+3. Base to dough or batter in 0.5-1 s beats.
+4. The signature move in 0.5-1 s beats (the plastic-wrap twist, or the new shape's own move); the rehook sits here.
+5. Shape, 3 pieces in the pan or oil, one turn, one on the board; the CTA sits here and the end runs into the flash.
+Generate 15 s with shots of 0.7-1.1 s (Seedance merges anything faster), then speed soft stretches 1.25-1.6x in the edit
+to about 11-12 s, like the sweet potato. Cards: hook (2 lines, 6 words or fewer, a question the reveal answers), delay,
+rehook on the signature move, CTA «الوصفة بأول تعليق. / احفظها» (owner's call: same as the sweet potato). First one:
+`content-studio/prompts/w1-kibbeh-nests-sp.txt`.
+
 ## New shapes (owner's call, 2026-10-27)
 Every recipe gets a shape nobody has made, the way the Crinkle Cake (153x) looked like nothing else, with its dry
 crackling sound as the loudest moment. Keep the book's ingredients and the other steps; change only the shaping

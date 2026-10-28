@@ -52,3 +52,9 @@ KIBBEH NESTS (new shape, replaces the torpedo version). ig-reel loop + hookscore
   9.0-10.2  Delay 2                        «اسمع الطقطقة 🔊»                    Hear the crackle                  100
   10.2-13.4 no text: the fry and the break play clean (the break answers the hook)
   13.4-15.0 CTA                            «كلمة وحدة: «كبة» / والوصفة عندك»   Comment KIBBEH for the recipe     87
+
+KIBBEH NESTS ON THE SWEET POTATO TEMPLATE (times are the edited reel, ~11.5 s, flash first)
+  0.0-3.0   Hook     #16 «هاي لسا كبة؟ / أداة وحدة غيّرتها»   Is this still kibbeh?             100  (2 lines, 5 words)
+  3.1-6.0   Delay        «نفس الوصفة… / بس مش نفس الشكل»     Same recipe. Not the same shape.  87
+  6.1-9.0   Rehook   #24 «السر: / مكبس البطاطا»               The secret: a potato ricer        87   (#9 «اسرق حركة النايلون هاي» was the sweet potato's, blocked)
+  9.1-end   CTA          «الوصفة بأول تعليق. / احفظها»        Recipe in the first comment       owner's call: same CTA as the sweet potato

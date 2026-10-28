@@ -1,0 +1,84 @@
+Kibbeh Nests on the sweet potato beat template (owner's call 2026-10-28: read the winning sweet potato reel and write
+every recipe step by step on its structure, on Seedance, in a new shape, then the full check).
+Recipe: the book's Kibbeh (HOT APPETIZERS N° 01, page 55), ingredients and steps 01, 02, 04 unchanged; step 03 is the
+new shape: sealed in plastic wrap like the sweet potato, then coated in shell strands from a potato ricer.
+Seedance 2.5 omni_reference, 15 s, 1080p, 9:16, @Image1 = the owner's face. 240 credits.
+Edit after generation, like the sweet potato: shot 14 (the pull-apart) moves to the start as a 1 s flash under the hook,
+soft stretches sped up 1.25-1.6x to about 11.5 s, the end (knife on the board) runs into the flash so it loops.
+
+SWEET POTATO REEL, READ FRAME BY FRAME (11.58 s, the reel that did 23K in 21.5 h)
+0.0-0.5   flash: the pull-apart, filling showing                  -> hook card
+0.5-3.5   raw sweet potato on the tray, fork, oil, baked, peeled  -> the weak spot (retention 90% -> 57%)
+3.5-6.5   base to dough in 0.5 s beats: mash, cheese, flour, pepper, knead
+6.5-9.5   the signature move in 0.5 s beats: dough on plastic wrap, filling, cheese, gather, twist, unwrap -> rehook
+9.5-11.6  shape, 3 in the pan, flip, one on the board -> CTA, loops into the flash
+Kept here: the flash and loop, the 0.5-1 s rhythm, the plastic-wrap signature move, 3 pieces in the pan, the board.
+Fixed here: the slow raw opening becomes the processor slam and the oil spit.
+
+BOOK STEP -> SHOT
+01 Process shell ingredients to a fine paste                -> shots 1-2
+02 Saute filling ingredients until browned                   -> shots 3-4
+03 (new shape) flatten on plastic wrap, stuff, twist to seal;
+   roll in shell strands pressed through a potato ricer      -> shots 5-10
+04 Deep-fry at 350°F (175°C) until deep brown                -> shots 11-12
+(template) cut, pull apart, hold                             -> shots 13-15
+
+===== PROMPT =====
+SCENE CONTEXT: A vertical 9:16 hyper-dynamic cinematic cooking commercial for Kibbeh Nests (kibbeh sealed in plastic wrap, then coated in crispy shredded strands), exactly 15 seconds, cut like a trailer. Most shots are 0.7 to 1.1 seconds and none is longer than 1.8 seconds, hard cuts on the beat, relentless forward momentum. Dark black luxury kitchen, black stone counter, black board, black pan, black food processor, a steel potato ricer, clear plastic wrap.
+
+REFERENCE CONTROL: The man in @Image1 is the cook, exactly his face: Middle Eastern man, early 30s, thick mustache, no beard, brown aviator glasses, thin gold chain, plain white t-shirt under a black apron with brown leather straps, black nitrile gloves on both hands at all times. Mostly his black-gloved hands are seen; his face appears only in motion, never in a still shot. He never speaks.
+
+RECIPE (follow exactly, every step once, in this order, nothing added):
+Kibbeh Nests
+INGREDIENTS
+— 1½ cups Fine Bulgur
+— 450g Lean Ground Lamb or Beef (shell)
+— Onion
+— Allspice
+— Salt
+— Pepper | Filling: Ground Lamb
+— Pine Nuts
+— Allspice
+— Olive Oil
+METHOD
+01 Process shell ingredients to a fine paste.
+02 Saute filling ingredients until browned.
+03 Form balls: flatten shell mixture on plastic wrap, stuff with filling, twist the wrap to seal. Unwrap, press the remaining shell mixture through a potato ricer and roll each ball in the strands until fully covered.
+04 Deep-fry at 350°F (175°C) until deep brown and cooked through.
+All meat is halal lamb or beef, no pork.
+
+FOOD SHAPES (the same in every shot, never change): the shell is a smooth fine beige-pink paste. The filling is crumbly browned ground lamb with golden pine nuts. Each ball is about 6 cm across, smooth and sealed. The ricer pushes the shell paste out as long thin strands about 3 mm thick. The finished kibbeh are exactly 3 round nests, each about 7 cm across: a sealed shell ball wrapped in a dense tangle of thin strands, frying to a deep brown, crisp, shaggy surface. Inside: a thin layer of shell, then the lamb and pine nut filling. Never torpedoes, never flat patties, never smooth fried balls, never falafel, never noodles, never sweet kunafa, no syrup, no sugar.
+
+PROCESS ORDER / NON-REPETITION LOCK: raw shell ingredients -> fine paste -> filling browned -> paste flattened on wrap -> filled -> twisted and sealed -> unwrapped ball -> strand-coated nest -> deep-fried deep brown -> cut -> pulled apart. Every stage happens once and only moves forward. The fried nests never appear before shot 11.
+
+HERO + ENERGY PRIORITY: frame one is already violent action. Something new happens every second. No two calm shots in a row. Two signature moves carry the middle: the plastic-wrap twist (shot 07) and the ricer (shot 09).
+
+SHOT 01 — 0.0-0.9s PUNCH 1: Frame one is already in motion: the cook slams the lid onto the black food processor, which already holds the fine bulgur, raw ground lamb, onion, allspice, salt and pepper; the blade is already spinning and the mixture explodes against the walls into a blur. The camera rides down with the lid, then shakes on impact.
+SHOT 02 — 0.9-1.7s: Extreme macro through the clear bowl: compressed time as the grains and meat turn into a smooth fine paste.
+SHOT 03 — 1.7-2.6s PUNCH 2: Low angle at the rim of a black pan: ground lamb, pine nuts and allspice hit hot olive oil together and the oil spits toward the lens.
+SHOT 04 — 2.6-3.4s: True 90° top-down: compressed time as the filling turns deep brown and the pine nuts golden, the cook tossing the pan once.
+SHOT 05 — 3.4-4.3s: Top-down on the black board: a scoop of shell paste lands on a sheet of clear plastic wrap and the back of a spoon spreads it into a thin round.
+SHOT 06 — 4.3-5.1s: A spoon drops browned lamb and pine nut filling into the centre of the round.
+SHOT 07 — 5.1-6.2s PUNCH 3: Black-gloved hands gather the plastic wrap around the filling and twist it tight, closing the paste into a sealed round ball.
+SHOT 08 — 6.2-6.9s: The wrap is peeled away: a smooth sealed ball sits in the gloved palm.
+SHOT 09 — 6.9-8.0s PUNCH 4: Extreme macro beside the steel potato ricer: the cook squeezes the handles and long thin strands of shell paste stream out in one push onto the ball below, short slow-motion accent.
+SHOT 10 — 8.0-9.0s: Gloved hands roll the ball in the strands until it is fully covered and shaggy; a worksurface skim reveals exactly 3 raw nests in a row.
+SHOT 11 — 9.0-10.1s PUNCH 5: Camera at the oil surface of a deep black pan: the 3 nests are lowered in with a spider strainer and the oil erupts into violent bubbling, every strand fanning out and stiffening.
+SHOT 12 — 10.1-11.1s: Compressed time, the strands turning deep brown and crisp; the spider turns each nest once.
+SHOT 13 — 11.1-11.8s: Top-down on the black board: a knife cuts one deep brown nest in half with a dry crackle.
+SHOT 14 — 11.8-13.6s PUNCH 6: Extreme close-up right by the lens: black-gloved hands pull the two halves apart, crisp strands snapping with a loud dry crackle like shattering phyllo, steam rising, the shell layer and the lamb and pine nut filling clearly visible.
+SHOT 15 — 13.6-15.0s: The two open halves held close to the lens, steam rising, the crisp strands catching the light. No cut to black.
+
+HERO PERFORMANCE: an expert under pressure; whole-body cause and effect from hand to shoulder; task-driven accents only (the lid slam, the wrap twist, the ricer squeeze). No posing, no presenting to camera.
+
+SCALE RHYTHM + CAMERA TRAJECTORIES + SPEED: object-lock -> macro -> low -> top-down -> top-down board -> close -> hands -> palm -> ricer macro -> skim -> oil surface -> top-down -> lens close-up. Two true 90° top-downs (shots 04 and 05), extreme macros on the paste, the strands and the pull-apart. Speed alternates between real-time impacts, a slow-motion accent on the strands, and compressed time on the paste, the browning and the frying.
+
+SILENT PERFORMANCE LOCK: completely nonverbal. No voice, no talking, no lip movement, no reactions.
+
+CONTINUITY + PHYSICS: always exactly 3 nests, same size; the strands stick to the raw shell before frying; real gravity, real oil behaviour, real steam.
+
+LIGHTING: high contrast, the kitchen falling to pure black, hard warm tungsten key light 2700 K raking from camera left, the light catching every crisp strand, deep shadows, macro on textures, heavy motion blur on fast movement, handheld shake on every impact, natural colours.
+
+AUDIO: loud close-mic ASMR on every action: the processor roar, the oil spit, the plastic wrap crinkling as it twists, the strands squeezing through the ricer, the oil eruption, and the loudest moment: the dry crackling pull-apart, like crisp phyllo shattering. No music, no voice, no whooshes.
+
+AVOID: ingredients falling into a closed food processor, a still shot of raw ingredients, the food changing shape or number, torpedoes, flat patties, smooth fried balls, falafel, noodles, sweet kunafa, syrup, sugar, sauce, salad, lemon, plates with garnish, bare hands, a still shot of the face, talking, cut to black, fade out, shots longer than 1.8 seconds, pork, bacon, alcohol, packaging, logos, text, extra fingers, deformed hands, distorted face.
