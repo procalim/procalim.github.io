@@ -1,0 +1,58 @@
+Carousel: 5 vegetables your kids will never notice. 9 slides, 1080x1350.
+Images: Nano Banana Pro, 4:5, 2K, 2 credits each, 6 images = 12 credits. @Image1 = the owner's face photo (cover only).
+Slide 9 uses public/brand/book/cover.jpg (361 Recipes, no alcohol). Do not use public/brand/edible-codex-cover.jpg (wine glass, 260).
+Caption: hidden-veg-caption.txt. CTA keyword: «كتاب» / BOOK (ChatPlace must be set on this post).
+
+SLIDES
+1/9 COVER  [image A]  «٥ خضرة / ولادك ما رح ينتبهوا»        5 vegetables your kids won't notice
+2/9 STAKE  [text]     «الولد بيرفض الطري. / المقرمش بيخلص.»  Kids refuse soggy. Crispy disappears.
+                      «فخبّيت كل خضرة جوّا قرمشة»            So I hid every vegetable inside a crunch.
+3/9        [image B]  «أجنحة… بس قرنبيط»                     Buffalo Cauliflower Wings · N° 148
+4/9        [image C]  «كيكة… فيها كوسا»                      Zucchini Bread · Bread N° 16
+5/9        [image D]  «مثلثات مقرمشة / جوّاها سبانخ»          Spanakopita Triangles · Hot Appetizers N° 19
+6/9        [image E]  «شيبس… بس بروكلي»                      "It gets crispy like chips." · N° 066
+7/9        [image F]  «بطاطا مقلية؟ / لا، جزر»               "Carrots that taste like cheesy fries." · N° 070
+8/9 RECAP  [text]     «الخمسة، بمكان واحد»                   All 5 in one place
+                      ١ أجنحة قرنبيط بافلو      Buffalo Cauliflower Wings · N° 148
+                      ٢ كيكة كوسا               Zucchini Bread · Bread N° 16
+                      ٣ مثلثات سبانخ وجبنة      Spanakopita Triangles · N° 19
+                      ٤ شيبس بروكلي             Smashed Broccoli · N° 066
+                      ٥ أصابع جزر بالبارميزان   Parmesan Roasted Carrots · N° 070
+9/9 CTA    [cover]    «٣٦١ وصفة متلهم / بكتابي»              Arabic + English · $14.99
+                      «علّق «كتاب» وببعتلك الرابط»           Comment BOOK for the link
+Every slide: n/9 and @ahmet_salameh small at the bottom; outer 120 px clear.
+Alt text (cover): Chef Ahmet Salameh in a dark kitchen snapping a crispy buffalo cauliflower wing in half to show the white cauliflower inside. Text: 5 vegetables your kids won't notice.
+
+PRE-GENERATION CHECK (generation-log lines that apply to stills)
+1 Shape lock: every dish is described in the book's own shape (florets, loaf, mini triangles, flat discs, sticks). OK
+2 Reference scope: @Image1 is used for the face only, in image A only. OK
+3 Fillings visible: wing broken to white cauliflower, green flecks in the crumb, triangle broken to spinach. OK
+4 Continuity across the 6: same kitchen, same 2700 K light from the left, same black gloves. OK
+7 Physics: feta stays crumbly (no cheese pull), smashed broccoli stays rigid, no bare hand near a hot tray, food sits on parchment as the book says. OK
+9 Halal: no pork, no alcohol on screen. Zucchini Bread lists "1 tsp Vanilla" (not visible); if asked, it's alcohol-free vanilla. FLAG for the owner.
+Book accuracy: no item the book does not list (no celery, ranch bowl, nuts, glaze, sesame, ketchup). OK
+Text-free: every prompt bans text, logos, labels, bottles. OK
+
+
+===== A · COVER (attach @Image1) =====
+Photorealistic food photograph, vertical 4:5. The man in @Image1, exactly his face: Middle Eastern man, early 30s, thick mustache, no beard, brown aviator glasses, thin gold chain, plain white t-shirt under a black apron with brown leather straps, black nitrile gloves on both hands. Medium close-up from the chest up; he stands behind a black stone counter and looks straight into the camera with a slight confident smile, mouth closed. At chest height, close to the lens, his two gloved hands snap one buffalo cauliflower wing in half: a crispy baked batter crust glazed in glossy orange-red buffalo sauce with charred edges, and inside, clearly visible, the bright white cauliflower floret, a thin wisp of steam rising from the break. Behind him, out of focus, a parchment-lined black baking sheet with more wings. Dark luxury kitchen falling to pure black. One hard warm tungsten key light, 2700 K, raking from camera left, deep shadows, high contrast, natural colours, real texture. His face sits in the middle third of the frame; the top third above his head is empty dark background with nothing in it. No text, no letters, no logos, no labels, no bottles, no packaging, no wine glass. Avoid: extra fingers, deformed hands, distorted face, bare hands, plastic-looking food, oversaturated colours.
+
+
+===== B · BUFFALO CAULIFLOWER WINGS =====
+Photorealistic food photograph, vertical 4:5, true 90° top-down. A black baking sheet lined with crinkled parchment paper on a black stone counter, covered in buffalo cauliflower wings in loose rows: bite-sized cauliflower florets in a thick baked flour batter, tossed in glossy orange-red buffalo sauce and melted butter, edges crispy and charred dark, a few drips of sauce on the parchment, faint steam. One wing at the front is broken in half, showing the white cauliflower inside. The baking sheet fills the lower two thirds of the frame; the top third is bare dark stone with nothing on it. One hard warm tungsten key light, 2700 K, from the left, deep shadows, high contrast, natural colours, real texture. No celery, no dip, no bowls, no chicken, no hands. No text, no letters, no logos, no labels, no bottles, no packaging.
+
+
+===== C · ZUCCHINI BREAD =====
+Photorealistic food photograph, vertical 4:5, 45° angle, close. A homemade zucchini bread loaf, baked in a loaf pan and now turned out onto a dark wooden board on a black stone counter: a domed golden-brown top with a natural crack down the middle. Three thick slices are cut at the front; the moist, tender crumb is lightly brown from cinnamon and dotted with many fine flecks of green grated zucchini. One hand in a black nitrile glove lifts the front slice toward the camera. A few crumbs on the board. A plain loaf: no glaze, no icing, no nuts, no chocolate chips, no raisins, no butter. The loaf sits in the lower two thirds of the frame; the top third is empty dark background. One hard warm tungsten key light, 2700 K, raking from the left, deep shadows, high contrast, natural colours. No text, no letters, no logos, no labels, no packaging. Avoid: extra fingers, deformed hands, bare hands.
+
+
+===== D · SPANAKOPITA TRIANGLES =====
+Photorealistic food photograph, vertical 4:5, 45° angle, close. Mini spanakopita triangles on a parchment-lined black baking sheet: small neat triangles of layered phyllo brushed with butter, baked deep golden and flaky, shards of crisp phyllo on the parchment. In front, two hands in black nitrile gloves break one triangle open in the middle: inside, a dense green filling of chopped spinach with white crumbled feta and fine flecks of dill and parsley, a thin wisp of steam, phyllo flakes falling. The feta stays crumbly; nothing stretches. The other triangles sit softly out of focus behind. The food sits in the lower two thirds of the frame; the top third is empty dark background. One hard warm tungsten key light, 2700 K, from the left, deep shadows, high contrast, natural colours. No sesame seeds, no sauce, no dip, no lemon. No text, no letters, no logos, no labels, no packaging. Avoid: cheese pull, extra fingers, deformed hands, bare hands.
+
+
+===== E · SMASHED BROCCOLI =====
+Photorealistic food photograph, vertical 4:5, low 30° angle, close. A parchment-lined black baking sheet of smashed broccoli: each floret pressed flat into a thin round disc, a sheen of olive oil, edges roasted dark and crispy, covered in a golden baked parmesan crust with garlic powder, finished with fine yellow lemon zest. One hand in a black nitrile glove holds one smashed floret up between thumb and index finger like a potato chip; it stays rigid and flat, its crisp edges catching the light, a few parmesan crumbs falling. The rest of the tray softly out of focus behind. The food sits in the lower two thirds of the frame; the top third is empty dark background. One hard warm tungsten key light, 2700 K, raking from the left, deep shadows, high contrast, natural colours. No sauce, no dip, no bowls. No text, no letters, no logos, no labels, no packaging. Avoid: soggy or limp broccoli, extra fingers, deformed hands, bare hands.
+
+
+===== F · PARMESAN CARROT FRIES =====
+Photorealistic food photograph, vertical 4:5, 45° angle, close. Carrot fries piled loosely on parchment on a black stone counter: carrots cut into long fry-shaped sticks, coated in a dry powdery golden crust of parmesan and cornstarch with red paprika specks, roasted crisp with browned tips, bright orange inside. A small black bowl of creamy pale-orange spicy mayo. One hand in a black nitrile glove dips a single carrot fry into the mayo, its end coated in a thick swoosh of sauce. The food sits in the lower two thirds of the frame; the top third is empty dark background. One hard warm tungsten key light, 2700 K, from the left, deep shadows, high contrast, natural colours. No potatoes, no ketchup, no herbs, no ranch. No text, no letters, no logos, no labels, no bottles, no packaging. Avoid: extra fingers, deformed hands, bare hands, soggy fries.
