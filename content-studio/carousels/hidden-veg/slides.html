@@ -1,0 +1,184 @@
+<!doctype html>
+<!-- Hidden veg carousel, 9 slides at 1080x1350. Needs img/A-F.jpg (the stills), img/v_B-F.jpg (900px previews),
+     img/book.jpg (public/brand/book/cover.jpg cropped to 831x1150+184+175) and fonts/ (Tajawal arabic+latin
+     500/800/900 from node_modules/@fontsource/tajawal, Lora Regular+Italic). Render: node render.js -->
+<html lang="ar">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:Taj;font-weight:500;src:url(fonts/tajawal-arabic-500-normal.woff2) format("woff2");unicode-range:U+0600-06FF,U+0750-077F,U+FB50-FDFF,U+FE70-FEFF,U+200C-200E,U+2010-2011,U+204F,U+2E41;}
+@font-face{font-family:Taj;font-weight:800;src:url(fonts/tajawal-arabic-800-normal.woff2) format("woff2");unicode-range:U+0600-06FF,U+0750-077F,U+FB50-FDFF,U+FE70-FEFF,U+200C-200E,U+2010-2011,U+204F,U+2E41;}
+@font-face{font-family:Taj;font-weight:900;src:url(fonts/tajawal-arabic-900-normal.woff2) format("woff2");unicode-range:U+0600-06FF,U+0750-077F,U+FB50-FDFF,U+FE70-FEFF,U+200C-200E,U+2010-2011,U+204F,U+2E41;}
+@font-face{font-family:Taj;font-weight:500;src:url(fonts/tajawal-latin-500-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+2000-206F,U+20AC,U+2122;}
+@font-face{font-family:Taj;font-weight:800;src:url(fonts/tajawal-latin-800-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+2000-206F,U+20AC,U+2122;}
+@font-face{font-family:Taj;font-weight:900;src:url(fonts/tajawal-latin-900-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+2000-206F,U+20AC,U+2122;}
+@font-face{font-family:Lora;font-style:normal;src:url(fonts/Lora-Regular.ttf);}
+@font-face{font-family:Lora;font-style:italic;src:url(fonts/Lora-Italic.ttf);}
+
+:root{--ink:#09090b;--cream:#f6f3ec;--gold:#c9a227;--muted:#cfc6b4;--navy:#0b1a33;}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#333}
+section{width:1080px;height:1350px;position:relative;overflow:hidden;background:var(--ink);color:var(--cream);font-family:Taj,sans-serif}
+.ar{direction:rtl;unicode-bidi:isolate}
+.gold{color:var(--gold)}
+.en{font-family:Lora,serif;font-style:italic;direction:ltr}
+
+/* photo slides */
+.photo img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.photo .shade-top{position:absolute;left:0;right:0;top:0;height:560px;background:linear-gradient(to bottom,rgba(9,9,11,.92) 0%,rgba(9,9,11,.7) 38%,rgba(9,9,11,0) 100%)}
+.photo .shade-bot{position:absolute;left:0;right:0;bottom:0;height:220px;background:linear-gradient(to top,rgba(9,9,11,.85) 0%,rgba(9,9,11,0) 100%)}
+.photo .head{position:absolute;top:84px;left:72px;right:72px;text-align:center}
+.photo h2{font-weight:900;font-size:100px;line-height:1.12;text-shadow:0 4px 24px rgba(0,0,0,.6)}
+.photo .en{margin-top:20px;font-size:36px;color:var(--muted);text-shadow:0 2px 12px rgba(0,0,0,.8)}
+
+/* footer on every slide */
+footer{position:absolute;left:72px;right:72px;bottom:56px;display:flex;justify-content:space-between;align-items:center;font-family:Lora,serif;font-size:32px;color:var(--cream);direction:ltr}
+footer .n{color:var(--gold);font-family:Taj;font-weight:800;letter-spacing:1px}
+
+/* text slides: the book's gold frame */
+.frame{position:absolute;inset:40px;border:2px solid var(--gold);opacity:.75;pointer-events:none}
+.text{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:0 100px}
+
+/* slide 1 cover */
+.cover .head{top:120px;left:120px;right:120px}
+.cover h1{font-weight:900;font-size:112px;line-height:1.1;text-shadow:0 4px 28px rgba(0,0,0,.7)}
+.cover h1 .big{font-size:150px}
+.cover .en{margin-top:18px;font-size:40px;color:var(--cream);text-shadow:0 2px 12px rgba(0,0,0,.9)}
+.cover .swipe{position:absolute;bottom:128px;left:0;right:0;text-align:center;font-weight:800;font-size:36px;color:var(--gold);text-shadow:0 2px 12px rgba(0,0,0,.9)}
+
+/* slide 2 stake */
+.s2 .l1{font-weight:900;font-size:84px;line-height:1.25;white-space:nowrap}
+.s2 .l2{font-weight:900;font-size:84px;line-height:1.25;white-space:nowrap;color:var(--gold)}
+.s2 .rule{width:120px;height:3px;background:var(--gold);margin:56px auto}
+.s2 .l3{font-weight:800;font-size:60px;line-height:1.3}
+.s2 .en{margin-top:48px;font-size:36px;line-height:1.5;color:var(--muted)}
+
+/* slide 8 recap */
+.s8{padding:120px 96px 0}
+.s8 h2{font-weight:900;font-size:76px;text-align:center}
+.s8 .sub{text-align:center;font-size:36px;color:var(--muted);margin-top:8px}
+.s8 ol{list-style:none;margin-top:52px;display:flex;flex-direction:column;gap:22px}
+.s8 li{display:flex;align-items:center;gap:32px}
+.s8 li img{width:150px;height:150px;object-fit:cover;border-radius:18px;border:2px solid var(--gold);flex:none}
+.s8 .t{flex:1;text-align:right}
+.s8 .t b{display:block;font-weight:800;font-size:52px;line-height:1.15}
+.s8 .t b span{color:var(--gold)}
+.s8 .t i{display:block;font-family:Lora,serif;font-style:italic;font-weight:400;font-size:32px;color:var(--gold);direction:ltr;text-align:right;margin-top:6px}
+
+/* slide 9 cta */
+.s9{background:radial-gradient(ellipse at 50% 52%,#13284d 0%,var(--navy) 38%,var(--ink) 78%)}
+.s9 .top{position:absolute;top:104px;left:96px;right:96px;text-align:center}
+.s9 h2{font-weight:900;font-size:88px;line-height:1.15}
+.s9 .book{position:absolute;top:350px;left:50%;transform:translateX(-50%);height:560px;box-shadow:0 30px 80px rgba(0,0,0,.75),0 0 0 1px rgba(201,162,39,.35)}
+.s9 .cta{position:absolute;top:958px;left:50%;transform:translateX(-50%);white-space:nowrap;background:var(--gold);color:var(--ink);font-weight:900;font-size:54px;padding:18px 48px 12px;border-radius:999px}
+.s9 .en1{position:absolute;top:1080px;left:0;right:0;text-align:center;font-size:40px;color:var(--cream)}
+.s9 .en2{position:absolute;top:1140px;left:0;right:0;text-align:center;font-family:Lora,serif;font-size:34px;color:var(--gold);direction:ltr}
+</style>
+</head>
+<body>
+
+<!-- 1 COVER -->
+<section class="photo cover" id="s1">
+  <img class="bg" src="img/A.jpg" style="object-position:50% 100%">
+  <div class="shade-top" style="height:620px"></div><div class="shade-bot"></div>
+  <div class="head">
+    <h1 class="ar"><span class="big gold">٥</span> خضرة<br>ولادك ما رح ينتبهوا</h1>
+    <p class="en">5 vegetables your kids won't notice</p>
+  </div>
+  <div class="swipe ar">اسحب ←</div>
+  <footer><span>@ahmet_salameh</span><span class="n">1/9</span></footer>
+</section>
+
+<!-- 2 STAKE -->
+<section class="text s2" id="s2">
+  <div class="frame"></div>
+  <p class="ar l1">الولد بيرفض الطري.</p>
+  <p class="ar l2">المقرمش بيخلص.</p>
+  <div class="rule"></div>
+  <p class="ar l3">فخبّيت كل خضرة جوّا قرمشة</p>
+  <p class="en">Kids refuse soggy. Crispy disappears.<br>So I hid every vegetable inside a crunch.</p>
+  <footer><span>@ahmet_salameh</span><span class="n">2/9</span></footer>
+</section>
+
+<!-- 3 WINGS -->
+<section class="photo" id="s3">
+  <img class="bg" src="img/B.jpg" style="object-position:50% 0%">
+  <div class="shade-top"></div><div class="shade-bot"></div>
+  <div class="head">
+    <h2 class="ar">أجنحة… بس <span class="gold">قرنبيط</span></h2>
+    <p class="en">Buffalo Cauliflower Wings · N° 148</p>
+  </div>
+  <footer><span>@ahmet_salameh</span><span class="n">3/9</span></footer>
+</section>
+
+<!-- 4 ZUCCHINI -->
+<section class="photo" id="s4">
+  <img class="bg" src="img/C.jpg" style="object-position:50% 0%">
+  <div class="shade-top"></div><div class="shade-bot"></div>
+  <div class="head">
+    <h2 class="ar">كيكة… فيها <span class="gold">كوسا</span></h2>
+    <p class="en">Zucchini Bread · Bread N° 16</p>
+  </div>
+  <footer><span>@ahmet_salameh</span><span class="n">4/9</span></footer>
+</section>
+
+<!-- 5 SPANAKOPITA -->
+<section class="photo" id="s5">
+  <img class="bg" src="img/D.jpg" style="object-position:50% 0%">
+  <div class="shade-top"></div><div class="shade-bot"></div>
+  <div class="head">
+    <h2 class="ar">مثلثات مقرمشة<br>جوّاها <span class="gold">سبانخ</span></h2>
+    <p class="en">Spanakopita Triangles · Hot Appetizers N° 19</p>
+  </div>
+  <footer><span>@ahmet_salameh</span><span class="n">5/9</span></footer>
+</section>
+
+<!-- 6 BROCCOLI -->
+<section class="photo" id="s6">
+  <img class="bg" src="img/E.jpg" style="object-position:50% 0%">
+  <div class="shade-top"></div><div class="shade-bot"></div>
+  <div class="head">
+    <h2 class="ar">شيبس… بس <span class="gold">بروكلي</span></h2>
+    <p class="en">“It gets crispy like chips.” · N° 066</p>
+  </div>
+  <footer><span>@ahmet_salameh</span><span class="n">6/9</span></footer>
+</section>
+
+<!-- 7 CARROTS -->
+<section class="photo" id="s7">
+  <img class="bg" src="img/F.jpg" style="object-position:50% 0%">
+  <div class="shade-top"></div><div class="shade-bot"></div>
+  <div class="head">
+    <h2 class="ar">بطاطا مقلية؟<br>لا، <span class="gold">جزر</span></h2>
+    <p class="en">“Carrots that taste like cheesy fries.” · N° 070</p>
+  </div>
+  <footer><span>@ahmet_salameh</span><span class="n">7/9</span></footer>
+</section>
+
+<!-- 8 RECAP -->
+<section class="s8" id="s8">
+  <div class="frame"></div>
+  <h2 class="ar">الخمسة، <span class="gold">بمكان واحد</span></h2>
+  <p class="en sub">All 5 in one place</p>
+  <ol class="ar">
+    <li><img src="img/v_B.jpg"><div class="t"><b><span>١</span> أجنحة قرنبيط بافلو</b><i>Buffalo Cauliflower Wings · N° 148</i></div></li>
+    <li><img src="img/v_C.jpg" style="object-position:50% 60%"><div class="t"><b><span>٢</span> كيكة كوسا</b><i>Zucchini Bread · Bread N° 16</i></div></li>
+    <li><img src="img/v_D.jpg" style="object-position:55% 55%"><div class="t"><b><span>٣</span> مثلثات سبانخ وجبنة</b><i>Spanakopita Triangles · N° 19</i></div></li>
+    <li><img src="img/v_E.jpg" style="object-position:45% 50%"><div class="t"><b><span>٤</span> شيبس بروكلي</b><i>Smashed Broccoli · N° 066</i></div></li>
+    <li><img src="img/v_F.jpg" style="object-position:40% 65%"><div class="t"><b><span>٥</span> أصابع جزر بالبارميزان</b><i>Parmesan Roasted Carrots · N° 070</i></div></li>
+  </ol>
+  <footer><span>@ahmet_salameh</span><span class="n">8/9</span></footer>
+</section>
+
+<!-- 9 CTA -->
+<section class="s9" id="s9">
+  <div class="top"><h2 class="ar">٣٦١ وصفة متلهم<br><span class="gold">بكتابي</span></h2></div>
+  <img class="book" src="img/book.jpg">
+  <div class="cta ar">علّق «كتاب» وببعتلك الرابط</div>
+  <p class="en en1">Comment BOOK for the link</p>
+  <p class="en2">Arabic + English · $14.99</p>
+  <footer><span>@ahmet_salameh</span><span class="n">9/9</span></footer>
+</section>
+
+</body>
+</html>

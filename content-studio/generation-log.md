@@ -21,8 +21,13 @@ new kind of error, a new check line.
    one (week 1 review, before generation).
 8. No more than about 2 actions in one second of one shot, or the model skips a book step (week 1 review).
 9. Halal includes extracts and sauces: vanilla extract contains alcohol, mirin is out (week 1 review).
+10. A food broken or pulled apart with no melted cheese in the recipe: write "breaks cleanly, no strings, no
+    threads, no cheese pull" (hidden veg cover: the cauliflower wing stretched like mozzarella).
+11. Stills with a person: the model ignores "top third empty"; give the head position as a percent ("the top
+    of his head at 40% of the frame height") so the cover text has room (hidden veg cover).
 
 ## Results
 | Date | Reel | Model, settings, credits | Came out right | Errors (time, frame) | Cause | Prompt change | 24 h: skip, avg watch, end %, shares/1K, saves/1K |
 |---|---|---|---|---|---|---|---|
 | 2026-10-25 | Stuffed sweet potato patties (posted 27 Oct 22:30) | Genjutsu Lite, motion from Rima fit food reel, edited to 11.58 s | Shape and filling held, cheese pull, prepublish.py none, -14.2 LUFS | Last 2 s of the generation (dip and bite) unusable, cut | Generation ends badly | none logged at the time | 21.5 h: 23K views, 15K reach, skip 44.0%, avg watch 7.56 s (65% of length), end ~31%, shares 8.7/1K reach, saves 13.9/1K, 1 comment, 99.4% non-followers; account day: 40 profile visits, 0 link taps |
+| 2026-10-30 | Carousel: 5 hidden vegetables (6 stills) | Nano Banana Pro, 2K, came back 1792x2400 (3:4), 12 credits | B to F: shapes as the book, fillings visible, gloves, dark top for text | A (cover): the cauliflower stretched in white strings; his head at the top edge, no room for the title | Break not locked; headroom asked as "top third" | Checks 10 and 11; A remade as an edit | pending |
