@@ -189,6 +189,9 @@ start made the molten reveal silent at 0.5-1.0 s. The check caught it; the fix w
 from the same shot.
 
 ## The fixed strategy: the sweet potato motion (owner's call, 2026-10-28; every reel, every recipe)
+Every coming video uses this same strategy, with no change between videos (owner, 2026-11-01): the sweet potato
+motion, a new shape, zero errors against the book, cards by "Text size and position", the SEO caption and the
+emotional purchase line below, the pre-generation and pre-publish checks.
 One clear strategy that does not change from video to video (the point Raghad made). The reel that did 23K in 21.5 h
 was read frame by frame; every new recipe takes only its MOTION, written step by step on Seedance 2.5 (no motion
 reference), in a new shape, then the full pre-generation check. Never copy its techniques (plastic wrap, fork, tray):
@@ -212,6 +215,23 @@ Generate 15 s with shots of 0.7-1.1 s (Seedance merges anything faster), then sp
 edit to about 11-12 s. Cards: hook (2 lines, 6 words or fewer, a question the reveal answers), delay, rehook on the key
 move, CTA «الوصفة بأول تعليق. / احفظها» (owner's call: same as the sweet potato). First one:
 `content-studio/prompts/w1-kibbeh-nests-sp.txt`.
+
+## Caption and title SEO (claude-seo skill, owner's call 2026-11-01; every reel)
+Rules taken from the claude-seo pack (seo-page, seo-content, seo-sxo, seo-geo), applied to the caption:
+1. Keyword from real search, not a guess: the Google Trends picks (`content-studio/search-picks.md`) and one SERP
+   check per language (seo-sxo), e.g. "fried kibbeh balls" / «طريقة عمل الكبة المقلية».
+2. Title = the caption's first line: primary keyword first, 50-60 characters (seo-page title rule), then the new
+   shape as the hook, e.g. "Fried Kibbeh Balls Recipe, shaped like crispy nests 👀" (53). The share ask is line 2.
+   The Arabic block opens the same way with the Arabic keyword. `Recipe | Hook | Arabic hook` stays as the file label.
+3. Answer-first, entity-clear body (seo-content, seo-geo): one sentence that says what the dish is and what it is
+   made of in the book's words, then the one new move, then "Full recipe in the first comment".
+4. Primary keyword in the first 100 words of each language, 2-3 natural variations (kibbeh balls, fried kibbeh;
+   كبة مقلية), density about 3% or less, no stuffing; hashtags 3-5 = the keyword and its variants in both languages
+   plus #halalrecipes.
+5. The caption never restates the title and never closes on a stock CTA (seo-page): it closes on the emotional
+   purchase line (rule 7: no price; home, family, the table), then the hashtags. No em dashes.
+6. Every fact matches the book (Kibbeh Nests: "lamb or beef", not "lamb").
+Example: `content-studio/week1/kibbeh-nests-caption.txt`.
 
 ## New shapes (owner's call, 2026-10-27)
 Every recipe gets a shape nobody has made, the way the Crinkle Cake (153x) looked like nothing else, with its dry
