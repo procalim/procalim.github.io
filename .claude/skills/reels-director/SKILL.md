@@ -31,10 +31,11 @@ description: >
    30-day refund.
    Purchase line (owner's call, 2026-11-01): no price, emotional (home, family, the table, gathering),
    tied to the reel's dish, ending in the link in bio. Title stays `Recipe | Hook | Arabic hook`.
-   Example (Kibbeh Nests): "Kibbeh tastes like Friday lunch at home. I put that feeling into 361 recipes
-   in my book The Edible Codex, so your table never runs out of reasons to gather. Link in bio 📕" /
-   «الكبة إلها طعمة غدا الجمعة بالبيت. حطيت هالإحساس بـ ٣٦١ وصفة بكتابي The Edible Codex، مشان سفرتك
-   ما يخلص فيها سبب للّمّة. الرابط بالبايو 📕»
+   No day names or dates in it (owner, 2026-11-01: "Friday lunch" read as a wrong day on a Sunday post).
+   Example (Kibbeh Nests): "This one tastes like home, the whole family around one plate. I put that feeling
+   into 361 recipes in my book The Edible Codex, so your table never runs out of reasons to gather. Link in bio 📕" /
+   «هالأكلة إلها طعمة البيت، والعيلة كلها حوالين صحن واحد. حطيت هالإحساس بـ ٣٦١ وصفة بكتابي The Edible Codex،
+   مشان سفرتك ما يخلص فيها سبب للّمّة. الرابط بالبايو 📕»
 
 ## What the data proved (keep using)
 - The best reel (rice paper chips, 73% avg watch) used the chips-style prompt below:
