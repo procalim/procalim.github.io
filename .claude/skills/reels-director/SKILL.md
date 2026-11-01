@@ -29,6 +29,12 @@ description: >
 7. Captions: English first then Arabic, 3-5 hashtags, no em dashes, each copy item in its
    own code block. Recipe count is always 361. Book price 14.99 USD (was 9.99), instant download,
    30-day refund.
+   Purchase line (owner's call, 2026-11-01): no price, emotional (home, family, the table, gathering),
+   tied to the reel's dish, ending in the link in bio. Title stays `Recipe | Hook | Arabic hook`.
+   Example (Kibbeh Nests): "Kibbeh tastes like Friday lunch at home. I put that feeling into 361 recipes
+   in my book The Edible Codex, so your table never runs out of reasons to gather. Link in bio 📕" /
+   «الكبة إلها طعمة غدا الجمعة بالبيت. حطيت هالإحساس بـ ٣٦١ وصفة بكتابي The Edible Codex، مشان سفرتك
+   ما يخلص فيها سبب للّمّة. الرابط بالبايو 📕»
 
 ## What the data proved (keep using)
 - The best reel (rice paper chips, 73% avg watch) used the chips-style prompt below:
@@ -137,10 +143,13 @@ Generation stays on Seedance 2.5 with the template above (Wan and Genjutsu did n
 Text position: test it on a frame with the Instagram UI zones drawn (top 14% y<270, bottom 35%
 y>1248, right rail x>880 from y 1000). The top 230-270 band is still covered on some phones, so the
 top card starts at y 300, centred; the right 230 px rule matters only beside the rail (y>1000).
-Owner's call (2026-10-24): put the cards in the middle of the safe area, y ~720 (text centre ~y 750),
-in the viewer's eye line, not at the top.
+Owner's call (2026-11-01, replaces the 2026-10-24 middle position): cards sit at the TOP of the safe area,
+block starting at y 300 (just under the 270 px top bar), centred, Arabic Tajawal 800 at 58 px with a 10 px
+black stroke and the dark glow, English line 30 px with a 6 px stroke. Reason (Kibbeh Nests check): in the
+middle, 72 px cards covered the food and the reveal, and the background under them averaged luma 89; at
+y 300-480 it averaged 45 (dark kitchen) and the food stayed fully visible. Spec: `content-studio/edits/kibbeh-nests-cards.json`.
 Readability (fettuccine lesson): in the middle the text sits on the food, often a light background.
-Use the strong style there: Tajawal 800 at 64-66 px, black stroke 12 px, dark glow
+Keep the strong style at the top too: Tajawal 800 at 58 px, black stroke 10 px, dark glow
 (text-shadow 0 0 22px #000e, 0 0 44px #000d, 0 6px 18px #000e). Before delivery, check every card on
 a frame scaled to phone width (390 px) over its real background; if it is not readable at a glance,
 it is not done.
@@ -159,9 +168,9 @@ three parts pass, and the delivery message shows the result table.
 2. **Text**: read `content-studio/hook-log.md` first. Hook and rehook use different formulas, neither
    used in the last 3 reels, and no card phrase or pattern from the last 5 reels (the owner finds the
    same hook every time boring). Then the ig-reel loop (3 hooks, 3 formulas, hookscore, classifier); every card 6 words or fewer
-   and 85+; cards in the middle of the safe area, two lines if needed, the largest size that keeps
-   x 227-853 (72 px Tajawal 800, 12 px stroke, dark glow); every card checked on a phone-width frame
-   (390 px) over its real background.
+   and 85+; cards at the top of the safe area from y 300, two lines if needed (58 px Tajawal 800,
+   10 px stroke, dark glow, English 30 px); run prepublish.py with `--band 300 480` and check every
+   card on a phone-width frame (390 px) over its real background; the food must stay uncovered.
 3. **Video**: run `python3 content-studio/prepublish.py final.mp4 --source notext.mp4 --band y0 y1`.
    It flags, per half second, DEAD (no cut, little motion), LONG (shot over 2 s), QUIET (audio 10 dB
    under the median), SLOW and EARLY. Fix every flag in the whole reel, not only the first 3 s

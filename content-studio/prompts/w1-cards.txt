@@ -60,7 +60,8 @@ KIBBEH NESTS ON THE SWEET POTATO TEMPLATE (times are the edited reel, ~11.5 s, f
   9.1-end   CTA          «الوصفة بأول تعليق. / احفظها»        Recipe in the first comment       owner's call: same CTA as the sweet potato
 
 KIBBEH NESTS FINAL (edited 2026-11-01, 10.33 s; flash 0-0.83 is the pull-apart, the knife at the end runs into it;
-the 4-nest board shot cut; prepublish.py none; -14.7 LUFS). 72 px Tajawal 800, 12 px stroke + glow, y 640, small English line.
+the 4-nest board shot cut; prepublish.py none; -14.7 LUFS). Owner 2026-11-01: moved to the top, y 300, 58 px Tajawal 800,
+10 px stroke + glow, English 30 px (the 72 px middle version covered the food).
   0.00-3.00   Hook     هاي لسا كبة؟ / أداة وحدة غيّرتها       Is this still kibbeh?
   3.08-6.50   Delay    نفس الوصفة… / بس مش نفس الشكل         Same recipe. Not the same shape.
   6.54-8.45   Rehook   السر: / مكبس البطاطا                   The secret: a potato ricer

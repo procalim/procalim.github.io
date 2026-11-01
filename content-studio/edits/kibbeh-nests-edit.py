@@ -71,14 +71,14 @@ print("loudness", got, "gain", round(gain, 2))
 ins = ["-i", "notext.mov"]
 fc2, last = [], "[0:v]"
 for k, (name, s, e) in enumerate(CARDS):
-    ins += ["-loop", "1", "-i", f"ov/ov_{name}.png"]
+    ins += ["-loop", "1", "-i", f"{os.environ.get('OV', 'ov')}/ov_{name}.png"]
     e = total if e is None else e
     out = f"[o{k}]"
     fc2.append(f"{last}[{k+1}:v]overlay=0:0:enable='between(t,{s},{e})':shortest=1{out}")
     last = out
 fc2.append(f"[0:a]{ln},aresample=48000[a]")
 subprocess.run(["ffmpeg", "-v", "error", "-y"] + ins + ["-filter_complex", ";".join(fc2), "-map", last, "-map", "[a]",
-               "-t", f"{total:.4f}"] + enc + ["-c:a", "aac", "-b:a", "192k", "final.mp4"], check=True)
+               "-t", f"{total:.4f}"] + enc + ["-c:a", "aac", "-b:a", "192k", os.environ.get("OUT", "final.mp4")], check=True)
 subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", "notext.mov", "-c:v", "copy", "-af", f"{ln},aresample=48000",
                 "-c:a", "aac", "-b:a", "192k", "notext.mp4"], check=True)
 for s, e, lab in labels:
