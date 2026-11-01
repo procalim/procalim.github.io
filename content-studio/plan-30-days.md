@@ -48,6 +48,8 @@ The calendar was written before the sweet potato motion became the fixed strateg
   (4 pieces in the book, no frying), Honeycomb Pasta Pie N° 094 and Tornado Omelette N° 097 (hard physics for the
   model: hundreds of upright tubes, a twisting egg; high error risk under the zero-errors rule).
 Series order from here: B (Dubai pistachios) -> C (jalapeño popper burgers) -> A (mini maqlubas).
+Test variable per reel: kibbeh = the engagement round before posting (Qatar/UAE accounts); Dubai pistachios = the
+action-movie grammar (owner's call 2026-11-01), engagement round unchanged.
 
 ## Weekly scorecard (now, target)
 Skip 47% -> 33% or less; avg watch 6.5 s -> 9 s; follows per 1,000 reach 1 -> 2.5; profile visit to follow

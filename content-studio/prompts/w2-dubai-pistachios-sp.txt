@@ -4,6 +4,7 @@ ingredient and step word for word; the ONLY change is the shape (owner's new-sha
 3-cavity silicone mold shaped like a giant pistachio (a domed oval with one seam ridge), so the bar comes out as 3
 giant chocolate pistachios that are snapped open along the seam. Flag this in the pinned recipe so the owner can add
 it to the book. Seedance 2.5 omni_reference, 15 s, 1080p, 9:16, @Image1 = the owner's face.
+Filmed with the action-movie grammar (owner's call 2026-11-01, from the cookcut skill); the snap sound is the focus.
 Edit after generation: shot 14 (the snap) moves to the start as a 1 s flash under the hook; soft stretches sped up
 1.25-1.6x to about 11 s; the end (a hand picking up a pistachio) runs into the flash so it loops.
 
@@ -36,16 +37,16 @@ PRE-GENERATION CHECK (generation-log checks 1-12)
 6 Silence: check the last second after generation.                                                          after
 7 Physics: chocolate melts over steam, never boils; shell 3-4 mm; filling thick, never runny; the hot skillet
   is held by its handle; counts 3 = 3 everywhere; loop seam = a hand picking up a pistachio before the snap.   OK
-8 At most 2 actions per second of a shot (brush and fridge split into two shots).                           OK
+8 At most 2 actions per second of a shot (brush and fridge split into two shots); one camera move per shot.                           OK
 9 Halal: chocolate, kataifi, butter, pistachio cream, tahini; no extracts, no alcohol.                       OK
 10 The break: the shell snaps cleanly; no strings, no stretching, no ooze.                                  OK
 12 Colour and texture of every component written into every shot it appears in.                             OK
 Identity block, no text, no logos, no labelled jars or packaging.                                           OK
 
 ===== PROMPT =====
-SCENE CONTEXT: A vertical 9:16 fast ASMR dessert video for Dubai Chocolate Pistachios, exactly 15 seconds. Most shots are 0.7 to 1.1 seconds and none is longer than 1.8 seconds, hard cuts on the beat, a new action on every cut. The camera is mostly locked top-down or close at 45 degrees over the work, black-gloved hands always moving in frame, a short push-in on each reveal and a small shake on each impact. Dark black luxury kitchen, black stone counter, black board, black bowls, black skillet, black 3-cavity silicone mold.
+SCENE CONTEXT: A vertical 9:16 action-movie dessert trailer for Dubai Chocolate Pistachios, exactly 15 seconds, cut like an action film: most shots 0.7 to 1.1 seconds, none longer than 1.8 seconds, hard impact cuts, a new action on every cut. Every cut changes shot size and camera move; one readable camera path per shot. Spectacle peaks at about 0 s, 4.3 s, 9.7 s and 11.8 s, with short breaths between them. Dark black luxury kitchen, black stone counter, black board, black bowls, black skillet, black 3-cavity silicone mold.
 
-REFERENCE CONTROL: The man in @Image1 is the cook, exactly his face: Middle Eastern man, early 30s, thick mustache, no beard, brown aviator glasses, thin gold chain, plain white t-shirt under a black apron with brown leather straps, black nitrile gloves on both hands at all times. Mostly his black-gloved hands are seen; his face appears only in motion, never in a still shot. He never speaks.
+REFERENCE CONTROL: The man in @Image1 is the cook, exactly his face: Middle Eastern man, early 30s, thick mustache, no beard, brown aviator glasses, thin gold chain, plain white t-shirt under a black apron with brown leather straps, black nitrile gloves on both hands at all times. Mostly his black-gloved hands are seen; his face appears only in motion, never in a still shot. He never speaks. He moves like an expert under pressure, never posing.
 
 RECIPE (follow exactly, every step once, in this order, nothing added):
 The Viral Dubai Pistachio Kunafa Chocolate
@@ -66,32 +67,32 @@ METHOD
 07 Refrigerate 1 hour until completely set. Pop out of mold and snap in half to reveal the bright green center.
 CHEF'S NOTE: Toast the Kataifi until it's DEEPLY golden — the crunch is the whole point.
 
-FOOD SHAPES AND COLOURS (the same in every shot, never change): the chocolate is glossy medium-brown milk chocolate in every shot, melted and set. The mold has exactly 3 cavities, each shaped like a giant pistachio nut: a smooth domed oval about 9 cm long and 6 cm wide with one thin raised seam ridge running along the top from end to end. Raw kataifi is pale cream, fine, chopped into short 1-2 cm pieces; toasted kataifi is deep golden brown and dry-crisp. Pistachio cream is bright green, thick and smooth; tahini is beige. The filling is bright green pistachio cream packed with crisp deep golden kataifi, thick and crunchy, never runny. Finished: exactly 3 giant glossy milk chocolate pistachios, seam ridge on top, flat underside.
+FOOD SHAPES AND COLOURS (the same in every shot, never change): glossy medium-brown milk chocolate in every shot. The mold has exactly 3 cavities, each shaped like a giant pistachio nut: a smooth domed oval about 9 cm long and 6 cm wide with one thin raised seam ridge running along the top from end to end. Raw kataifi: pale cream, short 1-2 cm pieces; toasted: deep golden brown, dry-crisp. Pistachio cream: bright green, thick, smooth; tahini: beige. The filling is bright green pistachio cream packed with crisp deep golden kataifi, thick and crunchy, never runny. Finished: exactly 3 giant glossy milk chocolate pistachios, seam ridge on top, flat underside.
 
 PROCESS ORDER LOCK: chopped chocolate -> melted -> 3 empty shells -> chilled -> kataifi in butter -> toasted deep golden -> green filling -> packed -> sealed -> set -> popped out -> snapped open. Every stage once, only forward. The finished pistachios never appear before shot 12.
 
-SHOT 01 — 0.0-0.9s: Frame one is already moving: a black board tips and 150g of chopped milk chocolate slams into a black bowl over a steaming pot, chunks bouncing. Small shake on the impact.
-SHOT 02 — 0.9-1.8s: Top-down: compressed time, a spatula stirring as the chunks melt into smooth glossy brown chocolate.
-SHOT 03 — 1.8-2.8s: Top-down on the black 3-cavity pistachio mold: a thick glossy ribbon of chocolate pours into the 3 empty cavities.
-SHOT 04 — 2.8-3.6s: Close at 45 degrees: a pastry brush sweeps the chocolate up the sides of each cavity into a thick even shell.
-SHOT 05 — 3.6-4.3s: The mold slides into the fridge and the door slams shut. Small shake.
-SHOT 06 — 4.3-5.2s: Close at 45 degrees on the black skillet, held by its handle: butter foams and the pale chopped kataifi drops in with a loud crackling sizzle, short strands jumping.
-SHOT 07 — 5.2-6.3s: Top-down: compressed time, a spatula stirring constantly as the kataifi turns from pale cream to deep golden brown and crisp.
-SHOT 08 — 6.3-7.2s: Top-down on a black bowl: the deep golden kataifi, a scoop of bright green pistachio cream and a small spoon of beige tahini folded together, coated but still crunchy, a dry crunching sound.
-SHOT 09 — 7.2-8.1s: Top-down: the mold out of the fridge with 3 set brown shells; a spoon packs the green and golden filling tightly into each shell, pressing it down.
-SHOT 10 — 8.1-9.0s: Top-down: the remaining melted chocolate pours over the 3 filled shells to seal them and a spatula smooths across the mold in one swipe.
-SHOT 11 — 9.0-9.8s: Compressed time: the sealed mold in the fridge, the chocolate turning matte-set.
-SHOT 12 — 9.8-10.9s: Gloved hands flex the silicone and flip the mold once; exactly 3 glossy giant milk chocolate pistachios pop out onto the black board.
-SHOT 13 — 10.9-11.9s: Short push-in on the 3 pistachios on the board, the seam ridges catching the light; a gloved hand lifts one.
-SHOT 14 — 11.9-13.6s: Extreme close-up right by the lens: both gloved thumbs snap the pistachio open along its seam with a loud sharp crack, small chocolate shards falling, revealing the bright green center packed with crisp deep golden kataifi, crumbs falling. Short slow-motion accent.
-SHOT 15 — 13.6-15.0s: The two halves held close to the lens, the green crunchy filling catching the light; the other hand reaches for the next pistachio on the board. No cut to black.
+SHOT 01 — 0.0-0.9s PEAK: Frame one already moving. Low object-level camera at the rim of a black bowl over a steaming pot: a black board tips into frame and 150g of chopped milk chocolate slams into the bowl, chunks bouncing toward the lens. Real-time, the camera jolts on impact.
+SHOT 02 — 0.9-1.7s: True 90-degree top-down, locked: compressed time, a spatula stirring as the chunks melt into smooth glossy brown chocolate.
+SHOT 03 — 1.7-2.7s: Start high above the black 3-cavity pistachio mold, the camera drops straight down with a thick glossy ribbon of chocolate pouring into the 3 empty cavities; speed ramp from fast to slow as the ribbon folds.
+SHOT 04 — 2.7-3.5s: Extreme macro at cavity level, locked: a pastry brush sweeps the chocolate up the curved wall into a thick even shell.
+SHOT 05 — 3.5-4.3s: Medium hero: whip-pan from the counter to the fridge as the cook slides the mold in and slams the door shut, his face passing in motion. Shake on the slam.
+SHOT 06 — 4.3-5.2s PEAK: Close at 45 degrees, steam layered in the foreground, camera pushing in: skillet held by its handle, butter foams and the pale chopped kataifi drops in with a loud crackling sizzle, short strands jumping; a short speed ramp on the drop.
+SHOT 07 — 5.2-6.3s: Ultra-macro: compressed time, the kataifi turning from pale cream to deep golden brown and crisp under a constantly stirring spatula.
+SHOT 08 — 6.3-7.2s: Worksurface skim along the black counter into a black bowl: the deep golden kataifi, a scoop of bright green pistachio cream and a small spoon of beige tahini folded together, coated but still crunchy, a dry crunching sound.
+SHOT 09 — 7.2-8.1s: True 90-degree top-down: the mold out of the fridge with 3 set brown shells; a spoon packs the green and golden filling tightly into each shell, pressing it down. Fast action.
+SHOT 10 — 8.1-9.0s: Close at 45 degrees, a short arc around the mold: the remaining melted chocolate pours over the 3 filled shells to seal them and a spatula smooths across in one swipe.
+SHOT 11 — 9.0-9.7s: Locked macro: compressed time, the sealed chocolate turning matte-set, cold air drifting.
+SHOT 12 — 9.7-10.8s PEAK: Medium hero from a low angle at board level: the cook flexes the silicone and flips the mold once; exactly 3 glossy giant milk chocolate pistachios drop and land on the black board toward the lens. Real-time impact.
+SHOT 13 — 10.8-11.8s: Fast push-in from the 3 pistachios on the board to the gloved hands lifting one, the seam ridge catching a warm rim light. Near silence: only the glove gripping the shell.
+SHOT 14 — 11.8-13.6s CLIMAX: Extreme close-up right by the lens: both gloved thumbs snap the pistachio open along its seam with a loud, dry, sharp crack of the thick chocolate shell, then the crisp crackle of toasted kataifi; small chocolate shards fly toward the lens in a short slow-motion accent, revealing the bright green center packed with crisp deep golden kataifi, crumbs falling.
+SHOT 15 — 13.6-15.0s: Reverse pull-back from the open halves to a tight hero frame, the green crunchy filling catching the light; the other hand reaches for the next pistachio on the board. No cut to black.
 
 SILENT PERFORMANCE LOCK: completely nonverbal. No voice, no talking, no lip movement, no reactions.
 
-CONTINUITY + PHYSICS: always exactly 3 cavities and 3 pistachios, same size; chocolate melts over steam and never boils; the shell is 3-4 mm thick; the filling stays packed when snapped; real gravity, real steam.
+CONTINUITY + PHYSICS: always exactly 3 cavities and 3 pistachios, same size; chocolate melts over steam, never boils; shell 3-4 mm; the filling stays packed when snapped; real gravity and steam; one camera move per shot, nothing passes through objects.
 
-VISUAL STYLE: high contrast, the kitchen falling to pure black, hard warm tungsten key light 2700 K from camera left, deep shadows, sharp focus on the food, natural colours.
+VISUAL STYLE: high contrast, the kitchen falling to pure black, hard warm tungsten key light 2700 K from camera left and a warm rim light from behind, deep shadows, sharp focus on the food, motion blur on fast moves, natural colours.
 
-AUDIO: loud close-mic ASMR on every action: chunks hitting the bowl, the pour, the brush, the fridge door, kataifi crackling in butter, the dry crunch of mixing; the loudest moment is the sharp crack of the shell and the kataifi crunch when the pistachio snaps open. No music, no voice, no whooshes.
+AUDIO: only real close-mic sound from what is on screen: chunks hitting the bowl, the pour, the fridge slam, kataifi crackling in butter, the dry crunch of mixing, the pistachios landing. A beat of near silence before the snap. The snap is the loudest sound of the whole video: a sharp, dry, high crack of a thick chocolate shell right at the microphone, followed by the crisp crackle of toasted kataifi. No music, no voice, no whooshes, no booms.
 
 AVOID: bars, rectangles, spheres, eggs, cups, bonbons, strawberries, real pistachio nuts, chopped pistachios on top, white or green chocolate, runny or oozing filling, stretchy strings, syrup, cream, kunafa tray, long kataifi strands, burnt kataifi, the pieces changing shape or number, labelled jars, packaging, garnish, bare hands, a still shot of the face, talking, cut to black, fade out, shots over 1.8 seconds, alcohol, logos, text, extra fingers, deformed hands, distorted face.

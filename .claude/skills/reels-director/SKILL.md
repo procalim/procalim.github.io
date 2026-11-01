@@ -242,6 +242,25 @@ Rules taken from the claude-seo pack (seo-page, seo-content, seo-sxo, seo-geo), 
 6. Every fact matches the book (Kibbeh Nests: "lamb or beef", not "lamb").
 Example: `content-studio/week1/kibbeh-nests-caption.txt`.
 
+## Action-movie grammar (owner's call 2026-11-01; every reel from Dubai Chocolate Pistachios on)
+Same strategy, same motion order, same flash, cards, 3 pieces and pull-apart; only the filming becomes an action
+trailer. Taken from the cookcut skill (action commercial director), cut down to 15 s:
+- One readable camera path per shot, written as start -> path -> end -> action revealed (low object-level slam, overhead
+  drop with a pour, whip-pan to the hero, worksurface skim, short arc, fast push-in, reverse pull-back). 2-3 big moves
+  per reel, never the same one twice.
+- Every cut changes at least two of: scale, height or angle, camera move, speed. Scale rhythm across the 15 shots:
+  2 true 90° top-downs, 2 ultra-macros, 2 low object-level shots, 2 medium hero shots (face only in motion), the rest close.
+- Speed contrast: real-time impacts, speed ramps on pours and drops, compressed time for melting, toasting, setting,
+  exactly one slow-motion accent: the reveal.
+- 3-4 spectacle peaks with breaths between them; the last is the reveal. No vessel in more than 2 shots in a row.
+- Sound is only real sound from what is on screen (no music, no whooshes, no booms, no risers). Near silence for a
+  beat before the reveal, then the reveal is the loudest sound of the video, described exactly (e.g. "a sharp, dry,
+  high crack of a thick chocolate shell right at the microphone, then the crisp crackle of toasted kataifi").
+- Guardrails for zero errors: one camera move and at most 2 actions per shot, the food lock and colours unchanged,
+  no move that needs the model to invent geometry (no passing through objects), hands always gloved.
+Test: the Dubai reel changes only this (the engagement round before posting stays as it is), so its numbers measure
+the action grammar against the sweet potato and kibbeh results.
+
 ## New shapes (owner's call, 2026-10-27)
 Every recipe gets a shape nobody has made, the way the Crinkle Cake (153x) looked like nothing else, with its dry
 crackling sound as the loudest moment. Keep the book's ingredients and the other steps; change only the shaping
