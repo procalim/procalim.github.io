@@ -35,6 +35,20 @@ $1,000 a month. Both are stretch goals; the plan measures weekly and changes cou
   21 best reel of the month, new dish; 22 strongest dessert; 23 beef tacos p117 (C, #14); 24-26 month audit.
 - Skipped for halal reasons: hot chocolate bombs (marshmallows), Korean corn dog (hot dogs).
 
+## Calendar review against the fixed strategy (2026-11-01)
+The calendar was written before the sweet potato motion became the fixed strategy (a piece with an inside to reveal,
+3 pieces, one turn, a cut or snap, the pull-apart, a new shape). Checked dish by dish:
+- Fits now: Dubai Pistachio Kunafa N° 100 (B, next: 3 giant chocolate pistachios, `prompts/w2-dubai-pistachios-sp.txt`),
+  Jalapeño Popper Smash Burgers p296 (C: 3 stuffed patties, one flip, cut, cheese pull; prompt to rewrite on the motion),
+  Upside-down Puff Pastry Tarts p190 (B: 3 tarts, one flip), Mochi Brownies p211 (B: cut and stretch).
+- Fits with a new shape: Maqluba p82 (A) as 3 mini maqlubas, each flipped once.
+- Does not fit as written (no inside to reveal): pan-banging cookies, pita, cinnamon roll hack, chicken and lamb tagine,
+  frozen honey jelly, fajitas, beef tacos. They need a stuffed or new-shape angle, or another book dish in the same series.
+- Strange shapes already in the book, not next: Potato Pillows N° 031 (no inside, boiled), Volcano Potatoes N° 192
+  (4 pieces in the book, no frying), Honeycomb Pasta Pie N° 094 and Tornado Omelette N° 097 (hard physics for the
+  model: hundreds of upright tubes, a twisting egg; high error risk under the zero-errors rule).
+Series order from here: B (Dubai pistachios) -> C (jalapeño popper burgers) -> A (mini maqlubas).
+
 ## Weekly scorecard (now, target)
 Skip 47% -> 33% or less; avg watch 6.5 s -> 9 s; follows per 1,000 reach 1 -> 2.5; profile visit to follow
 8% -> 20%; sends per 1,000 reach ~3 -> 3+; sales per week ? -> 17.
