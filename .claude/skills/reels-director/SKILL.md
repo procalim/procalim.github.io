@@ -93,6 +93,13 @@ description: >
   reference, the prompt states the food's exact shape ("thin smashed beef covering the whole
   tortilla, not a patty"), and QA compares the food shape across clips before delivery.
 
+- Account ranking (85 reels, read 2026-11-01, median 3,636 views; `content-studio/plan-week-2026-11-02.md`): hooks that
+  state a food-science rule or "X is the mistake" with a number (Hollandaise Splits Above 65°C, Macarons Bake at 150°C
+  Not 180°C, The Butter Between the Layers Is the Mistake) = 28 reels, median 1.6x and 8.7 s, against 0.9x and 7.8 s.
+  Question hooks since October sit at 0.3-0.8x (only a real controversy worked: shawarma 3.3x). hookscore rates the
+  winning lines 40-65: on this account the evidence outranks the scorer. Carousels reach followers only (116-271).
+  Owner's call (2026-11-01): plan week by week on tested evidence only.
+
 ## The template (fill the [brackets] for any recipe; 12 s; Seedance 2.5, 1080p, 9:16)
 ```
 A hyper-dynamic cinematic cooking video for [RECIPE NAME], exactly 12 seconds, cut like a trailer. Every shot is 0.5 to 1.5 seconds long, hard cuts on the beat, no shot lingers, relentless forward momentum. A high-impact PUNCH moment lands at 0s, 3s, 6s and 9s, each one as strong as the opening.

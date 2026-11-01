@@ -1,8 +1,9 @@
 Dubai Chocolate Pistachios, on-screen cards (set after generation; times re-timed to the real shots).
 Size and position by the skill: top of the safe box from y 300, Tajawal 800 58 px, English 30 px.
 ig-reel loop (hookscore + classifier on the English line); hook-log: last 3 reels used #16/#24, #26/#9, #21/#3.
-  Hook     #17 Head To Head  «فستقة ولا / شوكولاتة دبي؟»            "Pistachio vs Dubai chocolate. You lose if you guess wrong."  100
-           candidates: #2 93.8 (blocked: «لا ...» pattern in the last 5 reels) | #2 81.8 | #10 63.8
+  Hook     #7 Wrong Way      «الغلطة: كنافة فاتحة. / بتروح القرمشة»   "The mistake is pale kataifi. You lose your crunch."           87
+           changed 2026-11-01 from the #17 question «فستقة ولا شوكولاتة دبي؟»: question hooks since October sit at
+           0.3-0.8x; "X is the mistake" hooks are the account's tested family (Crinkle Cake 142.7x).
   Rehook   #5 Time Collapse  «تحميص ٧ دقايق. / أقل؟ بتروح القرمشة»  "Toasting takes 7 minutes. Stop early and you lose the crunch." 93.8
            on the toasting shot (book step 03, chef's note); 7 minutes is the book's upper bound
   Delay    «علّي الصوت. / الكسرة بالآخر»                              "Never watch this on mute. You lose the 1 best sound."        100
