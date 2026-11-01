@@ -148,7 +148,11 @@ a question that only the last shot answers; a new text lands every 3 s on a PUNC
 The share ask lives in the first caption line and the pinned comment, not on the video.
 Generation stays on Seedance 2.5 with the template above (Wan and Genjutsu did not match it).
 
-Text size and position: decided by the skills and a measurement, never by taste (owner, 2026-11-01).
+Text size and position (updated 2026-11-01, second read): the winners' own captions lead (format A above): one small
+line, ~42-48 px, white, thin dark stroke, no box, on the cook's black apron in the middle of the frame. The rules
+below (safe box, darkest band, overlay box check, phone check) still apply as checks; the 58 px top position came
+from the kibbeh reel (0.3x) and is not tested.
+Earlier rule, kept for hands-only shots: decided by the skills and a measurement, never by taste (owner, 2026-11-01).
 - From ig-reel: every card inside the safe box (nothing above y 230 or below y 1440 of 1080x1920, the right 230 px
   clear), the hook up at frame 1, never where the caption sits (the bottom), 6 words or fewer per card.
 - Position: the top of the safe box, card block starting at y 300 (y 230-270 is still covered on some phones),
@@ -249,9 +253,27 @@ Rules taken from the claude-seo pack (seo-page, seo-content, seo-sxo, seo-geo), 
 6. Every fact matches the book (Kibbeh Nests: "lamb or beef", not "lamb").
 Example: `content-studio/week1/kibbeh-nests-caption.txt`.
 
-## Action-movie grammar (owner's call 2026-11-01; every reel from Dubai Chocolate Pistachios on)
-Same strategy, same motion order, same flash, cards, 3 pieces and pull-apart; only the filming becomes an action
-trailer. Taken from the cookcut skill (action commercial director), cut down to 15 s:
+## Tested video formats (read from the winners' own files, 2026-11-01; this outranks every untested style)
+Measured on the reels themselves (src/assets/videos/*.mp4 and the API files): cuts per second, shot length, frames.
+A. CHEF FORMAT, 6 of the top 8 (Eggs Benedict 6.4x, Sushi Taco 4.0x, Chicken 4.2x, Macarons 4.5x, Sushi Burger 2.9x,
+   One-second Chips 73% average watch): 0.24-0.4 cuts per second, shots 2-4 s, 13-15 s long, 4-7 shots.
+   - Frame one: the cook in a medium shot facing the camera, face and aviators visible, already doing the hero
+     technique (painting sauce on a white plate, pressing, slicing). No hands-only opening.
+   - Then a top-down or close step, then the money shot as a slow-motion macro (the sauce pour, the puff in the oil,
+     the pull), then the cook presents the finished food to the camera (or one bite).
+   - Dark background, dark walnut wood counter or board, warm key light from one side.
+   - Text: one small line, about 42-48 px at 1080 wide, white, no box, sitting on the black apron in the middle of the
+     frame (hollandaise y ~1150, chips y ~700-780), EN or EN / AR; 2-3 lines in the whole reel (hook rule, the number,
+     the end ask).
+B. MOTION TRANSFER, 1 of the top 8 (sweet potato 9.8x): the motion of a competitor reel that already went viral
+   (Genjutsu), fast cuts copied from it. Use only when the owner has such a reference reel.
+Not tested or failed: Seedance fast-cut hands-only ASMR written from scratch (kibbeh 0.3x, 1.8 cuts/s), very fast
+montage (sushi speed run 0.4x, 5.4 cuts/s), one long static shot (book promo 0.5x, nashville 0.5x).
+Every new prompt starts from format A unless the owner sends a viral reference for format B.
+
+## Action-movie grammar (owner's call 2026-11-01; untested, so only inside format A's pacing)
+Superseded on pacing by the tested format A (4-7 shots of 2-4 s, not 0.7-1.1 s cuts). Still used for: one readable
+camera path per shot, physical realism, diegetic sound, one slow-motion accent on the money shot. Taken from the cookcut skill (action commercial director), cut down to 15 s:
 - One readable camera path per shot, written as start -> path -> end -> action revealed (low object-level slam, overhead
   drop with a pour, whip-pan to the hero, worksurface skim, short arc, fast push-in, reverse pull-back). 2-3 big moves
   per reel, never the same one twice.
