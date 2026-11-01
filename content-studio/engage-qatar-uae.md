@@ -1,4 +1,4 @@
-# Engagement round: Qatar and UAE (2026-11-01, for Kibbeh Nests and the next reels)
+# Engagement round: Qatar and UAE (2026-11-01; Kibbeh Nests posts at 22:30, round from 22:00)
 Follower counts are third-party estimates (Heepsy, HypeAuditor, Socialveins, CreatorDB, Instagram snapshot);
 Instagram's own API here cannot read other accounts, so check the live count on each profile.
 

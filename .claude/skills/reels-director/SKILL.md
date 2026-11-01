@@ -217,6 +217,14 @@ edit to about 11-12 s. Cards: hook (2 lines, 6 words or fewer, a question the re
 move, CTA «الوصفة بأول تعليق. / احفظها» (owner's call: same as the sweet potato). First one:
 `content-studio/prompts/w1-kibbeh-nests-sp.txt`.
 
+## Engagement round before posting (owner's call, 2026-11-01; every reel)
+The problem was the audience, not the content. Same as the sweet potato: the round runs BEFORE the post, never
+only after it. 30 minutes before posting (22:30), on each target account's newest reel: like, save, one specific
+comment of 4+ words about their dish (no "nice", no emoji-only, no links, never the book). Target accounts are
+medium food accounts in the countries we want to reach; current list: `content-studio/engage-qatar-uae.md`
+(5 Qatar, 5 UAE). After 24 h log the Audience tab countries (Qatar and UAE %) next to the other numbers, so the
+effect of the round is measured, not assumed.
+
 ## Caption and title SEO (claude-seo skill, owner's call 2026-11-01; every reel)
 Rules taken from the claude-seo pack (seo-page, seo-content, seo-sxo, seo-geo), applied to the caption:
 1. Keyword from real search, not a guess: the Google Trends picks (`content-studio/search-picks.md`) and one SERP
