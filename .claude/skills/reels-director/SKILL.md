@@ -140,19 +140,25 @@ a question that only the last shot answers; a new text lands every 3 s on a PUNC
 The share ask lives in the first caption line and the pinned comment, not on the video.
 Generation stays on Seedance 2.5 with the template above (Wan and Genjutsu did not match it).
 
-Text position: test it on a frame with the Instagram UI zones drawn (top 14% y<270, bottom 35%
-y>1248, right rail x>880 from y 1000). The top 230-270 band is still covered on some phones, so the
-top card starts at y 300, centred; the right 230 px rule matters only beside the rail (y>1000).
-Owner's call (2026-11-01, replaces the 2026-10-24 middle position): cards sit at the TOP of the safe area,
-block starting at y 300 (just under the 270 px top bar), centred, Arabic Tajawal 800 at 58 px with a 10 px
-black stroke and the dark glow, English line 30 px with a 6 px stroke. Reason (Kibbeh Nests check): in the
-middle, 72 px cards covered the food and the reveal, and the background under them averaged luma 89; at
-y 300-480 it averaged 45 (dark kitchen) and the food stayed fully visible. Spec: `content-studio/edits/kibbeh-nests-cards.json`.
-Readability (fettuccine lesson): in the middle the text sits on the food, often a light background.
-Keep the strong style at the top too: Tajawal 800 at 58 px, black stroke 10 px, dark glow
-(text-shadow 0 0 22px #000e, 0 0 44px #000d, 0 6px 18px #000e). Before delivery, check every card on
-a frame scaled to phone width (390 px) over its real background; if it is not readable at a glance,
-it is not done.
+Text size and position: decided by the skills and a measurement, never by taste (owner, 2026-11-01).
+- From ig-reel: every card inside the safe box (nothing above y 230 or below y 1440 of 1080x1920, the right 230 px
+  clear), the hook up at frame 1, never where the caption sits (the bottom), 6 words or fewer per card.
+- Position: the top of the safe box, card block starting at y 300 (y 230-270 is still covered on some phones),
+  centred on x 540 so every line stays inside x 230-850. Kibbeh Nests measurement (luma under the text, lower is
+  darker and easier to read): top y 300-480 = 47, middle y 640-850 = 89, bottom y 1060-1240 = 100 (10 of 21 half
+  seconds over 100); the middle and the bottom covered the food and the reveal, the bottom also sat on the like and
+  comment buttons. Food is shot in the middle and lower half, so the top is the free, dark band.
+- Size: Arabic Tajawal 800 at 58 px, 10 px black stroke, dark glow (0 0 22px #000e, 0 0 44px #000d, 0 6px 18px #000e),
+  line height 1.15, the key word in gold; English line 30 px, 6 px stroke. 58 px is the largest size at which a
+  6-word card on 2 lines fits the 620 px safe width (Kibbeh Nests: «نفس الوصفة… / بس مش نفس الشكل» = 612 px);
+  on a phone it reads at about 21 px, above the 32 px-at-1080 minimum of ig-carousel, and the block is about 200 px,
+  10% of the frame. Never above 58 (it covers the food), never under 50; if a card is wider than x 230-850, shorten
+  it, do not shrink it. Spec: `content-studio/edits/kibbeh-nests-cards.json`.
+- Every reel: measure the three bands with prepublish.py (`--band 300 480`, `640 850`, `1060 1240`) on the no-text
+  cut. Keep the top unless its luma is over 100 or a card there covers the action; then use the darkest band that
+  leaves the action visible, never below y 1240. Check each overlay's box (`convert ov.png -alpha extract
+  -threshold 8% -format %@ info:`) stays inside x 230-850, y 230-1440, and every card on a 390 px phone frame over
+  its real background; if it is not readable at a glance, it is not done.
 Time every text to the generated shots, never to the prompt timecodes. Cut any shot that
 breaks the book recipe, shows logos or misspelt packaging, or invents food.
 Renderer: `content-studio/overlay.mjs`. ffmpeg: `python3 -c "import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())"`.
@@ -168,9 +174,8 @@ three parts pass, and the delivery message shows the result table.
 2. **Text**: read `content-studio/hook-log.md` first. Hook and rehook use different formulas, neither
    used in the last 3 reels, and no card phrase or pattern from the last 5 reels (the owner finds the
    same hook every time boring). Then the ig-reel loop (3 hooks, 3 formulas, hookscore, classifier); every card 6 words or fewer
-   and 85+; cards at the top of the safe area from y 300, two lines if needed (58 px Tajawal 800,
-   10 px stroke, dark glow, English 30 px); run prepublish.py with `--band 300 480` and check every
-   card on a phone-width frame (390 px) over its real background; the food must stay uncovered.
+   and 85+; size and position by "Text size and position" above (58 px, top of the safe box from y 300,
+   the three-band measurement, the overlay box check, the 390 px phone check); the food must stay uncovered.
 3. **Video**: run `python3 content-studio/prepublish.py final.mp4 --source notext.mp4 --band y0 y1`.
    It flags, per half second, DEAD (no cut, little motion), LONG (shot over 2 s), QUIET (audio 10 dB
    under the median), SLOW and EARLY. Fix every flag in the whole reel, not only the first 3 s
@@ -212,7 +217,12 @@ move, CTA «الوصفة بأول تعليق. / احفظها» (owner's call: sa
 Every recipe gets a shape nobody has made, the way the Crinkle Cake (153x) looked like nothing else, with its dry
 crackling sound as the loudest moment. Keep the book's ingredients and the other steps; change only the shaping
 step, say so in the prompt header, and show the changed step in the pinned recipe so the owner can add it to the
-book. The new shape must be physically makeable and pass the physics check. First one: Kibbeh Nests
+book. The new shape must be physically makeable and pass the physics check.
+Zero errors (owner, 2026-11-01): everything on screen matches the book's description, every ingredient, colour,
+texture, step and count; the ONLY thing that differs is the shape, and it is there to win attention at the reveal at
+the end. In the prompt, write the colour and texture of every component in every shot it appears in (generation-log
+check 12). A generation that changes a colour or turns one food into another (Kibbeh Nests: cream dough shell,
+kataifi-like strands) fails the video check; it is reported to the owner before any edit, never edited around silently. First one: Kibbeh Nests
 (`content-studio/prompts/w1-kibbeh-nests.txt`).
 
 ## Before every generation (owner's rule, 2026-10-27; also when the owner generates himself)
@@ -221,8 +231,9 @@ shown to the owner:
 1. Read `content-studio/generation-log.md` and `content-studio/hook-log.md` first. Every check line in the
    generation log applies to the new prompt.
 2. Re-read the book page; table "book step -> shot"; every step once, in order, nothing added.
-3. Food lock: shape, size and count in every shot; AVOID lists the wrong shapes; counts match between the lock
-   and the shots; fillings stay where the book puts them.
+3. Food lock: shape, size, count, colour and texture in every shot; AVOID lists the wrong shapes and the foods it
+   could turn into (e.g. kataifi, dough, noodles); counts match between the lock and the shots; fillings stay where
+   the book puts them; only the shaping step differs from the book.
 4. Physics a viewer would call out (hot trays, leaking fillings, impossible moves), at most ~2 actions per
    second of a shot, the loop seam shows the same state as frame one.
 5. Halal, including extracts and sauces; identity block; no text, logos or packaging in the prompt.
