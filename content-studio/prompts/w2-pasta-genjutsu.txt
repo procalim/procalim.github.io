@@ -1,9 +1,7 @@
-Caramelized Onion Garlic Chicken Pasta, Genjutsu Lite (motion transfer, format B). Reference: reference-pasta-trimmed.mp4
-(Rima fit food reel 3, 11.2 s, oil bottle and talking end cut out). Attachments: the owner's face and outfit photos.
-The sweet potato's Genjutsu output turned the scene dark with black gloves, so the prompt asks for the same look.
+Caramelized Onion Garlic Chicken Pasta, Genjutsu Lite (motion transfer, format B). Owner's call (2026-11-02): the
+reference stays as it is (same shots, motions, food, dishes, kitchen); only the person in the final shot becomes the
+owner. Reference: reference-pasta.mp4 (Rima fit food reel 3, 11.8 s: only the labelled oil bottle cut out, the full
+ending kept). Attachments: the owner's face and outfit photos. In the edit, the ending is cut before any talking.
 
 ===== PROMPT =====
-Recreate the reference video's exact motion, cuts, timing and camera, shot for shot, performed by the man in the attached images: Middle Eastern man, early 30s, thick mustache, no beard, brown aviator glasses, thin gold chain, plain white t-shirt, black apron with brown leather straps, black nitrile gloves on both hands in every shot (they replace the clear plastic gloves). Dark luxury kitchen: black stone counter, deep shadows, warm tungsten light from the left; keep the white baking dish and the white plate.
-The food stays exactly as in the reference: thinly sliced white onions with spices, exactly 2 paprika-spiced chicken breasts and 2 halved garlic heads baked on the onions until golden, the chicken shredded with two forks, chopped parsley, a squeeze of lemon, the roasted garlic cloves squeezed out, cooked fusilli pasta, a drizzle of cream, grated parmesan, tossed with tongs and served on the white plate with parsley and parmesan on top.
-Last shot: he twirls the pasta on a fork and takes one bite, mouth closed while chewing, no talking.
-No text, no logos, no labelled bottles or packaging, no bare hands, no extra fingers, no deformed hands.
+Use the reference video as the base and copy it exactly: every shot, movement, cut, camera angle and timing, the same food, dishes, hands, gloves and kitchen, unchanged. Change only the person in the final shot: replace the woman with the man in the attached images (Middle Eastern man, early 30s, thick mustache, no beard, brown aviator glasses, thin gold chain, plain white t-shirt, black apron with brown leather straps). He holds the plate and the fork exactly as she does, twirls the pasta and takes the bite with the same movements, chewing with his mouth closed. No text, no logos, no labelled bottles or packaging, no extra fingers, no deformed hands, no distorted face.
