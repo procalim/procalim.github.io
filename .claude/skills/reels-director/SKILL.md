@@ -253,6 +253,29 @@ Rules taken from the claude-seo pack (seo-page, seo-content, seo-sxo, seo-geo), 
 6. Every fact matches the book (Kibbeh Nests: "lamb or beef", not "lamb").
 Example: `content-studio/week1/kibbeh-nests-caption.txt`.
 
+## Every video: cookcut, 30 seconds, action (owner's call, 2026-11-02; replaces format A's length and pacing)
+This is settled. Every reel is written with the cookcut skill as one 30 s Seedance 2.5 action commercial:
+- 16-20 shots, omni_reference, @Image1 = his face.
+- The recipe word for word from the book.
+- His identity and his dark walnut kitchen.
+- The shape is the only change.
+Template: `content-studio/prompts/w2-dubai-pistachios-30s.txt`, with the same section order every time and the book
+step -> shot table and the pre-generation check in the header.
+Kept from the winners' files, inside the cookcut pace:
+- His face in a medium shot at frame one, already doing the first step, and again every 8-10 s.
+- The money shot as a slow-motion macro, the loudest sound.
+- The cook with the result at the end: his eyes on the food, no host presenting.
+- Small apron captions, added in the edit.
+Price (get_cost, 2026-11-02):
+- 1080p: 480 credits.
+- 720p: 210 credits.
+- 480p draft: 90 credits; it can be finalized at 1080p within 7 days.
+Prompt length: under about 10,000 characters. The first 30 s draft was 13,294 and was cut to 9,589 with no rule dropped;
+Kibbeh Nests ran at 6,950.
+Untested on this account: the 30 s length and the cookcut pace. The Dubai reel's 48 h read measures them against the
+decision rule in the week plan.
+Format B (Genjutsu motion transfer) is only for tests with a viral reference (the pasta, 2026-11-02).
+
 ## Tested video formats (read from the winners' own files, 2026-11-01; this outranks every untested style)
 Measured on the reels themselves (src/assets/videos/*.mp4 and the API files): cuts per second, shot length, frames.
 A. CHEF FORMAT, 6 of the top 8 (Eggs Benedict 6.4x, Sushi Taco 4.0x, Chicken 4.2x, Macarons 4.5x, Sushi Burger 2.9x,
@@ -269,9 +292,11 @@ B. MOTION TRANSFER, 1 of the top 8 (sweet potato 9.8x): the motion of a competit
    (Genjutsu), fast cuts copied from it. Use only when the owner has such a reference reel.
 Not tested or failed: Seedance fast-cut hands-only ASMR written from scratch (kibbeh 0.3x, 1.8 cuts/s), very fast
 montage (sushi speed run 0.4x, 5.4 cuts/s), one long static shot (book promo 0.5x, nashville 0.5x).
-Every new prompt starts from format A unless the owner sends a viral reference for format B.
+Superseded on 2026-11-02 by the cookcut 30 s rule above. Format A's face-first opening, slow-motion money shot and
+apron captions live on inside it.
 
 ## Action-movie grammar (owner's call 2026-11-01; untested, so only inside format A's pacing)
+Superseded on 2026-11-02: the full cookcut skill at 30 s (see "Every video: cookcut, 30 seconds, action").
 Superseded on pacing by the tested format A (4-7 shots of 2-4 s, not 0.7-1.1 s cuts). Still used for: one readable
 camera path per shot, physical realism, diegetic sound, one slow-motion accent on the money shot. Taken from the cookcut skill (action commercial director), cut down to 15 s:
 - One readable camera path per shot, written as start -> path -> end -> action revealed (low object-level slam, overhead
