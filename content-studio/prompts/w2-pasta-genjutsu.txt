@@ -1,7 +1,24 @@
-Caramelized Onion Garlic Chicken Pasta, Genjutsu Lite (motion transfer, format B). Owner's call (2026-11-02): the
-reference stays as it is (same shots, motions, food, dishes, kitchen); only the person in the final shot becomes the
-owner. Reference: reference-pasta.mp4 (Rima fit food reel 3, 11.8 s: only the labelled oil bottle cut out, the full
-ending kept). Attachments: the owner's face and outfit photos. In the edit, the ending is cut before any talking.
+Caramelized Onion Garlic Chicken Pasta, Genjutsu Lite (motion transfer, format B). Owner's call (2026-11-02, final):
+the whole video in the owner's identity, character and kitchen; only the recipe and the motion come from the reference.
+Reference: reference-pasta.mp4 (Rima fit food reel 3, 11.8 s, the labelled oil bottle cut out). Attachments: the
+owner's face and outfit photos. Shot map timed to that file.
 
 ===== PROMPT =====
-Use the reference video as the base and copy it exactly: every shot, movement, cut, camera angle and timing, the same food, dishes, hands, gloves and kitchen, unchanged. Change only the person in the final shot: replace the woman with the man in the attached images (Middle Eastern man, early 30s, thick mustache, no beard, brown aviator glasses, thin gold chain, plain white t-shirt, black apron with brown leather straps). He holds the plate and the fork exactly as she does, twirls the pasta and takes the bite with the same movements, chewing with his mouth closed. No text, no logos, no labelled bottles or packaging, no extra fingers, no deformed hands, no distorted face.
+Copy only the motion, cuts, camera angles, timing and recipe of the reference video, shot for shot. Everything else becomes the man in the attached images and his kitchen.
+IDENTITY (every shot): the cook is the man in the attached images: Middle Eastern man, early 30s, thick mustache, no beard, brown aviator glasses, thin gold chain, plain white t-shirt, black apron with brown leather straps. His hands wear black nitrile gloves in every shot.
+KITCHEN (every shot): dark luxury kitchen, black stone counter, black ceramic baking dish, white plate with a thin gold rim, warm tungsten light from the left, deep shadows, the background falling to black.
+SHOT MAP:
+0.0-0.5s top-down: thinly sliced white onions drop into the black baking dish.
+0.5-1.0s: spices poured from two small bowls over the onions.
+1.0-1.6s: his gloved hand tosses the onions with the spices.
+1.6-3.1s: he lays exactly 2 paprika-spiced chicken breasts on the onions, then 2 halved garlic heads, cut side up, and lifts the dish.
+3.1-4.4s: the baked dish: golden chicken, caramelized onions, roasted garlic.
+4.4-4.7s: the chicken shredded with two forks.
+4.7-5.6s: chopped parsley pushed in with a knife, then half a lemon squeezed over.
+5.6-6.0s: his fingers squeeze the roasted garlic cloves out of the skins.
+6.0-7.2s: cooked fusilli pasta added, a drizzle of cream, grated parmesan.
+7.2-8.2s: everything tossed with tongs, then served onto the white plate.
+8.2-9.4s: parsley and parmesan sprinkled on the plate.
+9.4-10.8s: close: his fork twirls the pasta.
+10.8-11.8s: medium shot of him in his kitchen holding the plate, he takes one bite from the fork and smiles while chewing, mouth closed.
+No text, no logos, no labelled bottles or packaging, no bare hands, no extra fingers, no deformed hands, no distorted face.
