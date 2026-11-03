@@ -230,11 +230,22 @@ move, CTA «الوصفة بأول تعليق. / احفظها» (owner's call: sa
 
 ## Engagement round before posting (owner's call, 2026-11-01; every reel)
 The problem was the audience, not the content. Same as the sweet potato: the round runs BEFORE the post, never
-only after it. 30 minutes before posting (22:30), on each target account's newest reel: like, save, one specific
+only after it. 20 minutes right before posting (owner, 2026-11-03, ig-plan's 20-minute round), on each target
+account's newest reel: like, save, one specific
 comment of 4+ words about their dish (no "nice", no emoji-only, no links, never the book). Target accounts are
 medium food accounts in the countries we want to reach; current list: `content-studio/engage-qatar-uae.md`
 (5 Qatar, 5 UAE). After 24 h log the Audience tab countries (Qatar and UAE %) next to the other numbers, so the
 effect of the round is measured, not assumed.
+ig-plan, the rest of the routine:
+- Every day, posting or not: 20 minutes of engagement and 3-5 story frames.
+- The list shape: 5 reach, 3 peers and 2 buyers (people who could buy the book; comment for weeks, never pitch).
+- Comments follow the ig-comment types.
+- On reel days, a story teaser with a countdown sticker before the post.
+- Right after the post: the pinned comment with the keyword.
+- In the first hour, reply to every comment by ig-reply buckets: the keyword gets the recipe by hand; a question
+  many people have becomes a video reply.
+- At 24 h: the numbers. At 48 h: the plan's decision rule.
+- Once a fortnight: an Offer in stories (the book, said plainly).
 
 ## Caption and title SEO (claude-seo skill, owner's call 2026-11-01; every reel)
 Rules taken from the claude-seo pack (seo-page, seo-content, seo-sxo, seo-geo), applied to the caption:
