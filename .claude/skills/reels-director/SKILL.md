@@ -275,6 +275,14 @@ Kibbeh Nests ran at 6,950.
 Untested on this account: the 30 s length and the cookcut pace. The Dubai reel's 48 h read measures them against the
 decision rule in the week plan.
 Format B (Genjutsu motion transfer) is only for tests with a viral reference (the pasta, 2026-11-02).
+Hooks (owner, 2026-11-03): every reel gets a new hook formula, by the hook-log rules. It comes only from tested
+evidence:
+- the account's own winners (the Crinkle Cake mistake shape, the mistake/science-rule family);
+- a documented viral reel of the same dish;
+- reels the owner sends from strong accounts, ranked by the ig-viral outlier multiple (3x or more).
+Instagram and YouTube are closed to this session, so fresh reels from other accounts come from the owner as links or
+screenshots. Cards, title and caption for each reel are saved with it, e.g.
+`content-studio/prompts/w2-dubai-pistachios-cards.txt` and `content-studio/week2/dubai-pistachios-caption.txt`.
 
 ## Tested video formats (read from the winners' own files, 2026-11-01; this outranks every untested style)
 Measured on the reels themselves (src/assets/videos/*.mp4 and the API files): cuts per second, shot length, frames.

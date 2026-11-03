@@ -1,7 +1,34 @@
-Dubai Chocolate Pistachios, captions in the tested format A style (2026-11-01, second read): one small line per
-language, ~44 px Tajawal 800 (Arabic) and ~40 px (English), white, thin dark stroke, no box, centred on the cook's
-black apron or the darkest middle area (y ~1050-1200); re-timed to the real shots after generation.
-  0.0-3.2   Hook (shot 01, the cook pouring)   «الغلطة: كنافة فاتحة»          The mistake is pale kataifi.     #7, 87
-  3.2-6.8   Rule with the book's number         «٧ دقايق لحد الغامق»           7 minutes. Deep golden.
-  12.8-end  End ask (the cook presents)         «الوصفة بأول تعليق»            Recipe in the first comment.
-No caption on the snap (shot 06): the money shot plays clean, as in the winners.
+Dubai Chocolate Pistachios, on-video texts for the 30 s cookcut reel (written 2026-11-03).
+Prompt: w2-dubai-pistachios-30s.txt.
+- Times are planned from the prompt's shots. Re-time every card to the generated shots in the edit (skill rule).
+- Size and position are set in the edit by "Text size and position": the apron line when his face is in frame, the
+  measured darkest band on the close shots, inside the safe box.
+- No card on the snap: the money shot plays clean.
+Rules checked against hook-log.md:
+- The hook is #7 and the rehook is #2: two different formulas, neither used in the last 3 reels (#21/#3, #26/#9,
+  #16/#24).
+- No phrase or pattern from the last 5 reels: «الوصفة بأول تعليق» is out, «مش نفس الشكل» is out.
+
+#  Shots (planned s)        Arabic                       English                          Basis
+1  01-03 (0.0-3.0)          «الغلطة: كنافة فاتحة»        Pale kataifi is the mistake.     Hook #7 Wrong Way, Right Way: the exact shape of the
+                                                                                            account's best reel, Crinkle Cake ("The Butter Between
+                                                                                            the Layers Is the Mistake", 142.7x, ~500K views); the
+                                                                                            mistake/science-rule family has a median of 1.6x over
+                                                                                            28 reels. hookscore, full line "Pale kataifi is the
+                                                                                            mistake. Your Dubai chocolate won't crunch.": 83 STRONG.
+                                                                                            That is 2 under 85; kept because on this account the
+                                                                                            evidence outranks the scorer (week plan, rule 1).
+2  05-06 (4.4-7.4)          «لاحظ القالب 👀»              Look at the mold.                Delay 1: holds the new shape for the end, in the 1-3.5 s
+                                                                                            drop zone of every reel.
+3  10-11 (11.2-14.0)        «٥ لـ٧ دقايق. لحد الغامق»    5 to 7 minutes. Deep golden.     Answer to the hook, the book's own number (step 03, the
+                                                                                            chef's note), before the halfway mark (ig-reel).
+4  14-15 (16.6-19.8)        «لا تعملها لوح»              Don't make it a bar.             Rehook #2 Negative Command, the new shape. hookscore,
+                                                                                            full line "Don't use a bar mold. Use 3 giant pistachios
+                                                                                            instead.": 94.8 STRONG.
+5  18 (22.8-24.2)           «علّي الصوت 🔊»               Sound up for the crack.          Delay 2: the crack. The original viral Dubai chocolate
+                                                                                            reel (Maria Vehera, Dec 2023, 120M+ views) won on the
+                                                                                            crunch of the break. Off at the snap.
+6  20 (27.0-30.0)           «اكتب «كنافة» 👇»            Comment KATAIFI for the recipe.  One ask: the Arabic comment keyword (Mansaf «منسف»,
+                                                                                            14.2x; September keyword captions, median 1.6x). It
+                                                                                            echoes the hook word «كنافة» for the loop. The owner
+                                                                                            replies by hand (ChatPlace is not connected).
