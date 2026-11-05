@@ -13,7 +13,7 @@ reels. Append a row after every delivery.
 | Giant stuffed pancake | …وفجأة البان كيك طار (#21 Mid-Sentence Start) | ٣ دقايق كل جهة. ما حدا بقلّك (#3) | «ملعقة وحدة بس»، «لا ترمش. ثانيتين بس»، «لا تضيّعها» |
 | Stuffed sweet potato patties | الطريقة الوحيدة ولادك ما بيحسّوا بالسبانخ (#26 Superlative) | اسرق حركة النايلون هاي (#9 The Steal) | «ولا بيضة. والأقراص بتمسك»، «الوصفة بأول تعليق. احفظها» |
 | Kibbeh Nests | هاي لسا كبة؟ أداة وحدة غيّرتها (#16 Verbatim Question) | السر: مكبس البطاطا (#24 Reveal) | «نفس الوصفة… بس مش نفس الشكل»، «الوصفة بأول تعليق. احفظها» |
-| Dubai Chocolate Pistachios (edited 2026-11-05, 11.1 s) | حبيبي، بدي شوكولاتة دبي (owner's hook: the Habibi line) | الغلطة: كنافة فاتحة (#7 Wrong Way, Right Way) | «لا تعملها لوح» (#2)، «اكتب «دبي» للوصفة 👇» |
+| Dubai Chocolate Pistachios (edited 2026-11-05, 11.1 s) | حبيبي، بدي شوكولاتة دبي (owner's hook: the Habibi line) | الغلطة: كنافة فاتحة (#7 Wrong Way, Right Way) | «لا تعملها لوح» (#2)، «اكتب «دبي» 👇» (keyword gets the book link, not a free recipe) |
 
 Worn out, do not use again until further notice: «ما حدا بقلّك» and any «… بس. ما حدا …» card,
 «ما حدا بيصدّق / بيتوقع»، «لا تضيّعها»، «لا ترمش»، «٣ / ٤ دقايق كل جهة».

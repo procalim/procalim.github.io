@@ -1,6 +1,6 @@
 USED IN THE EDIT (2026-11-05, 15 s generation edited to 11.1 s): owner's hook «حبيبي، بدي شوكولاتة دبي» / "Habibi, I want
-Dubai chocolate."; «الغلطة: كنافة فاتحة» on the kataifi; «لا تعملها لوح» on the mold flip; «اكتب «دبي» للوصفة 👇» from the
-opening to the end (keyword DUBAI / «دبي»). Spec: edits/dubai-pistachios-cards.json. The table below was the 30 s plan.
+Dubai chocolate."; «الغلطة: كنافة فاتحة» on the kataifi; «لا تعملها لوح» on the mold flip; «اكتب «دبي» 👇» / "Comment DUBAI 👇" from the
+opening to the end (keyword DUBAI / «دبي»; the DM sends the book link, no free recipe). Spec: edits/dubai-pistachios-cards.json. The table below was the 30 s plan.
 
 Dubai Chocolate Pistachios, on-video texts for the 30 s cookcut reel (written 2026-11-03).
 Prompt: w2-dubai-pistachios-30s.txt.

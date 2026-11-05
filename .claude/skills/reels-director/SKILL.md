@@ -228,6 +228,14 @@ edit to about 11-12 s. Cards: hook (2 lines, 6 words or fewer, a question the re
 move, CTA «الوصفة بأول تعليق. / احفظها» (owner's call: same as the sweet potato). First one:
 `content-studio/prompts/w1-kibbeh-nests-sp.txt`.
 
+## No free recipes (owner's call, 2026-11-05; every reel)
+The keyword never gets the recipe. It gets the ig-dm keyword delivery: the book link first
+(https://ediblecodex.com/shop/the-edible-codex), one line on what is inside (the dish step by step, 360 more halal
+recipes, Arabic and English, instant download, 30-day refund), one question they can answer in four words. No price.
+Every promise matches what is sent: the card says only the keyword («اكتب «دبي» 👇»), and the caption and pinned
+comment say "the link to the full recipe in my book", never "I'll send you the recipe". No recipe in the pinned
+comment. Example: `content-studio/week2/dubai-pistachios-dm-reply.txt`.
+
 ## Engagement round before posting (owner's call, 2026-11-01; every reel)
 The problem was the audience, not the content. Same as the sweet potato: the round runs BEFORE the post, never
 only after it. 20 minutes right before posting (owner, 2026-11-03, ig-plan's 20-minute round), on each target
@@ -255,7 +263,8 @@ Rules taken from the claude-seo pack (seo-page, seo-content, seo-sxo, seo-geo), 
    shape as the hook, e.g. "Fried Kibbeh Balls Recipe, shaped like crispy nests 👀" (53). The share ask is line 2.
    The Arabic block opens the same way with the Arabic keyword. `Recipe | Hook | Arabic hook` stays as the file label.
 3. Answer-first, entity-clear body (seo-content, seo-geo): one sentence that says what the dish is and what it is
-   made of in the book's words, then the one new move, then "Full recipe in the first comment".
+   made of in the book's words, then the one new move, then the keyword line ("Comment DUBAI and I'll send you the
+   link to the full recipe in my book").
 4. Primary keyword in the first 100 words of each language, 2-3 natural variations (kibbeh balls, fried kibbeh;
    كبة مقلية), density about 3% or less, no stuffing; hashtags 3-5 = the keyword and its variants in both languages
    plus #halalrecipes.
@@ -389,8 +398,8 @@ positioning; Arab dishes stay in the mix because they performed, not as the iden
 with a small English line under it; captions English first.
 
 ## Every delivered video comes with the full package
-Download link, then in this order: SEO title, recipe verbatim from the book (English and the
-Arabic edition), 3-5 hashtags, pinned comment (the recipe), ready replies for the first hour,
+Download link, then in this order: SEO title, 3-5 hashtags, pinned comment (the keyword and the book link
+promise), ready replies for the first hour,
 posting time, and the exact numbers to send back after 24 h (skip rate, average watch, shares,
 saves, follows, Audience tab gender and non-follower %).
 
