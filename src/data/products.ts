@@ -47,14 +47,14 @@ export const products: Product[] = [
   {
     id: 1,
     slug: "the-edible-codex",
-    title: { ar: "٢٦١ وصفة احترافية + ١٠٠ وصفة مجاناً", en: "261 Chef Recipes + 100 Free" },
-    subtitle: { ar: "٣٦١ وصفة في ٣٨٦ صفحة — مطبخ مطعم كامل بسعر وجبة واحدة", en: "361 recipes in 386 pages — a restaurant kitchen for the price of one meal" },
+    title: { ar: "كتاب الطبخ الذي يجعلك تطبخ كالمطاعم", en: "The Cookbook That Has You Cooking Like a Chef" },
+    subtitle: { ar: "٣٦١ وصفة مصوّرة، من فطور الصباح إلى حلو العزيمة — وينتهي سؤال «شو نطبخ اليوم؟»", en: "361 photographed recipes, from breakfast to the dinner-party dessert — and no more \"what's for dinner?\"" },
     description: {
-      ar: "المجلّد الرقمي الكامل: ٣٦١ وصفة في ٣٨٦ صفحة — ٢٦١ وصفة من المطبخ المحترف، ومعها ١٠٠ وصفة من الوصفات التي اجتاحت الإنترنت، مجاناً. كل وصفة على صفحة واحدة، بصورتها الخاصة، بالمقادير والخطوات وملاحظة الشيف — لا تقليب بين صفحتين وأنت تطبخ.",
-      en: "The complete digital volume: 361 recipes across 386 pages — 261 from a professional kitchen, plus 100 of the internet's most-cooked dishes, free. Every recipe sits on a single page with its own photograph, its measurements, its method and a chef's note — no flipping back and forth while you cook.",
+      ar: "افتح الكتاب، اختر صورة تشتهيها، وبعد ساعة يكون الطبق نفسه على سفرتك. ٢٦١ وصفة من المطبخ المحترف — مقبلات، خبز، سلطات، أطباق رئيسية، باستا وحلويات — ومعها ١٠٠ من أشهر وصفات الإنترنت هدية. مقادير دقيقة، خطوات مرقّمة، وملاحظة شيف تنبّهك للخطأ الذي يفسد الطبق قبل أن تقع فيه. كل وصفة على صفحة واحدة بصورتها، فتطبخ من جوالك دون تقليب، وتسمع من ضيوفك: «من وين هالوصفة؟». وإن لم يعجبك، تستردّ مالك كاملاً خلال ٣٠ يوماً.",
+      en: "Open the book, pick a photo that makes you hungry, and an hour later that same dish is on your table. 261 recipes from a professional kitchen — starters, breads, salads, mains, pasta and desserts — plus 100 of the internet's most-cooked dishes as a gift. Exact measurements, numbered steps, and a chef's note that warns you about the mistake that ruins a dish before you make it. Every recipe sits on one page with its own photograph, so you cook straight from your phone without flipping, and your guests ask where the recipe came from. And if it isn't for you, you get every cent back within 30 days.",
     },
     features: [
-      { ar: "٢٦١ وصفة احترافية + ١٠٠ وصفة مجاناً = ٣٦١", en: "261 chef recipes + 100 free = 361" },
+      { ar: "من الفطور إلى الحلو: مقبلات، خبز، سلطات، أطباق رئيسية، باستا وحلويات", en: "Breakfast to dessert: starters, breads, salads, mains, pasta and sweets" },
       { ar: "صورة خاصة لكل وصفة — ٣٦١ صورة، لا تتكرّر", en: "Its own photograph for every recipe — 361, none repeated" },
       { ar: "كل وصفة كاملة على صفحة واحدة", en: "Every recipe complete on one page" },
       { ar: "ملاحظة الشيف مع كل وصفة", en: "A chef's note with every recipe" },
