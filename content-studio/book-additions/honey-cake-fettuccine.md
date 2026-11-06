@@ -20,10 +20,10 @@ To finish
 METHOD
 01 Beat eggs, sugar and honey until pale and tripled (6–8 minutes).
 02 Fold in flour, baking powder and salt.
-03 Spread 5 mm thin on a parchment-lined sheet pan. Bake at 190°C (375°F) for 7–8 minutes until golden.
+03 Pour 5 mm thin into a buttered non-stick skillet, cover and cook on low for 3–4 minutes, flip, 1 minute more until golden.
 04 While warm, cut into long 1 cm ribbons with a pasta cutter.
-05 Melt butter in a pan, add cream and honey, simmer 1 minute until glossy.
-06 Toss the ribbons in the sauce, twirl into a nest with a fork, grate white chocolate over like parmesan, drizzle with honey.
+05 Melt the butter, whisk in the warm cream and honey until glossy, and pour over the ribbons; toss.
+06 Twirl into a nest with a fork, grate white chocolate over like parmesan, drizzle with honey.
 CHEF'S NOTE: Cut the sponge while it's warm — it bends like pasta. Cold, it cracks.
 
 ## العربي
@@ -44,8 +44,8 @@ CHEF'S NOTE: Cut the sponge while it's warm — it bends like pasta. Cold, it cr
 الطريقة
 ٠١ اخفق البيض والسكر والعسل لحد ما يصير فاتح وحجمه ثلاث أضعاف (٦–٨ دقايق).
 ٠٢ قلّب الطحين والبيكنج باودر والملح بلطف.
-٠٣ افرده رقيق ٥ ملم بصينية مبطنة بورق زبدة، واخبزه على ١٩٠°م لمدة ٧–٨ دقايق لحد ما يذهّب.
+٠٣ صبّه رقيق ٥ ملم بمقلاية غير لاصقة مدهونة زبدة، غطّيها واطبخه على نار هادية ٣–٤ دقايق، اقلبه، ودقيقة كمان لحد ما يذهّب.
 ٠٤ وهو دافي، قصّه شرايط طويلة عرضها ١ سم بقطّاعة المعكرونة.
-٠٥ ذوّب الزبدة بالمقلاية، وزيد الكريمة والعسل، وخليه يغلي دقيقة لحد ما يلمع.
-٠٦ قلّب الشرايط بالصوص، ولفّها عش بالشوكة، وابشر فوقها شوكولاتة بيضا مثل البارميزان، ورشّ عسل.
+٠٥ ذوّب الزبدة، واخفق معها الكريمة الدافية والعسل لحد ما يلمع الصوص، وصبّه على الشرايط وقلّبها.
+٠٦ لفّها عش بالشوكة، وابشر فوقها شوكولاتة بيضا مثل البارميزان، ورشّ عسل.
 ملاحظة الشيف: قصّ الكيكة وهي دافية: بتنثني مثل الباستا. إذا بردت بتتكسر.
