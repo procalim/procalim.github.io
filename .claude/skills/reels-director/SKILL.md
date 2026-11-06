@@ -273,6 +273,30 @@ Rules taken from the claude-seo pack (seo-page, seo-content, seo-sxo, seo-geo), 
 6. Every fact matches the book (Kibbeh Nests: "lamb or beef", not "lamb").
 Example: `content-studio/week1/kibbeh-nests-caption.txt`.
 
+## The loop for the next 30 days (owner's call, 2026-11-06; every reel, unchanged between reels)
+One strategy, the same every time (Raghad's point, and the "Go Viral With Claude" guide). Only the seconds get better.
+1. Prompt: the pistachio strategy (next section) plus the "seconds improved" table from the last reel's drop.
+2. Generate only on «ولد», then the full check frame by frame (generation-log checks), errors reported first.
+3. Professional edit on Higgsfield's sandbox, sounds and animation:
+   - Sounds: the clip's own sounds cleaned and layered; the opening and the money shot lifted, the money shot the
+     loudest; a beat of near silence before it; -14 to -16 LUFS, peak about -1 dBFS; no music.
+   - Animation: the text pops in (scale and fade, about 0.15 s), punch-in zooms on the beats, speed ramps on the
+     calm stretches.
+   - Then prepublish.py until it prints none (or only the money shot, with the reason), the measured dark bands,
+     and the 390 px phone check.
+   - Delivery: an uploaded Higgsfield link, plus the story frames from the same clip.
+4. Post with the routine:
+   - 20 minutes of engagement, the story teaser with a countdown;
+   - post at 22:30;
+   - the pinned keyword comment, replies in the first hour, the DM with the book link.
+5. The owner sends the insights at 24 h, and at 7 days: overview, "what impacts your views", the retention graph,
+   sources, audience. Read the drop second by second against the edit's timeline (which shot was on screen at each
+   fall), log it in generation-log.md, and write the "seconds improved" table for the next reel.
+6. Weekly review (the guide's prompt 8):
+   - rank by follows and by follows per 1,000 views, next to shares and saves per 1K;
+   - compare every post at the same age;
+   - pick 3 patterns to continue, up to 3 to adapt, and 1 new experiment.
+
 ## The pistachio strategy, what carries over (owner's correction, 2026-11-06)
 - Carried over: the shot grammar of the Dubai pistachio prompt and its sections:
   - his face in a medium shot at frame one, already working, with a fast push-in;
