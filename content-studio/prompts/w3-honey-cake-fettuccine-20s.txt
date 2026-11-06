@@ -1,0 +1,82 @@
+Honey Cake Fettuccine, 20 s, the pistachio strategy (owner's call, 2026-11-06).
+- The Dubai pistachio prompt's structure, zooms and angles, at 20 s: his face at frame one already working, a 45°
+  close, two true top-downs, a low angle, an extreme slow-motion macro money shot, and his face with the result at
+  the end.
+- Fixed only from the Dubai errors (generation-log checks 13-14, plus the edit's flags):
+  - the shape gets a pose and a proportion;
+  - every colour is named by an object and by what it is not;
+  - the opening is in full motion (the Dubai pour read DEAD);
+  - every shot is dense (the Dubai top-down read SLOW);
+  - the money shot is written as the loudest sound.
+Recipe: our invention, book-additions/honey-cake-fettuccine.md (not in the book; the owner chose it).
+Seedance 2.5, omni_reference, 20 s, 9:16, audio on, @Image1 = the Chef-Ahmad element photo (the face).
+Price: 320 credits at 1080p, 140 at 720p (get_cost 2026-11-06). Balance 75.22.
+Edit idea (the hook, per the guide): a 1 s flash of the finished "fettuccine" first with «هاي مش باستا», then the
+process; the cards go on after generation.
+
+RECIPE STEP -> SHOT
+01 Beat eggs, sugar and honey until pale and tripled            -> shot 01
+02 Fold in flour, baking powder and salt                        -> shot 02
+03 Spread 5 mm thin; bake 190°C 7-8 min until golden            -> shot 03
+04 While warm, cut into 1 cm ribbons with a pasta cutter        -> shot 04
+05 Butter, cream, honey: simmer until glossy                    -> shot 05
+06 Toss, twirl into a nest, grate white chocolate, drizzle honey -> shots 06-09
+
+PRE-GENERATION CHECK (generation-log checks 1-14)
+1 Shape lock: flat ribbons 1 cm wide, about 25 cm long, 5 mm thick, in the lock and in every shot; AVOID lists
+  spaghetti, round noodles, real pasta.                                                                         OK
+2 Reference scope: @Image1 is the face only.                                                                   OK
+3 The reveal: the fork lifts a twirl and the golden sponge crumb shows at the cut edges.                       OK
+4 One 20 s clip.                                                                                               OK
+5 The finished nest first appears at 12.8 s (the 1 s flash is an edit choice).                                 OK
+6 Silence: check the last second after generation.                                                           after
+7 Physics: the sheet is cut warm, so the ribbons bend; the sauce coats, never pools like soup; the hot pan is held
+  by its handle.                                                                                               OK
+8 At most 2 actions per shot second.                                                                           OK
+9 Halal: eggs, sugar, honey, flour, baking powder, salt, butter, cream, white chocolate; no alcohol, no extracts. OK
+10 No cheese pull: the "parmesan" is grated white chocolate; the sauce drips in glossy threads, never stretches.  OK
+12-14 Colours named by object and by what they are not; the nest has a pose (tall, on a white plate).         OK
+Identity block, gloves in every shot, silent, no text, no logos, no labelled jars or packaging.                OK
+===== PROMPT =====
+SCENE CONTEXT: A vertical 9:16 premium cooking reel for Honey Cake Fettuccine, exactly 20 seconds, 9 shots of about 1.8 to 3.0 seconds each, clean hard cuts, every shot already in motion. Dark background falling to pure black, a dark walnut wood counter, a black mixing bowl, a black sheet pan lined with parchment, a fluted pasta cutter wheel, a black skillet, a white round plate, a microplane.
+
+REFERENCE CONTROL: The man in @Image1 is the cook, exactly his face: Middle Eastern man, early 30s, thick mustache, no beard, brown aviator glasses, thin gold chain, plain white t-shirt under a black apron with brown leather straps, black nitrile gloves on both hands at all times. He works like a calm expert, mouth closed, never speaks, never poses.
+
+RECIPE (follow exactly, every step once, in this order, nothing added):
+Honey Cake Fettuccine
+INGREDIENTS
+— Honey sponge: 4 Eggs, ½ cup Sugar, 3 tbsp Honey, ¾ cup Flour, 1 tsp Baking powder, pinch of Salt
+— Honey "Alfredo" sauce: 3 tbsp Butter, ½ cup Heavy cream, 3 tbsp Honey
+— To finish: White chocolate block (grated like parmesan), Honey to drizzle
+METHOD
+01 Beat eggs, sugar and honey until pale and tripled (6–8 minutes).
+02 Fold in flour, baking powder and salt.
+03 Spread 5 mm thin on a parchment-lined sheet pan. Bake at 190°C for 7–8 minutes until golden.
+04 While warm, cut into long 1 cm ribbons with a pasta cutter.
+05 Melt butter in a pan, add cream and honey, simmer 1 minute until glossy.
+06 Toss the ribbons in the sauce, twirl into a nest with a fork, grate white chocolate over like parmesan, drizzle with honey.
+CHEF'S NOTE: Cut the sponge while it's warm — it bends like pasta.
+
+FOOD SHAPES AND COLOURS (the same in every shot, never change): honey: clear amber like light honey, not dark brown. Whipped eggs: pale cream like whipped butter, thick ribbons. Baked sheet: one thin flat sheet 5 mm thick, top golden like a honey sponge cake, not orange, not brown; the cut edges show a soft pale-yellow sponge crumb. Ribbons: long flat strips 1 cm wide, about 25 cm long, 5 mm thick, with fluted edges from the cutter, soft and bendy exactly like fresh fettuccine. Sauce: glossy ivory like Alfredo sauce, not yellow, not caramel. Grated white chocolate: fine ivory-white flakes exactly like grated parmesan. The finished dish: one tall twirled nest of golden ribbons coated in glossy ivory sauce on a white plate, snowy white flakes on top, an amber honey thread.
+
+PROCESS ORDER LOCK: whipped eggs and honey -> batter -> thin sheet -> baked golden sheet -> cut ribbons -> glossy sauce -> tossed -> twirled nest -> grated white chocolate -> honey -> lifted -> bitten. Every stage once, only forward. The finished nest never appears before shot 07.
+
+SHOT 01 — 0.0-2.4s: Medium shot, the cook faces the camera behind the walnut counter, his face and aviators clearly visible from the first frame; a hand mixer is already spinning fast in the black bowl and he pours a thick amber ribbon of honey into the pale whipped eggs, the mixture foaming up thick and pale. Fast push-in.
+SHOT 02 — 2.4-4.4s: Close at 45 degrees on the bowl: flour drops in a soft cloud and a spatula folds it through the pale batter in two big sweeps.
+SHOT 03 — 4.4-6.4s: True 90-degree top-down on the parchment-lined black sheet pan: the batter pours out and an offset spatula sweeps it into one thin even sheet; in compressed time it rises slightly and its top turns golden.
+SHOT 04 — 6.4-8.8s: True 90-degree top-down on the warm golden sheet: the fluted pasta cutter wheel rolls fast in straight lines, cutting long 1 cm ribbons one after another, the pale-yellow sponge crumb showing at the cuts.
+SHOT 05 — 8.8-10.6s: Low angle at 45 degrees on the black skillet held by its handle: butter melts and foams, cream and an amber thread of honey pour in, and the sauce bubbles into a glossy ivory sauce.
+SHOT 06 — 10.6-12.8s: Close, slight arc: tongs lift the golden ribbons and toss them in the glossy ivory sauce, coating every strand; it looks exactly like fettuccine Alfredo.
+SHOT 07 — 12.8-15.0s: Medium-close, his face visible above: he twirls a fork into a tall glossy nest and sets it on the white plate, then rubs a white chocolate block across the microplane and a snow of ivory flakes falls on it like grated parmesan.
+SHOT 08 — 15.0-18.0s: Extreme close-up macro right by the lens, slow motion: an amber thread of honey falls onto the snowy nest, then the fork lifts one twirl out of it, glossy ivory sauce dripping in slow threads, golden ribbons with fluted edges and the soft sponge crumb at their ends, flakes tumbling off.
+SHOT 09 — 18.0-20.0s: Medium shot, the cook faces the camera, lifts the twirled forkful toward the lens and takes one bite, chewing with his mouth closed, his face and aviators visible behind the plate. No cut to black.
+
+SILENT PERFORMANCE LOCK: completely nonverbal. No voice, no talking, no lip movement.
+
+CONTINUITY + PHYSICS: one sheet, then ribbons of the same width; the ribbons stay soft and bend like pasta, never snap; the sauce coats and never pools like soup; the hot skillet is held by its handle; the grated chocolate stays as dry flakes; real gravity and steam; one camera move per shot.
+
+LIGHTING: warm key light from camera left, the background falling to pure black, a soft warm rim light on the glossy sauce and the honey, deep shadows, sharp focus on the food, natural colours.
+
+AUDIO: only real close-mic sound from what is on screen: the mixer whirring, the honey pour, the folding, the spatula on the pan, the cutter wheel clicking over the sheet, the butter sizzling and the sauce bubbling, the tongs, the fork on the plate, the microplane rasping. A beat of near silence before shot 08; the loudest sound of the whole video is the close-mic glossy, sticky sound of the fork twirl lifting from the sauce in shot 08. No music, no voice, no whooshes.
+
+AVOID: spaghetti, round noodles, real pasta dough, pasta machine, savory cheese, herbs, parsley, black pepper, garlic, tomato, orange or brown sponge, yellow or caramel sauce, soup, cheese pull, stretchy strings, ribbons breaking, labelled jars, packaging, garnish, bare hands, talking, cut to black, fade out, logos, text, extra fingers, deformed hands, distorted face.
