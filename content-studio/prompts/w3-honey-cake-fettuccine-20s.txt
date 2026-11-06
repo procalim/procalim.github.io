@@ -30,8 +30,8 @@ Seedance 2.5, omni_reference, 20 s, 9:16, audio on, @Image1 = the Chef-Ahmad ele
 Price: 320 credits at 1080p, 140 at 720p. Balance 75.22.
 
 RECIPE STEP -> SHOT
-01 Beat eggs, sugar, honey -> 01 | 02 Fold flour -> 02 | 03 Spread thin, bake golden -> 03 | 04 Cut warm ribbons -> 04
-05 Sauce in the skillet -> 05 | 06 Toss, twirl, grate, honey -> 06-08 | the bite -> 09
+Skit hook -> 01 | 01 Beat eggs, sugar, honey -> 02 | 02 Fold flour -> 03 | 03 Spread thin, bake golden -> 04
+04 Cut warm ribbons -> 05 | 05 Sauce in the skillet -> 06 | 06 Toss, twirl, grate, honey -> 07-09 | the bite (bookend) -> 10
 Checks 1-14 OK (shape lock, face-only reference, one clip, physics, halal, no cheese pull, colours by object);
 silence in the last second: after generation.
 ===== PROMPT =====
