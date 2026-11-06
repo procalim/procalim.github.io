@@ -1,0 +1,96 @@
+Smashed Broccoli, 20 s cookcut action commercial (week 3, day 1). Owner's call (2026-11-06): the pistachio system
+(cookcut prompt, his identity, a new shape, the edit on Higgsfield) at 20 seconds.
+Recipe: Smashed Broccoli (book N° 066, page 213), every ingredient and step word for word from the book PDF.
+The ONLY change is the shape (new-shape rule): the head is cut lengthwise into 3 thick slabs that keep the broccoli
+tree silhouette, instead of loose florets, so step 04 smashes 3 flat tree-shaped chips. Flag this in the reply so
+the owner can add it to the book.
+Seedance 2.5, omni_reference, 20 s, 9:16, audio on, @Image1 = the Chef-Ahmad element photo (the face).
+Price (get_cost, 2026-11-06):
+- 1080p: 320 credits.
+- 720p: 140 credits.
+Balance: 75.22.
+
+BOOK STEP -> SHOT
+01 Steam or boil broccoli until tender (5-7 mins). Drain well and pat dry.   -> shots 01-02 (chef's note in 02)
+02 Preheat oven to 425°F (220°C).                                            -> shot 03
+03 Place broccoli on parchment-lined baking sheet.                           -> shot 04
+04 Smash each floret flat with the bottom of a glass.                        -> shots 05-06 (the new shape)
+05 Drizzle with oil, sprinkle generously with parmesan and garlic powder.    -> shots 07-08
+06 Bake 20-25 minutes until edges are dark crispy and cheese is golden.      -> shots 09-11
+07 Finish with lemon zest.                                                   -> shot 12
+The payoff (the book's line "It gets crispy like chips")                      -> shots 13-14
+
+PRE-GENERATION CHECK (generation-log checks 1-14)
+1 Shape lock: exactly 3 tree-shaped slabs, the silhouette in the lock and in every shot; AVOID lists round florets,
+  whole heads, cauliflower, kale.                                                                              OK
+2 Reference scope: @Image1 is the face only.                                                                   OK
+3 The reveal: the chip snaps in half, rigid, green inside under the golden crust.                              OK
+4 Multi-clip: one 20 s clip.                                                                                   OK
+5 The finished chips first appear at 13.4 s; the opening is chronological (the boil).                          OK
+6 Silence: check the last second after generation.                                                           after
+7 Physics: the hot tray comes out through a folded towel; the slabs are tender before the smash, so they flatten
+  without shattering; parmesan crisps, never stretches; counts 3 = 3 everywhere.                               OK
+8 At most 2 actions per shot second (3 smashes in 2 s).                                                         OK
+9 Halal: broccoli, olive oil, parmesan, garlic powder, salt, lemon; no extracts, no alcohol.                   OK
+10 The break: "snaps cleanly like a chip, no strings, no cheese pull".                                          OK
+12 Colour and texture of every component written into every shot it appears in.                               OK
+13 The new shape has a pose and a proportion: lying flat, about 12 cm tall, a trunk and a rounded crown, 1 cm thick.  OK
+14 Colours named by an object and by what they are not: crust "golden like a baked parmesan crisp, not orange";
+   edges "dark brown-black like roasted kale chips"; broccoli "vivid green like fresh basil, not olive, not grey".  OK
+Identity block, gloves in every shot, silent, no text, no logos, no labelled jars or packaging.                OK
+===== PROMPT =====
+SCENE CONTEXT: A vertical 9:16 premium cinematic action commercial, exactly 20 seconds, 14 shots, one forward-moving process from a boiling pot of broccoli to 3 crispy tree-shaped broccoli chips snapped like potato chips. Dark luxury kitchen: dark walnut counter and board, a black pot of boiling water, a black spider strainer, a folded dark linen towel, a black oven with a glowing window, a black baking sheet lined with parchment, a heavy clear glass tumbler, a microplane; the background falls to pure black.
+
+REFERENCE CONTROL: The man in @Image1 is the cook, exactly his face, proportions, skin tone and hairline: Middle Eastern man, early 30s, thick mustache, no beard, brown aviator glasses, thin gold chain, plain white t-shirt under a black apron with brown leather straps, black nitrile gloves on both hands in every shot.
+
+RECIPE (follow exactly, every step once, in this order, nothing added):
+Smashed Broccoli
+INGREDIENTS
+— 1 head Broccoli (cut lengthwise into 3 thick tree-shaped slabs: the new shape)
+— Olive oil
+— Parmesan cheese (grated)
+— Garlic powder, Salt, Lemon zest
+METHOD
+01 Steam or boil broccoli until tender (5–7 mins). Drain well and pat dry.
+02 Preheat oven to 425°F (220°C).
+03 Place broccoli on parchment-lined baking sheet.
+04 Smash each slab flat with the bottom of a glass.
+05 Drizzle with oil, sprinkle generously with parmesan and garlic powder.
+06 Bake 20–25 minutes until edges are dark crispy and cheese is golden.
+07 Finish with lemon zest.
+CHEF'S NOTE: Pat the broccoli DRY after boiling — moisture prevents crispiness.
+
+FOOD SHAPES AND COLOURS (never change): exactly 3 broccoli slabs, each the flat silhouette of a small tree: a stem trunk and a rounded crown, about 12 cm tall. Boiled: vivid green like fresh basil, not olive, not grey. Smashed: lying flat, about 1 cm thick, the crown spread wide, the trunk pressed flat. Olive oil: a thin golden-green ribbon. Parmesan: fine pale-ivory snow; baked: a lacy crust golden like a baked parmesan crisp, not orange. Edges after baking: dark brown-black and crispy like roasted kale chips. Lemon zest: fine bright yellow threads. The finished chips are rigid and snap cleanly.
+
+PROCESS ORDER / NON-REPETITION LOCK: boiling -> lifted out -> patted dry -> oven set to 220°C -> placed on parchment -> smashed flat -> oil -> parmesan and garlic powder -> into the oven -> baking -> out of the oven -> lemon zest -> snapped -> bitten. Every stage once, only forward. No finished chip before shot 11.
+
+HERO + ENERGY PRIORITY: an expert under pressure, whole-body action, every frame already moving, a rhythm change every 2 seconds, never a calm tutorial.
+
+SHOT 01 — 00:00.0-00:01.5: Medium hero, his face and aviators clear from frame one: he lifts 3 vivid green tree-shaped broccoli slabs out of a rolling boil with the spider strainer, a burst of steam rising past his face; the camera fast-pushes from his chest to the strainer. Real time.
+SHOT 02 — 00:01.5-00:02.6: True 90-degree top-down: the 3 green slabs land on the dark linen towel and his gloved hands press a second towel down on them, patting them dry. Impact cut.
+SHOT 03 — 00:02.6-00:03.4: Extreme close-up: his gloved fingers snap the oven dial to 220°C, the oven window flares orange behind. Hard cut.
+SHOT 04 — 00:03.4-00:04.6: Low worksurface skim across the parchment-lined black baking sheet as he lays the 3 green tree slabs down side by side, flat. Speed ramp.
+SHOT 05 — 00:04.6-00:06.6: Medium-close hero, his face visible above: he drives the bottom of the heavy glass tumbler straight down on each slab in turn, one, two, three; each tree squashes flat and spreads wide, the crown fanning out. Short slow-motion accent on the first press, real time for the other two.
+SHOT 06 — 00:06.6-00:07.6: Macro, locked: one flattened tree, its trunk pressed thin, the crown spread into a lacy green fan with cracked edges.
+SHOT 07 — 00:07.6-00:08.8: High three-quarter, short arc: a thin golden-green ribbon of olive oil drizzles across the 3 flat trees. Fast action.
+SHOT 08 — 00:08.8-00:10.4: True 90-degree top-down: a generous snow of pale-ivory grated parmesan rains down from above and covers each tree, then a light dusting of garlic powder and salt. Graphic match.
+SHOT 09 — 00:10.4-00:11.4: Low angle at the oven door: he slides the tray onto the rack and the door swings shut toward the lens. Impact cut.
+SHOT 10 — 00:11.4-00:13.4: Locked shot through the glowing oven window, compressed time: the parmesan melts and bubbles into a lacy golden crust, the edges darken to brown-black and crisp.
+SHOT 11 — 00:13.4-00:14.6: Low angle on the counter: the tray comes out held through a folded towel and lands with a sizzle; 3 golden, crispy tree chips, dark edges. Real time.
+SHOT 12 — 00:14.6-00:15.6: Close: the microplane grates fine bright yellow lemon zest over the chips, a falling shower of zest.
+SHOT 13 — 00:15.6-00:18.2: Extreme close-up macro right by the lens, slow motion, the climax: a beat of near silence, then his gloved fingers lift one tree chip, it stays rigid and flat, and he snaps it in half with a loud, dry, sharp crunch like a potato chip, golden crumbs and zest falling; it breaks cleanly, green inside under the golden crust.
+SHOT 14 — 00:18.2-00:20.0: Medium hero: his face and aviators visible, he takes one bite of the half chip with a loud crunch and chews with his mouth closed, his eyes on the camera for one beat; a 1-second hold. No cut to black.
+
+HERO PERFORMANCE: three accents only, each feeding the next step: the strainer lift through the steam (01), the glass press (05), the snap (13). He never poses and never talks.
+
+GEOGRAPHY + SPEED + TRANSITIONS: no vessel in more than 2 shots in a row; spatial resets at 01, 05, 09, 14; each camera path used once. Real-time impacts 01, 02, 09, 11; speed ramps 04, 07; compressed time 10; slow motion only in 05 (first press) and 13 (the snap). Motion matches: steam burst into the towel press, the glass press into the oil ribbon, the oven door into the oven window.
+
+SILENT PERFORMANCE LOCK: completely nonverbal. No voice, no talking, no lip movement.
+
+CONTINUITY + PHYSICS: always exactly 3 tree-shaped slabs of the same size. The slabs are tender, so they flatten under the glass without shattering; the hot tray is held only through a towel; parmesan crisps and never stretches; the chip breaks cleanly, no strings, no cheese pull; real steam and gravity; one camera move per shot.
+
+LIGHTING: warm tungsten key light from camera left, slightly behind, negative fill on the right, background falling to pure black, warm rim light on the steam and the golden crust, natural colours.
+
+AUDIO: only real close-mic sound of what is on screen: the rolling boil, the steam, the towel press, the dial click, the glass thudding down and the broccoli squashing, the oil, the parmesan falling, the oven door, the sizzle, the microplane. Near silence before the snap; the snap is the loudest sound of the film: a sharp, dry, high crunch of a crisp chip right at the microphone, then the bite crunch. No music, no voice, no whooshes, no booms.
+
+AVOID: round florets, whole broccoli heads after the boil, cauliflower, kale, spinach, cabbage, olive or grey broccoli, orange cheese, cheese pull, stretchy strings, soggy or limp broccoli, burnt black crowns, pieces changing shape or number, sauce, dip, bowls of ketchup, labelled jars, packaging, garnish, bare hands, talking, cut to black, logos, text, extra fingers, deformed hands, distorted face.

@@ -273,6 +273,21 @@ Rules taken from the claude-seo pack (seo-page, seo-content, seo-sxo, seo-geo), 
 6. Every fact matches the book (Kibbeh Nests: "lamb or beef", not "lamb").
 Example: `content-studio/week1/kibbeh-nests-caption.txt`.
 
+## Length and topics (owner's call, 2026-11-06; updates the next section)
+- Length: every reel is 20 seconds now (cookcut, one clip). Template: `content-studio/prompts/w3-smashed-broccoli-20s.txt`.
+- Each reel's improvement:
+  - the prompt checks (generation-log 1-14);
+  - the Higgsfield edit: flags fixed, money-shot sound, animated pop-in text, measured cards.
+- Topics:
+  - the book first;
+  - then recipes of our own invention in the sweet potato family (a familiar food with a smart twist people keep
+    and send);
+  - each invented recipe is saved to `content-studio/book-additions/` and the owner approves it before the prompt.
+- Measuring (the "Go Viral With Claude" guide): follows per 1,000 views next to shares and saves per 1K, every
+  post compared at the same age (24 h and 7 days); a weekly review picks 3 patterns to continue, up to 3 to adapt,
+  1 new experiment.
+- Week plan: `content-studio/plan-week-2026-11-07.md`.
+
 ## Every video: cookcut, 30 seconds, action (owner's call, 2026-11-02; replaces format A's length and pacing)
 This is settled. Every reel is written with the cookcut skill as one 30 s Seedance 2.5 action commercial:
 - 16-20 shots, omni_reference, @Image1 = his face.
