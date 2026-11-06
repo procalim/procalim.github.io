@@ -273,6 +273,19 @@ Rules taken from the claude-seo pack (seo-page, seo-content, seo-sxo, seo-geo), 
 6. Every fact matches the book (Kibbeh Nests: "lamb or beef", not "lamb").
 Example: `content-studio/week1/kibbeh-nests-caption.txt`.
 
+## The pistachio strategy, what carries over (owner's correction, 2026-11-06)
+- Carried over: the shot grammar of the Dubai pistachio prompt and its sections:
+  - his face in a medium shot at frame one, already working, with a fast push-in;
+  - a 45° close, true 90° top-downs, a low angle;
+  - an extreme close-up macro in slow motion as the money shot, written as the loudest sound;
+  - his face with the result brought toward the lens at the end.
+- Improved every reel: the seconds, from the last reel's retention curve and prepublish flags. Example: loud motion
+  and sound in 0-1 s, a short punchy shot in the 2-5 s drop zone, 2-3 actions per top-down, a 0.3 s beat before the
+  money shot, a moving ending. The prompt header carries the "seconds improved" table.
+- NOT carried over: the tools and the method. Every recipe keeps its own method, tools and shot count (an oven
+  dish stays in the oven); never force a skillet, a mold or a snap onto a recipe that doesn't have one.
+- Example: `content-studio/prompts/w3-honey-cake-fettuccine-20s.txt`.
+
 ## Length and topics (owner's call, 2026-11-06; updates the next section)
 - Length: every reel is 20 seconds now (cookcut, one clip). Template: `content-studio/prompts/w3-smashed-broccoli-20s.txt`.
 - Each reel's improvement:
