@@ -41,10 +41,10 @@ export const recipeSeo: Record<string, RecipeSeo> = {
     },
   },
   "emily-mariko-salmon-rice-bowl": {
-    title: { ar: "طريقة عمل بول السلمون والأرز — وجبة صحية في ١٥ دقيقة", en: "Salmon Rice Bowl Recipe (Emily Mariko) in 15 Minutes" },
+    title: { ar: "طريقة عمل بول السلمون والأرز — وجبة صحية في ١٥ دقيقة", en: "Emily Mariko Salmon Bowl — The Original Viral Recipe in 15 Minutes" },
     description: {
       ar: "طريقة عمل بول السلمون والأرز من البقايا في ١٥ دقيقة، مع حيلة مكعب الثلج لتسخين الأرز بدون ما ينشف. وجبة صحية وسريعة.",
-      en: "Emily Mariko's salmon rice bowl recipe: leftover salmon and rice turned into a full meal in 15 minutes, with the ice-cube trick for reheating rice.",
+      en: "Emily Mariko's salmon bowl, step by step: leftover salmon and rice, the ice-cube trick that keeps the rice soft, then Kewpie, sriracha and nori. Ready in 15 minutes.",
     },
   },
   "green-goddess-salad": {
@@ -111,17 +111,17 @@ export const recipeSeo: Record<string, RecipeSeo> = {
     },
   },
   "viral-cucumber-salad": {
-    title: { ar: "طريقة عمل سلطة الخيار الفايرال في ١٠ دقائق", en: "Viral Cucumber Salad Recipe (Logan Moffitt)" },
+    title: { ar: "طريقة عمل سلطة الخيار الفايرال في ١٠ دقائق", en: "Logan Moffitt Cucumber Salad — The Viral 10-Minute Recipe" },
     description: {
-      ar: "طريقة عمل سلطة الخيار الفايرال من تيك توك: خيار وصلصة سريعة في برطمان واحد خلال ١٠ دقائق. خفيفة ومنعشة.",
-      en: "The viral cucumber salad recipe from TikTok: cucumber and a punchy dressing shaken in one jar, in 10 minutes. Light and fresh.",
+      ar: "طريقة عمل سلطة الخيار الفايرال من تيك توك: خيار وصلصة الصويا والسمسم تُخضّ في علبة واحدة خلال ١٠ دقائق. خفيفة ومنعشة.",
+      en: "Logan Moffitt's viral cucumber salad, exactly: a whole cucumber shaken in one container with soy, sesame oil, garlic and rice vinegar. 10 minutes, eaten straight from the box.",
     },
   },
   "dubai-pistachio-kunafa-chocolate": {
-    title: { ar: "طريقة عمل شوكولاتة دبي بالكنافة والفستق", en: "Dubai Chocolate Recipe — Pistachio Kunafa Chocolate Bar" },
+    title: { ar: "طريقة عمل شوكولاتة دبي بالكنافة والفستق", en: "Pistachio Kunafa Chocolate (Dubai Chocolate Bar) — Make It at Home" },
     description: {
       ar: "طريقة عمل شوكولاتة دبي الأصلية: كنافة محمّصة بالزبدة وكريمة فستق داخل لوح شوكولاتة مقرمش. الوصفة كاملة خطوة بخطوة.",
-      en: "How to make the viral Dubai chocolate bar: butter-toasted kunafa and pistachio cream inside a snapping chocolate shell. Full step-by-step recipe.",
+      en: "Can't find the Dubai chocolate bar? Make it at home: butter-toasted kunafa and pistachio cream inside a snapping chocolate shell, for a fraction of the price. Full step-by-step recipe.",
     },
   },
   "onion-boil": {
