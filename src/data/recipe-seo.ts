@@ -13,409 +13,409 @@ export type RecipeSeo = { title: Localized; description: Localized };
 
 export const recipeSeo: Record<string, RecipeSeo> = {
   "the-original-baked-feta-pasta": {
-    title: { ar: "طريقة عمل باستا الفيتا بالفرن — وصفة التيك توك الأصلية", en: "Baked Feta Pasta Recipe — The Original TikTok Pasta" },
+    title: { ar: "طريقة عمل باستا الفيتا بالفرن — الوصفة الأصلية من تيك توك", en: "Baked Feta Pasta — The Original TikTok Recipe (45 Min)" },
     description: {
-      ar: "طريقة عمل باستا الفيتا المخبوزة بالطماطم الكرزية في ٤٥ دقيقة: قالب فيتا كامل وزيت زيتون وثوم، الوصفة التي اجتاحت تيك توك، بمقادير دقيقة وصورة.",
-      en: "How to make the original baked feta pasta in 45 minutes: a whole block of feta, cherry tomatoes, olive oil and garlic. The viral TikTok recipe with exact measurements.",
+      ar: "قالب فيتا كامل وطماطم كرزية في الفرن، تهرسهما فيصيران صلصة كريمية بدون كريمة. الوصفة الأصلية التي أشعلت تيك توك، جاهزة في ٤٥ دقيقة.",
+      en: "A whole block of feta and cherry tomatoes go in the oven, get mashed, and become a creamy sauce with no cream at all. The original TikTok recipe, ready in 45 minutes.",
     },
   },
   "marry-me-chicken": {
-    title: { ar: "طريقة عمل دجاج ماري مي بالكريمة والطماطم المجففة", en: "Marry Me Chicken Recipe — Creamy, One Pan, 30 Minutes" },
+    title: { ar: "طريقة عمل دجاج ماري مي — الطبق الذي يقولون إنه يجلب عرض زواج", en: "Marry Me Chicken — The One-Pan Dinner Worth a Proposal" },
     description: {
-      ar: "طريقة عمل دجاج ماري مي: صدور دجاج بصلصة كريمة وطماطم مجففة وبارميزان في مقلاة واحدة خلال ٣٠ دقيقة. عشاء سهل بطعم المطاعم.",
-      en: "Easy Marry Me Chicken recipe: chicken breasts in a creamy sun-dried tomato and parmesan sauce, one pan, ready in 30 minutes. Restaurant flavour at home.",
+      ar: "صدور دجاج بصلصة كريمية بالطماطم المجففة والبارميزان، في مقلاة واحدة خلال ٣٠ دقيقة. السر: رشّة طحين قبل التحمير تعطي الصلصة قوامها.",
+      en: "Chicken breasts in a creamy sun-dried tomato and parmesan sauce, one pan, 30 minutes. The secret: a light dusting of flour that gives the sauce its body.",
     },
   },
   "quesabirria-tacos": {
-    title: { ar: "طريقة عمل تاكو البيريا بالجبنة مع صلصة الغمس", en: "Birria Tacos Recipe (Quesabirria) with Consommé" },
+    title: { ar: "طريقة عمل تاكو البيريا بالجبنة (كيسابيريا) مع المرق للغمس", en: "Birria Tacos (Quesabirria) — With Red Consommé for Dipping" },
     description: {
-      ar: "طريقة عمل تاكو البيريا: لحم مطهو ببطء، تورتيلا مغموسة ومحمّرة بالجبنة، وصلصة غمس حمراء غنية. وصفة كاملة خطوة بخطوة.",
-      en: "Quesabirria tacos recipe: slow-cooked beef, tortillas dipped and crisped with cheese, and a rich red consommé for dipping. Complete step-by-step method.",
+      ar: "لحم مطهو ببطء بالفلفل المجفف حتى يتفتت، وتورتيلا مغموسة بالدهن الأحمر ومقلية بالجبنة، وكوب مرق ساخن للغمس. الطريقة كاملة خطوة بخطوة.",
+      en: "Beef slow-cooked with dried chilies until it falls apart, tortillas dipped in the red fat and fried with cheese, and a cup of hot consommé for dipping. Every step.",
     },
   },
   "gigi-hadid-spicy-vodka-pasta": {
-    title: { ar: "طريقة عمل باستا جيجي حديد الحارة بالصلصة الوردية", en: "Gigi Hadid Pasta Recipe — Spicy Pink Pasta" },
+    title: { ar: "طريقة عمل باستا جيجي حديد الحارة — الصلصة الوردية في ٢٥ دقيقة", en: "Gigi Hadid Pasta — The Spicy Pink Pasta in 25 Minutes" },
     description: {
-      ar: "طريقة عمل باستا جيجي حديد الحارة: صلصة طماطم وكريمة وردية بالشطة في ٢٥ دقيقة، من أشهر وصفات الباستا في العالم.",
-      en: "Gigi Hadid's spicy pasta recipe: a creamy, chilli-spiked pink tomato sauce in 25 minutes. One of the world's most-made pasta recipes, step by step.",
+      ar: "صلصة طماطم وكريمة حارة بلون وردي، وسرّها معجون الطماطم المكرمل. من أكثر وصفات الباستا طبخاً في العالم، في ٢٥ دقيقة.",
+      en: "A creamy, chili-spiked pink tomato sauce whose secret is caramelized tomato paste. One of the world's most-made pasta recipes, in 25 minutes.",
     },
   },
   "emily-mariko-salmon-rice-bowl": {
-    title: { ar: "طريقة عمل بول السلمون والأرز — وجبة صحية في ١٥ دقيقة", en: "Emily Mariko Salmon Bowl — The Original Viral Recipe in 15 Minutes" },
+    title: { ar: "طريقة عمل بول السلمون إيميلي ماريكو — وجبة في ١٥ دقيقة", en: "Emily Mariko Salmon Bowl — The Original Viral Recipe in 15 Minutes" },
     description: {
-      ar: "طريقة عمل بول السلمون والأرز من البقايا في ١٥ دقيقة، مع حيلة مكعب الثلج لتسخين الأرز بدون ما ينشف. وجبة صحية وسريعة.",
+      ar: "بقايا السلمون والأرز تصير وجبة كاملة: حيلة مكعب الثلج تعيد الأرز طرياً، ثم كيوبي وسريراتشا وورق النوري. جاهزة في ١٥ دقيقة.",
       en: "Emily Mariko's salmon bowl, step by step: leftover salmon and rice, the ice-cube trick that keeps the rice soft, then Kewpie, sriracha and nori. Ready in 15 minutes.",
     },
   },
   "green-goddess-salad": {
-    title: { ar: "طريقة عمل سلطة الإلهة الخضراء بصلصة الأعشاب", en: "Green Goddess Salad Recipe — The Viral Chopped Salad" },
+    title: { ar: "طريقة عمل سلطة الإلهة الخضراء — السلطة التي تؤكل كغموس", en: "Green Goddess Salad — The Viral Chopped Salad You Eat Like a Dip" },
     description: {
-      ar: "طريقة عمل سلطة الإلهة الخضراء: خضار مفروم ناعماً بصلصة أعشاب خضراء كثيفة، تؤكل كغموس مع رقائق التورتيلا. نباتية وسهلة.",
-      en: "Green goddess salad recipe: finely chopped vegetables in a thick herb dressing, eaten like a dip with tortilla chips. Vegan, fresh and easy.",
+      ar: "ملفوف وخيار مفرومان ناعماً بصلصة سبانخ وريحان وكاجو، تغرفها برقائق التورتيلا. نباتية بالكامل وجاهزة في ٢٠ دقيقة.",
+      en: "Finely chopped cabbage and cucumber in a spinach, basil and cashew dressing, scooped up with tortilla chips. Fully vegan, ready in 20 minutes.",
     },
   },
   "sushi-bake": {
-    title: { ar: "طريقة عمل السوشي المخبوز بالفرن", en: "Sushi Bake Recipe — Easy Baked Sushi Casserole" },
+    title: { ar: "طريقة عمل السوشي المخبوز — كل طعم السوشي في صينية واحدة", en: "Sushi Bake — All the Flavor of Sushi, No Rolling Needed" },
     description: {
-      ar: "طريقة عمل السوشي المخبوز: كل نكهات رول السوشي في صينية واحدة تُخبز وتُقدّم ساخنة مع أعشاب البحر. مثالي للعزائم.",
-      en: "Sushi bake recipe: every flavour of a sushi roll layered in one dish, baked and served warm with nori. Perfect for sharing.",
+      ar: "أرز سوشي يعلوه سلطعون أو سلمون بمايونيز الكيوبي والجبنة الكريمية، يُخبز ويُغرف بورق النوري كالتاكو. بدون لفّ، ويكفي ٦ أشخاص.",
+      en: "Sushi rice topped with crab or salmon, Kewpie and cream cheese, baked and scooped into nori like a taco. No rolling, and it feeds six.",
     },
   },
   "smashed-potatoes": {
-    title: { ar: "طريقة عمل البطاطا المهروسة المقرمشة بالفرن", en: "Crispy Smashed Potatoes Recipe" },
+    title: { ar: "طريقة عمل البطاطا المهروسة المقرمشة بالفرن — حواف كالشيبس", en: "Crispy Smashed Potatoes — Crunchy Edges, Fluffy Inside" },
     description: {
-      ar: "طريقة عمل البطاطا المقرمشة بالفرن: تُسلق ثم تُهرس ثم تُحمّر بالزيت حتى أقصى قرمشة. طبق جانبي سهل لكل العزائم.",
-      en: "Crispy smashed potatoes recipe: boiled, smashed, then roasted in oil until shatteringly crisp. The easiest side dish for any dinner.",
+      ar: "بطاطا صغيرة تُسلق ثم تُهرس بكوب وتُشوى بالزبدة والثوم حتى تصير حوافها كالشيبس. السر: اتركها تجف بالبخار بعد السلق.",
+      en: "Baby potatoes boiled, smashed flat with a glass and roasted in butter and garlic until the edges crunch like chips. The secret: let them steam-dry first.",
     },
   },
   "bang-bang-shrimp": {
-    title: { ar: "طريقة عمل روبيان بانغ بانغ المقرمش", en: "Bang Bang Shrimp Recipe — Crispy & Creamy" },
+    title: { ar: "طريقة عمل روبيان بانغ بانغ — مقرمش بصلصة حلوة حارة", en: "Bang Bang Shrimp — Crispy, Creamy, Ready in 25 Minutes" },
     description: {
-      ar: "طريقة عمل روبيان بانغ بانغ: روبيان مقرمش بصلصة كريمية حلوة وحارة في ٢٥ دقيقة. مقبلات تختفي من الطاولة أولاً.",
-      en: "Bang bang shrimp recipe: crispy shrimp tossed in a creamy sweet-and-spicy sauce in 25 minutes. The first appetizer to disappear.",
+      ar: "روبيان مقرمش بنشا الذرة، يُقلب ساخناً في صلصة مايونيز وتشيلي حلو وسريراتشا. أول طبق يخلص على السفرة، في ٢٥ دقيقة.",
+      en: "Cornstarch-crisp shrimp tossed hot in a mayo, sweet chili and sriracha sauce. The first plate to disappear, in 25 minutes.",
     },
   },
   "dalgona-coffee": {
-    title: { ar: "طريقة عمل قهوة الدالغونا المخفوقة", en: "Dalgona Coffee Recipe — Whipped Coffee in 10 Minutes" },
+    title: { ar: "طريقة عمل قهوة الدالغونا المخفوقة — ٣ مكوّنات فقط", en: "Dalgona Coffee — Whipped Coffee With Just 3 Ingredients" },
     description: {
-      ar: "طريقة عمل قهوة الدالغونا: قهوة سريعة وسكر وماء تُخفق حتى تصبح كريمة فوق الحليب البارد، في ١٠ دقائق.",
-      en: "Dalgona coffee recipe: instant coffee, sugar and water whipped into a cream and spooned over cold milk, in 10 minutes.",
+      ar: "قهوة سريعة الذوبان وسكر وماء ساخن بنسبة ١:١:١، تُخفق حتى تصير رغوة كالمارينغ فوق الحليب البارد. انتبه: القهوة المطحونة لا تنفع.",
+      en: "Instant coffee, sugar and hot water at 1:1:1, whipped into a meringue-like foam over cold milk. Note: ground coffee won't whip — only instant works.",
     },
   },
   "crinkle-cake": {
-    title: { ar: "طريقة عمل كرينكل كيك بعجينة الفيلو والقطر", en: "Crinkle Cake Recipe (Phyllo Crinkle Cake)" },
+    title: { ar: "طريقة عمل كرينكل كيك — حلى الفيلو بالقطر بدون عجن", en: "Crinkle Cake — The Viral Phyllo Dessert With Syrup" },
     description: {
-      ar: "طريقة عمل الكرينكل كيك: عجينة فيلو مجعّدة تُخبز بالزبدة وتُسقى بالقطر، حلى شرقي سهل يبهر الضيوف.",
-      en: "Crinkle cake recipe: crinkled phyllo baked in butter and soaked in syrup. An easy Middle Eastern dessert that looks spectacular.",
+      ar: "عجينة فيلو مجعّدة بالزبدة، وكاسترد بالفانيليا، وقطر بارد على الكيكة الساخنة حتى يبقى وجهها مقرمشاً. حلى يبهر الضيوف بدون عجن.",
+      en: "Scrunched phyllo baked in butter, a vanilla custard, and cold syrup on the hot cake so the top stays crisp. A showstopper with no dough to make.",
     },
   },
   "french-onion-grilled-cheese": {
-    title: { ar: "طريقة عمل ساندويش الجبنة بالبصل المكرمل", en: "French Onion Grilled Cheese Recipe" },
+    title: { ar: "طريقة عمل ساندويش الجبنة بالبصل المكرمل — شوربة البصل الفرنسية في ساندويش", en: "French Onion Grilled Cheese — French Onion Soup in a Sandwich" },
     description: {
-      ar: "طريقة عمل ساندويش الجبنة بالبصل الفرنسي: بصل مكرمل ببطء وجبنة ذائبة بين خبز محمّص. أكلة شتوية دافئة.",
-      en: "French onion grilled cheese recipe: slow-caramelised onions and melted cheese between crisp toasted bread. Winter comfort food.",
+      ar: "بصل يُكرمل ببطء ٣٠ دقيقة، وجبنة غرويير وموزاريلا، وخبز ساوردو محمّص بالزبدة. كل طعم شوربة البصل الفرنسية بين شريحتين.",
+      en: "Onions caramelized low and slow for 30 minutes, Gruyère and mozzarella, butter-toasted sourdough. Everything you love about French onion soup, in a sandwich.",
     },
   },
   "whipped-feta-hot-honey-dip": {
-    title: { ar: "طريقة عمل غموس الفيتا المخفوقة بالعسل الحار", en: "Whipped Feta Dip with Hot Honey Recipe" },
+    title: { ar: "طريقة عمل غموس الفيتا المخفوقة بالعسل الحار في ٥ دقائق", en: "Whipped Feta Dip With Hot Honey — 5 Minutes, One Blender" },
     description: {
-      ar: "طريقة عمل غموس الفيتا المخفوقة بالعسل الحار في ٥ دقائق بالخلاط. أسرع مقبلات للعزائم مع الخبز المحمّص.",
-      en: "Whipped feta dip with hot honey in 5 minutes in a blender. The fastest party appetizer, served with toasted bread.",
+      ar: "فيتا وزبادي يوناني يُخفقان حتى يصيرا كالكريمة، مع عسل حار وفستق مجروش. أسرع مقبلات للعزايم، تُقدّم مع خبز دافئ.",
+      en: "Feta and Greek yogurt blended until cloud-light, with hot honey and crushed pistachios. The fastest party appetizer you'll make, served with warm pita.",
     },
   },
   "korean-cream-cheese-garlic-bread": {
-    title: { ar: "طريقة عمل خبز الثوم الكوري بالجبنة الكريمية", en: "Korean Cream Cheese Garlic Bread Recipe" },
+    title: { ar: "طريقة عمل خبز الثوم الكوري بالجبنة الكريمية — أشهر أكل شوارع في سيول", en: "Korean Cream Cheese Garlic Bread — Seoul's Famous Street Food" },
     description: {
-      ar: "طريقة عمل خبز الثوم الكوري: خبز محشو بالجبنة الكريمية الحلوة ومغموس بزبدة الثوم، طعم شوارع سيول في البيت.",
-      en: "Korean cream cheese garlic bread recipe: buns stuffed with sweet cream cheese and soaked in garlic butter. Seoul street food at home.",
+      ar: "خبز يُقطّع كالوردة ويُحشى بالجبنة الكريمية المحلاة، ثم يُغمس بزبدة الثوم والعسل ويُخبز حتى تتقرمش حوافه. أكل الشوارع الكوري في بيتك.",
+      en: "Rolls cut like a flower, piped full of sweet cream cheese, dunked in honey garlic butter and baked until the edges crisp. Korea's famous street food at home.",
     },
   },
   "viral-cucumber-salad": {
-    title: { ar: "طريقة عمل سلطة الخيار الفايرال في ١٠ دقائق", en: "Logan Moffitt Cucumber Salad — The Viral 10-Minute Recipe" },
+    title: { ar: "طريقة عمل سلطة الخيار الفايرال (لوغان موفيت) في ١٠ دقائق", en: "Logan Moffitt Cucumber Salad — The Viral 10-Minute Recipe" },
     description: {
-      ar: "طريقة عمل سلطة الخيار الفايرال من تيك توك: خيار وصلصة الصويا والسمسم تُخضّ في علبة واحدة خلال ١٠ دقائق. خفيفة ومنعشة.",
+      ar: "سلطة لوغان موفيت الشهيرة: خيارة كاملة تُقطّع رقيقاً وتُخضّ في علبة مع الصويا وزيت السمسم والثوم، وتؤكل مباشرة من العلبة. ١٠ دقائق فقط.",
       en: "Logan Moffitt's viral cucumber salad, exactly: a whole cucumber shaken in one container with soy, sesame oil, garlic and rice vinegar. 10 minutes, eaten straight from the box.",
     },
   },
   "dubai-pistachio-kunafa-chocolate": {
-    title: { ar: "طريقة عمل شوكولاتة دبي بالكنافة والفستق", en: "Pistachio Kunafa Chocolate (Dubai Chocolate Bar) — Make It at Home" },
+    title: { ar: "طريقة عمل شوكولاتة دبي بالكنافة والفستق في البيت", en: "Pistachio Kunafa Chocolate (Dubai Chocolate Bar) — Make It at Home" },
     description: {
-      ar: "طريقة عمل شوكولاتة دبي الأصلية: كنافة محمّصة بالزبدة وكريمة فستق داخل لوح شوكولاتة مقرمش. الوصفة كاملة خطوة بخطوة.",
+      ar: "لم تجدها في المحلات؟ اصنعها في البيت: كنافة محمّصة بالزبدة وكريمة فستق داخل قشرة شوكولاتة تطقطق عند الكسر، وبجزء من سعرها.",
       en: "Can't find the Dubai chocolate bar? Make it at home: butter-toasted kunafa and pistachio cream inside a snapping chocolate shell, for a fraction of the price. Full step-by-step recipe.",
     },
   },
   "onion-boil": {
-    title: { ar: "طريقة عمل البصلة المشوية الكاملة بالزبدة الحارة", en: "Onion Boil Recipe — The Viral Whole Baked Onion" },
+    title: { ar: "طريقة عمل البصلة المشوية بالزبدة الحارة — ترند تيك توك", en: "Onion Boil — The Viral Whole Onion in Cajun Butter" },
     description: {
-      ar: "طريقة عمل البصلة المشوية بالزبدة الحارة: بصلة كاملة تنفتح كالزهرة في الفرن، ترند تيك توك بخطوات واضحة.",
-      en: "Onion boil recipe: a whole onion baked in spicy Cajun butter until it opens like a flower. The viral TikTok side dish, step by step.",
+      ar: "بصلة كاملة مشقوقة على شكل X، مغمورة بزبدة الثوم والبهارات الكاجون، تُلف بالقصدير وتُخبز حتى تذوب. ترند تيك توك بخطوات واضحة.",
+      en: "A whole onion cut into an X, drowned in garlic, Old Bay and Cajun butter, sealed in foil and baked until it practically melts. The TikTok trend, step by step.",
     },
   },
   "volcano-cheese-ramen": {
-    title: { ar: "طريقة عمل رامن البركان بالجبنة — نودلز كورية حارة", en: "Volcano Cheese Ramen Recipe — Instant Noodle Upgrade" },
+    title: { ar: "طريقة عمل رامن البركان بالجبنة — نودلز كورية حارة", en: "Volcano Cheese Ramen — Spicy Korean Noodles in 10 Minutes" },
     description: {
-      ar: "طريقة عمل رامن البركان بالجبنة: نودلز كورية جاهزة تتحوّل إلى طبق مطعم حار وجبنة ذائبة في ١٠ دقائق.",
-      en: "Volcano cheese ramen recipe: instant noodles turned into a spicy, cheesy restaurant bowl in 10 minutes.",
+      ar: "نودلز كورية حارة تُكوّم كالجبل، وبيضة في القمة، وجبنتان تسيلان كالحمم. طبق بشكل المطاعم من كيس نودلز واحد، في ١٠ دقائق.",
+      en: "Spicy Korean noodles piled into a mountain, an egg in the crater and two cheeses oozing down like lava. A restaurant-looking bowl from one packet, in 10 minutes.",
     },
   },
   "tanghulu-microwave": {
-    title: { ar: "طريقة عمل التانغولو بالمايكرويف بدون ميزان حرارة", en: "Tanghulu Recipe — Microwave Method, No Thermometer" },
+    title: { ar: "طريقة عمل التانغولو بالمايكرويف — بدون ميزان حرارة", en: "Tanghulu Recipe — Microwave Method, No Thermometer Needed" },
     description: {
-      ar: "طريقة عمل التانغولو بالمايكرويف: فواكه بطبقة سكر زجاجية مقرمشة في ١٥ دقيقة، بدون ميزان حرارة.",
-      en: "Tanghulu recipe, microwave method: fruit in a glassy candy shell in 15 minutes, no candy thermometer needed.",
+      ar: "فواكه بقشرة سكر زجاجية تطقطق، من كوب سكر وماء في المايكرويف. اختبار عود الأكل في الماء المثلج يغنيك عن ميزان الحرارة. ١٥ دقيقة.",
+      en: "Fruit in a glassy sugar shell that crackles, made with sugar and water in a mug in the microwave. A chopstick-in-ice-water test replaces the thermometer. 15 minutes.",
     },
   },
   "cheese-buldak": {
-    title: { ar: "طريقة عمل البولداك بالجبنة — دجاج النار الكوري", en: "Cheese Buldak Recipe (Korean Fire Chicken)" },
+    title: { ar: "طريقة عمل البولداك بالجبنة — دجاج النار الكوري", en: "Cheese Buldak — Korean Fire Chicken Under Melted Mozzarella" },
     description: {
-      ar: "طريقة عمل البولداك بالجبنة: دجاج كوري حار بصلصة الغوتشوجانغ تحت طبقة موتزاريلا ذائبة، في ٣٠ دقيقة.",
-      en: "Cheese buldak recipe: fiery Korean chicken in gochujang sauce under melted mozzarella, ready in 30 minutes.",
+      ar: "دجاج متبّل بالغوتشوجانغ والفلفل الكوري، يُطهى حتى تتكرمل الصلصة ثم يُغطّى بالموزاريلا الذائبة. حار وغني بالجبنة، في ٣٠ دقيقة.",
+      en: "Chicken in gochujang and Korean chili flakes, cooked until the sauce caramelizes, then buried in stretchy melted mozzarella. Fiery and cheesy in 30 minutes.",
     },
   },
   "japanese-souffle-pancakes": {
-    title: { ar: "طريقة عمل البان كيك الياباني السوفليه الهش", en: "Japanese Soufflé Pancakes Recipe — Fluffy & Tall" },
+    title: { ar: "طريقة عمل البان كيك الياباني السوفليه — هش ومرتفع كالسحاب", en: "Japanese Soufflé Pancakes — Tall, Wobbly & Cloud-Soft" },
     description: {
-      ar: "طريقة عمل بان كيك السوفليه الياباني المرتفع والهش: السر في المرينغ والنار الهادئة. خطوات واضحة.",
-      en: "Japanese soufflé pancakes recipe: tall, wobbly and airy. The secret is the meringue and low heat, explained step by step.",
+      ar: "بان كيك يهتز من الطراوة بفضل المارينغ والنار الهادئة والبخار تحت الغطاء. كل الأسرار مشروحة خطوة بخطوة، في ٢٥ دقيقة.",
+      en: "Pancakes that wobble on the plate, thanks to meringue, low heat and steam under the lid. Every secret explained step by step, in 25 minutes.",
     },
   },
   "crookie-croissant-cookie": {
-    title: { ar: "طريقة عمل الكروكي — كرواسون محشو بالكوكيز", en: "Crookie Recipe — Croissant Cookie in 20 Minutes" },
+    title: { ar: "طريقة عمل الكروكي — كرواسون محشو بالكوكيز في ٢٠ دقيقة", en: "Crookie — The Paris Croissant Cookie in 20 Minutes" },
     description: {
-      ar: "طريقة عمل الكروكي، ترند باريس: كرواسون محشو بعجينة الكوكيز ومخبوز مرة ثانية، مقرمش من الخارج وطري من الداخل.",
-      en: "Crookie recipe, the Paris bakery trend: a croissant stuffed with cookie dough and baked again. Crisp outside, gooey inside.",
+      ar: "ترند مخابز باريس: كرواسون محشو بعجينة الكوكيز يُخبز من جديد، مقرمش من الخارج وطري من الداخل. ٢٠ دقيقة بكرواسون جاهز.",
+      en: "The Paris bakery trend: a croissant stuffed with cookie dough and baked again, crisp outside and gooey inside. 20 minutes with store-bought croissants.",
     },
   },
   "honeycomb-pasta-pie": {
-    title: { ar: "طريقة عمل كيكة الباستا خلية النحل بالريغاتوني", en: "Honeycomb Pasta Recipe (Rigatoni Pasta Pie)" },
+    title: { ar: "طريقة عمل كيكة الباستا خلية النحل — باستا تُقطّع كالكيك", en: "Honeycomb Pasta Pie — Rigatoni You Slice Like a Cake" },
     description: {
-      ar: "طريقة عمل كيكة الباستا خلية النحل: ريغاتوني واقفة بالصلصة والريكوتا والموتزاريلا، تُخبز وتُقطّع كالكيك.",
-      en: "Honeycomb pasta pie recipe: rigatoni stood upright with sauce, ricotta and mozzarella, baked and sliced like a cake.",
+      ar: "ريغاتوني واقف كخلية النحل، كل أنبوب محشو بالريكوتا ومغطى بالصلصة والموزاريلا. يُخبز ويُقطّع كالكيك، ويكفي ٨ أشخاص.",
+      en: "Rigatoni stood upright like a honeycomb, each tube piped with ricotta, under sauce and mozzarella. Baked and sliced like a cake. Feeds eight.",
     },
   },
   "cornflake-chicken-tenders": {
-    title: { ar: "طريقة عمل أصابع الدجاج المقرمشة بالكورن فليكس", en: "Cornflake Chicken Tenders Recipe — Extra Crispy" },
+    title: { ar: "طريقة عمل أصابع الدجاج بالكورن فليكس — مقرمشة بدون قلي", en: "Cornflake Chicken Tenders — Extra Crispy, Air Fryer or Oven" },
     description: {
-      ar: "طريقة عمل أصابع الدجاج بالكورن فليكس: قرمشة عالية بالفرن أو المقلاة، المفضّلة عند الأطفال وفي العزائم.",
-      en: "Cornflake chicken tenders recipe: an extra-crunchy coating, baked or fried. A kids' favourite and a party staple.",
+      ar: "أصابع دجاج بطبقة كورن فليكس مقرمشة جداً، في القلاية الهوائية أو الفرن بدون قلي بالزيت. المفضّلة عند الأطفال، في ٣٠ دقيقة.",
+      en: "Chicken tenders in a seriously crunchy cornflake coat, made in the air fryer or oven with no deep frying. A kids' favorite in 30 minutes.",
     },
   },
   "accordion-potatoes": {
-    title: { ar: "طريقة عمل البطاطا الأكورديون المقرمشة", en: "Accordion Potatoes Recipe — The Viral Crispy Potatoes" },
+    title: { ar: "طريقة عمل البطاطا الأكورديون — حيلة عيدان الأكل", en: "Accordion Potatoes — The Viral Chopstick Cutting Trick" },
     description: {
-      ar: "طريقة عمل البطاطا الأكورديون: بطاطا مقطّعة بطريقة الأكورديون ومحمّرة حتى تتقرمش حوافها. طبق جانبي يسرق الأضواء.",
-      en: "Accordion potatoes recipe: potatoes cut accordion-style and roasted until every edge crisps. The viral side dish, step by step.",
+      ar: "عيدان الأكل تمنع السكين من قطع البطاطا حتى النهاية، فتنفتح كالأكورديون وتتقرمش كل حافة بزبدة الثوم. في القلاية الهوائية خلال ٣٠ دقيقة.",
+      en: "The chopstick trick stops the knife going all the way through, so the potato stretches like an accordion and every edge crisps in garlic butter. Air fryer, 30 minutes.",
     },
   },
   "beet-and-pickled-ginger": {
-    title: { ar: "طريقة عمل صلصة البنجر لتزيين الأطباق", en: "Beetroot Sauce Recipe for Plating (Beet & Pickled Ginger)" },
+    title: { ar: "طريقة عمل صلصة البنجر لتزيين الأطباق كالمطاعم", en: "Beetroot Sauce for Plating — Restaurant-Style Magenta Sauce" },
     description: {
-      ar: "طريقة عمل صلصة البنجر والزنجبيل المخلّل: صلصة وردية لامعة لتزيين الأطباق مثل المطاعم، بنسب دقيقة.",
-      en: "Beetroot and pickled ginger sauce for plating: a bright magenta sauce to dress plates like a restaurant, with exact ratios.",
+      ar: "صلصة بنجر وزنجبيل مخلل بلون أرجواني لامع، بقوام مضبوط يرسم خطاً نظيفاً على الصحن. نِسب دقيقة لتزيين الأطباق كالمطاعم.",
+      en: "Beetroot and pickled ginger blended into a vivid magenta sauce with the exact flow to draw clean lines on a plate. Precise ratios for restaurant-style plating.",
     },
   },
   "herb-and-chlorophyll": {
-    title: { ar: "طريقة عمل صلصة الأعشاب الخضراء لتزيين الأطباق", en: "Green Herb Oil & Sauce Recipe for Plating" },
+    title: { ar: "طريقة عمل صلصة الأعشاب الخضراء لتزيين الأطباق — أخضر لا يبهت", en: "Green Herb Oil for Plating — Bright Green That Doesn't Fade" },
     description: {
-      ar: "طريقة عمل صلصة الأعشاب والكلوروفيل: أخضر عميق من الأعشاب الطازجة لتزيين أطباق الدجاج والخضار.",
-      en: "Herb and chlorophyll sauce recipe: a deep green from fresh herbs for plating chicken and vegetable dishes.",
+      ar: "بقدونس وريحان يُسلقان ١٥ ثانية ثم يُغطسان في ماء مثلج، وهي الخطوة التي تحفظ الأخضر الزاهي. زيت أعشاب صافٍ لتزيين الأطباق.",
+      en: "Parsley and basil blanched for 15 seconds then shocked in ice water, the step that keeps the green vivid. A clear herb oil for plating.",
     },
   },
   "aged-balsamic-and-date": {
-    title: { ar: "طريقة عمل صلصة البلسمك بالتمر", en: "Balsamic Date Reduction Recipe" },
+    title: { ar: "طريقة عمل صلصة البلسمك بالتمر — صلصة لامعة للمشاوي", en: "Balsamic Date Reduction — A Glossy Sauce for Grilled Meat" },
     description: {
-      ar: "طريقة عمل صلصة البلسمك المعتّق والتمر: صلصة داكنة لامعة للحوم المشوية وتزيين الأطباق.",
-      en: "Aged balsamic and date reduction: a dark, glossy sauce for grilled meats and restaurant-style plating.",
+      ar: "بلسمك يُختزل على نار هادئة مع اليانسون النجمي، ثم يُخلط بالتمر المجهول ودبس التمر. صلصة داكنة لامعة للمشاوي وتزيين الأطباق.",
+      en: "Balsamic reduced low with star anise, blended with Medjool dates and date molasses. A dark, glossy sauce for grilled meats and plating.",
     },
   },
   "pan-banging-chocolate-chip-cookies": {
-    title: { ar: "طريقة عمل الكوكيز بالشوكولاتة — حواف مقرمشة ووسط طري", en: "Pan-Banging Chocolate Chip Cookies Recipe" },
+    title: { ar: "طريقة عمل الكوكيز بحيلة ضرب الصينية — حواف مقرمشة ووسط طري", en: "Pan-Banging Chocolate Chip Cookies — Rippled, Crisp & Gooey" },
     description: {
-      ar: "طريقة عمل كوكيز الشوكولاتة بحيلة ضرب الصينية: حواف مقرمشة بحلقات ووسط طري. أشهر وصفة كوكيز على الإنترنت.",
-      en: "Pan-banging chocolate chip cookies recipe: crisp rippled edges and a gooey centre. The internet's most famous cookie technique.",
+      ar: "أثناء الخبز ترفع الصينية وتتركها تسقط، فتتموّج الكوكيز بحواف مقرمشة ووسط طري. أشهر حيلة كوكيز على الإنترنت، بالزبدة البنية.",
+      en: "Lift the tray and let it drop as the cookies bake, so they ripple into crisp edges and a gooey middle. The internet's most famous cookie trick, with brown butter.",
     },
   },
   "cinnamon-roll-hack": {
-    title: { ar: "طريقة عمل السينابون بحيلة الكريمة", en: "Cinnamon Roll Hack Recipe — Taste Like Cinnabon" },
+    title: { ar: "طريقة عمل السينابون بحيلة الكريمة — طعم سينابون من علبة جاهزة", en: "Cinnamon Roll Hack — Canned Rolls That Taste Like Cinnabon" },
     description: {
-      ar: "طريقة عمل السينابون السهلة: لفائف قرفة جاهزة بكريمة الطبخ والسكر البني، طرية وكبيرة بطعم سينابون الأصلي.",
-      en: "The viral cinnamon roll hack: canned rolls baked with heavy cream and brown sugar until they taste like Cinnabon.",
+      ar: "لفائف قرفة جاهزة، وكريمة سائلة تُسكب بينها، وزبدة بالسكر البني والقرفة فوقها. تنتفخ وتصير طرية كسينابون. الحيلة التي اجتاحت تيك توك.",
+      en: "Canned cinnamon rolls, heavy cream poured between them, cinnamon brown-sugar butter on top. They bake up huge, soft and gooey like Cinnabon. The TikTok hack.",
     },
   },
   "sheet-pan-pancakes": {
-    title: { ar: "طريقة عمل بان كيك الصينية بالفرن", en: "Sheet Pan Pancakes Recipe — Oven Baked" },
+    title: { ar: "طريقة عمل بان كيك الصينية بالفرن — فطور العائلة بدون قلب", en: "Sheet Pan Pancakes — Feed the Whole Family, No Flipping" },
     description: {
-      ar: "طريقة عمل البان كيك بالفرن في صينية واحدة: بدون قلب، بنكهات مختلفة لكل العيلة في ٢٥ دقيقة.",
-      en: "Sheet pan pancakes recipe: oven-baked pancakes for the whole family in one tray, no flipping, ready in 25 minutes.",
+      ar: "خليط بان كيك واحد في الصينية، وكل زاوية بطعم: توت، شوكولاتة، موز. يُخبز ١٥ دقيقة ويُقطّع مربعات، فيأكل الجميع في الوقت نفسه.",
+      en: "One tray of batter, a different topping in each corner: blueberry, chocolate, banana. Baked in 15 minutes and cut into squares, so everyone eats at once.",
     },
   },
   "beef-tacos": {
-    title: { ar: "طريقة عمل تاكو اللحمة المكسيكي", en: "Beef Tacos Recipe — Easy Ground Beef Tacos" },
+    title: { ar: "طريقة عمل تاكو اللحمة المكسيكي في ٢٠ دقيقة", en: "Easy Ground Beef Tacos Recipe — Dinner in 20 Minutes" },
     description: {
-      ar: "طريقة عمل تاكو اللحمة المفرومة بالتتبيلة المكسيكية في ٢٠ دقيقة، مع الخس والطماطم والجبنة.",
-      en: "Easy ground beef tacos recipe in 20 minutes: seasoned beef, crisp shells, lettuce, tomato and cheese.",
+      ar: "لحمة مفرومة متبّلة بتوابل التاكو، وخبز تاكو دافئ، وخس وطماطم وشيدر وصلصة وغواكامولي. عشاء العائلة في ٢٠ دقيقة.",
+      en: "Seasoned ground beef, warm taco shells, lettuce, tomato, cheddar, salsa and guacamole. A family dinner on the table in 20 minutes.",
     },
   },
   kibbeh: {
-    title: { ar: "طريقة عمل الكبة المقلية بالبرغل واللحمة", en: "Kibbeh Recipe — Fried Bulgur & Meat Croquettes" },
+    title: { ar: "طريقة عمل الكبة المقلية بالبرغل واللحمة — قشرة رقيقة مقرمشة", en: "Fried Kibbeh Recipe — Crisp Bulgur Shell, Spiced Meat Filling" },
     description: {
-      ar: "طريقة عمل الكبة المقلية خطوة بخطوة: قشرة برغل رقيقة ومقرمشة وحشوة لحمة بالصنوبر. أشهر مقبلات عربية.",
-      en: "How to make fried kibbeh: a thin crisp bulgur shell with a spiced meat and pine nut filling. The classic Middle Eastern appetizer.",
+      ar: "قشرة برغل ولحمة رقيقة ومقرمشة، وحشوة لحمة بالصنوبر والبهار. أشهر مقبلات الشام، مع طريقة التشكيل والقلي خطوة بخطوة.",
+      en: "A thin, crisp shell of bulgur and meat around a spiced lamb and pine-nut filling. The Levant's best-loved appetizer, shaped and fried step by step.",
     },
   },
   "mochi-brownies": {
-    title: { ar: "طريقة عمل براونيز الموتشي بطحين الأرز", en: "Mochi Brownies Recipe (Brochis)" },
+    title: { ar: "طريقة عمل براونيز الموتشي — شوكولاتة بقوام مطاطي", en: "Mochi Brownies (Brochis) — Fudgy, Chewy & Bouncy" },
     description: {
-      ar: "طريقة عمل براونيز الموتشي: براونيز بقوام مطاطي بطحين الأرز الدبق، ترند حلويات جديد بخطوات واضحة.",
-      en: "Mochi brownies recipe: fudgy brownies with a chewy mochi bite, made with glutinous rice flour. Step by step.",
+      ar: "براونيز بطحين الأرز الدبق: طعم شوكولاتة غني وقوام مطاطي يرتد كالموتشي. انتبه: طحين الأرز العادي لا ينفع.",
+      en: "Brownies made with glutinous rice flour: deep chocolate flavor with a bouncy, chewy mochi bite. Note: regular rice flour won't work.",
     },
   },
   maqluba: {
-    title: { ar: "طريقة عمل المقلوبة بالدجاج والباذنجان", en: "Maqluba Recipe — Arabic Upside-Down Rice" },
+    title: { ar: "طريقة عمل المقلوبة بالدجاج والباذنجان — وسرّ قلبها متماسكة", en: "Maqluba Recipe — Arabic Upside-Down Rice, Flipped Without Collapsing" },
     description: {
-      ar: "طريقة عمل المقلوبة خطوة بخطوة: طبقات الرز والباذنجان والبطاطا والدجاج أو اللحم، وسر قلبها بدون ما تخرب.",
-      en: "How to make maqluba: layers of rice, aubergine, potato and chicken or lamb, and the secret to flipping it without it collapsing.",
+      ar: "طبقات رز وباذنجان وبطاطا مقلية ودجاج أو لحم، تُطهى في قدر واحد ثم تُقلب أمام الجميع. الطريقة كاملة لتخرج متماسكة.",
+      en: "Layers of rice, fried eggplant, potato and chicken or lamb, cooked in one pot and flipped at the table. The full method so it comes out standing tall.",
     },
   },
   "biscoff-tiramisu": {
-    title: { ar: "طريقة عمل تيراميسو اللوتس بدون قهوة", en: "Biscoff Tiramisu Recipe — No Coffee, No Bake" },
+    title: { ar: "طريقة عمل تيراميسو اللوتس — بدون قهوة وبدون فرن", en: "Biscoff Tiramisu — No Coffee, No Bake, Made a Day Ahead" },
     description: {
-      ar: "طريقة عمل تيراميسو اللوتس بدون قهوة وبدون فرن: بسكويت لوتس وكريمة غنية، يُحضّر قبل يوم للعزائم.",
-      en: "Biscoff tiramisu recipe with no coffee and no oven: Lotus biscuits and a rich cream, made the day before.",
+      ar: "بسكويت لوتس مغموس بالحليب الدافئ، وكريمة ماسكاربوني بزبدة اللوتس، ووجه لامع من اللوتس الذائب. بدون قهوة وبدون فرن، ويُحضّر قبل يوم.",
+      en: "Lotus biscuits dipped in warm milk, mascarpone cream folded with Biscoff spread, and a glossy melted Biscoff top. No coffee, no oven, made the day before.",
     },
   },
   "chicken-fajitas": {
-    title: { ar: "طريقة عمل فاهيتا الدجاج بالفلفل الملوّن", en: "Chicken Fajitas Recipe — Easy & Quick" },
+    title: { ar: "طريقة عمل فاهيتا الدجاج بالفرن — صينية واحدة في ٣٥ دقيقة", en: "Sheet Pan Chicken Fajitas Recipe — One Tray, 35 Minutes" },
     description: {
-      ar: "طريقة عمل فاهيتا الدجاج بالتتبيلة المكسيكية والفلفل الملوّن والبصل، تُقدّم بالتورتيلا في ٣٥ دقيقة.",
-      en: "Easy chicken fajitas recipe: seasoned chicken with peppers and onions, wrapped in warm tortillas in 35 minutes.",
+      ar: "دجاج وفلفل ملوّن وبصل بتتبيلة الفاهيتا في صينية واحدة بالفرن، ثم تورتيلا دافئة وصلصة وغواكامولي. عشاء بأقل قدر من الجلي.",
+      en: "Chicken, bell peppers and onion in fajita spices on one tray in the oven, then warm tortillas, salsa and guacamole. Dinner with almost no washing up.",
     },
   },
   "kylie-jenner-ramen": {
-    title: { ar: "طريقة عمل رامن كايلي جينر بالزبدة والثوم والبيض", en: "Kylie Jenner Ramen Recipe — Instant Ramen Hack" },
+    title: { ar: "طريقة عمل رامن كايلي جينر بالزبدة والثوم والبيض في ١٠ دقائق", en: "Kylie Jenner Ramen — The Famous Instant Ramen Hack" },
     description: {
-      ar: "طريقة عمل رامن كايلي جينر: نودلز جاهزة بالزبدة والثوم والبيض في ١٠ دقائق، أشهر حيلة على الرامن.",
-      en: "Kylie Jenner's ramen recipe: instant noodles with butter, garlic and egg in 10 minutes. The most famous ramen hack.",
+      ar: "نودلز سريعة مع زبدة وثوم وبيضة تُحرّك مع النودلز فتصير صلصة كريمية، وفوقها بهارات الإفريثينغ بيغل. ١٠ دقائق.",
+      en: "Instant noodles with butter, garlic powder and an egg stirred in until it turns into a creamy sauce, topped with everything bagel seasoning. 10 minutes.",
     },
   },
   pho: {
-    title: { ar: "طريقة عمل شوربة الفو الفيتنامية باللحم", en: "Pho Recipe — Vietnamese Beef Noodle Soup" },
+    title: { ar: "طريقة عمل شوربة الفو الفيتنامية باللحم في البيت", en: "Pho Recipe at Home — Vietnamese Beef Noodle Soup in 45 Minutes" },
     description: {
-      ar: "طريقة عمل شوربة الفو الفيتنامية: مرق بهارات عطري ونودلز الأرز وشرائح لحم رقيقة مع الأعشاب الطازجة.",
-      en: "How to make pho at home: a fragrant spiced broth, rice noodles and thin slices of beef with fresh herbs.",
+      ar: "مرق متبّل باليانسون النجمي والقرفة والزنجبيل، يُسكب ساخناً فيطهو شرائح اللحم الرقيقة فوق نودلز الأرز. مع الأعشاب الطازجة والليمون.",
+      en: "A broth spiced with star anise, cinnamon and ginger, poured hot so it cooks the thin beef slices over rice noodles. Finished with herbs and lime.",
     },
   },
   "banana-bread": {
-    title: { ar: "طريقة عمل خبز الموز (كيكة الموز) السهلة", en: "Banana Bread Recipe — Easy & Moist" },
+    title: { ar: "طريقة عمل كيكة الموز (خبز الموز) — بدون خميرة وبدون عجن", en: "Moist Banana Bread Recipe — The Best Use for Overripe Bananas" },
     description: {
-      ar: "طريقة عمل خبز الموز الطري بالموز الناضج، بدون خميرة وبدون عجن. أسهل كيكة موز بمقادير دقيقة.",
-      en: "Easy, moist banana bread recipe with overripe bananas, no yeast and no kneading. Exact measurements, step by step.",
+      ar: "أفضل ما تصنعه بالموز الذي اسودّ: ٣ موزات وزبدة وسكر، بدون خميرة وبدون عجن. كيكة رطبة لفطور الصباح مع القهوة.",
+      en: "The best thing to do with blackened bananas: three of them, butter and sugar, no yeast and no kneading. A moist loaf for breakfast with coffee.",
     },
   },
   "lasagna-al-forno": {
-    title: { ar: "طريقة عمل اللازانيا باللحمة والبشاميل بالفرن", en: "Classic Lasagna Recipe — Lasagna al Forno" },
+    title: { ar: "طريقة عمل اللازانيا باللحمة والبشاميل — الوصفة الإيطالية الأصلية", en: "Classic Lasagna Recipe (al Forno) — Bolognese, Béchamel & Parmesan" },
     description: {
-      ar: "طريقة عمل اللازانيا بالفرن: طبقات اللازانيا مع صلصة اللحمة والبشاميل والبارميزان حتى تتحمّر. وصفة إيطالية كلاسيكية.",
-      en: "Classic baked lasagna recipe: layers of pasta, meat sauce, béchamel and parmesan baked until golden. The Italian original.",
+      ar: "طبقات باستا وصلصة بولونيز وبشاميل وبارميزان، تُخبز حتى يصير وجهها ذهبياً ويغلي. صينية واحدة تكفي ٨ أشخاص.",
+      en: "Layers of pasta, Bolognese, béchamel and Parmesan baked until golden and bubbling. The Italian original, one tray for eight.",
     },
   },
   bagels: {
-    title: { ar: "طريقة عمل البيغل في البيت", en: "Homemade Bagels Recipe — Boiled & Baked" },
+    title: { ar: "طريقة عمل البيغل في البيت — يُسلق ثم يُخبز", en: "Homemade Bagels Recipe — Boiled Then Baked for a Real Chew" },
     description: {
-      ar: "طريقة عمل خبز البيغل في البيت: يُسلق ثم يُخبز للحصول على قشرة لامعة وقوام مطاطي حقيقي.",
-      en: "Homemade bagels recipe: boiled then baked for a shiny crust and a properly chewy bite.",
+      ar: "الخطوة التي تعطي البيغل لمعته وقوامه: يُسلق دقيقة على كل جهة ثم يُخبز. طحين خبز وخميرة، وبيغل مثل المخابز في بيتك.",
+      en: "The step that gives bagels their shine and chew: a one-minute boil on each side before baking. Bread flour, yeast and bakery-style bagels at home.",
     },
   },
   "chicken-fried-rice": {
-    title: { ar: "طريقة عمل الرز المقلي بالدجاج مثل المطاعم", en: "Chicken Fried Rice Recipe — Better Than Takeout" },
+    title: { ar: "طريقة عمل الرز المقلي بالدجاج مثل المطاعم الصينية", en: "Chicken Fried Rice Recipe — Better Than Takeout in 25 Minutes" },
     description: {
-      ar: "طريقة عمل الرز المقلي بالدجاج والخضار وصلصة الصويا في ٢٥ دقيقة، والسر رز البارحة.",
-      en: "Chicken fried rice recipe better than takeout: chicken, vegetables and soy sauce in 25 minutes. The secret is day-old rice.",
+      ar: "سر الرز المقلي: رز بارد من اليوم السابق، يُقلى مع الدجاج والبيض والخضار وصلصة الصويا والمحار. أطيب من الطلب الخارجي، في ٢٥ دقيقة.",
+      en: "The secret is cold, day-old rice, stir-fried with chicken, egg, vegetables, soy and oyster sauce. Better than takeout, in 25 minutes.",
     },
   },
   "naan-bread": {
-    title: { ar: "طريقة عمل خبز النان الهندي بالمقلاة", en: "Naan Bread Recipe — Soft, No Tandoor" },
+    title: { ar: "طريقة عمل خبز النان بالمقلاة — بدون تنور وبدون خميرة", en: "Naan Bread Recipe — Soft Skillet Naan, No Tandoor, No Yeast" },
     description: {
-      ar: "طريقة عمل خبز النان الطري في البيت بالمقلاة، بدون فرن تنور، بمقادير دقيقة وخطوات واضحة.",
-      en: "Soft homemade naan bread recipe cooked in a pan, no tandoor needed. Exact measurements and clear steps.",
+      ar: "خبز نان طري بالزبادي والحليب، يُخبز دقيقة على كل جهة في مقلاة حديد ساخنة ويُدهن بالزبدة. بدون تنور وبدون خميرة.",
+      en: "Soft naan made with yogurt and milk, cooked a minute per side in a hot cast-iron skillet and brushed with butter. No tandoor, no yeast.",
     },
   },
   "sourdough-bread": {
-    title: { ar: "طريقة عمل خبز الساوردو بالخميرة الطبيعية", en: "Sourdough Bread Recipe for Beginners" },
+    title: { ar: "طريقة عمل خبز الساوردو للمبتدئين بالخميرة الطبيعية", en: "Sourdough Bread Recipe for Beginners — Crackling Crust, Open Crumb" },
     description: {
-      ar: "طريقة عمل خبز الساوردو في البيت بالخميرة الطبيعية: عجين، طيّ، تخمير، وخبز لقشرة مقرمشة ولبّ مفتوح.",
-      en: "Sourdough bread recipe for home bakers: mix, fold, ferment and bake for a crackling crust and an open crumb.",
+      ar: "٤ مكوّنات فقط: خميرة طبيعية وطحين وماء وملح. طيّ وتخمير ليلة كاملة وخَبز في قدر حديد، لقشرة تطقطق ولبّ مفتوح.",
+      en: "Just four ingredients: starter, flour, water and salt. Stretch and folds, an overnight rest and a Dutch oven for a crackling crust and an open crumb.",
     },
   },
   "focaccia-bread": {
-    title: { ar: "طريقة عمل خبز الفوكاتشا الإيطالي بزيت الزيتون", en: "Focaccia Bread Recipe — Easy Italian Focaccia" },
+    title: { ar: "طريقة عمل خبز الفوكاتشا بزيت الزيتون — أسهل خبز بالخميرة", en: "Easy Focaccia Recipe — The Simplest Yeast Bread, No Kneading" },
     description: {
-      ar: "طريقة عمل الفوكاتشا الإيطالية بزيت الزيتون وفقاعات الهواء الكبيرة، أسهل خبز خميرة للمبتدئين.",
-      en: "Easy focaccia bread recipe: olive oil, big airy bubbles and a golden crust. The easiest yeasted bread for beginners.",
+      ar: "عجينة بدون عجن، وزيت زيتون في الصينية، وأصابعك تصنع الحفر، وإكليل الجبل وملح خشن فوقها. أسهل خبز بالخميرة للمبتدئين.",
+      en: "A no-knead dough, olive oil in the pan, dimples pressed with your fingers, rosemary and flaky salt on top. The easiest yeast bread for beginners.",
     },
   },
   "classic-meatloaf": {
-    title: { ar: "طريقة عمل رغيف اللحم (ميت لوف) بالصلصة", en: "Classic Meatloaf Recipe with Glaze" },
+    title: { ar: "طريقة عمل رغيف اللحم (ميت لوف) بالصلصة اللامعة", en: "Classic Meatloaf Recipe — Tender, With a Sweet Ketchup Glaze" },
     description: {
-      ar: "طريقة عمل الميت لوف: رغيف لحم مفروم طري بالفرن مع صلصة الكاتشب اللامعة. طبق عائلي كلاسيكي.",
-      en: "Classic meatloaf recipe: a tender beef loaf baked with a glossy ketchup glaze. The family dinner classic.",
+      ar: "لحمة مفرومة بالبيض والبقسماط والحليب لتبقى طرية، وصلصة كاتشب وسكر بني وخردل تلمع فوقها. عشاء العائلة الكلاسيكي.",
+      en: "Ground beef with egg, breadcrumbs and milk so it stays tender, under a shiny ketchup, brown sugar and mustard glaze. The family dinner classic.",
     },
   },
   "brioche-bread": {
-    title: { ar: "طريقة عمل خبز البريوش الطري بالزبدة", en: "Brioche Bread Recipe — Soft & Buttery" },
+    title: { ar: "طريقة عمل خبز البريوش الطري بالزبدة والبيض", en: "Brioche Bread Recipe — Soft, Buttery & Rich With Eggs" },
     description: {
-      ar: "طريقة عمل خبز البريوش الفرنسي الغني بالزبدة والبيض، طري كالقطن، بمقادير دقيقة وخطوات واضحة.",
-      en: "Brioche bread recipe: the French loaf rich with butter and eggs, soft as cotton. Exact measurements, step by step.",
+      ar: "٤ بيضات ونصف كوب زبدة تدخل العجينة قطعة قطعة، ثم ليلة في الثلاجة. خبز فرنسي طري كالقطن، مثالي للتوست والفطور.",
+      en: "Four eggs and half a cup of butter worked in piece by piece, then a night in the fridge. A French loaf soft as cotton, perfect for toast.",
     },
   },
   "beef-stew": {
-    title: { ar: "طريقة عمل يخنة اللحم بالخضار", en: "Beef Stew Recipe — Classic & Hearty" },
+    title: { ar: "طريقة عمل يخنة اللحم بالخضار — لحمة تذوب في الفم", en: "Beef Stew Recipe — Fork-Tender Beef, Potatoes & Carrots" },
     description: {
-      ar: "طريقة عمل يخنة اللحم الطرية بالبطاطا والجزر، مطبوخة على مهل بمرق غني. طبق شتوي دافئ.",
-      en: "Classic beef stew recipe: tender beef with potatoes and carrots, slow-cooked in a rich broth. Hearty winter comfort.",
+      ar: "لحم كتف محمّر يُطهى ساعتين على نار هادئة مع الجزر والبطاطا والزعتر حتى يذوب. أدفأ عشاء لليالي الشتاء.",
+      en: "Seared beef chuck simmered low for about two hours with carrots, potatoes and thyme until it falls apart. The warmest dinner for winter nights.",
     },
   },
   cornbread: {
-    title: { ar: "طريقة عمل خبز الذرة الأمريكي", en: "Cornbread Recipe — Easy & Moist" },
+    title: { ar: "طريقة عمل خبز الذرة الأمريكي — بدون خميرة في ٣٥ دقيقة", en: "Easy Cornbread Recipe — Moist, No Yeast, Ready in 35 Minutes" },
     description: {
-      ar: "طريقة عمل خبز الذرة الأمريكي الطري، بدون خميرة، جاهز بأقل من ساعة.",
-      en: "Easy, moist cornbread recipe with no yeast, ready in under an hour.",
+      ar: "طحين ذرة وطحين عادي وبيضة وحليب، يُخلط باليد ويُخبز ٢٠ دقيقة. خبز ذرة رطب بدون خميرة وبدون عجن.",
+      en: "Cornmeal, flour, an egg and milk, mixed by hand and baked for 20 minutes. Moist cornbread with no yeast and no kneading.",
     },
   },
   "pad-thai": {
-    title: { ar: "طريقة عمل الباد تاي التايلندي", en: "Pad Thai Recipe — Authentic & Easy" },
+    title: { ar: "طريقة عمل الباد تاي التايلندي في ٣٠ دقيقة", en: "Pad Thai Recipe — Authentic Tamarind Sauce in 30 Minutes" },
     description: {
-      ar: "طريقة عمل الباد تاي: نودلز الأرز بصلصة التمر الهندي الحامضة الحلوة مع الروبيان والفول السوداني، في ٣٠ دقيقة.",
-      en: "Easy pad thai recipe: rice noodles in a sweet-sour tamarind sauce with shrimp and peanuts, in 30 minutes.",
+      ar: "نودلز أرز بصلصة التمر الهندي الحلوة الحامضة، مع روبيان أو دجاج وبيض وفول سوداني وليمون. طعم المطعم التايلندي في ٣٠ دقيقة.",
+      en: "Rice noodles in a sweet-sour tamarind sauce with shrimp or chicken, egg, peanuts and lime. Thai-restaurant flavor in 30 minutes.",
     },
   },
   "american-potato-salad": {
-    title: { ar: "طريقة عمل سلطة البطاطس بالمايونيز", en: "Classic Potato Salad Recipe" },
+    title: { ar: "طريقة عمل سلطة البطاطس بالمايونيز والبيض", en: "Classic Potato Salad Recipe — The Mayo & Egg Side for Every BBQ" },
     description: {
-      ar: "طريقة عمل سلطة البطاطس الأمريكية الكلاسيكية بالمايونيز والبيض والخردل، طبق جانبي للعزائم.",
-      en: "Classic American potato salad recipe with mayo, egg and mustard. The essential side dish for gatherings.",
+      ar: "بطاطا مسلوقة تُخلط وهي دافئة بالمايونيز والخردل والبيض المسلوق والكرفس، فتمتص الصلصة. تُحضّر مسبقاً وتطيب في الثلاجة.",
+      en: "Potatoes folded into mayo, mustard, hard-boiled egg and celery while still warm, so they soak up the dressing. Make it ahead; it gets better chilled.",
     },
   },
   "italian-pasta-salad": {
-    title: { ar: "طريقة عمل سلطة المعكرونة الإيطالية الباردة", en: "Italian Pasta Salad Recipe — Easy Cold Pasta Salad" },
+    title: { ar: "طريقة عمل سلطة المعكرونة الإيطالية الباردة للعزايم", en: "Italian Pasta Salad Recipe — The Make-Ahead Party Salad" },
     description: {
-      ar: "طريقة عمل سلطة المعكرونة الإيطالية الباردة بالخضار والجبنة والصلصة الإيطالية، مثالية للعزائم.",
-      en: "Easy Italian pasta salad recipe: cold pasta with vegetables, cheese and Italian dressing. Perfect for parties.",
+      ar: "معكرونة باردة مع طماطم كرزية وخيار وزيتون أسود وكرات موزاريلا وصلصة إيطالية. تُحضّر قبل ساعة أو قبل يوم.",
+      en: "Cold pasta with cherry tomatoes, cucumber, black olives, mozzarella balls and Italian dressing. Make it an hour or a day ahead.",
     },
   },
   "roast-chicken": {
-    title: { ar: "طريقة عمل الدجاج بالفرن — دجاجة كاملة محمّرة", en: "Roast Chicken Recipe — Whole Roasted Chicken" },
+    title: { ar: "طريقة عمل الدجاج بالفرن — دجاجة كاملة بجلد مقرمش", en: "Whole Roast Chicken Recipe — Crispy Skin, Juicy Every Time" },
     description: {
-      ar: "طريقة عمل الدجاج المحمّر بالفرن: دجاجة كاملة بجلد مقرمش ولحم طري، مع درجة النضج الصحيحة.",
-      en: "Classic whole roast chicken recipe: crisp skin, juicy meat and the right internal temperature, step by step.",
+      ar: "دجاجة كاملة محشوة بالليمون والثوم والأعشاب، تُشوى حتى تصل حرارتها الداخلية ٧٤ درجة. جلد مقرمش ولحم طري في كل مرة.",
+      en: "A whole chicken stuffed with lemon, garlic and herbs, roasted to 165°F (74°C) inside. Crisp skin and juicy meat, every time.",
     },
   },
   "lentil-soup": {
-    title: { ar: "طريقة عمل شوربة العدس", en: "Lentil Soup Recipe — Hearty & Easy" },
+    title: { ar: "طريقة عمل شوربة العدس — أول طبق على سفرة رمضان", en: "Lentil Soup Recipe — Hearty, Easy & Ready in an Hour" },
     description: {
-      ar: "طريقة عمل شوربة العدس الكلاسيكية خطوة بخطوة، أول طبق على سفرة إفطار رمضان، بمقادير دقيقة.",
-      en: "Hearty lentil soup recipe, step by step: the classic first bowl of a Ramadan iftar, with exact measurements.",
+      ar: "عدس وجزر وكرفس وبصل وطماطم، تُطهى على نار هادئة حتى تطرى. شوربة مشبعة ودافئة، وأول طبق على سفرة الإفطار.",
+      en: "Lentils, carrots, celery, onion and tomatoes simmered until tender. A filling, warming soup, and the first bowl on a Ramadan table.",
     },
   },
   "caesar-salad": {
-    title: { ar: "طريقة عمل سلطة سيزر مع الصلصة", en: "Caesar Salad Recipe with Homemade Dressing" },
+    title: { ar: "طريقة عمل سلطة سيزر مع الصلصة الأصلية في البيت", en: "Caesar Salad Recipe With Real Homemade Caesar Dressing" },
     description: {
-      ar: "طريقة عمل سلطة سيزر الأصلية بصلصة سيزر الكريمية والبارميزان والخبز المحمّص، في ٢٠ دقيقة.",
-      en: "Classic Caesar salad recipe with a homemade creamy dressing, parmesan and croutons, in 20 minutes.",
+      ar: "صلصة سيزر الأصلية بصفار البيض والأنشوفة والليمون والبارميزان، تُخفق في البيت خلال دقائق. خس روماني وخبز محمّص، في ٢٠ دقيقة.",
+      en: "The real Caesar dressing, egg yolk, anchovy, lemon and Parmesan, whisked at home in minutes. Romaine and croutons, in 20 minutes.",
     },
   },
   "chicken-tikka-masala": {
-    title: { ar: "طريقة عمل دجاج تكا ماسالا الهندي", en: "Chicken Tikka Masala Recipe" },
+    title: { ar: "طريقة عمل دجاج تكا ماسالا الهندي مثل المطاعم", en: "Chicken Tikka Masala Recipe — Better Than Your Local Curry House" },
     description: {
-      ar: "طريقة عمل دجاج تكا ماسالا: دجاج متبّل باللبن والبهارات بصلصة طماطم وكريمة هندية غنية.",
-      en: "Chicken tikka masala recipe: yoghurt-marinated chicken in a rich, spiced Indian tomato and cream sauce.",
+      ar: "دجاج متبّل بالزبادي والبهارات، يُشوى ثم يُطهى بصلصة طماطم وكريمة وغرام ماسالا. طعم المطعم الهندي، مع رز أو نان.",
+      en: "Chicken marinated in yogurt and spices, seared, then simmered in a tomato, cream and garam masala sauce. Curry-house flavor with rice or naan.",
     },
   },
   fattoush: {
-    title: { ar: "طريقة عمل الفتوش مع الصلصة", en: "Fattoush Salad Recipe — Lebanese Bread Salad" },
+    title: { ar: "طريقة عمل الفتوش بالسماق — والخبز يبقى مقرمشاً", en: "Fattoush Salad Recipe — Lebanese Bread Salad With Sumac Dressing" },
     description: {
-      ar: "طريقة عمل سلطة الفتوش بالخضار والنعناع والخبز المقرمش وصلصة السماق والليمون، في ٢٠ دقيقة. سلطة إفطار رمضان الأشهر.",
-      en: "Fattoush salad recipe: crisp pita, fresh vegetables and mint in a sumac-lemon dressing, in 20 minutes. The Levantine classic.",
+      ar: "خضار ونعناع وبقدونس بصلصة السماق والليمون والثوم، والخبز المقرمش يُضاف قبل التقديم مباشرة حتى يبقى يطقطق. ٢٠ دقيقة.",
+      en: "Vegetables, mint and parsley in a sumac, lemon and garlic dressing, with crisp pita added right before serving so it stays crunchy. 20 minutes.",
     },
   },
 };
