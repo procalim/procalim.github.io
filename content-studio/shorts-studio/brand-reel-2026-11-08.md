@@ -16,3 +16,18 @@ Captions (the word's start time in seconds; the next phrase replaces the last):
 
 Sounds: pop 0.67 s, digital pop 2.22 s, click 4.67 s.
 Video: https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/e01a8ef2-894f-46c8-a2b7-8fd9a17e5c13.mp4
+
+## v2: animation added (owner asked: "why no animation like the gallery presets"), 0 credits
+The preset "Chase Your Dreams" has no animation of its own (one talking head, word-by-word captions). The motion
+was added in the composition, with no generation:
+- 0.0 s: a fast zoom-in to the face (1.12 to 1.0).
+- 0.68 s: a views badge on the right counts to "+500,000 مشاهدة" (ticks).
+- 1.72 s: a white flash and a snap zoom toward the cake. Two gold rings are drawn around the cake and follow it.
+- 2.22 s: a shake, and the badge pulses.
+- 3.18 s: the badge leaves; the book cover (ediblecodex.com/brand/book/cover.jpg) flies in from the right, turning,
+  and lands with a gold glint.
+- 3.66 s: a gold pill «٣٦١ وصفة حلال».
+- 4.30 s: a white pill "ediblecodex.com". At 4.68 s it gets a tap ripple and a click.
+- Captions: words arrive with a pop; the emphasis words are in the book's gold (#e8c25a).
+- 9 library sounds, all kept under the voice. reels.py check: no findings, -14.2 LUFS, true peak -2.5 dB.
+- Video v2: https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/aeb7fd46-9be2-40c9-b77b-f8bc72daadde.mp4
