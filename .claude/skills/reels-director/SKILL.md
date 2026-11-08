@@ -431,6 +431,34 @@ cause, and the prompt change that prevents it; a new kind of error also becomes 
 24 h add the numbers (skip, average watch, watched to the end, shares and saves per 1,000 reach) against the
 test thresholds in `content-studio/plan-30-days.md`.
 
+Re-read the generated video before any edit (owner's call, 2026-11-08, from the Honey Cake Fettuccine on). Use the
+Higgsfield sandbox: frames every 0.25 s for the first 4 s, then every 0.5 s.
+1. First 3-4 s (the Kevin skit format):
+   - the place is the warm golden living room, not a white or empty background;
+   - his face and the black-lens sunglasses are visible;
+   - the beats come in order: sink, bolt upright, the jar thrust into the lens;
+   - no apron or gloves on the sofa.
+2. The cut into his identity at about 3.6 s:
+   - the kitchen is dark: black background, walnut, warm key light;
+   - apron and gloves in every kitchen shot;
+   - the same white t-shirt, gold chain and sunglasses.
+   - If the video stays bright or white after the cut, that is a defect: report it before any edit.
+3. Checks 1-14 of generation-log.md frame by frame: shapes, colours by object, count, order, physics, halal, and
+   silence in the last second.
+4. Sound: measure the loudest moment; it must be the money shot.
+5. Write every weak point in generation-log.md with its time and frame, then tell the owner the errors first.
+Then the professional edit on the Higgsfield sandbox, built with the Shorts Studio composition engine (no credits):
+- Kevin's rhythm (`content-studio/research/veganer-wandel-format.md`): cut to 0.5-0.8 cuts per second, with speed
+  ramps on the calm stretches.
+- Motion graphics, never in the Seedance prompt:
+  - the skit line in a white box at the top for 0-3.6 s;
+  - text that pops in;
+  - punch-in zooms on the beats;
+  - a gold ring or label on the hero food where it helps.
+- Sound: the clip's own sounds layered, the money shot the loudest, -14 LUFS.
+- Then prepublish.py and the 390 px phone check.
+- Virality Predictor is not a check (it does not rank this account's reels).
+
 ## Account audit (2026-10-27, Instagram Insights via Composio)
 Last 29 days: 450K reach, +438 follows (43 unfollows), 5,613 profile views, 43 link clicks: about 1 follow per
 1,000 reached, 7.8% of profile visitors follow, 0.8% tap the link. That is a profile problem, not a hook problem.
