@@ -38,3 +38,24 @@ was added in the composition, with no generation:
 - Weakest at 0-1 s: visual activation 0.34 (lowest), default mode (mind-wandering, lower is better) highest at
   1 s, 0.77.
 - These are predictive proxies, not results. The account's own numbers outrank them.
+
+## v3: the hook moved to frame 0 (owner asked to raise the score), 0 credits
+- Change: the views badge counts to +500,000 from frame 0, and the gold ring is drawn around the cake from frame 0
+  and follows it to 3.1 s. Added a pop and ticks at 0 s. Nothing else changed.
+- Video v3: https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/6ab1db27-f6fc-45e1-b865-d9253ca47c0d.mp4
+- Virality Predictor (job 60c2443a) against v2 (job ecee9ed5):
+
+| Score | v2 | v3 |
+|---|---|---|
+| Overall | 50 | 49 |
+| Viral potential | 52 | 48 |
+| Brain engagement | 42 | 42 |
+| Hook (0-3 s) | 33 | 33 |
+| Second 0: visual | 0.34 | 0.38 |
+| Second 0: attention | 0.43 | 0.47 |
+| Second 0: mind-wandering (lower is better) | 0.71 | 0.67 |
+| Second 5: visual | 0.54 | 0.48 |
+
+- Second 5 is the same picture in both versions, yet it scored differently, so gaps of a few points are the tool's
+  own noise. The hook score did not move: the first 3 s are still a talking line. To move it, the line or the first
+  shot has to change, which needs a new take.
