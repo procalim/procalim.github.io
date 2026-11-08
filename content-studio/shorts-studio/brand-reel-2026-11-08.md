@@ -31,3 +31,10 @@ was added in the composition, with no generation:
 - Captions: words arrive with a pop; the emphasis words are in the book's gold (#e8c25a).
 - 9 library sounds, all kept under the voice. reels.py check: no findings, -14.2 LUFS, true peak -2.5 dB.
 - Video v2: https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/aeb7fd46-9be2-40c9-b77b-f8bc72daadde.mp4
+
+## Virality Predictor (v2, job ecee9ed5, 2026-11-08)
+- Scores: overall 50, viral potential 52, brain engagement 42, hook (0-3 s) 33, sustain 100. Peak at 5 s (book card
+  and link pill).
+- Weakest at 0-1 s: visual activation 0.34 (lowest), default mode (mind-wandering, lower is better) highest at
+  1 s, 0.77.
+- These are predictive proxies, not results. The account's own numbers outrank them.
