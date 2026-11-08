@@ -38,8 +38,8 @@ description: >
    مشان سفرتك ما يخلص فيها سبب للّمّة. الرابط بالبايو 📕»
 
 ## What the data proved (keep using)
-- Virality Predictor (Higgsfield) does not rank this account's reels: sweet potato 9.8x scored 42, kibbeh nests 0.3x
-  scored 43 (`content-studio/research/virality-predictor-test.md`). Never use its score to judge or pick a reel.
+- Virality Predictor (Higgsfield) does not rank this account's reels: Crinkle Cake 142.7x scored 44, sweet potato 9.8x
+  42, kibbeh nests 0.3x 43 (`content-studio/research/virality-predictor-test.md`). Never use its score to judge or pick a reel.
 - The best reel (rice paper chips, 73% avg watch) used the chips-style prompt below:
   face in motion, violent actions, cuts every 0.5-1.5 s, loop back to the start.
 - Every reel with a **text box in the first 2-3 s** had a cliff at second 1-2. The same
