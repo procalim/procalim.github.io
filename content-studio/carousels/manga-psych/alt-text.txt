@@ -1,1 +1,9 @@
-Slide 1 alt text: Black and white comic panel of a chef in dark aviator sunglasses and black gloves touching his glasses, with the title "The judges decided before the first bite" in Arabic and English.
+Alt text, one per slide, each under 100 characters (the in-app limit is unclear; 100 is the safe size).
+Slide 1 alt text (86 characters): Comic: chef in sunglasses and gloves. Title: The judges decided before the first bite.
+Slide 2 alt text (89 characters): Comic: three food judges at a table. Text: your food is judged 3 times before the tongue.
+Slide 3 alt text (90 characters): Comic: chef plating sliced brisket. Text: plated food tastes better, from an Oxford study.
+Slide 4 alt text (90 characters): Comic: a judge smelling brisket says the smoke aroma is balanced. Text: smell comes first.
+Slide 5 alt text (87 characters): Comic: a gloved hand slicing crusty brisket. Text: a crunch you can hear tastes better.
+Slide 6 alt text (93 characters): Comic: a judge in glasses says the texture holds perfectly. Text: they judged before tasting.
+Slide 7 alt text (93 characters): Summary: 3 judges before the tongue. Eyes: plate it. Nose: let it smell. Ears: let it crunch.
+Slide 8 alt text (94 characters): Comic: chef tells the judges to taste it. Text: comment BOOK for my book of 361 halal recipes.
