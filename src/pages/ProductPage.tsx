@@ -10,6 +10,7 @@ import SectionHeading from "@/components/SectionHeading";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { formatPrice, useLang } from "@/i18n/LanguageContext";
 import BuyButton from "@/components/BuyButton";
+import CodexFooter from "@/components/CodexFooter";
 import { faqs, getProduct, products } from "@/data/products";
 import { checkoutUrlFor, site } from "@/data/site";
 
@@ -60,8 +61,11 @@ const ProductPage = ({ digistoreSlug }: Props = {}) => {
     );
   }
 
-  const savePct = product.compareAt
-    ? Math.round(((product.compareAt - product.price) / product.compareAt) * 100)
+  // Digistore24 will not show a struck-through price the book was never sold at.
+  // Digistore24 لا تقبل سعراً مشطوباً لم يُبع به الكتاب فعلاً.
+  const compareAt = viaDigistore ? undefined : product.compareAt;
+  const savePct = compareAt
+    ? Math.round(((compareAt - product.price) / compareAt) * 100)
     : 0;
 
   const whopUrl = checkoutUrlFor(product);
@@ -177,14 +181,21 @@ const ProductPage = ({ digistoreSlug }: Props = {}) => {
               {L(product.title)}
             </h1>
             <p className="mt-3 text-[15px] text-gold">{L(product.subtitle)}</p>
+            {viaDigistore && (
+              <p className="mt-3 text-[13px] text-ivory/70">
+                {lang === "ar"
+                  ? "بقلم الشيف أحمد سلامة — الشيف الظاهر في هذه الصفحة هو مؤلف الكتاب وناشره."
+                  : "By Chef Ahmet Salameh — the chef shown on this page is the author and publisher of this book."}
+              </p>
+            )}
 
             <div className="mt-6 flex items-baseline gap-4">
               <span className={`font-display text-4xl ${isFree ? "text-gold" : "text-ivory"}`}>
                 {isFree ? t("product.free") : formatPrice(product.price, lang, site.currency.symbol)}
               </span>
-              {product.compareAt && (
+              {compareAt && (
                 <span className="text-lg text-muted-foreground line-through">
-                  {formatPrice(product.compareAt, lang, site.currency.symbol)}
+                  {formatPrice(compareAt, lang, site.currency.symbol)}
                 </span>
               )}
             </div>
@@ -192,6 +203,14 @@ const ProductPage = ({ digistoreSlug }: Props = {}) => {
             <p className="mt-6 text-[15px] leading-relaxed text-ivory/80">{L(product.description)}</p>
 
             <div className="my-8 gold-rule" />
+
+            {viaDigistore && (
+              <p className="mb-4 rounded-sm border border-gold/25 bg-ink px-4 py-3 text-[13px] leading-relaxed text-ivory/85">
+                {lang === "ar"
+                  ? "منتج رقمي: كتاب PDF بالإنجليزية (نسخة كاملة + نسخة خفيفة للهاتف). لا يُشحن أي شيء. بعد الدفع مباشرة يظهر رابط التحميل على صفحة تأكيد Digistore24 ويصلك في بريدك الإلكتروني."
+                  : "Digital product: an English PDF cookbook (full edition + a light edition for your phone). Nothing is shipped. Right after payment, your download link appears on the Digistore24 order confirmation and is emailed to you."}
+              </p>
+            )}
 
             {/* One button, straight to checkout — no forms, no cart. */}
             <BuyButton product={product} withPrice className="w-full text-base" />
@@ -286,22 +305,11 @@ const ProductPage = ({ digistoreSlug }: Props = {}) => {
       </section>
 
       {viaDigistore && (
-        <footer className="border-t border-border py-10 text-center text-[12px] text-muted-foreground">
-          <p>
-            {lang === "ar"
-              ? "يتم الدفع عبر Digistore24.com · ضمان استرداد خلال ٦٠ يوماً"
-              : "Payment is processed by Digistore24.com · 60-day money-back guarantee"}
-          </p>
-          <p className="mt-3 flex justify-center gap-4">
-            <a href={localePath("/policies/privacy/", lang)} className="hover:text-gold">
-              {lang === "ar" ? "الخصوصية" : "Privacy"}
-            </a>
-            <a href={localePath("/policies/terms/", lang)} className="hover:text-gold">
-              {lang === "ar" ? "الشروط" : "Terms"}
-            </a>
-          </p>
-          <p className="mt-3">© The Edible Codex</p>
-        </footer>
+        <CodexFooter
+          note={lang === "ar"
+            ? "يتم الدفع عبر Digistore24.com · ضمان استرداد خلال ٦٠ يوماً"
+            : "Payment is processed by Digistore24.com · 60-day money-back guarantee"}
+        />
       )}
 
       {related.length > 0 && (

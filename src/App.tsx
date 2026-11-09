@@ -23,13 +23,15 @@ const FaqPage = lazy(() => import("@/pages/FaqPage"));
 const PolicyPage = lazy(() => import("@/pages/PolicyPage"));
 const NotFoundPage = lazy(() => import("@/pages/NotFoundPage"));
 const CheckoutCompletePage = lazy(() => import("@/pages/CheckoutCompletePage"));
+const CodexThanksPage = lazy(() => import("@/pages/CodexThanksPage"));
+const CodexLegalPage = lazy(() => import("@/pages/CodexLegalPage"));
 
 /**
  * The Digistore24 sales page (/codex) must not link to any other checkout,
  * so it is served without the site's bar, navigation and footer.
  * صفحة Digistore24 تُعرض بلا شريط الإعلان والقائمة والتذييل، لأنها لا يجوز أن تربط بدفع آخر.
  */
-const isBarePage = (pathname: string) => /\/codex\/?$/.test(pathname);
+const isBarePage = (pathname: string) => /\/codex(\/[a-z-]+)?\/?$/.test(pathname);
 
 const Chrome = ({ children }: { children: ReactNode }) => {
   const { pathname } = useLocation();
@@ -78,6 +80,10 @@ const App = () => (
                       <Route path={`${prefix}/policies/:slug`} element={<PolicyPage />} />
                       {/* Digistore24 affiliate sales page for the book */}
                       <Route path={`${prefix}/codex`} element={<ProductPage digistoreSlug="the-edible-codex" />} />
+                      <Route path={`${prefix}/codex/thanks`} element={<CodexThanksPage />} />
+                      <Route path={`${prefix}/codex/legal`} element={<CodexLegalPage />} />
+                      <Route path={`${prefix}/codex/privacy`} element={<PolicyPage bareSlug="privacy" />} />
+                      <Route path={`${prefix}/codex/terms`} element={<PolicyPage bareSlug="terms" />} />
                       <Route path={`${prefix}/checkout/complete`} element={<CheckoutCompletePage />} />
                     </Fragment>
                   ))}

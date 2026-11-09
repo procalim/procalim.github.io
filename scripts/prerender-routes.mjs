@@ -530,16 +530,30 @@ for (const lang of LANGS) {
         `  <script>digistorePromocode({ "product_id": 749266, "adjust_domain": true });</script>\n` +
         `  </head>`,
     );
-  // Digistore24 trusted badge (top bar plus its legal footer), required on the sales page.
-  // شارة Digistore24 الموثوقة مع تذييلها القانوني، مطلوبة في صفحة البيع.
-  html = html.replace(
-    "</body>",
-    `  <script src="https://www.digistore24.com/trusted-badge/48650/C7uZh06f95jKog2/salespage"></script>\n  </body>`,
-  );
+  // Digistore24's review asked for its trusted badge to be removed.
+  // طلبت مراجعة Digistore24 إزالة شارتها من صفحة البيع.
   if (lang === "en") html = html.replace('<html lang="ar" dir="rtl">', '<html lang="en" dir="ltr">');
   const target = path.join(dist, at("/codex/", lang), "index.html");
   fs.mkdirSync(path.dirname(target), { recursive: true });
   fs.writeFileSync(target, html);
+}
+
+/**
+ * The pages the Digistore24 sales page links to: its thank-you page and bare
+ * copies of the privacy and terms pages, all without the site's navigation so
+ * no link leads to another checkout. They must answer 200 and stay noindex.
+ * صفحات تابعة لصفحة البيع: الشكر والخصوصية والشروط، بلا قائمة الموقع ومحجوبة عن الفهرسة.
+ */
+for (const lang of LANGS) {
+  for (const sub of ["thanks", "privacy", "terms", "legal"]) {
+    let html = template
+      .replace(/<title>[\s\S]*?<\/title>/, "<title>The Edible Codex</title>")
+      .replace("</head>", `  <meta name="robots" content="noindex" />\n  </head>`);
+    if (lang === "en") html = html.replace('<html lang="ar" dir="rtl">', '<html lang="en" dir="ltr">');
+    const target = path.join(dist, at(`/codex/${sub}/`, lang), "index.html");
+    fs.mkdirSync(path.dirname(target), { recursive: true });
+    fs.writeFileSync(target, html);
+  }
 }
 
 /**
