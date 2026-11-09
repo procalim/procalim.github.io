@@ -45,7 +45,7 @@ const CheckoutCompletePage = () => {
         : { Icon: Clock, tone: "text-gold", title: t("done.processing.title"), body: t("done.processing.body"), retry: false };
 
   return (
-    <section className="texture-dark">
+    <section className="bg-[#050505]">
       <Seo title={t("done.title")} description={view.body} noindex />
       <div className="container-luxe flex min-h-[60vh] flex-col items-center justify-center py-24 text-center">
         <view.Icon className={`h-14 w-14 ${view.tone}`} aria-hidden />
@@ -59,7 +59,7 @@ const CheckoutCompletePage = () => {
         {/* After a payment, the way to what was bought — on Whop, signed in
             with the email used at checkout. */}
         {!view.retry && openable.length > 0 && (
-          <div className="mt-9 w-full max-w-md rounded-sm border border-gold/40 bg-navy-700/60 p-6 shadow-gold-glow">
+          <div className="mt-9 w-full max-w-md rounded-sm border border-gold/40 bg-black p-6 shadow-gold-glow">
             <p className="font-display text-lg text-ivory">{t("done.access.title")}</p>
             <p className="mt-2 text-[13px] leading-relaxed text-ivory/75">{t("done.access.body")}</p>
             <div className="mt-5 flex flex-col gap-3">

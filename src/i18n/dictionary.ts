@@ -469,10 +469,10 @@ export const dictionary = {
 
   /* ── After checkout · بعد الدفع ── */
   "done.title": { ar: "حالة الدفع", en: "Payment status" },
-  "done.succeeded.title": { ar: "تمّ الدفع بنجاح", en: "Payment received" },
+  "done.succeeded.title": { ar: "🎉 مبروك! مطبخ الشيف صار بين يديك", en: "🎉 You're in! The chef's kitchen is yours" },
   "done.succeeded.body": {
-    ar: "شكراً لك. ستصلك رسالة من Whop على بريدك فيها الإيصال ورابط التحميل.",
-    en: "Thank you. Whop is emailing your receipt and download access.",
+    ar: "تمّ الدفع بنجاح ✅ دقيقتان فقط وتكون أول وصفة على شاشتك — اتبع الخطوات بالأسفل 👇",
+    en: "Payment received ✅ Two minutes from now your first recipe is on your screen — follow the steps below 👇",
   },
   "done.failed.title": { ar: "لم يكتمل الدفع", en: "The payment didn't go through" },
   "done.failed.body": {
@@ -486,35 +486,35 @@ export const dictionary = {
     en: "This can take a few minutes. Whop will email you as soon as it's confirmed — no need to pay again.",
   },
   "done.reference": { ar: "رقم العملية", en: "Payment reference" },
-  "done.access.title": { ar: "منتجك جاهز على Whop", en: "Your purchase is ready on Whop" },
+  "done.access.title": { ar: "🔓 منتجك جاهز وينتظرك على Whop", en: "🔓 Your purchase is ready and waiting on Whop" },
   "done.access.body": {
     ar: "اضغط الزر لفتح منتجك الآن، وسجّل الدخول بنفس البريد الذي دفعت به.",
     en: "Tap the button to open it now — sign in with the same email you paid with.",
   },
-  "done.access.cta": { ar: "افتح منتجي على Whop", en: "Open my purchase on Whop" },
+  "done.access.cta": { ar: "افتح منتجي الآن", en: "Open my purchase now" },
   // What the buyer does on Whop, step by step. خطوات استلام المنتج على Whop.
-  "done.steps.title": { ar: "كيف تستلم منتجك — خطوة بخطوة", en: "How to get your purchase — step by step" },
+  "done.steps.title": { ar: "🧭 كيف تستلم منتجك — خطوة بخطوة", en: "🧭 How to get your purchase — step by step" },
   "done.steps.1": {
-    ar: "اضغط زر «افتح منتجي على Whop» في الأعلى.",
-    en: "Tap “Open my purchase on Whop” above.",
+    ar: "👆 اضغط الزر الذهبي «افتح منتجي الآن» في الأعلى.",
+    en: "👆 Tap the gold “Open my purchase now” button above.",
   },
   "done.steps.2": {
-    ar: "في Whop اضغط «Sign in» (تسجيل الدخول)، واكتب نفس البريد الإلكتروني الذي دفعت به.",
-    en: "On Whop, tap “Sign in” and enter the same email you paid with.",
+    ar: "📧 في Whop اضغط «Sign in» (تسجيل الدخول)، واكتب نفس البريد الإلكتروني الذي دفعت به.",
+    en: "📧 On Whop, tap “Sign in” and enter the same email you paid with.",
   },
   "done.steps.3": {
-    ar: "يرسل لك Whop رمز أو رابط دخول على بريدك. افتحه أو اكتب الرمز — لا تحتاج كلمة سر.",
-    en: "Whop emails you a sign-in code or link. Open it or type the code — no password needed.",
+    ar: "🔑 يرسل لك Whop رمز أو رابط دخول على بريدك. افتحه أو اكتب الرمز — لا تحتاج كلمة سر.",
+    en: "🔑 Whop emails you a sign-in code or link. Open it or type the code — no password needed.",
   },
   "done.steps.4": {
-    ar: "بعد الدخول تظهر صفحة منتجك. اضغط على الملف لتحميل الـ PDF واحفظه على جوالك أو حاسوبك.",
-    en: "Once signed in, your product page opens. Tap the file to download the PDF and save it on your phone or computer.",
+    ar: "📥 بعد الدخول تظهر صفحة منتجك. اضغط على الملف لتحميل الـ PDF واحفظه على جوالك أو حاسوبك.",
+    en: "📥 Once signed in, your product page opens. Tap the file to download the PDF and save it on your phone or computer.",
   },
   "done.steps.5": {
-    ar: "وصلتك أيضاً رسالة من Whop فيها الإيصال ورابط منتجك. لم تجدها؟ افحص مجلد الرسائل غير المرغوبة (Spam).",
-    en: "Whop has also emailed your receipt and a link to your purchase. Can't find it? Check your spam folder.",
+    ar: "📬 وصلتك أيضاً رسالة من Whop فيها الإيصال ورابط منتجك. لم تجدها؟ افحص مجلد الرسائل غير المرغوبة (Spam).",
+    en: "📬 Whop has also emailed your receipt and a link to your purchase. Can't find it? Check your spam folder.",
   },
-  "done.help": { ar: "واجهتك مشكلة؟ راسلنا على واتساب", en: "Stuck? Message us on WhatsApp" },
+  "done.help": { ar: "💬 واجهتك مشكلة؟ راسلنا على واتساب", en: "💬 Stuck? Message us on WhatsApp" },
   "done.retry": { ar: "العودة إلى المتجر", en: "Back to the shop" },
   "done.home": { ar: "الصفحة الرئيسية", en: "Home" },
 
