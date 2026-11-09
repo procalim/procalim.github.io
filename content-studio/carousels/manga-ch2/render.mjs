@@ -48,7 +48,7 @@ html,body{width:1080px;height:1350px;overflow:hidden}
 .tag{position:absolute;top:18px;left:18px;direction:ltr;font-family:E;font-weight:600;font-size:22px;letter-spacing:2px;background:#111;color:#e3b84f;padding:8px 14px;border-radius:8px}
 .bub{position:absolute;background:#fff;color:#111;border:5px solid #111;border-radius:50%;padding:30px 44px 22px;font-weight:800;font-size:38px;line-height:1.2;text-align:center;white-space:nowrap}
 .bub::after{content:"";position:absolute;bottom:-18px;width:28px;height:28px;background:#fff;border-right:5px solid #111;border-bottom:5px solid #111;transform:rotate(45deg) skew(12deg,12deg)}
-.bub.tl::after{left:30%}.bub.tr::after{right:30%}
+.bub.tl::after{left:var(--t,30%)}.bub.tr::after{right:var(--t,30%)}
 `;
 const head = `<div class="hd"><img src="${CH1}/avatar.jpg"><div><div class="n">أحمد سلامة</div><div class="b">THE EDIBLE CODEX</div></div></div>`;
 const foot = (i) => `<div class="ft"><span>@ahmet_salameh</span><span>${i}/${N}</span></div>`;
@@ -59,19 +59,18 @@ const panel = (name, h, pos = "50% 50%", over = "", mt = 0) =>
     ? `<div class="panel ph" style="height:${h}px">${name}.jpg</div>`
     : `<img class="panel" src="${IMG}/${name}.jpg" style="height:${h}px;object-position:${pos}">`) +
   `${over}</div>`;
-// Speech bubble: tail = "tl" (tail under the left part) or "tr" (under the right part).
-const bub = (text, style, tail = "tl") => `<div class="bub ${tail}" style="${style}">${text}</div>`;
+// Speech bubble: tail = "tl" (tail under the left part) or "tr" (under the right part); at = how far in from that side.
+const bub = (text, style, tail = "tl", at = "30%") => `<div class="bub ${tail}" style="${style};--t:${at}">${text}</div>`;
 const chip = (t) => `<div class="chip" style="background:#e3b84f;color:#141414"><span>${t}</span></div>`;
 const slides = [
-  // 1 COVER
-  `<div class="s cream">${head}
-   <div class="body" style="top:200px">
-     ${panel("full", 560, "50% 50%", `<div class="tag">MASTER OF THE CRAFT · CH.2</div>` + bub("شبعنا. ولا لقمة.", "top:26px;right:28px", "tl"))}
+  // 1 COVER (the panel came out portrait: it runs tall from the top, and the avatar header is left off this slide)
+  `<div class="s cream">
+   <div class="body" style="top:64px">
+     ${panel("full", 928, "50% 6%", `<div class="tag" style="left:auto;right:18px">MASTER OF THE CRAFT · CH.2</div>` + bub("شبعنا. ولا لقمة.", "top:16px;left:22px", "tl", "36%"))}
    </div>
-   <div class="body" style="top:800px;left:120px;right:120px">
-     <div class="k" style="font-size:98px">ليش دايماً في<br><span class="hl">مكان للحلو؟</span></div>
-     <div class="p" style="font-size:40px;margin-top:16px">الحكام شبعوا. المعلّم لسا ما خلّص.</div>
-     <div class="en" style="font-size:32px;margin-top:8px">Why is there always room for dessert?</div>
+   <div class="body" style="top:1008px;left:120px;right:120px">
+     <div class="k" style="font-size:80px">ليش دايماً في<br><span class="hl">مكان للحلو؟</span></div>
+     <div class="en" style="font-size:32px;margin-top:4px">Why is there always room for dessert?</div>
    </div>${foot(1)}</div>`,
   // 2 STAKE
   `<div class="s black">${head}
@@ -79,13 +78,13 @@ const slides = [
      <div class="k" style="font-size:78px">حلفت إنك شبعت.<br><span class="g">وبعدين نزل الحلو.</span></div>
      <div class="p" style="font-size:46px;margin-top:22px">ومسكت المعلقة. مش ضعف إرادة.<br>هيك دماغك مبني.</div>
      <div class="en" style="font-size:32px;margin-top:10px">You swore you were full. Then dessert landed.</div>
-     ${panel("eyes", 420, "50% 50%", "", 36)}
+     ${panel("eyes", 420, "50% 0%", "", 36)}
    </div>${foot(2)}</div>`,
   // 3 LAW 1
   `<div class="s cream">${head}
    <div class="body" style="top:210px">
      ${chip("القانون ١")}
-     ${panel("bored", 500, "50% 50%", bub("كمان نفس الطعم؟", "top:24px;left:26px", "tr"), 22)}
+     ${panel("bored", 500, "50% 50%", bub("كمان نفس الطعم؟", "top:22px;left:70px", "tr", "22%"), 22)}
      <div class="k" style="font-size:64px;margin-top:30px">الشبع من أكلة، <span class="hl">مش من الأكل</span></div>
      <div class="p" style="font-size:36px;margin-top:14px">فريق بأكسفورد سنة ١٩٨١ أكّل ناس أكلة وحدة لحد الشبع. متعتها نزلت أكتر من الأكلات اللي ما أكلوها.</div>
      <div class="en" style="font-size:32px;margin-top:10px">You get full of one food, not of food.</div>
@@ -111,7 +110,7 @@ const slides = [
   // 6 VERDICT
   `<div class="s gold">${head}
    <div class="body" style="top:220px">
-     ${panel("bliss", 560, "50% 50%", bub("طلع في مكان.", "top:26px;right:28px", "tl"))}
+     ${panel("bliss", 560, "50% 50%", bub("طلع في مكان.", "top:20px;right:150px", "tl", "20%"))}
      <div class="k" style="font-size:80px;margin-top:36px">مش جوع.<br>زهق من <span style="background:linear-gradient(transparent 58%,#fff 58%,#fff 92%,transparent 92%)">نفس الطعم</span></div>
      <div class="p" style="font-size:38px;margin-top:14px">معدتك ما كذبت لما قالت شبعت. لسانك بس كان بدّو طعم جديد.</div>
      <div class="en" style="font-size:32px;margin-top:10px;opacity:.75">It isn't hunger. You're bored of the same taste.</div>
@@ -133,7 +132,7 @@ const slides = [
    <div class="body" style="top:205px">
      <div class="k" style="font-size:74px">٣٦١ طعم.<br><span class="g">لسانك ما بيزهق.</span></div>
      <div class="p" style="font-size:34px;margin-top:12px;opacity:.88">كلها وصفات حلال بكتابي، وكرنكل هالفصل وحدة منها</div>
-     ${panel("smirk", 390, "50% 50%", bub("قلتلكم.", "top:40px;right:60px", "tl"), 26)}
+     ${panel("smirk", 470, "50% 30%", bub("قلتلكم.", "top:46px;right:60px", "tl"), 26)}
      <div class="cta" style="margin-top:28px;display:flex;align-items:center;gap:28px">
        <div style="flex:1">
          <div class="k" style="font-size:52px">اكتب «كتاب» بالتعليقات</div>
