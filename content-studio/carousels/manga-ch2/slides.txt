@@ -1,0 +1,14 @@
+1 COVER: ليش دايماً في مكان للحلو؟ / الحكام شبعوا. المعلّم لسا ما خلّص. / Why is there always room for dessert? / tag on the panel: MASTER OF THE CRAFT · CH.2
+2 STAKE: حلفت إنك شبعت. وبعدين نزل الحلو / ومسكت المعلقة. مش ضعف إرادة. هيك دماغك مبني. / You swore you were full. Then dessert landed.
+3 LAW 1: الشبع من أكلة، مش من الأكل / فريق بأكسفورد سنة ١٩٨١ أكّل ناس أكلة وحدة لحد الشبع. متعتها نزلت أكتر من الأكلات اللي ما أكلوها / You get full of one food, not of food.
+4 LAW 2: التنويع بيرجّع الشهية / بتجربة تانية سنة ١٩٨٤: ٤ أطباق مختلفة ورا بعض، مقابل نفس الطبق ٤ مرات. اللي تنوّع أكلهم أكلوا حوالي ٦٠٪ أكتر / Four different courses: about 60% more eaten.
+5 LAW 3: للسكر باب خاص بالدماغ / دراسة ألمانية سنة ٢٠٢٥ على الفئران: خلايا الشبع نفسها بتفتح للسكر باب. الفار الشبعان بيوقّف أكل، وبيكمّل عالحلو / In mice, the "full" neurons open a door for sugar.
+6 VERDICT: مش جوع. زهق من نفس الطعم / معدتك ما كذبت لما قالت شبعت. لسانك بس كان بدّو طعم جديد / It isn't hunger. You're bored of the same taste.
+7 RECAP: ٣ قوانين للشبع / ١ الشبع من أكلة، مش من الأكل ٢ التنويع بيرجّع الشهية ٣ للسكر باب خاص بالدماغ / بعزومتك الجاية: نوّع الطعمات، مش الكميات / Vary your flavours, not your portions.
+8 CTA: ٣٦١ طعم. لسانك ما بيزهق / كلها وصفات حلال بكتابي، وكرنكل هالفصل وحدة منها / اكتب «كتاب» بالتعليقات وببعتلك الرابط على الخاص / تحميل فوري · استرجاع خلال ٣٠ يوم / Comment BOOK, I'll send you the link.
+
+Speech bubbles, set in HTML over the panels:
+1 judge: شبعنا. ولا لقمة.
+3 judge: كمان نفس الطعم؟
+6 judge: طلع في مكان.
+8 the Master: قلتلكم.
