@@ -5,6 +5,7 @@ import Seo from "@/components/Seo";
 import { useLang } from "@/i18n/LanguageContext";
 import { getProduct, products } from "@/data/products";
 import { lastCheckout } from "@/lib/last-checkout";
+import { whatsappLink } from "@/data/site";
 
 /**
  * Where Whop sends the buyer back after an off-site payment step (3DS, a
@@ -44,7 +45,7 @@ const CheckoutCompletePage = () => {
         : { Icon: Clock, tone: "text-gold", title: t("done.processing.title"), body: t("done.processing.body"), retry: false };
 
   return (
-    <section className="texture-dark">
+    <section className="bg-[#050505]">
       <Seo title={t("done.title")} description={view.body} noindex />
       <div className="container-luxe flex min-h-[60vh] flex-col items-center justify-center py-24 text-center">
         <view.Icon className={`h-14 w-14 ${view.tone}`} aria-hidden />
@@ -58,7 +59,7 @@ const CheckoutCompletePage = () => {
         {/* After a payment, the way to what was bought — on Whop, signed in
             with the email used at checkout. */}
         {!view.retry && openable.length > 0 && (
-          <div className="mt-9 w-full max-w-md rounded-sm border border-gold/40 bg-navy-700/60 p-6 shadow-gold-glow">
+          <div className="mt-9 w-full max-w-md rounded-sm border border-gold/40 bg-black p-6 shadow-gold-glow">
             <p className="font-display text-lg text-ivory">{t("done.access.title")}</p>
             <p className="mt-2 text-[13px] leading-relaxed text-ivory/75">{t("done.access.body")}</p>
             <div className="mt-5 flex flex-col gap-3">
@@ -68,6 +69,28 @@ const CheckoutCompletePage = () => {
                   <ExternalLink className="h-4 w-4" />
                 </a>
               ))}
+            </div>
+
+            <div className="mt-6 border-t border-gold/20 pt-5 text-start">
+              <p className="text-[12px] font-semibold uppercase tracking-[0.12em] text-gold">{t("done.steps.title")}</p>
+              <ol className="mt-4 space-y-3">
+                {(["done.steps.1", "done.steps.2", "done.steps.3", "done.steps.4", "done.steps.5"] as const).map((key, i) => (
+                  <li key={key} className="flex items-start gap-3 text-[13px] leading-relaxed text-ivory/85">
+                    <span className="grid h-6 w-6 shrink-0 place-items-center rounded-full bg-gold/15 text-[12px] font-semibold text-gold">
+                      {i + 1}
+                    </span>
+                    {t(key)}
+                  </li>
+                ))}
+              </ol>
+              <a
+                href={whatsappLink(t("done.help"))}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="mt-5 block text-center text-[13px] text-gold underline-offset-4 hover:underline"
+              >
+                {t("done.help")}
+              </a>
             </div>
           </div>
         )}
