@@ -1,6 +1,6 @@
 import { Check, Download, Mail, ShieldCheck } from "lucide-react";
 import Seo from "@/components/Seo";
-import { localePath } from "@/i18n/locale-path";
+import CodexFooter from "@/components/CodexFooter";
 import { useLang } from "@/i18n/LanguageContext";
 import { whatsappLink } from "@/data/site";
 
@@ -123,17 +123,7 @@ const CodexThanksPage = () => {
         </div>
       </section>
 
-      <footer className="border-t border-border py-10 text-center text-[12px] text-muted-foreground">
-        <p className="flex justify-center gap-4">
-          <a href={localePath("/codex/privacy/", lang)} className="hover:text-gold">
-            {lang === "ar" ? "الخصوصية" : "Privacy"}
-          </a>
-          <a href={localePath("/codex/terms/", lang)} className="hover:text-gold">
-            {lang === "ar" ? "الشروط" : "Terms"}
-          </a>
-        </p>
-        <p className="mt-3">© The Edible Codex</p>
-      </footer>
+      <CodexFooter />
     </>
   );
 };

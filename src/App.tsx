@@ -24,6 +24,7 @@ const PolicyPage = lazy(() => import("@/pages/PolicyPage"));
 const NotFoundPage = lazy(() => import("@/pages/NotFoundPage"));
 const CheckoutCompletePage = lazy(() => import("@/pages/CheckoutCompletePage"));
 const CodexThanksPage = lazy(() => import("@/pages/CodexThanksPage"));
+const CodexLegalPage = lazy(() => import("@/pages/CodexLegalPage"));
 
 /**
  * The Digistore24 sales page (/codex) must not link to any other checkout,
@@ -80,6 +81,7 @@ const App = () => (
                       {/* Digistore24 affiliate sales page for the book */}
                       <Route path={`${prefix}/codex`} element={<ProductPage digistoreSlug="the-edible-codex" />} />
                       <Route path={`${prefix}/codex/thanks`} element={<CodexThanksPage />} />
+                      <Route path={`${prefix}/codex/legal`} element={<CodexLegalPage />} />
                       <Route path={`${prefix}/codex/privacy`} element={<PolicyPage bareSlug="privacy" />} />
                       <Route path={`${prefix}/codex/terms`} element={<PolicyPage bareSlug="terms" />} />
                       <Route path={`${prefix}/checkout/complete`} element={<CheckoutCompletePage />} />

@@ -10,6 +10,7 @@ import SectionHeading from "@/components/SectionHeading";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { formatPrice, useLang } from "@/i18n/LanguageContext";
 import BuyButton from "@/components/BuyButton";
+import CodexFooter from "@/components/CodexFooter";
 import { faqs, getProduct, products } from "@/data/products";
 import { checkoutUrlFor, site } from "@/data/site";
 
@@ -304,22 +305,11 @@ const ProductPage = ({ digistoreSlug }: Props = {}) => {
       </section>
 
       {viaDigistore && (
-        <footer className="border-t border-border py-10 text-center text-[12px] text-muted-foreground">
-          <p>
-            {lang === "ar"
-              ? "يتم الدفع عبر Digistore24.com · ضمان استرداد خلال ٦٠ يوماً"
-              : "Payment is processed by Digistore24.com · 60-day money-back guarantee"}
-          </p>
-          <p className="mt-3 flex justify-center gap-4">
-            <a href={localePath("/codex/privacy/", lang)} className="hover:text-gold">
-              {lang === "ar" ? "الخصوصية" : "Privacy"}
-            </a>
-            <a href={localePath("/codex/terms/", lang)} className="hover:text-gold">
-              {lang === "ar" ? "الشروط" : "Terms"}
-            </a>
-          </p>
-          <p className="mt-3">© The Edible Codex</p>
-        </footer>
+        <CodexFooter
+          note={lang === "ar"
+            ? "يتم الدفع عبر Digistore24.com · ضمان استرداد خلال ٦٠ يوماً"
+            : "Payment is processed by Digistore24.com · 60-day money-back guarantee"}
+        />
       )}
 
       {related.length > 0 && (

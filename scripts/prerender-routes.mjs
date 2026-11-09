@@ -545,7 +545,7 @@ for (const lang of LANGS) {
  * صفحات تابعة لصفحة البيع: الشكر والخصوصية والشروط، بلا قائمة الموقع ومحجوبة عن الفهرسة.
  */
 for (const lang of LANGS) {
-  for (const sub of ["thanks", "privacy", "terms"]) {
+  for (const sub of ["thanks", "privacy", "terms", "legal"]) {
     let html = template
       .replace(/<title>[\s\S]*?<\/title>/, "<title>The Edible Codex</title>")
       .replace("</head>", `  <meta name="robots" content="noindex" />\n  </head>`);

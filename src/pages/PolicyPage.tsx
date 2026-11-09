@@ -4,6 +4,7 @@ import Seo from "@/components/Seo";
 import { useLang } from "@/i18n/LanguageContext";
 import { getPolicy } from "@/data/policies";
 import PageHero from "@/components/PageHero";
+import CodexFooter from "@/components/CodexFooter";
 
 type Props = {
   /** Set on the bare Digistore24 copies (/codex/privacy, /codex/terms). */
@@ -52,6 +53,7 @@ const PolicyPage = ({ bareSlug }: Props = {}) => {
           ))}
         </div>
       </section>
+      {bareSlug && <CodexFooter />}
     </>
   );
 };
