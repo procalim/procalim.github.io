@@ -102,6 +102,11 @@ export const brandImages = {
   chefDuck: `${base}brand/chef-duck-cherry.jpg`,
   chefBeef: `${base}brand/chef-beef-tenderloin.jpg`,
   codexCover: `${base}brand/edible-codex-cover.jpg`,
+  /** The black-and-gold kitchen behind the 3D book on the home page: a tall
+   *  crop for phones and a wide one for larger screens.
+   *  المطبخ الأسود والذهبي خلف الكتاب في الصفحة الرئيسية. */
+  kitchenPortrait: `${base}brand/kitchen-portrait.webp`,
+  kitchenLandscape: `${base}brand/kitchen-landscape.webp`,
   /** The finished plate with all five sauces drawn across it */
   fiveSauces: `${base}brand/email/five-sauces.jpg`,
 } as const;

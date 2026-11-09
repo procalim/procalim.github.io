@@ -447,6 +447,19 @@ const render = (route, lang) => {
       "<!--shell-image-->",
       `<img src="/brand/book/cover.webp" alt="" width="270" height="338" fetchpriority="high" style="display:block;margin:40px auto 0;width:min(64vw,270px);height:auto;border-radius:2px;box-shadow:0 0 40px rgba(201,162,39,.25)" />`,
     );
+    // The same black-and-gold kitchen the app paints behind the book, so the
+    // first screen hands over without a flash of navy. Each crop is preloaded
+    // only for the screen shape that shows it.
+    // المطبخ نفسه في الشاشة الأولى، يُحمَّل مسبقاً لشكل الشاشة فقط.
+    const shade = "linear-gradient(180deg,rgba(5,5,5,.75) 0%,rgba(5,5,5,.25) 32%,rgba(5,5,5,.05) 60%,rgba(5,5,5,.85) 100%)";
+    html = html.replace(
+      "</head>",
+      `  <link rel="preload" as="image" href="/brand/kitchen-portrait.webp" media="(max-width: 767px)" />\n` +
+        `  <link rel="preload" as="image" href="/brand/kitchen-landscape.webp" media="(min-width: 768px)" />\n` +
+        `  <style>#app-shell{background:${shade},#050505 url(/brand/kitchen-portrait.webp) center/cover no-repeat !important}` +
+        `@media (min-width:768px){#app-shell{background:${shade},#050505 url(/brand/kitchen-landscape.webp) center/cover no-repeat !important}}</style>\n` +
+        `  </head>`,
+    );
   }
   if (lang === "en") html = html.replace('<html lang="ar" dir="rtl">', '<html lang="en" dir="ltr">');
   return html
