@@ -238,11 +238,30 @@ const BookFlip3D = ({ headingLevel = "h2" }: { headingLevel?: "h1" | "h2" }) => 
   return (
     <section
       ref={section}
-      className="texture-navy relative"
+      className="relative bg-[#050505]"
       style={{ height: `${count * 34 + 120}svh` }}
       aria-label={t("flip.eyebrow")}
     >
       <div className="sticky top-0 flex h-[100svh] flex-col overflow-hidden pt-[86px]">
+        {/* The black-and-gold kitchen behind the book, held in place while the
+            pages turn. Only the crop for the screen's shape is downloaded: a
+            hidden element's background is never fetched. The shade keeps the
+            headline readable and melts the edges into the black page.
+            خلفية المطبخ خلف الكتاب، مع تظليل يحفظ وضوح العنوان. */}
+        <div
+          aria-hidden="true"
+          className="absolute inset-0 bg-cover bg-center md:hidden"
+          style={{ backgroundImage: `url(${brandImages.kitchenPortrait})` }}
+        />
+        <div
+          aria-hidden="true"
+          className="absolute inset-0 hidden bg-cover bg-center md:block"
+          style={{ backgroundImage: `url(${brandImages.kitchenLandscape})` }}
+        />
+        <div
+          aria-hidden="true"
+          className="absolute inset-0 bg-[linear-gradient(180deg,rgba(5,5,5,0.75)_0%,rgba(5,5,5,0.25)_32%,rgba(5,5,5,0.05)_60%,rgba(5,5,5,0.85)_100%)]"
+        />
         {/* Headline over the closed book; it steps aside as the cover opens */}
         <div ref={words} className="container-luxe relative z-20 text-center">
           <span className="eyebrow">{t("flip.eyebrow")}</span>
