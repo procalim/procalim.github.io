@@ -492,6 +492,29 @@ export const dictionary = {
     en: "Tap the button to open it now — sign in with the same email you paid with.",
   },
   "done.access.cta": { ar: "افتح منتجي على Whop", en: "Open my purchase on Whop" },
+  // What the buyer does on Whop, step by step. خطوات استلام المنتج على Whop.
+  "done.steps.title": { ar: "كيف تستلم منتجك — خطوة بخطوة", en: "How to get your purchase — step by step" },
+  "done.steps.1": {
+    ar: "اضغط زر «افتح منتجي على Whop» في الأعلى.",
+    en: "Tap “Open my purchase on Whop” above.",
+  },
+  "done.steps.2": {
+    ar: "في Whop اضغط «Sign in» (تسجيل الدخول)، واكتب نفس البريد الإلكتروني الذي دفعت به.",
+    en: "On Whop, tap “Sign in” and enter the same email you paid with.",
+  },
+  "done.steps.3": {
+    ar: "يرسل لك Whop رمز أو رابط دخول على بريدك. افتحه أو اكتب الرمز — لا تحتاج كلمة سر.",
+    en: "Whop emails you a sign-in code or link. Open it or type the code — no password needed.",
+  },
+  "done.steps.4": {
+    ar: "بعد الدخول تظهر صفحة منتجك. اضغط على الملف لتحميل الـ PDF واحفظه على جوالك أو حاسوبك.",
+    en: "Once signed in, your product page opens. Tap the file to download the PDF and save it on your phone or computer.",
+  },
+  "done.steps.5": {
+    ar: "وصلتك أيضاً رسالة من Whop فيها الإيصال ورابط منتجك. لم تجدها؟ افحص مجلد الرسائل غير المرغوبة (Spam).",
+    en: "Whop has also emailed your receipt and a link to your purchase. Can't find it? Check your spam folder.",
+  },
+  "done.help": { ar: "واجهتك مشكلة؟ راسلنا على واتساب", en: "Stuck? Message us on WhatsApp" },
   "done.retry": { ar: "العودة إلى المتجر", en: "Back to the shop" },
   "done.home": { ar: "الصفحة الرئيسية", en: "Home" },
 
