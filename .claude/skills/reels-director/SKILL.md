@@ -314,6 +314,9 @@ One strategy, the same every time (Raghad's point, and the "Go Viral With Claude
 
 ## Length and topics (owner's call, 2026-11-06; updates the next section)
 - Length: every reel is 20 seconds now (cookcut, one clip). Template: `content-studio/prompts/w3-smashed-broccoli-20s.txt`.
+- Settings on every Seedance generation (owner, 2026-11-10): bitrate_mode high (same price as standard on the
+  2026-11-10 quote), and the prompt file lists every setting sent. Every recipe step on screen in order, smooth
+  camera moves and action; prompts are written on the system, not around the last video's errors.
 - Each reel's improvement:
   - the prompt checks (generation-log 1-14);
   - the Higgsfield edit: flags fixed, money-shot sound, animated pop-in text, measured cards.

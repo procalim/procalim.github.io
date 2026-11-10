@@ -1,27 +1,26 @@
-Honey Cake Fettuccine, 20 s, version 5 (2026-11-10). Written with the cookcut skill after the owner rejected the
-version 4 draft (job e25b029a: "no strong motion, no steps, no work, not like our videos").
-Status: NOT generated. Generate only on «ولد».
+Honey Cake Fettuccine, 20 s, version 5 (2026-11-10). Written on the system: the cookcut method with the pistachio
+shot grammar, every recipe step on screen in order, smooth camera and action, his identity in his dark kitchen.
+Replaces version 4. Status: NOT generated. Generate only on «ولد».
 
-What the version 4 draft measured, and what version 5 changes:
-| | version 4 (draft) | version 5 |
-|---|---|---|
-| Opening | 3.6 s in a bright living room, lying still for 1.25 s | his dark kitchen, an egg cracked hard at frame one |
-| His face | written into 2 of 8 kitchen shots; about 2 s on screen | written into 8 of 15 shots |
-| His hands | about 3 s of visible work in 14.5 s | in every shot, doing every step |
-| Impacts with a camera shake | 0 | 6 (shots 01, 04, 06, 08, 10, 12) |
-| Shots of food alone | 6 of 8 kitchen shots | 0 |
-| Steps not shown | baking, cutting into ribbons, the twirl | every step has its own shot |
-| The ribbons | became real thin pasta ("exactly like fettuccine") | named "sponge cake ribbons" in every shot |
-| The sheet | orange, about 2 cm | "as thin as a crepe", "pale golden like the crust of white bread" |
-| The nest | a tall cone | low and round, wider than tall |
+SETTINGS (send all of them on the paid call):
+seedance_2_5, mode omni_reference, duration 20, aspect_ratio 9:16, resolution 1080p, bitrate_mode high,
+generate_audio true, medias: Chef-Ahmad element photo (media de4a8fb4-3d3a-4c74-835b-7a337bf2fa48) as
+image_references = @Image1 (the face).
+Price (get_cost, 2026-11-10, bitrate high): 320 credits at 1080p, 140 at 720p. Balance 40.22 on 2026-11-10.
 
 Recipe: our invention, book-additions/honey-cake-fettuccine.md (oven version), ingredients and method word for word.
-Open point for the owner: the recipe block still carries the words "pasta cutter", "Alfredo", "parmesan" and
-"bends like pasta" (word-for-word rule). They may pull real pasta in again. Removing them from the prompt only is
-the owner's call.
-Seedance 2.5, omni_reference, 20 s, 9:16, audio on, @Image1 = the Chef-Ahmad element photo (the face).
-Price (get_cost, 2026-11-10): 320 credits at 1080p, 140 at 720p, 60 at 480p, 60 for a draft; finalizing a draft at
-1080p costs 320 more. Balance 40.22 on 2026-11-10.
+
+THE SYSTEM -> THIS PROMPT
+| The pistachio shot grammar | Shot |
+|---|---|
+| his face in a medium shot at frame one, already working, fast push-in | 01 |
+| loud motion and sound in 0-1 s | 01, the egg crack |
+| short punchy shots through the 2-5 s zone | 02-04 |
+| a 45-degree close, true 90-degree top-downs, a low angle | 10; 05 and 11; 02, 06, 08 |
+| 2-3 actions per top-down | 05, 11 |
+| a 0.3 s beat of near silence, then the macro slow-motion money shot, the loudest sound | 13 |
+| his face with the result brought toward the lens at the end | 14 |
+| a moving ending that loops to frame one | 15 |
 
 RECIPE STEP -> SHOT
 01 Beat eggs, sugar and honey until pale and tripled           -> 01-03
@@ -40,13 +39,13 @@ PRE-GENERATION CHECK (generation-log checks 1-17)
 5 the nest first appears at 14.5 s                                                              OK
 6 silence in the last second                                                                    after generation
 7 hot pan through a towel, skillet by its handle, the last shot returns to the egg              OK
-8 at most 2 actions a second (shot 10 has 3 in 2 s)                                             OK
+8 at most 2 actions a second                                                                    OK
 9 halal: no alcohol, no extracts                                                                OK
 10 "breaking cleanly", no strings, no cheese pull                                               OK
 11 head position as a percent in shot 12                                                        OK
 12, 14, 17 colours and thickness by objects (white-bread crust, crepe, whipped butter)          OK
-13 the nest has proportions, and "tall cone, tower" is in AVOID                                 OK
-15 ribbons named by their material in every shot; the look-alike only in AVOID                  OK (see the open point)
+13 the nest has proportions; the wrong shape is in AVOID                                        OK
+15 ribbons named by their material in every shot; the look-alike only in AVOID                  OK
 16 frame one is the action with its sound, in his dark kitchen                                  OK
 ===== PROMPT =====
 SCENE CONTEXT: A vertical 9:16 premium cooking action commercial, exactly 20 seconds, 15 shots, clean hard cuts, every shot already in motion. One place only: the cook's dark kitchen, background falling to pure black, a dark walnut counter and board, a black mixing bowl, a black sheet pan lined with parchment, a black oven with a glass door, a black skillet, a white round plate. He makes a dessert: a thin honey sponge cake cut into long ribbons, tossed in a honey cream sauce, finished with grated white chocolate. Everything on screen is cake: no pasta, no noodle, no dough.
@@ -72,7 +71,7 @@ FOOD SHAPES AND COLOURS (the same in every shot, never change): Honey: clear amb
 
 PROCESS ORDER / NON-REPETITION LOCK: eggs, sugar and honey -> beaten pale and tripled -> flour folded in -> spread thin -> baked pale golden -> cut into ribbons -> sauce -> ribbons tossed -> twirled nest on the plate -> grated white chocolate -> honey -> one bite. Every stage once, only forward. The nest never appears before shot 12.
 
-HERO + ENERGY PRIORITY: an expert working fast under pressure, whole-body force behind every move, never presenting to the camera, no tricks, no posing. A hard physical impact with a short camera shake lands in shots 01, 04, 06, 08, 10 and 12. Something new happens every second.
+HERO + ENERGY PRIORITY: an expert working fast under pressure, whole-body force behind every move, never presenting to the camera, no tricks, no posing. A hard impact with a short camera shake lands in shots 01, 04, 06, 08, 10 and 12. Every other camera move is smooth and continuous, a gimbal glide with one readable path from start to end. Something new happens every second.
 
 SHOT 01 — 0.0-1.1s: Eggs. Medium shot at chest height, the cook facing the lens behind the walnut counter, three yolks already in the black bowl. From frame one his right hand whips the fourth egg down and cracks it hard on the bowl rim; the camera pushes in fast to tight on the shell splitting and the yolk dropping. Camera shake on the crack.
 SHOT 02 — 1.1-2.2s: Sugar and honey. Low angle from the counter looking up past the bowl at his face: he throws the sugar in with a flick of the wrist and, the jar held high, pours one thick amber ribbon of honey that folds onto the yolks. Fast action.
@@ -84,13 +83,13 @@ SHOT 07 — 7.3-8.5s: Out of the oven. Wide-medium from the other side of the co
 SHOT 08 — 8.5-10.0s: Cutting. Low object-level on the board, the camera riding beside the fluted pastry wheel: his gloved hand drives it toward the lens in four fast parallel strokes, clicking, and the warm sheet falls apart into long 1 cm sponge cake ribbons, pale-yellow crumb at every cut. Real time, camera shake on the first stroke.
 SHOT 09 — 10.0-11.3s: Ribbons. Medium-close on the cook: he scoops all the sponge cake ribbons with both gloved hands and lifts them high in front of his face; the long flat cake strips hang 25 cm, sway and bend softly without breaking, the crumb visible. The camera rises with his hands; speed ramps down at the top.
 SHOT 10 — 11.3-13.3s: Sauce. Low 45-degree angle through steam, his hand on the skillet handle: he slaps the butter into the hot black skillet, it sizzles and foams loudly, camera shake; he pours in the cream and one amber thread of honey, and in compressed time it bubbles into a glossy ivory sauce.
-SHOT 11 — 13.3-14.5s: Tossing. Close, the camera arcs a quarter circle around the skillet: he drops the sponge cake ribbons into the sauce and turns them over with tongs while shaking the pan; every wide flat cake strip takes a glossy ivory coat. Fast action.
+SHOT 11 — 13.3-14.5s: Tossing. True 90-degree top-down over the skillet, the camera slowly rotating: he drops the sponge cake ribbons into the sauce and turns them over with tongs; every wide flat cake strip takes a glossy ivory coat. Fast action.
 SHOT 12 — 14.5-15.8s: The nest. Starts tight on the fork twirling the coated sponge cake ribbons, then pulls back and rises to a medium-close shot as he lands the low round nest on the white plate with a thud, his face and sunglasses above it, the top of his hair at 12% of the frame height. Camera shake on the landing.
-SHOT 13 — 15.8-18.0s: White chocolate and honey. Extreme macro right by the lens, slow motion, the camera creeping toward the nest: a beat of near silence, then his gloved hand rasps the white chocolate block across the microplane and dry ivory flakes snow onto the nest, followed by one amber thread of honey from a spoon.
+SHOT 13 — 15.8-18.0s: White chocolate and honey. Extreme macro right by the lens, slow motion, the camera creeping toward the nest: a 0.3-second beat of near silence, then his gloved hand rasps the white chocolate block across the microplane and dry ivory flakes snow onto the nest, followed by one amber thread of honey from a spoon.
 SHOT 14 — 18.0-19.2s: The bite. Close on his face: he lifts a twirled forkful toward the lens and takes one big real bite, the cake ribbons breaking cleanly, his mouth closed as he chews.
 SHOT 15 — 19.2-20.0s: Tight on his face and raised right hand, nothing else in frame: he snatches a fresh egg and whips it up, ready to crack it, the motion running into the first frame so the video loops. No cut to black.
 
-SPEED + TRANSITIONS: real-time impacts, three compressed-time changes (beating, baking, simmering) and two slow-motion accents (the flour, the white chocolate). Matches: the falling yolk into the falling sugar; the spinning beaters into the round sieve; the wheel rolling at the lens into the ribbons lifted; the hanging ribbons into the falling butter; the turning tongs into the twirling fork. No vessel is framed the same way twice. Clean hard cuts only.
+SPEED + TRANSITIONS: real-time impacts, three compressed-time changes (beating, baking, simmering), two slow-motion accents (the flour, the white chocolate). Matches: the falling yolk into the falling sugar; the spinning beaters into the round sieve; the wheel rolling at the lens into the ribbons lifted; the turning tongs into the twirling fork. No vessel framed the same way twice. Clean hard cuts only.
 
 SILENT PERFORMANCE LOCK: completely nonverbal. No voice, no talking, no lip movement, no sighs; the mouth opens only for the bite.
 
@@ -100,4 +99,4 @@ LIGHTING: a hard warm tungsten key light (2700 K) from camera left, the backgrou
 
 AUDIO: only real close-mic sound from what is on screen, loud from the first frame: the egg crack, the mixer, the bang on the sieve, the oven door slam, the wheel clicking, the butter sizzling, the sauce bubbling, the plate thud. Then a short beat of near silence; the loudest sound of the whole video is the dry rasp of the white chocolate on the microplane right at the microphone in shot 13; then the bite. No music, no voice, no whooshes.
 
-AVOID: real pasta, noodles, spaghetti, linguine, thin round strands, savoury cheese, herbs, pepper, garlic, an orange or brown or thick puffed sponge, a yellow or caramel sauce, a tall cone or tower nest, cheese pull, stretchy strings, brown or see-through lenses, sunglasses off, bare hands, the cook missing from a shot, a still shot of food alone, a living room, a sofa, a bright background, other people, labels, packaging, garnish, talking, cut to black, logos, text, extra fingers, deformed hands, distorted face.
+AVOID: real pasta, noodles, spaghetti, linguine, thin round strands, savoury cheese, herbs, pepper, garlic, an orange or brown or thick puffed sponge, a yellow or caramel sauce, a tall cone or tower nest, cheese pull, stretchy strings, sunglasses off, bare hands, the cook missing from a shot, a still shot of food alone, a bright background, other people, labels, packaging, garnish, talking, cut to black, logos, text, extra fingers, deformed hands, distorted face.
