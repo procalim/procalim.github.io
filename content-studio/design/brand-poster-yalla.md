@@ -1,5 +1,14 @@
 # Brand poster "YALLA!" (vertical 9:16), the owner's streetwear template in his identity (2026-11-10)
-Status: NOT generated. The owner generates tomorrow; generation only on «ولد».
+Status: GENERATED 2026-11-10 on the owner's «ولد 4k» with the new GPT image model: gpt_image_2_6, 4k, quality high,
+4.25 credits (job d3c150a6-314a-4774-8b7f-325ffa769020), 2160x3840 PNG.
+Result: https://d8j0ntlcm91z4.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/hf_20261110_173820_d3c150a6-314a-4774-8b7f-325ffa769020.png
+Read at full size: every word spelled right (wordmark, intro, headline, 4 body lines, CTA, bottom strip, 361 RECIPES,
+the cover); face, aviators, white t-shirt, apron with leather straps, crest, gold chain, gloves, falcon, kitchen all
+as written; crinkle cake reads as ruffled phyllo with custard; no alcohol. One speck under the gap between
+"cookbook" and "for" (x 1165, y 3070); cleaned in the Higgsfield sandbox, but the owner declined uploading the
+cleaned copy, so the delivered file is the original. The book sticker is drawn as a hardcover; the book is a
+download (the copy says "Instant download").
+Other quality tiers (get_cost): max 15 credits at 4k.
 Source: the owner's pasted "Loud Kids Club" poster template; kept its layout (intro line, slab wordmark, hero photo
 about 60%, three star stickers, headline, 4-line body, CTA pill, bottom strip) and replaced brand, colours, person,
 props and copy with his identity.
