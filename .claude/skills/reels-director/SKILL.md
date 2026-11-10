@@ -20,8 +20,9 @@ description: >
    food, no invented shots). Add the chef's note if the page has one. Show a table
    "book step -> shot" before asking for «ولد».
 3. **Halal:** no pork, bacon, ham, alcohol, mirin. Write "no pork" in the prompt for meat.
-4. **Identity:** black luxury kitchen, 2700 K tungsten light, black nitrile gloves, white
-   t-shirt, black apron with brown leather straps, thin gold chain, brown aviators.
+4. **Identity:** his permanent kitchen (`content-studio/brand/kitchen.md`, photo `brand/kitchen.jpg`, sent as
+   @Image2), 2700 K tungsten light, black nitrile gloves, white t-shirt, black apron with brown leather straps,
+   thin gold chain, the aviators of the element photo (black lenses).
 5. **Never blame the user.** Report numbers, not guesses. Change one variable per test.
 6. Talk to the user in Levantine Arabic, minimal English words.
    Work day by day (owner, 2026-10-27): one day's tasks per message, short, no multi-page plan documents or
@@ -36,6 +37,58 @@ description: >
    into 361 recipes in my book The Edible Codex, so your table never runs out of reasons to gather. Link in bio 📕" /
    «هالأكلة إلها طعمة البيت، والعيلة كلها حوالين صحن واحد. حطيت هالإحساس بـ ٣٦١ وصفة بكتابي The Edible Codex،
    مشان سفرتك ما يخلص فيها سبب للّمّة. الرابط بالبايو 📕»
+
+## THE WORKFLOW, STEP BY STEP (owner's call, 2026-11-10; read this first, every request)
+The owner's words: every recipe from the first step to the last, everything shown, professional, cookcut, the same
+strategy every time; no boring second or fraction of a second, never too little movement; we sell recipes, so the
+food is always visible. Every request below runs through all the skills, guides and checks we have, step by step,
+at the standard of an editor and director with 30 years in production.
+
+1. **Last results first.** Read the last reel's numbers and analysis (generation-log.md results, hook-log.md, the
+   owner's 24 h and 7-day insights). Write the "fix from the last results" table at the top of the new prompt
+   file. Example: Dubai pistachios (owner, 2026-11-10): views good, engagement weak (0.6 shares and 1.7 saves per
+   1K at 18 h), so the next reel needs a reason to save and send: every step readable, the recipe promise kept.
+2. **Case study.** Read `content-studio/research/chef-transitions.md` (how cooking creators make a recipe flow) and
+   pick 4-6 match pairs for this recipe's own tools.
+3. **Prompt.** cookcut + the pistachio shot grammar + the permanent kitchen (@Image2) + his face (@Image1); every
+   recipe step from first to last on screen, in order, his gloved hands doing it; smooth gimbal moves with hard
+   impacts; something new every second, no still or empty fraction of a second; settings listed in the file
+   (bitrate_mode high). Then the pre-generation check (below) and the exact price.
+4. **Generate only on «ولد».** Then the re-read frame by frame (After every generation); errors reported first.
+5. **Professional edit** (Higgsfield sandbox, 0 credits), like top food creators: cut on motion peaks and match
+   frames, on-screen hits laid on the cuts, punch-in zooms on the beats, speed ramps only on calm stretches, text
+   that pops in and never covers the food, a gold label or ring on the hero food where it helps, the money shot the
+   loudest at -14 LUFS. Export 1080x1920. prepublish.py must print no DEAD and no SLOW anywhere (the owner's "no
+   boring fraction of a second"), then the 390 px phone check.
+6. **The package.** Hook text and on-video cards (hook-log rules, hookscore), SEO caption, pinned comment with the
+   keyword, stories, the engagement round and posting time.
+7. **Results back.** The owner sends the numbers at 24 h and 7 days; log them; compare at the same age; the
+   analysis feeds step 1 of the next recipe.
+
+On request, the same standard: hook text or a video hook; a viral content strategy for the next 30 days (the
+"Go Viral With Claude" guide below); an analysis of results; a prompt with fewer errors; a professional edit and
+export; the check. One step at a time, each step shown before the next.
+
+What a prompt can and cannot promise (say it plainly, never promise zero errors): the checks prove the TEXT is right
+(every step, order, food lock, identity, settings). The model's drawing is not guaranteed: every generation in
+generation-log.md had at least one error, and Seedance follows a shot map only roughly. The protection is the
+frame-by-frame read before any edit, a 60-credit draft when the owner wants to see the take before 320, and the
+edit, which can re-cut, re-time and re-sound but cannot fix a wrong food.
+
+### The "Go Viral With Claude" guide (Maverick AI, October 2026; the owner's PDF), in our terms
+1. Strategist brief: niche, audience, why people follow, formats, tone, filming limits; ask up to 5 questions.
+2. Decode the niche: 5-10 real winners (outliers against the creator's usual numbers), with hooks and transcripts;
+   say when a link or video cannot be read.
+3. Export the Instagram data (Meta Business Suite, one row per video); audit it before ranking.
+4. Rank by follows and by follows per 1,000 views (follows / views x 1000); compare posts at the same age.
+5. Study our winners next to our flops.
+6. Voice: write in his voice (this skill and the hook log).
+7. 30 days of scripts with a posting schedule; film a batch; log script, pattern, URL, dates, views, follows.
+8. Review each batch: 3 patterns to continue, up to 3 to adapt, 1 new experiment; never drop a topic for one weak
+   video: check the opening, the demo and the timing first. "A great hook, then nothing": make the demo deliver
+   what the opening promised.
+Bonus prompts: 50 hooks by type, one video into ten posts, trend-jack in our voice, 5 repeatable series, rewrite a
+stiff script. Missing follows per video: analyse views, reach, saves, shares and watch time, never estimate follows.
 
 ## What the data proved (keep using)
 - Virality Predictor (Higgsfield) does not rank this account's reels: Crinkle Cake 142.7x scored 44, sweet potato 9.8x
