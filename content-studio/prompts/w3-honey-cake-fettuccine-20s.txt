@@ -37,7 +37,9 @@ RHYTHM: KEVIN'S OUTLIERS -> THIS PROMPT
 
 Recipe: our invention, book-additions/honey-cake-fettuccine.md (oven version).
 Seedance 2.5, omni_reference, 20 s, 9:16, audio on, @Image1 = the Chef-Ahmad element photo (the face).
-Price: 320 credits at 1080p, 140 at 720p. Balance 0.22 on 2026-11-08: generate after the renewal, only on «ولد».
+Price (get_cost, 2026-11-10): 320 credits at 1080p, 140 at 720p, 60 at 480p, 60 for a draft (480p, can be finalized
+at 1080p within 7 days). Balance 100.22 on 2026-11-10 (3-day Plus trial, 100 credits): only the 480p take or the
+draft fits. Generate only on «ولد».
 
 RECIPE STEP -> SHOT
 Skit hook -> 01 | 01 Beat eggs, sugar, honey -> 02 | 02 Fold flour -> 03 | 03 Spread thin, bake golden -> 04
