@@ -419,6 +419,23 @@ Instagram and YouTube are closed to this session, so fresh reels from other acco
 screenshots. Cards, title and caption for each reel are saved with it, e.g.
 `content-studio/prompts/w2-dubai-pistachios-cards.txt` and `content-studio/week2/dubai-pistachios-caption.txt`.
 
+## Hooks: only tested formulas; cards in the middle (owner's call, 2026-11-11; every reel from now on)
+Every hook comes from this bank of the account's own winners (read 2026-11-01, x the account median). Same strategy,
+only a formula that already worked here, written for the new dish with the book's own number or note:
+| Formula | Tested on this account | Shape for a new dish |
+|---|---|---|
+| X is the mistake | Crinkle Cake 142.7x "The Butter Between the Layers Is the Mistake"; Dubai rehook «الغلطة: كنافة فاتحة» | «الغلطة: …» with the book's step |
+| Science rule with a number | Eggs Benedict 6.4x "Hollandaise Splits Above 65°C"; Macarons 4.5x "Bake at 150°C Not 180°C"; Chicken 4.2x "Turns to Rubber Past 74°C" | the dish + what happens past the book's number |
+| Cause of a failure | Potato Rolls 4.5x "Rolls Crack Because the Dough Was Hot" | «… بتتكسر لأن …» |
+| Superlative for the family cook | Sweet Potato 9.8x "The Only Way Your Kids Never Notice Spinach" | «الطريقة الوحيدة …» |
+| Real controversy (rare) | Shawarma 3.3x «شاورما على سيخ؟ حرام ولا عبقرية» | only with a real debate |
+Never: questions (0.3-0.8x since October), «ما حدا» lines (worn out), a hook that calls the viewer wrong (Honey Cake
+v5). The rehook takes a second formula from the bank. hookscore is a floor check only.
+Card position (owner, 2026-11-11): the text sits in the middle of the frame, centred on y 960 (band about y 860-1060),
+on the apron or the calm middle, never over the hero food; this replaces the top band (y 300). Keep the safe width
+x 230-850 and the 390 px phone check.
+Next week (owner): re-cut the honey cake reel with a tested hook and the cards in the middle, then post it as the test.
+
 ## Honey Cake v5 read (2026-11-11, 1 h 17 min) and the owner's read of the hook
 - 996 views, skip 48.8%, avg 7.90 s of 17.0 s, 0 shares, 0 saves; retention 82% at 1 s, 55% at 2 s, 32% at 5 s, then
   it held to 17% at the end: the cliff is the opening, the edit held.

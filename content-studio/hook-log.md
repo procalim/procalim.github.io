@@ -1,6 +1,7 @@
 # Hook log
 
-Read this before writing any card. The hook formula and the rehook formula must differ from each
+Read this before writing any card. Hooks come only from the tested bank in the reels-director skill ("Hooks: only
+tested formulas", owner 2026-11-11); cards sit in the middle of the frame. The hook formula and the rehook formula must differ from each
 other and from the last 3 reels, and no card phrase or sentence pattern may repeat from the last 5
 reels. Append a row after every delivery.
 
