@@ -1,0 +1,29 @@
+{
+ "items": {
+  "s1": {
+   "y": 300,
+   "ar": "<span style=\"font-size:76px;line-height:1.18;-webkit-text-stroke:10px #000;text-shadow:0 0 18px rgba(0,0,0,.95),0 0 34px rgba(0,0,0,.85),0 6px 16px rgba(0,0,0,.9)\">الليلة بنزّل حلو<br><b>بيضحك عليك</b> 👀</span>",
+   "en": "<span style=\"font-size:34px;-webkit-text-stroke:6px #000;text-shadow:0 0 12px rgba(0,0,0,.95),0 0 24px rgba(0,0,0,.85)\">Tonight's dessert will fool you.</span>"
+  },
+  "s2": {
+   "y": 300,
+   "ar": "<span style=\"font-size:76px;line-height:1.18;-webkit-text-stroke:10px #000;text-shadow:0 0 18px rgba(0,0,0,.95),0 0 34px rgba(0,0,0,.85),0 6px 16px rgba(0,0,0,.9)\">شكلها <b>باستا</b>، صح؟</span>",
+   "en": "<span style=\"font-size:34px;-webkit-text-stroke:6px #000;text-shadow:0 0 12px rgba(0,0,0,.95),0 0 24px rgba(0,0,0,.85)\">Looks like pasta, right?</span>"
+  },
+  "s3": {
+   "y": 300,
+   "ar": "<span style=\"font-size:76px;line-height:1.18;-webkit-text-stroke:10px #000;text-shadow:0 0 18px rgba(0,0,0,.95),0 0 34px rgba(0,0,0,.85),0 6px 16px rgba(0,0,0,.9)\">وهاد مش <b>بارميزان</b></span>",
+   "en": "<span style=\"font-size:34px;-webkit-text-stroke:6px #000;text-shadow:0 0 12px rgba(0,0,0,.95),0 0 24px rgba(0,0,0,.85)\">And that isn't parmesan.</span>"
+  },
+  "s4": {
+   "y": 300,
+   "ar": "<span style=\"font-size:76px;line-height:1.18;-webkit-text-stroke:10px #000;text-shadow:0 0 18px rgba(0,0,0,.95),0 0 34px rgba(0,0,0,.85),0 6px 16px rgba(0,0,0,.9)\">شو هاد <b>برأيك؟</b></span>",
+   "en": "<span style=\"font-size:34px;-webkit-text-stroke:6px #000;text-shadow:0 0 12px rgba(0,0,0,.95),0 0 24px rgba(0,0,0,.85)\">What do you think this is?</span>"
+  },
+  "s5": {
+   "y": 300,
+   "ar": "<span style=\"font-size:76px;line-height:1.18;-webkit-text-stroke:10px #000;text-shadow:0 0 18px rgba(0,0,0,.95),0 0 34px rgba(0,0,0,.85),0 6px 16px rgba(0,0,0,.9)\">الجواب بالريل<br><b>الليلة</b> 👇</span>",
+   "en": "<span style=\"font-size:34px;-webkit-text-stroke:6px #000;text-shadow:0 0 12px rgba(0,0,0,.95),0 0 24px rgba(0,0,0,.85)\">The answer drops tonight.</span>"
+  }
+ }
+}

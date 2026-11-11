@@ -61,7 +61,12 @@ at the standard of an editor and director with 30 years in production.
    loudest at -14 LUFS. Export 1080x1920. prepublish.py must print no DEAD and no SLOW anywhere (the owner's "no
    boring fraction of a second"), then the 390 px phone check.
 6. **The package.** Hook text and on-video cards (hook-log rules, hookscore), SEO caption, pinned comment with the
-   keyword, stories, the engagement round and posting time.
+   keyword, the engagement round and posting time, and 4-5 story frames (owner, 2026-11-11): images generated for
+   the stories, not necessarily cut from the reel, in the ig-story shape (open with his face, 2 middle frames, the
+   ask sticker at frame 4, the close with a countdown, then share the reel with one line). Text rendered with
+   overlay.mjs inside y 250-1600; stickers added in the app. Unlimited image generations work only on higgsfield.ai,
+   not through the MCP: generating here costs credits (Nano Banana Pro 2 a frame), on the site the prompts are
+   free. Example: content-studio/week3/honey-cake-stories.md.
 7. **Results back.** The owner sends the numbers at 24 h and 7 days; log them; compare at the same age; the
    analysis feeds step 1 of the next recipe.
 
