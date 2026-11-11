@@ -17,6 +17,7 @@ reels. Append a row after every delivery.
 | Dubai Chocolate Pistachios (edited 2026-11-05, 11.1 s) | حبيبي، بدي شوكولاتة دبي (owner's hook: the Habibi line) | الغلطة: كنافة فاتحة (#7 Wrong Way, Right Way) | «لا تعملها لوح» (#2)، «اكتب «دبي» 👇» (keyword gets the book link, not a free recipe) |
 
 | Honey Cake Fettuccine v5 (edited 2026-11-11, about 17 s) | عينك غلطانة: ٠٪ باستا (#14 Callout + #23 Statistic; hookscore EN 77.8) | قصّها دافية، مش باردة (science rule from the chef's note; hookscore EN 81.4) | «اكتب «عسل» 👇» (keyword gets the book link; this recipe is not in the book yet) |
+| Pan Chocolate Cake (edited 2026-11-11, 13.5 s) | none: the no-text test (owner, 2026-11-11); the hook is a 0.8 s cold open of the wet piece lifted, then the egg crack | none | «اكتب «شوكولا» 👇» / "Comment CHOCOLATE 👇" only, from the bite to the end, under his chin (y 1176-1310) because the middle band covered his mouth |
 Banned tone (owner, 2026-11-11): a hook that tells the viewer they are wrong («عينك غلطانة»، "you're wrong", "your
 eyes lie"). Honey Cake v5 lost 45% of viewers in the first 2 s while that card was on screen (owner's read: on food,
 people skip a line that calls them wrong). Food hooks stay positive: appetite, a number, a transformation, a rule.

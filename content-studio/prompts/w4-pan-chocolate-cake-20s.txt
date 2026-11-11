@@ -1,7 +1,8 @@
 Pan Chocolate Cake, no oven, 20 s, version 1 (2026-11-11). Written on the system: cookcut with the pistachio shot
 grammar, every recipe step on screen in order, smooth camera and action, his identity in his permanent kitchen.
 Status: GENERATED on «ولد» 2026-11-11, job f0aadc93-ef60-4ce6-b446-884d5787bc72 (320 credits, 1080p, bitrate high).
-Edit: no text on the video, only the CTA at the end (owner's test, 2026-11-11).
+Edit: no text on the video, only the CTA at the end (owner's test, 2026-11-11). Final 13.5 s, media
+f48c9181-d141-4e8e-bf0b-56521abe72d8 (edits/pan-chocolate/edit-notes.md). Errors: generation-log, checks 18-19.
 Recipe: book-additions/pan-chocolate-cake.md, taken from the owner's reference reel (chefburcinarda): the steps and
 their order follow the reel; the quantities are a proposal for the owner to test. Copy the formula, never the video.
 

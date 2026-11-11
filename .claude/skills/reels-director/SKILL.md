@@ -59,7 +59,9 @@ at the standard of an editor and director with 30 years in production.
    frames, on-screen hits laid on the cuts, punch-in zooms on the beats, speed ramps only on calm stretches, text
    that pops in and never covers the food, a gold label or ring on the hero food where it helps, the money shot the
    loudest at -14 LUFS. Export 1080x1920. prepublish.py must print no DEAD and no SLOW anywhere (the owner's "no
-   boring fraction of a second"), then the 390 px phone check.
+   boring fraction of a second"), then the 390 px phone check. Render each segment to its own file, then join
+   them: a cold open taken from the end of the take froze a one-pass render for 14 s (Pan Chocolate Cake). Check
+   the last frame of every segment for a stray frame of the next shot (input seek lands about 2 frames late).
 6. **The package.** Hook text and on-video cards (hook-log rules, hookscore), SEO caption, pinned comment with the
    keyword, the engagement round and posting time, and 4-5 story frames (owner, 2026-11-11): images generated for
    the stories, not necessarily cut from the reel, in the ig-story shape (open with his face, 2 middle frames, the
