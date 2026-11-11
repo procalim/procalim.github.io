@@ -15,6 +15,7 @@ reels. Append a row after every delivery.
 | Kibbeh Nests | هاي لسا كبة؟ أداة وحدة غيّرتها (#16 Verbatim Question) | السر: مكبس البطاطا (#24 Reveal) | «نفس الوصفة… بس مش نفس الشكل»، «الوصفة بأول تعليق. احفظها» |
 | Dubai Chocolate Pistachios (edited 2026-11-05, 11.1 s) | حبيبي، بدي شوكولاتة دبي (owner's hook: the Habibi line) | الغلطة: كنافة فاتحة (#7 Wrong Way, Right Way) | «لا تعملها لوح» (#2)، «اكتب «دبي» 👇» (keyword gets the book link, not a free recipe) |
 
+| Honey Cake Fettuccine v5 (edited 2026-11-11, about 17 s) | عينك غلطانة: ٠٪ باستا (#14 Callout + #23 Statistic; hookscore EN 77.8) | قصّها دافية، مش باردة (science rule from the chef's note; hookscore EN 81.4) | «اكتب «عسل» 👇» (keyword gets the book link; this recipe is not in the book yet) |
 Worn out, do not use again until further notice: «ما حدا بقلّك» and any «… بس. ما حدا …» card,
 «ما حدا بيصدّق / بيتوقع»، «لا تضيّعها»، «لا ترمش»، «٣ / ٤ دقايق كل جهة».
 Formulas not used yet: #1 Cost Confession, #4 Replacement, #5 Time Collapse, #6 Receipt, #7 Wrong Way
