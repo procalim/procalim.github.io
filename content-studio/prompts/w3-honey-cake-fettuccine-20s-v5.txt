@@ -1,6 +1,7 @@
 Honey Cake Fettuccine, 20 s, version 5 (2026-11-10). Written on the system: the cookcut method with the pistachio
 shot grammar, every recipe step on screen in order, smooth camera and action, his identity in his dark kitchen.
-Replaces version 4. Status: NOT generated. Generate only on «ولد».
+Replaces version 4. Status: GENERATED on the owner's «ولد» 2026-11-11, job 12be85c7-f209-4519-9d00-a2a8903fd828,
+320 credits (Ultra plan, balance 6000.22 before).
 
 SETTINGS (send all of them on the paid call):
 seedance_2_5, mode omni_reference, duration 20, aspect_ratio 9:16, resolution 1080p, bitrate_mode high,
