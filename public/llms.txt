@@ -11,6 +11,8 @@
 
 - [All free recipes](https://ediblecodex.com/en/recipes/): complete recipes from the book with ingredients, method and the chef's note.
 - [الوصفات المجانية بالعربية](https://ediblecodex.com/recipes/): the same recipes in Arabic.
+- [Full text of every free recipe and guide](https://ediblecodex.com/llms-full.txt): ingredients, method and chef's note for each recipe, in one plain-text file.
+- [Recipe feed (RSS)](https://ediblecodex.com/rss.xml)
 
 ## Cooking guides
 

@@ -597,6 +597,110 @@ for (const [from, to] of moved) {
   fs.writeFileSync(path.join(dist, from, "index.html"), stub);
 }
 
+/**
+ * llms-full.txt: every free recipe and guide written out in plain English,
+ * so an AI assistant can read the whole library in one fetch and cite the
+ * right page. llms.txt stays the short index that points here. Built from
+ * the same data as the pages, so it never drifts from them.
+ * ملف llms-full.txt: كل الوصفات والأدلة المجانية بنص واحد يقرؤه الذكاء الاصطناعي.
+ */
+{
+  const en = (p) => `${origin}${at(p, "en")}`;
+  const ar = (p) => `${origin}${at(p, "ar")}`;
+  const book = products.find((p) => p.slug === "the-edible-codex");
+  const lines = [
+    "# The Edible Codex — full text",
+    "",
+    "> A digital cookbook by Chef Ahmet Salameh: 361 recipes across 386 pages (261 chef recipes plus 100 viral dishes). This file holds the complete text of every free recipe and cooking guide published on ediblecodex.com, in English. Each recipe links to its English page and its Arabic twin.",
+    "",
+    "## The book",
+    "",
+    `- [${book.title.en}](${en("/shop/the-edible-codex/")}): $${book.price}, instant digital download (PDF).`,
+    `- ${book.description.en}`,
+    "",
+    "## Free recipes",
+    "",
+  ];
+  for (const recipe of recipes) {
+    const seo = recipeSeo[recipe.slug];
+    const tip = typeof recipe.tip === "string" ? recipe.tip : recipe.tip?.en;
+    lines.push(
+      `### ${recipe.title.en}`,
+      "",
+      seo?.description.en ?? recipe.subtitle.en,
+      "",
+      `- English: ${en(`/recipes/${recipe.slug}/`)}`,
+      `- Arabic: ${ar(`/recipes/${recipe.slug}/`)}`,
+      `- Time: ${recipe.time} · Serves: ${recipe.serves} · Tags: ${recipe.tags.join(", ")}`,
+      "",
+      "Ingredients:",
+      ...recipe.ingredients.map((item) => `- ${item}`),
+      "",
+      "Method:",
+      ...recipe.steps.map((step, i) => `${i + 1}. ${step}`),
+      ...(tip ? ["", `Chef's note: ${tip}`] : []),
+      "",
+    );
+  }
+  lines.push("## Cooking guides", "");
+  for (const guide of guides) {
+    lines.push(
+      `### ${guide.title.en}`,
+      "",
+      guide.description.en,
+      "",
+      `- English: ${en(`/guides/${guide.slug}/`)}`,
+      `- Arabic: ${ar(`/guides/${guide.slug}/`)}`,
+      "",
+      ...guide.intro.map((paragraph) => paragraph.en),
+      "",
+      "Recipes in this guide:",
+      ...guide.picks.map((pick) => {
+        const name = recipes.find((r) => r.slug === pick.recipe)?.title.en ?? pick.recipe;
+        return `- ${name}: ${pick.why.en} (${en(`/recipes/${pick.recipe}/`)})`;
+      }),
+      "",
+      ...guide.faq.flatMap((item) => [`Q: ${item.q.en}`, `A: ${item.a.en}`, ""]),
+    );
+  }
+  fs.writeFileSync(path.join(dist, "llms-full.txt"), `${lines.join("\n").trim()}\n`);
+}
+
+/**
+ * rss.xml: the free recipes as a feed, for feed readers and the search and
+ * AI tools that discover new pages through one.
+ * خلاصة RSS للوصفات المجانية.
+ */
+{
+  const xml = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  const items = recipes.map((recipe) => {
+    const link = `${origin}${at(`/recipes/${recipe.slug}/`, "en")}`;
+    const seo = recipeSeo[recipe.slug];
+    return [
+      "    <item>",
+      `      <title>${xml(seo?.title.en ?? recipe.title.en)}</title>`,
+      `      <link>${link}</link>`,
+      `      <guid isPermaLink="true">${link}</guid>`,
+      `      <description>${xml(seo?.description.en ?? recipe.subtitle.en)}</description>`,
+      "    </item>",
+    ].join("\n");
+  });
+  const feed = [
+    `<?xml version="1.0" encoding="UTF-8"?>`,
+    `<rss version="2.0">`,
+    "  <channel>",
+    "    <title>The Edible Codex — Free Recipes</title>",
+    `    <link>${origin}${at("/recipes/", "en")}</link>`,
+    "    <description>Free recipes from The Edible Codex by Chef Ahmet Salameh, with exact measurements and step-by-step methods.</description>",
+    "    <language>en</language>",
+    `    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>`,
+    ...items,
+    "  </channel>",
+    "</rss>",
+  ];
+  fs.writeFileSync(path.join(dist, "rss.xml"), `${feed.join("\n")}\n`);
+}
+
 // Kept for any address not in the list — a mistyped URL still lands in the app.
 fs.writeFileSync(path.join(dist, "404.html"), template);
 
