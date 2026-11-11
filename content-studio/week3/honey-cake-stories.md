@@ -49,3 +49,12 @@ lower third, the middle of the frame calm and dark.
 ## After generation
 Read each frame (identity, the ribbons as cake, no text, no alcohol), lay the overlays ov_s1-s5 on top in the
 Higgsfield sandbox, export 1080x1920 JPEG, upload, and log them.
+
+## Used instead (owner, 2026-11-11, 10 minutes before posting): behind-the-scenes frames from the reel itself
+No generated images. Screenshots from the final edit, text typed in the app. Nothing claims a real filming session
+or a personal attempt (the guide: never invent experiences); the facts come from the recipe.
+1 screenshot 1.5 s (the honey pour): «ورا الكواليس 🎬 ٤ بيض، عسل، طحين. ولا ذرة باستا»
+2 screenshot 8.0 s (the wheel cut): «السر: قصّها وهي دافية. باردة بتتكسر» + EMOJI SLIDER 🍯
+3 screenshot 9.5 s (the ribbons lifted): «شو بدك حوّلو لباستا بالريل الجاي؟» + QUESTION BOX «اقترح حلو 👇»
+After the post: share the reel with «الجواب: مش باستا 🍯 هاي كيكة عسل».
+The question-box answers are next reels' ideas in the audience's own words (ig-story).
