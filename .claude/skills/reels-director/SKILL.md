@@ -419,6 +419,14 @@ Instagram and YouTube are closed to this session, so fresh reels from other acco
 screenshots. Cards, title and caption for each reel are saved with it, e.g.
 `content-studio/prompts/w2-dubai-pistachios-cards.txt` and `content-studio/week2/dubai-pistachios-caption.txt`.
 
+## Honey Cake v5 read (2026-11-11, 1 h 17 min) and the owner's read of the hook
+- 996 views, skip 48.8%, avg 7.90 s of 17.0 s, 0 shares, 0 saves; retention 82% at 1 s, 55% at 2 s, 32% at 5 s, then
+  it held to 17% at the end: the cliff is the opening, the edit held.
+- The hook «عينك غلطانة: ٠٪ باستا» scored 77.8 on hookscore and still sat on the cliff. Owner's read: telling a food
+  viewer they are wrong makes them skip. Rule: no accusatory hooks; hookscore is a floor check, never the judge.
+- Also on screen in 0-2 s: a calm medium shot holding an egg, then raw ingredients (same pattern as feta and mala).
+  Next opening: a payoff flash of 1 s or less showing what the hook talks about, then the most violent first step.
+
 ## Tested video formats (read from the winners' own files, 2026-11-01; this outranks every untested style)
 Measured on the reels themselves (src/assets/videos/*.mp4 and the API files): cuts per second, shot length, frames.
 A. CHEF FORMAT, 6 of the top 8 (Eggs Benedict 6.4x, Sushi Taco 4.0x, Chicken 4.2x, Macarons 4.5x, Sushi Burger 2.9x,
