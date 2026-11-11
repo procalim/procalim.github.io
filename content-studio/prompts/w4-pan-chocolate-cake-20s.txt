@@ -1,0 +1,99 @@
+Pan Chocolate Cake, no oven, 20 s, version 1 (2026-11-11). Written on the system: cookcut with the pistachio shot
+grammar, every recipe step on screen in order, smooth camera and action, his identity in his permanent kitchen.
+Status: NOT generated. Generate only on «ولد».
+Recipe: book-additions/pan-chocolate-cake.md, taken from the owner's reference reel (chefburcinarda): the steps and
+their order follow the reel; the quantities are a proposal for the owner to test. Copy the formula, never the video.
+
+SETTINGS (send all of them on the paid call):
+seedance_2_5, mode omni_reference, duration 20, aspect_ratio 9:16, resolution 1080p, bitrate_mode high,
+generate_audio true, medias in this order as image_references: @Image1 = the Chef-Ahmad element photo (media
+de4a8fb4-3d3a-4c74-835b-7a337bf2fa48, the face); @Image2 = the permanent kitchen (media
+66c2248f-e130-4a3c-83df-1a715f172d69).
+Price (get_cost, 2026-11-11, bitrate high): 320 credits at 1080p.
+
+FIX FROM THE LAST RESULTS (workflow step 1: Honey Cake v5 at 1 h 17 min)
+| Last result | In this reel |
+|---|---|
+| 82% at 1 s, 55% at 2 s: a calm medium shot, then raw eggs, under an accusatory hook | the edit opens on a 1 s flash of the wet square lifted (shot 15) with a tested hook; frame one of the process is already a crack |
+| retention held from 5 s to the end (32% to 17%) | same edit system: speed ramps, punch-ins, no dead half second |
+| cards at the top covered his face | cards in the middle of the frame (owner, 2026-11-11), never over the food |
+CASE STUDY (research/chef-transitions.md): cut on motion peaks; match pairs: the falling sugar into the falling cocoa,
+the spinning whisk into the round lid, the poking skewer into the falling sauce; the on-screen sound on every impact.
+
+RECIPE STEP -> SHOT
+01 eggs and sugar, whisked pale -> 01-03 | 02 milk and oil -> 04 | 03 cocoa -> 05 | 04 flour, baking powder, salt -> 06
+05 hot coffee -> 07 | 06 covered on the lowest heat -> 08-09 | 07 holes -> 11 | 08 sauce simmered, poured, spread -> 12-14
+09 cut into squares -> 15 | the bite and the loop -> 16
+
+PRE-GENERATION CHECK (generation-log checks 1-17)
+1 one cake, one pan, 9 squares; counts in the lock and the shots                          OK
+2 @Image1 face only, @Image2 the place                                                     OK
+3 the reveal: the square lifted shows a wet dark crumb soaked with sauce                  OK
+4 one clip                                                                                 OK
+5 the finished square first appears at 16.6 s (the 1 s flash is built in the edit)       OK
+6 silence in the last second                                                               after generation
+7 hot lid lifted by its knob, pan handle held, the loop returns to an egg                  OK
+8 at most 2 actions a second                                                               OK
+9 halal: coffee, no vanilla extract, no alcohol                                            OK
+10 the cut square breaks cleanly, no strings                                               OK
+11 head position as a percent in shot 01                                                   OK
+12, 14, 17 colours by objects (dark chocolate, glossy like melted chocolate, not black)  OK
+13 the squares have proportions; wrong shapes in AVOID                                     OK
+15 the cake named by its own material in every shot                                        OK
+16 frame one is an action with its sound, in his kitchen                                   OK
+===== PROMPT =====
+SCENE CONTEXT: A vertical 9:16 premium cooking action commercial, exactly 20 seconds, 16 shots, every shot already in motion. One place only: the cook's kitchen exactly as in @Image2 (matte black cabinets with brass trim, a black marble counter with gold veins, a black range with brass knobs, hanging copper pans), falling to black. He makes a wet chocolate cake on the stove with no oven, start to finish in one 26 cm non-stick pan with a glass lid, with a whisk, a wooden skewer, a small saucepan and an offset spatula.
+
+REFERENCE CONTROL: The man in @Image1 is the cook: exactly his face (thick mustache, no beard), the aviators of @Image1 with solid black lenses worn the whole time, a thin gold chain, a plain white t-shirt, a black apron with brown leather straps and black nitrile gloves on both hands in every shot. He is in every shot: his gloved hands do every step, and his face and sunglasses are visible in shots 01, 02, 05, 08, 10, 12 and 16, his whole head inside the frame. @Image2 is the place, never a prop. He never speaks.
+
+RECIPE (follow exactly, every step once, in this order, nothing added):
+Pan Chocolate Cake, no oven
+INGREDIENTS
+— Cake: 3 Eggs, 1 cup Sugar, ½ cup Milk, ½ cup Vegetable oil, 3 tbsp Cocoa powder, 1½ cups Flour, 1 sachet Baking powder, pinch of Salt, ½ cup Hot coffee
+— Sauce: 1 cup Milk, ⅓ cup Sugar, 2 tbsp Cocoa powder, 2 tbsp Vegetable oil, 50 g Dark chocolate
+METHOD
+01 Crack the eggs into the cold pan, add the sugar and whisk until pale.
+02 Whisk in the milk and the oil.
+03 Add the cocoa and whisk until smooth.
+04 Add the flour, baking powder and salt and whisk until smooth.
+05 Pour in the hot coffee and whisk to a thin, glossy batter.
+06 Cover and cook on the lowest heat for 15–20 minutes, until a skewer comes out clean.
+07 Poke holes all over the hot cake.
+08 Simmer the sauce for 2–3 minutes until glossy, pour it over the hot cake and spread it to the edges.
+09 Rest 30 minutes, then cut into squares.
+CHEF'S NOTE: Pour the sauce while the cake is hot: it drinks it all.
+
+FOOD SHAPES AND COLOURS (the same in every shot, never change): Eggs and sugar whisked: pale yellow foam. Batter: smooth glossy brown like melted milk chocolate, thin enough to ripple. Cooked cake: one round cake filling the pan, 3 cm tall, flat top, deep brown like dark cocoa, matte, fine small pores on the surface. Sauce: thick glossy dark chocolate, shiny like melted chocolate, never black. Squares: 9 squares, each about 6 cm wide and 3 cm tall, a moist dark crumb soaked with sauce, a glossy sauce layer on top dripping down the sides.
+
+PROCESS ORDER / NON-REPETITION LOCK: eggs and sugar -> whisked pale -> milk and oil -> cocoa -> flour -> hot coffee -> covered on the stove -> cooked cake -> holes -> sauce simmered -> sauce poured -> spread -> cut -> square lifted -> bite. Every stage once, only forward; no square appears before shot 15.
+
+HERO + ENERGY PRIORITY: an expert working fast under pressure, whole-body force behind every move, never presenting to the camera. A hard impact with a short camera shake lands in shots 01, 05, 08, 11 and 15. Every other move is a smooth gimbal glide with one readable path. Something new happens every second.
+
+SHOT 01 — 0.0-1.1s: Eggs. Medium shot at chest height, the cook behind the range, his face and sunglasses visible, the top of his hair at 25% of the frame height. From frame one he cracks the third egg one-handed hard on the pan rim; the camera pushes in fast and dives with the falling yolk into the pan. Camera shake on the crack.
+SHOT 02 — 1.1-2.2s: Sugar. Low angle past the pan rim up at his face: he pours the sugar from a white bowl in one heavy stream onto the yolks. Fast action.
+SHOT 03 — 2.2-3.3s: Whisking pale. Probe macro at the pan rim, the lens centimetres from the whisk in his gloved hand: in compressed time the eggs and sugar turn to a pale yellow foam. Speed ramp up.
+SHOT 04 — 3.3-4.4s: Milk and oil. True 90-degree top-down, locked: two pours, the milk then the oil, land in the pale foam while the whisk swirls. Fast action.
+SHOT 05 — 4.4-5.4s: Cocoa. Close from the side, his face above the pan: he taps the cup and the cocoa drops as one dark cloud in a short slow-motion accent, then real time. Camera shake on the tap.
+SHOT 06 — 5.4-6.5s: Flour. True 90-degree top-down: a white mound of flour lands in the brown batter and the whisk works it smooth in two fast circles.
+SHOT 07 — 6.5-7.6s: Hot coffee. Low 45-degree angle through steam: a thin dark stream of hot coffee pours in and the whisk turns the batter thin and glossy. Speed ramp down as the coffee hits.
+SHOT 08 — 7.6-8.8s: The lid. Medium on the cook: he slaps the glass lid on the pan and turns the brass knob to the lowest flame. Camera shake on the lid.
+SHOT 09 — 8.8-10.0s: Cooking. Locked macro through the glass lid, compressed time: the batter rises, sets flat and its top turns matte with fine small pores.
+SHOT 10 — 10.0-11.0s: Lid off. Medium-close: he lifts the lid by its knob and a burst of steam rolls past his face toward the lens.
+SHOT 11 — 11.0-12.2s: Holes. True 90-degree top-down, locked: his gloved hand pokes the wooden skewer into the hot cake in a fast even grid, holes all over. Camera shake on the first poke.
+SHOT 12 — 12.2-13.4s: Sauce. Close on a small saucepan beside the pan, his face above: the glossy dark chocolate sauce bubbles as he whisks it once.
+SHOT 13 — 13.4-15.0s: The pour. Low angle at the pan rim: he pours the thick glossy sauce in one heavy ribbon onto the centre of the hot cake; it spreads in a slow wave and starts to sink into the holes.
+SHOT 14 — 15.0-16.6s: Spread. True 90-degree top-down, the camera slowly rotating: the offset spatula spreads the sauce to the edges in two strokes, the surface glossy.
+SHOT 15 — 16.6-18.4s: The square. Extreme macro right by the lens, slow motion: the spatula cuts and lifts one square out of the pan; a 0.3-second beat of near silence, then the moist dark crumb tears from its neighbour, soaked and glistening, the sauce dripping slowly down its sides.
+SHOT 16 — 18.4-20.0s: The bite. Close on his face: he takes one big bite from a forkful toward the lens, the sauce dripping, his mouth closed as he chews; then his right hand lifts a fresh egg, ready to crack, running into the first frame so the video loops.
+
+SPEED + TRANSITIONS: three compressed-time changes (whisking, cooking, sinking sauce), two slow-motion accents (cocoa, the square). Matches: the falling sugar into the falling cocoa; the spinning whisk into the round lid; the poking skewer into the falling sauce. Clean hard cuts only.
+
+SILENT PERFORMANCE LOCK: completely nonverbal. No voice, no talking, no lip movement; the mouth opens only for the bite.
+
+CONTINUITY + PHYSICS: one pan and one cake for the whole video; the same pan on the same burner; the lid lifted by its knob, the pan by its handle; the sauce soaks in and never stands as a pool; one camera move per shot.
+
+LIGHTING: a hard warm tungsten key light (2700 K) from camera left plus the warm pool under the hood, the background falling to black, a warm rim on the batter, the sauce and the steam, sharp focus on his hands and the food, natural colours.
+
+AUDIO: only real close-mic sound from what is on screen, loud from the first frame: the egg crack, the sugar hiss, the whisk on the pan, the cocoa tap, the coffee pour, the lid slap, the burner click, the skewer pokes, the sauce bubbling and the heavy pour. Then near silence; the loudest sound of the whole video is the wet tear of the soaked crumb right at the microphone in shot 15; then the bite. No music, no voice, no whooshes.
+
+AVOID: an oven, a cake tin, a mixing bowl for the batter, black or burnt cake, a dry crumb, a sauce pooling like soup, frosting, sprinkles, vanilla bottles, alcohol, round slices, triangles, a tall layer cake, sunglasses off, bare hands, the cook missing from a shot, a still shot of food alone, a bright background, other people, labels, packaging, talking, cut to black, logos, text, extra fingers, deformed hands, distorted face.
