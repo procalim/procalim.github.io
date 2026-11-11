@@ -35,8 +35,26 @@ ${routes.flatMap((route) => [entry(alternates(route).ar, route), entry(alternate
 </urlset>
 `;
 
+// The crawlers that fetch pages to cite them in AI answers (ChatGPT search,
+// Claude, Perplexity, Google AI Overviews, Copilot) are named one by one, so
+// none of them has to infer its permission from the wildcard. A named group
+// replaces "*" for that crawler, so each one says Allow: / itself.
+// زواحف البحث بالذكاء الاصطناعي مسمّاة صراحةً ومسموح لها، حتى تقتبس من الموقع.
+const citationBots = [
+  "OAI-SearchBot",
+  "ChatGPT-User",
+  "Claude-SearchBot",
+  "Claude-User",
+  "PerplexityBot",
+  "Perplexity-User",
+  "Googlebot",
+  "Bingbot",
+  "DuckAssistBot",
+];
 const robots = `User-agent: *
 Allow: /
+
+${citationBots.map((bot) => `User-agent: ${bot}\nAllow: /`).join("\n\n")}
 
 Sitemap: ${origin}/sitemap.xml
 `;
