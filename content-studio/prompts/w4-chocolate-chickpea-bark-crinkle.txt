@@ -1,0 +1,55 @@
+Crunchy Chocolate Chickpea Bark, the crinkle way, in the crinkle's tray (owner, 2026-11-12: «هاي الوصفة بنفس الكرينكل وبنفس الصينية»).
+Status: NOT generated. The owner generates it on higgsfield.ai with his unlimited (720p).
+Recipe: book-additions/crunchy-chocolate-chickpea-bark.md (the owner's reference recipe, word for word; not in the book).
+
+SETTINGS (on higgsfield.ai): Seedance 2.5, Omni reference, 14 s, 9:16, 720p (the unlimited), bitrate High, audio On.
+References: @Video1 = the Crinkle Cake reel (the copy he used for the pasta pie, 4017b231, or eae71780):
+  https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/eae71780-31e7-4758-baf5-b45cdc50a6c8.mp4
+@Image1 = his element photo (optional; on the pasta pie it brought his t-shirt and gloves into a medium shot).
+
+THE CRINKLE'S CUTS -> THE BARK (book order of the reference recipe)
+| Crinkle shot (s) | Crinkle | Bark (step) |
+|---|---|---|
+| 0.00-1.47 | top-down, the packed tray, bare hand | top-down, the black tray on parchment: drained chickpeas tumble from a colander, his hand spreads them (1, 2) |
+| 1.47-2.97 | front at counter height, hand at the oven | 45 degrees: oil drizzled, sugar sprinkled, his hand tosses them (3) |
+| 2.97-4.40 | low macro through the oven glass, glow | through the air-fryer oven glass: the tray, chickpeas turning golden (4) |
+| 4.40-5.83 | macro, a finger touches the dry spikes | macro, a fingertip taps the dry golden chickpeas: a crisp crackle, no chocolate yet |
+| 5.83-7.93 | 45 degrees, the butter pours | 45 degrees, the melted chocolate pours in a thick ribbon over them (5) |
+| 7.93-9.43 | the custard whisked in circles | a spatula folds chocolate and chickpeas in circles until all are coated (5) |
+| 9.43-10.90 | the custard pours over the spikes | the coated chickpeas spread on fresh parchment in the same tray as one slab (6) |
+| 10.90-12.17 | through the oven glass, glowing | the freezer drawer opens, cold mist over the set slab (6) |
+| 12.17-13.83 | the syrup pour, steam | his hands snap the set slab into clusters, a loud crack, the roasted chickpeas inside (6, break apart) |
+
+CARDS FOR THE EDIT (the crinkle's beats)
+| Card | Arabic / English |
+|---|---|
+| Title + hook (0 to the end of shot 2) | «لحاء الحمص بالشوكولا» / "Crunchy Chocolate Chickpea Bark" + «الحمص المبلول هو الغلطة» / "Wet chickpeas are the mistake" |
+| The proof (shot 4 into the pour) | «لسا ولا نقطة شوكولا» / "Still not a drop of chocolate" |
+| The right way (the pour and the fold) | «هون بتنزل. بعد القلي مش قبله» / "Here it goes. After the air fryer, not before." |
+| That is all (the slab, the freezer) | «حمص وسكر وشوكولا. وبس» / "Chickpeas, sugar, chocolate. That is all." |
+| The question (the snap to the end) | «بتحمّص الحمص مبلول؟» / "Do you roast your chickpeas wet?" |
+
+===== PROMPT =====
+A vertical 9:16 photoreal food reel of Crunchy Chocolate Chickpea Bark, exactly 14 seconds, no text.
+
+REFERENCE VIDEO (@Video1): copy its exact cut rhythm and timing, its camera angles, heights and framing shot by shot, its calm locked camera and slow slides, its light, its black kitchen, and the same black rectangular baking tray in every tray shot. Never copy its food: no phyllo, no spikes, no butter, no custard, no eggs, no syrup. Every shot below shows chickpeas and chocolate.
+
+LOOK: photoreal live-action food cinematography, real food, real physics. A private luxury kitchen, black from floor to ceiling: matte black cabinets, a honed black granite counter, a black countertop air-fryer oven with a glass door. Warm 2700 K tungsten only, one pendant pool raking from camera left, everything else falling to pure black. Deep blacks, golden highlights, fine film grain. Locked tripod or a slow slide of 12 cm at most. Food tack sharp.
+
+COOK: only his bare clean hands and forearms, the sleeves of a matte black chef jacket rolled up; never gloves.
+
+FOOD (the same in every shot): cooked chickpeas, round and pale gold, the size of a fingertip; after air frying, deep golden, dry and crisp with split skins; melted dark chocolate, thick and glossy; the set bark is one dark chocolate slab full of round golden chickpeas, breaking into rough clusters. Chickpeas only, never nuts, never peas, never beans.
+
+0.0-1.5s: True top-down on the black rectangular tray lined with parchment, frame one already moving: drained, rinsed chickpeas tumble from a black colander onto the parchment with a loud dry rattle at 0.3 s, the loudest sound so far; his bare hand spreads them into one layer.
+1.5-3.0s: 45-degree angle at counter height: a thin drizzle of oil and a spoon of sugar fall over the chickpeas; his hand tosses them on the tray.
+3.0-4.4s: Low and close through the glass door of the black air-fryer oven: the tray inside, the chickpeas turning deep golden in the warm glow.
+4.4-5.8s: Extreme macro: his bare fingertip taps the dry golden chickpeas, a crisp crackle; not a drop of chocolate yet.
+5.8-7.9s: 45-degree low angle at the tray rim: melted dark chocolate pours in one thick glossy ribbon over the golden chickpeas.
+7.9-9.4s: Close from above: a black spatula folds the chocolate and chickpeas together in slow circles until every chickpea is coated.
+9.4-10.9s: Top-down: he spreads the coated chickpeas on fresh parchment in the same black tray as one even slab.
+10.9-12.2s: Low and close: the black freezer drawer slides open, a cold white mist curling over the set chocolate slab.
+12.2-14.0s: Close at the tray: his bare hands snap the set slab into rough clusters with a loud sharp crack, the loudest sound of the reel, chocolate shards falling, the round golden chickpeas showing inside. No cut to black.
+
+AUDIO: only real close-mic sound of what is on screen: the rattle of the chickpeas, the sugar, the air-fryer fan, the fingertip crackle, the thick pour, the spatula, the freezer drawer, and the crack of the bark, the loudest. No music, no voice.
+
+AVOID: phyllo, spikes, butter, custard, eggs, syrup, a round pan, nuts, hazelnuts, peas, beans, white chocolate, gloves, a white kitchen, marble, wood, labels, packaging, logos, text, wine, alcohol, extra fingers, deformed hands.
