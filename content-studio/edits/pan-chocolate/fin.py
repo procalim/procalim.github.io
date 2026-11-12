@@ -1,5 +1,5 @@
 # Loudness: one measured gain (target -14.5 LUFS plus 2.2 dB the limiter takes back), then a limiter
-# (ceiling 0.80, about -1.9 dBFS); video copied. Result on 2026-11-11: -15.5 LUFS, -1.3 dBTP.
+# (ceiling 0.80, about -1.9 dBFS); video copied. v1 2026-11-11: -15.5 LUFS, -1.3 dBTP; v2 2026-11-12: -15.7 LUFS, -1.2 dBTP.
 import subprocess, json, re
 def meas(f):
     e=subprocess.run(['ffmpeg','-hide_banner','-i',f,'-af','ebur128=peak=true','-f','null','-'],capture_output=True,text=True).stderr

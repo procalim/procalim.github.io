@@ -1,35 +1,37 @@
 # Pan Chocolate Cake edit: no text except the CTA at the end (owner's test 2026-11-11).
-# Cold-open flash of the square, speed ramps, punch-ins on impacts, money-shot sound loudest.
+# v2 (2026-11-12): 1.3 s cold open (pour, square), raw steps 1.25 s, cocoa cropped.
+# Cold-open flash, speed ramps, punch-ins on impacts, money-shot sound loudest.
 # Runs in the Higgsfield sandbox next to raw.mp4 (job f0aadc93) and cards/cta.png (ov_cta.png).
 # Then fin.py: one measured gain and a limiter to about -15.5 LUFS.
 import subprocess, os, shutil, json, sys
 SRC='raw.mp4'; FPS=24
-# (src_start, src_end, speed, punch_src_time or 'push' or None, gain_dB)
-SEG=[(17.30,18.08,1.0,17.72,10),   # 0 flash: the square lifted (cold open)
-     (0.30,1.00,1.0,0.52,-2),      # 1 egg crack
-     (1.00,2.00,1.3,None,8),       # 2 sugar
-     (2.00,2.75,1.2,None,0),       # 3 whisked pale
-     (2.75,3.75,1.3,None,0),       # 4 milk
-     (3.75,4.55,1.2,4.05,-9),      # 5 cocoa (cut before the cloud settles)
-     (5.00,5.92,1.2,None,-5),      # 6 flour
-     (5.92,7.00,1.6,None,0),       # 7 hot coffee
-     (7.00,7.70,1.0,7.22,-6),      # 8 lid slap
-     (8.30,9.58,2.4,None,10),      # 9 cooking through the lid
-     (9.58,10.75,1.3,None,0),      # 10 lid off, steam (+11 dB after the lift)
-     (10.75,12.10,2.2,10.95,1),    # 11 holes
-     (12.58,13.33,1.0,None,-3),    # 12 sauce
-     (13.33,14.90,2.2,'push',2),   # 13 the pour, slow push-in
-     (15.25,16.75,1.3,None,8),     # 14 spread
-     (16.85,18.17,1.2,17.72,16),   # 15 MONEY: the square lifted
-     (18.17,19.00,1.15,None,0),    # 16 the bite
-     (19.00,20.04,1.8,None,0)]     # 17 chewing, the egg for the loop
+# (src_start, src_end, speed, punch_src_time or 'push' or 'crop' or None, gain_dB)
+SEG=[(13.45,14.15,1.4,'push',2),  # 0 cold open: the sauce pour
+     (17.30,18.08,1.0,17.72,10),   # 1 cold open: the square lifted
+     (0.45,0.90,1.2,0.55,-2),      # 2 egg crack
+     (1.10,1.90,2.4,None,8),       # 3 sugar
+     (2.05,2.65,2.4,None,0),       # 4 whisked pale
+     (2.85,3.55,2.4,None,0),       # 5 milk
+     (4.05,4.60,1.1,'crop',-9),    # 6 cocoa, cropped to the stream (his face lies sideways and warped above it)
+     (5.00,5.92,1.2,None,-5),      # 7 flour
+     (5.92,7.00,1.6,None,0),       # 8 hot coffee
+     (7.00,7.70,1.0,7.22,-6),      # 9 lid slap
+     (8.30,9.58,2.4,None,10),      # 10 cooking through the lid
+     (9.58,10.75,1.3,None,0),      # 11 lid off, steam (+11 dB after the lift)
+     (10.75,12.10,2.2,10.95,1),    # 12 holes
+     (12.58,13.33,1.0,None,-3),    # 13 sauce
+     (13.33,14.90,2.2,'push',2),   # 14 the pour, slow push-in
+     (15.25,16.75,1.3,None,8),     # 15 spread
+     (16.85,18.17,1.2,17.72,16),   # 16 MONEY: the square lifted
+     (18.17,19.00,1.15,None,0),    # 17 the bite
+     (19.00,20.04,1.8,None,0)]     # 18 chewing, the egg for the loop
 G=json.load(open('gains.json')) if os.path.exists('gains.json') else {}
-MONEY=15
+MONEY=16
 out=[]; t=0.0
 for (a,b,s,p,g) in SEG:
     d=round((b-a)/s*FPS)/FPS; out.append((t,t+d)); t+=d
 TOTAL=t
-CARDS=[('cta',out[16][0]+0.05,TOTAL,1243)]  # from the bite to the end
+CARDS=[('cta',out[17][0]+0.05,TOTAL,1243)]  # from the bite to the end
 json.dump({'segments':[dict(src=[a,b],speed=s,gain=G.get(str(i),g),out=[round(o0,3),round(o1,3)]) for i,((a,b,s,p,g),(o0,o1)) in enumerate(zip(SEG,out))],'total':round(TOTAL,3),'cards':CARDS},open('timeline.json','w'),indent=1)
 def card_clip(name,t0,t1,cy):
     d=f'cards/{name}_f'; shutil.rmtree(d,ignore_errors=True); os.makedirs(d)
@@ -45,7 +47,9 @@ os.makedirs('seg',exist_ok=True)
 for i,((a,b,s,p,g),(o0,o1)) in enumerate(zip(SEG,out)):
     g=G.get(str(i),g)
     v=f"setpts=(PTS-STARTPTS)/{s},fps={FPS}"
-    if p=='push':
+    if p=='crop':
+        v+=",crop=596:1060:242:860,scale=1080:1920:flags=lanczos"
+    elif p=='push':
         v+=f",zoompan=z='1+0.10*it/{(b-a)/s:.3f}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1080x1920:fps={FPS}"
     elif p is not None:
         tp=(p-a)/s
@@ -54,7 +58,7 @@ for i,((a,b,s,p,g),(o0,o1)) in enumerate(zip(SEG,out)):
     au="asetpts=PTS-STARTPTS,aresample=48000"
     if s!=1.0: au+=f",atempo={s}"
     if g: au+=f",volume={g}dB"
-    if i==10: au+=",volume=enable='gte(t\\,0.25)':volume=11dB"
+    if i==11: au+=",volume=enable='gte(t\\,0.25)':volume=11dB"
     if i==MONEY-1:
         dur=o1-o0; au+=f",volume=enable='gte(t\\,{dur-0.30:.3f})':volume=-14dB"
     N=round((o1-o0)*FPS)
