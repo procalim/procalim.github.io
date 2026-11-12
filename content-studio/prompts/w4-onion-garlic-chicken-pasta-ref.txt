@@ -1,0 +1,70 @@
+Caramelized Onion Garlic Chicken Pasta: the reference-account plan (owner, 2026-11-12), the sweet potato way.
+Status: NOT generated. The owner generates it on higgsfield.ai with his unlimited generations (refused from Claude Code).
+Reference: reference-pasta.mp4 (Rima fit food reel, 11.7 s, 720x1280, 30 fps), read frame by frame 2026-11-12.
+Recipe: book-additions/caramelized-onion-garlic-chicken-pasta.md (from this reel's steps; quantities are the owner's
+to confirm, so no caption says it is in the book until he approves it).
+
+SETTINGS (on higgsfield.ai):
+Seedance 2.5, mode Omni reference, duration 12 s, aspect ratio 9:16, resolution 4K (the ad's 4K take ran on the
+unlimited plan; if the button shows credits, 1080p), bitrate High, audio On.
+References, in this order:
+@Video1 = reference-pasta.mp4 (the reel itself: motion, cuts, angles and timing)
+@Image1 = his face, the Chef-Ahmad element photo:
+  https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/de4a8fb4-3d3a-4c74-835b-7a337bf2fa48.jpg
+@Image2 = the permanent kitchen:
+  https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/66c2248f-e130-4a3c-83df-1a715f172d69.jpg
+
+THE SWEET POTATO WAY (what made 23K, 9.8x the median)
+- Generation: her reel's shots, timing and hand moves; everything else is his: face, gloves, kitchen, dishes.
+- Edit: a flash of the money shot (0.8 s, the fork lifting the creamy pasta) before her first shot, then her order;
+  no card on the food; the CTA only over the bite; no book or product before the food (ad lesson, 2026-11-12).
+
+WHAT THE REFERENCE SHOWS (frame by frame)
+0.0-0.5 onions drop into the dish | 0.5-1.0 spices from a ramekin | 1.0-2.0 gloved hand tosses the onions |
+2.0-3.1 two chicken breasts laid on, two garlic halves | 3.1-3.6 the dish lifted toward the oven | 3.6-4.4 baked:
+golden chicken, caramelized onions, roasted garlic | 4.4-5.0 chicken shredded with two forks | 5.0-5.6 parsley, half
+a lemon squeezed | 5.6-6.0 roasted garlic squeezed out | 6.0-7.2 fusilli poured in, cream, grated parmesan |
+7.2-8.2 tossed with tongs | 8.2-8.8 served onto a white plate | 8.8-9.6 parsley and parmesan over the plate |
+9.6-10.8 a fork lifts and twirls | 10.8-11.7 she eats one forkful in her kitchen.
+Changed for us: his face at the end (not hers), black nitrile gloves (not clear), his dark kitchen and black dish,
+the white plate with a thin gold rim, no labelled bottle or packaging.
+
+PRE-GENERATION CHECK
+| Check | Result |
+|---|---|
+| Food counts and shapes locked | 2 breasts, 2 garlic halves, fusilli spirals, one dish, one plate |
+| Identity | face @Image1, black-lens aviators, white t-shirt, apron with brown leather straps, gold chain, black gloves |
+| Halal | halal chicken; parmesan and cream halal-certified; no wine, no alcohol, no pork |
+| Frame one | already moving (onions falling) |
+| Text | none in the generation; the edit adds the CTA only |
+
+===== PROMPT =====
+A vertical 9:16 ASMR cooking reel of Caramelized Onion Garlic Chicken Pasta, exactly 12 seconds.
+
+REFERENCE VIDEO (@Video1): copy its exact shots, timing, camera framing, hand and fork motion and cut rhythm, the same food and the same steps in the same order. Do not copy its person, her face, her clear gloves, her white kitchen, her red-handled dish, her colours or her audio.
+
+PLACE: the dark luxury kitchen exactly as in @Image2: a black marble counter with fine gold veins, matte black cabinets with thin brass trim, warm 2700 K tungsten light from camera left, the background falling to black. A black ceramic baking dish on the black marble; a white plate with a thin gold rim.
+
+CHARACTER: the man in @Image1 is the cook, exactly his face (thick dark mustache, no beard), aviator sunglasses with solid black lenses, a plain white t-shirt, a black apron with brown leather straps, a thin gold chain, black nitrile gloves on both hands in every shot. Mostly his black-gloved hands are seen; his face appears in the last shot.
+
+FOOD SHAPES (the same in every shot, never change): thinly sliced white onions; exactly 2 chicken breasts rubbed red with paprika; exactly 2 whole garlic heads halved across, cut side up; after baking the onions are deep golden and soft, the chicken golden, the garlic soft and caramel brown; fusilli spiral pasta (never penne, never spaghetti); a creamy coating with grated parmesan; bright green chopped parsley.
+
+0.0-0.5s: True top-down, frame one already moving: thinly sliced white onions drop into the black baking dish.
+0.5-1.0s: Spices poured from a small white ramekin over the onions.
+1.0-2.0s: His black-gloved hand tosses the onions with the spices.
+2.0-3.1s: He lays exactly 2 paprika-red chicken breasts on the onions, then the 2 garlic halves, cut side up.
+3.1-3.6s: He lifts the dish toward the oven.
+3.6-4.4s: The baked dish: golden chicken, deep golden caramelized onions, soft roasted garlic, juices bubbling.
+4.4-5.0s: The chicken shredded fast with two forks, steam rising.
+5.0-5.6s: Chopped parsley drops in, then his gloved hand squeezes half a lemon over it.
+5.6-6.0s: His gloved fingers squeeze the soft roasted garlic cloves out of the skins.
+6.0-7.2s: Cooked fusilli pours in, a ribbon of cream, a heap of grated parmesan.
+7.2-8.2s: Everything tossed with tongs until creamy and glossy.
+8.2-8.8s: A tong-full served onto the white gold-rim plate.
+8.8-9.6s: Parsley and grated parmesan fall over the plate.
+9.6-10.8s: Close: his fork lifts and twirls a creamy forkful, parmesan clinging.
+10.8-12.0s: Medium shot of him in his dark kitchen, the plate in front of him: he takes one real bite from the fork and chews with his mouth closed, satisfied. No cut to black.
+
+AUDIO: only real close-mic sound from what is on screen: onions falling, the spices, the toss, the dish on the marble, bubbling juices, forks shredding, the lemon squeeze, the pasta pouring, tongs, the fork on the plate. No music, no voice, no talking.
+
+AVOID: her face or any woman, clear or bare hands, a white kitchen, a red-handled dish, labelled bottles, packaging, logos, text, wine, alcohol, pork, penne or spaghetti, burnt onions, sunglasses off, extra fingers, deformed hands, distorted or sideways face.
