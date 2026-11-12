@@ -49,3 +49,10 @@ of new recipes with its own cover and one image per recipe, made from our footag
 - The recipe is written in our words with our quantities, halal-checked, saved to book-additions/ for approval.
 - Inputs from the owner: her reels tab screenshots with views (Instagram is closed to this session), then each
   reference reel as a file. Generation on higgsfield.ai with his unlimited; the edit and package here.
+
+## House reference (2026-11-12, the owner's test)
+Our own pasta take (job 1c08b361, raw, 11.97 s) as the video reference for a different recipe (Crispy Potato Nests, job 8c5efdc7):
+every step landed on the pasta take's cuts, with nothing of the pasta's food leaking in. Owner: «ولا غلطة ... الاستراتيجية مية بالمية».
+The working template from now on: the raw pasta take as @Video1, the prompt's shot list written on its measured cuts
+(prompts/w4-crispy-potato-nests-ref.txt), the reference's food named in the prompt as never to copy, generated on his unlimited
+(a wrong take costs nothing). Open: the take came out 720p, not 4K; the edit waits for the pasta reel's first read.
