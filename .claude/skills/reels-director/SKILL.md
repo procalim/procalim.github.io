@@ -72,7 +72,11 @@ Every new reel, the crinkle way:
    right way, the payoff at the end only.
 3. Cards: the crinkle's four beats only (title + mistake hook, proof, the right way, a closing question), small, no
    box, middle of the frame; the keyword CTA moves to the caption and the pinned comment.
-4. Edit: no flash, no reorder; trims and sound only. Then the checks below (pre-publish, opening, phone check).
+4. Edit: no flash, no reorder. Owner on the pasta pie (2026-11-12): speed every slow shot (1.2-2x; a push-in on a still
+   opening), make the crunch or crackle the loudest sound (gain and a lift at 3.5 kHz), and his face may stay in a shot.
+   Then the checks below (pre-publish, opening, phone check).
+5. Generation: the owner's unlimited on higgsfield.ai renders 720p only; anything higher costs credits. Keep 720p and
+   upscale to 1080x1920 in the edit, unless he asks for credits.
 Open (owner to decide): the cook's look. The crinkle had bare hands and a black chef jacket; rule 4 above says black
 gloves, white t-shirt and apron. Ask once; until he answers, rule 4 stands.
 

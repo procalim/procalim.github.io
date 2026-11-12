@@ -1,21 +1,36 @@
-# Honeycomb Pasta Pie, the crinkle way: no flash, no reorder, trims and sound only, the crinkle's cards.
+# Honeycomb Pasta Pie v2, the crinkle way (owner, 2026-11-12: «عادي الوجه يضل بس أشياء بطيئة سرعها وصوت الهرش يكون قوي»):
+# the face shot back, the slow shots sped up, the crunch of the slice the loudest sound. No flash, no reorder.
 # Source: raw.mp4 = job 1bef36f0 (720x1280 H.264, 24 fps, 337 frames). Cards: ov_title, ov_hook, ov_proof, ov_right,
-# ov_all, ov_q (1080x1920, cards.json). Fixes: the fist that appears under the pan from frame 48 (cut at 47); the
-# piping shot 72-105 (his face, white t-shirt, apron and black gloves, against the bare hands of every other shot) cut.
+# ov_all, ov_q (1080x1920, cards.json). Fix: the fist that appears under the pan from frame 48 (cut at 47). The piping
+# shot with his face (72-105) stays (owner). v1 (trims only, the face shot cut) is edit_pie_v1.py.
 # Each segment is rendered to its own file with exact frame counts, then one concat and one encode.
 import subprocess, re
 FPS = 24
 SRC = 'raw.mp4'
-SEGS = [  # (first frame, end frame, label)
-    (0, 47, 'the honeycomb, his hand pressing'),
-    (105, 128, 'ricotta in every tube, macro'),
-    (128, 157, 'fingertip, no sauce yet'),
-    (157, 205, 'the marinara pour'),
-    (205, 229, 'the spoon pushes the sauce into the tubes'),
-    (229, 264, 'mozzarella falls'),
-    (264, 292, 'the oven glass, bubbling'),
-    (292, 337, 'the slice lifted'),
+SEGS = [  # (first frame, end frame, speed, label, audio filter[, push-in (zoom from, to)])
+    (0, 47, 1.5, 'the honeycomb, his hand pressing', '', (1.0, 1.12)),
+    (72, 105, 1.4, 'he pipes the ricotta (face)', ''),
+    (105, 128, 1.5, 'ricotta in every tube, macro', ''),
+    (128, 157, 1.2, 'fingertip, no sauce yet', ''),
+    (157, 205, 2.0, 'the marinara pour', ''),
+    (205, 229, 1.0, 'the spoon pushes the sauce into the tubes', ''),
+    (229, 264, 1.3, 'mozzarella falls', ',volume=-4dB'),
+    (264, 292, 1.5, 'the oven glass, bubbling', ''),
+    (292, 337, 1.35, 'the slice lifted', ',equalizer=f=3500:t=o:w=2:g=6,volume=8dB'),   # the crunch, frames 301-328
 ]
+
+
+def vchain(zm, n):
+    if not zm: return 'scale=1080:1920:flags=lanczos,setsar=1'
+    z0, z1 = zm[0]
+    return (f"scale=2160:3840:flags=lanczos,zoompan=z='{z0}+({z1}-{z0})*on/{max(n - 1, 1)}':x='(iw-iw/zoom)/2':"
+            f"y='(ih-ih/zoom)/2':d=1:s=1080x1920:fps={FPS},setsar=1")
+
+
+def tempo(sp):
+    if sp == 1.0: return ''
+    if sp > 2.0: return f',atempo=2.0,atempo={sp / 2.0:.4f}'
+    return f',atempo={sp}'
 
 
 def run(c): subprocess.run(c, check=True)
@@ -29,13 +44,13 @@ def meas(f):
 
 
 labels, t = [], 0.0
-for i, (f0, f1, lab) in enumerate(SEGS):
-    n = f1 - f0; d = n / FPS
+for i, (f0, f1, sp, lab, af, *zm) in enumerate(SEGS):
+    n = round((f1 - f0) / sp); d = n / FPS
     run(['ffmpeg', '-v', 'error', '-y', '-i', SRC, '-vf',
-         f'trim=start_frame={f0}:end_frame={f1},setpts=PTS-STARTPTS,scale=1080:1920:flags=lanczos,setsar=1',
+         f'trim=start_frame={f0}:end_frame={f1},setpts=(PTS-STARTPTS)/{sp},fps={FPS},trim=end_frame={n},setpts=PTS-STARTPTS,' + vchain(zm, n),
          '-an', '-c:v', 'libx264', '-qp', '0', '-preset', 'ultrafast', '-pix_fmt', 'yuv420p', '-frames:v', str(n), f'seg{i:02d}.mkv'])
     run(['ffmpeg', '-v', 'error', '-y', '-i', SRC, '-vn', '-af',
-         f'atrim={f0 / FPS:.5f}:{f1 / FPS:.5f},asetpts=PTS-STARTPTS,aresample=48000,aformat=channel_layouts=mono,'
+         f'atrim={f0 / FPS:.5f}:{f1 / FPS:.5f},asetpts=PTS-STARTPTS{tempo(sp)}{af},aresample=48000,aformat=channel_layouts=mono,'
          f'apad,atrim=end={d:.5f},afade=t=in:d=0.01,afade=t=out:st={d - 0.01:.5f}:d=0.01', '-c:a', 'pcm_s16le', f'seg{i:02d}.wav'])
     labels.append((t, t + d, lab)); t += d
 TOTAL = t
@@ -49,13 +64,14 @@ I, P = meas('mix.wav'); g0 = -17.5 - I
 run(['ffmpeg', '-v', 'error', '-y', '-i', 'mix.wav', '-af', f'volume={g0:.2f}dB,alimiter=limit=0.80:attack=2:release=60:level=disabled', 'mix2.wav'])
 I2, P2 = meas('mix2.wav'); g = -17.5 - I2   # mono at -17.5 = stereo -14.5
 L = {lab: (s, e) for s, e, lab in labels}
-proof_end = L['the marinara pour'][0] + 0.875
-CARDS = [('ov_title.png', 0.0, L['ricotta in every tube, macro'][1]),
-         ('ov_hook.png', 0.0, L['ricotta in every tube, macro'][1]),
-         ('ov_proof.png', L['fingertip, no sauce yet'][0], proof_end),
+proof_end = L['the marinara pour'][0] + 0.5
+q_start = L['the oven glass, bubbling'][0] + 0.4
+CARDS = [('ov_title.png', 0.0, L['the honeycomb, his hand pressing'][1]),   # off before the face shot (y 529 is his chin)
+         ('ov_hook.png', 0.0, L['he pipes the ricotta (face)'][1]),
+         ('ov_proof.png', L['ricotta in every tube, macro'][0], proof_end),
          ('ov_right.png', proof_end, L['the spoon pushes the sauce into the tubes'][1]),
-         ('ov_all.png', L['mozzarella falls'][0], 8.9),
-         ('ov_q.png', 8.9, TOTAL)]
+         ('ov_all.png', L['mozzarella falls'][0], q_start),
+         ('ov_q.png', q_start, TOTAL)]
 ins = ['-i', 'cut.mkv']
 fc = ['[0:v]setsar=1,format=yuv420p[b0]']
 last = 'b0'
@@ -69,7 +85,7 @@ run(['ffmpeg', '-v', 'error', '-y', *ins, '-filter_complex', ';'.join(fc), '-map
      '-frames:v', str(round(TOTAL * FPS)),
      '-c:v', 'libx264', '-preset', 'slow', '-crf', '16', '-profile:v', 'high', '-pix_fmt', 'yuv420p',
      '-color_primaries', 'bt709', '-color_trc', 'bt709', '-colorspace', 'bt709', '-color_range', 'tv', '-r', str(FPS),
-     '-c:a', 'aac', '-b:a', '256k', '-movflags', '+faststart', 'honeycomb-pasta-pie.mp4'])
+     '-c:a', 'aac', '-b:a', '256k', '-movflags', '+faststart', 'honeycomb-pasta-pie-v2.mp4'])
 for s, e, lab in labels: print(f'{s:6.2f}-{e:6.2f}  {lab}')
 print('cards', [(c, round(s, 2), round(e, 2)) for c, s, e in CARDS])
-print('total', round(TOTAL, 3), 'mix', I, P, 'final', meas('honeycomb-pasta-pie.mp4'))
+print('total', round(TOTAL, 3), 'mix', I, P, 'final', meas('honeycomb-pasta-pie-v2.mp4'))

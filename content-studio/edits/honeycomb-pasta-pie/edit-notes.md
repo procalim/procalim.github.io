@@ -1,4 +1,25 @@
 # Honeycomb Pasta Pie: the edit, the crinkle way (2026-11-12)
+
+## v2 (the one to use): https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/bdb26061-544f-4324-a5de-9412eb398b84.mp4
+Media bdb26061-544f-4324-a5de-9412eb398b84, 1080x1920 H.264, 9.21 s, -14.6 LUFS, -1.2 dBTP. Build: `edit_pie.py` (v1: `edit_pie_v1.py`).
+Owner on v1: «عادي الوجه يضل بس أشياء بطيئة سرعها وصوت الهرش يكون قوي»; unlimited renders 720p only, higher costs credits.
+| Output | Source frames | Shot | Speed | Sound |
+|---|---|---|---|---|
+| 0.00-1.29 | 0-47 | the honeycomb, his hand pressing, push-in 1.00-1.12 | 1.5x | |
+| 1.29-2.29 | 72-105 | he pipes the ricotta (face, back in) | 1.4x | |
+| 2.29-2.92 | 105-128 | ricotta in every tube | 1.5x | |
+| 2.92-3.92 | 128-157 | fingertip, no sauce yet | 1.2x | |
+| 3.92-4.92 | 157-205 | the marinara pour | 2.0x | |
+| 4.92-5.92 | 205-229 | the spoon pushes the sauce in | 1x | |
+| 5.92-7.04 | 229-264 | mozzarella falls | 1.3x | -4 dB |
+| 7.04-7.83 | 264-292 | the oven glass | 1.5x | |
+| 7.83-9.21 | 292-337 | the slice lifted, the crunch | 1.35x | +8 dB, +6 dB at 3.5 kHz: the loudest sound |
+Cards: title 0-1.29 (off before the face shot, its y 529 is his chin), hook 0-2.29 (on his apron in the face shot),
+proof 2.29-4.42, the right way 4.42-5.92, «موتزاريلا، وعالفرن. وبس» 5.92-7.44, the question 7.44-9.21.
+prepublish: DEAD 1 (the last 0.2 s, the cheese stretch under the crunch), SLOW 5 of 19 (v1: DEAD 9, SLOW 1 of 23);
+loudest 9.0, 8.5, 8.0 s (the slice crunch), then 0.0 s.
+
+## v1 (replaced)
 Source: the owner's generation on his unlimited, job 1bef36f0 (Seedance 2.5, 14 s, 720x1280 H.264 24 fps, the Crinkle
 Cake reel as the only video reference, the Chef-Ahmad element), from `../../prompts/w4-honeycomb-pasta-pie-crinkle.txt`.
 Final v1: https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/f99a7649-263b-4dc0-abbb-252ae8fe7fb3.mp4
