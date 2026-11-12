@@ -445,6 +445,16 @@ Next week (owner): re-cut the honey cake reel with a tested hook and the cards i
   viewer they are wrong makes them skip. Rule: no accusatory hooks; hookscore is a floor check, never the judge.
 - Also on screen in 0-2 s: a calm medium shot holding an egg, then raw ingredients (same pattern as feta and mala).
   Next opening: a payoff flash of 1 s or less showing what the hook talks about, then the most violent first step.
+- 13 h read (2026-11-12): 1,762 views (9th of the last 10, about half the 3,636 median), 1,212 viewers, skip 52.8%,
+  avg 8.2 s, 0 shares, 2 saves, 1 repost, 1 follow, 96.1% non-followers, 81.8% Reels tab; retention about 83% at 1 s,
+  57% at 2 s, 36% at 5 s, 20% at the end.
+- Not the hook text alone. The edit broke three rules already in this skill: a text box in the first 2-3 s (the chips
+  test: +11.7 points of skip); raw ingredients on screen for 0-5 s (eggs, yolks, whisking, flour), the opening that
+  gave mala 53.1% and feta 51.4% skip with no accusing hook, the same as this reel's 52.8%; and a card about something
+  not on screen («٠٪ باستا» over raw eggs, the pasta look first seen at 8.7 s). No payoff flash at the start either.
+  One reel cannot split the share of each; the no-text Pan Chocolate Cake reel tests the text.
+- Opening check before delivery (every reel): look at 0-3 s frame by frame. What the card or the flash promises is on
+  screen; raw ingredients never hold more than about 1 s before 3 s (compress them or let the flash cover them).
 
 ## Tested video formats (read from the winners' own files, 2026-11-01; this outranks every untested style)
 Measured on the reels themselves (src/assets/videos/*.mp4 and the API files): cuts per second, shot length, frames.
