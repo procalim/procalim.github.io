@@ -1,0 +1,9 @@
+{
+ "items": {
+  "cta": {
+   "y": 900,
+   "ar": "<span style=\"font-size:58px;line-height:1.15;-webkit-text-stroke:10px #000;text-shadow:0 0 16px rgba(0,0,0,.95),0 0 28px rgba(0,0,0,.85),0 5px 14px rgba(0,0,0,.93)\">اكتب <b>«باستا»</b> 👇</span>",
+   "en": "<span style=\"font-size:30px;-webkit-text-stroke:6px #000;text-shadow:0 0 12px rgba(0,0,0,.95),0 0 22px rgba(0,0,0,.85)\">Comment PASTA 👇</span>"
+  }
+ }
+}
