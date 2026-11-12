@@ -62,6 +62,9 @@ at the standard of an editor and director with 30 years in production.
    boring fraction of a second"), then the 390 px phone check. Render each segment to its own file, then join
    them: a cold open taken from the end of the take froze a one-pass render for 14 s (Pan Chocolate Cake). Check
    the last frame of every segment for a stray frame of the next shot (input seek lands about 2 frames late).
+   Export at the source's quality, never below it (owner, 2026-11-12: «الفيديو مش بنفس الجودة»): a 4K 10-bit take
+   stays 2160x3840 and is encoded once to HEVC Main 10 with BT.709 tags (hvc1); a 1080p take stays 1080x1920.
+   Compare the export's resolution, bit depth, bitrate and colour tags with the source's before delivery.
 6. **The package.** Hook text and on-video cards (hook-log rules, hookscore), SEO caption, pinned comment with the
    keyword, the engagement round and posting time, and 4-5 story frames (owner, 2026-11-11): images generated for
    the stories, not necessarily cut from the reel, in the ig-story shape (open with his face, 2 middle frames, the

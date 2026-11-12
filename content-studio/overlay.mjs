@@ -26,7 +26,7 @@ b{color:#F2C14E;font-weight:800}`;
 
 fs.mkdirSync(outDir, { recursive: true });
 const browser = await chromium.launch({ executablePath: process.env.CHROMIUM_PATH || "/opt/pw-browsers/chromium", args: ["--allow-file-access-from-files"] }).catch(() => chromium.launch());
-const page = await browser.newPage({ viewport: { width: 1080, height: 1920 } });
+const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: Number(process.env.SCALE || 1) });
 for (const [key, v] of Object.entries(spec.items)) {
   const y = v.y || spec.y || 1250;
   const html = `<html><head><meta charset="utf-8"><style>${css}</style></head><body><div class="wrap" style="top:${y}px"><div class="ar" dir="rtl">${v.ar || ""}</div><div class="en">${v.en || ""}</div></div></body></html>`;

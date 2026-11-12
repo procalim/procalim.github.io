@@ -4,7 +4,16 @@ bitrate high, audio on, his voice recording as the audio reference, the Chef-Ahm
 `../no-secrets-seedance-20s.txt`. Unlimited generation, 0 credits.
 Edited in the Higgsfield sandbox, 0 credits.
 
-## v2 (2026-11-12, the one to use): https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/0079c609-b88a-4ba5-8358-bfc5193770c2.mp4
+## v3, 4K (2026-11-12, the one to use): https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/6b2ff201-f24b-44c0-a09e-dafa3611d071.mp4
+Media 6b2ff201-f24b-44c0-a09e-dafa3611d071. 2160x3840, HEVC Main 10 (hvc1), BT.709 tagged like the source, 24 fps,
+19.2 s, about 10 Mbps; AAC stereo 256k, -14.5 LUFS, -1.4 dBTP. Build: `make_v3.py` (writes edit_v3.py).
+Why (owner: «الفيديو مش بنفس الجودة»): v1 and v2 came out 1080x1920, 8-bit H.264 at about 5 Mbps with no colour tags,
+from a 4K 10-bit HEVC source at 15 Mbps: softer, banding in the dark kitchen, and colour left to the player.
+v3 keeps the v2 cut and sound but renders at the source's 4K, encodes once to 10-bit HEVC with BT.709 tags, draws the
+subtitles and end card at 2x, and enlarges less (Layla 2.0x, the tablet 1.5x). zoompan only works in 8-bit, so the
+moving shots pass through 8-bit with dithering before the 10-bit encode.
+
+## v2 (replaced by v3, same cut at 1080p): https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/0079c609-b88a-4ba5-8358-bfc5193770c2.mp4
 Media 0079c609-b88a-4ba5-8358-bfc5193770c2, 1080x1920, H.264 24 fps, 19.3 s (16.8 s film + 2.5 s end card), AAC stereo,
 -15.3 LUFS, -2.6 dBTP. Script `edit_v2.py` (needs `kin/` from `kinetic.mjs kinetic.json` and `endcard.mov` from
 `compose_ad.py`).

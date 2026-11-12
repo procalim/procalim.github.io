@@ -15,7 +15,7 @@ html,body{margin:0;width:1080px;height:1920px;background:transparent}
 .g{color:#F2C14E}.h{visibility:hidden}.pop{transform:scale(1.16)}`;
 fs.mkdirSync(outDir, { recursive: true });
 const browser = await chromium.launch({ executablePath: process.env.CHROMIUM_PATH || "/opt/pw-browsers/chromium", args: ["--allow-file-access-from-files"] }).catch(() => chromium.launch());
-const page = await browser.newPage({ viewport: { width: 1080, height: 1920 } });
+const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: Number(process.env.SCALE || 1) });
 for (const [key, words] of Object.entries(spec.phrases)) {
   for (let k = 1; k <= words.length; k++) {
     for (const pop of [true, false]) {
