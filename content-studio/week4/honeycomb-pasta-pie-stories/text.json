@@ -1,0 +1,21 @@
+{
+ "y": 330,
+ "items": {
+  "s1": {
+   "ar": "<span style=\"font-size:64px;line-height:1.2;-webkit-text-stroke:10px #000;text-shadow:0 0 18px rgba(0,0,0,.95),0 6px 16px rgba(0,0,0,.9)\">شو هاد؟ 👀</span>",
+   "en": "<span style=\"font-size:32px;-webkit-text-stroke:6px #000;text-shadow:0 0 12px rgba(0,0,0,.95)\">Guess what this is 👀</span>"
+  },
+  "s2": {
+   "ar": "<span style=\"font-size:64px;line-height:1.2;-webkit-text-stroke:10px #000;text-shadow:0 0 18px rgba(0,0,0,.95),0 6px 16px rgba(0,0,0,.9)\">ريكوتا بكل <b>أنبوبة</b></span>",
+   "en": "<span style=\"font-size:32px;-webkit-text-stroke:6px #000;text-shadow:0 0 12px rgba(0,0,0,.95)\">Ricotta in every tube.</span>"
+  },
+  "s3": {
+   "ar": "<span style=\"font-size:64px;line-height:1.2;-webkit-text-stroke:10px #000;text-shadow:0 0 18px rgba(0,0,0,.95),0 6px 16px rgba(0,0,0,.9)\">الصلصة <b>جوّا</b>، مش فوق</span>",
+   "en": "<span style=\"font-size:32px;-webkit-text-stroke:6px #000;text-shadow:0 0 12px rgba(0,0,0,.95)\">The sauce goes inside, not on top.</span>"
+  },
+  "s4": {
+   "ar": "<span style=\"font-size:64px;line-height:1.2;-webkit-text-stroke:10px #000;text-shadow:0 0 18px rgba(0,0,0,.95),0 6px 16px rgba(0,0,0,.9)\">الريل كامل <b>بعد شوي</b> 👇</span>",
+   "en": "<span style=\"font-size:32px;-webkit-text-stroke:6px #000;text-shadow:0 0 12px rgba(0,0,0,.95)\">The full reel is coming.</span>"
+  }
+ }
+}
