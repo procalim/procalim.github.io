@@ -1,0 +1,70 @@
+Crispy Potato Nests: the house-reference test (owner, 2026-11-12).
+Status: NOT generated. The owner generates it on higgsfield.ai with his unlimited generations (refused from Claude Code).
+The test: our own pasta take as the only video reference. If it holds (no errors, the reference read as motion only),
+this pasta take becomes the reference for our reels.
+Recipe: book-additions/crispy-potato-nests.md (the owner's reference recipe; not in the book until he approves it).
+
+SETTINGS (on higgsfield.ai):
+Seedance 2.5, mode Omni reference, duration 12 s, aspect ratio 9:16, resolution 4K, bitrate High, audio On.
+References, in this order:
+@Video1 = our RAW pasta take, job 1c08b361 (11.97 s, no CTA, no flash), from his generations on the site:
+  https://d8j0ntlcm91z4.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/hf_20261112_123031_1c08b361-836a-49e4-a8b0-646a71eb18dc.mp4
+  Not the edit e0583c49: it has the CTA text and the flash, which shift every cut by 0.67 s.
+@Image1 = his face: https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/de4a8fb4-3d3a-4c74-835b-7a337bf2fa48.jpg
+@Image2 = the kitchen: https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/66c2248f-e130-4a3c-83df-1a715f172d69.jpg
+
+THE REFERENCE'S CUTS (scene detection on the raw take, 2026-11-12) and what each slot becomes
+0.0-0.5 onions drop -> matchsticks drop | 0.5-1.0 ramekin -> flour, starch | 1.0-1.7 toss -> turmeric, pepper, salt |
+1.7-2.0 -> sparkling water | 2.0-3.2 chicken laid -> hands mix | 3.2-3.7 dish lifted -> bowl lifted |
+3.7-4.4 baked dish -> nests into the oil | 4.4-4.8 shredding -> tongs press | 4.8-5.7 parsley, lemon -> bubbling macro |
+5.7-6.0 garlic squeezed -> flip | 6.0-6.7 fusilli pours -> nest lifted out | 6.7-7.25 cream, parmesan -> sauce |
+7.25-7.75 tongs toss -> sauce stirred | 7.75-8.2 serve -> nest onto the plate | 8.2-8.5 plate -> the plate |
+8.5-8.9 parsley over -> push-in | 8.9-9.9 fork in the pasta -> the break (the edit's flash) | 9.9-10.5 -> the dip |
+10.5-12.0 him at the counter -> the bite.
+
+PRE-GENERATION CHECK
+| Check | Result |
+|---|---|
+| Material shown before it changes | raw matchsticks in 0.0-3.2 s; named square in section, never curved or see-through (onion) |
+| Shape named by an object (check 18) | sticks "as thin as a matchstick, as long as a finger"; nests "the size of his palm" |
+| Counts locked | 2 potatoes, 6 nests in the pan, the same 6 on the plate |
+| Pan named in every shot (check 19) | the same black ceramic bowl; the same black non-stick frying pan |
+| Face (check 20) | upright, the nest beside his chin, never in front of the lenses |
+| The reference's food blocked | no pasta, chicken, onions, garlic, lemon, parsley, cheese, cream, oven |
+| Halal | yes |
+| Text | none; the edit adds the CTA only |
+
+===== PROMPT =====
+A vertical 9:16 ASMR cooking reel of Crispy Potato Nests, exactly 12 seconds.
+
+REFERENCE VIDEO (@Video1): copy its exact cut rhythm and timing, camera angles and framing, hand and tong motion, light, kitchen, black gloves, and the man and his outfit in the last shot. Copy only the filmmaking, never its food: no pasta, no chicken, no onions, no garlic, no lemon, no parsley, no cheese, no cream, no oven. Every shot below shows potatoes.
+
+PLACE: the dark luxury kitchen exactly as in @Image2: a black marble counter with fine gold veins, matte black cabinets with thin brass trim, warm 2700 K light from camera left, the background falling to black. The same wide black ceramic bowl for mixing; the same black non-stick frying pan with 1 cm of hot oil for frying; a white plate with a thin gold rim.
+
+CHARACTER: the man in @Image1, exactly his face (thick dark mustache, no beard), aviator sunglasses with solid black lenses, a plain white t-shirt, a black apron with brown leather straps, a thin gold chain, black nitrile gloves on both hands in every shot. Only his gloved hands until the last shot.
+
+FOOD SHAPES (never change): 2 raw peeled potatoes cut into straight matchsticks, square in section, as thin as a matchstick and as long as a finger, opaque pale cream, never curved, never see-through like onion. The batter: thin, glossy, golden-orange. Fried: 6 loose flat nests the size of his palm, separate crisp matchsticks fused where they cross, lacy with gaps, golden-orange with crisp golden-brown tips; never a solid patty, never noodles.
+
+0.0-0.5s: True top-down, frame one already moving: a heap of raw potato matchsticks drops into the black ceramic bowl.
+0.5-1.0s: Flour, then starch, poured from a small white ramekin over the matchsticks, a soft white puff.
+1.0-1.7s: A spoon of yellow turmeric, a spoon of red pepper powder and a pinch of salt fall over the flour.
+1.7-2.0s: Sparkling mineral water poured from a small plain glass bottle, fizzing.
+2.0-3.2s: His black-gloved hands mix until every matchstick is coated in the glossy golden-orange batter, the sticks still separate.
+3.2-3.7s: His gloved hand lifts the black bowl toward the stove.
+3.7-4.4s: Top-down on the black non-stick pan: he lays 6 loose nests of coated matchsticks in the hot oil, tiny bubbles erupting.
+4.4-4.8s: Close: tongs press a nest flat in the bubbling oil.
+4.8-5.7s: Macro: oil bubbling hard around the strands, the edges turning crisp and golden.
+5.7-6.0s: Tongs flip one nest: a crisp golden-orange underside.
+6.0-6.7s: Tongs lift a golden nest out of the black pan, oil dripping back.
+6.7-7.25s: A spoon of ketchup and a spoon of mayonnaise drop into a small black ramekin.
+7.25-7.75s: Stirred with a small spoon into a smooth pink sauce.
+7.75-8.2s: Tongs place a crispy nest onto the white gold-rim plate.
+8.2-8.5s: The plate: the 6 golden nests stacked, the pink sauce and a small black ramekin of thick white yogurt beside.
+8.5-8.9s: Slow push-in on the stacked nests, every crisp strand catching the warm light.
+8.9-9.9s: Close: his gloved fingers break a nest in half, a loud crunch, crisp pieces falling onto the plate.
+9.9-10.5s: The half nest dipped into the pink sauce.
+10.5-12.0s: Medium shot of him standing at the black marble counter, the plate in front of him, face upright to the camera: he takes one crunchy bite from the half nest held beside his chin, never in front of his sunglasses or nose, and chews with his mouth closed, satisfied. No cut to black.
+
+AUDIO: only real close-mic sound of what is on screen, in every shot: matchsticks falling, the powder, the fizz of the water, wet mixing, a loud sizzle as the nests hit the oil, crackling oil, tongs, and the crunch of the break and the bite, the loudest sounds. No music, no voice, no talking.
+
+AVOID: pasta, noodles, chicken, onions, garlic, lemon, parsley, cheese, cream, an oven; a solid potato patty or hash brown; curly or round strands; burnt or dark brown nests; a white kitchen, white tiles, a granite counter, a glass bowl, a steel pan; labelled bottles, packaging, logos, text; wine, alcohol, pork; sunglasses off, bare hands, extra fingers, deformed hands, a distorted or sideways face, anything covering his face.
