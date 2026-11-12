@@ -27,3 +27,5 @@ Formulas not used yet: #1 Cost Confession, #4 Replacement, #5 Time Collapse, #6 
 Right Way, #8 Insider Leak, #10 If This Then Watch, #12 Objection, #13 Before/After, #14 Callout,
 #15 Flop Record, #16 Verbatim Question, #17 Head To Head, #18 Cold Open Demo, #19 Deadline,
 #20 Permission, #22 Contrarian Flip, #23 Statistic, #24 Reveal, #25 Someone Else's Result.
+| Onion Garlic Chicken Pasta (edited 2026-11-12, 12.29 s) | none: the sweet potato way, a 0.67 s fork flash, then raw onions to 3.6 s | none | «اكتب «باستا» 👇» / "Comment PASTA 👇" over the bite only. 1 h: skip 61.9% |
+| Crispy Potato Nests (edited 2026-11-12, 10.4 s, the pistachio way) | الطريقة الوحيدة ولادك بينسوا الشيبس (Superlative for the family cook; hookscore 84.2) | بلا ٤ معالق نشا… بتطرى (Cause of a failure; 81.4) | «اكتب «بطاطا» 👇» / "Comment POTATO 👇" on the last face shot only |
