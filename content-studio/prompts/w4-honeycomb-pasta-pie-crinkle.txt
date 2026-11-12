@@ -1,0 +1,89 @@
+Honeycomb Pasta Pie (Rigatoni Cake), the crinkle way (owner, 2026-11-12: «كل اشي نفس المرتب ونفس الطريقة من فوق اشتغل الريغتوني»).
+Status: NOT generated. The owner generates it on higgsfield.ai with his unlimited generations.
+Book: N° 094, page 241 (English book). Recipe below word for word.
+
+SETTINGS (on higgsfield.ai):
+Seedance 2.5, mode Omni reference, duration 14 s, aspect ratio 9:16, resolution 4K, bitrate High, audio On.
+ONE video reference only (the potato take had two and came back 720p; the pasta take had one and came back 4K).
+References, in this order:
+@Video1 = the Crinkle Cake reel itself (eae71780, 13.83 s, 1080x1920), from his media on the site:
+  https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/eae71780-31e7-4758-baf5-b45cdc50a6c8.mp4
+@Image1 = his element photo (hands and forearms only; no face in this reel).
+No kitchen photo: the crinkle's black-on-black kitchen comes from @Video1 (the kitchen photo has gold-veined marble).
+Cook's look: the crinkle's (bare clean hands, a matte black chef jacket with rolled sleeves), the owner's «كل اشي نفس».
+
+THE CRINKLE, MEASURED (scene detection and frames, 2026-11-12) -> THE PIE ON THE SAME CUTS
+| Crinkle shot (s) | Crinkle | Pie (book step) |
+|---|---|---|
+| 0.00-1.47 | top-down, the packed tray, bare hand pressing | the packed honeycomb in the springform, hand pressing the last tubes (03; 02 seen as glossy, parmesan-dusted tubes) |
+| 1.47-2.97 | front at counter height, hand at the oven | front at counter height, piping ricotta across the tubes (04) |
+| 2.97-4.40 | low macro across the rows, warm glow | low macro across the tube tops, a white ricotta center in each (04) |
+| 4.40-5.83 | macro, a finger touches the dry spikes | macro, a fingertip taps the dry tube tops, no sauce yet |
+| 5.83-7.93 | 45 degrees, the butter pours onto the tray | 45 degrees, the marinara pours onto the center (05) |
+| 7.93-9.43 | the custard whisked in a black bowl, circles | the back of a spoon pushes the sauce down into the tubes, circles (05) |
+| 9.43-10.90 | the custard pours over the spikes | the mozzarella falls thick over the red top (06) |
+| 10.90-12.17 | through the oven glass, glowing | through the oven glass, the cheese bubbling golden (07) |
+| 12.17-13.83 | the syrup pour, steam | after the rest, one slice lifted: the honeycomb of tubes inside (07, rest 15 minutes before slicing) |
+Step 01 (preheat, grease the springform) is not shown, as the crinkle did not show its step 01.
+
+RECIPE (book N° 094, word for word)
+Honeycomb Pasta Pie (Rigatoni Cake). A visually stunning, sliceable pasta dish.
+INGREDIENTS: 500g Rigatoni pasta (cooked al dente and drained); 2 cups Marinara or Meat sauce; 1 cup Ricotta cheese;
+2 cups Mozzarella cheese (shredded); ½ cup Parmesan cheese; Olive oil.
+METHOD
+01 Preheat oven to 400°F (200°C). Grease a 9-inch springform pan.
+02 Toss cooked rigatoni in olive oil and parmesan so they don't stick.
+03 Stand each rigatoni tube upright in the springform pan until tightly packed (it will look like a honeycomb).
+04 Pipe a little ricotta into the center of each pasta tube.
+05 Pour marinara sauce over the top. Push sauce down into the tubes.
+06 Top with a thick layer of mozzarella cheese.
+07 Bake 25–30 minutes until cheese is bubbling and golden. Rest 15 minutes before slicing.
+(Marinara chosen, as the book allows; halal: no meat, cheeses halal-certified.)
+
+PRE-GENERATION CHECK
+| Check | Result |
+|---|---|
+| Book steps on screen, in order | 02 (as the result), 03, 04, 05, 06, 07, the rest and the slice; 01 off screen like the crinkle's |
+| Nothing added | no plate, no garnish, no basil, no extra food |
+| Shape named by an object | tubes upright like a honeycomb, round pan of 9 inches; the slice shows the tubes standing |
+| Material the same raw and cooked (check 21) | the same rigatoni tubes in every shot, never penne or spaghetti |
+| The reference's food blocked | no phyllo, spikes, butter, custard, eggs, syrup, rectangular tray |
+| Text | none in the generation; the edit adds the crinkle's cards |
+| Halal | yes |
+
+CARDS FOR THE EDIT (the crinkle's beats, small white text, no box, Arabic and English lines)
+| Output (s) | Card |
+|---|---|
+| 0.0-2.9 | title «فطيرة الباستا (قرص العسل)» / "Honeycomb Pasta Pie" + hook «خلط الباستا بالصلصة هو الغلطة» / "Mixing the pasta with the sauce is the mistake" |
+| 3.0-4.4 | «ريكوتا بنص كل أنبوبة» / "Ricotta in the center of every tube" |
+| 4.4-7.0 | «لسا ولا نقطة صلصة» / "Still not a drop of sauce" |
+| 7.0-9.4 | «هون بتنزل. جوّا الأنابيب، مش فوقها» / "Here it goes. Into the tubes, not over them." |
+| 9.4-10.9 | «موتزاريلا، وعالفرن. وبس» / "Mozzarella, then the oven. That is all." |
+| 10.9-end | «بتخلط الباستا بالصلصة؟» / "Do you mix your pasta with the sauce?" |
+The crinkle's own times: title and hook 0-2.9, a fact over the oven, the proof 4.4-7.0, the right way 7.2-9.4, the
+"That is all" line, the closing question from 10.8.
+
+===== PROMPT =====
+A vertical 9:16 photoreal food reel of a Honeycomb Pasta Pie, exactly 14 seconds, no text.
+
+REFERENCE VIDEO (@Video1): copy its exact cut rhythm and timing, its camera angles, heights and framing shot by shot, its calm locked camera and slow slides, its light, its black kitchen and black oven, and its bare-handed cook. Never copy its food: no phyllo, no spikes, no butter, no custard, no eggs, no syrup, no rectangular tray. Every shot below shows the pasta pie.
+
+LOOK: photoreal live-action food cinematography, real food, real physics, real steam. A private luxury kitchen, black from floor to ceiling: matte black cabinets, a honed black granite counter, a black oven. Warm 2700 K tungsten only, one pendant pool raking from camera left, everything else falling to pure black. Deep blacks, golden highlights, fine film grain. Locked tripod or a slow slide of 12 cm at most, no handheld. Food tack sharp, background soft.
+
+COOK: the man in @Image1, only his bare clean hands and forearms, the sleeves of a matte black chef jacket rolled up; no gloves, no watch, no rings; his face never in frame.
+
+FOOD (the same in every shot, never change): one round 9-inch black springform pan; cooked rigatoni tubes, each standing upright, packed tight so the top reads as a honeycomb of round holes; the tubes glossy with olive oil and dusted with grated parmesan; a small white dot of ricotta in the center of every tube; a thick red marinara; shredded white mozzarella that bakes to bubbling golden. Rigatoni only, never penne, never spaghetti.
+
+0.0-1.5s: True top-down, frame one already moving: the round black springform pan packed with the upright rigatoni honeycomb; his bare hand presses the last tubes into place. A firm tap of the pan on the granite at 0.3 s, the loudest sound of the reel.
+1.5-3.0s: Front view at counter height, as in the second shot of @Video1: his hand moves a piping bag across the honeycomb, piping a little ricotta into the center of each tube.
+3.0-4.4s: Low macro across the rows of tube tops, warm light raking: every tube holds a white ricotta center.
+4.4-5.8s: Extreme macro: his bare fingertip taps the dry tube tops; not a drop of sauce yet.
+5.8-7.9s: 45-degree low angle at the pan rim: a thick ribbon of red marinara pours onto the center of the honeycomb and spreads over the top.
+7.9-9.4s: Close from above: the back of a spoon pushes the sauce down into the tubes in slow circles; the sauce sinks into the holes.
+9.4-10.9s: A thick layer of shredded mozzarella falls over the red top and covers it.
+10.9-12.2s: Through the oven glass, low and close, as in @Video1: the mozzarella bubbles and turns golden in the warm oven light.
+12.2-14.0s: Close at the pan rim, after the rest: a knife lifts one clean slice; its side shows the rows of upright tubes filled with ricotta and red sauce under the golden cheese, the cheese stretching, a thin steam rising. No cut to black.
+
+AUDIO: only real close-mic sound of what is on screen: the pan tap, the piping, the fingertip tap, the thick pour, the spoon pressing, the cheese falling, the bubbling, the knife. No music, no voice.
+
+AVOID: phyllo, spikes, butter, custard, eggs, syrup, a rectangular tray, pasta lying down or mixed with sauce, penne, spaghetti, any other pasta shape, gloves, a face, a white kitchen, marble, wood, labels, packaging, logos, text, wine, alcohol, pork, burnt cheese, extra fingers, deformed hands.
