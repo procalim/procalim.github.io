@@ -421,6 +421,9 @@ Kibbeh Nests ran at 6,950.
 Untested on this account: the 30 s length and the cookcut pace. The Dubai reel's 48 h read measures them against the
 decision rule in the week plan.
 Format B (Genjutsu motion transfer) is only for tests with a viral reference (the pasta, 2026-11-02).
+Owner's decision (2026-11-12, replaces "copy the formula, never the video" for this plan): reels from @fiteat.rima's
+outliers, her reel as the motion reference, the footage always new (his face, his kitchen, our plate), our recipe
+wording, our hook and cover. Rules and inputs: `content-studio/plan-reference-account.md`.
 Hooks (owner, 2026-11-03): every reel gets a new hook formula, by the hook-log rules. It comes only from tested
 evidence:
 - the account's own winners (the Crinkle Cake mistake shape, the mistake/science-rule family);
