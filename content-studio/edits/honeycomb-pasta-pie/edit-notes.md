@@ -1,6 +1,12 @@
 # Honeycomb Pasta Pie: the edit, the crinkle way (2026-11-12)
 
-## v2 (the one to use): https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/bdb26061-544f-4324-a5de-9412eb398b84.mp4
+## v3 (the one to use): https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/7654da47-6c43-416b-9033-53109f142838.mp4
+Media 7654da47-6c43-416b-9033-53109f142838, 1080x1920 H.264, 11.875 s (285 frames), -14.6 LUFS, -1.3 dBTP. Build: `edit_pie.py`.
+Owner on v2: «الفيديو صار قصير كثير وانت كاتب موتزريلاء بدلا موزريلاء». Speeds back near 1x (1.0-1.3), slow push-ins on the
+calm shots (opening 1.00-1.12, ricotta macro, pour, oven, slice 1.00-1.10) instead of more speed; the card spelled «موزريلا».
+prepublish: DEAD 1 (2.0 s, the face shot at 1x), SLOW 7 of 24; loudest 11.5, 11.0, 10.5 s (the slice crunch), then 0.0 s.
+
+## v2 (replaced, 9.21 s: too short): https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/bdb26061-544f-4324-a5de-9412eb398b84.mp4
 Media bdb26061-544f-4324-a5de-9412eb398b84, 1080x1920 H.264, 9.21 s, -14.6 LUFS, -1.2 dBTP. Build: `edit_pie.py` (v1: `edit_pie_v1.py`).
 Owner on v1: «عادي الوجه يضل بس أشياء بطيئة سرعها وصوت الهرش يكون قوي»; unlimited renders 720p only, higher costs credits.
 | Output | Source frames | Shot | Speed | Sound |
@@ -15,7 +21,7 @@ Owner on v1: «عادي الوجه يضل بس أشياء بطيئة سرعها 
 | 7.04-7.83 | 264-292 | the oven glass | 1.5x | |
 | 7.83-9.21 | 292-337 | the slice lifted, the crunch | 1.35x | +8 dB, +6 dB at 3.5 kHz: the loudest sound |
 Cards: title 0-1.29 (off before the face shot, its y 529 is his chin), hook 0-2.29 (on his apron in the face shot),
-proof 2.29-4.42, the right way 4.42-5.92, «موتزاريلا، وعالفرن. وبس» 5.92-7.44, the question 7.44-9.21.
+proof 2.29-4.42, the right way 4.42-5.92, «موزريلا، وعالفرن. وبس» 5.92-7.44, the question 7.44-9.21.
 prepublish: DEAD 1 (the last 0.2 s, the cheese stretch under the crunch), SLOW 5 of 19 (v1: DEAD 9, SLOW 1 of 23);
 loudest 9.0, 8.5, 8.0 s (the slice crunch), then 0.0 s.
 
@@ -57,7 +63,7 @@ The crinkle: title about 28 px at y 531-593 and the hook about 30 px at y 1238-1
 | 0.00-2.92 | title «فطيرة الباستا قرص العسل (كيكة الريغاتوني)» / "Honeycomb Pasta Pie (Rigatoni Cake)" (y 529) + hook «خلط الباستا بالصلصة هو الغلطة» / "Mixing the pasta with the sauce is the mistake" (y 1237) |
 | 2.92-5.00 | «لسا ولا نقطة صلصة» / "Still not a drop of sauce" |
 | 5.00-7.12 | «هون بتنزل. جوّا الأنابيب» / "Here it goes. Inside the tubes." |
-| 7.12-8.90 | «موتزاريلا، وعالفرن. وبس» / "Mozzarella. Oven. That is all." |
+| 7.12-8.90 | «موزريلا، وعالفرن. وبس» / "Mozzarella. Oven. That is all." |
 | 8.90-11.62 | «بتخلط الباستا بالصلصة؟» / "Do you mix pasta and sauce?" |
 Keyword CTA in the caption and the pinned comment only (RIGATONI / «ريغاتوني»), as the crinkle.
 

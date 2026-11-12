@@ -74,6 +74,8 @@ Every new reel, the crinkle way:
    box, middle of the frame; the keyword CTA moves to the caption and the pinned comment.
 4. Edit: no flash, no reorder. Owner on the pasta pie (2026-11-12): speed every slow shot (1.2-2x; a push-in on a still
    opening), make the crunch or crackle the loudest sound (gain and a lift at 3.5 kHz), and his face may stay in a shot.
+   Length about 12 s (owner on v2 at 9.2 s: «الفيديو صار قصير كثير»): keep speeds near 1.0-1.3 and give calm shots a slow
+   push-in instead of more speed. Arabic spelling (owner): «موزريلا».
    Then the checks below (pre-publish, opening, phone check).
 5. Generation: the owner's unlimited on higgsfield.ai renders 720p only; anything higher costs credits. Keep 720p and
    upscale to 1080x1920 in the edit, unless he asks for credits.

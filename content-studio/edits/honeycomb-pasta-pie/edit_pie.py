@@ -7,16 +7,16 @@
 import subprocess, re
 FPS = 24
 SRC = 'raw.mp4'
-SEGS = [  # (first frame, end frame, speed, label, audio filter[, push-in (zoom from, to)])
-    (0, 47, 1.5, 'the honeycomb, his hand pressing', '', (1.0, 1.12)),
-    (72, 105, 1.4, 'he pipes the ricotta (face)', ''),
-    (105, 128, 1.5, 'ricotta in every tube, macro', ''),
-    (128, 157, 1.2, 'fingertip, no sauce yet', ''),
-    (157, 205, 2.0, 'the marinara pour', ''),
+SEGS = [  # v3 (owner on v2: «الفيديو صار قصير كثير»): about 12 s, push-ins on the calm shots instead of more speed
+    (0, 47, 1.25, 'the honeycomb, his hand pressing', '', (1.0, 1.12)),
+    (72, 105, 1.0, 'he pipes the ricotta (face)', ''),
+    (105, 128, 1.0, 'ricotta in every tube, macro', '', (1.0, 1.1)),
+    (128, 157, 1.0, 'fingertip, no sauce yet', ''),
+    (157, 205, 1.3, 'the marinara pour', '', (1.0, 1.1)),
     (205, 229, 1.0, 'the spoon pushes the sauce into the tubes', ''),
-    (229, 264, 1.3, 'mozzarella falls', ',volume=-4dB'),
-    (264, 292, 1.5, 'the oven glass, bubbling', ''),
-    (292, 337, 1.35, 'the slice lifted', ',equalizer=f=3500:t=o:w=2:g=6,volume=8dB'),   # the crunch, frames 301-328
+    (229, 264, 1.1, 'mozzarella falls', ',volume=-4dB'),
+    (264, 292, 1.15, 'the oven glass, bubbling', '', (1.0, 1.1)),
+    (292, 337, 1.0, 'the slice lifted', ',equalizer=f=3500:t=o:w=2:g=6,volume=8dB', (1.0, 1.08)),   # the crunch, frames 301-328
 ]
 
 
@@ -85,7 +85,7 @@ run(['ffmpeg', '-v', 'error', '-y', *ins, '-filter_complex', ';'.join(fc), '-map
      '-frames:v', str(round(TOTAL * FPS)),
      '-c:v', 'libx264', '-preset', 'slow', '-crf', '16', '-profile:v', 'high', '-pix_fmt', 'yuv420p',
      '-color_primaries', 'bt709', '-color_trc', 'bt709', '-colorspace', 'bt709', '-color_range', 'tv', '-r', str(FPS),
-     '-c:a', 'aac', '-b:a', '256k', '-movflags', '+faststart', 'honeycomb-pasta-pie-v2.mp4'])
+     '-c:a', 'aac', '-b:a', '256k', '-movflags', '+faststart', 'honeycomb-pasta-pie-v3.mp4'])
 for s, e, lab in labels: print(f'{s:6.2f}-{e:6.2f}  {lab}')
 print('cards', [(c, round(s, 2), round(e, 2)) for c, s, e in CARDS])
-print('total', round(TOTAL, 3), 'mix', I, P, 'final', meas('honeycomb-pasta-pie-v2.mp4'))
+print('total', round(TOTAL, 3), 'mix', I, P, 'final', meas('honeycomb-pasta-pie-v3.mp4'))
