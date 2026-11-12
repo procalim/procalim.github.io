@@ -24,6 +24,7 @@ description: >
    @Image2), 2700 K tungsten light, black nitrile gloves, white t-shirt, black apron with brown leather straps,
    thin gold chain, the aviators of the element photo (black lenses).
 5. **Never blame the user.** Report numbers, not guesses. Change one variable per test.
+   No guessing causes in replies (owner, 2026-11-12: «لا ضلك تخمن الأسباب»): the numbers, then the work on his call.
 6. Talk to the user in Levantine Arabic, minimal English words.
    Work day by day (owner, 2026-10-27): one day's tasks per message, short, no multi-page plan documents or
    PDF dumps unless he asks. The prompt and the content come first.
@@ -37,6 +38,43 @@ description: >
    into 361 recipes in my book The Edible Codex, so your table never runs out of reasons to gather. Link in bio 📕" /
    «هالأكلة إلها طعمة البيت، والعيلة كلها حوالين صحن واحد. حطيت هالإحساس بـ ٣٦١ وصفة بكتابي The Edible Codex،
    مشان سفرتك ما يخلص فيها سبب للّمّة. الرابط بالبايو 📕»
+
+## THE CRINKLE WAY (owner's call, 2026-11-12; every reel; overrides every format and template below)
+Owner: «احسن فيديو موجود الكرنكل وما في حل غير هيك: وصفة نفس شغل الكرنكل». Every new reel copies the Crinkle Cake reel's
+work beat for beat, with a new book recipe. Sources: `content-studio/prompts/crinkle-15s-v2-base.txt` (the surviving
+prompt text, verbatim), `content-studio/research/crinkle-posted-frames.jpg` (the posted file at 0.4, 2.2, 4.6, 6.6,
+8.6 and 12.8 s). Record: 142.7x the median (~500K views), avg watch 10.2 s, 2.8 shares and 3.5 saves per 1K reach,
+about 56% to the end at first. Nothing else on this account came close.
+
+What the crinkle reel was (measured, not guessed):
+| Part | The crinkle |
+|---|---|
+| Length | 15 s generation, 10 shots, Seedance 2.5 omni_reference, 9:16, 1080p, bitrate high, audio on |
+| The 1.0 s gate | shot 1 a closed top-down of a shape nobody has seen (scrunched phyllo standing packed in a black tray, his hand pressing it); the hook card from 0.2 s; a hard dry crackle at 0.3 s, the loudest sound of the reel |
+| The story | the recipe's one counterintuitive step: the hook names the mistake («الزبدة بين الطبقات هي الغلطة» / "The butter between the layers is the mistake"), the middle proves it on the dry baked shape («لسا ما نزلت ولا نقطة زبدة» / "Still not a drop of butter"), then the right way («هون بتنزل. بعد الخبز مش قبله» / "Here it goes. After the bake, not before."), then the pours |
+| Order | the book's steps in order: shape, oven, the dry crisp macro (a finger touching the spikes), butter pour, custard whisked, the custard and syrup pour over the hot shape with steam |
+| The payoff | nothing finished, golden or syruped before 7.5 s; no payoff flash at the start; the last pour is the end |
+| The end | a question card («بتدهن كل طبقة زبدة؟» / "Do you butter every layer?") |
+| Cards | small white text, no box, the middle of the frame, Arabic and English lines; the recipe title line «كعكة التجاعيد (مواكاشا)» / "Crinkle Cake (Muakacha)" with the hook at frame one |
+| Shots | every cut changes both angle and height; a physical event every 3-5 s; the sound changes on every cut |
+| Look | black-on-black kitchen, one warm 2700 K pendant pool raking from camera left, everything else black; deep blacks, golden highlights, film grain; locked tripod or a slider of 12 cm at most, no handheld; 35 mm wides, 50 mm mediums, 100 mm macro |
+| Cook | his bare clean hands, a matte black chef jacket with rolled sleeves; no face in the shots on record |
+| Sound | real close-mic sound; the posted reel also carried music (its API media_url is missing because of it) |
+
+Every new reel, the crinkle way:
+1. Recipe: from the book, word for word, with (a) a shaping step that makes a shape nobody has seen, (b) one step that
+   goes against habit and can be called the mistake (a chef's note or a step that surprises), (c) a pour or a sound
+   at the end. Book recipes in this family: Honeycomb Pasta Pie N° 094 p241 (tubes standing packed like the crinkle,
+   sauce pushed down, the honeycomb slice), Flat Crispy Croissants N° 103 p252 (flattened, pressed, the candy crack),
+   Upside-down Puff Pastry Tarts N° 043 p190 (filling first, the flip; chef's note: flip while hot).
+2. Prompt: start from `crinkle-15s-v2-base.txt` (look, light, camera, grade), then 10 shots in 15 s in the table's
+   order: the shape at frame one, the mistake card at 0.2 s, the loudest sound at 0.3 s, the proof in the middle, the
+   right way, the payoff at the end only.
+3. Cards: the crinkle's four beats only (title + mistake hook, proof, the right way, a closing question), small, no
+   box, middle of the frame; the keyword CTA moves to the caption and the pinned comment.
+4. Edit: no flash, no reorder; trims and sound only. Then the checks below (pre-publish, opening, phone check).
+Open (owner to decide): the cook's look. The crinkle had bare hands and a black chef jacket; rule 4 above says black
+gloves, white t-shirt and apron. Ask once; until he answers, rule 4 stands.
 
 ## THE WORKFLOW, STEP BY STEP (owner's call, 2026-11-10; read this first, every request)
 The owner's words: every recipe from the first step to the last, everything shown, professional, cookcut, the same

@@ -1,0 +1,52 @@
+Crinkle Cake, 15 s (crinkle-15s-v2, 1 Oct 2026): the account's best reel, 142.7x the median (~500K views),
+avg watch 10.2 s, 2.8 shares and 3.5 saves per 1K reach, about 56% to the end at first.
+Only the first 2,500 characters of the original file survived (read on 2026-10-18 from the scratchpad; the file and
+crinkle-final.mp4 are gone). The shot list is reconstructed from the posted file's frames in
+../research/crinkle-posted-frames.jpg and recorded in the reels-director skill ("THE CRINKLE WAY").
+Cards came from make_crinkle_v2_stickers.py: hook «الزبدة بين الطبقات / هي الغلطة» (44 px), rehook «ولا وحدة من هاي هي الغلطة» (42 px);
+the posted frames show the final wording (see the skill).
+
+===== SURVIVING TEXT, VERBATIM =====
+================================================================================
+CRINKLE CAKE — 15 SECONDS — BUILT ON THE HOOK SYSTEM
+10 shots · 1.0-second gate · re-hook at 40% · question CTA
+Seedance 2.5 · omni_reference · 9:16 · 1080p · bitrate high · audio on · 180 credits
+================================================================================
+
+THE GATE IS 1.0 SECOND, NOT 3.0
+Instagram Reels decides at 1.0s. Three layers fire together inside that second:
+  VISUAL  shot 1 is a pattern interrupt, a closed macro frame with no context
+  TEXT    the accusation lands at 0.2s
+  SOUND   a hard dry crackle at 0.3s, the loudest moment in the whole reel
+Nothing finished, golden or syruped appears before second 7.5.
+
+================================================================================
+GLOBAL LOOK — paste at the top
+================================================================================
+
+Photoreal live-action food cinematography. Real camera, real food, real physics, real steam.
+NOT anime. NOT cartoon. NOT illustration. NOT a 3D or game-engine render. NOT stylised.
+
+SET: a private luxury home kitchen, black from floor to ceiling. Matte black handleless
+cabinetry, honed black granite island, black brushed-steel extractor hood, black tile
+backsplash. Black cast iron, black enamel, black stoneware only. No wood, no marble,
+no white surface anywhere in frame.
+
+LIGHT: warm yellow tungsten only, 2700 K. One warm pendant lamp directly over the island
+is the key, raking in from camera left. Everything outside the lamp pool falls into pure
+black. Golden falloff on the granite, amber rim light on the dish edge, warm highlights
+in the butter and the steam.
+Absolutely NO white light, NO daylight, NO window, NO blue, NO cyan, NO neon, NO colour gels.
+
+CAMERA: clean and stable. Locked-off tripod, or a slow controlled slider of no more than
+12 cm. No handheld shake, no whip pan, no dutch tilt, no fisheye, no lens flare.
+Food tack sharp, background soft. 35 mm wides, 50 mm mediums, 100 mm macro.
+Every cut changes BOTH the angle and the height.
+
+GRADE: deep true blacks, golden highlights, warm amber midtones, fine film grain.
+
+CHARACTER: the chef is the man in the attached image reference. Keep his face, build and
+skin exactly as the reference. Matte black chef jacket, sleeves rolled, no logo, no hat.
+Hands bare and clean, no gloves, no watch, no rings. He works alone.
+
+ORDER LOCK: render the 10 shots in the exact numbered order with the ... [rest lost]
