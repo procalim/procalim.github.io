@@ -467,6 +467,10 @@ Next week (owner): re-cut the honey cake reel with a tested hook and the cards i
   One reel cannot split the share of each; the no-text Pan Chocolate Cake reel tests the text.
 - Opening check before delivery (every reel): look at 0-3 s frame by frame. What the card or the flash promises is on
   screen; raw ingredients never hold more than about 1 s before 3 s (compress them or let the flash cover them).
+- Pasta, 2026-11-12, about 1 h (the opening check was not run on this edit): a 0.67 s fork flash, then raw onions,
+  spice and the toss from 0.67 to about 3.6 s. 266 views, 100 viewers, skip 61.9%, avg 5 s of 12.3 s, about 43% left at
+  2 s and 35% at 3 s (honey 57% at 2 s, kibbeh 65% at 2.3 s), 0 shares, 0 saves; views 100% from Feed, none from the Reels
+  tab (honey 79%, kibbeh 75% at the same hour). A 0.67 s flash does not cover 3 s of raw food. Run the check, every reel.
 
 ## Tested video formats (read from the winners' own files, 2026-11-01; this outranks every untested style)
 Measured on the reels themselves (src/assets/videos/*.mp4 and the API files): cuts per second, shot length, frames.
