@@ -2,6 +2,7 @@
 
 Status: script only. NOT generated. The owner pastes it into Ads Studio himself (style: Cinematic story, his face
 photo and the book cover attached, product "The Edible Codex" picked).
+Seedance 2.5 version for the owner's unlimited generations on higgsfield.ai (2026-11-12): `no-secrets-seedance-30s.txt`.
 
 ## The formula it follows
 Big-brand ad films: one human conflict, the product arrives late as the answer, few words, one line to remember.
