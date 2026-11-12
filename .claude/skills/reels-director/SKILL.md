@@ -158,6 +158,12 @@ stiff script. Missing follows per video: analyse views, reach, saves, shares and
   reference, the prompt states the food's exact shape ("thin smashed beef covering the whole
   tortilla, not a patty"), and QA compares the food shape across clips before delivery.
 
+- No Secrets ad film (v3, posted as a trial to non-followers, 2026-11-12): retention about 90% at 1 s, 22% at 1.9 s,
+  11% from 5 s to the end (19 s); comment rate 2.6% ("higher"), reposts 0; Reels tab 90%. The cliff is exactly the
+  tablet close-up with the book cover and «٣٦١ وصفة؟!» (0.7-1.7 s): the product in second 1 reads as an ad and
+  three viewers in four leave; the crinkle cake first showed at 8.7 s. The 11% who stayed watched to the end and
+  commented. Rule: in an organic reel the book or any product never shows before the food; open on the food or the
+  reaction, the cover only at the end.
 - Account ranking (85 reels, read 2026-11-01, median 3,636 views; `content-studio/plan-week-2026-11-02.md`): hooks that
   state a food-science rule or "X is the mistake" with a number (Hollandaise Splits Above 65°C, Macarons Bake at 150°C
   Not 180°C, The Butter Between the Layers Is the Mistake) = 28 reels, median 1.6x and 8.7 s, against 0.9x and 7.8 s.
