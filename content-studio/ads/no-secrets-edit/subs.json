@@ -1,0 +1,41 @@
+{
+ "y": 1200,
+ "items": {
+  "s1a": {
+   "ar": "<span style=\"font-size:48px;line-height:1.2;-webkit-text-stroke:8px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 4px 12px rgba(0,0,0,.85)\"><b>٣٦١</b> وصفة؟</span>",
+   "en": "<span style=\"font-size:28px;-webkit-text-stroke:5px #000;text-shadow:0 0 10px rgba(0,0,0,.9)\"><b>361</b> recipes?</span>"
+  },
+  "s1b": {
+   "ar": "<span style=\"font-size:48px;line-height:1.2;-webkit-text-stroke:8px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 4px 12px rgba(0,0,0,.85)\">لأي حدا معه موبايل؟</span>",
+   "en": "<span style=\"font-size:28px;-webkit-text-stroke:5px #000;text-shadow:0 0 10px rgba(0,0,0,.9)\">For anyone with a phone?</span>"
+  },
+  "s2": {
+   "ar": "<span style=\"font-size:48px;line-height:1.2;-webkit-text-stroke:8px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 4px 12px rgba(0,0,0,.85)\">وصفات الشيف بتموت معه.</span>",
+   "en": "<span style=\"font-size:28px;-webkit-text-stroke:5px #000;text-shadow:0 0 10px rgba(0,0,0,.9)\">A chef's recipes die with him.</span>"
+  },
+  "s3a": {
+   "ar": "<span style=\"font-size:48px;line-height:1.2;-webkit-text-stroke:8px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 4px 12px rgba(0,0,0,.85)\">دوقها أول.</span>",
+   "en": "<span style=\"font-size:28px;-webkit-text-stroke:5px #000;text-shadow:0 0 10px rgba(0,0,0,.9)\">Taste it first.</span>"
+  },
+  "s3b": {
+   "ar": "<span style=\"font-size:48px;line-height:1.2;-webkit-text-stroke:8px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 4px 12px rgba(0,0,0,.85)\">بعدين قلّي إنها لازم تموت.</span>",
+   "en": "<span style=\"font-size:28px;-webkit-text-stroke:5px #000;text-shadow:0 0 10px rgba(0,0,0,.9)\">Then tell me it should die.</span>"
+  },
+  "s4": {
+   "ar": "<span style=\"font-size:48px;line-height:1.2;-webkit-text-stroke:8px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 4px 12px rgba(0,0,0,.85)\">إنت عملت هاي؟</span>",
+   "en": "<span style=\"font-size:28px;-webkit-text-stroke:5px #000;text-shadow:0 0 10px rgba(0,0,0,.9)\">You made this?</span>"
+  },
+  "s5a": {
+   "ar": "<span style=\"font-size:48px;line-height:1.2;-webkit-text-stroke:8px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 4px 12px rgba(0,0,0,.85)\">لا يا شيف.</span>",
+   "en": "<span style=\"font-size:28px;-webkit-text-stroke:5px #000;text-shadow:0 0 10px rgba(0,0,0,.9)\">No, Chef.</span>"
+  },
+  "s5b": {
+   "ar": "<span style=\"font-size:48px;line-height:1.2;-webkit-text-stroke:8px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 4px 12px rgba(0,0,0,.85)\">هي عملتها.</span>",
+   "en": "<span style=\"font-size:28px;-webkit-text-stroke:5px #000;text-shadow:0 0 10px rgba(0,0,0,.9)\">She did.</span>"
+  },
+  "s5c": {
+   "ar": "<span style=\"font-size:48px;line-height:1.2;-webkit-text-stroke:8px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 4px 12px rgba(0,0,0,.85)\">من <b>كتابي</b>.</span>",
+   "en": "<span style=\"font-size:28px;-webkit-text-stroke:5px #000;text-shadow:0 0 10px rgba(0,0,0,.9)\">From <b>my book</b>.</span>"
+  }
+ }
+}
