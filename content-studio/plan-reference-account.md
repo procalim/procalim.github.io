@@ -2,7 +2,8 @@
 Owner: «في خطة بديلة مضمونة نشتغل زي دي فيديوهاتها قصيرة وحلوة ... منحط الفيديو تبعها مع صورتي وصورت مطبخي نفس
 الوصفة ونفس الثواني ونفس الحركة ... وكل وصفة جديدة الان pdf جديد ... شنو رأيك»
 Reference account: @fiteat.rima (Rima fit food), 336K followers, 191 posts, sells a 70-recipe high-protein cookbook.
-Status: proposal recorded; the owner decides how close the copy goes (see "Decision" below).
+Status: DECIDED by the owner (2026-11-12): option A, her reel as the motion reference, a new video made in our
+kitchen with his face and our recipe wording («احنا عم نعمل فيديو جديد من مطبخنا بنفس الوصفة»).
 
 ## What the owner proposes
 1. Her reel as the motion reference in Seedance 2.5 (video_edit / motion control), with his face (@Image1) and his
@@ -39,3 +40,12 @@ Either way: one video per reference reel, logged in generation-log with her view
 ## The new PDF
 New recipes from this work go to book-additions/ (owner approval, halal check, our wording), then into a new PDF
 of new recipes with its own cover and one image per recipe, made from our footage or generated in our style.
+
+## Working rules for option A (from the owner's decision)
+- Her reel gives the motion, the timing and the shot order; the footage is always new: his face (@Image1), his
+  kitchen (@Image2), our plate and props.
+- Not copied: her caption, her on-screen text and hook wording, her cover photo. The hook comes from our tested bank;
+  the cover is our own plate in the same style.
+- The recipe is written in our words with our quantities, halal-checked, saved to book-additions/ for approval.
+- Inputs from the owner: her reels tab screenshots with views (Instagram is closed to this session), then each
+  reference reel as a file. Generation on higgsfield.ai with his unlimited; the edit and package here.
