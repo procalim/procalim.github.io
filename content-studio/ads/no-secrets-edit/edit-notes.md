@@ -2,10 +2,32 @@
 Source: the owner's own generation on higgsfield.ai, job 2da9d8da (Seedance 2.5, 20 s, 4K 2160x3840 HEVC 24 fps,
 bitrate high, audio on, his voice recording as the audio reference, the Chef-Ahmad element), from
 `../no-secrets-seedance-20s.txt`. Unlimited generation, 0 credits.
-Edited in the Higgsfield sandbox (`edit_ad.py`, then `compose_ad.py`), 0 credits.
-Final: https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/9e30efd4-92ad-42ca-8474-319a259426c9.mp4
-(media 9e30efd4-92ad-42ca-8474-319a259426c9), 1080x1920, H.264 24 fps, 21.25 s (18.75 s film + 2.5 s end card),
-AAC stereo 192k.
+Edited in the Higgsfield sandbox, 0 credits.
+
+## v2 (2026-11-12, the one to use): https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/0079c609-b88a-4ba5-8358-bfc5193770c2.mp4
+Media 0079c609-b88a-4ba5-8358-bfc5193770c2, 1080x1920, H.264 24 fps, 19.3 s (16.8 s film + 2.5 s end card), AAC stereo,
+-15.3 LUFS, -2.6 dBTP. Script `edit_v2.py` (needs `kin/` from `kinetic.mjs kinetic.json` and `endcard.mov` from
+`compose_ad.py`).
+Why: the owner's read of v1, «الفيديو ميت ... اعمل اقوى من هيك». What changed:
+- 14 shots instead of 10. The 4K wides give extra close-ups with no loss: the tablet cover on "361 recipes?", Ahmet
+  and Layla on "For anyone with a phone?", Ahmet on "No, Chef.", Layla on "She did.".
+- The slam hits: a punch-in, a shake, a white flash and a heavy impact. Snap zoom with a low boom when Nabil's eyes
+  widen. Punch-ins on the fork and on the tablet turning face up. The dish slide at 1.25x, the notebook at 1.1x, the
+  tablet flip at 1.15x.
+- Subtitles: Arabic only, 62 px, word by word as he says them (each new word pops for 2 frames), gold on ٣٦١, تندفن,
+  كتابي. Stronger Arabic: «وصفة الشيف... بتندفن معه.» and «وبعدين قلّي... لازم تندفن؟» (buried with him, the Arabic
+  idiom for a secret), «إنت اللي عملتها؟!». Close-ups carry the line under the chin (y 1420); on the tablet shot it
+  sits above the tablet (y 580) so it never covers the cover.
+- Sound: a low drone with a slow pulse, a heartbeat under Nabil's reaction, near silence before "You made this?",
+  a riser into "From my book" with a boom on the word, a whoosh and a hit on the tablet, a boom on the end card. The
+  music and effects duck under every line (sidechain), so the dialogue stays on top.
+- Known: the generated voice says "three-sixty-one" fast; Whisper hears "161" even on the untouched source. The
+  subtitle ٣٦١ and the cover's "361 Recipes" carry the number.
+
+## v1 (replaced)
+https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/9e30efd4-92ad-42ca-8474-319a259426c9.mp4
+(media 9e30efd4-92ad-42ca-8474-319a259426c9), `edit_ad.py` then `compose_ad.py`, 1080x1920, 21.25 s (18.75 s film +
+2.5 s end card), AAC stereo 192k.
 
 ## The read (errors first)
 - Nabil's chef jacket carries "EDIBLE CODEX" on the chest (shots at 3.9-5.7 s and 15.8-17.2 s of the edit): the man
