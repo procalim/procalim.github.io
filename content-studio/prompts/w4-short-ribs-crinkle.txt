@@ -1,60 +1,43 @@
-Golden-Seared Herb Short Ribs, the crinkle way (owner, 2026-11-13: «زي الكرينكل من أول الفيديو ببين الصينية بتغلي، بسحب العظم
-من الكل وببلش افرط باللحمة تفغيص، بنفس زاوية الكاميرا بدون تغيير»; «الصوت قوي من أول لآخر الفيديو والصوص لونو ذهبي»).
-Rewritten from scratch (owner on the one-shot version: «شغلك خرة شوف الفيديو ارجع اكتب البرومبت من اول وجديد»). The one-shot
-read «بنفس زاوية الكاميرا بدون تغيير» as one locked camera with no video reference; it means the crinkle's own camera angles,
-cuts and timing, unchanged.
+Golden-Seared Herb Short Ribs, the crinkle's first angle held for the whole reel (owner, 2026-11-13: «بدي نفس أول زاوية
+الكرنكل ضل ثابتة لنهاية الفيديو والصوت طول الفيديو وبسحب العظم بدون ما اطلع اللحمة برة وبفغص هيك»; earlier: «الصوت قوي من
+أول لآخر الفيديو والصوص لونو ذهبي»).
+History: v1 (one locked shot, no video reference) rejected: «شغلك خرة شوف الفيديو ارجع اكتب البرومبت من اول وجديد».
+v2 (the crinkle's 9 cuts) replaced by this, on the owner's answer above.
 Status: NOT generated. The owner generates it on higgsfield.ai with his unlimited (720p).
 Recipe: book-additions/golden-seared-herb-short-ribs.md (sent by the owner; the wine option dropped, halal).
 
 SETTINGS (on higgsfield.ai): Seedance 2.5, Omni reference, 14 s, 9:16, 720p (the unlimited), bitrate High, audio On.
-References: @Video1 = the Crinkle Cake reel (the copy he used for the pasta pie, 4017b231, or eae71780):
+References: @Video1 = the Crinkle Cake reel (the copy he used for the pasta pie, 4017b231, or eae71780), for its FIRST
+shot only (0.00-1.47: true top-down, the black tray lengthwise filling the frame, a thin black granite border, the bare
+hand coming in from the right):
   https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/eae71780-31e7-4758-baf5-b45cdc50a6c8.mp4
-@Image1 = his element photo (optional; on the pasta pie it brought his t-shirt and gloves into a medium shot).
+@Image1 = his element photo (optional; hands and forearms only in this reel).
 
-THE CRINKLE'S CUTS -> THE SHORT RIBS (the owner's order: the tray boiling, every bone out, the meat shredded by hand)
-| Crinkle shot (s) | Crinkle | Short ribs |
-|---|---|---|
-| 0.00-1.47 | top-down, the packed black tray, bare hand pressing | top-down, the same black tray: 10 golden-crusted short ribs boiling in the golden sauce, his bare hand presses one |
-| 1.47-2.97 | front at counter height, hand at the oven | front at counter height: the boiling tray on the granite, steam, his hand grips the first bone |
-| 2.97-4.40 | low macro across the rows, warm glow | low macro across the row of ribs: the golden sauce boiling between them, bubbles bursting |
-| 4.40-5.83 | macro, a finger touches the spikes | macro, his fingertip presses the meat: it splits and pulls away from the bone |
-| 5.83-7.93 | 45 degrees, the butter pours onto the tray | 45 degrees at the tray rim: he pulls the first bone out clean, golden sauce dripping off it in a thick ribbon; a hard clack on the granite |
-| 7.93-9.43 | the custard whisked in a black bowl, circles | close from above: he pulls the bones from all the other ribs, fast, and throws each into a black bowl, clack after clack |
-| 9.43-10.90 | the custard pours over the spikes | top-down on the tray, no bone left: both hands start pressing the meat apart |
-| 10.90-12.17 | through the oven glass, glowing | low and close at the tray rim: the shredded meat in the boiling golden sauce, steam |
-| 12.17-13.83 | the syrup pour, steam | close: both hands squeeze and tear a big piece, golden sauce running through his fingers, thick steam |
-
-CARDS FOR THE EDIT (the crinkle's beats; draft, for the owner's word)
+CARDS FOR THE EDIT (the crinkle's beats on one shot; draft, for the owner's word)
 | Card | Arabic / English |
 |---|---|
-| Title + hook (0 to the end of shot 2) | «شورت ريبس بالصوص الذهبي» / "Golden-Seared Herb Short Ribs" + «السكينة هي الغلطة» / "The knife is the mistake" |
-| The proof (shot 4 into the first bone) | «لسا ولا سكينة» / "Still not a knife" |
+| Title + hook (0-2.9 s) | «شورت ريبس بالصوص الذهبي» / "Golden-Seared Herb Short Ribs" + «السكينة هي الغلطة» / "The knife is the mistake" |
+| The proof (the first bones) | «لسا ولا سكينة» / "Still not a knife" |
 | The right way (the bones out) | «هون بيطلع العظم. لحالو، بعد ٣ ساعات بالفرن» / "Here it goes. The bone slides out on its own after 3 hours." |
-| That is all (the shredding) | «تحمير، فرن، صوص ذهبي. وبس» / "Seared, braised, glazed. That is all." |
-| The question (the last shot to the end) | «لسا بتقطع الشورت ريبس بالسكينة؟» / "Still cutting short ribs with a knife?" |
+| That is all (the squeezing) | «تحمير، فرن، صوص ذهبي. وبس» / "Seared, braised, glazed. That is all." |
+| The question (to the end) | «لسا بتقطع الشورت ريبس بالسكينة؟» / "Still cutting short ribs with a knife?" |
 (Recipe step 3.4: "until the meat is fork-tender and pulling away from the bone".)
 
 ===== PROMPT =====
-A vertical 9:16 photoreal food reel of Golden-Seared Herb Short Ribs, exactly 14 seconds, no text.
+A vertical 9:16 photoreal food reel of Golden-Seared Herb Short Ribs, exactly 14 seconds, ONE continuous shot with no cuts, no text.
 
-REFERENCE VIDEO (@Video1): copy its exact cut rhythm and timing, its camera angles, heights and framing shot by shot, unchanged, its calm locked camera and slow slides, its light, its black kitchen, and the same black rectangular baking tray in every tray shot. Never copy its food or its oven: no phyllo, no spikes, no butter, no custard, no eggs, no whisk, no syrup, no oven, no oven glass. Every shot below shows the short ribs in the tray on the counter.
+CAMERA (@Video1): copy ONLY the first shot of @Video1: its exact true top-down angle, height and framing, the same black rectangular baking tray lying lengthwise up the frame and filling most of it with a thin border of black granite around it, its light, and the bare hand coming in from the right edge. Hold that one angle, locked on a tripod, for the whole 14 seconds: never cut, never move, never zoom, never change the angle. Copy nothing after its first shot and never its food: no phyllo, no spikes, no butter, no custard, no eggs, no syrup, no oven.
 
-LOOK: photoreal live-action food cinematography, real meat, real physics, real steam. A private luxury kitchen, black from floor to ceiling: matte black cabinets, a honed black granite counter. Warm 2700 K tungsten only, one pendant pool raking from camera left, everything else falling to pure black. Deep blacks, golden highlights on the glossy sauce, fine film grain. Locked tripod or a slow slide of 12 cm at most. Meat tack sharp.
+LOOK: photoreal live-action food cinematography, real meat, real physics, real steam. Black granite and pure black around the tray; warm 2700 K tungsten from one pendant lamp at camera left, everything outside the light falling to pure black. Deep blacks, golden highlights on the glossy sauce, fine film grain. Meat tack sharp.
 
-COOK: only his bare clean hands and forearms, the sleeves of a matte black chef jacket rolled up; never gloves, no face.
+COOK: only his bare clean hands and forearms, coming in from the right edge as in @Video1, the sleeves of a matte black chef jacket rolled up; never gloves, no face.
 
-FOOD (the same in every shot, never change): exactly 10 thick bone-in beef short ribs, English cut, in two rows of five in the black rectangular tray, each with a deep golden-brown seared crust; they sit in a glossy golden demi-glace, the colour of honey, that shines like liquid gold and boils with big bubbles the whole time, steam rising; the meat is so tender it falls apart; the bones come out clean and pale. Beef short ribs only, never chicken, never lamb chops.
+FOOD (the same for the whole 14 seconds): exactly 10 thick bone-in beef short ribs, English cut, packed in two columns of five down the length of the black tray, each a thick block of meat with a deep golden-brown seared crust on one flat bone; they sit in a glossy golden demi-glace, the colour of honey, that shines like liquid gold and boils with big bubbles the whole time, steam rising; the meat so tender that every bone slides out clean and pale. Beef short ribs only.
 
-0.0-1.5s: True top-down on the black rectangular tray, frame one already moving and loud: the 10 golden-crusted short ribs boiling hard in the golden sauce with a loud bubbling sizzle, steam rising; his bare hand presses down on one rib.
-1.5-3.0s: Front view at counter height, as in the second shot of @Video1, but the tray stands on the black granite counter, no oven: the golden sauce boiling around the 10 short ribs, thick steam; his bare hand grips the first bone.
-3.0-4.4s: Low macro across the row of short ribs, warm light raking: the golden sauce boils between the ribs, bubbles bursting on the glossy crust.
-4.4-5.8s: Extreme macro: his bare fingertip presses the meat of one short rib; the tender meat splits and pulls away from the bone, golden sauce welling up.
-5.8-7.9s: 45-degree low angle at the tray rim: he pulls the first bone out of the short rib clean in one pull, a thick ribbon of golden sauce dripping off it, and knocks it down hard on the black granite with a loud sharp clack.
-7.9-9.4s: Close from above: his bare hands pull the bones out of all the other short ribs one after another, fast, and throw each into a black stoneware bowl beside the tray, a loud hard clack with every bone, until all 10 are out.
-9.4-10.9s: True top-down on the black tray, no bone left: both bare hands press into the boneless short rib meat and start pulling it apart in the boiling golden sauce.
-10.9-12.2s: Low and close at the tray rim: the meat torn into thick tender shreds in the boiling golden sauce, his fingers pulling the fibres apart, steam rising.
-12.2-14.0s: Close at the tray: both bare hands squeeze and tear a big piece of short rib meat, the glossy golden sauce running through his fingers, thick steam rising, a loud wet tearing. No cut to black.
+0.0-1.5s: Frame one already moving and loud: the 10 golden-crusted short ribs boiling hard in the golden sauce with a loud bubbling sizzle, steam rising; his bare hand comes in from the right and grips the first bone.
+1.5-8.0s: He pulls the bones out of all 10 short ribs, one after another, fast: his other hand holds the meat down in the tray while each bone slides out of it clean with a wet pull, and he knocks each bone down on the granite at the edge of the frame with a loud hard clack. The meat never leaves the tray; it stays in its place in the boiling golden sauce.
+8.0-14.0s: With both bare hands he squeezes the boneless meat right in the tray, pressing and squeezing it apart into thick tender shreds in the boiling golden sauce, a loud wet squelch with every squeeze, the fibres separating, the glossy golden sauce running through his fingers, steam rising. No cut to black.
 
-AUDIO: loud from the first frame to the last, never a quiet moment, only real close-mic sound of what is on screen: the golden sauce bubbling and sizzling in every shot, the wet pull of each bone, the hard clack of each bone on the granite and in the bowl (the loudest), the loud wet squelch and tearing of the meat. No music, no voice.
+AUDIO: loud from the first frame to the last, never a quiet moment, only real close-mic sound of what is on screen: the golden sauce bubbling and sizzling the whole 14 seconds, the wet pull of each bone, the hard clack of each bone on the granite (the loudest), the loud wet squelch of the meat squeezed. No music, no voice.
 
-AVOID: phyllo, spikes, butter, custard, eggs, a whisk, syrup, an oven, oven glass, a round pan, a pot, a plate, gloves, a face, a white kitchen, marble, wood, labels, packaging, logos, text, wine, alcohol, pork, burnt meat, raw meat, a dark brown or red sauce, vegetables, herbs, extra fingers, deformed hands.
+AVOID: cuts, a second angle, camera moves, zooms, meat lifted out of the tray, phyllo, spikes, butter, custard, eggs, a whisk, syrup, an oven, a round pan, a pot, a plate, a bowl, gloves, a face, a white kitchen, marble, wood, labels, packaging, logos, text, wine, alcohol, pork, burnt meat, raw meat, a dark brown or red sauce, vegetables, herbs, extra fingers, deformed hands.

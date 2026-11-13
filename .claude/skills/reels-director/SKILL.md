@@ -82,6 +82,9 @@ Every new reel, the crinkle way:
 Proven (2026-11-13, 2 h): the Honeycomb Pasta Pie in the crinkle way had skip 31.0% and avg watch 8.84 s (74%), about
 84% still watching at 2 s and 39% at the end, against 59-62% skip for the three reels before it. Owner: «لقينا الخطة».
 Shares were 0: the next lever, inside the crinkle way.
+One-angle variant (owner, 2026-11-13, short ribs): «نفس أول زاوية الكرنكل ضل ثابتة لنهاية الفيديو». The crinkle reel stays
+@Video1, with "copy ONLY its first shot" (true top-down, the tray lengthwise filling the frame, the hand from the right),
+held as one locked shot; the cards keep the crinkle's beats. Without the reference the angle is not the crinkle's.
 Open (owner to decide): the cook's look. The crinkle had bare hands and a black chef jacket; rule 4 above says black
 gloves, white t-shirt and apron. Ask once; until he answers, rule 4 stands.
 
