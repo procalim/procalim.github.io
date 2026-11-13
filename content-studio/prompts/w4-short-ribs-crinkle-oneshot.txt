@@ -1,0 +1,33 @@
+Braised Short Ribs, the crinkle way in one shot (owner, 2026-11-13: «زي الكرينكل من أول الفيديو ببين الصينية بتغلي، بسحب العظم
+من الكل وببلش افرط باللحمة تفغيص، بنفس زاوية الكاميرا بدون تغيير»).
+Status: NOT generated. The owner generates it on higgsfield.ai with his unlimited (720p).
+The video shows no recipe step before the tray comes out bubbling, so it claims nothing about the book's method. The
+caption needs the book's short ribs page (not in the book text here: ask the owner for the page before writing it).
+
+SETTINGS: Seedance 2.5, 12 s, 9:16, 720p (unlimited), bitrate High, audio On.
+References: @Image1 = his element photo (hands and forearms). No video reference: this reel is one locked shot, and
+the crinkle reel leaked its phyllo spikes into two takes (chickpea bark, potato nests); the crinkle's opening angle,
+tray and light are written into the prompt instead. Second try if the look is off: add the crinkle reel as @Video1 and
+keep "copy only its first shot".
+
+THE CRINKLE'S OPENING, KEPT: true top-down, locked; the black rectangular tray on black granite; one warm 2700 K
+pendant from camera left, everything else black; bare hands; the loudest sound early and a sound on every action.
+
+===== PROMPT =====
+A vertical 9:16 photoreal food reel, exactly 12 seconds, ONE continuous shot with no cuts and no camera movement.
+
+CAMERA: a true 90-degree top-down view, locked on a tripod for the whole 12 seconds, never moving, never cutting, never zooming. The black rectangular baking tray fills the middle of the frame on a honed black granite counter.
+
+LOOK: photoreal live-action food cinematography, real meat, real physics, real steam. A black kitchen; warm 2700 K tungsten from one pendant lamp at camera left, everything outside the light falling to pure black. Deep blacks, golden highlights on the glossy sauce, fine film grain. Meat tack sharp.
+
+COOK: only his bare clean hands and forearms from the top of the frame, the sleeves of a matte black chef jacket rolled up; no face.
+
+FOOD: exactly 10 braised beef short ribs in two rows of five in the black tray, each a thick block of dark glazed meat on one flat bone, sitting in a glossy dark brown braising sauce that bubbles and steams; the meat so tender it falls apart; the bones come out clean and pale.
+
+0.0-1.0s: Frame one already moving: the sauce bubbling hard around the 10 short ribs, thick steam rising; his bare hand reaches in and grips the first bone.
+1.0-7.0s: He pulls the bones out one after another, fast, with both hands: each bone slides out of the meat clean with a wet pull, and he knocks it down hard on the black granite beside the tray with a loud sharp clack, the loudest sound of the reel; the pile of clean bones grows beside the tray, all 10 out.
+7.0-12.0s: With both hands he presses and pulls the boneless meat apart into thick tender shreds right in the bubbling sauce, the fibres separating, the glossy sauce coating every shred. No cut to black.
+
+AUDIO: only real close-mic sound of what is on screen: the sauce bubbling, the wet pull of each bone, the hard clack of each bone on the granite (the loudest), the soft tearing of the meat. No music, no voice.
+
+AVOID: cuts, a second angle, camera moves, zooms, a face, gloves, a round pan, a white kitchen, marble, wood, phyllo, spikes, labels, packaging, logos, text, wine, alcohol, pork, burnt meat, raw meat, extra fingers, deformed hands.
