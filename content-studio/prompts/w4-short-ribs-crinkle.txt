@@ -10,7 +10,11 @@ v4 (this): the angle comes from a FIRST FRAME, not from a video reference. Step 
 own first frame (research/crinkle-first-angle-9x16.jpg, cropped from the owner's screenshot); step 2 animates it with the
 camera locked. The squeeze follows the owner's action reference (ALMASKOOF_2.mp4, another account's reel, action only):
 a whole piece grabbed in the fist and squeezed until it bursts into fibres, steam rising.
-Status: NOT generated. The owner generates both steps on higgsfield.ai.
+Take 2 (job 37deab2c, v4, the owner's first frame 0dcea38d): the angle right, true top-down and locked for 14 s; from 1 to 5 s
+whole ribs leave the tray with the meat (10 blocks down to 5, the lower half of the tray empty at 5-6 s); from 6 s both hands
+squeeze a rib above the tray and the meat bursts into fibres into the sauce (right); 4 ribs keep their bones to 10 s.
+v5 (this): only the 1-6 s line (the meat held down, only the bone out), the 6 s line (both hands) and the AVOID changed.
+Status: v5 NOT generated. Step 1 is done (first frame 0dcea38d); the owner generates step 2 on higgsfield.ai.
 Recipe: book-additions/golden-seared-herb-short-ribs.md (sent by the owner; the wine option dropped, halal).
 
 ===== STEP 1: THE FIRST FRAME (image edit) =====
@@ -31,9 +35,9 @@ CAMERA: the exact angle, height and framing of @Image1 from the first frame to t
 FOOD: the 10 golden-crusted bone-in beef short ribs of @Image1 in the glossy golden sauce, the colour of honey; the sauce boils with big bubbles and steams the whole time; the meat so tender that every bone slides out clean and pale and the meat bursts apart when squeezed.
 
 0.0-1.0s: Frame one already moving and loud: the golden sauce boiling hard around the 10 short ribs, steam rising; his bare hand grips the first bone.
-1.0-6.0s: Both bare hands pull the bones out of all 10 short ribs, fast, one after another: each bone slides out clean with a wet pull while the meat stays in its place in the tray, and he knocks each bone down on the granite beside the tray, out of frame, with a loud hard clack.
-6.0-14.0s: He grabs a whole piece of boneless short rib meat in his bare fist, lifts it a little above the golden sauce and squeezes it hard: the meat collapses and bursts into tender fibres through his fingers and falls back into the boiling sauce, steam rising; then the next piece with the other hand, again and again, the glossy golden sauce running through his fingers. No cut to black.
+1.0-6.0s: One rib after another, fast: his left hand presses the block of meat flat down into the tray and holds it there while his right hand pulls its bone out sideways, clean, with a wet pull; the meat stays in its place in the golden sauce, never lifted. He drops each bone onto the granite below the tray with a loud hard clack. At 6.0 s all 10 blocks of meat are still in the tray; only the bones are gone.
+6.0-14.0s: He grabs one boneless block of short rib meat from the tray in both bare hands, lifts it a little above the golden sauce and squeezes it hard: the meat collapses and bursts into tender fibres through his fingers and falls back into the boiling sauce, steam rising; then the next piece with the other hand, again and again, the glossy golden sauce running through his fingers. No cut to black.
 
 AUDIO: loud from the first frame to the last, never a quiet moment, only real close-mic sound of what is on screen: the golden sauce bubbling and sizzling the whole 14 seconds, as loud as the bones, the wet pull of each bone, the hard clack of each bone on the granite, the loud wet squelch of every squeeze. No music, no voice.
 
-AVOID: cuts, camera moves, zooms, a push-in, a second angle, a side view, a lamp or light bulb in frame, gloves, a face, a sleeve covering the hand, meat lifted out of the frame, a plate, a bowl, a pot, a round pan, pasta, spikes, a white kitchen, marble, wood, labels, logos, text, wine, alcohol, pork, burnt meat, raw meat, a dark brown or red sauce, vegetables, herbs, extra fingers, deformed hands.
+AVOID: a whole rib lifted out of the tray, meat leaving the tray, an empty half of the tray, cuts, camera moves, zooms, a push-in, a second angle, a side view, a lamp or light bulb in frame, gloves, a face, a sleeve covering the hand, meat lifted out of the frame, a plate, a bowl, a pot, a round pan, pasta, spikes, a white kitchen, marble, wood, labels, logos, text, wine, alcohol, pork, burnt meat, raw meat, a dark brown or red sauce, vegetables, herbs, extra fingers, deformed hands.
