@@ -94,6 +94,13 @@ Second read of the pasta pie (2026-11-13, screenshot 7:11): skip 34.8%, avg 8 s;
 (-17 more; the card changes to the proof at 2.96 s and the sound is the reel's quietest at 3.0-4.0 s, 62-63 dB against a
 median of 71). Owner: «موت شوي بثواني بعد الثلاث وهي الريهووك صوت». From now: the sound levelled with no quiet second
 (the short ribs build: QUIET 0).
+One-angle step-by-step (owner, 2026-11-13, an idea on top of the crinkle way): «ثبات بزاوية الكاميرا الاولى الكرنكل من فوق،
+والستيب باي ستب بروح وباجي، الكاميرا ثابت من فوق، والصوت مضخم طول الفيديو». One locked top-down shot from a first frame
+(the crinkle's own first frame, or an edit of it with the new food); the steps come and go in front of the camera (hands in
+and out, the tray out of frame and back baked in the same place); a loud sound in every frame, levelled in the edit.
+First: prompts/w4-spinach-lentil-crinkle-oneangle.txt.
+Oven leak (four pizza takes, 2026-11-13): with the crinkle reel as @Video1, its oven shots (2, 3) bring its phyllo peaks
+whatever the prompt says; the edit cuts them (as on the chickpea bark). Naming the food in every shot fixed the other shots.
 Open (owner to decide): the cook's look. The crinkle had bare hands and a black chef jacket; rule 4 above says black
 gloves, white t-shirt and apron. Ask once; until he answers, rule 4 stands.
 

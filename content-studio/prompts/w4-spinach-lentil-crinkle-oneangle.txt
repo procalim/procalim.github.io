@@ -1,0 +1,49 @@
+Spinach & Lentil Crinkle (healthy series day 2), the one-angle step-by-step method (owner, 2026-11-13: «ثبات بزاوية الكاميرا
+الاولى الكرنكل من فوق، والستيب باي ستب بروح وباجي، الكاميرا ثابت من فوق، والصوت ... مضخم طول الفيديو»).
+Recipe: book-additions/spinach-lentil-crinkle.md (new, untested, owner-approved).
+Method: the short ribs' one locked shot (the first frame held the crinkle's first angle; the video reference did not), with
+the recipe's steps coming and going in front of the camera: hands in and out, the tray out of frame and back in the same
+place, baked. The first frame is the crinkle's own first frame (research/crinkle-first-angle-9x16.jpg): it already shows
+step 3 of this recipe (raw phyllo ruffles packed upright in the black tray, his hand pressing), so no image edit is needed.
+Status: NOT generated. The owner generates on higgsfield.ai with his unlimited (720p).
+
+SETTINGS: Seedance 2.5, 14 s, 9:16, 720p, bitrate High, audio On. @Image1 = research/crinkle-first-angle-9x16.jpg as the
+START FRAME. No video reference.
+
+===== PROMPT =====
+@Image1 is the first frame. A vertical 9:16 photoreal food reel of a Spinach and Lentil Phyllo Crinkle, exactly 14 seconds, ONE continuous shot, no text.
+
+CAMERA: the exact angle, height and framing of @Image1 from the first frame to the last: true top-down, locked on a tripod, the black rectangular tray always in the same place. Never cut, never move, never zoom, never tilt. The steps happen in front of the locked camera: his hands come into the frame, do a step and leave; the tray slides out of the frame and comes back into exactly the same place.
+
+LOOK: the light and surface of @Image1: honed black granite, warm light, everything around falling to black. Photoreal live-action food cinematography, real food, real physics, real steam. Food tack sharp.
+
+COOK: only his bare clean hands and forearms; never gloves, no face.
+
+FOOD (the same tray the whole time): the pale phyllo sheets of @Image1, scrunched into ruffles standing upright, packed tight in rows; a filling of dark-green chopped spinach, orange-red cooked red lentils and small pieces of red pepper flecked with black nigella seeds; a creamy egg-and-yogurt custard; lemon halves; red sumac. Vegetarian, halal.
+
+0.0-2.0s: Frame one already moving and loud: his bare hand presses the last pale phyllo ruffle into the packed rows, the dry phyllo crackling loudly.
+2.0-4.5s: Both hands push spoonfuls of the dark-green spinach and red-lentil filling down into the folds between the ruffles, row by row, until green fills every gap, with loud wet spoon sounds.
+4.5-5.5s: His hands slide the tray down out of the frame; for a split second only the black granite; then the same tray slides back into exactly the same place, baked: the ruffle tips crisp and golden with the green filling between them; it lands with a loud clack.
+5.5-6.5s: His fingertip taps the crisp golden ruffle tips: a loud dry crackle; not a drop of custard yet.
+6.5-9.0s: A thick stream of creamy egg-and-yogurt custard pours from a jug over the ruffles and sinks into the folds, a loud glugging pour.
+9.0-10.0s: The tray slides out of the frame and back into exactly the same place, baked: the custard set and golden between deep-golden crisp ruffles, steam rising; a loud clack.
+10.0-11.5s: His hand squeezes half a lemon over the tray, the juice dripping and sizzling on the hot ruffles; a pinch of red sumac falls.
+11.5-14.0s: A knife cuts down through the crisp ruffles with a loud crunch and lifts one square: crisp golden phyllo on top, green spinach, red lentils and set custard inside, steam rising. No cut to black.
+
+AUDIO: amplified, loud, real close-mic sound in every frame from the first to the last, never a quiet moment: the phyllo crackle, the wet filling, the tray clacks, the fingertip crackle, the glugging pour, the lemon sizzle, and the knife crunching through the crisp phyllo, the loudest. No music, no voice.
+
+AVOID: cuts, camera moves, zooms, a second angle, a side view, an oven, a lamp or light bulb in frame, butter, syrup, sugar, a sweet glaze, gloves, a face, pasta, meat, pork, wine, alcohol, labels, logos, text, a white kitchen, marble, wood, burnt phyllo, runny egg, silence, extra fingers, deformed hands.
+
+===== THE PDF RECIPE IMAGE =====
+Model: Nano Banana Pro (or GPT image), 4:5. Prompt:
+
+A photoreal overhead food photograph of a baked spinach and lentil phyllo crinkle in a black rectangular baking tray on a honed black granite counter, warm 2700 K tungsten light raking from the left, everything outside the light falling to pure black, deep blacks and golden highlights. Crisp deep-golden phyllo ruffles standing packed in rows, set golden custard between them with dark-green spinach and orange-red lentils showing, a dusting of red sumac and black nigella seeds. One square lifted at the front corner with a knife, showing the green filling and the set custard inside, a thin wisp of steam. Two lemon halves and a glass of water beside the tray, no tea. Bare hand holding the knife from the right edge, sleeve of a matte black chef jacket. Fine film grain, food tack sharp. No text, no logos.
+
+===== CARDS FOR THE EDIT (the crinkle's beats; draft) =====
+| When | Card |
+|---|---|
+| 0.0-2.9 | title "Spinach & Lentil Crinkle" / «كرنكل السبانخ والعدس» + hook "Tea after it is the mistake" / «الشاي بعد الأكل هو الغلطة» |
+| the fingertip | «لسا ولا نقطة كاسترد» / "Still not a drop of custard" |
+| the pour | «هون بتنزل. بعد الفرن» / "Here it goes. After the bake." |
+| the lemon | «ليمون عليها، والشاي بعد ساعة» / "Lemon on it. Tea an hour later." |
+| the knife to the end | «ابعتها لصاحبتك اللي حديدها واطي» / "Send this to a friend who's low on iron" |
