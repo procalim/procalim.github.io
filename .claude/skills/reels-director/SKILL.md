@@ -79,6 +79,9 @@ Every new reel, the crinkle way:
    Then the checks below (pre-publish, opening, phone check).
 5. Generation: the owner's unlimited on higgsfield.ai renders 720p only; anything higher costs credits. Keep 720p and
    upscale to 1080x1920 in the edit, unless he asks for credits.
+Proven (2026-11-13, 2 h): the Honeycomb Pasta Pie in the crinkle way had skip 31.0% and avg watch 8.84 s (74%), about
+84% still watching at 2 s and 39% at the end, against 59-62% skip for the three reels before it. Owner: «لقينا الخطة».
+Shares were 0: the next lever, inside the crinkle way.
 Open (owner to decide): the cook's look. The crinkle had bare hands and a black chef jacket; rule 4 above says black
 gloves, white t-shirt and apron. Ask once; until he answers, rule 4 stands.
 
