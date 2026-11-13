@@ -1,7 +1,7 @@
 Sweet Potato Steak Bites: the outside-account plan, reel 1 (owner, 2026-11-13: «منطبق استراتيجية مضمونة من برة حساب قوي»).
 Read: research/rima-reverse-engineer-2026-11-13.md. Her number one reel (16.4M plays, 34,828 comments), the same family
 as our only breakout in 30 days (the stuffed sweet potato patties, 36,392 views, made with her reel as the motion).
-Recipe: book-additions/sweet-potato-steak-bites.md (new, untested; needs the owner's approval for the book).
+Recipe: book-additions/sweet-potato-steak-bites.md (new, untested; owner-approved for the new PDF, 2026-11-13).
 Status: NOT generated. The owner generates on higgsfield.ai with his unlimited (720p). No generation from Claude Code
 without «ولد».
 
@@ -78,3 +78,8 @@ Speeds are set from the measured source motion, as on every edit. The target is 
 - No payoff flash at the start: her order.
 - Sound: the house chain, -14.5 LUFS, no quiet moment (her steak reel ran a constant bed at -14.1).
 - Check with pp.py: DEAD 0, QUIET 0.
+
+===== THE PDF RECIPE IMAGE =====
+Model: Nano Banana Pro (or GPT image), 4:5. Prompt:
+
+A photoreal overhead food photograph of 4 sweet potato steak bites on a white plate with a thin gold rim, on a black marble counter with fine gold veins, warm 2700 K tungsten light raking from the left, everything outside the light falling to pure black, deep blacks and golden highlights. Each one is a round bright-orange sweet potato cup about 9 cm wide with a thick raised rim, deep golden at the edges, filled with seared beef steak cubes pink in the centre, blistered red cherry tomatoes, soft red onion, fanned green avocado slices and fresh dill. A thick pale-green yogurt herb sauce poured over the front one, running down its side; a small glass bowl of the same sauce at the top of the plate. A black-gloved hand lifting the front cup slightly from the right edge. Fine film grain, food tack sharp. No text, no logos, no glassware but the small sauce bowl.

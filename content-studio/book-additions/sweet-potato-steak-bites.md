@@ -1,8 +1,8 @@
 # Sweet Potato Steak Bites (new recipe for the new PDF; outside-account plan, reel 1)
 Source: fiteat.rima's reel Dcb5mjNtz8O (16.4M plays, 24 Aug 2026), read frame by frame 2026-11-13, written in our own
 words. Her caption does not give the recipe ("comment recipe"), so the quantities here are ours.
-NOT in the book; needs the owner's approval before any caption calls it a book recipe.
-UNTESTED: quantities and oven times are starting points. Macros are estimates. Makes 4 cups.
+Owner approval (2026-11-13): «موافق عالوصفة»: goes into the new PDF. Not in the printed book yet, so no caption calls it
+a book recipe. UNTESTED: quantities and oven times are starting points. Macros are estimates. Makes 4 cups.
 
 ## Ingredients
 The cups

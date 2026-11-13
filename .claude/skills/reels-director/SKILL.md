@@ -132,7 +132,7 @@ How to pick the next reel:
 7. Read each reel at 24 h against the sweet potato: 23K at 21.5 h, 8.7 shares per 1K reach.
 
 Comments are her engine: 25-35K on her top reels, because each comment keyword gets something free (the recipe, a PDF).
-Ours gets the book link ("No free recipes" below stands until the owner changes it).
+Owner, 2026-11-13: ours now sends the reel's recipe free plus the book link (see "The comment keyword" below).
 First reel: `content-studio/prompts/w4-sweet-potato-steak-bites-ref.txt` (her 16.4M Steak Bites).
 
 ## THE WORKFLOW, STEP BY STEP (owner's call, 2026-11-10; read this first, every request)
@@ -396,13 +396,23 @@ edit to about 11-12 s. Cards: hook (2 lines, 6 words or fewer, a question the re
 move, CTA «الوصفة بأول تعليق. / احفظها» (owner's call: same as the sweet potato). First one:
 `content-studio/prompts/w1-kibbeh-nests-sp.txt`.
 
-## No free recipes (owner's call, 2026-11-05; every reel)
-The keyword never gets the recipe. It gets the ig-dm keyword delivery: the book link first
-(https://ediblecodex.com/shop/the-edible-codex), one line on what is inside (the dish step by step, 360 more halal
-recipes, Arabic and English, instant download, 30-day refund), one question they can answer in four words. No price.
-Every promise matches what is sent: the card says only the keyword («اكتب «دبي» 👇»), and the caption and pinned
-comment say "the link to the full recipe in my book", never "I'll send you the recipe". No recipe in the pinned
-comment. Example: `content-studio/week2/dubai-pistachios-dm-reply.txt`.
+## The comment keyword: the reel's recipe free, plus the book link (owner's call, 2026-11-13; every reel; replaces "No free recipes" of 2026-11-05)
+Owner: «ابعت الوصفة ببلاش مع رابط الكتاب». The reason, measured: fiteat.rima's keyword sends her recipe free, and her top
+reels get 25-35K comments; ours sent the book link only and got 0-1 (research/rima-reverse-engineer-2026-11-13.md).
+
+The keyword gets two DMs:
+1. **This reel's recipe, free.** The quantities and the steps, under 1,000 characters (Instagram's DM limit). Only this reel's recipe, never other recipes from the book.
+2. **The book link** (https://ediblecodex.com/shop/the-edible-codex):
+   - one line on what is inside (361 halal recipes, Arabic and English, instant download, 30-day refund);
+   - one question they can answer in four words;
+   - no price.
+
+Language: the English keyword gets the English pair, the Arabic keyword («ستيك») the Arabic pair.
+
+Every promise matches what is sent: the card says only the keyword («اكتب «ستيك» 👇»); the caption and the pinned comment
+say "I'll send you the full recipe, plus the link to my book". No recipe in the pinned comment.
+
+Example: `content-studio/week4/sweet-potato-steak-bites-dm-reply.txt`.
 
 ## Engagement round before posting (owner's call, 2026-11-01; every reel)
 The problem was the audience, not the content. Same as the sweet potato: the round runs BEFORE the post, never
@@ -431,8 +441,8 @@ Rules taken from the claude-seo pack (seo-page, seo-content, seo-sxo, seo-geo), 
    shape as the hook, e.g. "Fried Kibbeh Balls Recipe, shaped like crispy nests 👀" (53). The share ask is line 2.
    The Arabic block opens the same way with the Arabic keyword. `Recipe | Hook | Arabic hook` stays as the file label.
 3. Answer-first, entity-clear body (seo-content, seo-geo): one sentence that says what the dish is and what it is
-   made of in the book's words, then the one new move, then the keyword line ("Comment DUBAI and I'll send you the
-   link to the full recipe in my book").
+   made of in the book's words, then the one new move, then the keyword line ("Comment STEAK and I'll send you the
+   full recipe, plus the link to my book of 361 halal recipes"; owner's call 2026-11-13).
 4. Primary keyword in the first 100 words of each language, 2-3 natural variations (kibbeh balls, fried kibbeh;
    كبة مقلية), density about 3% or less, no stuffing; hashtags 3-5 = the keyword and its variants in both languages
    plus #halalrecipes.
