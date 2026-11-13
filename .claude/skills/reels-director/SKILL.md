@@ -104,6 +104,37 @@ whatever the prompt says; the edit cuts them (as on the chickpea bark). Naming t
 Open (owner to decide): the cook's look. The crinkle had bare hands and a black chef jacket; rule 4 above says black
 gloves, white t-shirt and apron. Ask once; until he answers, rule 4 stands.
 
+## THE OUTSIDE-ACCOUNT WAY (owner's call, 2026-11-13: «منطبق استراتيجية مضمونة من برة حساب قوي»)
+Full read: `content-studio/research/rima-reverse-engineer-2026-11-13.md`.
+
+Data source: ScrapeCreators through Composio (connected 2026-11-13; the free plan has 100 credits, so pull lists once and
+save them to /mnt/files/ on the workbench).
+
+What it proved:
+- **The edit is not what decides it.** Our Garlic Chicken Pasta copied fiteat.rima's 11.1M pasta shot for shot:
+  - 45 cuts against her 39;
+  - louder (-14.5 LUFS against her -19.6).
+  It made 1,822 views.
+- **The concept decides it.**
+  - Our one copy of her sweet potato family made 36,392 views and 221 shares, 12-24x our usual.
+  - She made that family 7 times in 6 weeks; its median is 6.1M against her 1.0M.
+  - We never made it a second time.
+
+How to pick the next reel:
+1. Pull the outlier reels of the reference accounts: plays far above the account's own median, in the last 90 days.
+2. Prefer a family that already worked on our account.
+3. Make the top concept with halal food, in his kitchen. The reference reel is @Video1, and every shot names our food.
+4. Edit to the reference's own shot timeline, second by second. Its frame 0, no payoff flash in front of it.
+5. Text:
+   - only the small title at frame 0 and the keyword over the payoff;
+   - nothing else unless the reference has it.
+6. Run the family as a series (one a day while the unlimited runs).
+7. Read each reel at 24 h against the sweet potato: 23K at 21.5 h, 8.7 shares per 1K reach.
+
+Comments are her engine: 25-35K on her top reels, because each comment keyword gets something free (the recipe, a PDF).
+Ours gets the book link ("No free recipes" below stands until the owner changes it).
+First reel: `content-studio/prompts/w4-sweet-potato-steak-bites-ref.txt` (her 16.4M Steak Bites).
+
 ## THE WORKFLOW, STEP BY STEP (owner's call, 2026-11-10; read this first, every request)
 The owner's words: every recipe from the first step to the last, everything shown, professional, cookcut, the same
 strategy every time; no boring second or fraction of a second, never too little movement; we sell recipes, so the
