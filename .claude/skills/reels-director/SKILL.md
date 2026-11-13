@@ -78,7 +78,9 @@ Every new reel, the crinkle way:
    push-in instead of more speed. Arabic spelling (owner): «موزريلا».
    Then the checks below (pre-publish, opening, phone check).
 5. Generation: the owner's unlimited on higgsfield.ai renders 720p only; anything higher costs credits. Keep 720p and
-   upscale to 1080x1920 in the edit, unless he asks for credits.
+   upscale to 1080x1920 in the edit, unless he asks for credits. No AI upscale on top (owner, 2026-11-13: «لا خلاص انت
+   بترفع 1080 خليه ما هو»; the upscale tool gives no price before it runs). The unlimited runs to the 24th of the month;
+   after it he goes back to generating with credits.
 Proven (2026-11-13, 2 h): the Honeycomb Pasta Pie in the crinkle way had skip 31.0% and avg watch 8.84 s (74%), about
 84% still watching at 2 s and 39% at the end, against 59-62% skip for the three reels before it. Owner: «لقينا الخطة».
 Shares were 0: the next lever, inside the crinkle way.
