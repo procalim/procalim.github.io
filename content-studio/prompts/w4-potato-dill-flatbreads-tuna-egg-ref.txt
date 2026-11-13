@@ -1,0 +1,73 @@
+Potato Dill Flatbreads with Tuna & Egg: the outside-account plan, 15 Nov 3 pm (plan-2026-11-14-to-24.md).
+Reference: fiteat.rima Dcl_YHWtbkT (12.8M plays, 12,772 comments, 28 Aug 2026), 10.3 s, read at 6 frames a second
+2026-11-13. No text on her reel. The same glass-pressed cups as the steak bites, with potato and dill.
+Recipe: book-additions/potato-dill-flatbreads-tuna-egg.md (new, for the new PDF). Status: NOT generated (owner generates).
+
+SETTINGS:
+- Seedance 2.5, Omni reference, 10 s, 9:16, 720p, bitrate High, audio On.
+- Chef-Ahmad element on.
+
+References:
+- @Video1 = her reel, media 93f7004e-7bb8-4d49-91e7-8dc49e1697cb:
+  https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/93f7004e-7bb8-4d49-91e7-8dc49e1697cb.mp4
+- @Image1 = the kitchen:
+  https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/66c2248f-e130-4a3c-83df-1a715f172d69.jpg
+
+HER SHOTS (s): 0.0-0.5 a white bowl set down | 0.5-1.25 boiled peeled potatoes dropped in | 1.33-1.7 flour poured |
+1.83-2.05 shredded mozzarella | 2.15-2.4 chopped dill | 2.5-2.9 gloved hand mashes | 3.0-3.25 the dough squeezed |
+3.33-4.2 4 balls set on baking paper | 4.33-4.9 a glass presses each into a cup | 5.0-5.2 the 4 cups | 5.33-6.05 baked
+golden | 6.15-6.55 one lifted, crisp underside | 6.65-7.2 red spicy tuna spooned in | 7.3-7.9 a fried egg slid on with a
+spatula | 8.0-8.2 a basil leaf | 8.3-8.9 4 on a plate with lime | 9.0-10.3 a knife cuts the egg, the yolk runs.
+
+PRE-GENERATION CHECK
+| Check | Result |
+|---|---|
+| Counts and shapes | 4 potatoes; exactly 4 balls, exactly 4 round cups about 9 cm with a raised rim; 4 fried eggs, one on each |
+| Food named in every shot | yes |
+| Identity | black gloves, his kitchen, no face (hers has none) |
+| Halal | canned tuna; eggs; mozzarella halal-certified; the press a plain glass tumbler |
+| Frame one | already moving: the bowl sliding in |
+| Text | none in the generation |
+
+===== PROMPT =====
+A vertical 9:16 photoreal cooking reel of Potato Dill Flatbreads with Tuna and Egg, exactly 10 seconds, fast cuts, no text.
+
+REFERENCE VIDEO (@Video1): copy its exact shots, timing, camera framing, hand moves and cut rhythm, the same food and the same steps in the same order. Do not copy its person, her bare or clear-gloved hands, her wooden board, her daylight, her colours or her audio. Never a stemmed glass: the press is a short plain glass tumbler.
+
+PLACE: the dark kitchen of @Image1: a black marble counter with fine gold veins, warm 2700 K light from camera left, the background falling to black. A white bowl; a black baking tray lined with baking paper; a white plate with a thin gold rim. Photoreal, real food, real physics, food tack sharp.
+
+COOK: only his hands and forearms in black nitrile gloves, in every shot. No face.
+
+FOOD (the same in every shot, never change): 4 boiled peeled yellow potatoes; white flour; shredded white mozzarella; bright green chopped dill; a soft pale-yellow potato dough flecked with green dill; exactly 4 round dough balls; exactly 4 round potato cups about 9 cm wide with a thick raised rim, baked deep golden and crisp; a red spicy tuna mixture; 4 fried eggs with bright orange runny yolks and crisp white edges; fresh basil leaves; lime halves.
+
+0.0-0.5s: Close, frame one already moving: his gloved hand slides a white bowl onto the black marble, small bowls of mozzarella, dill and a lemon behind it.
+0.5-1.3s: 4 boiled peeled yellow potatoes drop one by one into the bowl.
+1.3-1.8s: White flour pours from a steel measuring cup over the potatoes.
+1.8-2.1s: A handful of shredded mozzarella falls over them.
+2.1-2.5s: Bright green chopped dill falls over the top.
+2.5-3.0s: His gloved hand mashes the potatoes into everything.
+3.0-3.3s: He squeezes it into a soft pale-yellow dough flecked with green dill.
+3.3-4.3s: Top-down: exactly 4 round dough balls set one by one on the black tray lined with baking paper.
+4.3-4.9s: The flat round bottom of a short plain glass tumbler presses down into each ball, making a round cup with a thick raised rim.
+4.9-5.3s: Top-down: the 4 pressed potato cups on the tray.
+5.3-6.1s: Baked: the 4 potato cups deep golden and crisp on the tray.
+6.1-6.6s: His gloved hand lifts one potato cup toward the lens, the underside deep golden and crisp.
+6.6-7.2s: A spoon fills the potato cup with the red spicy tuna mixture.
+7.2-7.9s: A spatula slides a fried egg with a bright orange runny yolk onto the tuna.
+7.9-8.3s: His gloved fingers place a fresh basil leaf beside the yolk.
+8.3-8.9s: Top-down: the 4 potato cups with tuna and eggs on the white gold-rim plate with lime halves.
+8.9-10.0s: Close: a knife cuts into the egg on the front cup and the bright orange yolk runs slowly over the red tuna and the golden rim. No cut to black.
+
+AUDIO: loud close-mic sound of what is on screen on every cut: the bowl on the marble, the potatoes dropping, the flour, the cheese, the dill, the mash, the balls set down, the glass pressing, the crisp underside tapped, the tuna, the egg sliding off the spatula, the knife through the crisp cup. No music, no voice, no talking.
+
+AVOID: a woman or her face, any face, bare or clear-gloved hands, a wooden board, daylight, a stemmed or wine glass, text, logos, packaging, tins with labels, wine, alcohol, pork, more or fewer than 4 cups, flat pancakes, hard-cooked yolks, burnt food, extra fingers, deformed hands.
+
+===== EDIT TEMPLATE =====
+- Her shot lengths, about 10 s.
+- The small title at 0.0-2.4 s: "Potato Dill Flatbreads" / «خبز البطاطا بالشبت».
+- The keyword over the yolk: «اكتب «بيضة» 👇» / "Comment EGG 👇".
+- Sound: the house chain, the knife through the crisp cup lifted.
+- Check: DEAD 0, QUIET 0.
+
+===== THE PDF RECIPE IMAGE =====
+Nano Banana Pro (or GPT image), 4:5: A photoreal overhead food photograph of 4 golden potato dill cups on a white plate with a thin gold rim on black marble with fine gold veins, warm 2700 K light from the left, everything else falling to black. Each cup filled with red spicy tuna and topped with a fried egg; the front egg cut open, its bright orange yolk running over the tuna; basil leaves and lime halves. Fine film grain, food tack sharp. No text, no logos.

@@ -135,6 +135,13 @@ Comments are her engine: 25-35K on her top reels, because each comment keyword g
 Owner, 2026-11-13: ours now sends the reel's recipe free plus the book link (see "The comment keyword" below).
 First reel: `content-studio/prompts/w4-sweet-potato-steak-bites-ref.txt` (her 16.4M Steak Bites).
 
+Cadence (owner's call, 2026-11-13; until 24 Nov):
+- Two reels a day at 3 pm and 10 pm Amman time (12:00 and 19:00 UTC), on the unlimited.
+- Calendar and pipeline: `content-studio/plan-2026-11-14-to-24.md`.
+- I write each prompt the evening before, with her reel uploaded as @Video1.
+- Her signature shape is the glass-pressed cup; never two cup reels back to back.
+- Pasta and tray formats stay out until a read says otherwise.
+
 ## THE WORKFLOW, STEP BY STEP (owner's call, 2026-11-10; read this first, every request)
 The owner's words: every recipe from the first step to the last, everything shown, professional, cookcut, the same
 strategy every time; no boring second or fraction of a second, never too little movement; we sell recipes, so the

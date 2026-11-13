@@ -1,0 +1,68 @@
+Crispy Rice Tostadas with Seared Tuna: the outside-account plan, 14 Nov 10 pm (plan-2026-11-14-to-24.md).
+Reference: fiteat.rima DdPyBsnvoYV (8.5M plays, 13 Sep 2026; her second take of it, Dc9VOXBPfeK, made 5.7M), 7.9 s, read
+at 8 frames a second 2026-11-13. Her small line of text sits in the middle of the frame the whole reel: "this after gym >>>".
+Recipe: book-additions/crispy-rice-tostadas-seared-tuna.md (new, for the new PDF). Status: NOT generated (owner generates).
+
+SETTINGS:
+- Seedance 2.5, Omni reference, 10 s, 9:16, 720p, bitrate High, audio On.
+- Chef-Ahmad element on.
+
+References, in this order:
+- @Video1 = her reel, media be52e56d-073b-4b08-96c4-f3519ba38a5c:
+  https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/be52e56d-073b-4b08-96c4-f3519ba38a5c.mp4
+- @Image1 = the permanent kitchen:
+  https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/66c2248f-e130-4a3c-83df-1a715f172d69.jpg
+
+HER SHOTS (s): 0.0-0.6 knife pokes a raw tuna steak in dark soy marinade | 0.6-1.3 turned in the marinade | 1.35-1.95
+pressed into white and black sesame | 2.0-2.8 seared in a dark pan, the crust | 2.85-3.45 three spoonfuls of sticky rice on
+baking paper | 3.5-4.15 a glass presses each into a flat disk | 4.2-4.45 a disk fried crisp in a pan | 4.5-4.95 on a plate:
+cucumber, then avocado slices | 5.0-5.55 slices of seared tuna, red inside, laid on | 5.6-6.3 held up with green salad |
+6.35-6.8 orange spicy mayo drizzled | 6.85-7.9 her face, one bite.
+
+PRE-GENERATION CHECK
+| Check | Result |
+|---|---|
+| Counts and shapes | 1 tuna steak; exactly 3 rice disks about 10 cm wide; tuna sliced 1 cm, deep red centre, sesame crust |
+| Food named in every shot | yes |
+| Identity | black gloves, his dark kitchen; his face only in the last shot (black-lens aviators, mustache, white t-shirt, apron) |
+| Halal | tuna; halal-certified soy sauce, no added alcohol; no mirin, no sake; the press is a plain glass tumbler |
+| Frame one | already moving: the knife pokes the tuna |
+| Text | none in the generation; the edit adds her line and the keyword |
+
+===== PROMPT =====
+A vertical 9:16 photoreal cooking reel of Crispy Rice Tostadas with Seared Tuna, exactly 10 seconds, fast cuts, no text.
+
+REFERENCE VIDEO (@Video1): copy its exact shots, timing, camera framing, hand moves and cut rhythm, the same food and the same steps in the same order. Do not copy its person, her face, her bare hands, her wooden board, her daylight, her colours or her audio. Never a stemmed glass: the press is a short plain glass tumbler.
+
+PLACE: the dark kitchen of @Image1: a black marble counter with fine gold veins, warm 2700 K light from camera left, the background falling to black. A white plate with dark soy marinade; a black pan; baking paper; a white plate with a thin gold rim. Photoreal, real food, real physics, food tack sharp.
+
+COOK: his hands and forearms in black nitrile gloves in every shot. His face appears only in the last shot.
+
+FOOD (the same in every shot, never change): 1 thick raw deep-red tuna steak; dark glossy soy marinade; white and black sesame seeds; after searing a crisp sesame crust with a deep red centre; white sticky rice; exactly 3 flat round rice disks about 10 cm wide, fried crisp and golden; thin cucumber slices; fanned green avocado slices; a little green salad of edamame and spring onion; an orange spicy mayo.
+
+0.0-0.6s: Close, frame one already moving: the tip of a knife pokes into the raw deep-red tuna steak lying in the dark soy marinade on a white plate.
+0.6-1.3s: His gloved fingers turn the tuna steak over in the glossy marinade.
+1.3-2.0s: He presses the tuna steak into a plate of white and black sesame seeds, both sides coated.
+2.0-2.8s: The sesame-crusted tuna sears in the hot black pan, the seeds toasting golden, then a close look at the crust.
+2.8-3.5s: Top-down: 3 spoonfuls of white sticky rice set on the baking paper.
+3.5-4.2s: The flat round bottom of a short plain glass tumbler presses each rice mound into a flat round disk.
+4.2-4.5s: A rice disk fries in the black pan and is flipped, crisp and golden.
+4.5-5.0s: On the white gold-rim plate: cucumber slices laid on the crisp rice disk, then fanned avocado slices.
+5.0-5.6s: Slices of seared tuna, deep red inside with the sesame crust, laid over the avocado.
+5.6-6.3s: Close: his gloved hand holds one tostada up to the lens with the green edamame and spring onion salad.
+6.3-6.9s: An orange spicy mayo drizzles over the tuna in a thin zigzag.
+6.9-10.0s: Medium shot of him in his dark kitchen holding the tostada: he takes one big crunchy bite and chews with his mouth closed, satisfied, the plate of tostadas in front of him. No cut to black.
+
+AUDIO: loud close-mic sound of what is on screen on every cut: the knife in the tuna, the wet marinade, the sesame crunch, the sizzle of the sear, the rice set down, the glass pressing, the fry, the slices laid on, the drizzle, and the big crunch of the bite, the loudest. No music, no voice, no talking.
+
+AVOID: a woman or her face, bare hands, a wooden board, daylight, a stemmed or wine glass, text, logos, labelled bottles, wine, alcohol, pork, more or fewer than 3 rice disks, sushi rolls, chopsticks, burnt rice, grey overcooked tuna, extra fingers, deformed hands, sunglasses off, a distorted face.
+
+===== EDIT TEMPLATE (her timeline; built after the take is read) =====
+- Cut to her shot lengths above, total about 8 s.
+- Her line, small, crinkle style, in the middle of the frame the whole reel: "this after gym >>>" / «هاد بعد الجيم >>>».
+- The keyword over the bite: «اكتب «تونة» 👇» / "Comment TUNA 👇".
+- Sound: the house chain, the bite's crunch lifted.
+- Check: pp.py DEAD 0, QUIET 0.
+
+===== THE PDF RECIPE IMAGE =====
+Nano Banana Pro (or GPT image), 4:5: A photoreal overhead food photograph of 3 crispy golden rice tostadas on a white plate with a thin gold rim on a black marble counter with fine gold veins, warm 2700 K tungsten light from the left, everything else falling to black. Each topped with cucumber slices, fanned avocado, slices of sesame-crusted seared tuna with deep red centres, edamame and spring onion, a zigzag of orange spicy mayo. A black-gloved hand lifting the front one. Fine film grain, food tack sharp. No text, no logos.
