@@ -1,0 +1,34 @@
+{
+ "items": {
+  "title": {
+   "y": 528,
+   "ar": "<span style=\"font-family:IS;font-weight:700;font-size:26px;line-height:1.25;direction:ltr;unicode-bidi:isolate;-webkit-text-stroke:3px #000;text-shadow:0 0 10px rgba(0,0,0,.9),0 2px 6px rgba(0,0,0,.9)\">Spinach &amp; Lentil Crinkle</span>",
+   "en": "<span style=\"font-family:Taj;font-weight:800;font-size:28px;line-height:1.25;direction:rtl;unicode-bidi:isolate;-webkit-text-stroke:3px #000;text-shadow:0 0 10px rgba(0,0,0,.9),0 2px 6px rgba(0,0,0,.9)\">كرنكل السبانخ والعدس</span>"
+  },
+  "hook": {
+   "y": 1236,
+   "ar": "<span style=\"font-family:IS;font-weight:700;font-size:26px;line-height:1.25;direction:ltr;unicode-bidi:isolate;-webkit-text-stroke:3px #000;text-shadow:0 0 10px rgba(0,0,0,.9),0 2px 6px rgba(0,0,0,.9)\">Tea after it is the mistake</span>",
+   "en": "<span style=\"font-family:Taj;font-weight:800;font-size:28px;line-height:1.25;direction:rtl;unicode-bidi:isolate;-webkit-text-stroke:3px #000;text-shadow:0 0 10px rgba(0,0,0,.9),0 2px 6px rgba(0,0,0,.9)\">الشاي بعد الأكل هو الغلطة</span>"
+  },
+  "proof": {
+   "y": 1336,
+   "ar": "<span style=\"font-size:44px;line-height:1.2;-webkit-text-stroke:4px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">لسا ولا نقطة بيض</span>",
+   "en": "<span style=\"font-size:34px;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">Still not a drop of egg</span>"
+  },
+  "right": {
+   "y": 1336,
+   "ar": "<span style=\"font-size:44px;line-height:1.2;-webkit-text-stroke:4px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">هون بتنزل. بعد الفرن</span>",
+   "en": "<span style=\"font-size:34px;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">Here it goes. After the bake.</span>"
+  },
+  "all": {
+   "y": 1336,
+   "ar": "<span style=\"font-size:44px;line-height:1.2;-webkit-text-stroke:4px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">ليمون، والشاي بعد ساعة</span>",
+   "en": "<span style=\"font-size:34px;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">Lemon. Tea an hour later.</span>"
+  },
+  "q": {
+   "y": 1336,
+   "ar": "<span style=\"font-size:44px;line-height:1.2;-webkit-text-stroke:4px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">ابعتها لحدا حديده واطي</span>",
+   "en": "<span style=\"font-size:34px;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">Send this to someone low on iron</span>"
+  }
+ }
+}
