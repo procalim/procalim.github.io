@@ -1,0 +1,77 @@
+Chicken-Crust Grid Pizza, the crinkle way with a first frame (day 1 of the healthy series; owner, 2026-11-13: «اكتب اول وصفة
+بنفس الاستراتيجية»). Recipe: book-additions/chicken-crust-grid-pizza.md (new, untested, owner-approved).
+Status: NOT generated. The owner generates on higgsfield.ai with his unlimited (720p).
+Strategy: the proven crinkle way (the pasta pie: skip 31-35%) on the crinkle's 9 cuts, plus the first frame that held the
+angle on the short ribs. From the pasta pie's read: no quiet second after 3 s (a sound in every shot, levelled in the edit).
+
+===== STEP 1: THE FIRST FRAME (image edit) =====
+Model: Nano Banana Pro (or any image-edit model), 9:16. Reference: research/crinkle-first-angle-9x16.jpg. Prompt:
+
+Edit this photo. Keep the camera exactly as it is: the same true top-down angle, the same framing, the same black rectangular baking tray in the same place and at the same size, the same black granite around it, the same warm light, and the same bare hand and forearm coming in from the right edge. Fill the whole 9:16 frame with black granite, no black bars. Replace all the pasta with one flat pizza crust made of finely shredded cooked chicken pressed 1 cm thick into the tray on white parchment, pale and creamy, with tiny flecks of oregano, scored deep into a neat grid of 4 squares across and 6 down. The hand presses the corner square flat with its fingertips. Photoreal, real food. No sauce, no cheese, no toppings yet. No text, no lamp, no other change.
+
+===== STEP 2: THE VIDEO =====
+Model: Seedance 2.5, Omni reference, 14 s, 9:16, 720p (the unlimited), bitrate High, audio On.
+@Image1 = the first frame from step 1, as the START FRAME. @Video1 = the Crinkle Cake reel (4017b231 or eae71780).
+
+THE CRINKLE'S CUTS -> THE PIZZA (recipe order)
+| Crinkle shot (s) | Crinkle | Pizza (step) |
+|---|---|---|
+| 0.00-1.47 | top-down, the packed tray, hand pressing | @Image1: the scored chicken crust, his hand pressing the corner (2, 3) |
+| 1.47-2.97 | front at counter height, hand at the oven | the bare tray slides into the black oven (4) |
+| 2.97-4.40 | low macro through the oven glass | the bare crust turning dry and golden, the grid lines opening (4) |
+| 4.40-5.83 | macro, a finger touches the spikes | his fingertip taps the dry golden crust, a crisp knock; no sauce yet |
+| 5.83-7.93 | 45 degrees, the butter pours | the red passata pours onto the baked crust (5) |
+| 7.93-9.43 | the custard whisked in circles | the back of a spoon spreads the sauce in circles over the squares (5) |
+| 9.43-10.90 | the custard pours over the spikes | top-down: one topping per square in a checkerboard, mozzarella falls (5) |
+| 10.90-12.17 | through the oven glass, glowing | the mozzarella bubbling golden (6) |
+| 12.17-13.83 | the syrup pour, steam | a knife crunches down a scored line and lifts one square, a cheese pull, steam (6) |
+
+===== PROMPT =====
+@Image1 is the first frame. A vertical 9:16 photoreal food reel of a Chicken-Crust Grid Pizza, exactly 14 seconds, no text.
+
+REFERENCE VIDEO (@Video1): copy its exact cut rhythm and timing, its camera angles, heights and framing shot by shot, its calm locked camera and slow slides, its light, its black kitchen and black oven, and the same black rectangular baking tray in every tray shot. Never copy its food: no phyllo, no spikes, no butter, no custard, no eggs being whisked, no syrup. Every shot below shows the chicken-crust pizza.
+
+LOOK: photoreal live-action food cinematography, real food, real physics, real steam. A private luxury kitchen, black from floor to ceiling: matte black cabinets, a honed black granite counter, a black oven with a glass door. Warm 2700 K tungsten only, everything outside the light falling to pure black. Deep blacks, golden highlights, fine film grain. Locked tripod or a slow slide of 12 cm at most. Food tack sharp. No lamp or light bulb in frame.
+
+COOK: only his bare clean hands and forearms, the sleeves of a matte black chef jacket rolled up; never gloves, no face.
+
+FOOD (the same in every shot, never change): one flat crust of finely shredded cooked chicken pressed 1 cm thick on white parchment in the black rectangular tray, scored deep into a grid of 4 squares across and 6 down; it bakes bare to dry and golden with crisp edges along every scored line; then a thin layer of red passata, one topping per square in a checkerboard (diced red pepper, sliced mushrooms, baby spinach), and shredded white mozzarella that bakes to bubbling golden. Halal chicken; no pork, no pepperoni, no salami.
+
+0.0-1.5s: True top-down, exactly @Image1, frame one already moving: his bare hand presses the corner square of the scored chicken crust flat, then taps the tray on the granite at 0.3 s, a firm loud knock, the loudest sound so far.
+1.5-3.0s: Front view at counter height, as in the second shot of @Video1: his hand slides the bare tray into the black oven, the rack scraping, the oven fan humming.
+3.0-4.4s: Low and close through the oven glass: the bare crust turning dry and golden, the scored lines opening into crisp ridges, a loud dry sizzle.
+4.4-5.8s: Extreme macro: his bare fingertip knocks on the dry golden crust, a crisp hollow tap; not a drop of sauce yet.
+5.8-7.9s: 45-degree low angle at the tray rim: a thick ribbon of red passata pours onto the centre of the baked golden crust.
+7.9-9.4s: Close from above: the back of a spoon spreads the sauce in circles over the squares, scraping on the crisp crust.
+9.4-10.9s: True top-down: his hands drop one topping in each square in a checkerboard, red pepper, mushrooms, spinach, then the shredded mozzarella falls over everything.
+10.9-12.2s: Through the oven glass, low and close, as in @Video1: the mozzarella bubbling and turning golden in the warm oven light, a loud sizzle.
+12.2-14.0s: Close at the tray: a knife presses down a scored line with a loud crunch through the crisp crust and lifts one square, the mozzarella stretching in a long pull, steam rising. No cut to black.
+
+AUDIO: loud in every shot, never a quiet moment, only real close-mic sound of what is on screen: the tray knock, the oven rack and fan, the sizzle of the crust, the fingertip tap, the thick pour, the spoon scraping, the toppings landing, the cheese bubbling, and the knife crunching through the crust, the loudest. No music, no voice.
+
+AVOID: phyllo, spikes, butter, custard, whisked eggs, syrup, a round pan, a pizza dough of flour, a white or bready crust, pepperoni, salami, ham, pork, sauce on the raw crust before the first bake, gloves, a face, a lamp or light bulb in frame, a white kitchen, marble, wood, labels, packaging, logos, text, wine, alcohol, burnt crust, raw chicken, extra fingers, deformed hands.
+
+===== THE PDF RECIPE IMAGE =====
+Model: Nano Banana Pro (or GPT image), 4:5. No reference needed (or the take's last frame). Prompt:
+
+A photoreal overhead food photograph of a chicken-crust grid pizza in a black rectangular baking tray on a honed black granite counter, warm 2700 K tungsten light raking from the left, everything outside the light falling to pure black, deep blacks and golden highlights. The crust is golden and crisp, scored into a grid of 4 by 6 squares, a thin layer of red passata, one topping per square in a checkerboard of diced red pepper, sliced mushrooms and baby spinach, bubbling golden mozzarella. One square lifted slightly at the front corner with a knife, the cheese stretching, a thin wisp of steam. Bare hand holding the knife from the right edge, sleeve of a matte black chef jacket. Fine film grain, food tack sharp. No text, no logos, no pork, no pepperoni.
+
+===== CARDS FOR THE EDIT (the crinkle's beats; the closing card a share prompt) =====
+| Output (s) | Card |
+|---|---|
+| 0.0-2.9 | title "Chicken-Crust Grid Pizza" / «بيتزا قاعدتها دجاج» + hook "Sauce on a raw crust is the mistake" / «الصلصة عالقاعدة النيّة هي الغلطة» |
+| about 4.4-5.9 | «لسا ولا نقطة صلصة» / "Still not a drop of sauce" |
+| the pour and the spread | «هون بتنزل. بعد الفرن مش قبله» / "Here it goes. After the bake, not before." |
+| the toppings and the oven | «٥٤ غرام بروتين بالحصة. وبس» / "54 g protein a serving. That is all." |
+| the slice to the end | «ابعتها لرفيقتك بالجيم» / "Send this to your gym buddy" |
+
+===== PRE-GENERATION CHECK =====
+| Check | Result |
+|---|---|
+| Recipe steps on screen, in order | 2-3 (the first frame), 4 (oven, bare), the proof, 5 (pour, spread, toppings, cheese), 6 (bake, cut) |
+| Nothing added | no plate, no garnish beyond the recipe's toppings |
+| The reference's food blocked | no phyllo, spikes, butter, custard, whisked eggs, syrup |
+| Material the same raw and cooked (check 21) | the same scored chicken crust in every shot |
+| Text | none in the generation; the edit adds the cards |
+| Sound | a sound in every shot; the edit levels it (no quiet second after 3 s) |
+| Halal | halal chicken, halal-rennet cheeses, no pork toppings |

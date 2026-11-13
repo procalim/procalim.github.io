@@ -82,9 +82,16 @@ Every new reel, the crinkle way:
 Proven (2026-11-13, 2 h): the Honeycomb Pasta Pie in the crinkle way had skip 31.0% and avg watch 8.84 s (74%), about
 84% still watching at 2 s and 39% at the end, against 59-62% skip for the three reels before it. Owner: «لقينا الخطة».
 Shares were 0: the next lever, inside the crinkle way.
-One-angle variant (owner, 2026-11-13, short ribs): «نفس أول زاوية الكرنكل ضل ثابتة لنهاية الفيديو». The crinkle reel stays
-@Video1, with "copy ONLY its first shot" (true top-down, the tray lengthwise filling the frame, the hand from the right),
-held as one locked shot; the cards keep the crinkle's beats. Without the reference the angle is not the crinkle's.
+One-angle variant (owner, 2026-11-13, short ribs): «نفس أول زاوية الكرنكل ضل ثابتة لنهاية الفيديو». Measured: "copy ONLY its
+first shot" of @Video1 did not hold the angle (take f4319e52 came back at 45 degrees with the lamp in frame); a FIRST FRAME
+did (takes 37deab2c, b8ae3a58). The first frame: an image edit of the crinkle's own first frame
+(content-studio/research/crinkle-first-angle-9x16.jpg) with the new food in the same tray, angle, light and hand, set as the
+start frame (@Image1). Every new reel gets this image prompt (owner: «كل فيديو بنعملو بتعطيني prompt جديد لصورة»).
+Second read of the pasta pie (2026-11-13, screenshot 7:11): skip 34.8%, avg 8 s; retention 94% at 1 s, 72% at 3 s, 57% at
+5 s, 36% at the end. Steepest: 1.5-3.0 s (-17 points; the piping shot with his face, the hook card still on), then 3.0-5.5 s
+(-17 more; the card changes to the proof at 2.96 s and the sound is the reel's quietest at 3.0-4.0 s, 62-63 dB against a
+median of 71). Owner: «موت شوي بثواني بعد الثلاث وهي الريهووك صوت». From now: the sound levelled with no quiet second
+(the short ribs build: QUIET 0).
 Open (owner to decide): the cook's look. The crinkle had bare hands and a black chef jacket; rule 4 above says black
 gloves, white t-shirt and apron. Ask once; until he answers, rule 4 stands.
 
