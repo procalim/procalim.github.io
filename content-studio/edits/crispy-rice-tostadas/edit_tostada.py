@@ -1,7 +1,7 @@
 # Crispy Rice Tostadas with Seared Tuna, the outside-account plan (14 Nov 10 pm). Source: raw.mp4 = job 62e40c71 (Seedance
 # 2.5 omni reference, 720x1280, 24 fps, 241 frames; prompt prompts/w4-crispy-rice-tostadas-ref.txt, fiteat.rima's 8.5M
-# reel as @Video1). Cut to her shot timeline. The rice press (frames 99-114) is cut: the take drew a stemmed glass,
-# which the prompt forbade (the brand shows no wine glass). Her line in the middle until his face, the keyword over the
+# reel as @Video1). Cut to her shot timeline. The rice press draws a stemmed glass; the owner keeps it («عادي كانّها كاسة
+# بوظة», it reads as an ice-cream glass). Her line in the middle until his face, the keyword over the
 # drizzle and the bite. Sound: the house chain, the bite lifted.
 # Cards come in as PNGs named ov_<key>.png (rendered full frame in the sandbox).
 import subprocess, re
@@ -13,7 +13,8 @@ SEGS = [  # (first frame, end frame, speed, label[, push-in]); cut points from t
     (34, 49, 1.0, 'pressed into the sesame'),
     (50, 64, 1.2, 'seared in the pan'),
     (64, 83, 1.6, 'the crust close', (1.0, 1.08)),
-    (84, 99, 1.0, 'the rice on the paper'),   # 99-114: the stemmed glass presses, cut
+    (84, 99, 1.0, 'the rice on the paper'),
+    (99, 114, 1.0, 'the glass presses the rice'),   # v2 cut it (a stemmed glass); owner: «عادي كانّها كاسة بوظة»
     (114, 132, 1.2, 'the rice disk fried and flipped'),   # 132-144: the golden disk sits still, left out
     (144, 162, 1.2, 'cucumber and avocado'),
     (162, 178, 1.0, 'the tuna laid on'),

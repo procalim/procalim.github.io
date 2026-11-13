@@ -1,4 +1,4 @@
-# Crispy Rice Tostadas with Seared Tuna: the edit v2 (2026-11-13; the outside-account plan, 14 Nov 10 pm)
+# Crispy Rice Tostadas with Seared Tuna: the edit v3 (2026-11-13; the outside-account plan, 14 Nov 10 pm)
 Source: job 62e40c71, Seedance 2.5 omni reference, 10.08 s, 720x1280, 24 fps.
 - Prompt: `../../prompts/w4-crispy-rice-tostadas-ref.txt`.
 - Reference: her 8.5M reel (media be52e56d).
@@ -17,26 +17,28 @@ Source: job 62e40c71, Seedance 2.5 omni reference, 10.08 s, 720x1280, 24 fps.
   - held up to the lens;
   - the spicy mayo drizzle;
   - his face and the bite.
-- **Wrong:** the rice press (source 4.1-4.8 s) drew a stemmed glass, which the prompt forbade. Cut: the brand shows no wine glass.
+- The rice press (source 4.1-4.8 s) drew a stemmed glass, which the prompt forbade.
+  - v2 cut it.
+  - The owner keeps it: «عادي كانّها كاسة بوظة» (it reads as an ice-cream glass). v3 has it back.
 
 ## The edit
-- 7.21 s on her timeline; every shot 0.4-0.7 s.
+- 7.83 s on her timeline (v3, with the press); every shot 0.4-0.7 s.
 - Speeds from the measured motion:
   - the bite at 1.6x with a push-in (1.0 to 1.12); v1 at 1.3x had DEAD 2.
 - Cards:
-  - her line, small, in the middle, from 0.0 to 5.75 s: "this after gym >>>" / «هاد بعد الجيم >>>»;
+  - her line, small, in the middle, from 0.0 to 6.38 s: "this after gym >>>" / «هاد بعد الجيم >>>»;
   - the keyword «اكتب «تونة» 👇» / "Comment TUNA 👇" from the drizzle to the end.
 - Sound: the house chain, the bite +4 dB.
 
 ## Checks
 | Check | Result |
 |---|---|
-| pp.py | DEAD 0, SLOW 1 (6.5 s, his face chewing: a human moment, her own reel ends the same way), QUIET 0 of 15 |
-| Loudness | -14.4 LUFS, peak -1.8 dB |
+| pp.py | DEAD 0, SLOW 0, LONG 0, QUIET 0 of 16 |
+| Loudness | -14.5 LUFS, peak -1.9 dB |
 | Format | H.264 crf 16, BT.709, 1080x1920, 24 fps, AAC 256k |
 
 ## Final
-Media 01925efb-e59e-4e98-9b81-65c83d93967f:
-https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/01925efb-e59e-4e98-9b81-65c83d93967f.mp4
+Media 7d071594-7bc4-4782-9a64-deb5cfee3596 (v3; v2 without the press: 01925efb):
+https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/7d071594-7bc4-4782-9a64-deb5cfee3596.mp4
 
 Post: 14 Nov, 10 pm Amman time (19:00 UTC). Package: `../../week4/crispy-rice-tostadas-{caption,pinned,dm-reply}.txt`.
