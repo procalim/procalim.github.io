@@ -52,7 +52,7 @@ FOOD (the same in every shot, never change): soaked dried chickpeas, pale beige;
 3.25-3.5s: A spoonful of ground cumin and coriander falls on top.
 3.5-4.1s: His gloved hand mixes it all into a firm green dough.
 4.1-4.8s: Top-down: exactly 4 round green falafel balls set one by one on the black tray lined with baking paper.
-4.8-5.8s: The flat round bottom of a short plain glass tumbler presses down into each green ball, making a round cup with a thick raised rim.
+4.8-5.8s: The flat round bottom of a short straight-sided drinking tumbler, no stem and no foot, presses down into each green ball, making a round cup with a thick raised rim.
 5.8-6.3s: White sesame seeds fall over the cups and a thin stream of olive oil drizzles on.
 6.3-6.8s: Top-down: the 4 green falafel cups on the tray.
 6.8-7.3s: Baked: the 4 falafel cups deep golden-brown and crisp on the tray.
@@ -66,7 +66,7 @@ FOOD (the same in every shot, never change): soaked dried chickpeas, pale beige;
 
 AUDIO: loud close-mic sound of what is on screen on every cut: the bowl on the marble, the chickpeas pouring, the herbs, the onion, the thick mix, the tahini, the flour, the mixing, the balls set down, the glass pressing, the sesame, the crisp underside tapped, the hummus spread, the shawarma, the almonds, the salad, the drizzle, and the big crunch of the bite, the loudest. No music, no voice, no talking.
 
-AVOID: a woman or her face, bare or clear-gloved hands, a wooden board, daylight, a stemmed or wine glass, text, logos, labelled jars, wine, alcohol, pork, deep frying oil, more or fewer than 4 cups, round falafel balls served as balls, pita, burnt food, extra fingers, deformed hands, sunglasses off, a distorted face.
+AVOID: a glass with a stem or a foot, a woman or her face, bare or clear-gloved hands, a wooden board, daylight, a stemmed or wine glass, text, logos, labelled jars, wine, alcohol, pork, deep frying oil, more or fewer than 4 cups, round falafel balls served as balls, pita, burnt food, extra fingers, deformed hands, sunglasses off, a distorted face.
 
 ===== EDIT TEMPLATE =====
 - Her shot lengths, about 13 s.

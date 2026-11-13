@@ -48,7 +48,7 @@ FOOD (the same in every shot, never change): 4 boiled peeled yellow potatoes; wh
 2.5-3.0s: His gloved hand mashes the potatoes into everything.
 3.0-3.3s: He squeezes it into a soft pale-yellow dough flecked with green dill.
 3.3-4.3s: Top-down: exactly 4 round dough balls set one by one on the black tray lined with baking paper.
-4.3-4.9s: The flat round bottom of a short plain glass tumbler presses down into each ball, making a round cup with a thick raised rim.
+4.3-4.9s: The flat round bottom of a short straight-sided drinking tumbler, no stem and no foot, presses down into each ball, making a round cup with a thick raised rim.
 4.9-5.3s: Top-down: the 4 pressed potato cups on the tray.
 5.3-6.1s: Baked: the 4 potato cups deep golden and crisp on the tray.
 6.1-6.6s: His gloved hand lifts one potato cup toward the lens, the underside deep golden and crisp.
@@ -60,7 +60,7 @@ FOOD (the same in every shot, never change): 4 boiled peeled yellow potatoes; wh
 
 AUDIO: loud close-mic sound of what is on screen on every cut: the bowl on the marble, the potatoes dropping, the flour, the cheese, the dill, the mash, the balls set down, the glass pressing, the crisp underside tapped, the tuna, the egg sliding off the spatula, the knife through the crisp cup. No music, no voice, no talking.
 
-AVOID: a woman or her face, any face, bare or clear-gloved hands, a wooden board, daylight, a stemmed or wine glass, text, logos, packaging, tins with labels, wine, alcohol, pork, more or fewer than 4 cups, flat pancakes, hard-cooked yolks, burnt food, extra fingers, deformed hands.
+AVOID: a glass with a stem or a foot, a woman or her face, any face, bare or clear-gloved hands, a wooden board, daylight, a stemmed or wine glass, text, logos, packaging, tins with labels, wine, alcohol, pork, more or fewer than 4 cups, flat pancakes, hard-cooked yolks, burnt food, extra fingers, deformed hands.
 
 ===== EDIT TEMPLATE =====
 - Her shot lengths, about 10 s.

@@ -421,6 +421,12 @@ say "I'll send you the full recipe, plus the link to my book". No recipe in the 
 
 Example: `content-studio/week4/sweet-potato-steak-bites-dm-reply.txt`.
 
+Delivery (owner, 2026-11-13: ChatPlace subscription ended, «في كمية كبيرة من الرسائل بعيد اشتراكي»):
+- The owner sends the DMs by hand until the volume justifies ChatPlace again.
+- So every package gives the four DM texts (EN pair, AR pair) ready to paste.
+- Suggest saving each pair as Instagram saved replies with a short shortcut.
+- Count the keyword comments in each 24 h read; that count is his renewal signal.
+
 ## Engagement round before posting (owner's call, 2026-11-01; every reel)
 The problem was the audience, not the content. Same as the sweet potato: the round runs BEFORE the post, never
 only after it. 20 minutes right before posting (owner, 2026-11-03, ig-plan's 20-minute round), on each target
