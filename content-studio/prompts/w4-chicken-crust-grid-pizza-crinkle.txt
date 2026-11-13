@@ -1,6 +1,9 @@
 Chicken-Crust Grid Pizza, the crinkle way with a first frame (day 1 of the healthy series; owner, 2026-11-13: «اكتب اول وصفة
 بنفس الاستراتيجية»). Recipe: book-additions/chicken-crust-grid-pizza.md (new, untested, owner-approved).
-Status: NOT generated. The owner generates on higgsfield.ai with his unlimited (720p).
+Status: step 1 done by the owner (2026-11-13): edits/chicken-crust-pizza/first-frame.jpg, 1438x2576, true top-down like the
+crinkle, the tray on parchment filling the frame, the hand from the right pressing a square; the grid came out 4 x 5 (20
+squares), not 4 x 6. PDF image done: book-additions/images/chicken-crust-grid-pizza.jpg, 2400x1792 (4:3, not 4:5), 4 x 6
+grid, a square lifted with a cheese pull and steam. The video (step 2) NOT generated yet.
 Strategy: the proven crinkle way (the pasta pie: skip 31-35%) on the crinkle's 9 cuts, plus the first frame that held the
 angle on the short ribs. From the pasta pie's read: no quiet second after 3 s (a sound in every shot, levelled in the edit).
 
