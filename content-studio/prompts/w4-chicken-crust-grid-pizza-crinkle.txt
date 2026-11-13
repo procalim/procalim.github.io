@@ -32,7 +32,8 @@ THE CRINKLE'S CUTS -> THE PIZZA (recipe order)
 ===== PROMPT v5 (the motion transfer, as every crinkle-way reel; no first frame) =====
 Owner (2026-11-13, on take 3): «زي ما عملت باي فيديو انقل موتيشين كونترول»: the crinkle reel transfers the motion shot for
 shot, as on the pasta pie and the chickpea bark (no first-frame image; that was the short ribs' one-shot method).
-Take 3 (job 637730c1, v4) for the record: all 9 shots the pizza (the oven shot flat chicken, no peaks); shot 1 held 0-3.0 s;
+Take 3 (job 637730c1, v4) for the record (corrected on the owner's read): the oven shots 2 and 3 (3.3-5.1 s) show the crinkle's
+peaks, as in takes 1 and 2, and a misspelt brand on the oven door; shots 1 and 4-9 the pizza; shot 1 held 0-3.0 s;
 sound -35 to -41 dB at 0-1 s, 3.0 s, 5-7.5 s and 10.5-12 s, -20 to -25 at the knocks, the pour and the knife; -23.5 LUFS.
 Settings (as the pasta pie): Seedance 2.5, Omni reference, 14 s, 9:16, 720p, bitrate High, audio On; @Video1 = the
 Crinkle Cake reel (4017b231); his element as on the pasta pie (optional); no start frame.
