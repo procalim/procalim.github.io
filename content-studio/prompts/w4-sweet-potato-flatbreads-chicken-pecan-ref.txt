@@ -1,0 +1,77 @@
+Baked Sweet Potato Flatbreads with Seasoned Chicken & Pecans: the outside-account plan, 16 Nov 10 pm.
+Reference: fiteat.rima DesCH2uuD2L (6.9M plays, 19 Oct 2026), 14.6 s, read at 6 frames a second 2026-11-14. No text on her
+reel. Her sweet potato family (our only breakout family). The dough is pressed flat by hand, not into cups.
+Recipe: book-additions/sweet-potato-flatbreads-chicken-pecan.md (new, for the new PDF). Status: NOT generated.
+
+SETTINGS:
+- Seedance 2.5, Omni reference, 14 s, 9:16, 720p, bitrate High, audio On.
+- Chef-Ahmad element on.
+
+References:
+- @Video1 = her reel, media e40aaf30-4ad4-4b7b-8c7f-6fb6084881fe:
+  https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/e40aaf30-4ad4-4b7b-8c7f-6fb6084881fe.mp4
+- @Image1 = the kitchen:
+  https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/66c2248f-e130-4a3c-83df-1a715f172d69.jpg
+
+HER SHOTS (s): 0.0-0.85 a baked sweet potato on paper, the skin peeled back by hand | 1.0-1.4 the flesh on a plate |
+1.5-2.4 mashed with a fork | 2.5-2.7 shredded mozzarella | 2.83-3.2 flour | 3.33-4.2 mixed by hand | 4.33-4.9 kneaded |
+5.0-6.2 4 balls set on paper | 6.33-6.9 a palm presses each flat | 7.0-7.2 4 rounds on the tray | 7.33-7.5 into the oven |
+7.67-7.85 baked with golden spots | 8.0-8.35 one lifted | 8.5-9.2 a white sauce spread | 9.33-9.7 spinach leaves |
+9.83-10.6 a seasoned chicken breast laid on | 10.67-11.5 chopped pecans | 11.67-11.85 grated cheese | 12.0-12.5 4 on the
+plate | 12.67-13.2 one held up | 13.33-14.6 her face, one bite.
+
+PRE-GENERATION CHECK
+| Check | Result |
+|---|---|
+| Counts and shapes | 1 sweet potato; exactly 4 balls; exactly 4 flat round flatbreads about 15 cm; 1 whole chicken breast on each |
+| Food named in every shot | yes |
+| Identity | black gloves, his kitchen; his face only in the last shot |
+| Halal | halal chicken; mozzarella and hard cheese halal-certified; yogurt with no gelatin |
+| Frame one | already moving: his fingers peeling the skin |
+| Text | none in the generation |
+
+===== PROMPT =====
+A vertical 9:16 photoreal cooking reel of Baked Sweet Potato Flatbreads with Seasoned Chicken and Pecans, exactly 14 seconds, fast cuts, no text.
+
+REFERENCE VIDEO (@Video1): copy its exact shots, timing, camera framing, hand moves and cut rhythm, the same food and the same steps in the same order. Do not copy its person, her face, her bare or clear-gloved hands, her wooden board, her daylight, her colours or her audio.
+
+PLACE: the dark kitchen of @Image1: a black marble counter with fine gold veins, warm 2700 K light from camera left, the background falling to black. Baking paper; a white plate; a black baking tray lined with baking paper; a black oven; a white plate with a thin gold rim. Photoreal, real food, real physics, food tack sharp.
+
+COOK: his hands and forearms in black nitrile gloves in every shot. His face appears only in the last shot.
+
+FOOD (the same in every shot, never change): 1 whole baked sweet potato with dark wrinkled skin and soft bright-orange flesh; shredded white mozzarella; white flour; a soft bright-orange sweet potato dough; exactly 4 orange dough balls; exactly 4 flat round sweet potato flatbreads about 15 cm wide, baked with golden-brown spots; a thick white garlic yogurt sauce; fresh baby spinach leaves; 4 whole seasoned golden-roasted chicken breasts; toasted chopped pecans; finely grated hard cheese.
+
+0.0-0.9s: Close, frame one already moving: his gloved fingers peel the dark wrinkled skin off the whole baked sweet potato on baking paper.
+0.9-1.4s: The peeled bright-orange sweet potato flesh drops onto a white plate.
+1.4-2.4s: A fork mashes the orange sweet potato.
+2.4-2.8s: Shredded white mozzarella falls over it.
+2.8-3.3s: White flour pours over it.
+3.3-4.3s: His gloved hand mixes it all together.
+4.3-5.0s: He kneads it into a soft bright-orange sweet potato dough.
+5.0-6.3s: Top-down: exactly 4 orange dough balls set one by one on the black tray lined with baking paper.
+6.3-7.0s: His gloved palm presses each ball flat into a thin round flatbread.
+7.0-7.3s: Top-down: the 4 flat orange rounds on the tray.
+7.3-7.65s: The tray slides into the black oven.
+7.65-8.0s: Baked: the 4 sweet potato flatbreads with golden-brown spots on the tray.
+8.0-8.45s: His gloved hand lifts one flatbread toward the lens, it bends softly, the underside golden-brown.
+8.45-9.3s: On the white gold-rim plate, a spoon spreads the thick white garlic yogurt sauce over a flatbread.
+9.3-9.8s: His gloved hand lays fresh baby spinach leaves over the sauce.
+9.8-10.65s: A whole seasoned golden-roasted chicken breast laid on the spinach.
+10.65-11.6s: Toasted chopped pecans fall over the chicken.
+11.6-11.95s: Finely grated hard cheese falls over the top.
+11.95-12.6s: Top-down: the 4 loaded sweet potato flatbreads on the plate.
+12.6-14.0s: Medium shot of him in his dark kitchen holding one loaded flatbread folded in his hand: he takes one big bite and chews with his mouth closed, satisfied. No cut to black.
+
+AUDIO: loud close-mic sound of what is on screen on every cut: the skin peeling, the flesh dropping, the fork mashing, the cheese, the flour, the mixing, the knead, the balls set down, the palm pressing, the oven door, the soft bend of the flatbread, the sauce spread, the spinach, the chicken laid on, the pecans, the cheese, and the bite. No music, no voice, no talking.
+
+AVOID: a woman or her face, bare or clear-gloved hands, a wooden board, daylight, text, logos, packaging, wine, alcohol, pork, cups or bowls of dough, more or fewer than 4 flatbreads, pizza, tortillas from a packet, burnt food, extra fingers, deformed hands, sunglasses off, a distorted face.
+
+===== EDIT TEMPLATE =====
+- Her shot lengths, about 13 s.
+- The small title at 0.0-2.4 s: "Sweet Potato Flatbreads" / «خبز البطاطا الحلوة».
+- The keyword over the 4 plates and the bite: «اكتب «بطاطا» 👇» / "Comment FLATBREAD 👇".
+- Sound: the house chain, the bite lifted.
+- Check: DEAD 0, QUIET 0.
+
+===== THE PDF RECIPE IMAGE =====
+Nano Banana Pro (or GPT image), 4:5: A photoreal overhead food photograph of 4 baked sweet potato flatbreads on a white plate with a thin gold rim on black marble with fine gold veins, warm 2700 K light from the left, everything else falling to black. Each flatbread bright orange with golden-brown spots, spread with white garlic yogurt sauce, baby spinach, a sliced golden-roasted seasoned chicken breast, toasted chopped pecans and grated cheese. A black-gloved hand folding the front one. Fine film grain, food tack sharp. No text, no logos.
