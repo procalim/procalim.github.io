@@ -61,3 +61,44 @@ AVOID: a stemmed glass, a red drink, wine, alcohol, pork, a woman, any speech, t
 | then | the flatbreads v4 (2c4960cf) from its frame 0, its cards and its own bite at the end | its cards |
 - The take's own bite stays out unless the v4 ending reads weaker; pp.py DEAD 0, SLOW 0, QUIET 0 over the whole reel.
 - Any voice in the take is cut. If the take is not in by the post, the flatbreads v4 (2c4960cf) goes out as it is.
+
+===== v2: AN EXACT COPY (owner, 2026-11-14: «فيديو الأكل مش زيو بدنا زيو لنتيجة مضمونة») =====
+v1 (job c92f7018) read: a dark kitchen, the items shown in separate cuts (no hand pulling anything past the lens), the hero
+at 4.2-5.4 s, then him eating. Not the source. v1 told the model not to copy the cafe, the daylight and the table; v2
+copies them, and changes only the person (him, the Chef-Ahmad element) and the food (ours, halal).
+
+The source, timed (the silent 6.1 s reference):
+| Time (s) | Shot |
+|---|---|
+| 0.0-3.0 | wide: a person seated at a round white table in a bright cafe, holding a phone up and filming the crowded table; friends' hands at the table |
+| 3.0-3.4 | low, at table height: a hand lifts a tall glass of yellow juice and pulls it past the lens to the left |
+| 3.4-3.9 | a hand pulls a tall glass of orange-red juice toward the lens and out |
+| 3.9-4.7 | a hand slides a full breakfast plate toward the lens and out |
+| 4.7-5.3 | a hand takes the last glass away to the right |
+| 5.3-6.1 | the hero dish alone in the centre of the white table, the cafe soft behind |
+
+Settings as v1 (Seedance 2.5, Omni reference, 8 s, 9:16, 720p, audio On, Chef-Ahmad element on); @Video1 9f18ba6d (silent);
+@Image2 351a2271 (the hero). No @Image1: the place is the source's cafe.
+
+===== PROMPT v2 =====
+A vertical 9:16 photoreal food video, exactly 8 seconds, no text.
+
+REFERENCE VIDEO (@Video1): copy it exactly: the same two shots, the same timing, the same camera height and movement, the same bright cafe with large windows and soft daylight, the same round white table, the same light sofas and potted olive trees behind, the same way each glass and plate is lifted or slid toward the lens and out of frame one after another, and the same ending with one dish alone in the centre. Change only two things: the person is the Chef-Ahmad element, and the food and drinks are the ones below. No stemmed glass and no red drink.
+
+PERSON: the Chef-Ahmad element: his face with his sunglasses on, his moustache, a plain white T-shirt.
+
+THE TABLE (crowded at the start): at the back centre, the hero, never moved: the white gold-rim plate of 4 loaded sweet potato flatbreads from @Image2 (orange flatbreads, white yogurt sauce, baby spinach, a seasoned golden chicken breast, chopped pecans, grated cheese). In front of it and around it: a tall glass of mango juice, a tall glass of fresh orange juice, a plate of 4 baked falafel cups with hummus, and a tall glass of iced mint lemonade.
+
+0.0-3.0s: Wide shot, frame one already moving: he sits at the round white table in the bright cafe, holding his phone up and filming the crowded table; a friend's hands rest at the table edge.
+3.0-3.4s: Low at table height, the hero sharp at the back centre: a hand lifts the tall glass of mango juice and pulls it past the lens to the left.
+3.4-3.9s: A hand pulls the tall glass of orange juice toward the lens and out of frame.
+3.9-4.7s: A hand slides the plate of falafel cups toward the lens and out of frame.
+4.7-5.3s: A hand takes the glass of mint lemonade away to the right.
+5.3-8.0s: The plate of 4 loaded sweet potato flatbreads alone in the centre of the white table, sharp, the cafe soft behind; the camera eases in slowly.
+
+AUDIO: soft cafe ambience, glasses lifted off the table, ice clinking, a plate sliding on the table, a light whoosh as each one passes the lens. No words, no voice, no music.
+
+AVOID: a stemmed glass, a red drink, wine, alcohol, pork, a woman, any speech, text, logos, a dark room, the hero plate moving, more or fewer than 4 flatbreads on the hero plate, food falling, sunglasses off, a distorted face, extra fingers, deformed hands.
+
+EDIT v2: the pulls and the hero (3.0-6.0 s of the take, as is: the source's own pace) in front of the flatbreads v4; the wide
+filming shot (0-3.0) only if the read shows it holds; pp.py DEAD 0, SLOW 0, QUIET 0.
