@@ -80,6 +80,6 @@ Speeds are set from the measured source motion, as on every edit. The target is 
 - Check with pp.py: DEAD 0, QUIET 0.
 
 ===== THE PDF RECIPE IMAGE =====
-Model: Nano Banana Pro (or GPT image), 4:5. Prompt:
+Model: Nano Banana Pro (or GPT image), 4:3 landscape (the PDF slot). Prompt:
 
 A photoreal overhead food photograph of 4 sweet potato steak bites on a white plate with a thin gold rim, on a black marble counter with fine gold veins, warm 2700 K tungsten light raking from the left, everything outside the light falling to pure black, deep blacks and golden highlights. Each one is a round bright-orange sweet potato cup about 9 cm wide with a thick raised rim, deep golden at the edges, filled with seared beef steak cubes pink in the centre, blistered red cherry tomatoes, soft red onion, fanned green avocado slices and fresh dill. A thick pale-green yogurt herb sauce poured over the front one, running down its side; a small glass bowl of the same sauce at the top of the plate. A black-gloved hand lifting the front cup slightly from the right edge. Fine film grain, food tack sharp. No text, no logos, no glassware but the small sauce bowl.

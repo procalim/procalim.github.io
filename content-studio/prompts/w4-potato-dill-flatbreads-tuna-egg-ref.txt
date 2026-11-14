@@ -70,4 +70,4 @@ AVOID: a woman or her face, any face, bare or clear-gloved hands, a wooden board
 - Check: DEAD 0, QUIET 0.
 
 ===== THE PDF RECIPE IMAGE =====
-Nano Banana Pro (or GPT image), 4:5: A photoreal overhead food photograph of 4 golden potato dill cups on a white plate with a thin gold rim on black marble with fine gold veins, warm 2700 K light from the left, everything else falling to black. Each cup filled with red spicy tuna and topped with a fried egg; the front egg cut open, its bright orange yolk running over the tuna; basil leaves and lime halves. Fine film grain, food tack sharp. No text, no logos.
+Nano Banana Pro (or GPT image), 4:3 landscape (the PDF slot; the pizza and spinach images are 2400x1792): A photoreal overhead food photograph of 4 golden potato dill cups on a white plate with a thin gold rim on black marble with fine gold veins, warm 2700 K light from the left, everything else falling to black. Each cup filled with red spicy tuna and topped with a fried egg; the front egg cut open, its bright orange yolk running over the tuna; basil leaves and lime halves. Fine film grain, food tack sharp. No text, no logos.

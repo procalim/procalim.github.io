@@ -116,3 +116,16 @@ Steak Bites, shot by shot (her times; the template for our next edit):
 ## Files
 - In the Higgsfield sandbox: /home/user/rima/steak.mp4, pasta.mp4, steak_s8.jpg (8 frames a second with the time), steak_s4.jpg, pasta_s4.jpg, ours_pasta_s4.jpg.
 - On Higgsfield media, her Steak Bites reel as the reference: media 37624330-7c01-411c-aa8e-25d2e39b4bcb, https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/37624330-7c01-411c-aa8e-25d2e39b4bcb.mp4
+
+## The owner's read of our pasta copy (2026-11-14) and the measurement
+Owner: «حتى ريل الباستا مش معيوب الي منها ممكن ثانية وحدة ميتة تقتل الفيديو كامل».
+
+pp.py on our posted pasta (onion-pasta-4k-final.mp4, 12.5 s):
+| Time | Flag | Detail |
+|---|---|---|
+| 1.5 s | QUIET | the sound dipped 12 dB under the median, in the first two seconds |
+| 11.5 s | SLOW | |
+| 12.0 s | DEAD | his face at the end |
+
+The reel had 60.7% skip, our worst. So the concept read above is not the whole story: the dip at 1.5 s fits the owner's
+read. Every edit since 13 Nov ships with DEAD 0 and QUIET 0, and the check stays.
