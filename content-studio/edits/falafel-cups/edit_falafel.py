@@ -13,7 +13,7 @@ SEGS = [  # (first frame, end frame, speed, label[, push-in]); cut points from t
     (36, 44, 1.0, 'the red onion'),
     (44, 52, 1.0, 'the herbs'),
     (52, 60, 1.0, 'the green mix'),
-    (60, 68, 1.0, 'more herbs'),
+    # (60, 68) 'more herbs' left out: the herbs fall again on the blitzed mix (owner: «البقدونس مكرر بالخلطة»)
     (68, 82, 1.2, 'the tahini'),
     (82, 90, 1.0, 'the spices'),
     (90, 102, 1.2, 'the mixing'),

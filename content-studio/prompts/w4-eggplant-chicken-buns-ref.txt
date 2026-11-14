@@ -1,15 +1,17 @@
 Cheesy Baked Eggplant Chicken Buns: the outside-account plan, 16 Nov 3 pm (plan-2026-11-14-to-24.md).
 Reference: fiteat.rima DcUDu5xhdMi (3.5M plays, 21 Aug 2026), 12.7 s, read at 6 frames a second 2026-11-14. No text on
 her reel. Eggplant rounds as the bun, a green chicken and spinach filling between two cheese slices, baked with crumbs.
-Recipe: book-additions/eggplant-chicken-buns.md (new, for the new PDF). Status: NOT generated (owner generates).
+Recipe: book-additions/eggplant-chicken-buns.md (new, for the new PDF). Status: v1 REFUSED on higgsfield.ai («Restricted content detected», 2026-11-14). v2 below: the word eggplant replaced by
+aubergine, no "glossy", no hand lifting the whole vegetable, no "her", and the reference trimmed past its first shot.
 
 SETTINGS:
 - Seedance 2.5, Omni reference, 14 s, 9:16, 720p, bitrate High, audio On.
 - Chef-Ahmad element on.
 
 References:
-- @Video1 = her reel, media db54cc86-314b-4284-97db-660516474e25:
-  https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/db54cc86-314b-4284-97db-660516474e25.mp4
+- @Video1 = her reel from 0.34 s (v2: the first shot, a hand holding the whole eggplant up, cut out), media
+  5abe3485-2ad1-49f4-89e3-6106cb743a7a, 12.2 s (v1 used the full reel, db54cc86):
+  https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/5abe3485-2ad1-49f4-89e3-6106cb743a7a.mp4
 - @Image1 = the kitchen:
   https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/66c2248f-e130-4a3c-83df-1a715f172d69.jpg
 
@@ -31,41 +33,40 @@ PRE-GENERATION CHECK
 | Frame one | already moving: the eggplant lifted into frame |
 | Text | none in the generation |
 
-===== PROMPT =====
-A vertical 9:16 photoreal cooking reel of Cheesy Baked Eggplant Chicken Buns, exactly 14 seconds, fast cuts, no text.
+===== PROMPT ===== (v2, 2026-11-14: v1 was refused on higgsfield.ai, "Restricted content detected")
+A vertical 9:16 photoreal cooking reel of Baked Aubergine Chicken Stacks with Cheese, exactly 14 seconds, fast cuts, no text.
 
-REFERENCE VIDEO (@Video1): copy its exact shots, timing, camera framing, hand moves and cut rhythm, the same food and the same steps in the same order. Do not copy its person, her bare hands, her wooden board, her daylight, her colours or her audio.
+REFERENCE VIDEO (@Video1): copy its shots, timing, camera framing, hand moves and cut rhythm, the same food and the same steps in the same order. Do not copy the cook, the wooden board, the daylight, the colours or the audio.
 
-PLACE: the dark kitchen of @Image1: a black marble counter with fine gold veins, warm 2700 K light from camera left, the background falling to black. A black cutting board; a black baking tray lined with baking paper; a small white ramekin; a black oven; a white plate with a thin gold rim. Photoreal, real food, real physics, food tack sharp.
+PLACE: the dark kitchen of @Image1: a black marble counter with fine gold veins, warm 2700 K light from camera left, the background falling to black. A black cutting board; a black baking tray lined with baking paper; a small white ramekin; a black oven; a white plate with a thin gold rim. Photoreal, real food, food tack sharp.
 
-COOK: only his hands and forearms in black nitrile gloves, in every shot. No face.
+COOK: only hands in black nitrile kitchen gloves, in every shot. No face.
 
-FOOD (the same in every shot, never change): 1 large glossy deep-purple eggplant; thick pale eggplant rounds about 2 cm thick; round white slices of mozzarella; a green filling of minced chicken with chopped spinach and herbs; exactly 4 eggplant buns, each one eggplant round, cheese, green filling, cheese and a second eggplant round; beaten egg; golden breadcrumbs mixed with grated cheese; red cherry tomatoes and peeled garlic cloves; chopped parsley.
+FOOD (the same in every shot): 1 large purple aubergine; aubergine slices about 2 cm thick; round slices of white mozzarella; a green filling of minced chicken with chopped spinach and herbs; exactly 4 aubergine stacks, each one aubergine slice, cheese, green filling, cheese and a second aubergine slice; beaten egg; golden breadcrumbs with grated cheese; red cherry tomatoes and peeled garlic cloves; chopped parsley.
 
-0.0-0.35s: Close, frame one already moving: his gloved hand lifts the whole glossy purple eggplant into the frame.
-0.35-0.6s: A knife cuts the green stem end off the eggplant.
-0.6-1.6s: The knife slices the eggplant into thick round slices, one after another.
-1.6-2.4s: The thick pale eggplant rounds fall and fan out on the black board.
-2.4-3.4s: Top-down: 8 eggplant rounds on the black tray lined with baking paper; his gloved hand lays a round white slice of mozzarella on 4 of them.
-3.4-3.9s: A mound of the green chicken and spinach filling spooned onto each mozzarella slice.
-3.9-4.6s: Close: a knife spreads and flattens the green filling over the cheese.
-4.6-5.1s: A second slice of mozzarella laid over the filling.
-5.1-5.6s: The second eggplant round pressed on top: an eggplant bun.
-5.6-6.1s: Top-down: the 4 stacked eggplant buns on the tray.
-6.1-6.9s: A pastry brush paints beaten egg over the top of each bun, glossy.
-6.9-7.4s: Golden breadcrumbs and grated cheese sprinkled over the tops.
-7.4-8.6s: Red cherry tomatoes and peeled garlic cloves dropped into a small white ramekin, olive oil drizzled over them.
-8.6-9.0s: The ramekin set on the tray between the eggplant buns.
-9.0-9.4s: The tray slides into the black oven.
-9.4-9.9s: Baked: a spatula lifts one eggplant bun, the crumb top deep golden and crisp, cheese melting out of the sides.
-9.9-10.3s: The eggplant bun on the white gold-rim plate.
-10.3-10.7s: A spoon lays soft roasted cherry tomatoes and garlic on top.
-10.7-11.6s: Chopped parsley falls over it.
-11.6-14.0s: Close: his gloved hand lifts the eggplant bun up to the lens and turns it, showing the layers: crisp golden eggplant, melted mozzarella, the green chicken filling, the roasted tomatoes on top. No cut to black.
+0.0-0.3s: Close, frame one already moving: a chef's knife trims the green top off the purple aubergine on the black board.
+0.3-1.3s: The knife cuts the aubergine into round slices, one after another.
+1.3-2.1s: The pale aubergine slices fan out on the black board.
+2.1-3.1s: Top-down: 8 aubergine slices on the black tray lined with baking paper; a gloved hand lays a round slice of mozzarella on 4 of them.
+3.1-3.6s: A spoon of the green chicken and spinach filling on each mozzarella slice.
+3.6-4.3s: Close: a knife spreads the green filling flat over the cheese.
+4.3-4.8s: A second slice of mozzarella laid over the filling.
+4.8-5.3s: A second aubergine slice set on top: an aubergine stack.
+5.3-5.8s: Top-down: the 4 aubergine stacks on the tray.
+5.8-6.6s: A pastry brush paints beaten egg over the top of each stack.
+6.6-7.1s: Golden breadcrumbs and grated cheese sprinkled over the tops.
+7.1-8.3s: Red cherry tomatoes and garlic cloves dropped into a small white ramekin, olive oil poured over them.
+8.3-8.7s: The ramekin set on the tray between the stacks.
+8.7-9.1s: The tray slides into the black oven.
+9.1-9.6s: Baked: a spatula lifts one aubergine stack, the crumb top deep golden and crisp, melted cheese at the sides.
+9.6-10.0s: The aubergine stack on the white gold-rim plate.
+10.0-10.4s: A spoon lays roasted cherry tomatoes and garlic on top.
+10.4-11.3s: Chopped parsley falls over it.
+11.3-14.0s: Close: a gloved hand holds the aubergine stack up to the lens and turns it, showing the layers: golden aubergine, melted mozzarella, the green chicken filling, roasted tomatoes on top. No cut to black.
 
-AUDIO: loud close-mic sound of what is on screen on every cut: the eggplant skin, the knife through the stem, the slices, the rounds landing, the cheese laid down, the filling, the knife spreading, the round pressed on, the brush, the crumbs, the tomatoes dropping, the oil, the oven door, the spatula on the crisp crust, the tomatoes spooned on. No music, no voice, no talking.
+AUDIO: crisp close-mic kitchen sounds on every cut: the knife on the board, the slices landing, the cheese laid down, the spoon, the brush, the crumbs, the tomatoes in the ramekin, the oven door, the spatula on the crisp crust. No music, no voice.
 
-AVOID: a woman or her face, any face, bare hands, a wooden board, daylight, text, logos, packaging, wine, alcohol, pork, more or fewer than 4 buns, bread buns, burgers, burnt food, raw eggplant after baking, extra fingers, deformed hands.
+AVOID: any person or face, bare hands, a wooden board, daylight, text, logos, packaging, wine, alcohol, pork, more or fewer than 4 stacks, bread buns, burgers, burnt food, extra fingers.
 
 ===== EDIT TEMPLATE =====
 - Her shot lengths, about 12 s.

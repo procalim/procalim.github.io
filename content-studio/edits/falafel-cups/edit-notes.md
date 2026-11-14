@@ -1,4 +1,4 @@
-# Baked Falafel Cups with Hummus & Chicken Shawarma: the edit v2 (2026-11-14; the outside-account plan, 15 Nov 10 pm)
+# Baked Falafel Cups with Hummus & Chicken Shawarma: the edit v3 (2026-11-14; the outside-account plan, 15 Nov 10 pm)
 Source: job 39c6ecd7, Seedance 2.5 omni reference, 14.04 s, 720x1280, 24 fps.
 - Prompt: `../../prompts/w4-falafel-cups-ref.txt`.
 - Reference: her 3.5M reel (media 170e706a).
@@ -20,7 +20,8 @@ Source: job 39c6ecd7, Seedance 2.5 omni reference, 14.04 s, 720x1280, 24 fps.
   - the bite.
 
 ## The edit
-- 10.17 s on her timeline.
+- v3, 9.83 s on her timeline.
+- The second herbs shot is out. Owner: «البقدونس مكرر بالخلطة»: the herbs fell again on the blitzed mix.
 - The still stretches run faster, with push-ins:
   - sesame at 2.0x;
   - almonds and parsley at 2.2x;
@@ -35,11 +36,11 @@ Source: job 39c6ecd7, Seedance 2.5 omni reference, 14.04 s, 720x1280, 24 fps.
 ## Checks
 | Check | Result |
 |---|---|
-| pp.py | DEAD 0, SLOW 0, LONG 0, QUIET 0 of 20 |
+| pp.py | DEAD 0, SLOW 1 (9.5 s, his face chewing), LONG 0, QUIET 0 of 20 |
 | Loudness | -14.5 LUFS, peak -1.2 dB |
 
 ## Final
-Media 6a71d2c0-ce3b-4d86-ade3-df3ca505cccf:
-https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/6a71d2c0-ce3b-4d86-ade3-df3ca505cccf.mp4
+Media 3694446c-bac1-4fd0-a89a-65763c88533f (v3; v2 with the repeated herbs: 6a71d2c0):
+https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/3694446c-bac1-4fd0-a89a-65763c88533f.mp4
 
 Post: 15 Nov, 10 pm Amman. Package: `../../week4/falafel-cups-{caption,pinned,dm-reply}.txt`.

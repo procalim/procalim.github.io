@@ -128,9 +128,23 @@ def ar(n):
     return str(n).translate(AR_DIGITS)
 
 
+def web_copy(src, slug):
+    # The PDF uses a 1500 px copy (the owner's photos are 2400 px; at full size the PDF ran to 26 MB).
+    import subprocess
+    try:
+        import imageio_ffmpeg; ff = imageio_ffmpeg.get_ffmpeg_exe()
+    except Exception:
+        ff = 'ffmpeg'
+    os.makedirs(os.path.join(HERE, 'web'), exist_ok=True)
+    out = os.path.join(HERE, 'web', f'{slug}.jpg')
+    if not os.path.exists(out) or os.path.getmtime(out) < os.path.getmtime(src):
+        subprocess.run([ff, '-v', 'error', '-y', '-i', src, '-vf', 'scale=1500:-2:flags=lanczos', '-q:v', '4', out], check=True)
+    return out
+
+
 def image_for(slug):
     own = os.path.abspath(os.path.join(HERE, '..', 'images', f'{slug}.jpg'))
-    if os.path.exists(own): return 'file://' + own, 'owner photo'
+    if os.path.exists(own): return 'file://' + web_copy(own, slug), 'owner photo'
     fr = os.path.join(HERE, 'frames', f'{slug}.jpg')
     if os.path.exists(fr): return 'file://' + fr, 'reel frame (interim)'
     return None, 'placeholder'
