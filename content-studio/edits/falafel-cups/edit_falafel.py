@@ -4,17 +4,19 @@
 # those run at 1.6-2.2x with push-ins. A small line in the middle until his face, the keyword over the drizzle and
 # the bite. Sound: the house chain (the take was QUIET at 3.0 s), the bite lifted.
 # Cards come in as PNGs named ov_<key>.png (rendered full frame in the sandbox).
+# v4 (owner, 2026-11-14): the hook and rehook from the tested bank centred from frame 0, the raw steps faster
+# through the 1-3 s drop the steak read showed. Cards from edits/_tools/hook_patch.py.
 import subprocess, re
 FPS = 24
 SRC = 'raw.mp4'
 SEGS = [  # (first frame, end frame, speed, label[, push-in]); cut points from the measured source cuts
     (0, 10, 1.0, 'the bowl set down'),
-    (12, 35, 1.5, 'the chickpeas pour'),
+    (12, 35, 1.8, 'the chickpeas pour'),   # v4: faster through the 1-3 s drop
     (36, 44, 1.0, 'the red onion'),
     (44, 52, 1.0, 'the herbs'),
     (52, 60, 1.0, 'the green mix'),
     # (60, 68) 'more herbs' left out: the herbs fall again on the blitzed mix (owner: «البقدونس مكرر بالخلطة»)
-    (68, 82, 1.2, 'the tahini'),
+    (68, 82, 1.5, 'the tahini'),   # v4: faster through the 1-3 s drop
     (82, 90, 1.0, 'the spices'),
     (90, 102, 1.2, 'the mixing'),
     (102, 112, 1.0, 'the flour'),
@@ -80,7 +82,9 @@ run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-i', 'alist.txt', '-af',
 I, P = meas('mix.wav'); g0 = -17.5 - I
 run(['ffmpeg', '-v', 'error', '-y', '-i', 'mix.wav', '-af', f'volume={g0:.2f}dB,alimiter=limit=0.80:attack=2:release=60:level=disabled', 'mix2.wav'])
 I2, P2 = meas('mix2.wav'); g = -17.5 - I2   # mono at -17.5 = stereo -14.5
-CARDS = [('ov_line.png', 0.0, L['the tahini drizzle'][0]),   # the line ends where the keyword starts (v1 overlapped 0.8 s)
+CARDS = [  # v4: hook, rehook and keyword, all centred at y 860
+         ('ov_hook.png', 0.0, L['the mixing'][0]),
+         ('ov_rehook.png', L['the mixing'][0], L['the hummus'][0]),
          ('ov_cta.png', L['the tahini drizzle'][0], TOTAL)]
 ins = ['-i', 'cut.mkv']
 fc = ['[0:v]setsar=1,format=yuv420p[b0]']

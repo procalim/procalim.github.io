@@ -3,16 +3,18 @@
 # 12.8M reel as @Video1). Cut to her shot timeline: the bowl at frame 0, every step 0.2-0.7 s, the end on the yolk running.
 # The small title at frame 0, the keyword over the plate and the yolk. Sound: the house chain, the knife lifted.
 # Cards come in as PNGs named ov_<key>.png (rendered full frame in the sandbox).
+# v4 (owner, 2026-11-14): the hook and rehook from the tested bank centred from frame 0, the raw steps faster
+# through the 1-3 s drop the steak read showed. Cards from edits/_tools/hook_patch.py.
 import subprocess, re
 FPS = 24
 SRC = 'raw.mp4'
 SEGS = [  # (first frame, end frame, speed, label[, push-in]); cut points from the measured source cuts
     (0, 8, 1.0, 'the bowl slides in'),
-    (8, 29, 1.3, 'the potatoes drop'),
+    (8, 29, 1.6, 'the potatoes drop'),   # v4: faster through the 1-3 s drop
     (30, 42, 1.2, 'the flour'),
     (42, 47, 1.0, 'the mozzarella'),
     (47, 58, 1.4, 'the dill'),
-    (58, 70, 1.2, 'the mash'),
+    (58, 70, 1.5, 'the mash'),   # v4: faster through the 1-3 s drop
     (70, 78, 1.0, 'the dough squeezed'),
     (78, 102, 1.4, 'the balls set down'),
     (102, 119, 1.2, 'the glass presses'),
@@ -75,7 +77,9 @@ run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-i', 'alist.txt', '-af',
 I, P = meas('mix.wav'); g0 = -17.5 - I
 run(['ffmpeg', '-v', 'error', '-y', '-i', 'mix.wav', '-af', f'volume={g0:.2f}dB,alimiter=limit=0.80:attack=2:release=60:level=disabled', 'mix2.wav'])
 I2, P2 = meas('mix2.wav'); g = -17.5 - I2   # mono at -17.5 = stereo -14.5
-CARDS = [('ov_title.png', 0.0, L['the dill'][1]),
+CARDS = [  # v4: hook, rehook and keyword, all centred at y 860
+         ('ov_hook.png', 0.0, L['the balls set down'][0]),
+         ('ov_rehook.png', L['the balls set down'][0], L['the tuna spooned in'][0]),
          ('ov_cta.png', L['the 4 on the plate'][0], TOTAL)]
 ins = ['-i', 'cut.mkv']
 fc = ['[0:v]setsar=1,format=yuv420p[b0]']

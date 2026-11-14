@@ -1,14 +1,19 @@
 {
  "items": {
-  "line": {
-   "y": 528,
-   "ar": "<span style=\"font-family:IS;font-weight:700;font-size:26px;line-height:1.25;direction:ltr;unicode-bidi:isolate;-webkit-text-stroke:3px #000;text-shadow:0 0 10px rgba(0,0,0,.9),0 2px 6px rgba(0,0,0,.9)\">this after gym &gt;&gt;&gt;</span>",
-   "en": "<span style=\"font-family:Taj;font-weight:800;font-size:28px;line-height:1.25;direction:rtl;unicode-bidi:isolate;-webkit-text-stroke:3px #000;text-shadow:0 0 10px rgba(0,0,0,.9),0 2px 6px rgba(0,0,0,.9)\">هاد بعد الجيم &gt;&gt;&gt;</span>"
+  "hook": {
+   "y": 860,
+   "ar": "<span style=\"font-size:50px;line-height:1.18;-webkit-text-stroke:5px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">التونة لازم تضل<br>حمرا من جوّا</span>",
+   "en": "<span style=\"font-size:32px;line-height:1.2;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">Tuna should stay<br>red in the middle</span>"
+  },
+  "rehook": {
+   "y": 860,
+   "ar": "<span style=\"font-size:50px;line-height:1.18;-webkit-text-stroke:5px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">الرز بيتفتّت لما يبرد.<br>اكبسه دافي</span>",
+   "en": "<span style=\"font-size:32px;line-height:1.2;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">Rice crumbles once it's cold.<br>Press it warm.</span>"
   },
   "cta": {
-   "y": 1336,
-   "ar": "<span style=\"font-size:44px;line-height:1.2;-webkit-text-stroke:4px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">اكتب «تونة» 👇</span>",
-   "en": "<span style=\"font-size:34px;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">Comment TUNA 👇</span>"
+   "y": 860,
+   "ar": "<span style=\"font-size:50px;line-height:1.18;-webkit-text-stroke:5px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">اكتب «تونة» 👇</span>",
+   "en": "<span style=\"font-size:32px;line-height:1.2;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">Comment TUNA 👇</span>"
   }
  }
 }

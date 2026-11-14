@@ -4,15 +4,17 @@
 # بوظة», it reads as an ice-cream glass). Her line in the middle until his face, the keyword over the
 # drizzle and the bite. Sound: the house chain, the bite lifted.
 # Cards come in as PNGs named ov_<key>.png (rendered full frame in the sandbox).
+# v4 (owner, 2026-11-14): the hook and rehook from the tested bank centred from frame 0, the raw steps faster
+# through the 1-3 s drop the steak read showed. Cards from edits/_tools/hook_patch.py.
 import subprocess, re
 FPS = 24
 SRC = 'raw.mp4'
 SEGS = [  # (first frame, end frame, speed, label[, push-in]); cut points from the measured source cuts
     (0, 12, 1.0, 'the knife in the raw tuna', (1.0, 1.06)),
-    (12, 34, 1.4, 'turned in the marinade'),
+    (12, 34, 1.8, 'turned in the marinade'),   # v4: faster through the 1-3 s drop
     (34, 49, 1.0, 'pressed into the sesame'),
     (50, 64, 1.2, 'seared in the pan'),
-    (64, 83, 1.6, 'the crust close', (1.0, 1.08)),
+    (64, 83, 2.0, 'the crust close', (1.0, 1.08)),   # v4: faster through the 1-3 s drop
     (84, 99, 1.0, 'the rice on the paper'),
     (99, 114, 1.0, 'the glass presses the rice'),   # v2 cut it (a stemmed glass); owner: «عادي كانّها كاسة بوظة»
     (114, 132, 1.2, 'the rice disk fried and flipped'),   # 132-144: the golden disk sits still, left out
@@ -72,7 +74,9 @@ run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-i', 'alist.txt', '-af',
 I, P = meas('mix.wav'); g0 = -17.5 - I
 run(['ffmpeg', '-v', 'error', '-y', '-i', 'mix.wav', '-af', f'volume={g0:.2f}dB,alimiter=limit=0.80:attack=2:release=60:level=disabled', 'mix2.wav'])
 I2, P2 = meas('mix2.wav'); g = -17.5 - I2   # mono at -17.5 = stereo -14.5
-CARDS = [('ov_line.png', 0.0, L['the spicy mayo drizzle'][0]),   # her line, gone before his face
+CARDS = [  # v4: hook, rehook and keyword, all centred at y 860
+         ('ov_hook.png', 0.0, L['the rice on the paper'][0]),
+         ('ov_rehook.png', L['the rice on the paper'][0], L['cucumber and avocado'][0]),
          ('ov_cta.png', L['the spicy mayo drizzle'][0], TOTAL)]
 ins = ['-i', 'cut.mkv']
 fc = ['[0:v]setsar=1,format=yuv420p[b0]']

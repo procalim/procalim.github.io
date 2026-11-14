@@ -36,3 +36,6 @@ Media bf750c55-4f4f-4b6e-963a-b966dd6c0bff:
 https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/bf750c55-4f4f-4b6e-963a-b966dd6c0bff.mp4
 
 Post: 15 Nov, 3 pm Amman. Package: `../../week4/potato-dill-flatbreads-tuna-egg-{caption,pinned,dm-reply}.txt`.
+
+## v4 (2026-11-14)
+Re-cut with the hook in the middle from frame 0: see ../v4-recut-2026-11-14.md. Post the v4 media, not the one above.

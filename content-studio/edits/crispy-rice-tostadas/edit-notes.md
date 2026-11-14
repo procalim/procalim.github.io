@@ -42,3 +42,6 @@ Media 7d071594-7bc4-4782-9a64-deb5cfee3596 (v3; v2 without the press: 01925efb):
 https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/7d071594-7bc4-4782-9a64-deb5cfee3596.mp4
 
 Post: 14 Nov, 10 pm Amman time (19:00 UTC). Package: `../../week4/crispy-rice-tostadas-{caption,pinned,dm-reply}.txt`.
+
+## v4 (2026-11-14)
+Re-cut with the hook in the middle from frame 0: see ../v4-recut-2026-11-14.md. Post the v4 media, not the one above.

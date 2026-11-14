@@ -1,0 +1,19 @@
+{
+ "items": {
+  "hook": {
+   "y": 860,
+   "ar": "<span style=\"font-size:50px;line-height:1.18;-webkit-text-stroke:5px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">الباذنجان بيطلع مي<br>إذا ما انملّح قبل</span>",
+   "en": "<span style=\"font-size:32px;line-height:1.2;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">Aubergine turns watery<br>when it isn't salted first</span>"
+  },
+  "rehook": {
+   "y": 860,
+   "ar": "<span style=\"font-size:50px;line-height:1.18;-webkit-text-stroke:5px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">الباذنجان<br>أطيب من الخبز</span>",
+   "en": "<span style=\"font-size:32px;line-height:1.2;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">Aubergine makes<br>a better bun than bread</span>"
+  },
+  "cta": {
+   "y": 860,
+   "ar": "<span style=\"font-size:50px;line-height:1.18;-webkit-text-stroke:5px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">اكتب «باذنجان» 👇</span>",
+   "en": "<span style=\"font-size:32px;line-height:1.2;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">Comment EGGPLANT 👇</span>"
+  }
+ }
+}

@@ -125,9 +125,17 @@ How to pick the next reel:
 2. Prefer a family that already worked on our account.
 3. Make the top concept with halal food, in his kitchen. The reference reel is @Video1, and every shot names our food.
 4. Edit to the reference's own shot timeline, second by second. Its frame 0, no payoff flash in front of it.
-5. Text:
-   - only the small title at frame 0 and the keyword over the payoff;
-   - nothing else unless the reference has it.
+5. Text, the v4 way (owner, 2026-11-14, after the steak read: 90% at 1 s, 55% at 3 s, the drop on the raw steps;
+   «عدل جميع الفيديوهات ... خلي النص بنص ... text hook viral»):
+   - the hook, from the tested bank, centred at y 860 from frame 0 to the end of the raw steps;
+   - a rehook with another formula over the shaping and the bake;
+   - the keyword («اكتب «X» 👇» / "Comment X 👇") over the payoff to the last frame;
+   - the raw steps in the 1-3 s window run faster (1.5-2.0x) than the rest;
+   - check before upload: pp.py DEAD 0, SLOW 0, QUIET 0 over the whole reel, the last held shot included (speed it up
+     or cut its still tail); every card inside x 230-850 (`convert -alpha extract -threshold 8% -format %@`);
+   - the hook and rehook formulas never repeat the reel before or after, and the worn-out list in hook-log.md holds
+     («دقيقة كل جهة» counts as «٣ / ٤ دقايق كل جهة»);
+   - tools: `content-studio/edits/_tools/hook_patch.py` (re-cut a built edit) and `mk_16th.py` (build a new one).
 6. Run the family as a series (one a day while the unlimited runs).
 7. Read each reel at 24 h against the sweet potato: 23K at 21.5 h, 8.7 shares per 1K reach.
 
@@ -409,15 +417,20 @@ reels get 25-35K comments; ours sent the book link only and got 0-1 (research/ri
 
 The keyword gets two DMs:
 1. **This reel's recipe, free.** The quantities and the steps, under 1,000 characters (Instagram's DM limit). Only this reel's recipe, never other recipes from the book.
-2. **The book link** (https://ediblecodex.com/shop/the-edible-codex):
-   - one line on what is inside (361 halal recipes, Arabic and English, instant download, 30-day refund);
+2. **The free PDF, then the book link** (owner, 2026-11-14: «أعملها كلها pdf»; her funnel's second step):
+   - the free PDF of the new recipes first (8 high-protein halal recipes, this reel's included):
+     https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/c8a9452a-3f71-46c3-bdf7-5e87fc6fdb81.pdf
+     (built by `content-studio/book-additions/pdf/`; re-upload and replace this link when recipes are added);
+   - then the book (https://ediblecodex.com/shop/the-edible-codex), one line on what is inside (361 halal recipes,
+     Arabic and English, instant download, 30-day refund);
    - one question they can answer in four words;
    - no price.
 
 Language: the English keyword gets the English pair, the Arabic keyword («ستيك») the Arabic pair.
 
 Every promise matches what is sent: the card says only the keyword («اكتب «ستيك» 👇»); the caption and the pinned comment
-say "I'll send you the full recipe, plus the link to my book". No recipe in the pinned comment.
+say "I'll send you the full recipe, plus a free PDF of 8 high-protein halal recipes" (the caption adds "and the link to
+my book of 361"). No recipe in the pinned comment. The bio carries the same PDF as a second link ("Free PDF: 8 recipes").
 
 Example: `content-studio/week4/sweet-potato-steak-bites-dm-reply.txt`.
 
