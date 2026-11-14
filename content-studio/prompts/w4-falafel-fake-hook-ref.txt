@@ -1,0 +1,72 @@
+Falafel Cups: the fake hook (owner, 2026-11-14: «اسحب ريل واحد منها واسحب هووك قوي من حساب ب3 ثواني هووك قوي مثل fake
+hook متركب بعد التعديل»). A 3-second near-fall in front of the falafel v4 edit (15 Nov 10 pm, media de94f773).
+Source: research/fake-hook-2026-11-14.md. Status: NOT generated. The owner generates on higgsfield.ai; no generation from
+Claude Code without «ولد».
+
+THE SOURCE HOOK, MEASURED
+- yaraobeidat (Jordan), reel DRuheLQDFYY, 1 Dec 2025, «الله ستر ما وقعت»: 3,727,349 views, 4.4x her median of 841,502
+  (her last 10 reels).
+- 0.00-3.73 s, one shot, no cut, no text: she holds a big platter above her head with both arms, it wobbles, she leans
+  to keep it level; the dish waits on the counter in front. First cut at 3.73 s.
+- Sound: her voice and the platter, about -10 dB RMS, no quiet moment.
+- We do not put her footage on our reel: it is her work, and Instagram ranks the original over reused clips. Her clip is
+  only the motion reference below; the hook is made in his kitchen with our food.
+
+SETTINGS (higgsfield.ai):
+- Seedance 2.5, Omni reference, 5 s (or the shortest offered), 9:16, 720p, bitrate High, audio On.
+- Chef-Ahmad element on.
+
+References:
+- @Video1 = her first 3.7 s (motion and framing only), media 23846542-0625-4bc1-a7f8-b250d5072d98:
+  https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/23846542-0625-4bc1-a7f8-b250d5072d98.mp4
+- @Image1 = the kitchen:
+  https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/66c2248f-e130-4a3c-83df-1a715f172d69.jpg
+- @Image2 = our loaded falafel cups (frame 282 of the falafel take), media 22026239-8a8d-45d3-9aa1-0114bb6c52bd:
+  https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/22026239-8a8d-45d3-9aa1-0114bb6c52bd.jpg
+
+PRE-GENERATION CHECK
+| Check | Result |
+|---|---|
+| Counts and shapes | 1 white plate with a thin gold rim; exactly 4 loaded falafel cups, as in @Image2 |
+| Food named in every beat | yes |
+| Identity | the Chef-Ahmad element: his face, sunglasses on, white T-shirt, black apron, black gloves |
+| Halal | halal chicken shawarma; no wine, no alcohol, no pork |
+| Frame one | already moving: the plate high and wobbling |
+| Text | none in the generation |
+| Nothing falls to the floor | the cup stops on the rim; the food stays the food of @Image2 |
+
+===== PROMPT =====
+A vertical 9:16 photoreal kitchen moment, exactly 5 seconds, one continuous shot with no cuts, no text.
+
+REFERENCE VIDEO (@Video1): copy its framing and action only: a medium shot from the waist up, the cook centred and facing the lens, the camera still at chest height; the cook holds a wide plate high above the head with both arms while it wobbles, leaning and stepping to keep it level. Do not copy her person, her face, her headscarf, her red top, her tray, her food, her kitchen, her daylight or her audio.
+
+FOOD (@Image2, never change it): a white plate with a thin gold rim holding exactly 4 Baked Falafel Cups: dark-green baked falafel cups with a crisp rim, filled with hummus, chicken shawarma pieces, slivered almonds, chopped parsley, diced tomato and red onion.
+
+PLACE: the dark kitchen of @Image1: black marble counter with fine gold veins, warm 2700 K light from camera left, the background falling to black.
+
+COOK: the Chef-Ahmad element: his face with his sunglasses on, his moustache, white T-shirt, black apron, black nitrile gloves.
+
+0.0-1.2s: Already moving at frame one: he holds the white gold-rim plate with the 4 loaded falafel cups high above his head with both gloved hands; the plate tilts left, then right, and he takes a quick step to keep it level.
+1.2-2.2s: The plate tips sharply toward the lens; the front falafel cup slides across the plate to the gold rim and starts to tip over the edge.
+2.2-3.0s: He snaps the plate level and the cup stops on the very rim, half over the edge; a parsley leaf falls past the lens. He freezes, mouth open, then lets out a big relieved breath.
+3.0-5.0s: He lowers the plate slowly toward the lens: the 4 loaded falafel cups in sharp focus, the front one still on the rim.
+
+AUDIO: loud and close: the ceramic plate rattling, the cup sliding on the glaze, a sharp gasp, then his relieved exhale, his shoes on the floor. No words, no music.
+
+AVOID: a woman, a headscarf, a red top, a wooden tray, daylight, text, logos, food falling to the floor, food changing shape, more or fewer than 4 cups, round deep-fried falafel balls, sunglasses off, a distorted face, extra fingers, deformed hands, wine, alcohol, pork.
+
+===== IF THE FACE COMES OUT WRONG: HANDS ONLY =====
+Same settings without the Chef-Ahmad element; replace COOK and the beats with:
+COOK: only his hands and forearms in black nitrile gloves.
+0.0-1.2s: Close, frame one moving: his gloved hand carries the white gold-rim plate with the 4 loaded falafel cups fast toward the lens; the plate wobbles.
+1.2-2.2s: The plate tips; the front falafel cup slides to the gold rim and tips over the edge.
+2.2-3.0s: His other gloved hand shoots in and catches the cup just under the rim; a parsley leaf falls.
+3.0-5.0s: He sets the cup back on the plate and holds the plate still to the lens.
+
+===== EDIT (built when the take arrives) =====
+| Time (s) | What | Text |
+|---|---|---|
+| 0.00-3.00 | the near-fall, its own loud sound, cut on the relief | none (her hook has none) |
+| 3.00-end | the falafel v4 edit from its frame 0 | its cards, shifted by 3.00 s: «قلي الفلافل هو الغلطة» first |
+- Total about 12.6 s. Check with pp.py: DEAD 0, SLOW 0, QUIET 0 over the hook too (if the freeze reads DEAD, cut at the catch).
+- The v4 edit without the hook stays ready (de94f773) if the take is not in by the post.
