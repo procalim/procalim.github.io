@@ -136,6 +136,8 @@ How to pick the next reel:
    - the hook and rehook formulas never repeat the reel before or after, and the worn-out list in hook-log.md holds
      («دقيقة كل جهة» counts as «٣ / ٤ دقايق كل جهة»);
    - tools: `content-studio/edits/_tools/hook_patch.py` (re-cut a built edit) and `mk_16th.py` (build a new one).
+   - no fake hooks (owner, 2026-11-14, after the tostadas read: «خربناه بكسرة الصحن ... خلينا على شغلنا ريما وتنويع
+     بالهووك تاكست»): no break, no near-fall, no staged mistake in front of the reel. The variety is in the text hook.
 6. Run the family as a series (one a day while the unlimited runs).
 7. Read each reel at 24 h against the sweet potato: 23K at 21.5 h, 8.7 shares per 1K reach.
 
