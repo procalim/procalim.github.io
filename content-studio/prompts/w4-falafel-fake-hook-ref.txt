@@ -17,8 +17,10 @@ SETTINGS (higgsfield.ai):
 - Chef-Ahmad element on.
 
 References:
-- @Video1 = her first 3.7 s (motion and framing only), media 23846542-0625-4bc1-a7f8-b250d5072d98:
-  https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/23846542-0625-4bc1-a7f8-b250d5072d98.mp4
+- @Video1 = her first 3.7 s, SILENT (motion and framing only; her voice removed, owner 2026-11-14: «نصيت ما يطلع صوتها»),
+  media d15399db-9c46-43b0-9018-669c149cbe50:
+  https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/d15399db-9c46-43b0-9018-669c149cbe50.mp4
+  (the first upload with her voice, 23846542, is not used)
 - @Image1 = the kitchen:
   https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/66c2248f-e130-4a3c-83df-1a715f172d69.jpg
 - @Image2 = our loaded falafel cups (frame 282 of the falafel take), media 22026239-8a8d-45d3-9aa1-0114bb6c52bd:
@@ -38,7 +40,7 @@ PRE-GENERATION CHECK
 ===== PROMPT =====
 A vertical 9:16 photoreal kitchen moment, exactly 5 seconds, one continuous shot with no cuts, no text.
 
-REFERENCE VIDEO (@Video1): copy its framing and action only: a medium shot from the waist up, the cook centred and facing the lens, the camera still at chest height; the cook holds a wide plate high above the head with both arms while it wobbles, leaning and stepping to keep it level. Do not copy her person, her face, her headscarf, her red top, her tray, her food, her kitchen, her daylight or her audio.
+REFERENCE VIDEO (@Video1): copy its framing and action only: a medium shot from the waist up, the cook centred and facing the lens, the camera still at chest height; the cook holds a wide plate high above the head with both arms while it wobbles, leaning and stepping to keep it level. Do not copy her person, her face, her headscarf, her red top, her tray, her food, her kitchen, her daylight, her voice or her audio.
 
 FOOD (@Image2, never change it): a white plate with a thin gold rim holding exactly 4 Baked Falafel Cups: dark-green baked falafel cups with a crisp rim, filled with hummus, chicken shawarma pieces, slivered almonds, chopped parsley, diced tomato and red onion.
 
@@ -51,9 +53,9 @@ COOK: the Chef-Ahmad element: his face with his sunglasses on, his moustache, wh
 2.2-3.0s: He snaps the plate level and the cup stops on the very rim, half over the edge; a parsley leaf falls past the lens. He freezes, mouth open, then lets out a big relieved breath.
 3.0-5.0s: He lowers the plate slowly toward the lens: the 4 loaded falafel cups in sharp focus, the front one still on the rim.
 
-AUDIO: loud and close: the ceramic plate rattling, the cup sliding on the glaze, a sharp gasp, then his relieved exhale, his shoes on the floor. No words, no music.
+AUDIO: only his kitchen sounds, never a woman's voice; loud and close: the ceramic plate rattling, the cup sliding on the glaze, a sharp gasp, then his relieved exhale, his shoes on the floor. No words, no music.
 
-AVOID: a woman, a headscarf, a red top, a wooden tray, daylight, text, logos, food falling to the floor, food changing shape, more or fewer than 4 cups, round deep-fried falafel balls, sunglasses off, a distorted face, extra fingers, deformed hands, wine, alcohol, pork.
+AVOID: a woman, a woman's voice, any speech, a headscarf, a red top, a wooden tray, daylight, text, logos, food falling to the floor, food changing shape, more or fewer than 4 cups, round deep-fried falafel balls, sunglasses off, a distorted face, extra fingers, deformed hands, wine, alcohol, pork.
 
 ===== IF THE FACE COMES OUT WRONG: HANDS ONLY =====
 Same settings without the Chef-Ahmad element; replace COOK and the beats with:
