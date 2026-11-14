@@ -1,0 +1,63 @@
+Sweet Potato Flatbreads: the Pull Away Reveal hook (owner, 2026-11-14: «شوف الفيديو الثاني لقطة الأكل تصوير بدنا نعمل
+زيها بشخصيتي بعدها منعدل عليها بسرعة»). For the 16 Nov 10 pm reel (flatbreads v4, media 2c4960cf).
+Status: NOT generated. The owner generates on higgsfield.ai; no generation from Claude Code without «ولد».
+
+THE SOURCE, MEASURED
+- The owner's video (Facebook_6.mp4, 45.7 s, Higgsfield media 84280fef) teaches 4 food-filming concepts, each with its
+  view count: Reverse Pour 11.2M, Pull Away Reveal 72.9M, Tap To Build 2M, Reverse Build 1M.
+- The second concept, the Pull Away Reveal (72.9M, the highest), 8.44-14.54 s of his video:
+  - 0-3.0 s: a woman at a white table crowded with drinks and plates, filming the food with her phone;
+  - 3.0-6.1 s: close at table height, hands pull each glass and plate toward the lens and out of frame, one after
+    another (orange juice, a red juice, a breakfast plate, a stemmed glass), until the pancakes are left alone.
+- Her clip is the motion reference only, silent (media 9f18ba6d); the hook is made in his kitchen with our food.
+  The stemmed glass with a red drink is left out (halal).
+
+SETTINGS (higgsfield.ai):
+- Seedance 2.5, Omni reference, 8 s, 9:16, 720p, bitrate High, audio On.
+- Chef-Ahmad element on.
+
+References:
+- @Video1 = the Pull Away Reveal, 6.1 s, SILENT, media 9f18ba6d-2990-4cee-b55c-a5a45f7a7a29:
+  https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/9f18ba6d-2990-4cee-b55c-a5a45f7a7a29.mp4
+- @Image1 = the kitchen:
+  https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/66c2248f-e130-4a3c-83df-1a715f172d69.jpg
+- @Image2 = the hero: our plate of 4 loaded sweet potato flatbreads (frame 296 of take fe70bbc8), media 351a2271:
+  https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/351a2271-376b-4a78-a0c1-eb72c943912c.jpg
+
+PRE-GENERATION CHECK
+| Check | Result |
+|---|---|
+| The hero | the plate of @Image2, centre of the counter, never touched until the end |
+| Pulled away | 5 items: orange juice, mint lemonade, the falafel cups plate, the tostadas plate, a bowl of hummus |
+| Identity | the Chef-Ahmad element: his face, sunglasses on, white T-shirt, black apron, black gloves |
+| Halal | no stemmed glass, no red drink, no wine, no alcohol, no pork |
+| Frame one | already moving |
+| Text | none |
+
+===== PROMPT =====
+A vertical 9:16 photoreal food moment, exactly 8 seconds, no text.
+
+REFERENCE VIDEO (@Video1): copy its idea, timing and camera: a table crowded with dishes and drinks, then, close at table height, hands reach in from the edges and pull each glass and plate toward the lens and out of frame, one after another and fast, until one dish is left alone in the centre. Do not copy its people, their faces, their bare hands, the white table, the daylight, the cafe, their food or their drinks.
+
+PLACE: the dark kitchen of @Image1: black marble counter with fine gold veins, warm 2700 K light from camera left, the background falling to black.
+
+THE COUNTER (crowded at the start): in the centre the hero, never moved: the white gold-rim plate of 4 loaded sweet potato flatbreads from @Image2 (orange flatbreads, white yogurt sauce, baby spinach, a seasoned golden chicken breast, chopped pecans, grated cheese). Around it, to be pulled away: a tall glass of fresh orange juice, a tall glass of mint lemonade with ice, a plate of 4 baked falafel cups, a plate of crispy rice tostadas with seared tuna, a small bowl of hummus with olive oil.
+
+COOK: the Chef-Ahmad element: his face with his sunglasses on, his moustache, white T-shirt, black apron, black nitrile gloves.
+
+0.0-1.5s: Medium shot, frame one already moving: he leans over the crowded counter, looking over the food, then up at the lens.
+1.5-4.5s: Close at counter height: black-gloved hands reach in from both sides and pull the orange juice, the mint lemonade, the tostadas plate, the falafel cups plate and the hummus bowl toward the lens and out of frame, one after another, each passing big and close past the lens.
+4.5-5.5s: Only the plate of 4 loaded sweet potato flatbreads is left, alone in the centre of the black marble, sharp.
+5.5-8.0s: Medium shot: he picks up one sweet potato flatbread, folds it and takes one big bite, chewing with his mouth closed, satisfied.
+
+AUDIO: glasses and plates sliding on the marble, a short whoosh as each one passes the lens, ice clinking, then the soft crunch of the bite. No words, no voice, no music.
+
+AVOID: a stemmed glass, a red drink, wine, alcohol, pork, a woman, any speech, text, logos, bare hands, the hero plate moving before the end, more or fewer than 4 flatbreads on the hero plate, food falling, sunglasses off, a distorted face, extra fingers, deformed hands.
+
+===== EDIT (built when the take arrives) =====
+| Time (s) | What | Text |
+|---|---|---|
+| 0 to about 3 | the pulls (sped up as the motion needs) to the hero alone | none |
+| then | the flatbreads v4 (2c4960cf) from its frame 0, its cards and its own bite at the end | its cards |
+- The take's own bite stays out unless the v4 ending reads weaker; pp.py DEAD 0, SLOW 0, QUIET 0 over the whole reel.
+- Any voice in the take is cut. If the take is not in by the post, the flatbreads v4 (2c4960cf) goes out as it is.
