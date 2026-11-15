@@ -50,12 +50,12 @@ new kind of error, a new check line.
 20. "Close from the side, his face above the pan" with a cup held between his face and the lens: the face came out
     lying sideways and warped behind the cup (Pan Chocolate Cake cocoa shot, missed on the first read). When a prop
     passes in front of his face, frame the shot without his face, or put the face clearly beside the prop, upright.
-22. Beef Shawarma v2: "the shavings hit the griddle" with no colour, and the model threw raw red strips on the griddle
-    (8.2-9.1 s) after shaving a cooked tower. Every time a cooked food moves to a new surface, repeat its cooked colour
-    in that shot ("already cooked brown like the roasted tower, never red or pink") and put the raw colour in AVOID.
 21. Crispy Potato Nests: the raw sticks came out as thick as fries, the fried nests as thin strands; in the reel the
     nests read as fried spaghetti (the owner's screenshot of the posted reel). Read first as small; it was not. Name the
     width by the same object in the raw and the cooked shots, and reject a take where the material changes between them.
+22. Beef Shawarma v2: "the shavings hit the griddle" with no colour, and the model threw raw red strips on the griddle
+    (8.2-9.1 s) after shaving a cooked tower. Every time a cooked food moves to a new surface, repeat its cooked colour
+    in that shot ("already cooked brown like the roasted tower, never red or pink") and put the raw colour in AVOID.
 
 ## Results
 | Date | Reel | Model, settings, credits | Came out right | Errors (time, frame) | Cause | Prompt change | 24 h: skip, avg watch, end %, shares/1K, saves/1K |
