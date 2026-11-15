@@ -39,3 +39,26 @@ Post: 15 Nov, 3 pm Amman. Package: `../../week4/potato-dill-flatbreads-tuna-egg-
 
 ## v4 (2026-11-14)
 Re-cut with the hook in the middle from frame 0: see ../v4-recut-2026-11-14.md. Post the v4 media, not the one above.
+
+## Trial reel variant (2026-11-15; owner: «أعطيني تعديل نفس البطاطا trial reels»)
+Media 5c9214db-2066-4f55-a39a-ba9029bb95eb, 1080x1920 H.264 24 fps, 5.75 s, -14.5 LUFS, -1.9 dBTP. Build: `edit_tunaegg_trial.py`.
+https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/5c9214db-2066-4f55-a39a-ba9029bb95eb.mp4
+One variable against the posted v4 (6a26dd33, 7.83 s): no raw ingredient in 0-3 s. The raw steps (frames 0-78: the bowl,
+the potatoes, the flour, the mozzarella, the dill, the mash, the dough) are left out; the reel starts on the 4 balls set
+down, then the glass pressing each into a cup, then the posted order. The same three cards and sound chain.
+| Output (s) | Shot | Card |
+|---|---|---|
+| 0.00-0.67 | the balls set down (1.5x, push-in 1.00-1.06) | hook «٣٧ غ بروتين بكاسة بطاطا وحدة» 0-2.12 |
+| 0.67-1.38 | the glass presses | |
+| 1.38-1.67 | the raw cups | |
+| 1.67-2.12 | baked | |
+| 2.12-2.58 | one lifted, the crisp underside | rehook «٢٥ دقيقة بالفرن وتحتها بيقرمش» 2.12-3.92 |
+| 2.58-3.29 | the tuna spooned in (1.1x) | |
+| 3.29-3.92 | the egg slid on | |
+| 3.92-4.21 | the basil leaf | |
+| 4.21-4.79 | the 4 on the plate (push-in 1.00-1.06) | «اكتب «بيضة» 👇» 4.21-end |
+| 4.79-5.75 | the yolk cut (1.2x), +4 dB on the knife | |
+pp.py: DEAD 0, SLOW 0, LONG 0, QUIET 0 (the first try at 1.0x read SLOW at 0.0 s). Cards inside x 327-755.
+Also different from the posted one: the length (5.75 s against 7.83 s), a result of cutting the raw steps.
+Post as a trial reel (non-followers only); compare at the same age with the posted reel: 86% at 1 s, 59% at 2 s, 51% at 3 s,
+skip 44.7% at 1 h 8 min.
