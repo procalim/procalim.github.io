@@ -39,10 +39,21 @@ description: >
    «هالأكلة إلها طعمة البيت، والعيلة كلها حوالين صحن واحد. حطيت هالإحساس بـ ٣٦١ وصفة بكتابي The Edible Codex،
    مشان سفرتك ما يخلص فيها سبب للّمّة. الرابط بالبايو 📕»
 
+## BACK TO COOKCUT, 20 S (owner's call, 2026-11-15, after the two trial reads)
+Owner: «احنا عم نلعب بنار الفيديو قصير كثير ونسبة إكمال لازم تكون ٪60 لينفجر ... الفيديوات مش لازم يكونو أقصر من 12 ...
+جمهور Rima بختلف عن جمهوري بكثير ... منكتب prompt عن طريق كاوكت ومنركز بالفيديو على الصوت طول الفيديو وضربة عنف واكشن ...
+وبتعمل edit زي المحترفين ... كل 3 ثواني hook».
+- Every new reel: a cookcut prompt, 20 s, his identity and kitchen, a violent punch with its loud sound every 3 seconds
+  (0, 3, 6, 9, 12, 15, 18 s), loud sound in every frame; the payoff last, nothing after it.
+- The edit: 12 s or more (14-16 s from a 20 s take), a punch-in on each impact, the loudest sound on the money shot,
+  pp.py flags 0, cards on the punches.
+- The Rima way (her reel as @Video1) stops here: her audience is not ours. First: prompts/w4-beef-shawarma-20s.txt.
+
 ## THE PASS MARK (owner's call, 2026-11-15; every reel, first read)
 Owner: «السكيب لازم تكون نسبة من 20 إلى 35 % والإكمال ل 40% الحد الادنى هيك الفيديو بكون فاشل ... ما بدي اضلني عالق ب ألف
 مشاهدة وخمس آلاف». A reel passes only with skip 20-35% AND 40% or more watched to the end; anything else failed, whatever
-the views. Every edit is built to this mark before delivery, and every read reports both numbers first.
+the views; 60% to the end is the owner's breakout target. Every edit is built to this mark before delivery, and every
+read reports both numbers first.
 Our own reels against the mark (the "Go Viral" guide's step 5, winners next to flops; on screen in 0-2 s):
 | Skip | Reels | On screen in 0-2 s |
 |---|---|---|
