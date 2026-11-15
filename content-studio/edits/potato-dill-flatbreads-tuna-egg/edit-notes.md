@@ -62,3 +62,10 @@ pp.py: DEAD 0, SLOW 0, LONG 0, QUIET 0 (the first try at 1.0x read SLOW at 0.0 s
 Also different from the posted one: the length (5.75 s against 7.83 s), a result of cutting the raw steps.
 Post as a trial reel (non-followers only); compare at the same age with the posted reel: 86% at 1 s, 59% at 2 s, 51% at 3 s,
 skip 44.7% at 1 h 8 min.
+
+### Trial v2 (the one to post; owner: «وين المكونات الي بأول الفيديو خليها آخر اشي هيك الفيديو مدته قليلة جدا»)
+Media 0d587f22-c681-42ba-acda-df49f8c93e15, 8.25 s, -14.5 LUFS, -1.9 dBTP, DEAD 0, SLOW 0, LONG 0, QUIET 0 (v1 5c9214db: replaced).
+https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/0d587f22-c681-42ba-acda-df49f8c93e15.mp4
+0-5.75 s as v1; then the raw steps at the posted speeds: the bowl 5.75-6.08, the potatoes 6.08-6.62, the flour 6.62-7.04,
+the mozzarella 7.04-7.25, the dill 7.25-7.58, the mash 7.58-7.92, the dough squeezed 7.92-8.25, which runs into the balls
+at frame 0 (the loop). The keyword «اكتب «بيضة» 👇» from the plate (4.21 s) to the end, over the ingredients.

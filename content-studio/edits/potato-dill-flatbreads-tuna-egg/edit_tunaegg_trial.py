@@ -6,7 +6,7 @@
 import subprocess, re
 FPS = 24
 SRC = 'raw.mp4'
-SEGS = [  # (first frame, end frame, speed, label[, push-in]); the raw steps (frames 0-78) left out
+SEGS = [  # (first frame, end frame, speed, label[, push-in]); the raw steps (frames 0-78) moved to the end
     (78, 102, 1.5, 'the balls set down', (1.0, 1.06)),   # SLOW at 0.0 s at 1.0x
     (102, 119, 1.0, 'the glass presses'),
     (119, 126, 1.0, 'the raw cups'),   # 126-132: the tray slides out, left out
@@ -17,6 +17,15 @@ SEGS = [  # (first frame, end frame, speed, label[, push-in]); the raw steps (fr
     (192, 199, 1.0, 'the basil leaf'),
     (200, 214, 1.0, 'the 4 on the plate', (1.0, 1.06)),
     (214, 242, 1.2, 'the yolk cut'),
+    # v2 (owner, 2026-11-15: «وين المكونات الي بأول الفيديو خليها آخر اشي»): the raw steps at the end, at the posted
+    # speeds; the dough squeezed (70-78) runs straight into frame 78, the balls, so the loop is seamless
+    (0, 8, 1.0, 'the bowl slides in'),
+    (8, 29, 1.6, 'the potatoes drop'),
+    (30, 42, 1.2, 'the flour'),
+    (42, 47, 1.0, 'the mozzarella'),
+    (47, 58, 1.4, 'the dill'),
+    (58, 70, 1.5, 'the mash'),
+    (70, 78, 1.0, 'the dough squeezed'),
 ]
 LIFT_LABEL = 'the yolk cut'   # the knife through the crisp cup: +4 dB over its first 0.6 s
 
@@ -71,7 +80,7 @@ I2, P2 = meas('mix2.wav'); g = -17.5 - I2   # mono at -17.5 = stereo -14.5
 CARDS = [  # the posted v4 cards: the hook over the shaping and the bake (2.1 s), the rehook from the crisp underside
          ('ov_hook.png', 0.0, L['one lifted'][0]),
          ('ov_rehook.png', L['one lifted'][0], L['the basil leaf'][0]),
-         ('ov_cta.png', L['the 4 on the plate'][0], TOTAL)]
+         ('ov_cta.png', L['the 4 on the plate'][0], TOTAL)]   # v2: the keyword stays over the ingredients to the end
 ins = ['-i', 'cut.mkv']
 fc = ['[0:v]setsar=1,format=yuv420p[b0]']
 last = 'b0'
