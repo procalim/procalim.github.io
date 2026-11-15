@@ -1,0 +1,119 @@
+Beef Tortilla Pinwheel Skewers: cookcut, 20 s, a punch every 3 s, built on the shawarma v1 template
+(prompts/w4-beef-shawarma-20s.txt) with the retention engine (research/retention-engine.md). Owner, 2026-11-15:
+«جهزلي برومبت الريل الجاي». Status: NOT generated. The owner generates on higgsfield.ai with his unlimited (720p, no credits).
+Recipe: book-additions/beef-tortilla-pinwheel-skewers-green-sauce.md (fiteat.rima's concept in our words, for the new PDF;
+her recipe inside our cookcut film, never her reel as @Video1). Replaces prompts/w4-beef-tortilla-skewers-ref.txt.
+
+SETTINGS (higgsfield.ai):
+- Seedance 2.5, Omni reference, 20 s, 9:16, 720p, bitrate High, audio On.
+- Chef-Ahmad element on (his face).
+- @Image1 = the kitchen: https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/66c2248f-e130-4a3c-83df-1a715f172d69.jpg
+
+WHAT STAYS FROM v1 AND THE ONE CHANGE
+| v1 (15.75 s: 94 / 81 / 69% at 1-3 s, 26% at the end) | This reel |
+|---|---|
+| Frame 0: a cleaver falling toward the lens, his face behind it, a hard impact (93-94% at 1 s) | the same: the cleaver through a whole red pepper, then up to his face; 1.4 s |
+| Top-down spices at 1.3-2.2 s, a close action to 3.0 s | the same pattern: spices into the bowl, then his face above the kneading |
+| A punch every 3 s, loud sound in every frame, the payoff last, the bite, the loop | the same |
+| THE ONE CHANGE: 3-5 s was the toss and the raw tower (-19 points, raw meat filling the frame) | 3-5 s is a second blade punch with his face (the tortilla trimmed square); raw beef never fills the frame more than 0.6 s |
+| The edit test | one take, two edits posted together (the owner's call): A with v1's Habibi hook, B with a sound-promise hook; the same cut, the same cards after 2.75 s |
+
+RECIPE STEP -> SHOT
+the ingredient list (the pepper very finely chopped) -> 01 | 01 mix -> 02-03 | 02 trim square -> 04 | 03 spread, cheese -> 05-06
+04 roll -> 06 | 05 4 rolls, 4 skewers, cut between -> 07-08 (the other 4 rolls made off screen) | 06 tray, oil, bake -> 09-12
+07 blend, drizzle -> 13-14 | the payoff, the bite and the loop -> 15-16
+May not match on screen: the onion is grated off screen; the second round of rolls is not shown; quantities are not shown.
+
+PRE-GENERATION CHECK (generation-log checks 1-22)
+| Check | Result |
+|---|---|
+| 1, 13, 21 shapes and counts | exactly 4 rolls about 5 cm across; 4 skewers through all 4; 3 cuts between them; pinwheels as thick as two fingers in the raw and the baked shots; exactly 4 on every skewer; the tray 8 skewers in two rows; cinnamon rolls, sushi, burritos and taquitos in AVOID |
+| 3, 10 the reveal | the torn pinwheel shows the brown beef spiral and melted cheese stretching (the recipe has cheese, so the pull is right) |
+| 5 the finished food | nothing baked before shot 11 |
+| 7 physics | the hot tray only with the black towel; the blender lid on; the loop: his hand reaches for the cleaver beside a red pepper |
+| 8 actions per second | at most 2 per shot |
+| 9 halal | halal beef; cheddar and mozzarella halal-certified; Greek yogurt with no gelatin; no wine, no alcohol, no pork |
+| 14, 17 colours by objects | raw tortilla pale cream like a crepe; baked golden brown like toasted bread crust, never orange; the sauce light green like pistachio ice cream |
+| 16 frame one | the cleaver strike with its sound, in his dark kitchen |
+| 18 the cut shown | the 3 cuts between the skewers are on screen in shot 08 |
+| 19 one tray | the same black tray lined with baking paper in shots 09-14 |
+| 20 face and props | his face upright beside the blade in 01 and 04, never behind it |
+| 22 cooked food on a new surface | the torn pinwheel in his hand repeats the baked colours; raw red beef after the oven in AVOID |
+| 6 the last second | after generation |
+
+===== PROMPT =====
+SCENE CONTEXT: A vertical 9:16 premium cooking action commercial, exactly 20 seconds, 16 shots, every shot already in motion and loud from the first frame to the last. One place only: the cook's kitchen exactly as in @Image1 (matte black cabinets with thin brass trim, a black marble counter with fine gold veins, a black range with brass knobs), falling to black. He makes beef tortilla pinwheel skewers: seasoned ground beef and cheese rolled tight in flour tortillas, skewered, cut, baked golden and crisp, and drizzled with green yogurt sauce.
+
+REFERENCE CONTROL: The cook is the Chef-Ahmad element: exactly his face (thick mustache, no beard), his aviators with solid black lenses worn the whole time, a thin gold chain, a plain white t-shirt, a black apron with brown leather straps and black nitrile gloves on both hands in every shot. His face and sunglasses are visible in shots 01, 03, 04, 10, 12 and 16, his whole head inside the frame, upright, beside the props and never behind them. @Image1 is the place, never a prop. He never speaks.
+
+RECIPE (every step once, in this order, nothing added):
+Beef Tortilla Pinwheel Skewers with Green Yogurt Sauce
+— 8 large flour tortillas; 800 g lean ground beef (halal); 1 red bell pepper, very finely chopped; 1 small onion, grated and squeezed dry; parsley; 1 tbsp tomato paste; paprika, cumin, black pepper, salt; 200 g shredded cheddar and mozzarella; 2 tbsp olive oil; 8 long wooden skewers
+— Green sauce: 200 g Greek yogurt; coriander and parsley; 1 garlic clove; juice of ½ lemon; ½ green chilli; salt
+01 Mix the beef with the pepper, onion, parsley, tomato paste, spices and salt.
+02 Trim each tortilla into a square.
+03 Spread a thin even layer of the beef to the edges and sprinkle with the cheese.
+04 Roll each one up tightly.
+05 Lay 4 rolls side by side and push 4 skewers through all 4, evenly spaced. Cut between the skewers.
+06 Lay the skewers on a lined tray, brush with the oil and bake at 200°C until golden and the beef is cooked through.
+07 Blend the sauce until smooth and drizzle it over the skewers.
+
+FOOD SHAPES AND COLOURS (the same in every shot, never change): Pepper: one whole glossy red bell pepper. Raw mix: ground beef deep red like fresh mince, flecked with red pepper and green parsley. Tortillas: large thin flour tortillas, pale cream like a crepe with light brown spots, trimmed into squares with four straight sides. Cheese: shredded yellow cheddar and white mozzarella. Rolls: exactly 4 tight rolls about 5 cm across. Pinwheels: rounds as thick as two fingers, a flat face showing a tight spiral of beef and cheese between thin tortilla layers, exactly 4 in a row on each skewer. Baked: the tortilla golden brown like toasted bread crust with darker crisp edges, never orange; the beef spiral cooked brown like grilled kofta, never red or pink; the cheese melted. Sauce: smooth, thick, light green like pistachio ice cream.
+
+PROCESS ORDER / NON-REPETITION LOCK: pepper chopped -> beef mixed -> tortilla trimmed square -> beef spread -> cheese -> rolled -> 4 rolls skewered -> cut between the skewers -> tray -> oiled -> baked -> out -> sauce blended -> drizzled -> torn -> bite. Every stage once, only forward; nothing baked before shot 11; no raw red beef after shot 10.
+
+RETENTION: The payoff, a pinwheel torn open with its melted cheese stretching, appears only in shot 15. Every shot shows a visible change in the food. The surprise peak at the middle is shot 12: the golden tray slammed down in a burst of steam. Raw beef never fills the frame for more than half a second. The last frame matches the first frame's framing.
+
+HERO + ENERGY PRIORITY: a PUNCH lands every 3 seconds, at 0.0, 3.0, 6.0, 9.0, 12.0, 15.0 and 18.2 s: each one a violent physical impact with its own loud sound and a short camera shake, each one bigger and louder than the one before. Between the punches, one smooth gimbal move per shot and a new action every second; no still, calm or empty moment. Whole-body force behind every move, never presenting to the camera.
+
+SHOT 01 — 0.0-1.4s: PUNCH 1, the cleaver. Low at board level, the lens 20 cm from a black board on the marble: the heavy cleaver in his gloved hand falls from above toward the lens and slams through a whole red bell pepper; the halves burst apart, seeds flying. Camera shake; the camera rises fast past the blade to his face and sunglasses as he strikes again.
+SHOT 02 — 1.4-2.2s: Spices. True 90-degree top-down, locked: the chopped red pepper, grated onion, parsley and a spoon of red tomato paste drop into a steel bowl of raw ground beef and a red cloud of paprika and cumin rains over them.
+SHOT 03 — 2.2-3.0s: The mix. Medium at chest height, his face and sunglasses above the bowl: his gloved fists knead the mix hard, squeezing it through his fingers.
+SHOT 04 — 3.0-4.2s: PUNCH 2, the trim. Low at counter level: he slaps a large round tortilla flat on the black board with a loud slap, then the cleaver chops down four times toward the lens, cutting it into a square; the round offcuts fly. His face and sunglasses upright beside the blade, never behind it. Camera shake on each strike.
+SHOT 05 — 4.2-4.8s: The spread. True top-down, compressed time: the back of a spoon spreads the beef thin to the edges of the square in one sweep.
+SHOT 06 — 4.8-6.0s: Cheese and roll. Top-down: a big handful of shredded cheddar and mozzarella avalanches over the beef in slow motion, covering it; then his gloved hands roll it up tight from the near edge in two fast turns.
+SHOT 07 — 6.0-7.2s: PUNCH 3, the skewers. Low at counter level: exactly 4 tight rolls side by side; the heel of his hand drives 4 long wooden skewers across through all 4 rolls, evenly spaced, the sharp tips bursting out of the last roll toward the lens. Camera shake.
+SHOT 08 — 7.2-8.0s: The cut. From the side at board level: the cleaver chops 3 straight cuts across the 4 rolls, between the skewers, leaving 4 skewers of 4 pinwheels.
+SHOT 09 — 8.0-9.0s: The oil. Low at tray level: 8 skewers in two rows on a black tray lined with baking paper; a brush slaps olive oil over the pale tortilla, glistening.
+SHOT 10 — 9.0-10.0s: PUNCH 4, the oven. Medium close, his face and sunglasses lit by the oven: he slides the same black tray into the black oven and slams the door with his knee; the oven light flares. Camera shake.
+SHOT 11 — 10.0-12.0s: Baking. Locked macro through the oven glass, compressed time: the pinwheels puff, the tortilla turns golden brown and crisp at the edges, the beef spirals turn brown, the cheese bubbles out and spits.
+SHOT 12 — 12.0-13.2s: PUNCH 5, out. Medium close: he yanks the same tray out with a black towel and slams it on the marble; a burst of steam rolls past his face toward the lens; the golden pinwheels sizzle. Camera shake.
+SHOT 13 — 13.2-15.0s: The blender. Close: his palm slams down on the blender lid; the motor roars; the white yogurt and green herbs whirl into a smooth light green vortex.
+SHOT 14 — 15.0-16.6s: PUNCH 6, the drizzle. True top-down on the same tray: his fist squeezes a clear squeeze bottle hard and whips fast zigzags of the green sauce across the golden skewers, the stream slapping onto the crisp tortilla.
+SHOT 15 — 16.6-18.2s: The tear. Extreme macro right by the lens, slow motion: he lifts one skewer and tears the end pinwheel in half with his gloved fingers; a 0.3-second beat of near silence, then the loudest crisp crackle of the video; the melted cheese stretches in long strings between the halves; the brown beef spiral, the golden tortilla and the green sauce glisten.
+SHOT 16 — 18.2-20.0s: PUNCH 7, the bite. Close on his face: he bites one torn half, a loud crunch, his mouth closed as he chews; then his gloved hand reaches for the cleaver beside a red pepper on the board, running into the first frame so the video loops. No cut to black.
+
+SPEED + TRANSITIONS: compressed time on the spread, the roll and the bake; slow-motion accents on the cheese, the skewer tips and the tear; every other shot real time or fast. Matches: the falling cleaver into the falling spices; the tray slam into the blender slam; the drizzle into the tear. Clean hard cuts, cut on the impact.
+
+SILENT PERFORMANCE LOCK: completely nonverbal. No voice, no talking, no lip movement; the mouth opens only for the bite.
+
+CONTINUITY + PHYSICS: one board, one bowl, one black tray, one blender; the hot tray only with the black towel; exactly 4 pinwheels on every skewer; after the oven the tortilla stays golden and the beef brown in every shot; one camera move per shot.
+
+LIGHTING: a hard warm tungsten key light (2700 K) from camera left plus the warm pool under the hood, the background falling to black, a warm rim on the food, the steam and the sauce, sharp focus on his hands and the food.
+
+AUDIO: the sound carries the whole video: only real close-mic sound from what is on screen, loud in every frame with no quiet second, each punch louder than the one before: the cleaver through the pepper, the spices hitting the beef, the wet squeeze of the mix, the tortilla slap and the cleaver strikes, the cheese falling, the skewers crunching through the rolls, the cleaver through the rolls, the oven door slam, the cheese spitting, the tray slam and its sizzle, the blender roar, the sauce splatter, then a 0.3-second beat of near silence, then the loudest sound of the video: the crisp crackle of the pinwheel tearing right at the microphone, then the crunch of the bite. No music, no voice, no whooshes.
+
+AVOID: chicken, pork, lamb, sausages, burritos, taquitos, sushi, cinnamon rolls, more or fewer than 4 pinwheels on a skewer, raw red or pink beef after the oven, orange or burnt tortilla, yellow sauce, mayonnaise, a platter, plates, a wide shot of him walking between stations, a still shot where nothing changes, sunglasses off, bare hands, other people, labels, wine, alcohol, talking, cut to black, logos, text, extra fingers, deformed hands, distorted face.
+
+===== EDIT (after the take is read frame by frame; the professional way, the retention engine) =====
+- Length about 13 s (owner's floor 12 s; v1 at 15.75 s kept 26%; the ends near 40% are 7.6-12 s). Opening held 1.4 s.
+- One cut, two versions posted together; only the hook card differs, so the read compares the hook alone.
+- Picture: speed ramps into each impact (1.5-2x up to it, real time on it and 4-6 frames after); a 6-10% punch-in with a
+  2-frame shake on every punch; the walks and reaches cut; the bake and the spread at 1.5-2x; nothing after the bite.
+- Sound: J-cuts (each shot's sound 3-4 frames before its picture); each punch a little louder than the last; a 0.2-0.3 s
+  dip before the tear; the tear the loudest after the compressors; -14.5 LUFS, -1.5 dBTP; the song from the Instagram
+  library about 15 dB under, its drop on the tear (the same song as shawarma v1 unless the owner picks another).
+- Cards centred, entering in 4-8 frames with an ease-out (checked against hook-log.md before the render):
+  - hook 0-2.75 s, version A: «حبيبي، بدي أسياخ التورتيلا» / "Habibi, I want the tortilla skewers" (the owner's Habibi line, as v1);
+  - hook 0-2.75 s, version B: «أقرمش سيخ رح تسمعه اليوم 🔊» / "The crunchiest skewer you'll hear today 🔊" (#26
+    Superlative as a sound promise, paid off by the tear);
+  - on the trim: «قصّها مربّعة، بتنلفّ أشدّ» / "Trim it square, it rolls tighter";
+  - on the skewers: «اشكّ قبل ما تقصّ» / "Skewer first, then slice" (#7 Wrong Way Right Way);
+  - on the oven: «٣٤ غ بروتين بالسيخ» / "34 g protein a skewer" (#23 Statistic);
+  - on the blender: «صوص أخضر: لبن وكزبرة» / "Green sauce: yogurt and coriander";
+  - from the tear to the end: «اكتب «سيخ» 👇» / "Comment SKEWERS 👇".
+- Checks: pp.py DEAD 0, SLOW 0, LONG 0, QUIET 0 over the whole reel; every card inside x 230-850; the 390 px phone check;
+  the last 0.3 s matches frame 0's framing.
+
+===== THE PDF RECIPE IMAGE =====
+Nano Banana Pro (or GPT image), 4:3 landscape: A photoreal food photograph of beef tortilla pinwheel skewers on a black tray lined with baking paper, on a black marble counter with fine gold veins, warm 2700 K tungsten light from the left, everything outside the light falling to black. Each skewer holds 4 pinwheels, the tortilla golden brown like toasted bread crust, a brown beef spiral with melted cheese inside, zigzags of smooth light green yogurt herb sauce over them. A black-gloved hand tearing one pinwheel in half, the melted cheese stretching. Fine film grain, food tack sharp. No text, no logos.
