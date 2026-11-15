@@ -30,3 +30,18 @@ chewing (cut). Raw: DEAD 3, SLOW 2, QUIET 2, -21.8 LUFS.
 | 14.67-15.75 | his bite | 1.0, push-in 1.08 | |
 pp.py: DEAD 0, SLOW 0, LONG 0, QUIET 0. v1 had the toss loudest (77.6 dB) and the cut at 73: fixed after the compressors.
 Cards inside x 291-787.
+
+## v2 (2026-11-15): the v2 take, a card every 2 s with an animated entrance
+Media 17b852b6-7b27-44b8-8f9c-595170710a51, 1080x1920, 14.5 s, -14.2 LUFS, -1.5 dBTP (true peak, oversampled limiter).
+https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/17b852b6-7b27-44b8-8f9c-595170710a51.mp4
+Source: job 051f9407 (prompts/w4-beef-shawarma-20s-v2.txt). Build: `mk_v2.py` writes `edit_shawarma_v2.py` and `cards_v2.json`.
+Take read (frames every 0.25 s): every step in order; the raw steps end at 3.0 s in the edit. Errors: raw red beef thrown
+on the griddle at 8.17-9.13 s (the owner's catch; cut, the sear starts browned at frame 220); a 1.5 s still hold with the
+knife raised (cut to 0.5 s at 1.5x with a push-in); the cut is a knife slice, not the cleaver; the halves show a dense
+patty-like meat layer; brown-tinted lenses in the bite; the browned meat reads as fine crumbles. Raw DEAD 4, SLOW 3,
+QUIET 6; edit DEAD 0, SLOW 0, LONG 0, QUIET 0; the cut the loudest (76.7 dB at 11.0 s).
+Cards (each enters in 4 frames: fade in and a 28 px slide up, ease-out): «حبيبي، ليش ما عم بتعملي شاورما لحمة؟» 0-2,
+«استنى القرمشة بالآخر 🔊» 2-4, «برج بالفرن، بلا سيخ دوّار» 4-6, «٢٢٠ درجة وبتطلع مقرمشة» 6-8, «٥١ غ بروتين بسندويشة
+وحدة» 8-10, «جاهز؟ 🔪» 10-11, «اكتب «شاورما» 👇» 11-end at the top. Inside x 291-787.
+Caption: the v1 package (week4/beef-shawarma-*); checked against ig-human's slop lexicon (no hits), no em dash, 4 hashtags,
+line 1 inside the first 125 characters.

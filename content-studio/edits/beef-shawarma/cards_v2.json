@@ -1,0 +1,39 @@
+{
+ "items": {
+  "hook": {
+   "y": 890,
+   "ar": "<span style=\"font-size:50px;line-height:1.18;-webkit-text-stroke:5px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">حبيبي، ليش ما عم<br>بتعملي <b>شاورما لحمة</b>؟</span>",
+   "en": "<span style=\"font-size:32px;line-height:1.2;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">Habibi, why won't you<br>make me beef shawarma?</span>"
+  },
+  "c2": {
+   "y": 860,
+   "ar": "<span style=\"font-size:50px;line-height:1.18;-webkit-text-stroke:5px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">استنى <b>القرمشة</b><br>بالآخر 🔊</span>",
+   "en": "<span style=\"font-size:32px;line-height:1.2;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">Wait for the crunch<br>at the end 🔊</span>"
+  },
+  "c3": {
+   "y": 860,
+   "ar": "<span style=\"font-size:50px;line-height:1.18;-webkit-text-stroke:5px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">برج بالفرن،<br>بلا <b>سيخ دوّار</b></span>",
+   "en": "<span style=\"font-size:32px;line-height:1.2;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">A tower in the oven,<br>no rotisserie</span>"
+  },
+  "c4": {
+   "y": 860,
+   "ar": "<span style=\"font-size:50px;line-height:1.18;-webkit-text-stroke:5px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\"><b>٢٢٠ درجة</b><br>وبتطلع مقرمشة</span>",
+   "en": "<span style=\"font-size:32px;line-height:1.2;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">220°C<br>and it comes out crisp</span>"
+  },
+  "c5": {
+   "y": 860,
+   "ar": "<span style=\"font-size:50px;line-height:1.18;-webkit-text-stroke:5px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\"><b>٥١ غ بروتين</b><br>بسندويشة وحدة</span>",
+   "en": "<span style=\"font-size:32px;line-height:1.2;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">51 g of protein<br>in one wrap</span>"
+  },
+  "c6": {
+   "y": 860,
+   "ar": "<span style=\"font-size:50px;line-height:1.18;-webkit-text-stroke:5px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">جاهز؟ 🔪</span>",
+   "en": "<span style=\"font-size:32px;line-height:1.2;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">Ready? 🔪</span>"
+  },
+  "cta": {
+   "y": 300,
+   "ar": "<span style=\"font-size:50px;line-height:1.18;-webkit-text-stroke:5px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">اكتب <b>«شاورما»</b> 👇</span>",
+   "en": "<span style=\"font-size:32px;line-height:1.2;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">Comment SHAWARMA 👇</span>"
+  }
+ }
+}
