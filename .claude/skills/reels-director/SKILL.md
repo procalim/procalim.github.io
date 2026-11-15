@@ -77,6 +77,23 @@ Owner: «ضيفتلك بعض مهارات جديدة للبرومبت والتأ
 - promptmaster: when a short owner message can be read two ways («نفس البطاطا»), restate it as one exact task in one
   line before doing it. The standing rules stay in CLAUDE.md and this skill.
 
+## COMPLETION FIRST (owner's call, 2026-11-15: «المهم والي لازم ينعمل انو نخلي المشاهد يكمل»)
+Watched to the end, on this account (first reads):
+| Reel | Length | End | Last shot |
+|---|---|---|---|
+| Crinkle Cake | about 12.8 s | 56% | the pour, the question card |
+| Dubai pistachios | 11.1 s | about 38-45% (avg watch 120%) | the snap |
+| Tostadas trial (no break) | 7.6 s | 39% | his bite |
+| Pasta pie | 11.9 s | 36-39% | the slice crunch |
+| Tuna egg v4 | 7.8 s | 32% | the yolk cut |
+| Shawarma v1 | 15.75 s | 26% | the cut, his bite |
+| Shawarma v2 | 14.5 s | 17% | the cut, his bite |
+| Tuna egg trial (raw steps after the yolk) | 8.25 s | 13% | raw ingredients |
+- Never anything after the payoff (the tuna trial: -15 points in the second the raw steps began).
+- Raw food never fills the frame for more than about 0.6 s at a time (the first steep fall in every reel sits there).
+- The ends near 40% are 7.6-12 s; the owner's floor is 12 s. The first test: the shawarma completion cut (12.38 s, the
+  v1 take and cards, only the pace changed; edits/beef-shawarma/mk_completion.py).
+
 ## THE PASS MARK (owner's call, 2026-11-15; every reel, first read)
 Owner: «السكيب لازم تكون نسبة من 20 إلى 35 % والإكمال ل 40% الحد الادنى هيك الفيديو بكون فاشل ... ما بدي اضلني عالق ب ألف
 مشاهدة وخمس آلاف». A reel passes only with skip 20-35% AND 40% or more watched to the end; anything else failed, whatever

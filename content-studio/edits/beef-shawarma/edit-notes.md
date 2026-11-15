@@ -45,3 +45,13 @@ Cards (each enters in 4 frames: fade in and a 28 px slide up, ease-out): «حب�
 وحدة» 8-10, «جاهز؟ 🔪» 10-11, «اكتب «شاورما» 👇» 11-end at the top. Inside x 291-787.
 Caption: the v1 package (week4/beef-shawarma-*); checked against ig-human's slop lexicon (no hits), no em dash, 4 hashtags,
 line 1 inside the first 125 characters.
+
+## The completion cut (2026-11-15; owner: «المهم والي لازم ينعمل انو نخلي المشاهد يكمل»)
+Media ee93ffc5-5b8c-40c9-9ccb-afb940395fe3, 12.38 s, -14.7 LUFS, -1.4 dBTP, DEAD 0, SLOW 0, LONG 0, QUIET 0, the cut the loudest.
+https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/ee93ffc5-5b8c-40c9-9ccb-afb940395fe3.mp4
+Build: `mk_completion.py` writes `edit_shawarma_completion.py` from v1. One variable against v1: the pace. The same take
+(53be7e0c), the v1 cards in the same order (hook 0-3.08, «برج بالفرن» 3.08-5.54, «٢٢٠ درجة» 5.54-7.08, «اسمع القرمشة»
+7.08-8.46, «اكبسها عالصاج» 8.46-10.29, keyword 10.29-end), the same sound chain. v1's 1.42 s cleaver opening kept whole;
+the raw bowl 0.62 s, the toss 0.75 s (apex and slap), the raw tower 0.5 s (v1 0.92 s), every middle shot 0.5-0.75 s,
+the shave 1.54 s, the cut 1.0 s, the bite 1.08 s. Post as a trial reel and compare with v1: 94 / 81 / 68% at 1-3 s,
+47% at 5 s, 26% at the end.
