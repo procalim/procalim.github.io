@@ -77,6 +77,13 @@ Owner: «ضيفتلك بعض مهارات جديدة للبرومبت والتأ
 - promptmaster: when a short owner message can be read two ways («نفس البطاطا»), restate it as one exact task in one
   line before doing it. The standing rules stay in CLAUDE.md and this skill.
 
+## THE RETENTION ENGINE (2026-11-15): read content-studio/research/retention-engine.md before every prompt and edit
+What grabs attention and holds it to the end, split into MEASURED (our reads) and CRAFT (sound and editing practice not
+yet measured here): the sound rules (a transient in the first 0.3 s, a rising energy curve, a dip before the payoff,
+sound leading picture by 3-4 frames), the picture rules (looming motion, his face first and last, a visible change in
+every shot, a mid-point surprise, a loop seam), the open loop (promise in 3 s, payoff only in the last 3 s), the edit
+techniques and the prompt blocks to paste.
+
 ## COMPLETION FIRST (owner's call, 2026-11-15: «المهم والي لازم ينعمل انو نخلي المشاهد يكمل»)
 Watched to the end, on this account (first reads):
 | Reel | Length | End | Last shot |
