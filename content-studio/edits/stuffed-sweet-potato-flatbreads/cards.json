@@ -1,0 +1,19 @@
+{
+ "items": {
+  "hook": {
+   "y": 860,
+   "ar": "<span style=\"font-size:50px;line-height:1.18;-webkit-text-stroke:5px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">إذا بتحب الجبنة الذايبة<br>شوف للآخر</span>",
+   "en": "<span style=\"font-size:32px;line-height:1.2;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">If you love melted cheese,<br>watch to the end</span>"
+  },
+  "rehook": {
+   "y": 860,
+   "ar": "<span style=\"font-size:50px;line-height:1.18;-webkit-text-stroke:5px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">السر: لفّها<br>بالنايلون</span>",
+   "en": "<span style=\"font-size:32px;line-height:1.2;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">The secret:<br>twist it in cling film</span>"
+  },
+  "cta": {
+   "y": 860,
+   "ar": "<span style=\"font-size:50px;line-height:1.18;-webkit-text-stroke:5px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">اكتب «محشي» 👇</span>",
+   "en": "<span style=\"font-size:32px;line-height:1.2;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">Comment STUFFED 👇</span>"
+  }
+ }
+}
