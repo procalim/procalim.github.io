@@ -1,0 +1,76 @@
+Beef Shawarma, the Oven Tower: cookcut 20 s, v3 (2026-11-15). v1's first 3 seconds unchanged; 3 s to the end rebuilt
+(owner: «لازم نسختين مع بعض ينزلو اكت البرومبت الثاني وحط بالك تحسين من الثانية الثالث إلى الآخر»). It posts together with
+the completion cut of v1 (media ee93ffc5). Status: NOT generated. Recipe: book-additions/beef-shawarma-oven-tower.md.
+
+SETTINGS (higgsfield.ai): Seedance 2.5, Omni reference, 20 s, 9:16, 720p, bitrate High, audio On; Chef-Ahmad element on;
+@Image1 = the kitchen: https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/66c2248f-e130-4a3c-83df-1a715f172d69.jpg
+
+FIX FROM THE LAST RESULTS (v1 curve, later read: 93 / 80 / 68% at 1-3 s, 49% at 5 s, 25% at the end; v2: 91 / 67 / 52%)
+| Seconds | v1 / v2 on screen and the numbers | v3 |
+|---|---|---|
+| 0-3 | v1: cleaver with his face 1.3 s, spices, lemon: 93 / 80 / 68% (best) | v1's shots 01-03, word for word |
+| 3-5 | v1: the toss and the raw tower stacked, -19 points; v2 did it faster, -10 | no toss; the tower stacked in 0.6 s; the oven slam at 3.6 s with a flame |
+| 5-9 | a slow slide; v2's raw strips thrown on the griddle | the tray slammed down glistening at 5.2 s; the slow-motion shave; a griddle flame burst at 7.8 s with cooked brown shavings only |
+| 9-16 | the slide steepens over the press, the cut and the bite; both cut faces read as a solid patty | bread puffing, the press slam, a cleaver chop (the loudest), loose crisp shavings in the cut face, the toum oozing in the pull |
+| end | v1 ended on chewing | the bite, then the cleaver raised over the sirloin: the first frame, a loop |
+
+===== PROMPT =====
+SCENE CONTEXT: A vertical 9:16 premium cooking action commercial, exactly 20 seconds, 17 shots, every shot already in motion and loud from the first frame to the last. One place only: the cook's kitchen exactly as in @Image1 (matte black cabinets with thin brass trim, a black marble counter with fine gold veins, a black range with brass knobs, black and copper pans hanging on a rail), falling to black. He makes beef shawarma at home with no rotisserie: thin marinated beef stacked into a tower on an upright steel skewer, roasted in the oven, shaved with a long knife, seared crisp on a smoking black cast-iron griddle and rolled in thin Arabic bread with white garlic sauce.
+
+REFERENCE CONTROL: The cook is the Chef-Ahmad element: exactly his face (thick mustache, no beard), his aviators with solid black lenses worn the whole time, a thin gold chain, a plain white t-shirt, a black apron with brown leather straps and black nitrile gloves on both hands in every shot. His face and sunglasses are visible in shots 01, 07, 12, 15 and 16, his whole head inside the frame, upright, beside the props and never behind them. @Image1 is the place, never a prop. He never speaks.
+
+RECIPE (every step once, in this order, nothing added):
+Beef Shawarma, the Oven Tower
+— 800 g beef sirloin, half-frozen; 100 g plain yogurt; juice of 1 lemon; 1 tbsp white vinegar; 4 garlic cloves; 3 tbsp olive oil; cumin, paprika, ground coriander, cinnamon, cardamom, allspice, black pepper, salt; ½ onion; 1 long steel skewer
+— Toum: garlic, salt, lemon juice, oil, ice water
+— 4 thin round Arabic flatbreads; cucumber pickles; tomatoes; red onion with sumac and parsley
+01 Slice the half-frozen beef as thin as you can.
+02 Toss it with the yogurt, lemon, vinegar, garlic, oil, spices and salt.
+03 Stand the skewer upright in the onion half on a tray and stack the slices tightly onto it into a tower.
+04 Roast at 220°C until dark and crisp at the edges.
+05 Shave thin slices down the side of the tower with a long knife.
+06 Sear the shavings on a smoking-hot cast-iron griddle until crisp.
+07 Warm the bread on the griddle, spread the toum, add pickles, tomato and sumac onion, pile on the beef and roll tight.
+08 Press the roll on the griddle until crisp, then cut it in half.
+
+FOOD SHAPES AND COLOURS (the same in every shot, never change): Raw beef: one deep red sirloin like fresh steak, cut into wide slices as thin as deli roast beef. Marinated slices: coated reddish brown with spices, glossy with yogurt and oil. The tower: one tower about 25 cm tall and 12 cm wide of tightly stacked thin slices on one upright steel skewer standing in half an onion on a black tray. Roasted tower: rims dark brown like roasted coffee beans, crisp and charred at the edges, juicy brown inside, never black all over. Shavings: thin curled strips about 5 cm long, browned with crisp edges, as thin as the raw slices. Bread: thin round Arabic flatbread, pale like a crepe, brown spots after the griddle. Toum: thick pure white garlic sauce like whipped cream, never yellow. Pickles: pale green cucumber spears. Tomato: red slices. Onion: red slices with dark red sumac and green parsley. The wrap: one tight roll 5 cm across, the bread golden and crisp with dark grill lines.
+
+PROCESS ORDER / NON-REPETITION LOCK: raw beef -> sliced -> seasoned -> tossed -> stacked tower -> roasted -> shaved -> seared crisp -> bread on the griddle -> toum, pickles, tomato, onion, beef -> rolled -> pressed crisp -> cut -> bite. Every stage once, only forward; raw meat is done by 3.6 s; every shot after the oven shows cooked brown meat only; the wrap appears only from shot 12.
+
+HERO + ENERGY PRIORITY: a PUNCH lands about every 2 to 3 seconds, at 0.0, 3.6, 5.2, 7.8, 11.6, 12.8 and 16.0 s: each one a violent physical impact with its own loud sound and a short camera shake, each as strong as the first. Between the punches, one smooth gimbal move per shot with a readable path and a new action every second; no still, calm or empty moment. An expert under pressure, whole-body force behind every move, never presenting to the camera.
+
+SHOT 01 — 0.0-1.3s: PUNCH 1, the slice. Low at board level, the lens 20 cm from a black board on the marble: the heavy cleaver in his gloved hand falls from above toward the lens and slams through the deep red sirloin; a thin slice peels away. Camera shake on the strike; the camera rises fast past the blade to his face and sunglasses as he strikes again.
+SHOT 02 — 1.3-2.2s: Spices. True 90-degree top-down, locked: his gloved hand sweeps the thin red slices into a steel bowl and a red-brown cloud of spices rains over them.
+SHOT 03 — 2.2-3.0s: Lemon. Close beside the bowl: his gloved fist crushes a lemon half, the juice spraying; a spoon of white yogurt and the crushed garlic drop in.
+SHOT 04 — 3.0-3.6s: The tower, in one beat. Low 45-degree angle at tray level, compressed time: his gloved hands slam the coated slices onto the upright steel skewer in the onion half and the tower rises to 25 cm in half a second.
+SHOT 05 — 3.6-4.4s: PUNCH 2, the oven. Wide from the side: he slides the black tray into the black oven and slams the door with his knee; the burner flame flares blue and orange behind the glass. Camera shake on the slam.
+SHOT 06 — 4.4-5.2s: Roasting. Locked macro through the oven glass, compressed time: the tower darkens from red to deep brown, fat runs down and spits in small bursts of flame on the tray, the rims crisp and char.
+SHOT 07 — 5.2-6.2s: PUNCH 3, the reveal. Medium close, his face and sunglasses behind it: he pulls the tray out with a black towel and slams it on the marble; smoke and steam roll toward the lens; the dark crisp tower glistens.
+SHOT 08 — 6.2-7.8s: The shave. Extreme macro riding the long knife, the lens locked beside the blade, slow motion: it shaves down the side of the cooked tower and thin dark crisp curls, browned all through, peel off and cascade down, crackling loud.
+SHOT 09 — 7.8-9.0s: PUNCH 4, the fire. Low at the griddle surface: the cooked brown shavings, the same colour as the roasted tower, hit the smoking-hot black cast-iron griddle; a splash of their fat catches and a short burst of flame leaps up past the lens with a roar; the steel spatula smashes them flat; the edges crisp.
+SHOT 10 — 9.0-9.8s: The bread. Close: he slaps the thin round bread onto the same griddle beside the beef with a loud flat slap; it puffs and blisters with brown spots in seconds.
+SHOT 11 — 9.8-10.8s: Assembly. True 90-degree top-down on the black marble, compressed time: a spoon slaps thick white toum on the bread and smears it in one stroke; pickle spears, tomato slices and the sumac onion drop on; the crisp brown shavings pile on top in a loose heap.
+SHOT 12 — 10.8-11.6s: The roll. Medium, his face and sunglasses above his hands: he rolls it tight in two fast turns.
+SHOT 13 — 11.6-12.8s: PUNCH 5, the press. Low at the griddle: he slams a heavy steel press down on the roll on the same griddle; a loud sizzle and a burst of smoke; the bread turns golden with dark grill lines. Camera shake on the slam.
+SHOT 14 — 12.8-14.6s: PUNCH 6, the chop. Extreme macro right by the lens, slow motion: the heavy cleaver slams down through the crisp roll in one chop with the loudest crunch of the video, the bread cracking; the halves fall apart to show loose crisp brown shavings, never a solid patty, the white toum, the green pickle and the red tomato, the juices running.
+SHOT 15 — 14.6-16.0s: The pull. Close, his face and sunglasses behind it: he lifts one half toward the lens and squeezes it; white toum oozes over the crisp shavings.
+SHOT 16 — 16.0-18.4s: PUNCH 7, the bite. Close on his face: he takes one big crunchy bite, the bread cracking loud, his mouth closed as he chews, eyes on the wrap.
+SHOT 17 — 18.4-20.0s: The loop. Low at board level: his gloved hand lifts the heavy cleaver high over the next deep red sirloin on the black board, exactly the frame the video opens on. No cut to black.
+
+SPEED + TRANSITIONS: three compressed-time changes (the tower, the roast, the assembly), two slow-motion accents (the shave, the chop), every other shot real time or fast. Matches: the oven slam into the smoke burst; the shaving knife into the griddle flame; the press into the cleaver. Hard cuts on the impact.
+
+SILENT PERFORMANCE LOCK: completely nonverbal. No voice, no talking, no lip movement; the mouth opens only for the bite.
+
+CONTINUITY + PHYSICS: one sirloin, one tower, one griddle, one roll; the shavings cooked brown from the knife to the bite and as thin as the raw slices; the hot tray only with the black towel; the press by its handle; the toum stays white; one camera move per shot.
+
+LIGHTING: a hard warm 2700 K tungsten key light from camera left, the background falling to black, warm rims on the beef, the smoke and the bread, sharp focus on his hands and the food, natural colours.
+
+AUDIO: the sound carries the whole video: only real close-mic sound from what is on screen, loud in every frame with no quiet second: the cleaver strikes, the spices and lemon, the slices slammed onto the skewer, the oven door slam, the fat spitting, the tray slammed on the marble, the knife crackling down the tower, the griddle flame roar and sizzle, the spatula, the bread slap, the spoon slap, the press slam and its sizzle, then the loudest sound of the video: the crunch of the cleaver chop through the roll right at the microphone, then the cracking bite. No music, no voice, no whooshes.
+
+AVOID: a rotisserie machine, a gas shawarma spit, chicken, pork, lamb, pita pockets, tortillas, yellow sauce, mayonnaise, black burnt meat, red or pink meat after the oven, raw strips on the griddle, a solid meat patty in the wrap, thick steak slices, cubes, minced meat, more than one tower, sunglasses off, bare hands, other people, a bright background, labels, packaging, wine, alcohol, talking, cut to black, logos, text, extra fingers, deformed hands, distorted face.
+
+===== EDIT (after the take is read frame by frame; v1's way) =====
+- Length 13-15 s; v1's cards and order (hook 0 to about 2.75 s, then a card about every 3 s on the punches); the keyword
+  from the chop. The end runs the loop shot (the cleaver raised) into frame 0. Nothing after the payoff but the loop.
+- Sound: the chop the loudest; no window under the median; -14 to -15 LUFS, true peak -1.5 dBTP.
+- Posts together with the completion cut (ee93ffc5); both read at the same age.
