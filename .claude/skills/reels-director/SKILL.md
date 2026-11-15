@@ -49,8 +49,12 @@ Our own reels against the mark (the "Go Viral" guide's step 5, winners next to f
 | 25.8-35.0% | chips 25.8, mac & cheese balls 28.5, chickpea bark 28.9 (API), pasta pie 31.0, Dubai 31.9, Big Mac tacos 33.1, arancini 35.0 | an action or a shape in motion (a smash, the shape pressed, his face already working) with a loud sound; no raw ingredients |
 | 42.3-62.0% | tostadas 42.3, steak 44.0, sweet potato 44.5, tuna egg v4 44.7, kibbeh 47.1, potato nests 47.7, honey 48.8, fettuccine 56.9, pasta 60.7, pan chocolate 62.0 | raw ingredients in 0-3 s (bowl, potatoes, flour, eggs, onions), or a calm finished dish |
 Completion: the crinkle 56%, Dubai about 38-45%, the pasta pie 36-39%: none of the Rima-way reels has reached 40% yet.
-First test (2026-11-15): the tuna egg reposted as a trial reel, the raw steps moved to the end (media 0d587f22); the falafel
-cut the same way (edits/falafel-cups/edit_falafel_trial.py, media 0c4a1931, 9.62 s, flags 0) waits on its read.
+First tests (2026-11-15, app reads at about 1 h; use the app's skip, the API's differed by 16 points):
+- Tuna egg trial, shape first and the raw steps after the yolk: +5 to +11 points at 1-4 s against the posted one, then -15
+  points in the second the raw steps start; the end 13% against 32%. Rule: nothing after the payoff; the reel ends on it.
+- Tostadas v4 as a trial (no break hook): 93 / 81 / 70% at 1-3 s, skip 8.1%, end 39% (95 viewers). The same edit with the
+  break in front: 82 / 56 / 37%. Its 0-2.5 s: the knife in the red tuna, the marinade, the sesame press, the sizzling sear.
+- So the falafel posts as v3 (media 8fafa202): the shape first, the end on his bite, 6.12 s.
 
 ## THE CRINKLE WAY (owner's call, 2026-11-12; every reel; overrides every format and template below)
 Owner: «احسن فيديو موجود الكرنكل وما في حل غير هيك: وصفة نفس شغل الكرنكل». Every new reel copies the Crinkle Cake reel's

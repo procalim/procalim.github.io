@@ -56,3 +56,10 @@ Build: `edit_falafel_trial.py` (from edit_falafel.py; the same shots and cards, 
 | 1.96-4.25 | one lifted, the hummus, the shawarma, almonds and parsley | «أقرمش فلافل بلا ولا نقطة زيت قلي» |
 | 4.25-6.12 | the salad, the tahini drizzle (keyword from 4.75), his bite | «اكتب «فلافل» 👇» 4.75-end |
 | 6.12-9.62 | the raw steps at the posted speeds: the bowl, the chickpeas, the onion, the herbs, the green mix, the tahini, the spices, the mixing, the flour (into the balls: the loop) | |
+
+## v3: shape first, ending on the bite (2026-11-15) — the one to post tonight
+Media 8fafa202-0cc3-42a0-9902-43f120684f5e, 6.12 s, -14.5 LUFS, -1.2 dBTP, DEAD 0, SLOW 0, LONG 0, QUIET 0. Build: `edit_falafel_v3.py`.
+https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/8fafa202-0cc3-42a0-9902-43f120684f5e.mp4
+The shape-first cut above without the raw tail: the tuna trial reel (raw steps after the payoff) lost 15 points in the second
+they started and ended at 13%; the tostadas trial, ending on his bite, ended at 39%. Cards: hook 0-1.96, rehook 1.96-4.25,
+keyword 4.75-end.
