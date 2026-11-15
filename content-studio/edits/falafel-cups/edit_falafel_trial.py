@@ -1,0 +1,103 @@
+# Baked Falafel Cups: the shape-first cut (2026-11-15), the same structure as the tuna egg trial reel the owner posted
+# (owner: «وين المكونات الي بأول الفيديو خليها آخر اشي»). Owner's pass mark (2026-11-15): skip 20-35%, watched to the end
+# 40% or more. On this account every reel under 35% skip opened on an action or a shape in motion; every reel at 42% or
+# more had raw ingredients on screen in 0-3 s (the posted v4 de94f773: raw 0-3.5 s). Here: the balls and the glass press
+# first, the posted order to the bite, then the raw steps at the posted speeds, the flour running into the balls (the
+# loop). The same three cards and sound chain. Source: raw.mp4 (the falafel take).
+import subprocess, re
+FPS = 24
+SRC = 'raw.mp4'
+SEGS = [  # (first frame, end frame, speed, label[, push-in]); the raw steps (frames 0-112) moved to the end
+    (112, 136, 1.5, 'the balls set down'),
+    (136, 152, 1.2, 'the press'),
+    (152, 176, 2.0, 'sesame and oil', (1.0, 1.08)),   # source motion 4.5: DEAD at 1.0x
+    (176, 182, 1.0, 'the 4 cups'),
+    (184, 194, 1.0, 'one lifted'),
+    (198, 216, 1.3, 'the hummus'),
+    (216, 228, 1.0, 'the shawarma'),
+    (228, 270, 2.2, 'almonds and parsley', (1.0, 1.08)),   # source motion 4.1-4.4: DEAD at 1.0x
+    (270, 282, 1.0, 'the salad'),
+    (282, 310, 1.8, 'the tahini drizzle', (1.0, 1.08)),   # source SLOW at 12.0 s; v1 at 1.5x still SLOW
+    (310, 337, 1.6, 'his bite', (1.0, 1.12)),   # source DEAD 13-14 s
+    (0, 10, 1.0, 'the bowl set down'),
+    (12, 35, 1.8, 'the chickpeas pour'),
+    (36, 44, 1.0, 'the red onion'),
+    (44, 52, 1.0, 'the herbs'),
+    (52, 60, 1.0, 'the green mix'),
+    # (60, 68) 'more herbs' left out: the herbs fall again on the blitzed mix (owner: «البقدونس مكرر بالخلطة»)
+    (68, 82, 1.5, 'the tahini'),
+    (82, 90, 1.0, 'the spices'),
+    (90, 102, 1.2, 'the mixing'),
+    (102, 112, 1.0, 'the flour'),   # runs into frame 112, the balls: the loop
+]
+LIFT_LABEL = 'his bite'   # the bite's crunch: +4 dB over its first 0.6 s
+
+
+def vchain(zm, n):
+    if not zm: return 'scale=1080:1920:flags=lanczos,setsar=1'
+    z0, z1 = zm[0]
+    return (f"scale=2160:3840:flags=lanczos,zoompan=z='{z0}+({z1}-{z0})*on/{max(n - 1, 1)}':x='(iw-iw/zoom)/2':"
+            f"y='(ih-ih/zoom)/2':d=1:s=1080x1920:fps={FPS},setsar=1")
+
+
+def tempo(sp):
+    if sp == 1.0: return ''
+    if sp > 2.0: return f',atempo=2.0,atempo={sp / 2.0:.4f}'
+    return f',atempo={sp}'
+
+
+def run(c): subprocess.run(c, check=True)
+
+
+def meas(f):
+    e = subprocess.run(['ffmpeg', '-hide_banner', '-i', f, '-af', 'ebur128=peak=true', '-f', 'null', '-'],
+                       capture_output=True, text=True).stderr
+    s = e[e.rindex('Summary'):]
+    return float(re.search(r'I:\s+(-?[\d.]+)', s).group(1)), float(re.search(r'Peak:\s+(-?[\d.]+)', s).group(1))
+
+
+labels, t = [], 0.0
+for i, (f0, f1, sp, lab, *zm) in enumerate(SEGS):
+    n = round((f1 - f0) / sp); d = n / FPS
+    run(['ffmpeg', '-v', 'error', '-y', '-i', SRC, '-vf',
+         f'trim=start_frame={f0}:end_frame={f1},setpts=(PTS-STARTPTS)/{sp},fps={FPS},trim=end_frame={n},setpts=PTS-STARTPTS,'
+         + vchain(zm, n),
+         '-an', '-c:v', 'libx264', '-qp', '0', '-preset', 'ultrafast', '-pix_fmt', 'yuv420p', '-frames:v', str(n), f'seg{i:02d}.mkv'])
+    run(['ffmpeg', '-v', 'error', '-y', '-i', SRC, '-vn', '-af',
+         f'atrim={f0 / FPS:.5f}:{f1 / FPS:.5f},asetpts=PTS-STARTPTS{tempo(sp)},aresample=48000,aformat=channel_layouts=mono,'
+         f'apad,atrim=end={d:.5f},afade=t=in:d=0.01,afade=t=out:st={d - 0.01:.5f}:d=0.01', '-c:a', 'pcm_s16le', f'seg{i:02d}.wav'])
+    labels.append((t, t + d, lab)); t += d
+TOTAL = t
+L = {lab: (s, e) for s, e, lab in labels}
+open('vlist.txt', 'w').write(''.join(f"file 'seg{i:02d}.mkv'\n" for i in range(len(SEGS))))
+open('alist.txt', 'w').write(''.join(f"file 'seg{i:02d}.wav'\n" for i in range(len(SEGS))))
+run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-i', 'vlist.txt', '-c', 'copy', 'cut.mkv'])
+run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-i', 'alist.txt', '-af',
+     'dynaudnorm=f=150:g=5:p=0.9:m=12,'
+     f"volume=4dB:enable='between(t,{L[LIFT_LABEL][0]:.3f},{L[LIFT_LABEL][0] + 0.6:.3f})',"
+     'acompressor=threshold=-30dB:ratio=4:attack=4:release=150:makeup=1,acompressor=threshold=-18dB:ratio=3:attack=2:release=80',
+     '-c:a', 'pcm_s16le', 'mix.wav'])
+I, P = meas('mix.wav'); g0 = -17.5 - I
+run(['ffmpeg', '-v', 'error', '-y', '-i', 'mix.wav', '-af', f'volume={g0:.2f}dB,alimiter=limit=0.80:attack=2:release=60:level=disabled', 'mix2.wav'])
+I2, P2 = meas('mix2.wav'); g = -17.5 - I2   # mono at -17.5 = stereo -14.5
+CARDS = [  # the posted v4 cards: the hook over the shaping, the rehook over the fill, the keyword to the end
+         ('ov_hook.png', 0.0, L['one lifted'][0]),
+         ('ov_rehook.png', L['one lifted'][0], L['the salad'][0]),
+         ('ov_cta.png', L['the tahini drizzle'][0], TOTAL)]
+ins = ['-i', 'cut.mkv']
+fc = ['[0:v]setsar=1,format=yuv420p[b0]']
+last = 'b0'
+for k, (png, s, e) in enumerate(CARDS):
+    ins += ['-loop', '1', '-t', f'{TOTAL:.4f}', '-r', str(FPS), '-i', png]
+    fc.append(f"[{last}][{k + 1}:v]overlay=0:0:enable='between(t,{s:.4f},{e - 0.001:.4f})':eof_action=pass[o{k}]"); last = f'o{k}'
+fc.append(f'[{last}]format=yuv420p[v]')
+fc.append(f'[{len(CARDS) + 1}:a]volume={g:.2f}dB,alimiter=limit=0.82:attack=2:release=60:level=disabled,aresample=48000,pan=stereo|c0=c0|c1=c0[ao]')
+ins += ['-i', 'mix2.wav']
+run(['ffmpeg', '-v', 'error', '-y', *ins, '-filter_complex', ';'.join(fc), '-map', '[v]', '-map', '[ao]',
+     '-frames:v', str(round(TOTAL * FPS)),
+     '-c:v', 'libx264', '-preset', 'slow', '-crf', '16', '-profile:v', 'high', '-pix_fmt', 'yuv420p',
+     '-color_primaries', 'bt709', '-color_trc', 'bt709', '-colorspace', 'bt709', '-color_range', 'tv', '-r', str(FPS),
+     '-c:a', 'aac', '-b:a', '256k', '-movflags', '+faststart', 'falafel-cups-shapefirst.mp4'])
+for s, e, lab in labels: print(f'{s:6.2f}-{e:6.2f}  {lab}')
+print('cards', [(c, round(s, 2), round(e, 2)) for c, s, e in CARDS])
+print('total', round(TOTAL, 3), 'mix', I, P, 'final', meas('falafel-cups-shapefirst.mp4'))

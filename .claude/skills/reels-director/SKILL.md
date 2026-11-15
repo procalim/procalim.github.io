@@ -39,6 +39,19 @@ description: >
    «هالأكلة إلها طعمة البيت، والعيلة كلها حوالين صحن واحد. حطيت هالإحساس بـ ٣٦١ وصفة بكتابي The Edible Codex،
    مشان سفرتك ما يخلص فيها سبب للّمّة. الرابط بالبايو 📕»
 
+## THE PASS MARK (owner's call, 2026-11-15; every reel, first read)
+Owner: «السكيب لازم تكون نسبة من 20 إلى 35 % والإكمال ل 40% الحد الادنى هيك الفيديو بكون فاشل ... ما بدي اضلني عالق ب ألف
+مشاهدة وخمس آلاف». A reel passes only with skip 20-35% AND 40% or more watched to the end; anything else failed, whatever
+the views. Every edit is built to this mark before delivery, and every read reports both numbers first.
+Our own reels against the mark (the "Go Viral" guide's step 5, winners next to flops; on screen in 0-2 s):
+| Skip | Reels | On screen in 0-2 s |
+|---|---|---|
+| 25.8-35.0% | chips 25.8, mac & cheese balls 28.5, chickpea bark 28.9 (API), pasta pie 31.0, Dubai 31.9, Big Mac tacos 33.1, arancini 35.0 | an action or a shape in motion (a smash, the shape pressed, his face already working) with a loud sound; no raw ingredients |
+| 42.3-62.0% | tostadas 42.3, steak 44.0, sweet potato 44.5, tuna egg v4 44.7, kibbeh 47.1, potato nests 47.7, honey 48.8, fettuccine 56.9, pasta 60.7, pan chocolate 62.0 | raw ingredients in 0-3 s (bowl, potatoes, flour, eggs, onions), or a calm finished dish |
+Completion: the crinkle 56%, Dubai about 38-45%, the pasta pie 36-39%: none of the Rima-way reels has reached 40% yet.
+First test (2026-11-15): the tuna egg reposted as a trial reel, the raw steps moved to the end (media 0d587f22); the falafel
+cut the same way (edits/falafel-cups/edit_falafel_trial.py, media 0c4a1931, 9.62 s, flags 0) waits on its read.
+
 ## THE CRINKLE WAY (owner's call, 2026-11-12; every reel; overrides every format and template below)
 Owner: «احسن فيديو موجود الكرنكل وما في حل غير هيك: وصفة نفس شغل الكرنكل». Every new reel copies the Crinkle Cake reel's
 work beat for beat, with a new book recipe. Sources: `content-studio/prompts/crinkle-15s-v2-base.txt` (the surviving

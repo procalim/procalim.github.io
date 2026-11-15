@@ -44,3 +44,15 @@ Media 3694446c-bac1-4fd0-a89a-65763c88533f (v3; v2 with the repeated herbs: 6a71
 https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/3694446c-bac1-4fd0-a89a-65763c88533f.mp4
 
 Post: 15 Nov, 10 pm Amman. Package: `../../week4/falafel-cups-{caption,pinned,dm-reply}.txt`.
+
+## Shape-first cut (2026-11-15), for tonight if the tuna egg trial reel reads better than the posted v4
+Media 0c4a1931-11c0-4cb1-981c-6f0fa43c331c, 1080x1920, 9.62 s, -14.5 LUFS, -1.3 dBTP, DEAD 0, SLOW 0, LONG 0, QUIET 0.
+https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/0c4a1931-11c0-4cb1-981c-6f0fa43c331c.mp4
+Build: `edit_falafel_trial.py` (from edit_falafel.py; the same shots and cards, only the order). The owner's pass mark: skip
+20-35%, 40% or more to the end.
+| Output (s) | Shot | Card |
+|---|---|---|
+| 0.00-1.96 | the balls set down, the press, sesame and oil, the 4 cups | «قلي الفلافل هو الغلطة» |
+| 1.96-4.25 | one lifted, the hummus, the shawarma, almonds and parsley | «أقرمش فلافل بلا ولا نقطة زيت قلي» |
+| 4.25-6.12 | the salad, the tahini drizzle (keyword from 4.75), his bite | «اكتب «فلافل» 👇» 4.75-end |
+| 6.12-9.62 | the raw steps at the posted speeds: the bowl, the chickpeas, the onion, the herbs, the green mix, the tahini, the spices, the mixing, the flour (into the balls: the loop) | |
