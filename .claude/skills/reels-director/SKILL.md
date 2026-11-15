@@ -48,6 +48,12 @@ Owner: «احنا عم نلعب بنار الفيديو قصير كثير ونس
 - The edit: 12 s or more (14-16 s from a 20 s take), a punch-in on each impact, the loudest sound on the money shot,
   pp.py flags 0, cards on the punches.
 - The Rima way (her reel as @Video1) stops here: her audience is not ours. First: prompts/w4-beef-shawarma-20s.txt.
+- First read (beef shawarma, 1 h 38 min, edit 15.75 s): skip 31.5%, avg 9.4 s (60%), 94 / 81 / 69% at 1-3 s, then -22
+  points at 3-5 s (the toss and the raw tower), a steady slide to 26% at the end; 0 shares, 0 saves.
+- The template from here (owner: «الخطاف كل ثانيتين ... ونشد المشاهد لنهاية بالهووك الكتابة ... واجى دور ريما بوصفاتها»):
+  prompts/w4-beef-shawarma-20s-v2.txt. Every raw step done by 3.6 s, a punch about every 2 s, a held beat before the
+  money shot, the money shot and the bite fill the last 6 s; in the edit a card every 2 s, and from 2 s a card that
+  promises the ending. Rima's recipes are written into this template (her recipe, our cookcut film), never as @Video1.
 
 ## THE PASS MARK (owner's call, 2026-11-15; every reel, first read)
 Owner: «السكيب لازم تكون نسبة من 20 إلى 35 % والإكمال ل 40% الحد الادنى هيك الفيديو بكون فاشل ... ما بدي اضلني عالق ب ألف
