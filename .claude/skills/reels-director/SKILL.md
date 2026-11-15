@@ -50,10 +50,14 @@ Owner: «احنا عم نلعب بنار الفيديو قصير كثير ونس
 - The Rima way (her reel as @Video1) stops here: her audience is not ours. First: prompts/w4-beef-shawarma-20s.txt.
 - First read (beef shawarma, 1 h 38 min, edit 15.75 s): skip 31.5%, avg 9.4 s (60%), 94 / 81 / 69% at 1-3 s, then -22
   points at 3-5 s (the toss and the raw tower), a steady slide to 26% at the end; 0 shares, 0 saves.
-- The template from here (owner: «الخطاف كل ثانيتين ... ونشد المشاهد لنهاية بالهووك الكتابة ... واجى دور ريما بوصفاتها»):
-  prompts/w4-beef-shawarma-20s-v2.txt. Every raw step done by 3.6 s, a punch about every 2 s, a held beat before the
-  money shot, the money shot and the bite fill the last 6 s; in the edit a card every 2 s, and from 2 s a card that
-  promises the ending. Rima's recipes are written into this template (her recipe, our cookcut film), never as @Video1.
+- v2 was tried (prompts/w4-beef-shawarma-20s-v2.txt: raw steps by 3.6 s, a punch about every 2 s, a card every 2 s with
+  an animated entrance) and read worse at the same age: 91 / 67 / 52% at 1-3 s against v1's 94 / 81 / 69%, 17% at the end
+  against 26%, half the reach. Its opening held the cleaver 0.71 s before the raw bowl (v1: 1.42 s, two strikes, his
+  face) and replaced the hook card at 2.0 s (v1: 2.75 s). In both, the first steep fall sits where raw meat fills the frame.
+- So the template is v1 (prompts/w4-beef-shawarma-20s.txt and edits/beef-shawarma/edit_shawarma.py): an action opening
+  with his face held about 1.4 s, the hook card held about 2.75 s, a card about every 3 s on the punches, the end on the
+  bite. Each new reel changes one thing against it. Rima's recipes are written into this template (her recipe, our
+  cookcut film), never as @Video1.
 
 ## THE OWNER'S ADDED TOOLS (2026-11-15): what each adds, what we already had
 Owner: «ضيفتلك بعض مهارات جديدة للبرومبت والتأثير ... مهارات جديدة لإنستقرام ... قارن بينهم». Read 2026-11-15.
