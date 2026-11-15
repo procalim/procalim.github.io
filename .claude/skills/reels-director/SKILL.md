@@ -55,6 +55,24 @@ Owner: «احنا عم نلعب بنار الفيديو قصير كثير ونس
   money shot, the money shot and the bite fill the last 6 s; in the edit a card every 2 s, and from 2 s a card that
   promises the ending. Rima's recipes are written into this template (her recipe, our cookcut film), never as @Video1.
 
+## THE OWNER'S ADDED TOOLS (2026-11-15): what each adds, what we already had
+Owner: «ضيفتلك بعض مهارات جديدة للبرومبت والتأثير ... مهارات جديدة لإنستقرام ... قارن بينهم». Read 2026-11-15.
+- instagram-agent-skill (Jake Schincariol, 13 skills): ig-reel, ig-viral and ig-profile are the pack already in use (the 26
+  hook formulas, hookscore, the outlier swipe); ig-story, ig-plan, ig-comment and ig-reply are already in the routine.
+  New for us: ig-human (humanize.py and detect.py strip AI tells from a caption) and ig-caption (a caption linter).
+- master-skills/virality: the same 26 formulas plus hard rules. Already ours: one comment keyword, 3-5 hashtags, no em
+  dashes, a rehook mid-way, copy the formula. Not yet tested here: the hook leads with a concrete payoff (a number) on the
+  first card; the caption's first line is the keyword ask; a 2-4 word cover.
+- master-skills/edit: built for talking heads (dead-space cuts and word captions; our reels have no speech). Worth taking:
+  a true peak of -1.5 dBTP; a music bed about 15 dB under the main sound, faded 1 s before the end; text that enters in
+  4-8 frames with a strong ease-out instead of appearing flat; a still checked at every join.
+- transcribe (yt-dlp + faster-whisper): instagram.com is blocked from this container but works from the Higgsfield
+  sandbox: `HOME=/home/user python3 -m yt_dlp -o "%(id)s.%(ext)s" URL` saved fiteat.rima's DenPO3Gt74j at 1440x2560 with
+  sound, no ScrapeCreators credits (2026-11-15). Reference reels come this way from now on; ScrapeCreators only for
+  account lists and play counts.
+- promptmaster: when a short owner message can be read two ways («نفس البطاطا»), restate it as one exact task in one
+  line before doing it. The standing rules stay in CLAUDE.md and this skill.
+
 ## THE PASS MARK (owner's call, 2026-11-15; every reel, first read)
 Owner: «السكيب لازم تكون نسبة من 20 إلى 35 % والإكمال ل 40% الحد الادنى هيك الفيديو بكون فاشل ... ما بدي اضلني عالق ب ألف
 مشاهدة وخمس آلاف». A reel passes only with skip 20-35% AND 40% or more watched to the end; anything else failed, whatever
