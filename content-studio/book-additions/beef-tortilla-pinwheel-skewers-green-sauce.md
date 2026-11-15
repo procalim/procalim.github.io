@@ -28,6 +28,8 @@ The green sauce
 4. Roll each one up tightly.
 5. Lay 4 rolls side by side and push 4 skewers through all 4, evenly spaced. Cut between the skewers. Repeat with the
    other 4 rolls.
+   As filmed (take e696653a, 2026-11-15): one skewer pushed through each whole roll, end to end, no cutting; the reel's
+   DM sends this version. The owner chooses which one goes into the PDF.
 6. Lay the skewers on a lined tray, brush with the oil and bake at 200°C for 20-25 minutes, until golden and the beef is
    cooked through.
 7. Blend the sauce until smooth and drizzle it over the skewers.

@@ -1,0 +1,39 @@
+{
+ "items": {
+  "hookA": {
+   "y": 890,
+   "ar": "<span style=\"font-size:50px;line-height:1.18;-webkit-text-stroke:5px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">حبيبي، بدي<br><b>أسياخ التورتيلا</b></span>",
+   "en": "<span style=\"font-size:32px;line-height:1.2;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">Habibi, I want<br>the tortilla skewers</span>"
+  },
+  "hookB": {
+   "y": 890,
+   "ar": "<span style=\"font-size:50px;line-height:1.18;-webkit-text-stroke:5px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\"><b>أقرمش سيخ</b><br>رح تسمعه اليوم 🔊</span>",
+   "en": "<span style=\"font-size:32px;line-height:1.2;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">The crunchiest skewer<br>you'll hear today 🔊</span>"
+  },
+  "c2": {
+   "y": 860,
+   "ar": "<span style=\"font-size:50px;line-height:1.18;-webkit-text-stroke:5px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">قصّها <b>مربّعة</b>،<br>بتنلفّ أشدّ</span>",
+   "en": "<span style=\"font-size:32px;line-height:1.2;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">Trim it square,<br>it rolls tighter</span>"
+  },
+  "c3": {
+   "y": 860,
+   "ar": "<span style=\"font-size:50px;line-height:1.18;-webkit-text-stroke:5px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">السيخ بيمسكها،<br><b>ما بتفرط</b></span>",
+   "en": "<span style=\"font-size:32px;line-height:1.2;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">The skewer holds it,<br>it never unrolls</span>"
+  },
+  "c4": {
+   "y": 860,
+   "ar": "<span style=\"font-size:50px;line-height:1.18;-webkit-text-stroke:5px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\"><b>٣٤ غ بروتين</b><br>بالسيخ</span>",
+   "en": "<span style=\"font-size:32px;line-height:1.2;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">34 g protein<br>a skewer</span>"
+  },
+  "c5": {
+   "y": 860,
+   "ar": "<span style=\"font-size:50px;line-height:1.18;-webkit-text-stroke:5px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">صوص أخضر:<br><b>لبن وكزبرة</b></span>",
+   "en": "<span style=\"font-size:32px;line-height:1.2;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">Green sauce:<br>yogurt and coriander</span>"
+  },
+  "cta": {
+   "y": 210,
+   "ar": "<span style=\"font-size:50px;line-height:1.18;-webkit-text-stroke:5px #000;text-shadow:0 0 14px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">اكتب <b>«سيخ»</b> 👇</span>",
+   "en": "<span style=\"font-size:32px;line-height:1.2;-webkit-text-stroke:4px #000;color:#fff;text-shadow:0 0 12px rgba(0,0,0,.9),0 3px 8px rgba(0,0,0,.9)\">Comment SKEWERS 👇</span>"
+  }
+ }
+}
