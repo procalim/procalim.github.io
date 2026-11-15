@@ -1,0 +1,82 @@
+Beef Tortilla Pinwheel Skewers with Green Yogurt Sauce: the outside-account plan, 18 Nov 3 pm.
+Reference: fiteat.rima DenPO3Gt74j (2,642,569 plays, 2,002 comments, 17 Oct 2026, "Repost: beef tortilla skewers, with
+the best green sauce"), 8.24 s, 15 shots, read at 4 frames a second 2026-11-15. One locked top-down angle from start to
+end, her hands only, no face. Her small line «pov: you cook to impress» sits near the top the whole reel.
+Recipe: book-additions/beef-tortilla-pinwheel-skewers-green-sauce.md (new, for the new PDF). Status: NOT generated.
+The owner generates on higgsfield.ai with his unlimited; no generation from Claude Code without «ولد».
+
+SETTINGS:
+- Seedance 2.5, Omni reference, 12 s, 9:16, 720p, bitrate High, audio On.
+- Chef-Ahmad element OFF: hands only, as in her reel (an element with no face shot tends to push a face in).
+
+Why 12 s: her shots are 0.55 s on average; Seedance merges shots under about 0.7 s. Her reel slowed to 11.8 s gives
+0.8 s shots; the edit speeds them back to about 9 s.
+
+References:
+- @Video1 = her reel slowed 1.456x to 11.8 s with smooth frames, SILENT, her text line blurred out, media 234df28a-3d81-4f1b-94d8-9247c91a340d:
+  https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/234df28a-3d81-4f1b-94d8-9247c91a340d.mp4
+- @Image1 = the kitchen:
+  https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/66c2248f-e130-4a3c-83df-1a715f172d69.jpg
+
+HER SHOTS (s, on the 12 s reference): 0.0-0.65 a large round tortilla laid flat on the board | 0.65-1.4 a knife trims
+it into a square | 1.4-1.85 the square beside 2 tortillas already spread with beef | 1.85-2.4 a hand spreads raw
+seasoned beef to the edges | 2.4-3.15 shredded cheese sprinkled over | 3.15-4.05 rolled up tight | 4.05-4.95 4 rolls
+side by side, skewers pushed through all 4 | 4.95-5.7 a knife cuts between the skewers | 5.7-6.35 4 skewers of 4
+pinwheels on a lined tray | 6.35-6.85 brushed with oil | 6.85-7.5 the tray slides out | 7.5-8.05 baked golden
+skewers on the platter | 8.05-8.5 the full platter, cherry tomatoes around | 8.5-9.65 green sauce zigzagged from a
+squeeze bottle | 9.65-10.45 a hand reaches in | 10.45-12.0 one skewer lifted to the lens, the spiral inside.
+Along the top edge of every shot: a red bell pepper, tomatoes on the vine, a lemon, limes and a bunch of parsley.
+
+PRE-GENERATION CHECK
+| Check | Result |
+|---|---|
+| Counts and shapes | 8 large round flour tortillas trimmed into squares; this round: exactly 4 rolls, exactly 4 skewers, each through all 4 rolls; exactly 4 pinwheels on each skewer; the platter: all 8 skewers |
+| Food named in every shot | yes |
+| Identity | black gloves, his kitchen; hands only, no face (as in her reel) |
+| Halal | halal beef, raw only before the oven; cheddar and mozzarella halal-certified; the sauce Greek yogurt with no gelatin |
+| Frame one | already moving: the tortilla dropping flat onto the board |
+| Text | none in the generation; her text line blurred out of @Video1 |
+
+===== PROMPT =====
+A vertical 9:16 photoreal cooking reel of Beef Tortilla Pinwheel Skewers with Green Yogurt Sauce, exactly 12 seconds, one locked top-down camera, fast cuts, no text.
+
+REFERENCE VIDEO (@Video1): copy its exact shots, timing, top-down framing, hand moves and cut rhythm, the same food and the same steps in the same order. Do not copy its person, her bare hands, her wooden board, her daylight, her printed paper or her colours.
+
+PLACE: the dark kitchen of @Image1, seen from straight above: a black marble counter with fine gold veins, warm 2700 K light from camera left, the edges falling to black. Along the top edge of the frame in every shot: a red bell pepper, tomatoes on the vine, a lemon, limes and a bunch of parsley. A black baking tray lined with baking paper; a white platter with a thin gold rim; long wooden skewers; a plain clear squeeze bottle with no label. Photoreal, real food, real physics, food tack sharp.
+
+COOK: only his hands and forearms in black nitrile gloves, in every shot. No face.
+
+FOOD (the same in every shot, never change): large round soft flour tortillas, pale cream with light brown spots, trimmed into squares; raw red seasoned ground beef with finely chopped red pepper and parsley, spread thin; shredded yellow cheddar and white mozzarella; exactly 4 tight tortilla rolls; pinwheels about 3 cm thick showing a red beef spiral with cheese, exactly 4 on each skewer; baked: the tortilla golden and crisp at the edges, the beef spiral cooked brown with melted cheese; a smooth pale-green yogurt herb sauce.
+
+0.0-0.65s: Top-down, frame one already moving: his gloved hand lays a large round flour tortilla flat on the black marble.
+0.65-1.4s: A knife cuts straight down each side, trimming the round tortilla into a square.
+1.4-1.85s: The square tortilla beside two others already spread with raw red seasoned beef.
+1.85-2.4s: His gloved hand presses and spreads the raw seasoned beef in a thin even layer to the edges of the square.
+2.4-3.15s: A handful of shredded cheddar and mozzarella falls over the beef.
+3.15-4.05s: His gloved hands roll the tortilla up tight from the near edge.
+4.05-4.95s: Exactly 4 tortilla rolls side by side; his gloved hand pushes long wooden skewers across through all 4 rolls, evenly spaced.
+4.95-5.7s: A knife cuts down between the skewers; red beef spirals show in the cut faces.
+5.7-6.35s: On the black tray lined with baking paper: exactly 4 skewers, each holding 4 pinwheels, the red beef spirals facing up.
+6.35-6.85s: A brush paints olive oil over the pinwheels.
+6.85-7.5s: His gloved hands slide the tray out of the frame toward the oven.
+7.5-8.05s: Baked: the skewers golden and crisp, the beef spirals cooked brown with melted cheese, laid on the white gold-rim platter.
+8.05-8.5s: Top-down: all 8 baked pinwheel skewers piled on the platter, cherry tomatoes around.
+8.5-9.65s: The clear squeeze bottle zigzags a thin stream of smooth pale-green yogurt herb sauce over the skewers.
+9.65-10.45s: His gloved hand reaches in to the sauced skewers.
+10.45-12.0s: He lifts one skewer toward the lens: the crisp golden pinwheels, the brown beef spiral and melted cheese inside, the green sauce on top; the top pinwheel tears free with a crisp crackle. No cut to black.
+
+AUDIO: loud close-mic sound of what is on screen on every cut: the tortilla on the marble, the knife through the tortilla, the beef pressed and spread, the cheese falling, the roll, the skewers through the rolls, the knife through the pinwheels, the brush, the tray sliding, the crisp skewers on the platter, the squeeze bottle, and the crisp crackle of the pinwheel tearing free, the loudest. No music, no voice, no talking.
+
+AVOID: a woman, a face, bare hands, clear gloves, a wooden board, daylight, printed paper, text, logos, labelled bottles, wine, alcohol, pork, more or fewer than 4 rolls in a round, more or fewer than 4 pinwheels on a skewer, raw beef after the oven, burnt food, extra fingers, deformed hands.
+
+===== EDIT TEMPLATE (built after the take is read; the v4 way) =====
+- Speeds from the measured source motion; target about 9 s; pp.py DEAD 0, SLOW 0, QUIET 0, the tail included.
+- Cards centred at y 860 (checked against hook-log.md):
+  - hook, frame 0 to the end of the roll: «لما بدك تبيّض وجّك<br>قدّام الضيوف» / "When you need to impress<br>your guests"
+    (a relatable moment, her own line in our words; last used on the short ribs, 13 Nov; not in the last 5 reels);
+  - rehook over the skewers and the cut: «اشكّ قبل ما تقصّ<br>ولا لفّة بتفرط» / "Skewer first, then slice:<br>not one comes apart"
+    (#7 Wrong Way Right Way, last on the Dubai reel, 5 Nov);
+  - keyword from the full platter to the end: «اكتب «سيخ» 👇» / "Comment SKEWERS 👇".
+
+===== THE PDF RECIPE IMAGE =====
+Nano Banana Pro (or GPT image), 4:3 landscape: A photoreal overhead food photograph of 8 beef tortilla pinwheel skewers piled on a white platter with a thin gold rim, on a black marble counter with fine gold veins, warm 2700 K tungsten light from the left, everything outside the light falling to black. Each skewer holds 4 pinwheels, the tortilla golden and crisp, a brown beef spiral with melted cheese inside, a zigzag of smooth pale-green yogurt herb sauce over them, cherry tomatoes around. A black-gloved hand lifting one skewer. Fine film grain, food tack sharp. No text, no logos.
