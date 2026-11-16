@@ -1,0 +1,114 @@
+Protein from the Book, Episode 1: The Viral Cottage Cheese Flatbread. The Edible Codex English PDF page 280.
+Owner, 2026-11-16: «جهز الحلقة» after the research report (reports/ريلز الطبخ الفيروسية لحسابك.md): a named series,
+practical value with a number for a named person, the account's flatbread family (the most saves and shares lately).
+AI stays (owner: AI reels outperform real ones on this account; «AI» comments 1% or less). Status: NOT generated.
+The owner generates on higgsfield.ai with his unlimited (720p, no credits).
+
+BOOK NOTE (for the owner): on page 280 this recipe has no number or title block of its own. Its ingredients (1 cup
+full-fat cottage cheese, 2 eggs, 1 tsp garlic powder, 1 tsp Italian seasoning, a pinch of salt and black pepper) are
+printed inside N° 130 Brown Sugar Shaken Espresso, and its method is printed as that recipe's steps 07-14. A layout
+error to fix in the next edition of the book.
+
+SETTINGS (higgsfield.ai):
+- Seedance 2.5, Omni reference, 20 s, 9:16, 720p, bitrate High, audio On.
+- His character element (char_ahmet-salameh 6f314b9e, as the croissant take).
+- @Image1 = the kitchen: https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/66c2248f-e130-4a3c-83df-1a715f172d69.jpg
+
+WHAT THIS EPISODE TESTS (the report's ranked changes 1-4; read first on sends per 1,000 reach, the bar is the sweet
+potato patties' 8.7)
+| From the report | In this reel |
+|---|---|
+| Sends decide reach to non-followers (Mosseri, Jan 2025); the account's only breakouts were sent | a reason to send: bread with about 37 g protein and no flour, for the one who "can't give up bread" (the caption's first line names that person) |
+| A named series brings follows (Logan Moffitt, Crowded Kitchen, The Golden Balance) | «بروتين من الكتاب · حلقة 1» on the first card; episode 2 named at the end of the caption |
+| The flatbread family: sweet potato flatbreads v4 7 shares, 20 saves (the best of the recent reels) | a flatbread again, from the book |
+| Trial Reels compare concepts | post as a trial reel; read at 24 h against the croissant trial |
+| Kept: the sound first, the hook rule, the gold and black cards, his face first and last, the payoff last, no oven glass | |
+
+RECIPE STEP -> SHOT (the book, word for word)
+09 preheat, parchment (not foil) -> 01 | 10 blend cottage cheese, eggs, spices 30 s -> 02-03 | 11 pour, spread a large even
+rectangle -> 04-05 | 12 bake 35-40 min until the edges are golden brown and firm -> 06-09 | 13 cool completely, peel,
+fill, roll like a wrap -> 09-12 | the cut, the bite, the loop -> 13-14
+May not match: "your favorite sandwich fillings" is open: grilled chicken breast (halal), lettuce, tomato, cucumber.
+The protein number is ours: 1 cup full-fat cottage cheese (about 25 g) + 2 eggs (about 12.6 g) = about 37 g for the
+whole flatbread, before the fillings (USDA values; the book gives no macros).
+
+PRE-GENERATION CHECK (generation-log checks 1-23)
+| Check | Result |
+|---|---|
+| 1, 13, 21 shapes and counts | one large flat rectangle as thin as a tortilla in the raw and baked shots; pizza, omelette, cake and crepe with holes in AVOID |
+| 3 the reveal | the cut halves show the golden bread spiralled around chicken, lettuce and tomato |
+| 5 the finished food | nothing baked before shot 08 |
+| 7 physics | the hot pan only with the black towel; peeled only after cooling (the book); the loop: his hand reaches for the pan |
+| 9 halal | cottage cheese halal-certified; halal chicken; no alcohol, no pork |
+| 10 the break | no melted cheese pull: the bread bends, cuts clean |
+| 14, 17 colours by objects | batter pale yellow like pancake batter with green herb flecks; baked edges golden brown like toasted cheese, the center pale gold, never dark brown |
+| 16 frame one | the pan CLANG with its sound, in his dark kitchen |
+| 19 one pan | the same black baking sheet in shots 01-10 |
+| 22, 23 new surface, new shape | after the oven the bread stays one flat golden sheet until it is rolled |
+| 6 the last second | after generation |
+
+===== PROMPT =====
+SCENE CONTEXT: A vertical 9:16 premium cooking action commercial, exactly 20 seconds, 14 shots, every shot already in motion and loud from the first frame to the last. One place only: the cook's kitchen exactly as in @Image1 (matte black cabinets with thin brass trim, a black marble counter with fine gold veins, a black range with brass knobs), falling to black. He turns cottage cheese and two eggs into a golden flatbread with no flour, bakes it on parchment, peels it whole, fills it and rolls it like a wrap.
+
+REFERENCE CONTROL: The cook is his character element: exactly his face (thick mustache, no beard), his sunglasses with solid black lenses worn the whole time, a thin gold chain, a plain white t-shirt, a black apron with brown leather straps and black nitrile gloves on both hands in every shot. His face and sunglasses are visible in shots 01, 03, 08 and 14, his whole head inside the frame, upright, beside the props and never behind them. @Image1 is the place, never a prop. He never speaks.
+
+RECIPE (every step once, in this order, nothing added):
+The Viral Cottage Cheese Flatbread
+— 1 cup Full-fat Cottage Cheese; 2 Eggs; 1 tsp Garlic powder; 1 tsp Italian seasoning; Pinch of Salt and Black pepper
+1 Preheat oven to 350°F (175°C). Line a baking sheet with parchment paper (do not use foil, or it will stick).
+2 Place the cottage cheese, eggs, and all spices into a blender or food processor.
+3 Blend on high for 30 seconds until the mixture is completely smooth and liquid.
+4 Pour the batter onto the parchment paper and use a spatula to spread it out into a large, even rectangle.
+5 Bake for 35-40 minutes until the edges are golden brown and the flatbread feels firm to the touch.
+6 Let it cool completely on the pan before carefully peeling it off the parchment paper. Load it up with your favorite sandwich fillings and roll it like a wrap!
+
+FOOD SHAPES AND COLOURS (the same in every shot, never change): Cottage cheese: white small curds. Batter: smooth, liquid, pale yellow like pancake batter, flecked with green herbs. Raw sheet: one large even rectangle as thin as a tortilla. Baked flatbread: the same rectangle, as thin as a tortilla, edges golden brown like toasted cheese, the center pale gold, speckled with herbs, firm and bendable, never puffed, never dark brown. Fillings: sliced grilled chicken breast, crisp green lettuce, red tomato slices, cucumber slices.
+
+PROCESS ORDER / NON-REPETITION LOCK: pan and parchment -> cottage cheese and eggs in the blender -> blended -> poured -> spread -> oven -> timer -> out, golden -> cooled, tapped -> peeled whole -> filled -> rolled -> cut -> bite. Every stage once, only forward; nothing baked before shot 08; never a shot through the oven glass.
+
+RETENTION: The payoff, the rolled wrap cut and pulled apart to show the golden bread spiralled around the fillings, appears only in shot 13. The surprise peak at the middle is shot 08: the pan out, the liquid turned into one golden flatbread. Every shot shows a visible change. The last frame matches the first frame's framing.
+
+SOUND, THE WHOLE VIDEO: loud real close-mic sound in every frame, no quiet second, a new sound on every cut. The first 3 seconds carry three hard hits: the black baking sheet slammed on the marble with a metal CLANG at 0.3 seconds, the loudest sound of the whole video; the two eggs cracked on the blender rim at 1.5 seconds; the blender motor roaring at 2.5 seconds. Then: the thick ribbon of batter, the spatula scraping, the oven door slam, a brass kitchen timer ticking fast and ringing, the hot pan slammed on the marble and the steam hiss, the knuckle tapping the firm bread, the parchment crackling as the bread peels away, the crunch of the lettuce, the knife chop. A 0.3-second near silence before the pull, then the lettuce crunch close to the microphone, then the bite. No music, no voice, no whooshes.
+
+HERO + ENERGY PRIORITY: a PUNCH at 0.0, 3.0, 6.0, 9.0, 12.0, 15.0 and 18.2 s, each a physical impact with its own loud sound and a short camera shake. Between them one smooth gimbal move per shot and a new action every second; no still or calm moment. Whole-body force, never presenting to the camera.
+
+SHOT 01 — 0.0-1.4s: PUNCH 1, the clang. Low at counter level, the lens 20 cm from the edge of the black marble: he slams a black baking sheet down toward the lens with a loud metal CLANG, then rips a sheet of white parchment off its roll and slaps it onto the pan; his face and sunglasses behind, upright; the oven light glows behind him. Camera shake.
+SHOT 02 — 1.4-2.2s: The crack. Close: he flips a tub of white cottage cheese into a glass blender jar with a thick plop and cracks two eggs one-handed on the rim.
+SHOT 03 — 2.2-3.0s: The roar. Medium, his face above: his palm slams the blender lid down, the motor roars, the curds, eggs, garlic powder and herbs whirl into a smooth pale yellow liquid.
+SHOT 04 — 3.0-4.2s: PUNCH 2, the pour. Low at pan level: a thick ribbon of pale yellow batter pours onto the parchment.
+SHOT 05 — 4.2-6.0s: The spread. True top-down, compressed time: an offset spatula spreads it into one large even rectangle as thin as a tortilla, scraping.
+SHOT 06 — 6.0-7.2s: PUNCH 3, the oven. Medium from the side: he slides the pan into the black oven and slams the door with his knee.
+SHOT 07 — 7.2-9.0s: The timer. Close on the marble: a brass kitchen timer ticks fast and rings loudly, rattling.
+SHOT 08 — 9.0-10.2s: PUNCH 4, out. Medium close, his face behind: he pulls the pan out with a black towel and slams it on the marble; steam rolls toward the lens; the liquid is now one golden flatbread, edges golden brown, speckled with herbs.
+SHOT 09 — 10.2-12.0s: Cooled. Low at pan level, compressed time: the steam fades; his gloved knuckle taps the bread twice, a firm tok.
+SHOT 10 — 12.0-13.2s: PUNCH 5, the peel. Close: he lifts one corner and peels the whole golden flatbread off the parchment in one long pull, the paper crackling, the bread coming away clean in one piece.
+SHOT 11 — 13.2-15.0s: Fillings. True top-down: he lays sliced grilled chicken breast, crisp lettuce, tomato and cucumber slices along one edge.
+SHOT 12 — 15.0-16.6s: PUNCH 6, the roll. Close: he rolls it tight like a wrap in two firm turns, the bread bending without a crack, then cuts it in half on the diagonal with one hard knife chop.
+SHOT 13 — 16.6-18.2s: The pull. Extreme macro right by the lens, slow motion: he pulls the two halves apart toward the lens, showing the golden bread spiralled around the chicken, lettuce and tomato; a 0.3-second near silence, then the lettuce crunch.
+SHOT 14 — 18.2-20.0s: PUNCH 7, the bite. Close on his face: he takes one big bite, a loud crunch, his mouth closed as he chews; then his gloved hand reaches for the black baking sheet on the counter, running into the first frame so the video loops. No cut to black.
+
+SPEED + TRANSITIONS: compressed time on the spread and the cooling; slow-motion accents on the pour, the steam and the pull; every other shot real time or fast. Clean hard cuts on the impact.
+
+SILENT PERFORMANCE LOCK: completely nonverbal. No voice, no talking, no lip movement; the mouth opens only for the bite.
+
+CONTINUITY + PHYSICS: one pan, one sheet of parchment, one flatbread; the hot pan only with the black towel; peeled only after cooling; after the oven the bread stays one flat golden sheet until it is rolled; one camera move per shot.
+
+LIGHTING: a hard warm tungsten key light (2700 K) from camera left plus the warm pool under the hood, the background falling to black, a warm rim on the steam, the batter and the golden bread, sharp focus on his hands and the food.
+
+AVOID: pizza, omelette, cake, crepe with holes, a puffed or cracked flatbread, dark brown or burnt bread, foil, flour, bread loaves, a shot through the oven glass, a wide shot of him walking, a still shot where nothing changes, sunglasses off, bare hands, other people, labels, logos, text on the tub, pork, alcohol, talking, cut to black, text, extra fingers, deformed hands, distorted face.
+
+===== EDIT (after the take is read frame by frame) =====
+- About 12.5 s; the opening about 1.4 s; nothing after his bite but the loop frames; post as a trial reel.
+- Sound (THE SOUND FIRST): the clang the loudest (+8 dB after the compressors), the egg crack and the blender roar the
+  next two; 0-3 s at least +4 dB over the median with no window under it; the crunch second loudest after its dip.
+- Cards (THE CARD STYLE; THE HOOK RULE, the answer only at the end):
+  - 0-2.75 s (the series and the number on the first frame): the title pill «بروتين من الكتاب · حلقة 1», then
+    «في غلطة وحدة» / «بتخرّبلك خبز الـ37 غ بروتين» / "Ep 1 · One mistake ruins this ~37 g protein bread";
+  - on the pan out: «بلا ولا حبة طحين» / «كوتج تشيز وبيضتين بس» / "No flour. Just cottage cheese and 2 eggs" (the
+    surprise, not the answer);
+  - on the knuckle tap: «عرفت شو هي؟» / "Spotted it yet?";
+  - the answer over his bite: «الغلطة: تقشّره سخن» / «خليه يبرد كلياً» / "The mistake: peeling it hot. Let it cool
+    completely." (the book's step).
+- Caption: the first line names the one to send it to: «ابعتها للي بيقلك ما بقدر أترك الخبز» / "Send this to the
+  one who says they can't give up bread"; keyword «بروتين» / PROTEIN for the whole series; episode 2 named at the end.
+- Read at 24 h: sends per 1,000 reach first (bar: 8.7), then follows and profile visits per 1,000, then skip and the end.
