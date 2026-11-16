@@ -86,6 +86,12 @@ already had it: «الغلطة اللي بتخرّب الكرنكل»):
 - The answer only at the end, over his bite after the payoff: «الغلطة: [the mistake]» / «[the fix]».
 - The formula repeats on every reel by the owner's call; the rotation rule in hook-log.md does not apply to it.
 - The caption's title line follows the same rule (no answer in the title).
+- The test is the question left open, not the wording (owner, 2026-11-16: «بالكرنكل كان مكتوب الربطة بين الطبقات هي
+  الغلطة والمشاهد كان يستنى وين الطبقات»). The crinkle named its mistake over a shape that showed no layers and no butter,
+  so the viewer waited to see where the butter goes; the pour answered it at the end. The croissant named «المنفوخ»
+  while the rolling pin flattened it at 0.2 s, so the question closed at once. Before every render: after the hook
+  and the first 3 s, what is the viewer still waiting to see? If the picture answers it before the last 3 s, rewrite
+  the hook or the cut.
 
 ## THE CARD STYLE (owner's call, 2026-11-16: «ليش ما تعمل الكلام effects animation باحترافية وغير الستايل الأبيض مش حلو»)
 The flat white text with a black stroke is retired. Every card is an animated sticker in the brand's gold and black,
