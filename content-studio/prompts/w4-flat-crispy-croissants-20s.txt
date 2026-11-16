@@ -1,0 +1,105 @@
+Flat Crispy Croissants (Candied Croissants), N° 103, The Edible Codex English PDF page 252. Cookcut 20 s with the
+crinkle's story. Owner, 2026-11-16: «اكتب البرومبت هلق» after «عندك مهارات تطلع فيديو محترف مليوني».
+Status: NOT generated. The owner generates on higgsfield.ai with his unlimited (720p, no credits).
+
+SETTINGS (higgsfield.ai):
+- Seedance 2.5, Omni reference, 20 s, 9:16, 720p, bitrate High, audio On.
+- Chef-Ahmad element on (his face).
+- @Image1 = the kitchen: https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/66c2248f-e130-4a3c-83df-1a715f172d69.jpg
+
+EVERYTHING MEASURED, IN ONE REEL (not one change at a time; owner, 2026-11-16)
+| Measured on this account | In this reel |
+|---|---|
+| Crinkle Cake: 56% to the end, about 500K views, 2.8 shares per 1K: a «… هو الغلطة» hook, the proof in the middle, the payoff only at the end | the hook names the mistake (a puffy croissant); the proof is the knock on the candy shell; the payoff is the snap |
+| Shawarma v1: a blade falling toward the lens with his face behind it, 94% at 1 s, held 1.4 s | the rolling pin slams down toward the lens, his face behind, 1.4 s |
+| Skewers A: -40 points at 1-3 s on the raw bowl and the raw spread; -16.5 on the bake through the oven glass | no ingredient bowl or pile in 0-3 s (the croissants are bought baked); no oven, no shot through glass |
+| Skewers A: the action shots with his hands or face held (-5 over 2 s, -7.5 over 6 s) | every shot is his hands or face in a forceful action |
+| Ends near 40% or more: 7.6-12.8 s, the payoff last, nothing after | edit about 12.5 s; the snap and his bite are the last 3 s |
+
+RECIPE STEP -> SHOT (the book, word for word)
+01 preheat the skillet -> 01 (the skillet heating on a low flame behind him) | 02 flatten with a rolling pin -> 01-03
+03 mix butter and honey, brush both sides -> 04 | 04 skillet, parchment, heavy pot -> 05-06 | 05 2-3 min a side -> 07-09
+06 cool, hardens like a candy shell, dip half in melted chocolate -> 10-12 | the snap, the bite, the loop -> 13-14
+May not match: the book lists "Sugar (for dusting)" with no step of its own: shown as a sprinkle in shot 04, after the
+brushing. "Honey or Maple syrup": honey. "Powdered sugar or Melted chocolate": melted chocolate (step 06).
+"Heavy pot or bacon press": a heavy pot; bacon is named only in AVOID.
+
+PRE-GENERATION CHECK (generation-log checks 1-23)
+| Check | Result |
+|---|---|
+| 1, 13, 21 shapes and counts | exactly 2 croissants; flattened: a flat crescent about 20 cm long, as thin as a cracker, its spiral layer lines pressed flat, the same thickness raw-flat and caramelized; tortilla, crepe, pizza and naan in AVOID |
+| 3 the reveal | the snapped edge shows thin glassy caramelized layers; the chocolate half glossy |
+| 5 the finished food | nothing caramelized before shot 07 |
+| 7 physics | the hot skillet and the pot only by their handles or with the black towel; the loop: his hand reaches for the rolling pin beside a whole croissant |
+| 8 actions per second | at most 2 per shot |
+| 9 halal | butter croissants (no lard); honey; chocolate with no alcohol; no bacon, no pork, no wine |
+| 10 the break | no melted cheese in the recipe: the shell snaps clean, "no strings, no stretch" |
+| 14, 17 colours by objects | baked croissant golden brown like a bakery croissant; caramelized deep amber like peanut brittle, glassy, never black, never orange |
+| 16 frame one | the rolling pin strike with its sound, in his dark kitchen |
+| 19 one skillet | the same black cast-iron skillet in shots 01 and 05-09 |
+| 20 face and props | his face upright beside the rolling pin, never behind it |
+| 22, 23 new surface, new shape | on the board the croissants stay flat and amber in every shot; never puffed back up |
+| 6 the last second | after generation |
+
+===== PROMPT =====
+SCENE CONTEXT: A vertical 9:16 premium cooking action commercial, exactly 20 seconds, 14 shots, every shot already in motion and loud from the first frame to the last. One place only: the cook's kitchen exactly as in @Image1 (matte black cabinets with thin brass trim, a black marble counter with fine gold veins, a black range with brass knobs), falling to black. He turns two puffy butter croissants into flat, glassy, caramelized candy shells: smashed flat with a rolling pin, brushed with honey butter, pressed in a black cast-iron skillet under a heavy pot, then snapped.
+
+REFERENCE CONTROL: The cook is the Chef-Ahmad element: exactly his face (thick mustache, no beard), his aviators with solid black lenses worn the whole time, a thin gold chain, a plain white t-shirt, a black apron with brown leather straps and black nitrile gloves on both hands in every shot. His face and sunglasses are visible in shots 01, 03, 07, 08, 11 and 14, his whole head inside the frame, upright, beside the props and never behind them. @Image1 is the place, never a prop. He never speaks.
+
+RECIPE (every step once, in this order, nothing added):
+Flat Crispy Croissants (Candied Croissants)
+— 2 Butter Croissants (day-old works best); 2 tbsp Butter (melted); 3 tbsp Honey; Sugar (for dusting); Melted chocolate (for dipping)
+01 Preheat a skillet over medium-low heat.
+02 Use a rolling pin to flatten the croissants completely until they are thin like a pancake.
+03 Mix the melted butter and honey together. Brush this mixture generously on both sides of the flattened croissants.
+04 Place the croissants in the skillet. Place a piece of parchment paper on top, and press down hard with a heavy pot.
+05 Cook for 2-3 minutes per side until they are incredibly crispy and deeply caramelized.
+06 Let cool (they will harden like a candy shell) and dip half in melted chocolate.
+
+FOOD SHAPES AND COLOURS (the same in every shot, never change): Croissants: exactly 2 puffy butter croissants, golden brown like a bakery croissant, flaky. Flattened: each a flat crescent about 20 cm long, as thin as a cracker, its spiral layer lines pressed flat, pale golden. Brushed: glossy with honey butter and a sprinkle of sugar. Caramelized: deep amber like peanut brittle, glassy and shiny, the layer lines dark gold, never black, never orange, still as thin as a cracker. Chocolate: smooth glossy melted dark chocolate.
+
+PROCESS ORDER / NON-REPETITION LOCK: puffy -> smashed flat -> rolled thin -> brushed both sides -> sugar -> skillet -> parchment and heavy pot -> pressed -> flipped -> caramelized -> on the board, hardened -> knocked -> dipped -> snapped -> bite. Every stage once, only forward; nothing caramelized before shot 07; after shot 01 the croissants never puff back up.
+
+RETENTION: The payoff, the candy shell snapping in half with a glassy crack, appears only in shot 13. Every shot shows a visible change. The surprise peak at the middle is shot 08: the pot lifted in a burst of steam and the flip showing the deep amber glass underneath. No ingredient bowls or piles in the first 3 seconds. The last frame matches the first frame's framing.
+
+HERO + ENERGY PRIORITY: a PUNCH lands every 3 seconds, at 0.0, 3.0, 6.0, 9.0, 12.0, 15.0 and 18.2 s: each a violent physical impact with its own loud sound and a short camera shake, each bigger and louder than the one before. Between the punches, one smooth gimbal move per shot and a new action every second; no still, calm or empty moment. Whole-body force behind every move, never presenting to the camera.
+
+SHOT 01 — 0.0-1.4s: PUNCH 1, the smash. Low at board level, the lens 20 cm from a black board on the marble: the two puffy croissants side by side; a heavy wooden rolling pin in his gloved hands slams down across both toward the lens, flakes bursting at the lens; behind him the black cast-iron skillet heats on a low blue flame. Camera shake; the camera rises past the rolling pin to his face and sunglasses as he slams it again.
+SHOT 02 — 1.4-2.2s: Rolled thin. True 90-degree top-down, locked: the rolling pin rolls hard over both croissants, flakes crackling, until they are flat crescents as thin as a cracker.
+SHOT 03 — 2.2-3.0s: The shape. Medium, his face and sunglasses beside it: he lifts one flattened croissant toward the lens, so thin the warm light glows through its layers.
+SHOT 04 — 3.0-4.2s: PUNCH 2, honey butter. Close: honey streams into the melted butter in a small steel bowl, the brush stirs once and slaps it across the flat croissant with a wet slap, he flips it with a slap and brushes the other side; a sprinkle of sugar falls.
+SHOT 05 — 4.2-6.0s: The skillet. Low at the skillet surface: both glossy flat croissants drop into the hot black cast-iron skillet with a violent sizzle, butter foaming at the edges.
+SHOT 06 — 6.0-7.2s: PUNCH 3, the pot. Side view at the skillet: a sheet of white parchment laid on top, then he slams a heavy black cast-iron pot down on it; a hard metal slam, the sizzle doubles, steam jets from under the edges. Camera shake.
+SHOT 07 — 7.2-9.0s: The press. Medium, his face and sunglasses above the pot: he leans his whole weight on the pot handle; compressed time, amber caramel bubbles out at the edges of the parchment.
+SHOT 08 — 9.0-10.2s: PUNCH 4, the flip. Medium close: he lifts the pot and the parchment away in a burst of steam past his face, and a spatula flips one croissant with a clack: the underside deep amber and glassy. Camera shake.
+SHOT 09 — 10.2-12.0s: Caramel. Low at the skillet surface, compressed time: the second side caramelizes, honey bubbling and crackling, the edges turning glassy amber.
+SHOT 10 — 12.0-13.2s: PUNCH 5, out. Close: he flips both caramelized croissants out onto the black board with a hard glassy clack; still flat, deep amber, shining. Camera shake.
+SHOT 11 — 13.2-15.0s: Hard as candy. Medium, his face and sunglasses above the board: his gloved knuckle knocks twice on the amber shell, a hollow hard tok tok like candy.
+SHOT 12 — 15.0-16.6s: PUNCH 6, the dip. Close: he plunges half of one candied croissant into a small steel bowl of melted dark chocolate and pulls it out glossy, the chocolate dripping.
+SHOT 13 — 16.6-18.2s: The snap. Extreme macro right by the lens, slow motion: his gloved hands snap the candied croissant in half; a 0.3-second beat of near silence, then the loudest glassy crack of the video; amber shards fly toward the lens; the broken edge shows thin glassy caramelized layers, the chocolate half glossy. It breaks clean: no strings, no stretch.
+SHOT 14 — 18.2-20.0s: PUNCH 7, the bite. Close on his face: he bites the chocolate half, a loud crunch, his mouth closed as he chews; then his gloved hand reaches for the rolling pin beside a whole puffy croissant on the board, running into the first frame so the video loops. No cut to black.
+
+SPEED + TRANSITIONS: compressed time on the press and the caramel; slow-motion accents on the flakes, the steam and the snap; every other shot real time or fast. Matches: the rolling pin slam into the pot slam; the flip clack into the board clack; the dip into the snap. Clean hard cuts, cut on the impact.
+
+SILENT PERFORMANCE LOCK: completely nonverbal. No voice, no talking, no lip movement; the mouth opens only for the bite.
+
+CONTINUITY + PHYSICS: two croissants, one board, one skillet, one heavy pot, one chocolate bowl; the hot skillet and the pot only by their handles; after the skillet the croissants stay flat, thin and amber in every shot; one camera move per shot.
+
+LIGHTING: a hard warm tungsten key light (2700 K) from camera left plus the warm pool under the hood, the background falling to black, a warm rim on the flakes, the steam and the caramel, sharp focus on his hands and the food.
+
+AUDIO: the sound carries the whole video: only real close-mic sound from what is on screen, loud in every frame with no quiet second, each punch louder than the one before: the rolling pin slam and the flakes crushing, the crackle of the rolling, the honey and the brush slaps, the violent sizzle in the skillet, the metal slam of the pot, the steam hiss, the caramel bubbling, the flip clack, the glassy clack on the board, the hollow knock, the chocolate plunge, then a 0.3-second beat of near silence, then the loudest sound of the video: the glassy crack of the shell snapping right at the microphone, then the crunch of the bite. No music, no voice, no whooshes.
+
+AVOID: tortilla, crepe, pancake batter, pizza, naan, puffy croissants after shot 01, black burnt caramel, orange colour, an oven, glass oven doors, ingredient bowls in the first 3 seconds, a wide shot of him walking, a still shot where nothing changes, sunglasses off, bare hands, other people, bacon, pork, wine, alcohol, labels, talking, cut to black, logos, text, extra fingers, deformed hands, distorted face.
+
+===== EDIT (after the take is read frame by frame; the retention engine) =====
+- Length about 12.5 s; the opening held 1.4 s; nothing after his bite.
+- The crinkle's four card beats, small, centred (checked against hook-log.md before the render):
+  - 0-2.75 s, title + hook: «كرواسون مقرمش» / "Crispy croissants" above «الكرواسون المنفوخ هو الغلطة» / "A puffy croissant is the mistake" (X is the mistake, the crinkle's formula);
+  - on the pot slam: «تحت طنجرة تقيلة بيصير كراميل» / "Under a heavy pot it turns to caramel" (the right way);
+  - on the knock: «صار قاسي متل السكاكر» / "Now it's hard like candy" (the proof);
+  - over his bite: «شوكولا ولا سكر بودرة؟» / "Chocolate or powdered sugar?" (the closing question, as the crinkle);
+  - the keyword «كرواسون» / CROISSANT goes in the caption and the pinned comment (the crinkle way).
+- Picture: ramps into each impact, a punch-in with a 2-frame shake on each, J-cuts where the take shot allows.
+- Sound: a -9 dB dip for 0.25 s before the snap, the snap +6 dB after the compressors and the loudest, the last 3 s
+  +2 dB, -14.5 LUFS, -1.5 dBTP.
+- Checks: pp.py DEAD 0, SLOW 0, LONG 0, QUIET 0; every card inside x 230-850; the 390 px phone check.
