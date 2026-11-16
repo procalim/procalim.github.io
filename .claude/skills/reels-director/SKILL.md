@@ -95,6 +95,8 @@ Watched to the end, on this account (first reads):
 | Tuna egg v4 | 7.8 s | 32% | the yolk cut |
 | Shawarma v1 | 15.75 s | 26% | the cut, his bite |
 | Shawarma v2 | 14.5 s | 17% | the cut, his bite |
+| Tortilla skewers A (trial) | 12.0 s | 17% | the tear, his bite (86 / 65 / 46% at 1-3 s; -16.5 on the oven-glass bake) |
+| Tortilla skewers B (regular, 10 reached) | 12.0 s | 12% | the tear, his bite |
 | Tuna egg trial (raw steps after the yolk) | 8.25 s | 13% | raw ingredients |
 - Never anything after the payoff (the tuna trial: -15 points in the second the raw steps began).
 - Raw food never fills the frame for more than about 0.6 s at a time (the first steep fall in every reel sits there).
