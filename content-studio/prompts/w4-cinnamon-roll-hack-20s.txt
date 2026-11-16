@@ -1,0 +1,105 @@
+The Viral Cinnamon Roll Hack, N° 062, The Edible Codex English PDF page 209. Cookcut 20 s, sound first, the crinkle's
+story. Owner, 2026-11-16: «جهزلي برومبت الريل الجاي ركز في المطالبة على الصوت في جميع أنحاء الفيديو ... بحاجة لنخلي
+الأشخاص يضلو للآخر ... السكيب والإكمال بنفس الارقام ... وحط وصفة سينمون روول». Status: NOT generated.
+The owner generates on higgsfield.ai with his unlimited (720p, no credits).
+
+SETTINGS (higgsfield.ai):
+- Seedance 2.5, Omni reference, 20 s, 9:16, 720p, bitrate High, audio On.
+- His character element (the croissant take used char_ahmet-salameh 6f314b9e: solid black lenses in every face shot).
+- @Image1 = the kitchen: https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/66c2248f-e130-4a3c-83df-1a715f172d69.jpg
+
+THE PASS MARK (skip 20-35%, 40% or more to the end): what each part of this reel answers to
+| Measured | In this reel |
+|---|---|
+| Crinkle Cake 56% to the end: its three loudest moments all in 0-3 s (0.25, 1.5, 2.5 s); the shawarma and the skewers opened under their median and ended at 26% and 17% | three hits in 0-3 s: the dough can POP at 0.3 s (the loudest sound of the video), the paper label ripped at 1.5 s, the dish slammed at 2.5 s |
+| Shawarma v1: a strike toward the lens with his face, 94% at 1 s | the can whacked on the counter edge toward the lens, his face behind |
+| Skewers A: -40 points on raw piles at 1-3 s, -16.5 on the oven glass | no ingredient bowl in 0-3 s; never a shot through the oven glass |
+| Skewers A: hands or face in action held (-5 over 2 s, -7.5 over 6 s) | every shot is a forceful action with its own sound |
+| Crinkle: the counterintuitive step named, proved, paid off last | the book's secret: cream poured between the rolls; the proof: the puffed rolls under the foil; the payoff: the gooey pull, last |
+
+RECIPE STEP -> SHOT (the book, word for word)
+01 preheat -> 01 (the oven light glowing behind him) | 02 raw rolls in a baking dish -> 01-03 (the can opened as the
+step's prep) | 03 the secret: cream into the gaps -> 04 | 04 butter, brown sugar, cinnamon, spooned over -> 05
+05 foil, bake 25-30 min -> 06-07 | 06 foil off, 5 more min -> 08-09 | 07 icing while hot -> 10 | the chef's note
+(massive, pillowy, gooey), the pull, the bite, the loop -> 11-13
+May not match: the book names no count: a can of 5 large rolls. Brand names (the book's e.g. Pillsbury, Cinnabon)
+are kept off the screen: a plain gold can with no text.
+
+PRE-GENERATION CHECK (generation-log checks 1-23)
+| Check | Result |
+|---|---|
+| 1, 13, 21 shapes and counts | exactly 5 round spiral rolls; raw: flat-topped spirals of pale dough with brown cinnamon lines; baked: twice the size, touching, filling the dish; croissants, buns, bread loaves, donuts in AVOID |
+| 3 the reveal | the pulled-apart center shows soft layers, the cinnamon swirl and the cream caramel sauce dripping |
+| 5 the finished food | nothing baked before shot 08 |
+| 7 physics | the hot dish only with the black towel; the can opened on the counter edge; the loop: his hand reaches for a new can |
+| 8 actions per second | at most 2 per shot |
+| 9 halal | cinnamon rolls halal-certified (written in the DM); heavy cream; no alcohol, no pork, no gelatin |
+| 14, 17 colours by objects | raw dough pale cream like pizza dough; baked tops golden brown like brioche crust, never dark brown; sauce glossy amber like caramel; icing thick and white like cream cheese frosting |
+| 16 frame one | the can POP with its sound, in his dark kitchen |
+| 19 one dish | the same white ceramic baking dish in shots 03-13 |
+| 20 face and props | his face upright beside the can, never behind it |
+| 22, 23 new surface, new shape | after the oven the rolls stay puffed and golden in every shot |
+| 6 the last second | after generation |
+
+===== PROMPT =====
+SCENE CONTEXT: A vertical 9:16 premium cooking action commercial, exactly 20 seconds, 13 shots, every shot already in motion and loud from the first frame to the last. One place only: the cook's kitchen exactly as in @Image1 (matte black cabinets with thin brass trim, a black marble counter with fine gold veins, a black range with brass knobs), falling to black. He turns a can of raw cinnamon rolls into massive, pillowy, gooey bakery rolls: heavy cream poured between them, butter, brown sugar and cinnamon on top, baked under foil, then iced and pulled apart.
+
+REFERENCE CONTROL: The cook is his character element: exactly his face (thick mustache, no beard), his sunglasses with solid black lenses worn the whole time, a thin gold chain, a plain white t-shirt, a black apron with brown leather straps and black nitrile gloves on both hands in every shot. His face and sunglasses are visible in shots 01, 03, 08 and 13, his whole head inside the frame, upright, beside the props and never behind them. @Image1 is the place, never a prop. He never speaks.
+
+RECIPE (every step once, in this order, nothing added):
+The Viral Cinnamon Roll Hack
+— 1 can Cinnamon Rolls; ½ cup Heavy Cream; ½ cup Brown sugar; 1 tbsp Cinnamon; ¼ cup Butter (melted); the included icing packet
+01 Preheat oven to 350°F (175°C).
+02 Place raw cinnamon rolls in a baking dish.
+03 The Secret: Pour heavy cream into the gaps between rolls (fill the bottom, not the tops).
+04 Mix melted butter, brown sugar, and cinnamon. Spoon over each roll.
+05 Cover with foil and bake 25-30 minutes.
+06 Remove foil and bake 5 more minutes.
+07 Spread included icing on top while hot.
+
+FOOD SHAPES AND COLOURS (the same in every shot, never change): Can: one plain gold cardboard dough can with no text. Raw rolls: exactly 5 round flat-topped spirals of pale cream dough like pizza dough, thin brown cinnamon lines in the swirl, each as wide as a palm. Cream: pure white heavy cream. Topping: a glossy dark brown paste of melted butter, brown sugar and cinnamon. Baked rolls: the same 5 rolls twice as tall, pillowy, pressed together and filling the dish, tops golden brown like brioche crust, never dark brown, sitting in bubbling glossy amber caramel cream. Icing: thick white like cream cheese frosting, melting into the swirls.
+
+PROCESS ORDER / NON-REPETITION LOCK: can popped -> label ripped -> rolls into the dish -> cream into the gaps -> topping spooned -> foil -> oven -> foil off, puffed -> 5 more minutes -> icing -> pull apart -> bite. Every stage once, only forward; nothing baked before shot 08; never a shot through the oven glass.
+
+RETENTION: The payoff, the center roll pulled apart with soft layers stretching and caramel cream dripping, appears only in shot 12. The surprise peak at the middle is shot 08: the foil ripped off in a burst of steam and the rolls twice their size. Every shot shows a visible change. The last frame matches the first frame's framing.
+
+SOUND, THE WHOLE VIDEO: loud real close-mic sound in every frame, no quiet second, a new sound on every cut. The first 3 seconds carry three hard hits: the dough can POP at 0.3 seconds, the loudest sound of the whole video; the paper label ripped at 1.5 seconds; the baking dish slammed on the marble at 2.5 seconds. Then: the thick glug of the cream, the spoon scraping the paste, the wet plops, the long rip of the foil off its roll and the crunch as it is crimped, the oven door slam, the second foil rip and the steam hiss, the caramel bubbling and popping, the dish clack on the board, the spatula scraping icing, the sticky stretch of the dough. A 0.3-second near silence before the pull, then the soft tearing stretch close to the microphone, then the bite. No music, no voice, no whooshes.
+
+HERO + ENERGY PRIORITY: a PUNCH at 0.0, 3.0, 6.0, 9.0, 12.0 and 18.2 s, each a physical impact with its own loud sound and a short camera shake. Between them one smooth gimbal move per shot and a new action every second; no still or calm moment. Whole-body force, never presenting to the camera.
+
+SHOT 01 — 0.0-1.4s: PUNCH 1, the pop. Low at counter level, the lens 20 cm from the edge of the black marble: his gloved hand whacks the gold dough can on the counter edge toward the lens; the can bursts open with a loud POP, the dough bulging out; his face and sunglasses behind, upright; the oven light glows behind him. Camera shake.
+SHOT 02 — 1.4-2.2s: The rip. Close: his gloved hands rip the paper label off in one long spiral and twist the can apart; the raw rolls slide out.
+SHOT 03 — 2.2-3.0s: The dish. Medium, his face above: he slams a white ceramic baking dish down on the marble and drops the 5 raw rolls in with soft thuds.
+SHOT 04 — 3.0-4.2s: PUNCH 2, the secret. Low at the rim of the dish: a thick stream of white heavy cream pours into the gaps between the rolls, filling the bottom of the dish, never over the tops.
+SHOT 05 — 4.2-6.0s: Topping. Close: a spoon stirs melted butter, brown sugar and cinnamon into a glossy paste and spoons it over each roll with wet plops.
+SHOT 06 — 6.0-7.2s: PUNCH 3, the foil. Close: he rips a sheet of foil off its roll with a loud tear and crimps it tight over the dish, the foil crunching.
+SHOT 07 — 7.2-9.0s: The oven. Medium from the side: he slides the dish into the black oven and slams the door with his knee; the oven light flares on his gloves.
+SHOT 08 — 9.0-10.2s: PUNCH 4, the reveal. Medium close, his face behind the dish: he sets the hot dish down with a black towel and rips the foil off; a burst of steam rolls toward the lens; the rolls are twice their size, pillowy, in bubbling caramel cream.
+SHOT 09 — 10.2-12.0s: Bubbling. Low at the rim, compressed time: the tops turn golden brown like brioche, the amber caramel cream bubbling and popping between the rolls.
+SHOT 10 — 12.0-13.2s: PUNCH 5, the icing. Close: an offset spatula slaps thick white icing on the hot rolls and spreads it; it melts into the swirls.
+SHOT 11 — 13.2-16.6s: The lift. Close: a spatula lifts the center roll out of the dish, the caramel cream dripping in long glossy strings; he turns it toward the lens to show how tall and soft it is.
+SHOT 12 — 16.6-18.2s: The pull. Extreme macro right by the lens, slow motion: his gloved fingers pull the center roll apart; the soft layers stretch, the cinnamon swirl opens, the caramel cream and icing drip; a 0.3-second near silence, then the sticky tearing stretch close to the microphone.
+SHOT 13 — 18.2-20.0s: PUNCH 6, the bite. Close on his face: he bites the gooey roll, his mouth closed as he chews; then his gloved hand reaches for a new gold can on the counter edge, running into the first frame so the video loops. No cut to black.
+
+SPEED + TRANSITIONS: compressed time on the topping and the bubbling; slow-motion accents on the pop, the steam and the pull; every other shot real time or fast. Clean hard cuts on the impact.
+
+SILENT PERFORMANCE LOCK: completely nonverbal. No voice, no talking, no lip movement; the mouth opens only for the bite.
+
+CONTINUITY + PHYSICS: one can, one dish, 5 rolls; the hot dish only with the black towel; after the oven the rolls stay puffed and golden in every shot; one camera move per shot.
+
+LIGHTING: a hard warm tungsten key light (2700 K) from camera left plus the warm pool under the hood, the background falling to black, a warm rim on the steam, the caramel and the icing, sharp focus on his hands and the food.
+
+AVOID: croissants, buns, bread loaves, donuts, a cake, more or fewer than 5 rolls, raw dough after the oven, dark brown or burnt tops, cream poured over the tops, a shot through the oven glass, ingredient bowls in the first 3 seconds, a wide shot of him walking, a still shot where nothing changes, sunglasses off, bare hands, other people, logos, brand names, text on the can, pork, alcohol, talking, cut to black, text, extra fingers, deformed hands, distorted face.
+
+===== EDIT (after the take is read frame by frame) =====
+- Length about 12.5 s; the opening held about 1.4 s; nothing after his bite but the loop frames.
+- Sound (THE SOUND FIRST): the pop the loudest moment (+8 dB after the compressors), the label rip and the dish slam
+  lifted to the next two; 0-3 s at least +4 dB over the median with no window under it; the pull second loudest after
+  its dip; checked with the 0.25 s profile against the crinkle.
+- Cards (THE CARD STYLE, animated gold and black), the crinkle's beats (checked against hook-log.md):
+  - 0-2.75 s: «ليش رولات البيت» / «ما بتطلع متل المحلات؟» / "Why don't home cinnamon rolls taste like the bakery's?"
+    (#16 Verbatim Question; the last three reels used X is the mistake, Superlative and the Habibi line);
+  - on the cream: «القشطة بين الرولات» / «مش فوقها» / "Cream between the rolls, not on top" (the right way, the book's step 03);
+  - on the foil reveal: «شوف قديش» / «انتفخت» / "Look how they puffed up" (the proof, the chef's note);
+  - over his bite: «سخنة» / «ولا باردة؟» / "Hot or cold?" (the closing question); the keyword in the caption and pinned.
+- Checks: pp.py DEAD 0, SLOW 0, LONG 0, QUIET 0; cards inside x 240-840; the phone check.
