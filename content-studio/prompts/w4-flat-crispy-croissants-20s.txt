@@ -89,7 +89,7 @@ LIGHTING: a hard warm tungsten key light (2700 K) from camera left plus the warm
 
 AUDIO: the sound carries the whole video: only real close-mic sound from what is on screen, loud in every frame with no quiet second, each punch louder than the one before: the rolling pin slam and the flakes crushing, the crackle of the rolling, the honey and the brush slaps, the violent sizzle in the skillet, the metal slam of the pot, the steam hiss, the caramel bubbling, the flip clack, the glassy clack on the board, the hollow knock, the chocolate plunge, then a 0.3-second beat of near silence, then the loudest sound of the video: the glassy crack of the shell snapping right at the microphone, then the crunch of the bite. No music, no voice, no whooshes.
 
-AVOID: tortilla, crepe, pancake batter, pizza, naan, puffy croissants after shot 01, black burnt caramel, orange colour, an oven, glass oven doors, ingredient bowls in the first 3 seconds, a wide shot of him walking, a still shot where nothing changes, sunglasses off, bare hands, other people, bacon, pork, wine, alcohol, labels, talking, cut to black, logos, text, extra fingers, deformed hands, distorted face.
+AVOID: tortilla, crepe, pancake batter, pizza, naan, puffy croissants in shots 02-13, black burnt caramel, orange colour, an oven, glass oven doors, ingredient bowls in the first 3 seconds, a wide shot of him walking, a still shot where nothing changes, sunglasses off, bare hands, other people, bacon, pork, wine, alcohol, labels, talking, cut to black, logos, text, extra fingers, deformed hands, distorted face.
 
 ===== EDIT (after the take is read frame by frame; the retention engine) =====
 - Length about 12.5 s; the opening held 1.4 s; nothing after his bite.
