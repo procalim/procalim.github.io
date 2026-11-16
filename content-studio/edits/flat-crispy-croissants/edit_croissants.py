@@ -97,9 +97,11 @@ I, P = meas('mix.wav'); g0 = -17.5 - I
 run(['ffmpeg', '-v', 'error', '-y', '-i', 'mix.wav', '-af', f'volume={g0:.2f}dB,alimiter=limit=0.80:attack=2:release=60:level=disabled', 'mix2.wav'])
 I2, P2 = meas('mix2.wav'); g = -17.5 - I2   # mono at -17.5 = stereo -14.5
 T = L['the snap'][0] + 3 / FPS   # the crack
-SHAPE = (f"volume=2dB:enable='between(t,{TOTAL - 3:.3f},{TOTAL:.3f})',"     # the last 3 s above the rest
-         f"volume=-9dB:enable='between(t,{T - 0.25:.3f},{T - 0.01:.3f})',"     # the dip before the payoff
-         f"volume=6dB:enable='between(t,{T:.3f},{T + 0.5:.3f})',")            # the tear: the loudest
+S0 = 4 / FPS   # the first rolling-pin strike (f5 at 1.3x)
+SHAPE = (f"volume=8dB:enable='between(t,{S0 - 0.04:.3f},{S0 + 0.4:.3f})',"    # the crinkle's measured sound: the loudest
+         # moment of the reel in the first 0.3 s (owner, 2026-11-16: «الكرينكل نجح من الصوت مش من الهووك»)
+         f"volume=-9dB:enable='between(t,{T - 0.25:.3f},{T - 0.01:.3f})',"     # the dip before the snap
+         f"volume=4dB:enable='between(t,{T:.3f},{T + 0.5:.3f})',")            # the snap: second only to the opening
 LIM = 'aresample=192000,alimiter=limit=0.83:attack=5:release=50:level=disabled,aresample=48000'   # -1.5 dBTP
 CARDS = [('hook', 0.0, 2.75),                                   # the mistake
          ('right', L['the pot'][0], L['the flip'][0]),            # the right way
@@ -115,7 +117,7 @@ ins += ['-i', 'mix2.wav']
 run(['ffmpeg', '-v', 'error', '-y', *ins, '-filter_complex', ';'.join(fc), '-map', '[v]', '-map', '[ao]',
      '-frames:v', str(round(TOTAL * FPS)), '-c:v', 'libx264', '-preset', 'slow', '-crf', '16', '-profile:v', 'high',
      '-pix_fmt', 'yuv420p', '-color_primaries', 'bt709', '-color_trc', 'bt709', '-colorspace', 'bt709', '-color_range', 'tv',
-     '-r', str(FPS), '-c:a', 'aac', '-b:a', '256k', '-movflags', '+faststart', 'flat-crispy-croissants.mp4'])
+     '-r', str(FPS), '-c:a', 'aac', '-b:a', '256k', '-movflags', '+faststart', 'flat-crispy-croissants-v2.mp4'])
 for s, e, lab in labels: print(f'{s:6.2f}-{e:6.2f}  {lab}')
 print('cards', [(c, round(s, 2), round(e, 2)) for c, s, e in CARDS])
-print('total', round(TOTAL, 3), 'mix', I, P, 'final', meas('flat-crispy-croissants.mp4'))
+print('total', round(TOTAL, 3), 'mix', I, P, 'final', meas('flat-crispy-croissants-v2.mp4'))

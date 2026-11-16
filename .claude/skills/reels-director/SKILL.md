@@ -77,6 +77,12 @@ Owner: «ضيفتلك بعض مهارات جديدة للبرومبت والتأ
 - promptmaster: when a short owner message can be read two ways («نفس البطاطا»), restate it as one exact task in one
   line before doing it. The standing rules stay in CLAUDE.md and this skill.
 
+## THE SOUND FIRST (owner's call, 2026-11-16: «الكرينكل نجح من الصوت مش من الهووك»; every prompt and every edit)
+The Crinkle Cake's loudest moment was a hard dry crackle at 0.3 s (crinkle-15s-v2-base.txt). Every reel: the first
+impact (0.1-0.4 s) is the loudest sound of the reel, in the prompt's AUDIO line and in the edit's SHAPE (a lift after
+the compressors on the first strike); the payoff is the second loudest, with its dip before it. Check with pp.py's
+"loudest" list: the 0.0 s window first.
+
 ## THE RETENTION ENGINE (2026-11-15): read content-studio/research/retention-engine.md before every prompt and edit
 What grabs attention and holds it to the end, split into MEASURED (our reads) and CRAFT (sound and editing practice not
 yet measured here): the sound rules (a transient in the first 0.3 s, a rising energy curve, a dip before the payoff,

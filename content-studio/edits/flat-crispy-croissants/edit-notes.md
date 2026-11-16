@@ -29,3 +29,7 @@ bitten piece has no chocolate on it; the shells were pressed a second time under
 hook 0-2.75 s «الكرواسون المنفوخ هو الغلطة» with the small title «كرواسون مقرمش»; the right way on the pot «تحت طنجرة
 تقيلة بيصير كراميل»; the proof on the knock «صار قاسي متل السكاكر»; the closing question over his bite «شوكولا ولا
 سكر بودرة؟» (y 1250). The keyword CROISSANT / «كرواسون» is in the caption and the pinned comment.
+
+## v2 (2026-11-16): the sound first
+Owner: «الكرينكل نجح من الصوت مش من الهووك». The first rolling-pin strike is now the loudest moment of the reel (+8 dB
+after the compressors, 0.13-0.57 s), the snap second (+4 dB, the dip before it kept). Media 6533f2bc replaces de72cf51.

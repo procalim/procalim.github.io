@@ -16,6 +16,11 @@ What lost viewers (MEASURED): raw meat filling the frame (v1 3-5 s, -19 points; 
 points a second from 5 s); a cross-section that read as a solid patty; 15-16 s length (the ends near 40% are 7.6-12 s).
 
 ## 2. Sound: the strongest attention tool we have (CRAFT unless marked)
+OWNER'S CALL, 2026-11-16: «الكرينكل نجح من الصوت مش من الهووك». The Crinkle Cake (about 500K views, 56% to the end) had
+its loudest moment of the whole reel at 0.3 s: a hard dry crackle (prompts/crinkle-15s-v2-base.txt, "SOUND"), with 10
+DEAD and 4 SLOW of 28 on pp.py, so the motion did not carry it. From now: the first impact (0.1-0.4 s) is the loudest
+sound of the reel; the payoff is second; a dip before the payoff stays. This replaces rule 2 below (the loudest in
+the last 3 s), which was craft and never measured here.
 1. The first 0.3 s carries a sharp transient (a cleaver, a crack, a slam): a sudden loud onset makes the viewer orient
    before they decide to swipe. MEASURED on frame 0 above.
 2. A rising energy curve: each punch a little louder or fuller than the one before; the loudest sound in the last 3 s.
@@ -63,7 +68,8 @@ points a second from 5 s); a cross-section that read as a solid patty; 15-16 s l
 ## 6. Prompt blocks to add to every prompt (same strategy)
 - RETENTION: "The payoff (name it) appears only in the last 3 seconds. Every shot shows a visible change in the food.
   One surprise peak at the middle of the video (name it). The last frame matches the first frame's framing."
-- AUDIO: "Loud close-mic sound in every frame; each punch louder than the one before; a 0.2-second near silence before
-  the payoff; the payoff the loudest sound: (name the texture: the crunch of..., the crack of...)."
+- AUDIO: "Loud close-mic sound in every frame; the first impact at 0.3 seconds is the loudest sound of the whole video
+  (name it: the slam of..., the crackle of...); a 0.2-second near silence before the payoff; the payoff the second
+  loudest (name the texture)." (owner, 2026-11-16, the crinkle's measured sound)
 - AVOID: "a wide shot of the cook walking between stations, a still shot where nothing changes, raw food filling the
   frame for more than half a second, the payoff before the last 3 seconds."
