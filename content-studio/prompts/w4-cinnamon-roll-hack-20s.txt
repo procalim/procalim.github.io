@@ -96,10 +96,11 @@ AVOID: croissants, buns, bread loaves, donuts, a cake, more or fewer than 5 roll
 - Sound (THE SOUND FIRST): the pop the loudest moment (+8 dB after the compressors), the label rip and the dish slam
   lifted to the next two; 0-3 s at least +4 dB over the median with no window under it; the pull second loudest after
   its dip; checked with the 0.25 s profile against the crinkle.
-- Cards (THE CARD STYLE, animated gold and black), the crinkle's beats (checked against hook-log.md):
-  - 0-2.75 s: «ليش رولات البيت» / «ما بتطلع متل المحلات؟» / "Why don't home cinnamon rolls taste like the bakery's?"
-    (#16 Verbatim Question; the last three reels used X is the mistake, Superlative and the Habibi line);
-  - on the cream: «القشطة بين الرولات» / «مش فوقها» / "Cream between the rolls, not on top" (the right way, the book's step 03);
-  - on the foil reveal: «شوف قديش» / «انتفخت» / "Look how they puffed up" (the proof, the chef's note);
-  - over his bite: «سخنة» / «ولا باردة؟» / "Hot or cold?" (the closing question); the keyword in the caption and pinned.
+- Cards (THE CARD STYLE, animated gold and black; THE HOOK RULE: no answer before the end):
+  - 0-2.75 s: «في غلطة وحدة» / «بتخرّبلك السينامون رول» / "One mistake ruins your cinnamon rolls";
+  - no card on the cream pour (it would give the answer);
+  - on the foil reveal: «عرفت شو هي؟» / "Spotted it yet?";
+  - before the pull: «ركّز عالصوت 🔊» / "Listen closely 🔊";
+  - the answer over his bite: «الغلطة: تخبزها بلا قشطة» / «صبّها بين الرولات» / "The mistake: baking them without
+    cream. Pour it between the rolls."; the keyword in the caption and pinned.
 - Checks: pp.py DEAD 0, SLOW 0, LONG 0, QUIET 0; cards inside x 240-840; the phone check.

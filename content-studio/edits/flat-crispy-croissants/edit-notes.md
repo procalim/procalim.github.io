@@ -43,3 +43,7 @@ median with no window under it. Media b355c68f replaces 6533f2bc.
 Owner: «ليش ما تعمل الكلام effects animation باحترافية وغير الستايل الأبيض مش حلو». The same cut and mix; the cards are
 rendered frame by frame by content-studio/anim-cards.mjs (gold and black stickers, pop-in with overshoot, a shine, a fade
 out). Media d45a1522 replaces b355c68f.
+
+## v5 (2026-11-16): the hook rule
+Owner: the hook gave the answer. Now «في غلطة وحدة بتخرّبلك الكرواسون» (no answer), «عرفت شو هي؟» and «ركّز عالصوت 🔊» in the
+middle, the answer «الغلطة: تخليه منفوخ / افرده واكبسه» over his bite. Media 86f9cf61 replaces d45a1522.

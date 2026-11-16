@@ -77,6 +77,16 @@ Owner: «ضيفتلك بعض مهارات جديدة للبرومبت والتأ
 - promptmaster: when a short owner message can be read two ways («نفس البطاطا»), restate it as one exact task in one
   line before doing it. The standing rules stay in CLAUDE.md and this skill.
 
+## THE HOOK RULE (owner's call, 2026-11-16: «انت أعطيت جواب للمتابع ... غلطة 1 بتخربلك الكروسون وكذالك على الوصفات الأخرى والجواب بنهاية الفيديو ... انت ضعيف بكتابة hook»)
+The hook never gives the answer. «الكرواسون المنفوخ هو الغلطة» told the viewer the answer in the first second, and the
+middle card «تحت طنجرة تقيلة بيصير كراميل» told it again. Every reel from now on, this formula (the crinkle sales cover
+already had it: «الغلطة اللي بتخرّب الكرنكل»):
+- 0-2.75 s: «في غلطة وحدة» / «بتخرّبلك [الأكلة]» / "One mistake ruins your [dish]": the mistake is not named.
+- Middle cards keep the loop open and never answer: «عرفت شو هي؟» / "Spotted it yet?", «ركّز عالصوت 🔊» / "Listen closely 🔊".
+- The answer only at the end, over his bite after the payoff: «الغلطة: [the mistake]» / «[the fix]».
+- The formula repeats on every reel by the owner's call; the rotation rule in hook-log.md does not apply to it.
+- The caption's title line follows the same rule (no answer in the title).
+
 ## THE CARD STYLE (owner's call, 2026-11-16: «ليش ما تعمل الكلام effects animation باحترافية وغير الستايل الأبيض مش حلو»)
 The flat white text with a black stroke is retired. Every card is an animated sticker in the brand's gold and black,
 rendered frame by frame by `content-studio/anim-cards.mjs` (sandbox copy /home/user/ov/anim.mjs, checked by md5):

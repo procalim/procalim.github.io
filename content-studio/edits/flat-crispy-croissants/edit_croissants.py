@@ -115,12 +115,14 @@ CARDS = [('hook', 0.0, 2.75),                                   # the mistake
          ('ask', L['his bite'][0], TOTAL)]                        # the closing question
 # v4 (owner, 2026-11-16: «ليش ما تعمل الكلام effects animation باحترافية وغير الستايل الأبيض مش حلو»): animated
 # sticker cards in the brand's gold and black, rendered frame by frame by anim.mjs (content-studio/anim-cards.mjs)
+# v5 (owner, 2026-11-16: «انت أعطيت جواب للمتابع ... غلطة 1 بتخربلك الكروسون ... والجواب بنهاية الفيديو»): the hook names
+# no answer, the middle cards keep the loop open, the answer lands over his bite at the end.
 ANIM = {
-    'hook': dict(y=780, title='كرواسون مقرمش', lines=[('الكرواسون المنفوخ', 'gold'), ('هو الغلطة', 'black')],
-                 en='A puffy croissant is the mistake'),
-    'right': dict(y=820, lines=[('تحت طنجرة تقيلة', 'gold'), ('بيصير كراميل', 'black')], en='Under a heavy pot it turns to caramel'),
-    'proof': dict(y=820, lines=[('صار قاسي', 'gold'), ('متل السكاكر', 'black')], en="Now it's hard like candy"),
-    'ask': dict(y=1180, lines=[('شوكولا ولا', 'gold'), ('سكر بودرة؟', 'black')], en='Chocolate or powdered sugar?'),
+    'hook': dict(y=800, lines=[('في غلطة وحدة', 'gold'), ('بتخرّبلك الكرواسون', 'black')], en='One mistake ruins your croissants'),
+    'right': dict(y=820, lines=[('عرفت شو هي؟', 'gold')], en='Spotted it yet?'),
+    'proof': dict(y=820, lines=[('ركّز عالصوت 🔊', 'gold')], en='Listen closely 🔊'),
+    'ask': dict(y=1180, lines=[('الغلطة: تخليه منفوخ', 'gold'), ('افرده واكبسه', 'black')],
+                en='The mistake: leaving it puffy. Flatten it, press it.'),
 }
 spec = {'fps': FPS, 'cards': [dict(key=k, frames=round((e - s) * FPS), y=ANIM[k]['y'], title=ANIM[k].get('title'),
                                    lines=[{'t': t, 'kind': kd} for t, kd in ANIM[k]['lines']], en=ANIM[k]['en'])
@@ -138,7 +140,7 @@ ins += ['-i', 'mix2.wav']
 run(['ffmpeg', '-v', 'error', '-y', *ins, '-filter_complex', ';'.join(fc), '-map', '[v]', '-map', '[ao]',
      '-frames:v', str(round(TOTAL * FPS)), '-c:v', 'libx264', '-preset', 'slow', '-crf', '16', '-profile:v', 'high',
      '-pix_fmt', 'yuv420p', '-color_primaries', 'bt709', '-color_trc', 'bt709', '-colorspace', 'bt709', '-color_range', 'tv',
-     '-r', str(FPS), '-c:a', 'aac', '-b:a', '256k', '-movflags', '+faststart', 'flat-crispy-croissants-v4.mp4'])
+     '-r', str(FPS), '-c:a', 'aac', '-b:a', '256k', '-movflags', '+faststart', 'flat-crispy-croissants-v5.mp4'])
 for s, e, lab in labels: print(f'{s:6.2f}-{e:6.2f}  {lab}')
 print('cards', [(c, round(s, 2), round(e, 2)) for c, s, e in CARDS])
-print('total', round(TOTAL, 3), 'mix', I, P, 'final', meas('flat-crispy-croissants-v4.mp4'))
+print('total', round(TOTAL, 3), 'mix', I, P, 'final', meas('flat-crispy-croissants-v5.mp4'))
