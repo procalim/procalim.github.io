@@ -33,3 +33,8 @@ hook 0-2.75 s «الكرواسون المنفوخ هو الغلطة» with the s
 ## v2 (2026-11-16): the sound first
 Owner: «الكرينكل نجح من الصوت مش من الهووك». The first rolling-pin strike is now the loudest moment of the reel (+8 dB
 after the compressors, 0.13-0.57 s), the snap second (+4 dB, the dip before it kept). Media 6533f2bc replaces de72cf51.
+
+## v3 (2026-11-16): the crinkle's first 3 seconds
+The crinkle's three loudest moments were all in 0-3 s (0.25, 1.5, 2.5 s). v3 adds the second strike (+8 dB at 1.25 s),
+holds the rolling crackle (+4 dB) and lifts the quiet lifted-croissant shot (+5 dB): 0-3 s averages +4.7 dB over the
+median with no window under it. Media b355c68f replaces 6533f2bc.

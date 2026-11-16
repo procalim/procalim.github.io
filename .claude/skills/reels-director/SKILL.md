@@ -82,6 +82,16 @@ The Crinkle Cake's loudest moment was a hard dry crackle at 0.3 s (crinkle-15s-v
 impact (0.1-0.4 s) is the loudest sound of the reel, in the prompt's AUDIO line and in the edit's SHAPE (a lift after
 the compressors on the first strike); the payoff is the second loudest, with its dip before it. Check with pp.py's
 "loudest" list: the 0.0 s window first.
+Measured 0-3 s, dB against each reel's own median, 0.25 s windows (2026-11-16; owner: «قلت لك من قبل ركز على الصوت وهاذا
+بين بأول ثلاث ثواني بالكرنكل وفطيرة المعكرونة»):
+| Reel | 0-0.5 s | 0-3 s mean | Loudest moments of the reel | End |
+|---|---|---|---|---|
+| Crinkle Cake | +5, +8 | +2.2 | 2.5 s (+12), 1.5 s (+11), 0.25 s (+8): all three in 0-3 s | 56% |
+| Honeycomb pasta pie | +5, +4 | +0.2 | the end | 36-39% |
+| Shawarma v1 | -2, +1 | -1.0 | the end (14 s) | 26% |
+| Skewers A | -2, +3 | -1.1 | the end (10.25 s) | 17% |
+So every edit: 0-0.5 s at least +5 dB over the median, two or three hits in 0-3 s, no 0.25 s window in 0-3 s under
+the median; checked with the same 0.25 s profile before delivery.
 
 ## THE RETENTION ENGINE (2026-11-15): read content-studio/research/retention-engine.md before every prompt and edit
 What grabs attention and holds it to the end, split into MEASURED (our reads) and CRAFT (sound and editing practice not
