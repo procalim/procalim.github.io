@@ -21,8 +21,9 @@ description: >
    "book step -> shot" before asking for «ولد».
 3. **Halal:** no pork, bacon, ham, alcohol, mirin. Write "no pork" in the prompt for meat.
 4. **Identity:** his permanent kitchen (`content-studio/brand/kitchen.md`, photo `brand/kitchen.jpg`, sent as
-   @Image2), 2700 K tungsten light, black nitrile gloves, white t-shirt, black apron with brown leather straps,
-   thin gold chain, the aviators of the element photo (black lenses).
+   @Image2), 2700 K tungsten light, black nitrile gloves, black apron with brown leather straps. From 2026-11-16
+   (owner: «بس ب element الجديد») the element is chef-ahmet-yellow (41e55e5e): mustard-yellow t-shirt, black square
+   sunglasses with small gold hinges and solid black lenses, no chain. Older reels: white t-shirt, gold chain, aviators.
 5. **Never blame the user.** Report numbers, not guesses. Change one variable per test.
    No guessing causes in replies (owner, 2026-11-12: «لا ضلك تخمن الأسباب»): the numbers, then the work on his call.
 6. Talk to the user in Levantine Arabic, minimal English words.
@@ -815,7 +816,7 @@ Higgsfield sandbox: frames every 0.25 s for the first 4 s, then every 0.5 s.
 2. The cut into his identity at about 3.6 s:
    - the kitchen is dark: black background, walnut, warm key light;
    - apron and gloves in every kitchen shot;
-   - the same white t-shirt, gold chain and sunglasses.
+   - the same t-shirt and sunglasses as the element (mustard-yellow and black square from 2026-11-16).
    - If the video stays bright or white after the cut, that is a defect: report it before any edit.
 3. Checks 1-14 of generation-log.md frame by frame: shapes, colours by object, count, order, physics, halal, and
    silence in the last second.

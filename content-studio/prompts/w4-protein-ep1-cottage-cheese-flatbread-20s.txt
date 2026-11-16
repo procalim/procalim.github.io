@@ -11,7 +11,8 @@ error to fix in the next edition of the book.
 
 SETTINGS (higgsfield.ai):
 - Seedance 2.5, Omni reference, 20 s, 9:16, 720p, bitrate High, audio On.
-- His character element (char_ahmet-salameh 6f314b9e, as the croissant take).
+- His new character element chef-ahmet-yellow (41e55e5e; owner, 2026-11-16: «بس ب element الجديد»): mustard-yellow
+  t-shirt, black square sunglasses with gold hinges, no chain. Replaces char_ahmet-salameh (6f314b9e) from this reel on.
 - @Image1 = the kitchen: https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/66c2248f-e130-4a3c-83df-1a715f172d69.jpg
 
 WHAT THIS EPISODE TESTS (the report's ranked changes 1-4; read first on sends per 1,000 reach, the bar is the sweet
@@ -50,7 +51,7 @@ PRE-GENERATION CHECK (generation-log checks 1-23)
 ===== PROMPT =====
 SCENE CONTEXT: A vertical 9:16 premium cooking action commercial, exactly 20 seconds, 14 shots, every shot already in motion and loud from the first frame to the last. One place only: the cook's kitchen exactly as in @Image1 (matte black cabinets with thin brass trim, a black marble counter with fine gold veins, a black range with brass knobs), falling to black. He turns cottage cheese and two eggs into a golden flatbread with no flour, bakes it on parchment, peels it whole, fills it and rolls it like a wrap.
 
-REFERENCE CONTROL: The cook is his character element: exactly his face (thick mustache, no beard), his sunglasses with solid black lenses worn the whole time, a thin gold chain, a plain white t-shirt, a black apron with brown leather straps and black nitrile gloves on both hands in every shot. His face and sunglasses are visible in shots 01, 03, 08 and 14, his whole head inside the frame, upright, beside the props and never behind them. @Image1 is the place, never a prop. He never speaks.
+REFERENCE CONTROL: The cook is his character element: exactly his face (thick mustache, no beard, short dark hair combed back), his black square sunglasses with small gold hinges and solid black lenses worn the whole time, a plain mustard-yellow t-shirt, a black apron with brown leather straps and black nitrile gloves on both hands in every shot. His face and sunglasses are visible in shots 01, 03, 08 and 14, his whole head inside the frame, upright, beside the props and never behind them. @Image1 is the place, never a prop. He never speaks.
 
 RECIPE (every step once, in this order, nothing added):
 The Viral Cottage Cheese Flatbread
@@ -95,7 +96,7 @@ CONTINUITY + PHYSICS: one pan, one sheet of parchment, one flatbread; the hot pa
 
 LIGHTING: a hard warm tungsten key light (2700 K) from camera left plus the warm pool under the hood, the background falling to black, a warm rim on the steam, the batter and the golden bread, sharp focus on his hands and the food.
 
-AVOID: pizza, omelette, cake, crepe with holes, a puffed or cracked flatbread, dark brown or burnt bread, foil, flour, bread loaves, a shot through the oven glass, a wide shot of him walking, a still shot where nothing changes, sunglasses off, bare hands, other people, labels, logos, text on the tub, pork, alcohol, talking, cut to black, text, extra fingers, deformed hands, distorted face.
+AVOID: pizza, omelette, cake, crepe with holes, a puffed or cracked flatbread, dark brown or burnt bread, foil, flour, bread loaves, a shot through the oven glass, a wide shot of him walking, a still shot where nothing changes, sunglasses off, a white t-shirt, a chain, bare hands, other people, labels, logos, text on the tub, pork, alcohol, talking, cut to black, text, extra fingers, deformed hands, distorted face.
 
 ===== EDIT (after the take is read frame by frame) =====
 - About 12.5 s; the opening about 1.4 s; nothing after his bite but the loop frames; post as a trial reel.
