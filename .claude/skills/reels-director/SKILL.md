@@ -78,7 +78,27 @@ Owner: «ضيفتلك بعض مهارات جديدة للبرومبت والتأ
 - promptmaster: when a short owner message can be read two ways («نفس البطاطا»), restate it as one exact task in one
   line before doing it. The standing rules stay in CLAUDE.md and this skill.
 
+## THE SHARE REEL (owner's call, 2026-11-16, second call: «هون اجى دورك بالهووك والدعوة الفيروسي غير طريقة كل شغلنا السابقة لأنها ما نجحة بالهووك والدعوة خليها مشاركة ... حتى العنوان أضف في home made وقصر الكابشن والعنوان اقوى هووك بحث او بس عنوان قوي وهاشتاغ وتعليق مثبت فيو التفاصيل حتى التصميم الكتابة اشتغل على مهارة المحترفين بالكتابة والانيميشين»)
+Replaces the «في غلطة وحدة» formula of THE HOOK RULE below (its open-question test stays). First use: Protein from
+the Book ep 1 (edits/protein-ep1-cottage-cheese-flatbread/), measured by sends per 1,000 reach (report, 2026-11-16).
+- Hook, 0 to about 2.4 s: the series pill, then a paradox or a promise with a number, never a question and never the
+  answer: «خبز [بلا طحين]» + «حوالي 37 غ بروتين» counting up. The picture keeps a question open (liquid -> bread?).
+- Middle cards tell the story in 2-3 words each, a new one every 2-3 s: «لسّا سائل…», the time pill, «وصار خبز!»,
+  a proof («بينلفّ وما بينكسر»).
+- The call on the video is a share card over the payoff to the end: «ابعتها للي دايماً بيقلّك:» / «ما بقدر أترك الخبز»
+  with the paper plane, the English inside the card. It names one person the viewer knows. No keyword card on the video.
+- Caption, short: line 1 the search title with Homemade ("Homemade Cottage Cheese Flatbread (~37g Protein, No
+  Flour)", the SERP's own shape), line 2 the same share line, one short paragraph (what it is, the episode, where the
+  recipe is: the pinned comment, or the keyword for the recipe and the free PDF), the purchase line, then Arabic the
+  same way, 3-5 hashtags.
+- Pinned comment: the recipe from the book word for word in both languages, a halal line, the keyword for the PDF.
+- Cards: content-studio/anim-kinetic.mjs (sandbox /home/user/ov/kinetic.mjs): words land one by one (rise, overshoot,
+  de-blur, 2 frames apart), the key words get a gold marker block that sweeps in with a shine, numbers count up, the
+  series pill has a pulsing gold dot, the English wipes in (bidi isolated), the share card's plane flies out and back
+  with a ring pulse, every block fits x 230-850 and drifts up 10 px while it holds.
+
 ## THE HOOK RULE (owner's call, 2026-11-16: «انت أعطيت جواب للمتابع ... غلطة 1 بتخربلك الكروسون وكذالك على الوصفات الأخرى والجواب بنهاية الفيديو ... انت ضعيف بكتابة hook»)
+(The formula below is retired by THE SHARE REEL above; the open-question test at its end stays.)
 The hook never gives the answer. «الكرواسون المنفوخ هو الغلطة» told the viewer the answer in the first second, and the
 middle card «تحت طنجرة تقيلة بيصير كراميل» told it again. Every reel from now on, this formula (the crinkle sales cover
 already had it: «الغلطة اللي بتخرّب الكرنكل»):
@@ -456,7 +476,7 @@ a question that only the last shot answers; a new text lands every 3 s on a PUNC
 | 9.0-10.4 s | Question/Delay 2 | e.g. «اسمع الصوت 🔊» | 2-3 words |
 | 10.5-12 s | Answer + CTA | the answer, small line «اكتب «…»» | 2-4 words |
 
-The share ask lives in the first caption line and the pinned comment, not on the video.
+From 2026-11-16 the share ask is also on the video, as the share card of THE SHARE REEL.
 Generation stays on Seedance 2.5 with the template above (Wan and Genjutsu did not match it).
 
 Text size and position (updated 2026-11-01, second read): the winners' own captions lead (format A above): one small
@@ -558,7 +578,8 @@ Language: the English keyword gets the English pair, the Arabic keyword («ست�
 
 Every promise matches what is sent: the card says only the keyword («اكتب «ستيك» 👇»); the caption and the pinned comment
 say "I'll send you the full recipe, plus a free PDF of 8 high-protein halal recipes" (the caption adds "and the link to
-my book of 361"). No recipe in the pinned comment. The bio carries the same PDF as a second link ("Free PDF: 8 recipes").
+my book of 361"). From 2026-11-16 (THE SHARE REEL) the pinned comment carries the recipe
+word for word and the keyword offers the PDF. The bio carries the same PDF as a second link ("Free PDF: 8 recipes").
 
 Example: `content-studio/week4/sweet-potato-steak-bites-dm-reply.txt`.
 
