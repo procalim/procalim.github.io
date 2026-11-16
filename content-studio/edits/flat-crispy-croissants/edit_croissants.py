@@ -3,7 +3,7 @@
 # question), no ingredient bowl in 0-3 s, no glass, the snap the loudest and last before his bite, a loop seam.
 # Techniques from the skewers edit: J-cuts inside a take shot, punch-ins with a 2-frame shake on impacts, a dip before
 # the snap. Left out: the second-side press (a repeat of the pot shot).
-import subprocess, re, wave, numpy as np
+import subprocess, re, wave, json, numpy as np
 FPS, SRC, PRE = 24, 'take.mp4', 3
 SHOTS = [0, 46, 79, 97, 112, 120, 128, 139, 158, 163, 208, 233, 255, 282, 317, 347, 382, 417, 436, 471, 481]
 SEGS = [  # (first frame, end frame, speed, label, impact frame in the source or None, push-in or None)
@@ -113,17 +113,32 @@ CARDS = [('hook', 0.0, 2.75),                                   # the mistake
          ('right', L['the pot'][0], L['the flip'][0]),            # the right way
          ('proof', L['the knock'][0], L['the snap'][0]),          # the proof
          ('ask', L['his bite'][0], TOTAL)]                        # the closing question
+# v4 (owner, 2026-11-16: «ليش ما تعمل الكلام effects animation باحترافية وغير الستايل الأبيض مش حلو»): animated
+# sticker cards in the brand's gold and black, rendered frame by frame by anim.mjs (content-studio/anim-cards.mjs)
+ANIM = {
+    'hook': dict(y=780, title='كرواسون مقرمش', lines=[('الكرواسون المنفوخ', 'gold'), ('هو الغلطة', 'black')],
+                 en='A puffy croissant is the mistake'),
+    'right': dict(y=820, lines=[('تحت طنجرة تقيلة', 'gold'), ('بيصير كراميل', 'black')], en='Under a heavy pot it turns to caramel'),
+    'proof': dict(y=820, lines=[('صار قاسي', 'gold'), ('متل السكاكر', 'black')], en="Now it's hard like candy"),
+    'ask': dict(y=1180, lines=[('شوكولا ولا', 'gold'), ('سكر بودرة؟', 'black')], en='Chocolate or powdered sugar?'),
+}
+spec = {'fps': FPS, 'cards': [dict(key=k, frames=round((e - s) * FPS), y=ANIM[k]['y'], title=ANIM[k].get('title'),
+                                   lines=[{'t': t, 'kind': kd} for t, kd in ANIM[k]['lines']], en=ANIM[k]['en'])
+                              for k, s, e in CARDS]}
+json.dump(spec, open('anim.json', 'w'), ensure_ascii=False)
+run(['node', '/home/user/ov/anim.mjs', 'anim.json', 'anim'])
 ins = ['-i', 'cut.mkv']; fc = ['[0:v]setsar=1,format=yuv420p[b0]']; last = 'b0'
 for k, (key, s, e) in enumerate(CARDS):
-    ins += ['-loop', '1', '-t', f'{TOTAL:.4f}', '-r', str(FPS), '-i', f'ov_{key}.png']
-    fc.append(f"[{last}][{k + 1}:v]overlay=0:0:enable='between(t,{s:.4f},{e - 0.001:.4f})':eof_action=pass[o{k}]"); last = f'o{k}'
+    ins += ['-framerate', str(FPS), '-i', f'anim/{key}/f%03d.png']
+    fc.append(f"[{k + 1}:v]format=rgba,setpts=PTS-STARTPTS+{s:.4f}/TB[c{k}]")
+    fc.append(f"[{last}][c{k}]overlay=0:0:eof_action=pass[o{k}]"); last = f'o{k}'
 fc.append(f'[{last}]format=yuv420p[v]')
 fc.append(f'[{len(CARDS) + 1}:a]volume={g:.2f}dB,' + SHAPE + LIM + ',pan=stereo|c0=c0|c1=c0[ao]')
 ins += ['-i', 'mix2.wav']
 run(['ffmpeg', '-v', 'error', '-y', *ins, '-filter_complex', ';'.join(fc), '-map', '[v]', '-map', '[ao]',
      '-frames:v', str(round(TOTAL * FPS)), '-c:v', 'libx264', '-preset', 'slow', '-crf', '16', '-profile:v', 'high',
      '-pix_fmt', 'yuv420p', '-color_primaries', 'bt709', '-color_trc', 'bt709', '-colorspace', 'bt709', '-color_range', 'tv',
-     '-r', str(FPS), '-c:a', 'aac', '-b:a', '256k', '-movflags', '+faststart', 'flat-crispy-croissants-v3.mp4'])
+     '-r', str(FPS), '-c:a', 'aac', '-b:a', '256k', '-movflags', '+faststart', 'flat-crispy-croissants-v4.mp4'])
 for s, e, lab in labels: print(f'{s:6.2f}-{e:6.2f}  {lab}')
 print('cards', [(c, round(s, 2), round(e, 2)) for c, s, e in CARDS])
-print('total', round(TOTAL, 3), 'mix', I, P, 'final', meas('flat-crispy-croissants-v3.mp4'))
+print('total', round(TOTAL, 3), 'mix', I, P, 'final', meas('flat-crispy-croissants-v4.mp4'))

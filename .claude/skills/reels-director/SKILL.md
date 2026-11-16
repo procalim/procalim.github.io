@@ -77,6 +77,17 @@ Owner: «ضيفتلك بعض مهارات جديدة للبرومبت والتأ
 - promptmaster: when a short owner message can be read two ways («نفس البطاطا»), restate it as one exact task in one
   line before doing it. The standing rules stay in CLAUDE.md and this skill.
 
+## THE CARD STYLE (owner's call, 2026-11-16: «ليش ما تعمل الكلام effects animation باحترافية وغير الستايل الأبيض مش حلو»)
+The flat white text with a black stroke is retired. Every card is an animated sticker in the brand's gold and black,
+rendered frame by frame by `content-studio/anim-cards.mjs` (sandbox copy /home/user/ov/anim.mjs, checked by md5):
+- line 1 on a gold gradient box (#F8D978 to #D99A26) in black Tajawal 900, tilted -2°, a white shine sweeping it once;
+- line 2 on a black box with a gold border, gold text, tilted +1.6°; an optional small gold title pill above; the
+  English line small and white on a dark pill, wrapped inside 520 px;
+- each line pops in with an overshoot (0.4 to 1.0 over 7 frames, 3 frames apart) and fades out in the last 4 frames;
+  any line wider than 600 px shrinks to fit, so every card stays inside x 240-840.
+The edit overlays each card's PNG sequence at its start time (setpts offset, eof_action=pass). First use: the croissant
+edit v4 (edits/flat-crispy-croissants/edit_croissants.py).
+
 ## THE SOUND FIRST (owner's call, 2026-11-16: «الكرينكل نجح من الصوت مش من الهووك»; every prompt and every edit)
 The Crinkle Cake's loudest moment was a hard dry crackle at 0.3 s (crinkle-15s-v2-base.txt). Every reel: the first
 impact (0.1-0.4 s) is the loudest sound of the reel, in the prompt's AUDIO line and in the edit's SHAPE (a lift after

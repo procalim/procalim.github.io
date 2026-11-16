@@ -38,3 +38,8 @@ after the compressors, 0.13-0.57 s), the snap second (+4 dB, the dip before it k
 The crinkle's three loudest moments were all in 0-3 s (0.25, 1.5, 2.5 s). v3 adds the second strike (+8 dB at 1.25 s),
 holds the rolling crackle (+4 dB) and lifts the quiet lifted-croissant shot (+5 dB): 0-3 s averages +4.7 dB over the
 median with no window under it. Media b355c68f replaces 6533f2bc.
+
+## v4 (2026-11-16): animated sticker cards
+Owner: «ليش ما تعمل الكلام effects animation باحترافية وغير الستايل الأبيض مش حلو». The same cut and mix; the cards are
+rendered frame by frame by content-studio/anim-cards.mjs (gold and black stickers, pop-in with overshoot, a shine, a fade
+out). Media d45a1522 replaces b355c68f.
