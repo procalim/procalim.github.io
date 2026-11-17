@@ -78,6 +78,11 @@ Owner: «ضيفتلك بعض مهارات جديدة للبرومبت والتأ
 - promptmaster: when a short owner message can be read two ways («نفس البطاطا»), restate it as one exact task in one
   line before doing it. The standing rules stay in CLAUDE.md and this skill.
 
+## IDEA FIRST (owner, 2026-11-17: «مشكلتنا بالفكرة مش بالفيديو» ... «بلش»)
+No prompt is written before the idea passes `.claude/skills/idea-lab/SKILL.md` (7 of 10 or more: the send sentence,
+outside evidence as outlier multiples, the book, the 6-word hook, a number or identity, the sound, a series slot).
+Log: content-studio/idea-lab/ideas.md. Evidence: content-studio/research/swipe-*.md.
+
 ## THE SHARE REEL (owner's call, 2026-11-16, second call: «هون اجى دورك بالهووك والدعوة الفيروسي غير طريقة كل شغلنا السابقة لأنها ما نجحة بالهووك والدعوة خليها مشاركة ... حتى العنوان أضف في home made وقصر الكابشن والعنوان اقوى هووك بحث او بس عنوان قوي وهاشتاغ وتعليق مثبت فيو التفاصيل حتى التصميم الكتابة اشتغل على مهارة المحترفين بالكتابة والانيميشين»)
 Replaces the «في غلطة وحدة» formula of THE HOOK RULE below (its open-question test stays). First use: Protein from
 the Book ep 1 (edits/protein-ep1-cottage-cheese-flatbread/), measured by sends per 1,000 reach (report, 2026-11-16).
