@@ -100,7 +100,12 @@ the Book ep 1 (edits/protein-ep1-cottage-cheese-flatbread/), measured by sends p
   recipe is: the pinned comment, or the keyword for the recipe and the free PDF), the purchase line, then Arabic the
   same way, 3-5 hashtags.
 - Pinned comment: the recipe from the book word for word in both languages, a halal line, the keyword for the PDF.
-- Cards: content-studio/anim-kinetic.mjs (sandbox /home/user/ov/kinetic.mjs): words land one by one (rise, overshoot,
+- Cards from 2026-11-17 (owner: «الكتابة والتصميم ... احلى من التصميم ابيضّ او اسود والهووك ميل ig viral، مش نفس
+  تصميم الي قبل»): content-studio/anim-editorial.mjs (sandbox /home/user/ov/editorial.mjs), the look of the swipe
+  file's top reels: the hook as a white serif title on the food with no box (El Messiri 104 px + Playfair caps), the
+  series as a small line, statements and the share line on Instagram's own white label with black text; quiet motion
+  (a soft rise and de-blur, the caps closing their spacing, a fade). Mockup: Higgsfield media 33d2fd9b.
+- The earlier kinetic style (protein ep 1, kept for reference): content-studio/anim-kinetic.mjs (sandbox /home/user/ov/kinetic.mjs): words land one by one (rise, overshoot,
   de-blur, 2 frames apart), the key words get a gold marker block that sweeps in with a shine, numbers count up, the
   series pill has a pulsing gold dot, the English wipes in (bidi isolated), the share card's plane flies out and back
   with a ring pulse, every block fits x 230-850 and drifts up 10 px while it holds.

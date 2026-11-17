@@ -1,0 +1,12 @@
+{"fps": 24, "cards": [
+ {"key": "hook", "frames": 60, "y": 1040, "items": [
+   {"k": "title", "t": "خبز بلا طحين"},
+   {"k": "caps", "t": "~37 g protein"}]},
+ {"key": "bread", "frames": 40, "y": 690, "items": [
+   {"k": "label", "t": "وصار خبز!", "en": "And now it’s bread!"}]},
+ {"key": "answer", "frames": 40, "y": 1250, "items": [
+   {"k": "label", "t": "السر: جبنة قريش وبيضتين", "en": "The secret: cottage cheese + 2 eggs"}]},
+ {"key": "send", "frames": 40, "y": 1150, "items": [
+   {"k": "kicker", "t": "بروتين من الكتاب · حلقة ١", "en": "ep 1"},
+   {"k": "send", "t": "ابعتها للي ما بيقدر يترك الخبز", "en": "Send it to the one who can’t quit bread"}]}
+]}

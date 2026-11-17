@@ -95,7 +95,7 @@ AVOID: a round or oval slab, a heart shape, a bar mould, candy bars, wrappers, p
 - Sound (THE SOUND FIRST): the opening crack the loudest (+8 dB after the compressors), the date slap and the rolling
   pin slam the next two; 0-3 s at least +3 dB over the median, no window under it; the second snap second loudest after
   its dip.
-- Cards (THE SHARE REEL, anim-kinetic.mjs):
+- Cards (THE SHARE REEL, anim-editorial.mjs: white serif title, small series line, white labels; owner 2026-11-17):
   - 0-3 s, 5 words, nothing else on screen: «سنيكرز من [التمر]» + «5 مكوّنات» counting up (dates, peanut butter, dark
     chocolate, peanuts, sea salt);
   - after 3 s: «بلا فرن» / "No oven" on the peel; pill «ساعة بالفريزر» / "1 hour in the freezer" on the freezer;
