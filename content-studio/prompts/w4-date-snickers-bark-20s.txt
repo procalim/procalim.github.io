@@ -1,0 +1,112 @@
+Sweets from the Book, Episode 1: Viral Date Bark (N° 111, The Edible Codex English PDF p260). idea-lab 10/10
+(content-studio/idea-lab/ideas.md): the same dish beat its account 8.6x (@mynutritioncreative, a date bark, 18 s) and
+8.2x (@basicswithbails, smashed dates, 21 s) in the last year (research/swipe-2026-11-17.md). Owner: «اكتب»
+(2026-11-17). Status: NOT generated. The owner generates on higgsfield.ai with his unlimited (720p, no credits).
+
+SETTINGS (higgsfield.ai):
+- Seedance 2.5, Omni reference, 20 s, 9:16, 720p, bitrate High, audio On.
+- His element chef-ahmet-yellow (41e55e5e): mustard-yellow t-shirt, black square sunglasses with gold hinges.
+- @Image1 = the kitchen: https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/66c2248f-e130-4a3c-83df-1a715f172d69.jpg
+
+WHAT THE EVIDENCE SAYS, AND WHERE IT IS IN THIS PROMPT
+| From the swipe file | In this reel |
+|---|---|
+| The finished food in the first second (3 of the top 5) | shot 01: a frozen shard snapped at the lens, the loudest sound of the reel |
+| Hands at work, no speech (4 of 5) | silent, his gloved hands in every shot, his face first and last |
+| 17-21 s at the top, 39-134 s at the bottom | 20 s take, edit about 12.5 s |
+| The bark shape (8.6x): the dates opened and pressed into one sheet | shots 02-04 |
+| The account's rules: sound first, 3 hits in 0-3 s, no oven glass, the payoff last, a loop | shots 01-03 hits at 0.3, 1.5, 2.5 s; shot 13 the payoff; shot 14 back to shot 01 |
+
+RECIPE STEP -> SHOT (the book, word for word)
+01 line a baking sheet -> 02 | 02 open the dates, lay them flat in a solid rectangle -> 02 | 03 parchment on top, smash
+with a rolling pin -> 03-04 | 04 peanut butter -> 05 | 05 melted dark chocolate to the edges -> 06-07 | 06 nuts and flaky
+sea salt -> 08 | 07 freeze 1 hour, break into shards -> 09-12 | the snap, the bite, the loop -> 13-14, and 01 as the
+flash-forward. "Chopped Peanuts or Pecans": peanuts (the Snickers taste). "a rolling pin or the bottom of a heavy cup":
+the rolling pin.
+
+PRE-GENERATION CHECK (generation-log checks 1-23)
+| Check | Result |
+|---|---|
+| 1, 13, 21 shapes and counts | one RECTANGULAR slab with four straight edges filling the rectangular sheet edge to edge (the flatbread came out round: the rectangle is named in four places here); round, heart and bar-mould shapes in AVOID |
+| 3 the reveal | the snapped edge shows three layers: dark chocolate, tan peanut butter, caramel-brown dates |
+| 5 the finished food | shot 01 is a flash-forward only; from shot 02 nothing chocolate-covered before shot 06, nothing frozen before shot 10 |
+| 7 physics | the date layer bends, the chocolate cracks; frost only after the freezer |
+| 9 halal | dates, peanut butter, dark chocolate, peanuts, salt; no alcohol, no gelatin |
+| 10 the break | a dry glassy crack of the chocolate; the date layer chewy, never liquid |
+| 14, 17 colours by objects | dates glossy dark brown like Medjool dates, flesh caramel brown; peanut butter light tan like creamy peanut butter; chocolate glossy dark brown when wet, matte when frozen; peanuts golden; salt white crystals |
+| 16 frame one | the snap with its crack, in his kitchen, his face behind |
+| 19 one pan | the same black rectangular baking sheet in shots 02-12 |
+| 22, 23 new surface, new shape | after the smash the dates stay one flat sheet; after the break they stay shards |
+| 6 the last second | after generation |
+
+===== PROMPT =====
+SCENE CONTEXT: A vertical 9:16 premium cooking action commercial, exactly 20 seconds, 14 shots, every shot already in motion and loud from the first frame to the last. One place only: the cook's kitchen exactly as in @Image1 (matte black cabinets with thin brass trim, a black marble counter with fine gold veins, a black range with brass knobs), falling to black. He turns Medjool dates, peanut butter and dark chocolate into a frozen date bark that tastes like a candy bar, then snaps it.
+
+REFERENCE CONTROL: The cook is his character element: exactly his face (thick mustache, no beard, short dark hair combed back), his black square sunglasses with small gold hinges and solid black lenses worn the whole time, a plain mustard-yellow t-shirt, a black apron with brown leather straps and black nitrile gloves on both hands in every shot. His face and sunglasses are visible in shots 01, 03, 10 and 14, his whole head inside the frame, upright, beside the food and never behind it. @Image1 is the place, never a prop. He never speaks.
+
+RECIPE (every step once, in this order, nothing added):
+Viral Date Bark
+— 15–20 Medjool Dates (pitted); 1/2 cup Creamy Peanut Butter; 1 cup Dark Chocolate Chips (melted); 1/4 cup Chopped Peanuts; Flaky Sea Salt
+01 Line a baking sheet with parchment paper.
+02 Open the pitted dates and lay them flat, overlapping them slightly to form a solid rectangle.
+03 Place another sheet of parchment paper on top and use a rolling pin to smash the dates together into a flat, cohesive "dough" layer.
+04 Spread an even layer of peanut butter over the smashed dates.
+05 Pour the melted dark chocolate over the peanut butter, spreading it to the edges.
+06 Sprinkle with chopped nuts and flaky sea salt.
+07 Freeze for 1 hour until solid, then use your hands or a knife to break it into random "bark" shards.
+
+FOOD SHAPES AND COLOURS (the same in every shot, never change): Dates: glossy dark brown wrinkled Medjool dates, split open, caramel-brown sticky flesh, no pits. Date layer: one flat RECTANGLE about 1 cm thick with four straight edges, filling the rectangular black baking sheet edge to edge. Peanut butter: smooth, creamy, light tan, an even layer to the edges. Chocolate: glossy dark brown and liquid when poured, smooth to all four edges; matte dark brown and hard after the freezer. Peanuts: golden chopped pieces. Salt: white flaky crystals. Shards: jagged random pieces about the size of a palm; every broken edge shows three layers: dark chocolate on top, tan peanut butter in the middle, chewy caramel-brown dates at the bottom.
+
+PROCESS ORDER / NON-REPETITION LOCK: shot 01 is a one-second flash-forward of the finished bark; then from the beginning: parchment -> dates opened and laid flat -> smashed with the rolling pin -> peeled -> peanut butter -> chocolate poured -> spread -> nuts and salt -> freezer -> out, frozen -> knock -> broken into shards -> the snap -> the bite. After shot 01, every stage once, only forward; nothing chocolate-covered before shot 06; nothing frozen before shot 10.
+
+RETENTION: The payoff, a shard snapped at the lens showing its three layers, appears in shot 13. The surprise peak at the middle is shot 10: the tray out of the freezer, the glossy chocolate turned matte and solid. Every shot shows a visible change. The last frame matches the first frame's framing.
+
+SOUND, THE WHOLE VIDEO: loud real close-mic sound in every frame, no quiet second, a new sound on every cut. The first 3 seconds carry three hard hits: the frozen bark snapped at the lens with a dry glassy CRACK at 0.3 seconds, the loudest sound of the whole video; the sticky dates slapped flat onto the parchment at 1.5 seconds; the heavy rolling pin slammed down on the parchment at 2.5 seconds. Then: the parchment peeled, the spatula scraping, the thick chocolate glug, the peanuts raining like hail, the salt crunching, the freezer drawer slam and the frost hiss, the cold tray slammed on the marble, a hard knuckle knock, the slab cracking into shards. A 0.3-second near silence before the snap, then the crack close to the microphone, then the crunch of the bite. No music, no voice, no whooshes.
+
+HERO + ENERGY PRIORITY: a PUNCH at 0.0, 3.0, 6.0, 9.0, 12.0, 15.0 and 18.2 s, each a physical impact with its own loud sound and a short camera shake. Between them one smooth gimbal move per shot and a new action every second; no still or calm moment. Whole-body force, never presenting to the camera.
+
+SHOT 01 — 0.0-1.0s: PUNCH 1, the snap (flash-forward). Extreme close at the lens: his gloved hands snap a thick frozen shard of date bark in half toward the lens with a loud dry CRACK, chocolate splinters flying; the broken edge shows dark chocolate, tan peanut butter and caramel-brown dates; his face and sunglasses behind, upright. Camera shake.
+SHOT 02 — 1.0-2.0s: The dates. Low at counter level: he tears glossy pitted Medjool dates open and slaps them flat onto white parchment on a black rectangular baking sheet, overlapping them into a rectangle that fills the sheet; wet sticky slaps.
+SHOT 03 — 2.0-3.0s: The smash. Medium, his face above: he lays a second sheet of parchment on top and slams a heavy wooden rolling pin down on it with a loud thud, then rolls it hard from edge to edge.
+SHOT 04 — 3.0-4.2s: PUNCH 2, the peel. True top-down: he rips the top parchment away: one flat sticky caramel-brown date rectangle with four straight edges, filling the sheet.
+SHOT 05 — 4.2-6.0s: Peanut butter. True top-down, compressed time: an offset spatula drops a thick ribbon of creamy light tan peanut butter and spreads it in an even layer to all four edges, scraping.
+SHOT 06 — 6.0-7.2s: PUNCH 3, the pour. Low at pan level: a thick ribbon of glossy melted dark chocolate pours from a steel bowl onto the peanut butter, folding over itself.
+SHOT 07 — 7.2-8.4s: The spread. True top-down: the spatula spreads the chocolate to all four straight edges into a glossy mirror surface.
+SHOT 08 — 8.4-9.6s: PUNCH 4, the topping. Close, slow motion: chopped golden peanuts rain onto the wet chocolate like hail, then white flaky salt crystals fall from his gloved fingers.
+SHOT 09 — 9.6-10.8s: The freezer. Medium from the side: he slides the tray into a black freezer drawer under the marble and slams it shut with his knee; a puff of frost.
+SHOT 10 — 10.8-12.0s: PUNCH 5, out. Medium close, his face behind: he pulls the tray out with cold mist rolling off it and slams it on the marble; the chocolate is now matte and hard, frost on the edges.
+SHOT 11 — 12.0-13.2s: The knock. Low at tray level: his gloved knuckle knocks the frozen slab twice, a hard tok tok.
+SHOT 12 — 13.2-15.0s: PUNCH 6, the break. Close: he lifts the whole frozen slab off the tray and cracks it with both hands into random jagged shards over the tray, loud cracks, splinters jumping.
+SHOT 13 — 15.0-17.0s: The snap. Extreme macro right by the lens, slow motion: he snaps one thick shard in half toward the lens; a 0.3-second near silence, then the loudest crack of the second half; the three layers fill the frame, the date layer slightly chewy.
+SHOT 14 — 17.0-20.0s: PUNCH 7, the bite. Close on his face: he bites the shard, a loud crunch, his mouth closed as he chews; then his gloved hand takes another shard from the tray and lifts it toward the lens, running into the first frame so the video loops. No cut to black.
+
+SPEED + TRANSITIONS: compressed time on the spread and the freezer; slow-motion accents on the pour, the peanuts and the snap; every other shot real time or fast. Clean hard cuts on the impact.
+
+SILENT PERFORMANCE LOCK: completely nonverbal. No voice, no talking, no lip movement; the mouth opens only for the bite.
+
+CONTINUITY + PHYSICS: one rectangular baking sheet, one slab; frost only after the freezer; after the smash the dates stay one flat rectangle until the break; after the break, shards; one camera move per shot.
+
+LIGHTING: a hard warm tungsten key light (2700 K) from camera left plus the warm pool under the hood, the background falling to black, a warm rim on the glossy chocolate, the frost and the shards, sharp focus on his hands and the food.
+
+AVOID: a round or oval slab, a heart shape, a bar mould, candy bars, wrappers, packaging, logos, brand names, text on jars, caramel sauce, white chocolate, milk, a cake, cookies, an oven, a shot through glass, ingredient bowls lined up, a wide shot of him walking, a still shot where nothing changes, sunglasses off, a white t-shirt, a chain, bare hands, other people, alcohol, talking, cut to black, text, extra fingers, deformed hands, distorted face.
+
+===== EDIT (after the take is read frame by frame) =====
+- About 12.5 s; the snap first (flash-forward under 1 s), nothing after his bite but the loop frames; a trial reel.
+- Sound (THE SOUND FIRST): the opening crack the loudest (+8 dB after the compressors), the date slap and the rolling
+  pin slam the next two; 0-3 s at least +3 dB over the median, no window under it; the second snap second loudest after
+  its dip.
+- Cards (THE SHARE REEL, anim-kinetic.mjs):
+  - 0-3 s, 5 words, nothing else on screen: «سنيكرز من [التمر]» + «5 مكوّنات» counting up (dates, peanut butter, dark
+    chocolate, peanuts, sea salt);
+  - after 3 s: «بلا فرن» / "No oven" on the peel; pill «ساعة بالفريزر» / "1 hour in the freezer" on the freezer;
+    «اسمع الكسرة 🔊» / "Listen" on the break;
+  - the answer over the snap: «السر: [تمر + زبدة فول سوداني + شوكولا]» / "The secret: dates + peanut butter + dark
+    chocolate";
+  - the last 1.5 s: the pill «حلو من الكتاب · حلقة 1» and the share card «ابعتها للي ما بيقدر يترك الشوكولا» / "Send it
+    to the one who can't quit chocolate".
+- Series «حلو من الكتاب» (sweets from the book): N°111 now; next N°080 Healthy Snickers Stuffed Date, N°030
+  2-Ingredient Chocolate Truffles, N°075 Viral Frozen Yogurt Bark, N°027 Hot Chocolate Bombs, N°120 Pan-banging Cookies.
+- Caption title (the SERP shape): "Homemade Date Snickers Bark (5 Ingredients, No Bake)"; keyword «تمر» / DATES; the
+  recipe word for word in the pinned comment.
+- Read at 24 h: sends per 1,000 reach first (bar 8.7), then follows per 1,000, skip, the end, keyword comments; add
+  the numbers to its row in content-studio/idea-lab/ideas.md.
