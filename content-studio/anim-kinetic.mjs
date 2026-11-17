@@ -7,7 +7,7 @@
 // spec: {fps, cards: [{key, frames, y, items: [
 //   {k: "pill", t}                                  the series pill
 //   {k: "line", size?, parts: [{t, hl?}]}            words; a part with hl gets the gold block (its words move together)
-//   {k: "count", pre?, n, post}                      a number counting up from 0, e.g. pre «حوالي», n 37, post «غ بروتين»
+//   {k: "count", pre?, approx?, n, post}                      a number counting up from 0, e.g. pre «حوالي», n 37, post «غ بروتين»
 //   {k: "en", t}                                     the English line
 //   {k: "send", l1, l2, l3?}                         the share card with the paper plane (l3: the English line inside)
 // ]}]}
@@ -46,7 +46,7 @@ html,body{margin:0;width:1080px;height:1920px;background:transparent}
 .count{gap:16px;align-items:baseline}
 .num{font:900 150px/0.95 TajL,Taj,sans-serif;background:linear-gradient(180deg,#FFF0B8 0%,#F2C14E 48%,#C98A1C 100%);
   -webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 8px 16px rgba(0,0,0,.75));
-  font-variant-numeric:tabular-nums;min-width:1.2em;text-align:center}
+  font-variant-numeric:tabular-nums;min-width:1.2em;text-align:center;direction:ltr;unicode-bidi:isolate}
 .pre,.post{font:900 52px/1.1 Taj,TajL,sans-serif;color:#FFF6E0;
   text-shadow:0 3px 0 rgba(0,0,0,.6),0 8px 24px rgba(0,0,0,.8)}
 .pre{font-size:38px;color:#F2C14E}
@@ -82,7 +82,7 @@ function build(c) {
     }
     if (it.k === "count") {
       const pre = it.pre ? unit(`<span class="pre">${it.pre}</span>`, "pop") : "";
-      const num = unit(`<span class="num" data-n="${it.n}">0</span>`, "count");
+      const num = unit(`<span class="num" data-n="${it.n}" data-pre="${it.approx ? '~' : ''}">${it.approx ? '~' : ''}0</span>`, "count");
       const post = unit(`<span class="post">${it.post}</span>`, "pop");
       return `<div class="blk count">${pre}${num}${post}</div>`;
     }
@@ -147,7 +147,7 @@ for (const c of spec.cards) {
         }
         if (k === "count") {
           const num = e.querySelector(".num"), pc = out(cl((f - s - 2) / 16));
-          num.textContent = Math.round(+num.dataset.n * pc);
+          num.textContent = num.dataset.pre + Math.round(+num.dataset.n * pc);   // approx: "~" inside the number, same size
           sc *= 1 + 0.08 * Math.sin(Math.PI * cl((f - s - 16) / 6));   // a pop when it reaches the number
         }
         if (k === "send") {

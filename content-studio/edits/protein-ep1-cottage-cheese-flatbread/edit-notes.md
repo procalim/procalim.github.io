@@ -55,3 +55,10 @@ No keyword card on the video: the keyword and the recipe live in the caption and
 - v7 (delivered): the dial blurred as a feathered circle (radius 205 px); one tiny line of dial print stays at its edge.
   12.17 s, 292 frames, 1080x1920, -13.1 LUFS, -1.5 dBTP; DEAD 0, SLOW 0, LONG 0, QUIET 0; 0-3 s +2.9 dB, min -1.6.
   Higgsfield media 312db2a0 (md5 e420995d).
+- v8 (owner, 2026-11-17: «اول ثلاث ثواني الهووك 6 كلمات بس ... نفس الاستراتيجية بس الكلام موزع ... والجواب
+  بنهاية»): v7 showed 11 Arabic words, the series pill and an English line in 0-2.25 s. Now 0-3.0 s holds only
+  «خبز [بلا طحين]» + «~37 غ بروتين» (6 words); «لسّا سائل…» from 3.0 s; the proof card dropped; the answer
+  «السر: [جبنة قريش وبيضتين]» / "The secret: cottage cheese + 2 eggs" over the cut and the pull (9.38-10.70 s); the
+  series pill over the share card (10.70 s to the end). The «~» rendered as a small dash beside the number.
+- v9 (delivered): the «~» inside the number, same size (direction isolated). Same cut and sound: 12.17 s, -13.1 LUFS,
+  -1.5 dBTP, flags 0, 0-3 s +2.9 dB, the clang the loudest. Higgsfield media cb9e82a1 (md5 6b7d5395).

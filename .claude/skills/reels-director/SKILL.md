@@ -81,12 +81,15 @@ Owner: «ضيفتلك بعض مهارات جديدة للبرومبت والتأ
 ## THE SHARE REEL (owner's call, 2026-11-16, second call: «هون اجى دورك بالهووك والدعوة الفيروسي غير طريقة كل شغلنا السابقة لأنها ما نجحة بالهووك والدعوة خليها مشاركة ... حتى العنوان أضف في home made وقصر الكابشن والعنوان اقوى هووك بحث او بس عنوان قوي وهاشتاغ وتعليق مثبت فيو التفاصيل حتى التصميم الكتابة اشتغل على مهارة المحترفين بالكتابة والانيميشين»)
 Replaces the «في غلطة وحدة» formula of THE HOOK RULE below (its open-question test stays). First use: Protein from
 the Book ep 1 (edits/protein-ep1-cottage-cheese-flatbread/), measured by sends per 1,000 reach (report, 2026-11-16).
-- Hook, 0 to about 2.4 s: the series pill, then a paradox or a promise with a number, never a question and never the
-  answer: «خبز [بلا طحين]» + «حوالي 37 غ بروتين» counting up. The picture keeps a question open (liquid -> bread?).
+- Hook, 0-3 s: 6 words at most, nothing else on screen in 0-3 s (no pill, no English) (owner, 2026-11-17: «اول ثلاث
+  ثواني الهووك 6 كلمات بس ... نفس الاستراتيجية بس الكلام موزع ... والجواب بنهاية»). A paradox or a promise with a
+  number, never a question and never the answer: «خبز [بلا طحين]» + «~37 غ بروتين» counting up. The picture keeps a
+  question open (liquid -> bread? made of what?).
+- The answer to the hook lands at the end, before the share card: «السر: [جبنة قريش وبيضتين]».
 - Middle cards tell the story in 2-3 words each, a new one every 2-3 s: «لسّا سائل…», the time pill, «وصار خبز!»,
   a proof («بينلفّ وما بينكسر»).
-- The call on the video is a share card over the payoff to the end: «ابعتها للي دايماً بيقلّك:» / «ما بقدر أترك الخبز»
-  with the paper plane, the English inside the card. It names one person the viewer knows. No keyword card on the video.
+- The call on the video is a share card for the last 1.5 s or more: «ابعتها للي دايماً بيقلّك:» / «ما بقدر أترك الخبز»
+  with the paper plane, the English inside the card, the series pill above it. It names one person the viewer knows. No keyword card on the video.
 - Caption, short: line 1 the search title with Homemade ("Homemade Cottage Cheese Flatbread (~37g Protein, No
   Flour)", the SERP's own shape), line 2 the same share line, one short paragraph (what it is, the episode, where the
   recipe is: the pinned comment, or the keyword for the recipe and the free PDF), the purchase line, then Arabic the

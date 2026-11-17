@@ -96,13 +96,15 @@ TOTAL = t
 L = {lab: (s, e) for s, e, lab in labels}
 
 # ---- the cards (owner, 2026-11-16: the hook and the call rewritten, the share card; pro kinetic type) ----
+# v8 (owner, 2026-11-17: «اول ثلاث ثواني الهووك 6 كلمات بس ... نفس الاستراتيجية بس الكلام موزع ... والجواب بنهاية»):
+# 0-3 s carries the hook alone, 6 words, no pill and no English; the rest after 3 s; the answer card at the end, then
+# the share card with the series pill.
+H = 3.0
 CARDS = [
-    ('hook', 0.0, L['the plop'][1], 1130, [
-        {'k': 'pill', 't': 'بروتين من الكتاب · حلقة 1'},
-        {'k': 'line', 'size': 96, 'parts': [{'t': 'خبز'}, {'t': 'بلا طحين', 'hl': True}]},
-        {'k': 'count', 'pre': 'حوالي', 'n': 37, 'post': 'غ بروتين'},
-        {'k': 'en', 't': 'Homemade. No flour. ~37 g protein.'}]),
-    ('liquid', L['the pour'][0], L['the spread'][1], 1270, [
+    ('hook', 0.0, H, 1150, [                                  # خبز بلا طحين ~37 غ بروتين: 6 words
+        {'k': 'line', 'size': 100, 'parts': [{'t': 'خبز'}, {'t': 'بلا طحين', 'hl': True}]},
+        {'k': 'count', 'approx': True, 'n': 37, 'post': 'غ بروتين'}]),
+    ('liquid', H, L['the spread'][1], 1270, [
         {'k': 'line', 'size': 80, 'parts': [{'t': 'لسّا'}, {'t': 'سائل…', 'hl': True}]},
         {'k': 'en', 't': 'Still liquid…'}]),
     ('time', L['the oven'][0], L['the clock'][1], 300, [
@@ -111,10 +113,11 @@ CARDS = [
     ('bread', L['out of the oven'][0] + 0.08, L['out of the oven'][1], 700, [
         {'k': 'line', 'size': 90, 'parts': [{'t': 'وصار'}, {'t': 'خبز!', 'hl': True}]},
         {'k': 'en', 't': 'And now it’s bread!'}]),
-    ('wrap', L['the roll'][0], L['the cut'][1], 640, [
-        {'k': 'line', 'size': 74, 'parts': [{'t': 'بينلفّ'}, {'t': 'وما بينكسر', 'hl': True}]},
-        {'k': 'en', 't': 'Rolls up. Never cracks.'}]),
-    ('send', L['the pull'][0], TOTAL, 1240, [
+    ('answer', L['the cut'][0], L['the pull'][1] - 0.3, 1240, [   # the answer to the hook, at the end
+        {'k': 'line', 'size': 76, 'parts': [{'t': 'السر:'}, {'t': 'جبنة قريش وبيضتين', 'hl': True}]},
+        {'k': 'en', 't': 'The secret: cottage cheese + 2 eggs'}]),
+    ('send', L['the pull'][1] - 0.3, TOTAL, 1160, [
+        {'k': 'pill', 't': 'بروتين من الكتاب · حلقة 1'},
         {'k': 'send', 'l1': 'ابعتها للي دايماً بيقلّك:', 'l2': 'ما بقدر أترك الخبز',
          'l3': 'Send it to the one who “can’t quit bread”'}]),
 ]
