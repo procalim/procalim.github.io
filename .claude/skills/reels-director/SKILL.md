@@ -100,7 +100,13 @@ the Book ep 1 (edits/protein-ep1-cottage-cheese-flatbread/), measured by sends p
   recipe is: the pinned comment, or the keyword for the recipe and the free PDF), the purchase line, then Arabic the
   same way, 3-5 hashtags.
 - Pinned comment: the recipe from the book word for word in both languages, a halal line, the keyword for the PDF.
-- Cards from 2026-11-17 (owner: «الكتابة والتصميم ... احلى من التصميم ابيضّ او اسود والهووك ميل ig viral، مش نفس
+- Cards from 2026-11-17, second call (owner: «الكتابة بدون ملصق وبخط كتابة مرتب ويطلع صوت الكتابة هي وخفيف على
+  الشاشة»): content-studio/anim-typed.mjs (sandbox /home/user/ov/typed.mjs). No boxes and no labels at all: white
+  El Messiri (Arabic) and Playfair (English) with a soft shadow, typed letter by letter (26 letters a second), a light
+  key click on each letter mixed after the shape at about -24 dBFS (edits/date-snickers-bark/edit_date_bark.py), a soft
+  dark glow with no edge behind the lines only where the picture is bright, little text (one or two lines a card).
+- The first editorial try (white labels), replaced the same day:
+  Cards from 2026-11-17 (owner: «الكتابة والتصميم ... احلى من التصميم ابيضّ او اسود والهووك ميل ig viral، مش نفس
   تصميم الي قبل»): content-studio/anim-editorial.mjs (sandbox /home/user/ov/editorial.mjs), the look of the swipe
   file's top reels: the hook as a white serif title on the food with no box (El Messiri 104 px + Playfair caps), the
   series as a small line, statements and the share line on Instagram's own white label with black text; quiet motion
