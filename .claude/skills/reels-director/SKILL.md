@@ -78,6 +78,19 @@ Owner: «ضيفتلك بعض مهارات جديدة للبرومبت والتأ
 - promptmaster: when a short owner message can be read two ways («نفس البطاطا»), restate it as one exact task in one
   line before doing it. The standing rules stay in CLAUDE.md and this skill.
 
+## THE 1-2 S DROP (2026-11-17, the 24 h curves; owner: «مش عرف ليش الناس بتفل»; the guide's step 5, our winner next to our flops)
+| Reel | 0-1 s on screen | 1 s | 2 s | 3 s | end |
+|---|---|---|---|---|---|
+| Crinkle Cake (142.7x) | an unfinished shape nobody has seen, nothing finished before 7.5 s | | | | 56% |
+| Date bark v4 | the finished bar snapped (the answer), then raw dates at 0.96 s | ~90% | ~52% | ~43% | ~14% |
+| Protein flatbread v9 | an empty pan and his face (no question) | ~75% | ~40% | ~35% | ~12% |
+| Tacos | the plate | ~90% | ~60% | ~45% | ~18% |
+All three flops lost 30-38 points between 1 and 2 s whatever the dish, the hook words, the card style or the sound.
+The cut count is not it: the outside 8x reels also cut 0-4 times in 0-3.5 s (scdet, swipe-2026-11-17). Rule from now:
+no payoff flash; frame one is an unfinished picture that asks a question only the end answers (the crinkle way), the
+hook says what it will become («رح يصير سنيكرز»), nothing finished before the middle. Test: date bark v5 (media
+254feefa) against v4's 52% at 2 s; the bar is 65% at 2 s.
+
 ## IDEA FIRST (owner, 2026-11-17: «مشكلتنا بالفكرة مش بالفيديو» ... «بلش»)
 No prompt is written before the idea passes `.claude/skills/idea-lab/SKILL.md` (7 of 10 or more: the send sentence,
 outside evidence as outlier multiples, the book, the 6-word hook, a number or identity, the sound, a series slot).

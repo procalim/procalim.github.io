@@ -7,14 +7,15 @@ import subprocess, re, wave, json, sys, numpy as np
 FPS, SRC, PRE = 24, 'take.mp4', 3
 SHOTS = [0, 23, 34, 46, 57, 67, 80, 102, 114, 133, 164, 188, 225, 249, 300, 321, 331, 341, 357, 401, 453, 481]
 SEGS = [  # (first frame, end frame, speed, label, impact frame in the source or None, push-in or None)
-    (0, 23, 1.0, 'the snap', 2, (1.02, 1.05)),            # the flash-forward: the crack at 0.08 s, the loudest moment
-    (36, 46, 1.0, 'the dates', None, None),
+    # v5 (2026-11-17, the crinkle rule after the 24 h curves): no payoff flash. The flash at 0-0.96 s answered the
+    # picture's question, and the curve fell 90% -> 52% when the cut went back to raw dates. The crinkle (142.7x)
+    # opened on an unfinished shape and showed nothing finished before 7.5 s. Now: the parchment over the dates first.
     (46, 57, 1.0, 'the parchment', 50, None),              # the sheet slapped on, his face
     (57, 80, 1.2, 'the roll', 60, None),                   # the rolling pin slam, his face
     (80, 102, 1.3, 'the peel', None, None),
     (102, 133, 1.6, 'peanut butter', None, None),
     (133, 164, 2.0, 'the pour', None, (1.0, 1.10)),        # v2: 1.3x read DEAD
-    (164, 188, 1.5, 'the spread', None, None),
+    (164, 188, 2.0, 'the spread', None, (1.0, 1.08)),        # v5: 1.5x read SLOW
     (188, 222, 1.6, 'the peanuts', None, (1.0, 1.06)),     # v3: the salt end read DEAD at 1.3x
     (225, 249, 1.0, 'the freezer', 237, None),             # the drawer slam
     (249, 270, 1.2, 'out, frozen', 254, (1.02, 1.08)),     # the tray slam, mist, his face: the middle peak (v2: SLOW)
@@ -75,8 +76,8 @@ L = {lab: (s, e) for s, e, lab in labels}
 # ---- typed cards: no boxes, little text, the hook alone in 0-3 s (6 words), the answer and the share line at the end
 H = 3.0
 CARDS = [
-    ('hook', 0.12, H, 1290, False, [{'k': 'title', 't': 'سنيكرز من التمر'}, {'k': 'caps', 't': 'date snickers bark'}]),
-    ('five', H, L['peanut butter'][1], 880, False, [{'k': 'line', 't': '5 مكوّنات، بلا فرن'}, {'k': 'italic', 't': '5 ingredients, no oven'}]),
+    ('hook', 0.12, H, 1290, False, [{'k': 'title', 't': 'رح يصير سنيكرز'}, {'k': 'caps', 't': 'becomes snickers'}]),
+    ('five', H, L['the spread'][1], 880, False, [{'k': 'line', 't': '5 مكوّنات، بلا فرن'}, {'k': 'italic', 't': '5 ingredients, no oven'}]),
     ('freezer', L['the freezer'][0], L['the freezer'][1] + 0.3, 300, False, [{'k': 'line', 't': 'ساعة بالفريزر'}, {'k': 'italic', 't': '1 hour in the freezer'}]),
     ('listen', L['the knock'][0], L['the knock'][1], 560, False, [{'k': 'line', 't': 'اسمع الكسرة'}]),
     ('answer', L['the break'][0], L['the snap again'][1], 1330, True,   # v2: from the break, 2 s to read
@@ -141,9 +142,9 @@ run(['ffmpeg', '-v', 'error', '-y', '-i', 'jmix.wav', '-af',
 I, P = meas('mix.wav'); g0 = -17.5 - I
 run(['ffmpeg', '-v', 'error', '-y', '-i', 'mix.wav', '-af', f'volume={g0:.2f}dB,alimiter=limit=0.80:attack=2:release=60:level=disabled', 'mix2.wav'])
 I2, P2 = meas('mix2.wav'); g = -17.5 - I2
-C0 = 2 / FPS                                     # the opening crack (f2)
-S1 = L['the parchment'][0] + 4 / FPS            # the parchment slap (f50)
-S2 = L['the roll'][0] + 3 / 1.2 / FPS           # the rolling pin slam (f60)
+C0 = 4 / FPS                                     # v5: the parchment slap (f50) opens the reel
+S1 = L['the roll'][0] + 3 / 1.2 / FPS           # the rolling pin slam (f60)
+S2 = L['the peel'][0] + 2 / FPS                  # the parchment ripped off the dates
 B = L['the snap again'][0] + 5 / FPS             # the payoff crack (f362)
 SHAPE = (f"volume=8dB:enable='between(t,0,{C0 + 0.4:.3f})',"                 # the loudest sound of the reel, first
          f"volume=4dB:enable='between(t,{C0 + 0.41:.3f},3.0)',"              # 0-3 s held over the median
@@ -162,7 +163,7 @@ fc.append(f'[{na}:a]volume={g:.2f}dB,' + SHAPE.rstrip(',') + '[sh]')
 fc.append(f'[{na + 1}:a]volume={g:.2f}dB[ck]')
 fc.append('[sh][ck]amix=inputs=2:normalize=0:duration=first,' + LIM + ',pan=stereo|c0=c0|c1=c0[ao]')
 ins += ['-i', 'mix2.wav', '-i', 'clicks.wav']
-OUT = 'date-snickers-bark.mp4'
+OUT = 'date-snickers-bark-v5.mp4'
 run(['ffmpeg', '-v', 'error', '-y', *ins, '-filter_complex', ';'.join(fc), '-map', '[v]', '-map', '[ao]',
      '-frames:v', str(round(TOTAL * FPS)), '-c:v', 'libx264', '-preset', 'slow', '-crf', '16', '-profile:v', 'high',
      '-pix_fmt', 'yuv420p', '-color_primaries', 'bt709', '-color_trc', 'bt709', '-colorspace', 'bt709', '-color_range', 'tv',
