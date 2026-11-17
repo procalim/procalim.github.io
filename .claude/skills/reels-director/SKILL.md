@@ -40,6 +40,29 @@ description: >
    «هالأكلة إلها طعمة البيت، والعيلة كلها حوالين صحن واحد. حطيت هالإحساس بـ ٣٦١ وصفة بكتابي The Edible Codex،
    مشان سفرتك ما يخلص فيها سبب للّمّة. الرابط بالبايو 📕»
 
+## THE MEASURED RULE: SOUND RANGE AND THE FIRST SHOT (2026-11-17; overrides every line below that says -14 LUFS,
+## compress, lift 0-3 s over the median, QUIET flags, or cuts every 0.5-1.5 s)
+Owner: «الفكرة مش بالوصفة في بداية المحتوى والصوت». All 68 measurable reels against Instagram's own skip rate
+(`content-studio/research/opening-sound-audit-2026-11-17.md`):
+- Louder = more skip (rho +0.60). Range 18 dB or more: median skip 33.5%, avg watch 8.5 s (n 40). Under 10 dB: 47.6%,
+  5.8 s (n 16). It holds inside each month.
+- Cuts in 0-3 s: none 32.1% (n 25), 1-2 37.8% (n 25), 3 or more 47.0% (n 18). Length: no effect.
+- Our chain did it: raw Seedance takes read -18 to -21 LUFS with 22-23 dB of range (the August winners' shape);
+  `dynaudnorm` + 2 compressors + -14 LUFS left 5-10 dB. Since 22 Oct every reel was -14 LUFS and none skipped under 35%.
+Every edit from now:
+1. Sound: the take's own sound, no `dynaudnorm`, no compressor, nothing lifted in 0-3 s. Gain to -20 LUFS integrated,
+   a peak-only limiter (`alimiter=limit=0.89` at 192 kHz). Range (p95-p10 of 0.25 s RMS windows) 18 dB or more; check
+   with `/home/user/rv/dr.py` (LUFS, true peak, range) before delivery. The dip before the payoff stays. Typing clicks
+   3 dB under the old level. Reference: `edit_date_bark.py` DYN (v6).
+2. The first shot: one continuous shot for the first 3 s (0 cuts; 1 at most), his face and glasses in a medium shot,
+   one clean subject on dark, one continuous motion that builds a picture, a quiet room then single sharp hits.
+   No raw ingredients in bowls, no paper or card covering the frame, in 0-3 s.
+3. The whole reel: about one cut every 2.5-3.5 s (the August winners: 0.2-0.35 cuts a second). pp.py's DEAD, SLOW
+   and QUIET flags no longer fail a reel; read range, loudness and cuts instead.
+4. Prompts: shot 1 written as one locked continuous shot of 3-4 s; AUDIO line «a quiet room; only the real sounds of
+   each action, each one sharp and separate; silence between them; no music, no bass hits, no whooshes».
+The proof still owed: date bark v5 (flat) against v6 (same picture, dynamic) as two Trial Reels, same hour.
+
 ## BACK TO COOKCUT, 20 S (owner's call, 2026-11-15, after the two trial reads)
 Owner: «احنا عم نلعب بنار الفيديو قصير كثير ونسبة إكمال لازم تكون ٪60 لينفجر ... الفيديوات مش لازم يكونو أقصر من 12 ...
 جمهور Rima بختلف عن جمهوري بكثير ... منكتب prompt عن طريق كاوكت ومنركز بالفيديو على الصوت طول الفيديو وضربة عنف واكشن ...

@@ -5,6 +5,7 @@
 # The opening is the evidence's payoff-first shape (swipe-2026-11-17: the dish at 8.6x and 8.2x): the snap at 0.08 s.
 import subprocess, re, wave, json, sys, numpy as np
 FPS, SRC, PRE = 24, 'take.mp4', 3
+DYN = 'flat' not in sys.argv   # v6: the dynamic master (default); 'flat' rebuilds v5's -14 LUFS chain
 SHOTS = [0, 23, 34, 46, 57, 67, 80, 102, 114, 133, 164, 188, 225, 249, 300, 321, 331, 341, 357, 401, 453, 481]
 SEGS = [  # (first frame, end frame, speed, label, impact frame in the source or None, push-in or None)
     # v5 (2026-11-17, the crinkle rule after the 24 h curves): no payoff flash. The flash at 0-0.96 s answered the
@@ -135,13 +136,21 @@ wr('clicks.wav', clicks[:int(TOTAL * SR)], SR)
 
 open('vlist.txt', 'w').write(''.join(f"file 'seg{i:02d}.mkv'\n" for i in range(len(SEGS))))
 run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-i', 'vlist.txt', '-c', 'copy', 'cut.mkv'])
-run(['ffmpeg', '-v', 'error', '-y', '-i', 'jmix.wav', '-af',
+if DYN:
+    # v6 (2026-11-17, all 68 measurable reels against their skip rate): the old chain below (dynaudnorm + 2 compressors
+    # + a -14 LUFS export) flattened the take from 22 dB of range to 7 dB. The 40 reels that kept 18 dB or more skipped
+    # at a median 33.5%, the 16 under 10 dB at 47.6% (Spearman: loudness vs skip +0.60, range vs avg watch +0.57).
+    # So: the take's own dynamics, -20 LUFS, a true-peak catch at -1 dB, nothing lifted in 0-3 s.
+    run(['ffmpeg', '-v', 'error', '-y', '-i', 'jmix.wav', '-c:a', 'pcm_s16le', 'mix2.wav'])
+    I, P = meas('mix2.wav'); I2, P2 = I, P; g = -20.0 - I
+else:
+  run(['ffmpeg', '-v', 'error', '-y', '-i', 'jmix.wav', '-af',
      'dynaudnorm=f=150:g=5:p=0.9:m=12,'
      'acompressor=threshold=-30dB:ratio=4:attack=4:release=150:makeup=1,acompressor=threshold=-18dB:ratio=3:attack=2:release=80',
      '-c:a', 'pcm_s16le', 'mix.wav'])
-I, P = meas('mix.wav'); g0 = -17.5 - I
-run(['ffmpeg', '-v', 'error', '-y', '-i', 'mix.wav', '-af', f'volume={g0:.2f}dB,alimiter=limit=0.80:attack=2:release=60:level=disabled', 'mix2.wav'])
-I2, P2 = meas('mix2.wav'); g = -17.5 - I2
+  I, P = meas('mix.wav'); g0 = -17.5 - I
+  run(['ffmpeg', '-v', 'error', '-y', '-i', 'mix.wav', '-af', f'volume={g0:.2f}dB,alimiter=limit=0.80:attack=2:release=60:level=disabled', 'mix2.wav'])
+  I2, P2 = meas('mix2.wav'); g = -17.5 - I2
 C0 = 4 / FPS                                     # v5: the parchment slap (f50) opens the reel
 S1 = L['the roll'][0] + 3 / 1.2 / FPS           # the rolling pin slam (f60)
 S2 = L['the peel'][0] + 2 / FPS                  # the parchment ripped off the dates
@@ -152,6 +161,9 @@ SHAPE = (f"volume=8dB:enable='between(t,0,{C0 + 0.4:.3f})',"                 # t
          f"volume=3dB:enable='between(t,{S2 - 0.04:.3f},{S2 + 0.3:.3f})',"
          f"volume=-9dB:enable='between(t,{B - 0.25:.3f},{B - 0.01:.3f})',")   # the dip before the payoff crack
 LIM = 'aresample=192000,alimiter=limit=0.83:attack=5:release=50:level=disabled,aresample=48000'
+if DYN:   # only the dip before the payoff crack (contrast), and a limiter that catches peaks only
+    SHAPE = f"volume=-9dB:enable='between(t,{B - 0.25:.3f},{B - 0.01:.3f})',"
+    LIM = 'aresample=192000,alimiter=limit=0.89:attack=1:release=40:level=disabled,aresample=48000'
 ins = ['-i', 'cut.mkv']; fc = ['[0:v]setsar=1,format=yuv420p[b0]']; last = 'b0'
 for k, (key, s, e, y, sc, it) in enumerate(CARDS):
     ins += ['-framerate', str(FPS), '-i', f'typ/{key}/f%03d.png']
@@ -160,10 +172,10 @@ for k, (key, s, e, y, sc, it) in enumerate(CARDS):
 fc.append(f'[{last}]format=yuv420p[v]')
 na = len(CARDS) + 1
 fc.append(f'[{na}:a]volume={g:.2f}dB,' + SHAPE.rstrip(',') + '[sh]')
-fc.append(f'[{na + 1}:a]volume={g:.2f}dB[ck]')
+fc.append(f'[{na + 1}:a]volume={g - (3 if DYN else 0):.2f}dB[ck]')   # v6: the clicks 3 dB lighter over the quiet room
 fc.append('[sh][ck]amix=inputs=2:normalize=0:duration=first,' + LIM + ',pan=stereo|c0=c0|c1=c0[ao]')
 ins += ['-i', 'mix2.wav', '-i', 'clicks.wav']
-OUT = 'date-snickers-bark-v5.mp4'
+OUT = 'date-snickers-bark-v6.mp4' if DYN else 'date-snickers-bark-v5.mp4'
 run(['ffmpeg', '-v', 'error', '-y', *ins, '-filter_complex', ';'.join(fc), '-map', '[v]', '-map', '[ao]',
      '-frames:v', str(round(TOTAL * FPS)), '-c:v', 'libx264', '-preset', 'slow', '-crf', '16', '-profile:v', 'high',
      '-pix_fmt', 'yuv420p', '-color_primaries', 'bt709', '-color_trc', 'bt709', '-colorspace', 'bt709', '-color_range', 'tv',

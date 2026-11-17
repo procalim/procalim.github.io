@@ -33,3 +33,10 @@ ac48a232 (md5 640ccc45), 13.54 s, 1080x1920.
 - v4 (delivered): the bite with a push, typing speed set per card, clicks deduplicated. DEAD 0, SLOW 0, LONG 0,
   QUIET 0; -13.3 LUFS, -1.6 dBTP; 0-3 s +4.4 dB over the median, min -0.5, no quiet window; the loudest half seconds
   0.0, 0.5, 2.0, 1.5 s (the opening crack first).
+- v5 (2026-11-17, the crinkle rule): no payoff flash, the parchment slap first; 12.0 s, flags 0, -13.4 LUFS, range
+  7.4 dB (media 254feefa).
+- v6 (2026-11-17, research/opening-sound-audit-2026-11-17.md): v5's picture frame for frame, the sound rebuilt with
+  `DYN` (no dynaudnorm, no compressors, nothing lifted in 0-3 s, -20 LUFS gain, peak-only limiter, clicks -3 dB).
+  -17.4 LUFS, -0.9 dBTP, range 19.2 dB (v5 7.4). 0-3 s in 0.25 s windows, dB: v5 -9 -10 -10 -10 -10 -13 -11 -13 -17
+  -14 -12 -13 (a wall); v6 -16 -13 -14 -26 -20 -17 -21 -23 -23 -36 -33 -25 (hits with the room quiet between them).
+  Media 3c42152e. The A/B: v5 and v6 as two Trial Reels, same hour; the only difference is the sound.
