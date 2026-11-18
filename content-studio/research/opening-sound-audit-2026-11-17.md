@@ -90,3 +90,32 @@ The takes come out of Seedance with the same shape as the August winners. `dynau
 Date bark v5 (flat, -13.4 LUFS, 7 dB) and v6 (the same picture frame for frame, the take's own sound at -20 LUFS) as
 two Trial Reels, same hour. Read skip and the 2 s point at 24 h. Then the next prompt carries both rules:
 one continuous opening shot of 3 s or more, and the dynamic master.
+
+## Addendum 2026-11-18: protein ep 2's 24 h read, the hits in 0-3 s, and what gets sent
+Ep 2 (cottage cheese ice cream, the first reel on this rule): skip 39.6% (the last 10 reels 47-66%), average watch
+7.6 s (the best since October), 1,048 reached, 1 share, 3 saves. Curve (owner's screenshot): about 90% at 1 s, 75% at
+2 s, 61% at 3 s, 49% at 4 s, flat 36-38% from 5 to 7 s, 16% at the end. The 2 s point beat the bar (65%); the drop
+moved later, to 1-4 s.
+
+Measured on 66 reels' files (0.1 s windows; an onset = a rise of 6 dB or more; motion = mean frame difference):
+| Measure in 0-3 s | Group | n | Median skip | Median avg watch |
+|---|---|---|---|---|
+| Sharp sound onsets | 6 or more | 27 | 33.7% | 8.5 s |
+| | 3-5 | 22 | 37.0% | 8.3 s |
+| | 2 or fewer | 17 | 47.7% | 6.0 s |
+| Picture motion 1-3 s | low third | 22 | 32.5% | 8.6 s |
+| | middle third | 21 | 35.3% | 8.2 s |
+| | high third | 23 | 46.8% | 6.9 s |
+Spearman vs skip: onsets -0.44 (p 0.0002), motion +0.45 (p 0.0001).
+The winners: Hot Honey Salmon 7 onsets (0.1, 0.9, 1.4, 1.8, 2.2, 2.7 s), Eggs Benedict 8, Chips 6, Macarons 4 spread a
+second apart. Ep 2: 2 onsets, both at 0.5-0.6 s (the plop), then 2.5 s of near silence (-45 to -50 dB) while the honey
+poured: the 1-4 s drop. Ep 3: 4 onsets (0.2, 0.3, 1.5, 2.2 s).
+Rule: one calm continuous shot AND a new sharp sound every 0.5-1 s through 0-3 s (6 or more); no silent action
+(a pour, a drizzle) in 0-3 s.
+
+Sends per 1,000 reach (95 reels): the two captions with a kids angle 8.7 (stuffed sweet potato patties, 25,561 reached)
+and 7.8 (sweet potato flatbreads, «Send this to someone whose kids won't touch vegetables», 5,129 reached): the two
+biggest reaches since October. The mistake people forward: Five Sauces 22.5, Glass Tanghulu "why yours comes out
+sticky" 21.7, Chocolate Tempering "loses temper above 34°C" 19.6, Rice "turns to paste" 11.1. Median of the rest 1.7.
+Ep 2's "the one on a diet who still loves sweets": 0.95. Rule: the send line names a parent's problem with their kids
+or a mistake the viewer's friend makes.

@@ -61,6 +61,13 @@ Every edit from now:
    and QUIET flags no longer fail a reel; read range, loudness and cuts instead.
 4. Prompts: shot 1 written as one locked continuous shot of 3-4 s; AUDIO line «a quiet room; only the real sounds of
    each action, each one sharp and separate; silence between them; no music, no bass hits, no whooshes».
+5. (2026-11-18, ep 2's read: skip 39.6%, 90% -> 49% between 1 and 4 s while the honey poured in silence) In 0-3 s a
+   new sharp sound every 0.5-1 s, 6 or more (66 reels: 6+ onsets 33.7% skip, 2 or fewer 47.7%), and a calm picture
+   (motion low third 32.5%, high third 46.8%). No silent action (a pour, a drizzle) in 0-3 s; write each hit's second
+   into shot 1. Check with `content-studio/edits/_tools/open3.py` (sandbox: /home/user/rv/open3.py) before delivery.
+6. The send line (95 reels): a parent's problem with their kids (8.7 and 7.8 sends per 1K, the two biggest reaches
+   since October) or the mistake a friend makes (11-22 per 1K); everything else median 1.7; «the one on a diet who
+   loves sweets» 0.95.
 The proof still owed: date bark v5 (flat) against v6 (same picture, dynamic) as two Trial Reels, same hour.
 
 ## BACK TO COOKCUT, 20 S (owner's call, 2026-11-15, after the two trial reads)

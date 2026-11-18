@@ -3,7 +3,9 @@ English PDF page 254). Owner, 2026-11-18: «جهز الحلقتين المقبل
 @nora.dora99; research/swipe-2026-11-18.md). Status: NOT generated. The owner generates on higgsfield.ai with his
 unlimited (720p, no credits).
 
-ON THE MEASURED RULE (research/opening-sound-audit-2026-11-17.md), like ep 2: shot 01 one continuous locked shot
+ON THE MEASURED RULE (research/opening-sound-audit-2026-11-17.md), like ep 2, with the ep 2 read added (2026-11-18:
+skip 39.6%, but 90% -> 49% between 1 and 4 s while the honey poured in silence; 66 reels: 6+ sharp sounds in 0-3 s
+skip 33.7%, 2 or fewer 47.7%): a new sharp sound every half second in 0-3 s. Shot 01 one continuous locked shot
 0-4 s (no cut in 0-3 s), his face, the white block of curds with one amber line of syrup drawn across it; a quiet
 room with single sharp sounds; 7 shots in 20 s. The outliers open on a face eating the finished dough; ours keeps the
 answer for the end (THE 1-2 S DROP: no payoff flash). Shot 01 differs from ep 2: a tall glass blender jar, the camera
@@ -58,9 +60,9 @@ PROCESS ORDER / NON-REPETITION LOCK: curds, syrup and vanilla into the blender -
 
 RETENTION: Shot 01 asks the question (a block of cottage cheese with syrup: what will it become?); the answer, a thick spoonful of cookie dough, appears only in shots 06-07. Every shot shows one visible change. The last frame matches the first frame's framing so the video loops.
 
-SOUND, THE WHOLE VIDEO: a quiet kitchen. Only the real sounds of each action, each one sharp, close and separate, with near silence between them: the heavy wet plop of the curds into the glass jar at 0.4 seconds; the small clink of the teaspoon on the rim; the hard click of the lid; the blender's rising whir that stops dead into silence; the soft thick pour; the dull soft thud of the flour; the spatula working the thick dough; the tiny crisp taps of chocolate chips raining down; a 0.3-second silence, then the thick spoon pulling out of the dough and the bite, the loudest sound of the video. No music, no voice, no bass hits, no whooshes, no risers.
+SOUND, THE WHOLE VIDEO: a quiet kitchen. Only the real sounds of each action, each one sharp, close and separate, with near silence between them. In the first 3 seconds a new sharp sound every half second: the heavy wet plop of the curds into the glass jar at 0.3 s, two hard taps of the empty tub on the rim at 0.8 and 1.2 s, the click of the syrup cap at 1.6 s, two clinks of the teaspoon on the glass at 2.4 and 2.8 s, the hard click of the lid at 3.3 s and two knuckle taps on the lid at 3.6 and 3.8 s. Then: the blender's rising whir that stops dead into silence; the soft thick pour; the dull soft thud of the flour; the spatula working the thick dough; the tiny crisp taps of chocolate chips raining down; a 0.3-second silence, then the thick spoon pulling out of the dough and the bite, the loudest sound of the video. No music, no voice, no bass hits, no whooshes, no risers.
 
-SHOT 01 — 0.0-4.0s: ONE CONTINUOUS LOCKED SHOT, NO CUT, the camera still. Low at counter level: a tall glass blender jar on the black marble in front, his face and sunglasses upright above and behind it. He turns a plain white tub upside down over the open jar; the whole block of white curds slides out still holding the tub's round shape and drops in with one heavy wet plop at 0.4 s. He pours maple syrup in one thin amber ribbon that draws a line across the white block (1.2-2.5 s), tips one teaspoon of vanilla in with a small clink on the rim (2.9 s), and presses the lid on with one hard click (3.6 s). Nothing else moves.
+SHOT 01 — 0.0-4.0s: ONE CONTINUOUS LOCKED SHOT, NO CUT, the camera still. Low at counter level: a tall glass blender jar on the black marble in front, his face and sunglasses upright above and behind it. He turns a plain white tub upside down over the open jar; the whole block of white curds slides out still holding the tub's round shape and drops in with one heavy wet plop at 0.3 s; he taps the empty tub twice on the rim, tok, tok (0.8 and 1.2 s), and sets it aside. He snaps open the syrup cap with a click (1.6 s) and pours one thin amber ribbon of maple syrup across the white block (1.7-2.2 s), tips one teaspoon of vanilla in and clinks the spoon twice on the glass (2.4 and 2.8 s), presses the lid on with one hard click (3.3 s) and taps it twice with a knuckle (3.6 and 3.8 s). A new sharp sound every half second; nothing else moves.
 SHOT 02 — 4.0-7.0s: Close on the glass jar, compressed time: the motor starts with a rising whir; the curds and syrup churn and turn into a silky smooth glossy white cream; the motor stops dead at 6.6 s and the kitchen goes silent.
 SHOT 03 — 7.0-10.0s: Medium from above, his face behind: he tips the jar and pours the silky white cream in one thick slow ribbon into an empty wide glass mixing bowl.
 SHOT 04 — 10.0-13.0s: Medium close, his face above: he drops in a cup of pale almond flour with a soft dull thud and a scoop of off-white protein powder, then stirs hard with a spatula: the cream and powder turn into one thick, pale golden dough that holds the spatula's marks.
@@ -86,7 +88,8 @@ AVOID: a cut inside shot 01, a camera move in shot 01, music, bass hits, whooshe
   - 0.1-3.0 s: «رح تصير عجينة كوكيز» / "cookie dough";
   - on the flour: «~70 غ بروتين بالوعاء» / "~70 g protein in the bowl";
   - the answer on the scoop: «بلا طحين ولا بيض نيّ» / "No raw flour. No raw egg." (the hack);
-  - send over the bite: «بروتين من الكتاب · حلقة ٤» / «ابعتها للي بياكل عجينة الكوكيز نيّة».
+  - send over the bite: «بروتين من الكتاب · حلقة ٤» / «ابعتها للي ولاده بيسرقوا عجينة الكوكيز» (2026-11-18, after ep 2's 1
+    send per 1K: the kids angle is the account's measured send driver, 8.7 and 7.8 per 1K; the answer says why it is safe).
 - Title "Homemade Protein Cookie Dough (~70g Protein, Cottage Cheese)"; keyword PROTEIN / «بروتين»; the recipe in the
   pinned comment.
 - Read at 24 h: skip and the 2 s point first, then sends per 1,000 reach (bar 8.7).

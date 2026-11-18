@@ -59,7 +59,9 @@ CARDS = [   # y per shot: his yellow shirt above the colander (hook), the black 
     ('answer', L['out, cold'][0], L['out, cold'][1], 300, True,   # the book's step 4
      [{'k': 'line', 't': 'السر: كل ما قعدت بالبراد، بتطيب'}, {'k': 'italic', 't': 'The longer it sits, the better.'}]),
     ('send', L['the bite'][0], TOTAL, 1120, True,
-     [{'k': 'kicker', 't': 'بروتين من الكتاب · حلقة ٣'}, {'k': 'line', 't': 'ابعتها لزميلك اللي بيطلب أكل كل يوم'}]),
+     # v3 (ep 2's 24 h read: 1 send per 1,048 reach): the two send drivers measured on 95 reels are the kids angle (8.7
+     # and 7.8 per 1K) and the mistake people forward (rice that turns to paste 11.1); the book: «stays crunchy all week»
+     [{'k': 'kicker', 't': 'بروتين من الكتاب · حلقة ٣'}, {'k': 'line', 't': 'ابعتها للي سلطته بتذبل تاني يوم'}]),
 ]
 CPS = {k: max(26, int(np.ceil(sum(len(x['t']) for x in it) / (0.45 * (e - s))))) for k, s, e, y, sc, it in CARDS}
 spec = {'fps': FPS, 'cards': [dict(key=k, frames=round((e - s) * FPS), y=y, scrim=sc, cps=CPS[k], items=it)
