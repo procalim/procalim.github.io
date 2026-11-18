@@ -1,0 +1,93 @@
+Protein from the Book, Episode 3: The "Dense Bean Salad" (N° 101, The Edible Codex English PDF page 250).
+Owner, 2026-11-18: «جهز الحلقتين المقبلة 3 و4». idea-lab 10/10 (16.3x @violetwitchel, 6.3x @nourishedbynic;
+research/swipe-2026-11-18.md). Savory between two sweets (ep 2 ice cream, ep 4 cookie dough). Status: NOT generated.
+The owner generates on higgsfield.ai with his unlimited (720p, no credits).
+
+ON THE MEASURED RULE (research/opening-sound-audit-2026-11-17.md), like ep 2
+| Measured | In this prompt |
+|---|---|
+| No cut in 0-3 s: median skip 32.1% | shot 01 one continuous locked shot, 0-4 s |
+| Range 18 dB+: 33.5% skip | a quiet room, single sharp sounds, silence between; no music |
+| 0.2-0.35 cuts a second | 7 shots in 20 s |
+| Frame one: his face, a clean picture, one stroke across it | the bowl in colourful sections (the outliers' own first frame), the chickpeas poured into the last empty section |
+
+SETTINGS (higgsfield.ai):
+- Seedance 2.5, Omni reference, 20 s, 9:16, 720p, bitrate High, audio On.
+- Character element chef-ahmet-yellow (41e55e5e).
+- @Image1 = the kitchen: https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/66c2248f-e130-4a3c-83df-1a715f172d69.jpg
+
+RECIPE STEP -> SHOT (the book, word for word, with the halal swaps stated)
+01 everything into a massive bowl -> 01 | 02 the dressing shaken in a small jar -> 02 | 03 poured and tossed
+aggressively -> 03-04 | 04 at least 30 minutes in the fridge -> 05-06 | eaten -> 07
+May not match (halal, for the owner):
+- "Salami or Pepperoni": halal beef salami.
+- "Red wine vinegar": apple cider vinegar (no wine vinegar).
+- Feta: halal-certified (no animal rennet).
+- The chickpeas "rinsed": poured from a steel colander (no can label in the picture).
+- The protein number is ours: chickpeas about 18 g, cannellini about 17 g, feta about 10 g, beef salami about 7 g,
+  vegetables about 3 g: about 55 g in the bowl.
+
+PRE-GENERATION CHECK (generation-log checks 1-23)
+| Check | Result |
+|---|---|
+| 1, 13, 21 shapes and counts | one massive wide bowl, one colander, one small glass jar, two wooden spoons, one glass container |
+| 3 the reveal | the marinated salad glossy, the colours brighter, a big spoonful |
+| 5 the finished food | nothing dressed before shot 03 |
+| 7 physics | the dressing creamy only after the shake; the container cold with beads of water after the fridge |
+| 9 halal | beef salami, apple cider vinegar, halal-certified feta; no pork, no wine, no alcohol |
+| 14, 17 colours by objects | chickpeas golden beige, cannellini creamy white, tomatoes red, pepper yellow, onion purple, feta white crumbs, salami dark red cubes, herbs green, dressing golden |
+| 16 frame one | his face behind the bowl in sections, the chickpeas' rattle at 0.4 s |
+| 19 one bowl | the same black stoneware bowl in shots 01, 03, 04 |
+| 6 the last second | after generation |
+
+===== PROMPT =====
+SCENE CONTEXT: A vertical 9:16 premium cooking film, exactly 20 seconds, 7 shots of about 3 seconds each, calm and precise, every shot in motion. One place only: the cook's kitchen exactly as in @Image1 (matte black cabinets with thin brass trim, a black marble counter with fine gold veins, a black range with brass knobs), falling to black. He builds a massive bean salad in colourful sections, shakes a golden dressing, tosses it, chills it and eats one big crunchy spoonful.
+
+REFERENCE CONTROL: The cook is his character element: exactly his face (thick mustache, no beard, short dark hair combed back), his black square sunglasses with small gold hinges and solid black lenses worn the whole time, a plain mustard-yellow t-shirt, a black apron with brown leather straps and black nitrile gloves on both hands in every shot. His face and sunglasses are visible in shots 01, 02, 05 and 07, his whole head inside the frame, upright, behind the food and never hidden by it. @Image1 is the place, never a prop. He never speaks.
+
+RECIPE (every step once, in this order, nothing added):
+The "Dense Bean Salad"
+— 1 can Garbanzo beans (Chickpeas), rinsed; 1 can Cannellini beans (White beans), rinsed; 1 cup Cherry tomatoes (halved); 1 Bell pepper (diced); 1/2 Red onion (finely diced); 1/2 cup Feta cheese (crumbled); 1/4 cup halal beef salami (diced small); Fresh parsley and basil (chopped); Dressing: 1/3 cup Olive oil, 1/4 cup apple cider vinegar, 1 tsp Dijon mustard, 1 clove garlic (minced), Salt, Pepper, Oregano
+1 In a massive bowl, combine the beans, tomatoes, pepper, onion, cheese, meats, and herbs.
+2 In a small jar, vigorously shake the dressing ingredients together until emulsified.
+3 Pour the dressing over the bean salad and toss aggressively.
+4 Let it marinate in the fridge for at least 30 minutes before eating. The longer it sits, the better it tastes!
+
+FOOD SHAPES AND COLOURS (the same in every shot, never change): Chickpeas: round, golden beige, glossy from rinsing. Cannellini: creamy white, oval. Cherry tomatoes: bright red halves. Bell pepper: bright yellow small dice. Red onion: purple fine dice. Feta: white crumbs. Beef salami: small dark red cubes. Parsley and basil: bright green, chopped. Dressing: golden, creamy and opaque after the shake. The bowl: one massive wide black stoneware bowl; before the toss the ingredients lie in neat separate sections like a mosaic.
+
+PROCESS ORDER / NON-REPETITION LOCK: the bowl in sections, the chickpeas poured into the last empty section -> the dressing shaken in the jar -> poured over -> tossed -> packed into a glass container, into the fridge -> out, cold, marinated -> the spoonful -> the bite. Every stage once, only forward; nothing dressed before shot 03; the sections never come back after the toss.
+
+RETENTION: Shot 01 asks the question (a massive bowl of beans in colourful sections: what is this for?); the answer, the marinated salad that stays crunchy, appears only in shots 06-07. Every shot shows one visible change. The last frame matches the first frame's framing so the video loops.
+
+SOUND, THE WHOLE VIDEO: a quiet kitchen. Only the real sounds of each action, each one sharp, close and separate, with near silence between them: the rattling cascade of chickpeas from the steel colander at 0.4 seconds; the colander set down with a dry tap; the hard rapid rattle of the shaken jar; the soft pour of the dressing; the wooden spoons clacking through the beans; the hard click of the container lid; the solid thud of the fridge door; the cold clack of the container on marble; a 0.3-second silence, then the loud fresh crunch of the bite, the loudest sound of the video. No music, no voice, no bass hits, no whooshes, no risers.
+
+SHOT 01 — 0.0-4.0s: ONE CONTINUOUS LOCKED SHOT, NO CUT, the camera still. Medium shot at chest height, a little above the counter: his face and sunglasses upright behind a massive wide black stoneware bowl on the black marble. Inside, the ingredients lie in neat colourful sections like a mosaic: creamy white cannellini, red cherry tomato halves, yellow diced pepper, purple diced red onion, white crumbled feta, small dark red cubes of beef salami, one section still empty. He tips a steel colander and the glossy golden chickpeas pour into the empty section in one rattling cascade at 0.4 s, filling it; he sets the colander down with a dry tap (2.0 s); then he scatters a handful of chopped green parsley and basil over the middle (2.6-3.6 s). Nothing else moves.
+SHOT 02 — 4.0-7.0s: Close at jar height, his face above: olive oil, apple cider vinegar, a spoon of Dijon mustard and minced garlic sit in layers in a small glass jar; he screws the lid on and shakes it hard, the layers turning into one creamy golden dressing; a fast hard rattle, then stillness.
+SHOT 03 — 7.0-10.0s: Low at the bowl rim, slow motion: he pours the golden dressing from the jar in one thick ribbon across the colourful sections, the ribbon drawing a line over the beans.
+SHOT 04 — 10.0-13.0s: True top-down: two big wooden spoons toss the whole salad hard, beans and tomatoes jumping and falling back, every piece coated and glossy, the sections gone.
+SHOT 05 — 13.0-15.5s: Medium, his face: he packs the salad into one large glass container, snaps the lid on with a hard click, slides it into a black fridge and shuts the door with one solid thud.
+SHOT 06 — 15.5-17.5s: Close on the marble, compressed time: he sets the cold container down with a clack, fine beads of water on the glass, and lifts the lid: the salad glossy and marinated, the colours brighter.
+SHOT 07 — 17.5-20.0s: The payoff. Extreme close near the lens: he lifts one big spoonful of beans, tomato, pepper, feta and salami toward the lens; after a 0.3-second silence he takes one bite with a loud fresh crunch, his mouth closed as he chews; then his gloved hand reaches for the steel colander, matching the first frame's framing so the video loops. No cut to black.
+
+SPEED + TRANSITIONS: real time in shot 01; slow motion on the dressing pour; compressed time on the chill. Clean hard cuts, no transitions, no whip pans.
+
+SILENT PERFORMANCE LOCK: completely nonverbal. No voice, no talking, no lip movement; the mouth opens only for the bite.
+
+CONTINUITY + PHYSICS: one bowl, one colander, one jar, one container; the dressing creamy only after the shake; the container cold and beaded only after the fridge; one camera move at most per shot, shot 01 locked still.
+
+LIGHTING: a hard warm tungsten key light (2700 K) from camera left plus the warm pool under the hood, the background falling to black, a warm rim on the glossy beans and the dressing, sharp focus on his hands and the food.
+
+AVOID: a cut inside shot 01, a camera move in shot 01, music, bass hits, whooshes, lettuce, pasta, rice, a tin can with a label, bottle labels, pork, ham, bacon, wine, a wine bottle, a cooked hot dish, steam, a wide shot of him walking, a still shot where nothing changes, sunglasses off, a white t-shirt, a chain, bare hands, other people, logos, alcohol, talking, cut to black, text, extra fingers, deformed hands, distorted face.
+
+===== EDIT (after the take is read frame by frame) =====
+- About 14-17 s. Shot 01 kept whole and uncut; about one cut every 3 s after it; nothing after his bite but the loop
+  frames; post as a trial reel.
+- Sound: THE MEASURED RULE (the take's own sound, -20 LUFS gain, a peak-only limiter, range 18 dB or more).
+- Typed cards (anim-typed, no boxes), 6 words in 0-3 s and nothing else:
+  - 0.1-3.0 s: «غدا الأسبوع كله» / "lunch all week";
+  - on the shake or the toss: «~55 غ بروتين بالوعاء» / "~55 g protein in the bowl";
+  - the answer on the cold container: «السر: كل ما قعدت بالبراد، بتطيب» / "The longer it sits, the better." (the book);
+  - send over the bite: «بروتين من الكتاب · حلقة ٣» / «ابعتها لزميلك اللي بيطلب أكل كل يوم».
+- Title "Homemade Dense Bean Salad (~55g Protein, Lunch All Week)"; keyword PROTEIN / «بروتين»; the recipe and the
+  halal swaps in the pinned comment.
+- Read at 24 h: skip and the 2 s point first, then sends per 1,000 reach (bar 8.7).
