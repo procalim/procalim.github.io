@@ -10,6 +10,28 @@ description: >
 
 # Reels Director
 
+## PROMPT MISTAKES NOT TO REPEAT (owner, 2026-11-19: «سرلي اكثر من 5 شهور بشتغل معاك لازم ضلك تغلط بالبرومبت رغم كلشي معطيك اياه»)
+Check every video prompt against this list before sending it. These come from the Lantern Corn Dog v1-v3 and the
+take read of job 462bf076.
+1. **No book in a video prompt.** Never write "the book", "word for word", a RECIPE block or step numbers. The steps
+   go in as pictures and actions only. The book stays the source for the DM, the captions and the step table shown to
+   the owner (non-negotiable rule 2 below), never inside the prompt text.
+2. **His lenses never glow.** Never write light falling on his face, eyes or sunglasses. Always write "the lenses are
+   solid matte black, no light on them, no reflection, no glow", and put glowing lenses in AVOID.
+3. **The background changes from shot to shot.** Each shot gets its own surface, colour and light:
+   - light oak, white parchment, a white plate, a steel bowl;
+   - the white freezer, the blue gas flame, the orange oil;
+   - warm bokeh, the wide kitchen with its lights on.
+   Never two shots in a row on the same background. Never "falling to black" or an all-black frame in every shot. The
+   black kitchen (@Image1) is for the wide shots only.
+4. **A shape the model has never seen needs a reference image.** An invented cut or form (the lantern) gets its own
+   image first, then "looks exactly as in @Image2" in the prompt, and the hero-shape block is copied word for word
+   into every part. Words alone gave a flower and a straight corn dog.
+5. **Check our own logs before calling an idea new.** Grep generation-log.md, hook-log.md, idea-lab/ideas.md and the
+   carousels for the dish before proposing it (the Tornado Omelette had been made already).
+6. **Split long takes on the owner's lengths** (20 + 10). The cook, hero-shape, sound and avoid blocks are identical
+   in each part.
+
 ## Non-negotiable rules
 1. **Never generate** on Higgsfield without the user writing «ولد» or «قم بتوليد». Before that:
    show the prompt, the line-by-line match with the book page, what may not match, and the
