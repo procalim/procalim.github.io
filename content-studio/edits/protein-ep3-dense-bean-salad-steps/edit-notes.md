@@ -29,3 +29,9 @@ step by step). Edit on research/edit-reference-2026-11-19.md (six outside outlie
 - hook_check 10/10: E + B; 6 words in 0-3 s; the first line typed by 0.02 s; the answer at 15.75 of 19.79 s; longest
   text gap 0.00 s; 6 onsets in 0-3 s (0.4, 1.0, 1.6, 1.7, 2.0, 2.8 s); send type mistake; safe zone ok.
 - open3: motion 0-3 s 7.9, 1-3 s 5.1.
+
+## The opening, tested (2026-11-19)
+Both salad outliers open on the dressing poured over the full sectioned bowl (research/edit-reference-2026-11-19.md).
+The take's pour (f230-280) measured 0 sharp onsets (open3.py): a silent pour, the shape our own 66 reels skip on
+(ep 2's honey pour: the 1-4 s drop). The result shot (f360-444) measured 6. The opening stays the result; the
+outliers carry music or a voice over their pour, ours carries the room.
