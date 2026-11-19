@@ -34,4 +34,4 @@ CARDS = [  # (key, start, end, y, items)
      [{'k': 'kicker', 't': 'من الكتاب · الوصفة ١٩'}, {'k': 'line', 't': 'ابعتها للي مفكّر البيغل بدها خميرة'}]),
 ]
 META = {'hook_formula': ['G'], 'send_type': 'mistake'}
-build(SEGS, SHOTS, CARDS, META, 'bagels-steps.mp4', only_cards='cards' in sys.argv)
+build(SEGS, SHOTS, CARDS, META, 'bagels-steps.mp4', only_cards='cards' in sys.argv, reuse_video='reuse' in sys.argv)

@@ -33,4 +33,4 @@ CARDS = [  # (key, start, end, y, items)
      [{'k': 'kicker', 't': 'بروتين من الكتاب · حلقة ٤'}, {'k': 'line', 't': 'ابعتها للي ولاده بيسرقوا عجينة الكوكيز'}]),
 ]
 META = {'hook_formula': ['E', 'B'], 'send_type': 'kids'}
-build(SEGS, SHOTS, CARDS, META, 'protein-ep4-cookie-dough-steps.mp4', only_cards='cards' in sys.argv)
+build(SEGS, SHOTS, CARDS, META, 'protein-ep4-cookie-dough-steps.mp4', only_cards='cards' in sys.argv, reuse_video='reuse' in sys.argv)

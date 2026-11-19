@@ -4,7 +4,9 @@
 # at frame one and kept through the result; then every step in order; then the result again. THE MEASURED RULE sound
 # (the take's own, -20 LUFS gain, a peak-only limiter), the hook bank, 60 fps by motion interpolation.
 # Usage (Higgsfield sandbox, /home/user/salad2 with take.mp4): python3 edit_salad_steps.py [cards]
-import subprocess, re, wave, json, sys, numpy as np
+import subprocess, re, wave, json, sys, os, numpy as np
+sys.path.insert(0, '/home/user/rv')
+from steps_edit import respace   # speed changes move the hits, never stretch them (the bagel's doubled cracks)
 
 FIN, FPS, PRE = 24, 60, 3              # the take's 24 fps, the output's 60 fps, audio lead-in frames
 SHOTS = [0, 120, 215, 280, 332, 346, 358, 481]   # scdet: 5.00, 8.96, 11.67, 13.83, 14.42, 14.92 s
@@ -78,8 +80,9 @@ if 'cards' in sys.argv:
     for s, e, lab in labels: print(f'{s:6.2f}-{e:6.2f}  {lab}')
     sys.exit()
 
-# ---- picture: the segments at 24 fps, joined, then 60 fps by motion interpolation, then 1080x1920
-for i, (f0, f1, sp, lab) in enumerate(SEGS):
+# ---- picture: the segments at 24 fps, joined, then 60 fps by motion interpolation, then 1080x1920 ('reuse': keep cut60)
+REUSE = 'reuse' in sys.argv and os.path.exists('cut60.mkv')
+for i, (f0, f1, sp, lab) in enumerate(SEGS if not REUSE else []):
     n = round((f1 - f0) / sp)
     v = f'trim=start_frame={f0}:end_frame={f1},setpts=(PTS-STARTPTS)/{sp},fps={FIN},trim=end_frame={n},setpts=PTS-STARTPTS'
     if i in BLUR:
@@ -90,9 +93,10 @@ for i, (f0, f1, sp, lab) in enumerate(SEGS):
     else:
         run(['ffmpeg', '-v', 'error', '-y', '-i', 'take.mp4', '-vf', v + ',format=yuv420p', '-an', '-c:v', 'libx264',
              '-qp', '0', '-preset', 'ultrafast', '-frames:v', str(n), f'seg{i:02d}.mkv'])
-open('vlist.txt', 'w').write(''.join(f"file 'seg{i:02d}.mkv'\n" for i in range(len(SEGS))))
-run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-i', 'vlist.txt', '-c', 'copy', 'cut24.mkv'])
-run(['ffmpeg', '-v', 'error', '-y', '-i', 'cut24.mkv', '-vf',
+if not REUSE:
+    open('vlist.txt', 'w').write(''.join(f"file 'seg{i:02d}.mkv'\n" for i in range(len(SEGS))))
+    run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-i', 'vlist.txt', '-c', 'copy', 'cut24.mkv'])
+if not REUSE: run(['ffmpeg', '-v', 'error', '-y', '-i', 'cut24.mkv', '-vf',
      f'minterpolate=fps={FPS}:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1:scd=fdiff:scd_threshold=8,'
      'scale=1080:1920:flags=lanczos,setsar=1,format=yuv420p', '-c:v', 'libx264', '-qp', '0', '-preset', 'ultrafast', 'cut60.mkv'])
 
@@ -104,9 +108,11 @@ for i, (f0, f1, sp, lab) in enumerate(SEGS):
     pre = PRE if i and f0 - PRE * sp >= shot_start(f0) else 0
     a0 = (f0 - pre * sp) / FIN
     run(['ffmpeg', '-v', 'error', '-y', '-i', 'take.mp4', '-vn', '-af',
-         f'atrim={a0:.5f}:{f1 / FIN:.5f},asetpts=PTS-STARTPTS{tempo(sp)},aresample={SR},aformat=channel_layouts=mono,'
-         f'apad,atrim=end={d + pre / FIN:.5f}', '-c:a', 'pcm_s16le', f'seg{i:02d}.wav'])
-    pieces.append((t - pre / FIN, pre, rd(f'seg{i:02d}.wav'))); t += d
+         f'atrim={a0:.5f}:{f1 / FIN:.5f},asetpts=PTS-STARTPTS,aresample={SR},aformat=channel_layouts=mono',
+         '-c:a', 'pcm_s16le', f'seg{i:02d}.wav'])
+    raw, n_out = rd(f'seg{i:02d}.wav'), int(round((d + pre / FIN) * SR))
+    a = respace(raw, sp, n_out) if sp != 1.0 else np.pad(raw, (0, max(0, n_out - len(raw))))[:n_out]
+    pieces.append((t - pre / FIN, pre, a)); t += d
 mix = np.zeros(int(TOTAL * SR) + SR, np.float32)
 for j, (off, pre, a) in enumerate(pieces):
     a = a.copy(); fi = max(int(pre / FIN * SR), int(0.01 * SR)); a[:fi] *= np.linspace(0, 1, fi)

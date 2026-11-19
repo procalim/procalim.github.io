@@ -26,3 +26,14 @@ until 18.4 s), then the bite.
   0-3 s (0.1, 0.6, 0.9, 1.2, 1.3, 1.7, 2.6 s); a friend's mistake; safe zone ok. open3 motion 3.5 (calm).
 - The slow-motion in-between frames read clean (the crust and the seeds hold their shape).
 - Package: week4/bagels-2-ingredient-caption.txt, -pinned.txt, -dm-reply.txt (the book, N° 019, word for word).
+
+## v2 (owner: «الصوت كثير غريب في البيغل ومبين مصنع»), media b5441500
+- Measured: the opening's sound slowed to 0.65 with atempo played every crack twice, about 30 ms apart (the hits at
+  0.60/0.63 and 0.91/0.94 s; two lines per hit in the spectrogram), and the hits' rise fell from 25.9 dB (the take) to
+  21.8 dB. The 7 onsets v1 counted in 0-3 s included those doubles.
+- Fixed in edits/_tools/steps_edit.py (respace): a speed change now moves each hit to its new time and plays it at its
+  own natural speed (cut at the next hit, never stretched); slower sections get the room's own quietest 0.2 s looped
+  under them. The picture is unchanged (reuse of cut60.mkv).
+- Result: one line per hit, rise 28.6 dB; 5 onsets in 0-3 s (0.1, 0.6, 0.9, 1.3, 1.6 s), hook_check 9/10 (the honest
+  count); -17.3 LUFS, -0.9 dBTP, range 19.1 dB.
+- The cookie dough and the salad got the same fix for their sped-up sections.

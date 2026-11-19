@@ -4,7 +4,7 @@
 # interpolation where speed < 1, no frame ever blended across a cut); the take's own sound segment by segment,
 # -20 LUFS gain, a peak-only limiter; timeline.json for hook_check.py.
 # Sandbox copy: /home/user/rv/steps_edit.py. A recipe script calls build(...) from its own folder (take.mp4 there).
-import subprocess, re, wave, json, numpy as np
+import subprocess, re, wave, json, os, numpy as np
 
 FIN, FPS, PRE, SR = 24, 60, 3, 48000
 LIM = 'aresample=192000,alimiter=limit=0.89:attack=1:release=40:level=disabled,aresample=48000'
@@ -30,6 +30,37 @@ def wr(f, a):
     w.writeframes((np.clip(a, -1, 1) * 32767).astype(np.int16).tobytes()); w.close()
 
 
+def respace(a, sp, n_out):
+    """Change a sound's speed without stretching it (owner 2026-11-19: «الصوت كثير غريب في البيغل ومبين مصنع»; atempo
+    0.65 doubled every crack, the transients' rise fell from 25.9 to 21.8 dB). Each hit is cut at its onset and played at
+    its own natural speed, moved to its new time (t / sp); slower: the room's own quietest 0.2 s, looped, fills the
+    longer gaps; faster: a hit is cut 12 ms before the next one starts."""
+    w = int(0.01 * SR)
+    db = 20 * np.log10(np.array([np.sqrt(np.mean(a[i * w:(i + 1) * w] ** 2)) + 1e-9 for i in range(len(a) // w)]))
+    on = [0]
+    for i in np.where(np.diff(db) >= 9)[0] + 1:
+        if i * w - on[-1] >= int(0.06 * SR): on.append(int(i * w))
+    out = np.zeros(n_out, np.float32)
+    if sp < 1:   # room tone under the whole segment, from its quietest 0.2 s
+        k = int(0.2 * SR); r = np.array([np.sqrt(np.mean(a[j:j + k] ** 2)) for j in range(0, max(1, len(a) - k), w)])
+        j = int(np.argmin(r)) * w; tone = a[j:j + k].copy()
+        if len(tone) > 2 * int(0.02 * SR):
+            f = int(0.02 * SR); tone[:f] *= np.linspace(0, 1, f); tone[-f:] *= np.linspace(1, 0, f)
+            for p in range(0, n_out, k - f): out[p:p + k] += tone[:min(k, n_out - p)]
+    starts = [int(round(s / sp)) for s in on] + [n_out]
+    for c, s in enumerate(on):
+        e = on[c + 1] if c + 1 < len(on) else len(a)
+        room = starts[c + 1] - starts[c]
+        # the hit up to the next hit (never into it, so no hit plays twice); faster: up to its new slot + 12 ms
+        L = max(1, min(e - s, room + int(0.012 * SR), n_out - starts[c]))
+        chunk = a[s:s + L].copy()
+        fi = min(int(0.003 * SR), L // 4); fo = min(int(0.012 * SR), L // 2)
+        if fi: chunk[:fi] *= np.linspace(0, 1, fi)
+        if fo: chunk[-fo:] *= np.linspace(1, 0, fo)
+        out[starts[c]:starts[c] + L] += chunk
+    return out
+
+
 def timing(segs):
     """Each segment's output frames at 60 fps and its (start, end) in seconds, keyed by label."""
     n60 = [round((f1 - f0) / sp / FIN * FPS) for f0, f1, sp, lab in segs]
@@ -39,7 +70,7 @@ def timing(segs):
     return n60, L, t
 
 
-def build(segs, shots, cards, meta, out, blur=None, take='take.mp4', only_cards=False):
+def build(segs, shots, cards, meta, out, blur=None, take='take.mp4', only_cards=False, reuse_video=False):
     blur = blur or {}
     n60, L, total = timing(segs)
     cps = {k: (900 if k == 'hook' else max(26, int(np.ceil(sum(len(x['t']) for x in it) / (0.45 * (e - s))))))
@@ -51,8 +82,9 @@ def build(segs, shots, cards, meta, out, blur=None, take='take.mp4', only_cards=
     run(['node', '/home/user/ov/typed.mjs', 'typ.json', 'typ'])
     if only_cards:
         return L, total
-    # picture: every segment to 60 fps on its own (slow motion by interpolation when the speed is under 1)
-    for i, ((f0, f1, sp, lab), n) in enumerate(zip(segs, n60)):
+    # picture: every segment to 60 fps on its own (slow motion by interpolation when the speed is under 1);
+    # reuse_video keeps an existing cut60.mkv (a sound-only fix)
+    for i, ((f0, f1, sp, lab), n) in enumerate(zip(segs, n60) if not (reuse_video and os.path.exists('cut60.mkv')) else []):
         v = f'trim=start_frame={f0}:end_frame={f1},setpts=(PTS-STARTPTS)/{sp}'
         if i in blur:
             x, y, w, h = blur[i]
@@ -61,8 +93,9 @@ def build(segs, shots, cards, meta, out, blur=None, take='take.mp4', only_cards=
             fc = f"[0:v]{v},{MI},scale=1080:1920:flags=lanczos,setsar=1,format=yuv420p[v]"
         run(['ffmpeg', '-v', 'error', '-y', '-i', take, '-filter_complex', fc, '-map', '[v]', '-an', '-c:v', 'libx264',
              '-qp', '0', '-preset', 'ultrafast', '-frames:v', str(n), '-r', str(FPS), f'seg{i:02d}.mkv'])
-    open('vlist.txt', 'w').write(''.join(f"file 'seg{i:02d}.mkv'\n" for i in range(len(segs))))
-    run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-i', 'vlist.txt', '-c', 'copy', 'cut60.mkv'])
+    if not (reuse_video and os.path.exists('cut60.mkv')):
+        open('vlist.txt', 'w').write(''.join(f"file 'seg{i:02d}.mkv'\n" for i in range(len(segs))))
+        run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-i', 'vlist.txt', '-c', 'copy', 'cut60.mkv'])
     # sound: each segment's own sound (a short lead-in inside the same shot), crossfaded
     shot_start = lambda f: max(s for s in shots if s <= f)
     pieces, t = [], 0.0
@@ -70,11 +103,13 @@ def build(segs, shots, cards, meta, out, blur=None, take='take.mp4', only_cards=
         d = n / FPS
         pre = PRE if i and f0 - PRE * sp >= shot_start(f0) else 0
         a0 = (f0 - pre * sp) / FIN
-        tp = '' if sp == 1.0 else f',atempo={sp}'
+        # the source sound at its own speed; a speed change moves the hits (respace), it never stretches them
         run(['ffmpeg', '-v', 'error', '-y', '-i', take, '-vn', '-af',
-             f'atrim={a0:.5f}:{f1 / FIN:.5f},asetpts=PTS-STARTPTS{tp},aresample={SR},aformat=channel_layouts=mono,'
-             f'apad,atrim=end={d + pre / FIN / sp:.5f}', '-c:a', 'pcm_s16le', f'seg{i:02d}.wav'])
-        pieces.append((t - pre / FIN / sp, pre / sp, rd(f'seg{i:02d}.wav'))); t += d
+             f'atrim={a0:.5f}:{f1 / FIN:.5f},asetpts=PTS-STARTPTS,aresample={SR},aformat=channel_layouts=mono',
+             '-c:a', 'pcm_s16le', f'seg{i:02d}.wav'])
+        raw, n_out = rd(f'seg{i:02d}.wav'), int(round((d + pre / FIN / sp) * SR))
+        a = respace(raw, sp, n_out) if sp != 1.0 else np.pad(raw, (0, max(0, n_out - len(raw))))[:n_out]
+        pieces.append((t - pre / FIN / sp, pre / sp, a)); t += d
     mix = np.zeros(int(total * SR) + SR, np.float32)
     for j, (off, pre, a) in enumerate(pieces):
         a = a.copy(); fi = max(int(pre / FIN * SR), int(0.01 * SR)); a[:fi] *= np.linspace(0, 1, fi)
