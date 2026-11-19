@@ -47,7 +47,7 @@ SHOT 14 — 28.5-30.0s: Close on him in the warm-lit kitchen: after a short sile
 
 SOUND: only the real sounds of each action, sharp and separate with near silence between them: the snaps of the casing, the squeak, the skewer's pop, the freezer door, the flour, the egg's crack, the whisk, the batter's gloop, the panko's rustle, the loud sizzle, the sugar's crunch, the crust cracking, the bite. No music, no voice, no whooshes.
 
-AVOID: the same dark background in every shot, an all-black frame, glowing or reflective sunglasses, light in his lenses, a flower shape, petals open at the top, a short cut piece of hot dog, a hot dog cut across, a straight corn dog without the bulge, two corn dogs, the cheese outside the cage, pork, bacon, ham, alcohol, labels, brand names, books, text, writing, burnt crust, shaky camera, music, sunglasses off, a white t-shirt, bare hands, other people, logos, talking, extra fingers, deformed hands, distorted face.
+AVOID: the same dark background in every shot, an all-black frame, glowing or reflective sunglasses, light in his lenses, a flower shape, petals open at the top, a short cut piece of hot dog, a hot dog cut across, a straight corn dog without the bulge, two corn dogs, the cheese outside the cage, pork, bacon, ham, alcohol, labels, brand names, text, writing, burnt crust, shaky camera, music, sunglasses off, a white t-shirt, bare hands, other people, logos, talking, extra fingers, deformed hands, distorted face.
 
 ===== EDIT =====
 - **Text:** none on the video.
