@@ -26,3 +26,7 @@ Every segment brought to 60 fps on its own (no blend across a cut). The take's o
 - hook_check 9/10: the lost point is the take's own 4 onsets in 0-3 s (0.5, 1.0, 1.6, 2.6 s; the 3-5 group, median
   skip 37%); every other test passed (the hook typed by 0.08 s, no text gap, the answer at 15.25 of 20.28 s, kids).
 - Caption, pinned comment and DM: week4/protein-ep4-cottage-cheese-cookie-dough-* (the same recipe).
+
+## v2 (the bagel's sound fix, respace), media 3d0851ce
+- The sped-up sections (1.25 and 1.5) now move each hit instead of time-squeezing the sound. Picture unchanged.
+- -17.5 LUFS, -1.0 dBTP, range 22.0 dB; hook_check 9/10 (the take's own 4 onsets in 0-3 s).

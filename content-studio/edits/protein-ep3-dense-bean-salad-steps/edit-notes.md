@@ -35,3 +35,7 @@ Both salad outliers open on the dressing poured over the full sectioned bowl (re
 The take's pour (f230-280) measured 0 sharp onsets (open3.py): a silent pour, the shape our own 66 reels skip on
 (ep 2's honey pour: the 1-4 s drop). The result shot (f360-444) measured 6. The opening stays the result; the
 outliers carry music or a voice over their pour, ours carries the room.
+
+## v2 (the bagel's sound fix, respace), media 8b5bb45d
+- The sped-up sections (1.25) now move each hit instead of time-squeezing the sound. Picture unchanged.
+- -17.5 LUFS, -0.9 dBTP, range 23.5 dB; hook_check 10/10, 6 onsets in 0-3 s.
