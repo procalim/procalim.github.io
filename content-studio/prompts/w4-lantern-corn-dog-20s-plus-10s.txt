@@ -53,10 +53,9 @@ Both video prompts now end their LANTERN block with "The lantern looks exactly a
   - 0-3.5 s: the slits open into the ribbed cage on the oak board.
   - The backgrounds change shot to shot (oak, bokeh, wide kitchen, the white-blue freezer, white parchment, the oak
     counter, the orange backlight, yellow panko, the steel range, the oil), and the lenses stay dark.
-  - Faults:
-    - 15-16.5 s and 18-19 s: the batter-coated cage reads as a face with eye holes;
-    - about 10.5 s: two yolks for one egg;
-    - 19-20 s: the ribs show through in the oil.
+  - What I listed as faults (the batter-coated cage at 15-16.5 s and 18-19 s, two yolks at about 10.5 s, the ribs in
+    the oil at 19-20 s) are fine. The owner, 19 Nov: «ما تلعب في ما فيو اشي ... عادي بيضتين وصح بتغطى بالعجين بعدها
+    البانكو». Part 1 goes into the edit whole, with no trims.
 - **Part 2 (job 920be8a9): status "nsfw",** stopped by Higgsfield's filter. The filter does not say why. The images
   were also attached in the wrong order: the lantern was image 1 and the kitchen image 2.
 - **Part 2 v2 (below) takes out:**
