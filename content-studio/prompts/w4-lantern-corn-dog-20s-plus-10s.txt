@@ -1,0 +1,44 @@
+Lantern Corn Dog, v3 split into two takes (the owner, 19 Nov: «قسمو على 20 ب 10 واعطيني برومبت اولدو»).
+Part 1 = 20 s (the lantern to the fry), part 2 = 10 s (out of the oil to the bite). The cook, lantern, sound and avoid
+blocks are word for word the same in both, so the two takes match. The edit joins them on the oil shot.
+Settings for both: Seedance 2.5, Omni reference, 9:16, bitrate High, audio On, chef-ahmet-yellow (41e55e5e),
+@Image1 = the kitchen (66c2248f). Status: NOT generated.
+
+===== PART 1 (20 s) =====
+A vertical 9:16 cinematic food film, exactly 20 seconds, no text. A plain hot dog opens into a lantern, gets a cheese cube, a skewer, a freeze, a thick batter and panko, and goes into hot oil. Every shot has a different background, surface, colour and light, like a travelling camera in a busy warm kitchen; never two shots in a row with the same background.
+
+THE COOK: his character element: a plain mustard-yellow t-shirt, a black apron with brown leather straps, black nitrile gloves, black square sunglasses with small gold hinges. The sunglasses' lenses are solid matte black at all times: no light on them, no reflection, no glow. He never speaks.
+
+THE LANTERN (the hero shape, the same in every shot): one long plain beef hot dog lying flat, both of its ends whole and round, its middle split into six even strips that bulge outward into a round open ribbed cage, exactly like the ribs of a paper lantern; a small white cube of mozzarella sits inside the cage, seen between the ribs. On its wooden skewer, battered and coated, it keeps that shape: thin at both ends with a round ball-shaped bulge in its middle.
+
+SHOT 01 — 0.0-3.5s: Close, at eye level on a light oak cutting board, his mustard t-shirt and apron soft behind, warm golden light. A plain beef hot dog lies on the board with six thin straight slits along its middle, the ends uncut. His two gloved fingertips press the two ends toward each other and the middle opens: the six strips bow outward one by one, each with a small snap of the casing (1.0, 1.3, 1.6, 1.9, 2.2, 2.5 s), into a round ribbed lantern. One continuous shot, the camera still.
+SHOT 02 — 3.5-5.0s: Macro against soft warm bokeh of brass pendant lights: he lifts the lantern to the lens and pushes a small white mozzarella cube into it between the ribs, with a small squeak.
+SHOT 03 — 5.0-7.0s: Wide: the whole kitchen as in @Image1 with its warm pendant lights on: he pushes a wooden skewer through the lantern lengthwise with a pop, walks to the tall freezer and opens it; bright white light spills across the floor; he sets it inside and shuts the door with a thud.
+SHOT 04 — 7.0-8.0s: Inside the freezer, bright white and frosty: white frost grows over the lantern on its skewer.
+SHOT 05 — 8.0-13.0s: Top-down over a stainless steel bowl on a sheet of white parchment, bright even light: a cup of flour poured in (8.2 s), two spoons of sugar (8.8 s), a pinch of salt (9.3 s), an egg cracked on the rim (9.8 s), cold milk in a thin stream (10.4-10.8 s), two small spoons of baking powder (11.2 s); a whisk beats it into a thick, sticky, pale batter (11.5-13.0 s) with quick clinks.
+SHOT 06 — 13.0-14.5s: Low angle at counter level, the warm pendant lights glowing behind: the thick batter folds slowly from the bowl into a tall clear glass.
+SHOT 07 — 14.5-16.5s: Side view, slow motion, warm orange backlight through the glass: the frosted lantern skewer plunged into the batter with a thick gloop and lifted out coated, the round bulge clearly visible under the batter.
+SHOT 08 — 16.5-18.0s: Top-down on white parchment: it is rolled through a heap of golden panko, gloved fingers pressing the flakes on with dry rustles; the bulge stays.
+SHOT 09 — 18.0-19.0s: Medium at a stainless steel range, a ring of blue gas flame under a steel pot: he lowers the skewer into the oil, a loud crackling sizzle, steam rising; his lenses stay matte black.
+SHOT 10 — 19.0-20.0s: Macro from above, the frame filled with bubbling orange-golden oil around it, the crust starting to turn golden, the round bulge in its middle.
+
+SOUND: only the real sounds of each action, sharp and separate with near silence between them: the snaps of the casing, the squeak, the skewer's pop, the freezer door, the flour, the egg's crack, the whisk, the batter's gloop, the panko's rustle, the loud sizzle. No music, no voice, no whooshes.
+
+AVOID: the same dark background in every shot, an all-black frame, glowing or reflective sunglasses, light in his lenses, a flower shape, petals open at the top, a short cut piece of hot dog, a hot dog cut across, a straight corn dog without the bulge, two corn dogs, the cheese outside the cage, pork, bacon, ham, alcohol, labels, brand names, text, writing, shaky camera, music, sunglasses off, a white t-shirt, bare hands, other people, logos, talking, extra fingers, deformed hands, distorted face.
+
+===== PART 2 (10 s) =====
+A vertical 9:16 cinematic food film, exactly 10 seconds, no text. A lantern-shaped corn dog comes out of hot oil golden, is rolled in sugar, gets ketchup and mustard, and is pulled apart with melting cheese, then bitten. Every shot has a different background, surface, colour and light, like a travelling camera in a busy warm kitchen; never two shots in a row with the same background.
+
+THE COOK: his character element: a plain mustard-yellow t-shirt, a black apron with brown leather straps, black nitrile gloves, black square sunglasses with small gold hinges. The sunglasses' lenses are solid matte black at all times: no light on them, no reflection, no glow. He never speaks.
+
+THE LANTERN (the hero shape, the same in every shot): a corn dog on a wooden skewer, thin at both ends with a round ball-shaped bulge in its middle; under its craggy golden panko crust is a plain beef hot dog whose middle is split into six strips bowed outward like the ribs of a paper lantern, around a white core of mozzarella.
+
+SHOT 01 — 0.0-1.5s: Macro from above, the frame filled with bubbling orange-golden oil: the corn dog, deep golden brown with its round bulge, is lifted out on its skewer, dripping, the crust crackling.
+SHOT 02 — 1.5-3.0s: Close on a white enamel tray of sugar on a light oak board: it is rolled in the sugar, crystals sparkling and sticking, a gritty crunch (1.8, 2.4 s).
+SHOT 03 — 3.0-4.5s: Top-down on a white plate: a thin red ketchup zigzag (3.3 s), then a yellow mustard zigzag (3.9 s) along it.
+SHOT 04 — 4.5-8.5s: One locked macro against warm bokeh of brass pendant lights, the corn dog upright on its skewer filling two thirds of the frame, the round bulge in its middle: a knuckle knocks the crust twice (4.8, 5.2 s); his other hand pulls the top half straight up off the skewer: the crust cracks (5.6 s) and crackles (6.0, 6.4 s); the halves part and the bottom half shows a ring of six pink hot dog strips around a white core of melted mozzarella; the cheese stretches up in long glossy strings (6.5-8.3 s).
+SHOT 05 — 8.5-10.0s: Close on him in the warm-lit kitchen as in @Image1: after a short silence he bites the top half with a loud crunch, the cheese stretching; his lenses matte black.
+
+SOUND: only the real sounds of each action, sharp and separate with near silence between them: the oil's crackle, the sugar's crunch, the sauces, the knocks, the crust cracking, a short silence, the bite. No music, no voice, no whooshes.
+
+AVOID: the same dark background in every shot, an all-black frame, glowing or reflective sunglasses, light in his lenses, a straight corn dog without the bulge, two corn dogs, cheese leaking before shot 04, a plain hot dog inside without the six strips, pork, bacon, ham, alcohol, labels, brand names, text, writing, burnt crust, shaky camera, music, sunglasses off, a white t-shirt, bare hands, other people, logos, talking, extra fingers, deformed hands, distorted face.
