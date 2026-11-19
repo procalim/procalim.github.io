@@ -2,14 +2,14 @@ Lantern Corn Dog, v3 split into two takes (the owner, 19 Nov: «قسمو على 
 Part 1 = 20 s (the lantern to the fry), part 2 = 10 s (out of the oil to the bite). The cook, lantern, sound and avoid
 blocks are word for word the same in both, so the two takes match. The edit joins them on the oil shot.
 Settings for both: Seedance 2.5, Omni reference, 9:16, bitrate High, audio On, chef-ahmet-yellow (41e55e5e),
-@Image1 = the kitchen (66c2248f). Status: NOT generated.
+@Image1 = the kitchen (66c2248f), @Image2 = the lantern image (below). Status: NOT generated.
 
 ===== PART 1 (20 s) =====
 A vertical 9:16 cinematic food film, exactly 20 seconds, no text. A plain hot dog opens into a lantern, gets a cheese cube, a skewer, a freeze, a thick batter and panko, and goes into hot oil. Every shot has a different background, surface, colour and light, like a travelling camera in a busy warm kitchen; never two shots in a row with the same background.
 
 THE COOK: his character element: a plain mustard-yellow t-shirt, a black apron with brown leather straps, black nitrile gloves, black square sunglasses with small gold hinges. The sunglasses' lenses are solid matte black at all times: no light on them, no reflection, no glow. He never speaks.
 
-THE LANTERN (the hero shape, the same in every shot): one long plain beef hot dog lying flat, both of its ends whole and round, its middle split into six even strips that bulge outward into a round open ribbed cage, exactly like the ribs of a paper lantern; a small white cube of mozzarella sits inside the cage, seen between the ribs. On its wooden skewer, battered and coated, it keeps that shape: thin at both ends with a round ball-shaped bulge in its middle.
+THE LANTERN (the hero shape, the same in every shot): one long plain beef hot dog lying flat, both of its ends whole and round, its middle split into six even strips that bulge outward into a round open ribbed cage, exactly like the ribs of a paper lantern; a small white cube of mozzarella sits inside the cage, seen between the ribs. On its wooden skewer, battered and coated, it keeps that shape: thin at both ends with a round ball-shaped bulge in its middle. The lantern looks exactly as in @Image2.
 
 SHOT 01 — 0.0-3.5s: Close, at eye level on a light oak cutting board, his mustard t-shirt and apron soft behind, warm golden light. A plain beef hot dog lies on the board with six thin straight slits along its middle, the ends uncut. His two gloved fingertips press the two ends toward each other and the middle opens: the six strips bow outward one by one, each with a small snap of the casing (1.0, 1.3, 1.6, 1.9, 2.2, 2.5 s), into a round ribbed lantern. One continuous shot, the camera still.
 SHOT 02 — 3.5-5.0s: Macro against soft warm bokeh of brass pendant lights: he lifts the lantern to the lens and pushes a small white mozzarella cube into it between the ribs, with a small squeak.
@@ -31,7 +31,7 @@ A vertical 9:16 cinematic food film, exactly 10 seconds, no text. A lantern-shap
 
 THE COOK: his character element: a plain mustard-yellow t-shirt, a black apron with brown leather straps, black nitrile gloves, black square sunglasses with small gold hinges. The sunglasses' lenses are solid matte black at all times: no light on them, no reflection, no glow. He never speaks.
 
-THE LANTERN (the hero shape, the same in every shot): a corn dog on a wooden skewer, thin at both ends with a round ball-shaped bulge in its middle; under its craggy golden panko crust is a plain beef hot dog whose middle is split into six strips bowed outward like the ribs of a paper lantern, around a white core of mozzarella.
+THE LANTERN (the hero shape, the same in every shot): a corn dog on a wooden skewer, thin at both ends with a round ball-shaped bulge in its middle; under its craggy golden panko crust is a plain beef hot dog whose middle is split into six strips bowed outward like the ribs of a paper lantern, around a white core of mozzarella. The lantern looks exactly as in @Image2.
 
 SHOT 01 — 0.0-1.5s: Macro from above, the frame filled with bubbling orange-golden oil: the corn dog, deep golden brown with its round bulge, is lifted out on its skewer, dripping, the crust crackling.
 SHOT 02 — 1.5-3.0s: Close on a white enamel tray of sugar on a light oak board: it is rolled in the sugar, crystals sparkling and sticking, a gritty crunch (1.8, 2.4 s).
@@ -46,4 +46,4 @@ AVOID: the same dark background in every shot, an all-black frame, glowing or re
 ===== THE LANTERN REFERENCE IMAGE (@Image2; the owner asked for it on 19 Nov; 9:16, GPT Image 2.6 or any photoreal model) =====
 Photorealistic macro food photograph, vertical 9:16. One plain beef hot dog lies flat on a light oak cutting board, seen from the side at eye level. Both ends of the hot dog are whole and round. Its middle is split lengthwise into six even strips that bow outward into a round open ribbed cage, exactly like the ribs of a paper lantern, wider in the middle and closing in at both ends. The strips show glossy pinkish-brown casing outside and paler pink cut faces inside. Inside the cage, seen clearly between the ribs, sits one small bright-white cube of mozzarella. Warm golden tungsten light from the left, soft warm bokeh of brass pendant lights behind, shallow depth of field, the lantern razor sharp and filling the centre of the frame. No hands, no text, no labels, no flower shape, no petals open at the top, no other food.
 
-In both video prompts, after the LANTERN block, add: "The lantern looks exactly as in @Image2."
+Both video prompts now end their LANTERN block with "The lantern looks exactly as in @Image2." (owner: «حطها زيدها بسطر»).
