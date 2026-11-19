@@ -51,22 +51,26 @@ TOTAL = t
 L = {lab: (s, e) for s, e, lab in labels}
 
 # ---- typed cards (no boxes): 6 words in 0-3 s and nothing else; the answer and the share line at the end.
-CARDS = [   # y per shot: his yellow shirt above the colander (hook), the black apron under the jar (protein), his
-    # black apron over the cold container (answer), his shirt under his chin (send: v1 read, the camera pushes in on
-    # the bite and 780 sat on his mouth); a soft scrim under each
-    ('hook', 0.12, 3.0, 200, True, [{'k': 'title', 't': 'غدا الأسبوع كله'}, {'k': 'caps', 't': 'lunch all week'}]),
+CARDS = [   # v4 (owner, 2026-11-19: the hook bank, no text gaps, the check; research/hook-bank.md). y per shot: his
+    # shirt above the colander (hook), the apron under the jar (protein), the bowl's dark rim (toss), his apron (packed),
+    # the dark above the cold container (answer), his shirt under his chin (send); a soft scrim under each
+    ('hook', 0.12, 3.0, 200, True,   # E question + B the mistake a friend makes (v3's send line); the answer at 12.5 s
+     [{'k': 'title', 't': 'سلطتك بتذبل تاني يوم؟'}, {'k': 'caps', 't': 'soggy salad?'}]),
     ('protein', L['the shake'][0], L['the shake'][1], 1380, True, [{'k': 'line', 't': 'حوالي 55 غ بروتين بالوعاء'}]),
+    ('step', L['the toss'][0], L['the toss'][1], 230, True, [{'k': 'line', 't': 'وهلق أهم خطوة'}]),
+    ('fridge', L['packed'][0], L['the fridge'][1], 700, True, [{'k': 'line', 't': '30 دقيقة بالبراد عالأقل'}]),
     ('answer', L['out, cold'][0], L['out, cold'][1], 300, True,   # the book's step 4
      [{'k': 'line', 't': 'السر: كل ما قعدت بالبراد، بتطيب'}, {'k': 'italic', 't': 'The longer it sits, the better.'}]),
-    ('send', L['the bite'][0], TOTAL, 1120, True,
-     # v3 (ep 2's 24 h read: 1 send per 1,048 reach): the two send drivers measured on 95 reels are the kids angle (8.7
-     # and 7.8 per 1K) and the mistake people forward (rice that turns to paste 11.1); the book: «stays crunchy all week»
+    ('send', L['the bite'][0], TOTAL, 1120, True,   # the mistake people forward (11-22 sends per 1K on this account)
      [{'k': 'kicker', 't': 'بروتين من الكتاب · حلقة ٣'}, {'k': 'line', 't': 'ابعتها للي سلطته بتذبل تاني يوم'}]),
 ]
+META = {'hook_formula': ['E', 'B'], 'send_type': 'mistake'}   # hook-bank.md formulas; the send driver
 CPS = {k: max(26, int(np.ceil(sum(len(x['t']) for x in it) / (0.45 * (e - s))))) for k, s, e, y, sc, it in CARDS}
 spec = {'fps': FPS, 'cards': [dict(key=k, frames=round((e - s) * FPS), y=y, scrim=sc, cps=CPS[k], items=it)
                               for k, s, e, y, sc, it in CARDS]}
 json.dump(spec, open('typ.json', 'w'), ensure_ascii=False)
+json.dump(dict(fps=FPS, total=TOTAL, **META, cards=[dict(key=k, start=s, end=e, y=y, items=it) for k, s, e, y, sc, it in CARDS]),
+          open('timeline.json', 'w'), ensure_ascii=False)   # for edits/_tools/hook_check.py
 run(['node', '/home/user/ov/typed.mjs', 'typ.json', 'typ'])
 if 'cards' in sys.argv:
     for s, e, lab in labels: print(f'{s:6.2f}-{e:6.2f}  {lab}')

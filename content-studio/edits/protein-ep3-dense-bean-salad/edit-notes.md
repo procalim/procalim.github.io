@@ -31,3 +31,16 @@ seed 954979). Prompt: prompts/w4-protein-ep3-dense-bean-salad-20s.txt (THE MEASU
 - The send card «ابعتها للي سلطته بتذبل تاني يوم» (the book: «stays crunchy all week»; the mistake people forward,
   research/opening-sound-audit-2026-11-17.md addendum); everything else as v2. -17.7 LUFS, -0.9 dBTP, range 23.9 dB.
 - Opening hits (open3.py): 4 onsets in 0-3 s (0.2, 0.3, 1.5, 2.2 s), motion 4.1: the 3-5 group (median skip 37%).
+
+## v4 (not delivered), the hook bank (research/hook-bank.md)
+- Cards rewritten to the bank: hook «سلطتك بتذبل تاني يوم؟» with a longer English line (E question + B mistake, own
+  account 35.0% / 33.5%); re-hooks «وهلق أهم خطوة» on the toss and «30 دقيقة بالبراد عالأقل» on the fridge (the
+  book's 30 minutes), so no stretch over 2.5 s without text. timeline.json + META written by the edit script.
+- hook_check 8/10: 8 words in 0-3 s (the English line too long), 4 onsets in 0-3 s.
+
+## v5 (delivered, media 54f31031), hook_check 9/10
+- The English line cut to SOGGY SALAD? (6 words in 0-3 s with the Arabic). Everything else as v4.
+- 17.62 s; -17.7 LUFS, -0.9 dBTP, range 23.9 dB; longest text gap after 3 s 2.33 s; first line typed by 0.91 s;
+  the answer starts at 12.46 s of 17.62.
+- The lost point: 4 sound onsets in 0-3 s (the take's own; the edit can't add hits without lifting the room).
+  The next prompts carry a hit every half second in 0-3 s.

@@ -68,6 +68,12 @@ Every edit from now:
 6. The send line (95 reels): a parent's problem with their kids (8.7 and 7.8 sends per 1K, the two biggest reaches
    since October) or the mistake a friend makes (11-22 per 1K); everything else median 1.7; «the one on a diet who
    loves sweets» 0.95.
+7. (owner, 2026-11-19: «بنك هووك ... ما يكون فراغات بالفيديو ... وفحص») The hook comes from
+   `content-studio/research/hook-bank.md` (own skip by type: number rule 29.4%, question 35.0% Oct-Nov, mistake 33.5% /
+   42.0%, plain name 47.4%; outside outliers: famous treat as a healthy swap 8.2x, benefit + surprising limit 8.3x and
+   779x, routine 16.3x). After the hook, a short card on every shot: no stretch over 2.5 s without text. The edit
+   script writes timeline.json (with META hook_formula and send_type); `content-studio/edits/_tools/hook_check.py`
+   must score 8/10 or more before delivery.
 The proof still owed: date bark v5 (flat) against v6 (same picture, dynamic) as two Trial Reels, same hour.
 
 ## BACK TO COOKCUT, 20 S (owner's call, 2026-11-15, after the two trial reads)
