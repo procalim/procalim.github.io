@@ -1,0 +1,27 @@
+Story intro (media aeeb35ef): replies with «بروتين» / PROTEIN. The story promises 8 free recipes, so message 1 is the
+free PDF (the 8 recipes), message 2 the book and a short question. Arabic first (the story is in Arabic). Each message
+under 1,000 characters; button titles under 20 characters (for ChatPlace or by hand).
+
+===== ARABIC, MESSAGE 1 =====
+أهلا فيك 🤍 هدول الـ٨ وصفات اللي وعدتك فيهم، ببلاش:
+https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/c8a9452a-3f71-46c3-bdf7-5e87fc6fdb81.pdf
+كلهم حلال وغنيين بالبروتين، بالعربي والإنجليزي.
+Button: افتح الـPDF ببلاش
+
+===== ARABIC, MESSAGE 2 =====
+وإذا حابب أكتر: كتابي The Edible Codex فيه ٣٦١ وصفة حلال بالعربي والإنجليزي. تحميل فوري، واسترجاع خلال ٣٠ يوم:
+https://ediblecodex.com/shop/the-edible-codex
+شو أول وصفة رح تجربها من الـ٨؟
+Button: شوف الكتاب 📕
+
+===== ENGLISH, MESSAGE 1 =====
+Welcome 🤍 Here are the 8 recipes I promised, free:
+https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/c8a9452a-3f71-46c3-bdf7-5e87fc6fdb81.pdf
+All halal, all high-protein, in English and Arabic.
+Button: Get the free PDF
+
+===== ENGLISH, MESSAGE 2 =====
+Want more? My book The Edible Codex has 361 halal recipes in English and Arabic. Instant download, 30-day refund:
+https://ediblecodex.com/shop/the-edible-codex
+Which of the 8 will you try first?
+Button: See the book 📕
