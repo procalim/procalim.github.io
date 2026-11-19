@@ -47,3 +47,37 @@ AVOID: the same dark background in every shot, an all-black frame, glowing or re
 Photorealistic macro food photograph, vertical 9:16. One plain beef hot dog lies flat on a light oak cutting board, seen from the side at eye level. Both ends of the hot dog are whole and round. Its middle is split lengthwise into six even strips that bow outward into a round open ribbed cage, exactly like the ribs of a paper lantern, wider in the middle and closing in at both ends. The strips show glossy pinkish-brown casing outside and paler pink cut faces inside. Inside the cage, seen clearly between the ribs, sits one small bright-white cube of mozzarella. Warm golden tungsten light from the left, soft warm bokeh of brass pendant lights behind, shallow depth of field, the lantern razor sharp and filling the centre of the frame. No hands, no text, no labels, no flower shape, no petals open at the top, no other food.
 
 Both video prompts now end their LANTERN block with "The lantern looks exactly as in @Image2." (owner: «حطها زيدها بسطر»).
+
+===== RESULTS, 19 Nov =====
+- **Part 1 (job b5647007, 20.06 s): the lantern works.**
+  - 0-3.5 s: the slits open into the ribbed cage on the oak board.
+  - The backgrounds change shot to shot (oak, bokeh, wide kitchen, the white-blue freezer, white parchment, the oak
+    counter, the orange backlight, yellow panko, the steel range, the oil), and the lenses stay dark.
+  - Faults:
+    - 15-16.5 s and 18-19 s: the batter-coated cage reads as a face with eye holes;
+    - about 10.5 s: two yolks for one egg;
+    - 19-20 s: the ribs show through in the oil.
+- **Part 2 (job 920be8a9): status "nsfw",** stopped by Higgsfield's filter. The filter does not say why. The images
+  were also attached in the wrong order: the lantern was image 1 and the kitchen image 2.
+- **Part 2 v2 (below) takes out:**
+  - the words "hot dog", "upright", "straight up", "glossy strings" and "white core";
+  - the close-up on his mouth.
+  The pull is now sideways on a plate, and the bite is a medium shot.
+  Image order: @Image1 = the kitchen first, @Image2 = the lantern second.
+
+===== PART 2 v2 (10 s) =====
+A vertical 9:16 cinematic food film, exactly 10 seconds, no text. A golden lantern-shaped corn dog comes out of hot oil, is rolled in sugar, gets ketchup and mustard, and is broken open on a plate to show melted cheese inside, then tasted. Every shot has a different background, surface, colour and light, like a travelling camera in a busy warm kitchen; never two shots in a row with the same background.
+
+THE COOK: his character element: a plain mustard-yellow t-shirt, a black apron with brown leather straps, black nitrile gloves, black square sunglasses with small gold hinges. The sunglasses' lenses are solid matte black at all times: no light on them, no reflection, no glow. He never speaks.
+
+THE LANTERN CORN DOG (the same in every shot): a corn dog on a wooden skewer with a smooth, fully covered, craggy golden panko crust, thin at both ends with one round ball-shaped bulge in its middle; inside, a beef sausage whose middle is split into six strips bowed outward like the ribs of a paper lantern, around melted mozzarella. The lantern inside looks as in @Image2.
+
+SHOT 01 — 0.0-1.5s: Macro from above, the frame filled with bubbling orange-golden oil: the corn dog, deep golden brown with its round bulge, is lifted out on its skewer, dripping, the crust crackling.
+SHOT 02 — 1.5-3.0s: Close on a white enamel tray of sugar on a light oak board: it is rolled in the sugar, crystals sparkling and sticking, a gritty crunch (1.8, 2.4 s).
+SHOT 03 — 3.0-4.5s: Top-down on a white plate where it lies flat: a thin red ketchup zigzag (3.3 s), then a yellow mustard zigzag (3.9 s) along it.
+SHOT 04 — 4.5-8.0s: One locked close shot from the side, the white plate on the oak board, warm bokeh of brass pendant lights behind: the corn dog lies flat; two gloved hands break it in the middle and slowly pull the two halves apart sideways: the crust cracks (5.0 s) and crackles (5.4, 5.8 s); the cut face shows a ring of six pink sausage strips around melted mozzarella, and the cheese stretches between the two halves (6.0-7.8 s).
+SHOT 05 — 8.0-10.0s: Medium shot of him at the counter in the warm-lit kitchen as in @Image1, holding one half: he takes a bite with a loud crunch and nods; his lenses matte black.
+
+SOUND: only the real sounds of each action, sharp and separate with near silence between them: the oil's crackle, the sugar's crunch, the sauces, the crust cracking, a short silence, the crunch of the bite. No music, no voice, no whooshes.
+
+AVOID: the same dark background in every shot, an all-black frame, glowing or reflective sunglasses, light in his lenses, holes in the crust, a face shape, eye holes, a mask, a skull, a straight corn dog without the bulge, two corn dogs, cheese leaking before shot 04, a close-up of his mouth, pork, bacon, ham, alcohol, labels, brand names, text, writing, burnt crust, shaky camera, music, sunglasses off, a white t-shirt, bare hands, other people, logos, talking, extra fingers, deformed hands, distorted face.
