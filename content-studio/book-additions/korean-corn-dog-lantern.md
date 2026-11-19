@@ -1,7 +1,7 @@
 # Lantern Corn Dog («كورن دوغ الفانوس») - N° 059 Korean Corn Dog with an invented cut (2026-11-19)
 The owner, 19 Nov: «جيب فكرة ما حدى شافها الكورن دوغ بشكل ما حدا عملو». The book recipe is kept word for word. One step is
-added: the lantern cut. It is not in the book, so it goes into the book (and a new PDF) only after the owner approves
-and tests it.
+added: the lantern cut. The owner approved it on 19 Nov («موافق، اكتب البرومبت»). It still needs a test in a real
+kitchen before it goes into the book and the new-recipes PDF. Prompt: prompts/w4-lantern-corn-dog-30s.txt.
 
 ## Has anyone made it? (web search, 19 Nov, English and Arabic)
 - **Not found:** a hot dog or corn dog cut into a lantern (a cage) around cheese.
