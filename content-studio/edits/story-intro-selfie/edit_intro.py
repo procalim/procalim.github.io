@@ -28,21 +28,24 @@ CUES = [  # (start, end, Arabic parts [(text, gold)], English, style)
     (18.05, 20.04, [('وأهلا فيك هون.', 0)], 'Welcome.', 'ar'),
 ]
 # photo cards over the selfie (no cut anywhere: the selfie runs under them), never in 0-3 s
-CARDS = [
+CARDS = [  # v3 (owner: «ليش مغطي على وجهي»): beside his face, never over it. His sunglasses stay inside x 260-810
+    # from 5 to 16 s (base.mkv with lines at x 250 and 830, every 0.8 s), so the cards live in the kitchen at the sides,
+    # 225 px wide (x 12-237 and 843-1068, y 360-760), one a side at most; never in 0-3 s; no cut under them
     # the book cover from the site (public/brand/book/cover.jpg, 1200x1500): the book itself, 831x1150 at (184,175)
-    dict(src='cover.jpg', s=5.80, e=7.32, x=540, y=690, w=520, h=720, rot=-3,
-         img=dict(left=-115, top=-110, w=751, h=939)),
-    # the three episodes, their own takes (labels already blurred), the protein the edits said
-    dict(src='p_ice.jpg', s=7.40, e=10.05, x=290, y=780, w=300, h=533, rot=-7, pill='47 غ',
-         img=dict(left=0, top=0, w=300, h=533)),
-    dict(src='p_bean.jpg', s=8.00, e=10.05, x=540, y=740, w=300, h=533, rot=0, pill='55 غ',
-         img=dict(left=0, top=0, w=300, h=533)),
-    dict(src='p_dough.jpg', s=8.60, e=10.05, x=790, y=780, w=300, h=533, rot=7, pill='70 غ',
-         img=dict(left=0, top=0, w=300, h=533)),
+    dict(src='cover.jpg', s=5.80, e=7.32, x=955, y=600, w=225, h=311, rot=3, side='right',
+         img=dict(left=-50, top=-47, w=325, h=406)),
+    # the three episodes, their own takes (labels already blurred), the protein the edits said: left, right, left
+    dict(src='p_ice.jpg', s=7.40, e=8.70, x=125, y=560, w=225, h=400, rot=-3, side='left', pill='47 غ',
+         img=dict(left=0, top=0, w=225, h=400)),
+    dict(src='p_bean.jpg', s=8.00, e=10.05, x=955, y=560, w=225, h=400, rot=3, side='right', pill='55 غ',
+         img=dict(left=0, top=0, w=225, h=400)),
+    dict(src='p_dough.jpg', s=8.70, e=10.05, x=125, y=560, w=225, h=400, rot=-3, side='left', pill='70 غ',
+         img=dict(left=0, top=0, w=225, h=400)),
     # the free PDF's cover (page 1 of the DM's PDF)
-    dict(src='pdfc-01.jpg', s=13.35, e=15.42, x=540, y=700, w=460, h=650, rot=3, badge='ببلاش',
-         img=dict(left=0, top=0, w=460, h=651)),
+    dict(src='pdfc-01.jpg', s=13.35, e=15.42, x=125, y=600, w=225, h=318, rot=-3, side='left', badge='ببلاش',
+         img=dict(left=0, top=0, w=225, h=318)),
 ]
+for c in CARDS: c['from'] = c.pop('side')
 BUBBLE = dict(s=15.62, e=18.05, text='بروتين')
 spec = dict(fps=FPS, frames=N, cps=40, subY=SUB_Y, bubbleY=BUBBLE_Y, bubble=BUBBLE, cards=CARDS,
             cues=[dict(s=s, e=e, ar=ar, en=en, kind=k) for s, e, ar, en, k in CUES])

@@ -31,3 +31,11 @@ Prompt: prompts/story-intro-selfie-20s.txt. Take: Seedance 2.5 job 8bd3323c (the
 - Pills «47 غ», «55 غ», «70 غ»; «The Edible Codex» white; gold accents with a dark stroke and a stronger scrim; the
   long line broken by meaning («وصفة منه،» / «فيها بروتين قد وجبة كاملة.»).
 - Delivered: media 97244c10. 20.04 s, 1080x1920, -16.7 LUFS, -1.0 dBTP.
+
+## v3 (owner: «ليش مغطي على وجهي»)
+- v2's cards sat over his face. A first try at 285 px beside it still touched the sunglasses' edges. His sunglasses
+  stay inside x 260-810 from 5 to 16 s (base.mkv with lines at x 250 and 830, every 0.8 s), so the cards are 225 px
+  wide in the kitchen at the sides (x 12-237 and 843-1068, y 360-760), sliding in from their own side: the cover
+  right; the episodes left, right, then left again (the ice cream makes way for the cookie dough); the free PDF left.
+  One card a side at most; his face is never covered.
+- Delivered: media aeeb35ef (v2 97244c10 replaced). 20.04 s, 1080x1920, -16.7 LUFS, -1.0 dBTP.

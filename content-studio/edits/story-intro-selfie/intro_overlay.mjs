@@ -30,10 +30,10 @@ html,body{margin:0;width:1080px;height:1920px;background:transparent;overflow:hi
 .card{position:absolute;border-radius:26px;overflow:hidden;border:3px solid rgba(227,181,71,.92);
   box-shadow:0 34px 70px rgba(0,0,0,.65),0 6px 18px rgba(0,0,0,.5);background:#0a0a0a;opacity:0}
 .card img{position:absolute;display:block}
-.pill{position:absolute;left:50%;bottom:22px;transform:translateX(-50%);white-space:nowrap;padding:6px 22px 10px;
-  border-radius:999px;background:#E3B547;color:#111;font:700 40px/1.2 Mes,MesL,serif;direction:rtl}
-.badge{position:absolute;top:18px;left:18px;padding:6px 20px 10px;border-radius:999px;background:#E3B547;color:#111;
-  font:700 38px/1.2 Mes,MesL,serif;direction:rtl}
+.pill{position:absolute;left:50%;bottom:22px;transform:translateX(-50%);white-space:nowrap;padding:4px 16px 8px;
+  border-radius:999px;background:#E3B547;color:#111;font:700 34px/1.2 Mes,MesL,serif;direction:rtl}
+.badge{position:absolute;top:14px;left:14px;padding:4px 16px 8px;border-radius:999px;background:#E3B547;color:#111;
+  font:700 32px/1.2 Mes,MesL,serif;direction:rtl}
 .bubble{position:absolute;left:50%;top:${S.bubbleY}px;transform:translateX(-50%);opacity:0;padding:14px 46px 20px;
   border-radius:999px;background:rgba(255,255,255,.96);color:#111;font:700 58px/1.2 Mes,MesL,serif;direction:rtl;
   box-shadow:0 16px 40px rgba(0,0,0,.45)}
@@ -89,14 +89,15 @@ for (let f = 0; f < S.frames; f++) {
       l2.className = "en"; l2.textContent = en.slice(0, Math.max(0, ke)); l2.style.opacity = out;
       sc.style.opacity = Math.min(1, (t - cue.s) / 0.2) * out;
     }
-    // photo cards: pop in (scale back-ease, fade), hold, fade out
+    // photo cards: slide in from their side beside his face (v3: never over it), hold, fade out
     S.cards.forEach((c, i) => {
       const el = document.getElementById("c" + i);
       const a = (t - c.s) / 0.28, b = (c.e - t) / 0.2;
       if (t < c.s || t > c.e) { el.style.opacity = 0; return; }
       const sIn = 0.82 + 0.18 * back(a);
       el.style.opacity = Math.min(1, ease(a) * 1.2, Math.max(0, b));
-      el.style.transform = `rotate(${c.rot}deg) scale(${sIn * (1 + 0.025 * Math.min(1, (t - c.s) / (c.e - c.s)))})`;
+      const dx = (1 - ease(a)) * (c.from === 'left' ? -160 : c.from === 'right' ? 160 : 0);
+      el.style.transform = `translateX(${dx}px) rotate(${c.rot}deg) scale(${sIn * (1 + 0.025 * Math.min(1, (t - c.s) / (c.e - c.s)))})`;
     });
     // the reply bubble: types the keyword, the arrow bounces toward the reply bar
     const bub = document.getElementById("bub"), arr = document.getElementById("arr");
