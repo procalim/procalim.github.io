@@ -1,39 +1,56 @@
-Story: "who I am", a selfie he talks in with his own voice, about 20 s (owner, 2026-11-19: «ستوري كاني ماسك التلفون
-سلفي وعم بحكي بصوتي موجود على هيغسفيلد اعرف عن نفس بوصفاتي ... 20 ثانية»). Status: NOT generated (needs «ولد»).
+Story: "who I am", a selfie he talks in with his own voice, 20 s (owner, 2026-11-19: «ستوري كاني ماسك التلفون سلفي وعم
+بحكي بصوتي موجود على هيغسفيلد اعرف عن نفس بوصفاتي ... 20 ثانية»; then «أعطيني البرومبت وبولدو على unlimited ومنرفق
+الصوت وبس تعدلو انت ... وضيف كابشن الصوت»). Status: NOT generated. The owner makes the voice and the video on
+higgsfield.ai (unlimited); the edit is ours.
 
 WHY AND WHERE
 - Stories go to followers only (Instagram Ranking Explained); the plan's stories reach 33-39 a story with 0 replies.
   This one asks for one thing only: a reply with «بروتين» (a story reply is a DM, the closeness signal).
 - After the day, into a highlight «ابدأ هون» first in the row: 1,013 profile visits in 29 days, 8 bio link taps.
-- Meta asks creators to disclose photorealistic AI video and realistic AI audio, with penalties possible
-  (about.fb.com/news/2024/02/labeling-ai-generated-images-on-facebook-instagram-and-threads/): turn on the AI label
-  where the app offers it.
 - Only true lines: his name, his book (The Edible Codex, 361 recipes, halal), the series, the free PDF of 8 recipes.
-  No "I cooked", "I tried", no invented experiences.
+  No "I cooked", "I tried", no invented experiences; no book prop (the model would invent a cover).
+- Meta asks creators to disclose photorealistic AI video and realistic AI audio, penalties possible
+  (about.fb.com/news/2024/02/labeling-ai-generated-images-on-facebook-instagram-and-threads/). The label is the
+  owner's call at posting; the edit does nothing aimed at hiding that the video is AI.
 
-THE LINES (his voice element "Chef-Ahmad--1", d0a5674d; Intone runs the voice + 2.5 s, so the voice stays under 17.5 s)
-| s | Arabic (spoken and typed) | English (small line) |
-|---|---|---|
-| 0-3 | ٣٦١ وصفة حلال… بكتاب واحد. | 361 halal recipes. One book. |
-| 3-6 | أنا أحمد، وهاد كتابي: The Edible Codex. | I'm Ahmad. This is my book. |
-| 6-11 | كل حلقة من «بروتين من الكتاب» وصفة منه، فيها بروتين قد وجبة كاملة. | Every episode: a meal's worth of protein. |
-| 11-16 | بدك ٨ وصفات منهم ببلاش؟ ردّ على هالستوري بكلمة «بروتين». | Want 8 free? Reply PROTEIN. |
-| 16-17.5 | وأهلا فيك هون. | Welcome. |
-Text for the voice (one file): «تلاتمية وواحد وستين وصفة حلال… بكتاب واحد. أنا أحمد، وهاد كتابي: ذا إيديبل كودكس. كل حلقة
-من بروتين من الكتاب، وصفة منه، فيها بروتين قد وجبة كاملة. بدك تمن وصفات منهم ببلاش؟ ردّ على هالستوري بكلمة بروتين. وأهلا
-فيك هون.» Listen before the video: if the Arabic accent is off, record the same lines on the phone instead.
+STEP 1, THE VOICE (higgsfield.ai, his voice element "Chef-Ahmad--1"; under 18 s, listen before step 2; if the accent is
+off, record the same lines on the phone)
+تلاتمية وواحد وستين وصفة حلال… بكتاب واحد. أنا أحمد، وهاد كتابي: ذا إيديبل كودكس. كل حلقة من بروتين من الكتاب، وصفة منه، فيها بروتين قد وجبة كاملة. بدك تمن وصفات منهم ببلاش؟ ردّ على هالستوري بكلمة بروتين. وأهلا فيك هون.
 
-THE VIDEO (Higgsfield Intone: talking head, a character image + voice recordings, 9:16, 1080p; not on unlimited)
-- character image: a still from the ep 4 take, f455 (his face front-on, black square sunglasses, mustard-yellow
-  t-shirt, the kitchen behind), 1080x1920; no new image generation.
-- prompt: A vertical selfie video. He holds the phone at arm's length in his dark kitchen (matte black cabinets with
-  brass trim, warm tungsten light), the camera at eye level a little above, a natural slight handheld sway. He talks
-  straight into the lens, relaxed and warm, small nods, one short smile on the last line. Black square sunglasses with
-  gold hinges on the whole time, a plain mustard-yellow t-shirt, a black apron with brown leather straps. One
-  continuous shot, no cuts, no music, no text.
+STEP 2, THE VIDEO
+SETTINGS (higgsfield.ai):
+- Seedance 2.5, Omni reference, 20 s, 9:16, 720p, bitrate High, audio On.
+- Character element chef-ahmet-yellow (41e55e5e).
+- @Image1 = the kitchen: https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/66c2248f-e130-4a3c-83df-1a715f172d69.jpg
+- @Audio1 = the voice file from step 1.
 
-THE EDIT (the sandbox, after the take is read)
-- The take's own sound, THE MEASURED RULE master (-20 LUFS gain, the peak-only limiter).
-- Typed subtitles (anim-typed), one line at a time with the voice, Arabic big, English small, inside y 250-1500.
-- In the app: no sticker; the reply bar is the ask. The AI label if offered.
-- Read at 24 h: reach (bar 33-39), replies (bar 0), profile visits; then the highlight.
+===== PROMPT =====
+SCENE CONTEXT: A vertical 9:16 selfie video for an Instagram story, exactly 20 seconds, one continuous handheld shot, no cuts. He holds the phone himself at arm's length in his kitchen exactly as in @Image1 (matte black cabinets with thin brass trim, a black marble counter with fine gold veins, a black range with brass knobs, warm tungsten light falling to black) and talks straight into the lens, like a creator welcoming new followers.
+
+REFERENCE CONTROL: The man is his character element: exactly his face (thick mustache, no beard, short dark hair combed back), his black square sunglasses with small gold hinges and solid black lenses worn the whole time, a plain mustard-yellow t-shirt, a black apron with brown leather straps. Selfie framing: his head and shoulders, the whole head inside the frame and upright, the lens at eye level or a little above, his phone arm reaching toward the lens from the frame edge. His free hand stays out of frame. @Image1 is the place, never a prop.
+
+VOICE AND LIPS: He speaks the words of @Audio1 exactly, in that voice, in Levantine Arabic, his lips matching every syllable. He starts speaking at 0.2 seconds. When @Audio1 ends he stops talking, smiles once and gives one small nod, still looking into the lens, until the end. The words: «٣٦١ وصفة حلال… بكتاب واحد. أنا أحمد، وهاد كتابي: The Edible Codex. كل حلقة من «بروتين من الكتاب» وصفة منه، فيها بروتين قد وجبة كاملة. بدك ٨ وصفات منهم ببلاش؟ ردّ على هالستوري بكلمة «بروتين». وأهلا فيك هون.»
+
+PERFORMANCE: relaxed, warm and sure of himself; small natural head movements; his eyebrows lift above the sunglasses on the number; a short smile on "ببلاش"; he leans a little toward the lens on "ردّ على هالستوري".
+
+CAMERA: a real phone selfie at arm's length: a natural slight handheld sway, no zoom, no cuts, no transitions; his face sharp, the kitchen behind softly out of focus.
+
+SOUND: only his voice from @Audio1 and the quiet room. No music, no whooshes, no risers, no second voice.
+
+AVOID: cuts, text, subtitles, captions, logos, a book or any printed object, a phone visible in a mirror, sunglasses off, sunglasses with clear lenses, a white t-shirt, a chain, gloves on the phone hand, other people, a second voice, music, lips out of sync, extra fingers, deformed hands, distorted face.
+
+STEP 3, THE EDIT (the sandbox, after the take is read frame by frame)
+- Sound: the take's own voice track (or @Audio1 laid back on if the lips match it better), THE MEASURED RULE master
+  (-20 LUFS gain, the peak-only limiter); nothing after the nod.
+- Typed subtitles (anim-typed), timed to the voice line by line, Arabic big, English small, inside y 250-1500:
+  | Arabic | English |
+  |---|---|
+  | ٣٦١ وصفة حلال… بكتاب واحد. | 361 halal recipes. One book. |
+  | أنا أحمد، وهاد كتابي: The Edible Codex. | I'm Ahmad. This is my book. |
+  | كل حلقة من «بروتين من الكتاب» وصفة منه، | Every episode, one recipe from it, |
+  | فيها بروتين قد وجبة كاملة. | a meal's worth of protein. |
+  | بدك ٨ وصفات منهم ببلاش؟ | Want 8 of them free? |
+  | ردّ على هالستوري بكلمة «بروتين». | Reply PROTEIN to this story. |
+  | وأهلا فيك هون. | Welcome. |
+- In the app: no sticker; the reply bar is the ask.
+- Read at 24 h: reach (bar 33-39), replies (bar 0), profile visits; then the highlight «ابدأ هون».
