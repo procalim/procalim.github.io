@@ -80,12 +80,16 @@ Every edit from now:
    ingredients by 1-2 s (protein 61.1%, skewers 58.2%, steak bites 53.3%); eps 2-4 opened on raw curds and beans (ep 2
    39.6%); the top third of the 17 Nov swipe showed the finished food in the first second in 3 of 5, and ep 4's two
    outliers opened on the finished dough at the lens (8.3x, 6.1x).
-   - Shot 01, 0-4 s: the finished dish, one locked continuous shot, close or macro, the food two thirds of the frame
-     and sharp, hands in black gloves only (no face); one slow motion that shows its texture (a spoon pulls a scoop, a
-     knife goes through, a fork pulls it apart) with item 5's sharp sounds every 0.5 s; a calm picture.
-   - Shots 02-06: the book's steps, once each, in order, the food big in every shot (close, macro, top-down), slow and
-     calm, slow motion on the textures; his face never covers or replaces the food.
-   - Shot 07: back to the result, the same framing as shot 01 (the loop); the bite is the only place for his face.
+   - (owner, same day: «الفيديو ... step by step الوصفة ... قبل الحمص حط المكونات كلها الدريسنغ بين المكونات ...
+     القطة الأخيرة بتنحط بتعديل مش بتصدير») THE TAKE is the whole recipe step by step in the book's order: every
+     ingredient seen going in, one by one (the dressing's too), every step once, the food big in every shot, hands in
+     black gloves only; never ingredients already in the bowl, never a step skipped to make room.
+   - The take's LAST shot is the finished dish, one locked continuous shot of 4-4.5 s, close, the food two thirds of
+     the frame and sharp, one slow motion that shows its texture (a spoon pulls a scoop, a knife goes through, hands
+     tear it open) with item 5's sharp sounds every 0.5 s; his face only in its last second, for the bite.
+   - THE EDIT makes the result first: the last shot's first 3.5 s (no cut inside) go to 0-3.5 s under the hook, then
+     the steps in order, then the last shot in full (the result again and the bite). The prompt never writes a
+     separate result shot at the start.
    - Text: item 7 unchanged (the hook bank over the result, re-hooks, the answer and send cards at the end).
    - 60 fps: Seedance gives 24 fps; the edit interpolates the final cut with `minterpolate=fps=60:mi_mode=mci:
      mc_mode=aobmc:me_mode=bidir:vsbmc=1` (tested on ep 4's scoop and bite: clean in-between frames on calm slow

@@ -1,8 +1,7 @@
-RESULT FIRST, High-protein Cookie Dough (Cottage Cheese Hack) (N° 105, The Edible Codex English PDF p254), 20 s.
-Owner, 2026-11-19: «أعطيني برومبت جديد لسلطة والكوكيز والباغيل من الكتاب». Template: prompts/_template-result-first-20s.txt.
-The same recipe as ep 4 (job 732efcce, opened on the raw curds): a trial reel at the same hour is the clean test of
-the opening. Its two outliers opened on the finished dough at the lens (8.3x, 6.1x; research/swipe-2026-11-18.md).
-Status: NOT generated.
+High-protein Cookie Dough (Cottage Cheese Hack) (N° 105, The Edible Codex English PDF p254), 20 s, STEP BY STEP.
+Owner, 2026-11-19 (v2 of this prompt): «الفيديو ... step by step الوصفة ... القطة الأخيرة بتنحط بتعديل مش بتصدير». The take
+is the whole recipe in order, every ingredient seen going in; the last shot is the finished dough (4.5 s, locked); the
+edit copies its first 3.5 s to the opening (result first, THE MEASURED RULE item 8). Status: NOT generated.
 
 SETTINGS (higgsfield.ai): Seedance 2.5, Omni reference, 20 s, 9:16, 720p, bitrate High, audio On; character element
 chef-ahmet-yellow (41e55e5e); @Image1 = the kitchen:
@@ -11,16 +10,16 @@ https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/66c2248f-
 May not match the book: vanilla extract alcohol-free (halal); "Maple syrup or Honey": maple syrup; "Almond flour (or
 oat flour)": almond flour; cottage cheese and protein powder halal-certified.
 
-PRE-GENERATION CHECK: shot 01 the finished dough, no raw curds, no face; every step once (02 into the blender, 03 blend,
-04 pour, 05 flour and protein, 06 chips, 07 eat from the bowl); one tub, one jar, one bowl, one spatula, one spoon; no
-labels; 7 sound hits in 0-3.3 s; his face only in shot 07.
+PRE-GENERATION CHECK: all 6 ingredients seen going in, in the book's order; every step once; one tub, one jar, one
+bowl, one spatula, one spoon; no labels; the last shot locked 4.5 s with a sharp sound every half second (the edit's
+opening); his face only in the last 1.5 s.
 
 ===== PROMPT =====
-SCENE CONTEXT: A vertical 9:16 premium food film, exactly 20 seconds, 7 shots, slow, calm and precise, the food the hero of every frame. One place only: the cook's kitchen exactly as in @Image1 (matte black cabinets with thin brass trim, a black marble counter with fine gold veins), falling to black. It opens on the finished high-protein cookie dough, shows how it is made from a tub of cottage cheese, and ends on the same dough.
+SCENE CONTEXT: A vertical 9:16 premium food film, exactly 20 seconds, the whole recipe step by step, every ingredient seen going in, calm and precise, the food the hero of every frame. One place only: the cook's kitchen exactly as in @Image1 (matte black cabinets with thin brass trim, a black marble counter with fine gold veins), falling to black.
 
-REFERENCE CONTROL: The cook is his character element: black nitrile gloves on both hands in every shot, a plain mustard-yellow t-shirt and a black apron with brown leather straps when his body is in frame. His face appears only in shot 07, his black square sunglasses with small gold hinges and solid black lenses on. The food is always larger and sharper than he is. @Image1 is the place, never a prop. He never speaks.
+REFERENCE CONTROL: The cook is his character element: black nitrile gloves on both hands in every shot, a plain mustard-yellow t-shirt and a black apron with brown leather straps when his body is in frame. His face appears only at the very end, for the bite, his black square sunglasses with small gold hinges and solid black lenses on. The food is always larger and sharper than he is. @Image1 is the place, never a prop. He never speaks.
 
-RECIPE (the book, word for word; every step once, in this order, nothing added):
+RECIPE (the book, word for word; every ingredient shown, every step once, in this order, nothing added):
 High-protein Cookie Dough (Cottage Cheese Hack)
 — 1 cup Cottage cheese (full fat); 1 tbsp Maple syrup; 1 tsp Vanilla extract (alcohol-free); 1 cup Almond flour; 1 scoop Vanilla protein powder; 1/4 cup Dark chocolate chips
 1 Place the cottage cheese, maple syrup, and vanilla extract into a blender. Blend until absolutely silky smooth.
@@ -29,28 +28,31 @@ High-protein Cookie Dough (Cottage Cheese Hack)
 4 Fold in the chocolate chips.
 5 Eat it straight from the bowl with a spoon.
 
-FOOD SHAPES AND COLOURS (the same in every shot, never change): Cottage cheese: bright white small curds, packed into one block that keeps the tub's round shape. Maple syrup: thin, amber, glossy. Blended cream: silky smooth, glossy white, no lumps. Almond flour: fine pale sand-coloured powder. Protein powder: fine off-white powder. The finished dough: thick, soft, pale golden like real raw cookie dough, holding the marks of the spatula, small dark chocolate chips in every part, a soft dome in a wide clear glass mixing bowl. The tub: plain white, no label, no print.
+FOOD SHAPES AND COLOURS (the same in every shot, never change): Cottage cheese: bright white small curds, packed into one block that keeps the tub's round shape. Maple syrup: thin, amber, glossy. Vanilla: dark brown, one teaspoon. Blended cream: silky smooth, glossy white, no lumps. Almond flour: fine pale sand-coloured powder in a cup. Protein powder: fine off-white powder in a scoop. Chocolate chips: small dark brown drops. The finished dough: thick, soft, pale golden like real raw cookie dough, holding the marks of the spatula, dark chips in every part, a soft dome in a wide clear glass mixing bowl. The tub: plain white, no label, no print. The blender jar: tall clear glass.
 
-PROCESS ORDER / NON-REPETITION LOCK: shot 01 shows the finished dough in the glass bowl; shots 02-06 go forward once: curds, syrup and vanilla into the blender -> blended silky -> poured into the empty bowl -> almond flour and protein powder stirred in, the dough forms -> chocolate chips folded in; shot 07 returns to the finished dough in shot 01's framing. No dough between shots 02 and 04; the cream never turns back into curds.
+PROCESS ORDER / NON-REPETITION LOCK: curds, syrup and vanilla into the blender, one by one -> blended silky -> poured into the empty bowl -> almond flour in -> protein powder in -> stirred into dough -> chocolate chips in and folded -> the finished dough -> the spoonful -> the bite. Every stage once, only forward; no dough before the flour; the cream never turns back into curds.
 
-SOUND, THE WHOLE VIDEO: a quiet kitchen. Only the real sounds of each action, each sharp, close and separate, near silence between them. In shot 01 a new sharp sound every half second: the metal spoon taps the glass rim at 0.3 s and again at 0.8 s, the thick sticky pull of the dough as the spoon lifts at 1.3 s, the spoon scrapes the glass wall at 1.8 s, one chocolate chip ticks onto the marble at 2.3 s, the spoon clinks the rim at 2.8 s, a second chip ticks at 3.3 s. Then: the heavy wet plop of the curds into the glass jar; the click of the lid; the blender's rising whir that stops dead into silence; the soft thick pour; the dull soft thud of the flour; the spatula working the thick dough; the tiny crisp taps of chocolate chips raining down; a 0.3-second silence, then the bite, the loudest sound of the video. No music, no voice, no bass hits, no whooshes, no risers.
+SOUND, THE WHOLE VIDEO: a quiet kitchen. Only the real sounds of each action, each sharp, close and separate, near silence between them: the heavy wet plop of the curds into the glass jar, two taps of the empty tub on the rim, the click of the syrup cap, the clink of the teaspoon on the glass, the hard click of the lid; the blender's rising whir that stops dead into silence; the soft thick pour; the dull soft thud of the almond flour, the soft puff of the protein powder; the spatula working the thick dough; the tiny crisp taps of chocolate chips raining down. In the last shot a new sharp sound every half second: the metal spoon taps the glass rim at 15.6 s and again at 16.1 s, the thick sticky pull of the dough at 16.6 s, the spoon scrapes the glass wall at 17.1 s, one chocolate chip ticks onto the marble at 17.6 s, the spoon clinks the rim at 18.0 s, a second chip ticks at 18.4 s; a 0.3-second silence, then the bite. No music, no voice, no bass hits, no whooshes, no risers.
 
-SHOT 01 — 0.0-4.0s: THE RESULT. ONE CONTINUOUS LOCKED SHOT, NO CUT, the camera still. Close at the bowl, slightly above: the finished cookie dough in the wide clear glass bowl fills two thirds of the frame, razor sharp, pale golden with dark chocolate chips in every part, warm light raking across its soft surface. A gloved hand drags a metal spoon slowly through the thick dough and lifts one generous scoop that folds and holds its shape, a chocolate chip dropping onto the marble, with the sounds above. No face, gloved hands only. Nothing else moves.
-SHOT 02 — 4.0-6.5s: Low at counter level: a tall glass blender jar on the marble; a plain white tub turned upside down over it, the whole block of white curds slides out holding the tub's round shape and drops in with one heavy wet plop; one thin amber ribbon of maple syrup and one teaspoon of vanilla follow; the lid pressed on with a click.
-SHOT 03 — 6.5-9.0s: Close on the glass jar, compressed time: the motor starts with a rising whir; the curds and syrup churn into a silky smooth glossy white cream; the motor stops dead and the kitchen goes silent.
-SHOT 04 — 9.0-11.5s: Close from above, slow motion: the jar tips and the silky white cream pours in one thick slow ribbon into the empty wide glass mixing bowl.
-SHOT 05 — 11.5-14.5s: Close: a cup of pale almond flour drops in with a soft dull thud, then a scoop of off-white protein powder; a spatula stirs hard and the cream and powder turn into one thick pale golden dough that holds the spatula's marks.
-SHOT 06 — 14.5-17.5s: True top-down macro: small dark chocolate chips rain onto the dough with tiny crisp taps; the spatula folds them in with two slow turns.
-SHOT 07 — 17.5-20.0s: THE RESULT AGAIN in shot 01's framing: the spoon lifts one generous scoop and carries it up toward the lens; his face and sunglasses enter the top of the frame and, after a 0.3-second silence, he takes the whole spoonful in one bite, mouth closed as he chews. No cut to black.
+SHOT 01 — 0.0-4.0s: INTO THE BLENDER. Low at counter level, locked: a tall clear glass blender jar on the marble. He turns a plain white tub upside down over the open jar; the whole block of white curds slides out still holding the tub's round shape and drops in with one heavy wet plop (0.3 s); he taps the empty tub twice on the rim (0.8 and 1.2 s); he snaps open the syrup cap (1.6 s) and pours one thin amber ribbon of maple syrup across the white block (1.7-2.3 s); he tips one teaspoon of dark vanilla in and clinks the spoon on the glass (2.6 s); he presses the lid on with one hard click (3.4 s).
+SHOT 02 — 4.0-6.0s: BLEND. Close on the glass jar, compressed time: the motor starts with a rising whir; the curds and syrup churn into a silky smooth glossy white cream; the motor stops dead and the kitchen goes silent.
+SHOT 03 — 6.0-8.0s: POUR. Close from above, slow motion: the jar tips and the silky white cream pours in one thick slow ribbon into an empty wide clear glass mixing bowl.
+SHOT 04 — 8.0-10.5s: FLOUR AND PROTEIN. Close, a little above, locked: a cup of pale almond flour tipped onto the cream with a soft dull thud (8.3 s), then one scoop of off-white protein powder with a soft puff (9.4 s), two pale mounds on the white cream.
+SHOT 05 — 10.5-12.5s: STIR. Close: a spatula stirs hard and the cream and powders turn into one thick pale golden dough that holds the spatula's marks.
+SHOT 06 — 12.5-15.5s: CHIPS. True top-down macro, locked: small dark chocolate chips rain onto the dough with tiny crisp taps; the spatula folds them in with two slow turns, chips in every part.
+SHOT 07 — 15.5-20.0s: THE RESULT. ONE CONTINUOUS LOCKED SHOT, NO CUT, the camera still, close and slightly above the bowl: the finished cookie dough fills two thirds of the frame, razor sharp, pale golden with dark chips in every part, warm light raking across its soft surface; a gloved hand taps the rim twice with a metal spoon, drags it slowly through the thick dough and lifts one generous scoop that folds and holds its shape, a chocolate chip dropping onto the marble, with the sounds above. At 18.6 s he lifts the spoon toward the lens, his face and sunglasses enter the top of the frame, and after a 0.3-second silence he takes the whole spoonful in one bite, mouth closed as he chews. No cut to black.
 
-SPEED + TRANSITIONS: slow and calm; real time in shot 01; compressed time on the blending; slow motion on the pour and the scoop; clean hard cuts, no transitions, no whip pans, one slow camera move at most per shot, shot 01 locked still.
+SPEED + TRANSITIONS: calm; real time for every ingredient; compressed time on the blending; slow motion on the pour; clean hard cuts, no transitions, no whip pans; shots 01, 04, 06 and 07 locked still.
 
 LIGHTING: a hard warm tungsten key light (2700 K) from camera left raking across the food, the background falling to black, a warm rim on the silky cream and the dough, sharp focus on the food.
 
-AVOID: a cut inside shot 01, a camera move in shot 01, his face before shot 07, raw curds in shot 01, fast motion, shaky camera, baked cookies, an oven, a baking tray, raw eggs, wheat flour, butter, a food processor, a label or print on the tub, packaging, protein tubs with labels, music, bass hits, whooshes, sunglasses off, a white t-shirt, a chain, bare hands, other people, logos, pork, alcohol, talking, cut to black, text, extra fingers, deformed hands, distorted face.
+AVOID: an ingredient skipped or already in the jar or bowl at the start, his face before 18.6 s, a cut inside shot 07, a camera move in shots 01, 04, 06 or 07, fast blurry motion, shaky camera, baked cookies, an oven, a baking tray, raw eggs, wheat flour, butter, a food processor, a label or print on the tub, packaging, protein tubs with labels, music, bass hits, whooshes, sunglasses off, a white t-shirt, a chain, bare hands, other people, logos, pork, alcohol, talking, cut to black, text, extra fingers, deformed hands, distorted face.
 
-===== EDIT =====
-- Hook over shot 01 (hook bank E + B, the kids angle): «ولادك بياكلوا العجينة نيّة؟» / RAW DOUGH?; re-hooks «شوف الجبنة
-  كيف بتختفي», «حوالي 70 غ بروتين بالوعاء», «دقيق لوز بدل الطحين», «وهلق أطيب جزء»; the answer «السر: بلا طحين نيّ ولا بيض
-  نيّ» / "No raw flour. No raw egg."; the send «ابعتها للي ولاده بيسرقوا عجينة الكوكيز». hook_check 8/10 or more.
+===== EDIT (the result first is made here, not in the take) =====
+- 0-3.5 s: shot 07's 15.6-19.1 s (the taps, the spoon through the dough, the scoop, the chips falling: one continuous
+  shot, no cut, the sharp hits every half second), the hook over it. Then shots 01-06 in order, then shot 07 in full
+  (the result again and the bite). About 20 s.
+- Hook (hook bank E + B, the kids angle): «ولادك بياكلوا العجينة نيّة؟» / RAW DOUGH?; re-hooks «جبنة قريش، مش زبدة»,
+  «شوف الجبنة كيف بتختفي», «دقيق لوز بدل الطحين», «حوالي 70 غ بروتين بالوعاء»; the answer «السر: بلا طحين نيّ ولا بيض نيّ» /
+  "No raw flour. No raw egg."; the send «ابعتها للي ولاده بيسرقوا عجينة الكوكيز». hook_check 8/10 or more.
 - Sound: THE MEASURED RULE; open3.py 6+ onsets in 0-3 s. 60 fps: minterpolate on the final cut.
