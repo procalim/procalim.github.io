@@ -13,9 +13,17 @@ WHY AND WHERE
   (about.fb.com/news/2024/02/labeling-ai-generated-images-on-facebook-instagram-and-threads/). The label is the
   owner's call at posting; the edit does nothing aimed at hiding that the video is AI.
 
-STEP 1, THE VOICE (higgsfield.ai, his voice element "Chef-Ahmad--1"; under 18 s, listen before step 2; if the accent is
-off, record the same lines on the phone)
+STEP 1, THE VOICE: Arabic that sounds like him (owner, 2026-11-19: «هيك الناس بتفكرني اجنبي بدي صوت عربي او ولد صوتي
+بالعربي»). Under 18 s, one file.
+A (the sure one): his own voice on his phone, in a quiet room, the phone 20 cm from his mouth, the lines below as he
+  says them; then trim the silence at both ends.
+B (generated, on higgsfield.ai, unlimited covers Text to Speech V2 and Seed Audio): Text to Speech V2, engine
+  ElevenLabs, voice Chef-Ahmad--1 (element), the dialect spelling below; test the first sentence on ElevenLabs, Seed
+  Speech and MiniMax, keep the one that sounds Levantine, then the whole text. If none does, A.
+The lines (plain):
 تلاتمية وواحد وستين وصفة حلال… بكتاب واحد. أنا أحمد، وهاد كتابي: ذا إيديبل كودكس. كل حلقة من بروتين من الكتاب، وصفة منه، فيها بروتين قد وجبة كاملة. بدك تمن وصفات منهم ببلاش؟ ردّ على هالستوري بكلمة بروتين. وأهلا فيك هون.
+The lines for the engine (Levantine spelling with vowels):
+تْلاتْمِيِّة وْواحَد وْسِتّين وَصْفِة حَلال… بْكِتاب واحَد. أنا أَحْمَد، وْهادا كْتابي: ذا إيدِبِل كودِكس. كِلّ حَلْقَة مِن «بْروتين مِن الكْتاب» وَصْفِة مِنُّو، فيها بْروتين قَدّ وَجْبِة كامْلِة. بِدَّك تْمَن وَصْفات مِنْهُن بَبَلاش؟ رُدّ عَ هالسْتوري بْكِلْمِة «بْروتين». وْأَهْلا فيك هون.
 
 STEP 2, THE VIDEO
 SETTINGS (higgsfield.ai):
@@ -29,7 +37,7 @@ SCENE CONTEXT: A vertical 9:16 selfie video for an Instagram story, exactly 20 s
 
 REFERENCE CONTROL: The man is his character element: exactly his face (thick mustache, no beard, short dark hair combed back), his black square sunglasses with small gold hinges and solid black lenses worn the whole time, a plain mustard-yellow t-shirt, a black apron with brown leather straps. Selfie framing: his head and shoulders, the whole head inside the frame and upright, the lens at eye level or a little above, his phone arm reaching toward the lens from the frame edge. His free hand stays out of frame. @Image1 is the place, never a prop.
 
-VOICE AND LIPS: He speaks the words of @Audio1 exactly, in that voice, in Levantine Arabic, his lips matching every syllable. He starts speaking at 0.2 seconds. When @Audio1 ends he stops talking, smiles once and gives one small nod, still looking into the lens, until the end. The words: «٣٦١ وصفة حلال… بكتاب واحد. أنا أحمد، وهاد كتابي: The Edible Codex. كل حلقة من «بروتين من الكتاب» وصفة منه، فيها بروتين قد وجبة كاملة. بدك ٨ وصفات منهم ببلاش؟ ردّ على هالستوري بكلمة «بروتين». وأهلا فيك هون.»
+VOICE AND LIPS: @Audio1 is his own voice speaking Levantine Arabic as a native speaker. He speaks the words of @Audio1 exactly, in that voice and accent, his lips matching every syllable; never an English or foreign accent. He starts speaking at 0.2 seconds. When @Audio1 ends he stops talking, smiles once and gives one small nod, still looking into the lens, until the end. The words: «٣٦١ وصفة حلال… بكتاب واحد. أنا أحمد، وهاد كتابي: The Edible Codex. كل حلقة من «بروتين من الكتاب» وصفة منه، فيها بروتين قد وجبة كاملة. بدك ٨ وصفات منهم ببلاش؟ ردّ على هالستوري بكلمة «بروتين». وأهلا فيك هون.»
 
 PERFORMANCE: relaxed, warm and sure of himself; small natural head movements; his eyebrows lift above the sunglasses on the number; a short smile on "ببلاش"; he leans a little toward the lens on "ردّ على هالستوري".
 
@@ -37,10 +45,10 @@ CAMERA: a real phone selfie at arm's length: a natural slight handheld sway, no 
 
 SOUND: only his voice from @Audio1 and the quiet room. No music, no whooshes, no risers, no second voice.
 
-AVOID: cuts, text, subtitles, captions, logos, a book or any printed object, a phone visible in a mirror, sunglasses off, sunglasses with clear lenses, a white t-shirt, a chain, gloves on the phone hand, other people, a second voice, music, lips out of sync, extra fingers, deformed hands, distorted face.
+AVOID: a foreign accent, English speech, cuts, text, subtitles, captions, logos, a book or any printed object, a phone visible in a mirror, sunglasses off, sunglasses with clear lenses, a white t-shirt, a chain, gloves on the phone hand, other people, a second voice, music, lips out of sync, extra fingers, deformed hands, distorted face.
 
 STEP 3, THE EDIT (the sandbox, after the take is read frame by frame)
-- Sound: the take's own voice track (or @Audio1 laid back on if the lips match it better), THE MEASURED RULE master
+- Sound: @Audio1 itself laid back on (his Arabic voice, not the model's copy of it) when the lips match it; the take's own track only if they don't, THE MEASURED RULE master
   (-20 LUFS gain, the peak-only limiter); nothing after the nod.
 - Typed subtitles (anim-typed), timed to the voice line by line, Arabic big, English small, inside y 250-1500:
   | Arabic | English |
