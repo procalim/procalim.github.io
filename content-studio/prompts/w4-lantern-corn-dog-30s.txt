@@ -1,40 +1,49 @@
-Lantern Corn Dog «كورن دوغ الفانوس» (N° 059 Korean Corn Dog, The Edible Codex English PDF p206, plus step 00, the
-lantern cut, approved by the owner on 2026-11-19 as «إضافة من مطبخنا»: book-additions/korean-corn-dog-lantern.md), 30 s,
-STEP BY STEP. The owner, 19 Nov: «جيب فكرة ما حدى شافها الكورن دوغ بشكل ما حدا عملو» ... «موافق، اكتب البرومبت».
-research/ai-account-58m-reel-2026-11-19.md: frame one is the strange act (a hot dog opening into a cage). This goes back
-to the crinkle way (THE 1-2 S DROP), not result first: the unfinished shape first, and the end answers it. 30 s, as the
-58M reel (Seedance 2.5 takes 4-30 s). idea-lab 7/10. Status: NOT generated.
+Lantern Corn Dog «كورن دوغ الفانوس», v2 (N° 059 Korean Corn Dog, The Edible Codex English PDF p206, plus step 00, the
+lantern cut, approved by the owner on 2026-11-19: book-additions/korean-corn-dog-lantern.md), 30 s, STEP BY STEP.
+v2, the owner on 19 Nov: «ولا هووك ولا اشي كلو حكي فاضي الكتابة ما بيوقف المشاهد ... بالفيديو تاعو الخلفية عم تتغير» ...
+«الخلفيات عم تتغير بالفيديو تبعو هاذا مقصدي وخذ شوي من حركاتو بالفيديو بس».
+- **Text:** none on the video.
+- **Each shot a new place and angle in his kitchen,** as the 58M reel does (research/ai-account-58m-reel-2026-11-19.md):
+  - the wooden board with his apron behind;
+  - a lens close-up;
+  - the wide kitchen;
+  - the freezer;
+  - top-down;
+  - a low angle with him behind;
+  - the range with the blue flame;
+  - inside the pot;
+  - the sugar tray;
+  - a medium shot of him;
+  - the macro pull.
+- **His face:** shows in the wide and medium shots, as in that reel.
+- **What stays:** the book order, every ingredient seen going in, the take's own sound with sharp hits.
+- **v1:** text cards and one dark look in every shot; replaced by v2.
+Status: NOT generated.
 
 SETTINGS (higgsfield.ai): Seedance 2.5, Omni reference, 30 s, 9:16, 720p, bitrate High, audio On; character element
 chef-ahmet-yellow (41e55e5e); @Image1 = the kitchen:
 https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/66c2248f-e130-4a3c-83df-1a715f172d69.jpg
-If the owner's unlimited does not take 30 s, the same shots fit 20 s with shots 03, 04 and 07 shortened.
 
 What may not match the book:
-- Step 00 is our addition and is not tested yet: 6 strips from 3 passes of the knife, 1.5 cm left uncut at each end.
-- The book says "Hot dogs or Mozzarella sticks (cut into blocks)" and "Skewer the hot dogs and cheese". Here both are
-  used: the cheese block sits inside the hot dog, on one skewer.
-- One corn dog is followed from start to end; the book makes several.
-- The book does not name the frying pot: a black pot.
-- The 20-minute freeze is shown as compressed time with frost.
-
-Halal: halal-certified beef hot dog (no pork); halal-certified mozzarella; vegetable oil for frying; no labels shown.
+- Step 00 is our addition and is not tested yet.
+- The hot dog and the cheese share one skewer, with the cheese inside the hot dog.
+- One corn dog is followed from start to end.
+- The frying pot is not named in the book: a black pot.
+- The 20-minute freeze is shown as compressed time.
+Halal: halal-certified beef hot dog (no pork) and halal-certified mozzarella, vegetable oil, no labels.
 
 PRE-GENERATION CHECK:
-- **Step 00 first:** 3 knife passes give 6 strips, then the push opens the cage.
-- **Ingredients:** every one is seen going in, in the book's order: the hot dog, the mozzarella block, the skewer;
-  then flour, sugar, salt, egg, cold milk and baking powder; then panko; then sugar, ketchup and mustard.
-- **The book's steps:** the 20-minute freeze, the tall glass of batter, 175°C, the sugar straight after the fryer.
-- **One corn dog:** the same one from start to end, its lantern bulge visible under the batter and the crust.
-- **No labels.**
+- **Ingredients:** every one is seen going in, in the book's order.
+- **Steps:** step 00 first; the freeze; the tall glass; 175°C; the sugar straight after the oil.
+- **Backgrounds:** each shot in a new place or at a new angle, and two shots in a row are never in the same place.
+- **One corn dog,** with its lantern bulge.
 - **The opening:** 6 sharp hits in 0-3 s.
-- **The last shot:** locked, 4.5 s, a hit about every half second.
-- **His face:** only from 29.0 s.
+- **No text.**
 
 ===== PROMPT =====
-SCENE CONTEXT: A vertical 9:16 premium food film, exactly 30 seconds, the whole recipe step by step, every ingredient seen going in, calm and precise, the food the hero of every frame. It opens on something nobody has seen: a plain hot dog cut and pushed open into a round cage, a lantern. One place only: the cook's kitchen exactly as in @Image1 (matte black cabinets with thin brass trim, a black marble counter with fine gold veins, a black range with brass knobs), falling to black.
+SCENE CONTEXT: A vertical 9:16 premium food film, exactly 30 seconds, the whole recipe step by step, every ingredient seen going in. It opens on something nobody has seen: a plain hot dog cut and pushed open into a round cage, a lantern. The camera travels around the cook's kitchen exactly as in @Image1 (matte black cabinets with thin brass trim, a black marble counter with fine gold veins, a black range with brass knobs): every shot is a new place and a new angle with a different background (the wooden board with his apron behind, the wide kitchen, the open freezer, the counter from above, a low angle with him behind, the range with its blue gas flame, inside the pot, the sugar tray, the lens close-up). Never two shots in a row from the same place.
 
-REFERENCE CONTROL: The cook is his character element: black nitrile gloves on both hands in every shot, a plain mustard-yellow t-shirt and a black apron with brown leather straps when his body is in frame. His face appears only at the very end, for the bite, his black square sunglasses with small gold hinges and solid black lenses on. The food is always larger and sharper than he is. @Image1 is the place, never a prop. He never speaks.
+REFERENCE CONTROL: The cook is his character element: black nitrile gloves on both hands in every shot, a plain mustard-yellow t-shirt and a black apron with brown leather straps, black square sunglasses with small gold hinges and solid black lenses, always on. He is seen working in the wide and medium shots, his face visible there; in the close shots only his gloved hands and the food. The food is always sharp. He never speaks.
 
 RECIPE (the book, word for word, with our step 00 first; every ingredient shown, every step once, in this order, nothing added):
 Korean Corn Dog (Cheese Pull)
@@ -47,45 +56,38 @@ Korean Corn Dog (Cheese Pull)
 05 Deep fry at 350°F (175°C) for 3–5 minutes until golden brown.
 06 Roll in sugar immediately. Top with ketchup and mustard.
 
-FOOD SHAPES AND COLOURS (the same in every shot, never change): The hot dog: one long plain beef hot dog, smooth pinkish-brown casing, no pork. The lantern: the same hot dog with six even strips bowed outward into a round open cage, both ends whole. Mozzarella: one small bright-white rectangular block, the size of a sugar cube; melted, glossy white and stretching in long strings. Skewer: one plain light wooden skewer. Flour: fine white powder. Sugar: sparkling white crystals. Salt: fine white. Egg: brown shell, orange yolk. Cold milk: white, from a small clear jug. Baking powder: fine white powder on a small spoon. Batter: thick, sticky, pale cream, slow ribbons that hold their shape. Panko: coarse golden-white flakes. Oil: clear golden. Fried: a deep golden-brown, very craggy panko crust with a round bulge in the middle where the lantern is. Coated: white sugar crystals sparkling all over the crust; ketchup: a thin bright red zigzag; mustard: a thin bright yellow zigzag. Inside: a ring of six pink-brown hot dog strips around a white core of melted mozzarella. A dark end-grain wooden board, one black bowl, one tall clear glass, one black tray for the panko, one black tray for the sugar, one black pot of oil. No labels, no print anywhere.
+FOOD SHAPES AND COLOURS (the same in every shot, never change): one long plain beef hot dog, smooth pinkish-brown casing, no pork; the lantern: the same hot dog with six even strips bowed outward into a round open cage, both ends whole; one small bright-white block of mozzarella the size of a sugar cube, melted it is glossy and stretches in long strings; one plain wooden skewer; batter thick, sticky, pale cream; panko coarse golden-white flakes; fried: a deep golden-brown craggy crust with a round bulge in the middle; then sparkling white sugar crystals, a thin red ketchup zigzag and a thin yellow mustard zigzag; inside: a ring of six hot dog strips around a white core of melted cheese. A dark end-grain wooden board, a white bowl, a tall clear glass, a black tray of panko, a black tray of sugar, a black pot of oil. No labels, no print anywhere.
 
-PROCESS ORDER / NON-REPETITION LOCK: hot dog on the board -> three knife passes (six strips) -> pushed open into a lantern -> mozzarella inside -> skewered -> into the freezer, frost -> flour -> sugar -> salt -> egg -> cold milk -> baking powder -> whisked thick -> poured into the tall glass -> the lantern dipped and coated -> rolled in panko -> fried golden -> rolled in sugar -> ketchup and mustard -> pulled apart, the cheese stretching -> the bite. Every stage once, only forward; nothing golden before the oil; the lantern bulge always visible; one corn dog only.
+PROCESS ORDER / NON-REPETITION LOCK: knife passes -> the lantern opens -> cheese inside -> skewered -> freezer, frost -> flour -> sugar -> salt -> egg -> cold milk -> baking powder -> whisked -> poured into the tall glass -> dipped -> panko -> fried golden -> sugar -> ketchup and mustard -> pulled apart, the cheese stretching -> the bite. Every stage once, only forward; one corn dog only.
 
-SOUND, THE WHOLE VIDEO: a quiet kitchen. Only the real sounds of each action, each one sharp, close and separate, with near silence between them: the tiny pop of the knife tip piercing the casing and the hard tap of the blade on the wooden board; the soft creak of the strips bending; the small squeak of the cheese pressed in; the pop of the skewer coming through; the freezer door's thud; the soft fall of the flour; the crack of the egg; the clinks of the whisk on the bowl; the thick gloop of the batter; the dry rustle of the panko; a loud crackling sizzle as it hits the oil; the gritty crunch of the sugar. In the last shot a new sharp sound about every half second: a gloved knuckle knocks the crust at 25.8 s and 26.2 s, the crust cracks as it starts to tear at 26.6 s, two dry crackles at 27.0 and 27.4 s, sugar crystals crunch under the fingers at 28.0 and 28.4 s; a 0.3-second silence, then the loud crunch of the bite. No music, no voice, no bass hits, no whooshes, no risers.
+SOUND, THE WHOLE VIDEO: only the real sounds of each action, sharp, close and separate, near silence between them: the tiny pop of the knife through the casing and the hard tap of the blade on the board, the creak of the strips, the squeak of the cheese, the pop of the skewer, the freezer door's thud, the soft fall of the flour, the egg's crack, the whisk clinking on the bowl, the thick gloop of the batter, the dry rustle of the panko, a loud crackling sizzle in the oil, the gritty crunch of the sugar, the crust cracking and crackling as it is pulled apart, a 0.3-second silence, the loud crunch of the bite. No music, no voice, no bass hits, no whooshes.
 
-SHOT 01 — 0.0-4.0s: THE LANTERN. ONE LOCKED CONTINUOUS SHOT, NO CUT, macro, a little above the dark wooden board: one plain beef hot dog lies across the frame, the food filling it. A small black knife pushes straight down through the middle of the hot dog with a tiny pop of the casing (0.3 s), its tip taps the board (0.5 s), and the blade is drawn along, stopping 1.5 cm before each end; a gloved hand turns the hot dog a third of a turn; a second pass, pop (1.3 s), tap (1.5 s); turn; a third pass, pop (2.3 s), tap (2.5 s): six even strips. From 3.0 to 4.0 s gloved fingertips slowly push the two ends toward each other and the six strips bow outward into a round open cage, a lantern, with a soft creak. Calm, slow, precise.
-SHOT 02 — 4.0-6.5s: THE CHEESE. Macro, locked: the lantern on the board; gloved fingers press a small white block of mozzarella into the middle of the cage through the gap between two strips with a small squeak, and ease the strips back around it, still bowed, the white cheese showing between them.
-SHOT 03 — 6.5-9.0s: SKEWER AND FREEZE. Close: a wooden skewer pushed in through one end, through the cheese and out of the other end with a small pop (7.0 s). Then: the lantern skewer on a black tray slides into the freezer, the door shuts with a thud (8.0 s); compressed time: a thin white frost forms on it (8.2-9.0 s).
-SHOT 04 — 9.0-15.0s: THE BATTER. Top-down, locked, over a black bowl on the marble: one cup of white flour poured in, a soft mound (9.3 s); two spoons of sugar sprinkled, sparkling (10.0 s); a pinch of salt (10.6 s); a brown egg cracked on the rim with a sharp crack and dropped in (11.2 s); cold milk poured in a thin white stream (11.8-12.3 s); two small spoons of baking powder (12.7 s); a whisk beats it into a thick, sticky, pale batter that falls in slow ribbons (13.0-14.3 s); the batter poured into a tall clear glass, folding slowly (14.3-15.0 s).
-SHOT 05 — 15.0-17.5s: THE DIP. Side view at the height of the glass, slow motion: the frosted lantern skewer plunged straight down into the tall glass of batter with a thick gloop (15.3 s), turned once, then lifted out slowly (16.0-17.5 s): coated completely, the thick batter sliding down, the lantern's round bulge showing under it.
-SHOT 06 — 17.5-19.5s: PANKO. Close: the coated skewer rolled across a black tray of golden-white panko, gloved fingers pressing the flakes on with dry crunchy rustles (18.0, 18.6, 19.1 s).
-SHOT 07 — 19.5-22.5s: FRY. Close on a black pot of clear hot oil: the skewer lowered in, a loud crackling sizzle and bubbles all around (19.8 s); compressed time: it turns deep golden brown (20.2-21.8 s); lifted out dripping, the crust crackling (22.0 s).
-SHOT 08 — 22.5-25.5s: SUGAR AND SAUCE. Close: straight from the oil it is rolled in a black tray of white sugar, the crystals sticking and sparkling with a gritty crunch (22.8, 23.3 s); a thin zigzag of red ketchup (24.0 s), then of yellow mustard (24.7 s) along the top.
-SHOT 09 — 25.5-30.0s: THE RESULT. ONE CONTINUOUS LOCKED SHOT, NO CUT, the camera still, close: the finished lantern corn dog held upright by its skewer in one gloved hand in front of the dark kitchen, two thirds of the frame, razor sharp: a deep golden craggy panko crust sparkling with sugar, a round bulge in its middle, red and yellow zigzags on top, warm light raking across it. A gloved knuckle knocks the crust twice; then the other gloved hand grips the top half and slowly pulls it straight up off the end of the skewer: the crust cracks at the middle and the halves separate, the cut face of the bottom half showing a ring of six hot dog strips around a white core of melted mozzarella, the cheese stretching in long glossy strings between the halves, with the sounds above. At 29.0 s he lifts the top half toward the lens, his face and sunglasses enter the top of the frame, and after a 0.3-second silence he takes one bite with a loud crunch. No cut to black.
+SHOT 01 — 0.0-3.0s: THE LANTERN. One continuous shot, close, at eye level across the dark wooden board, his black apron and mustard t-shirt filling the background (no face): a small black knife pushes down through the middle of the hot dog with a pop (0.3 s) and taps the board (0.5 s), drawn along, stopping before each end; he turns the hot dog; pop (1.1 s), tap (1.3 s); turns it; pop (1.9 s), tap (2.1 s); from 2.3 to 3.0 s his fingertips push the ends together and the six strips bow outward into a round open lantern with a soft creak.
+SHOT 02 — 3.0-4.5s: TO THE LENS. Macro: he lifts the open lantern up to the lens, the warm light glowing through the six strips, the kitchen soft behind; he presses the white mozzarella block into it with a squeak.
+SHOT 03 — 4.5-6.5s: WIDE KITCHEN. The whole kitchen as in @Image1, his full figure and face: at the counter he pushes the skewer through with a pop, turns, opens the tall freezer, cold white light on his face and sunglasses, puts it in and shuts the door with a thud.
+SHOT 04 — 6.5-7.5s: INSIDE THE FREEZER. Macro, cold blue-white light: compressed time, white frost grows over the lantern.
+SHOT 05 — 7.5-12.5s: THE BATTER. Top-down over a white bowl on the black marble: flour poured in (7.7 s), sugar (8.3 s), a pinch of salt (8.8 s), an egg cracked on the rim (9.3 s), cold milk in a thin stream (9.9-10.3 s), baking powder from a small spoon (10.7 s); a whisk beats it thick and sticky (11.0-12.5 s).
+SHOT 06 — 12.5-14.0s: LOW ANGLE. At counter level: the thick batter folds slowly from the bowl into a tall clear glass, the counter's gold veins in front, his figure soft behind.
+SHOT 07 — 14.0-16.0s: THE DIP. Side, at the glass's height, slow motion: the frosted lantern plunged into the batter with a thick gloop, lifted out coated completely, the round bulge showing.
+SHOT 08 — 16.0-17.5s: PANKO. Close, from above: rolled across the black tray of golden panko, his fingers pressing the flakes on with dry rustles.
+SHOT 09 — 17.5-19.0s: AT THE RANGE. Medium wide at the black range, the blue gas flame under the black pot: he lowers the skewer into the oil, a loud crackling sizzle, steam rising around him, his face and sunglasses lit by the warm light.
+SHOT 10 — 19.0-20.5s: INSIDE THE POT. Macro from above, golden oil bubbling around it: compressed time, it turns deep golden brown.
+SHOT 11 — 20.5-22.0s: OUT. Medium: he lifts it out dripping, the crust crackling, and turns to the counter.
+SHOT 12 — 22.0-24.0s: SUGAR AND SAUCE. Close, side: rolled in the black tray of white sugar, the crystals sparkling with a gritty crunch; a red ketchup zigzag, then a yellow mustard zigzag.
+SHOT 13 — 24.0-25.0s: HIM. Medium, eye level: he holds it up beside his face, looking at it.
+SHOT 14 — 25.0-29.0s: THE PULL. One locked continuous macro, close to the lens, the food two thirds of the frame: a knuckle knocks the crust twice (25.3, 25.7 s); his other hand grips the top half and slowly pulls it straight up off the end of the skewer: the crust cracks (26.1 s), crackles (26.5, 26.9 s), the halves part, the bottom half shows a ring of six hot dog strips around a white core of melted cheese, the cheese stretching in long glossy strings (27.0-28.8 s), sugar crunching under his fingers (27.6, 28.2 s).
+SHOT 15 — 29.0-30.0s: THE BITE. Close on his face and sunglasses: after a 0.3-second silence he bites the top half with a loud crunch, the cheese stretching from his mouth.
 
-SPEED + TRANSITIONS: calm; real time for the knife, the cheese, every ingredient and the dip; compressed time on the freeze and the frying; slow motion on the dip and the cheese stretch; clean hard cuts, no transitions, no whip pans; shots 01, 04 and 09 locked still.
+SPEED + TRANSITIONS: real time for the knife, every ingredient and the dip; compressed time on the freeze and the frying; slow motion on the dip and the pull; clean hard cuts on the motion, no transitions, no whip pans.
 
-LIGHTING: a hard warm tungsten key light (2700 K) from camera left raking across the food, the background falling to black, a warm rim on the crust, the sugar crystals and the cheese strings, sharp focus on the food.
+LIGHTING: a warm tungsten key light (2700 K) in the kitchen, raking across the food; each place keeps its own light: the cold white freezer, the blue gas flame, the golden oil, the sugar sparkling; the food always sharp.
 
-AVOID: a straight hot dog after shot 01, more or fewer than six strips, the cage cut through at the ends, the cheese outside the cage, the cheese leaking before the last shot, two corn dogs, an ingredient skipped or already in the bowl, the batter not covering the skewer completely, flat batter without the bulge, his face before 29.0 s, a cut inside shots 01 or 09, a camera move in shots 01, 04 or 09, cornmeal, a stick of cheese only, French fries, ramen, Cheetos, pork, bacon, ham, alcohol, labels, brand names, packaging, burnt crust, pale crust, oil splashes on the lens, fast blurry motion, shaky camera, music, bass hits, whooshes, sunglasses off, a white t-shirt, a chain, bare hands, other people, logos, talking, cut to black, text, extra fingers, deformed hands, distorted face.
+AVOID: two shots in a row from the same place or angle, the same black background in every shot, a straight hot dog after shot 01, more or fewer than six strips, the cage cut through at the ends, the cheese outside the cage or leaking before shot 14, two corn dogs, an ingredient skipped or already in the bowl, the batter not covering it, flat batter without the bulge, cornmeal, French fries, ramen, Cheetos, pork, bacon, ham, alcohol, labels, brand names, packaging, burnt or pale crust, shaky camera, music, whooshes, sunglasses off, a white t-shirt, a chain, bare hands, other people, logos, talking, text, cut to black, extra fingers, deformed hands, distorted face.
 
-===== EDIT (the strange act first; the crinkle way) =====
-- **0-4 s:** shot 01 in full, one shot with no cut: the six hits, then the lantern opening. The hook goes over it. Then
-  shots 02-08 in order: the freeze and the fry can speed up and the dip slows down; about 26-28 s in all. Shot 09
-  comes last in full.
-- **Hook:** «جبنة الكورن دوغ بتهرب؟» / CHEESE LEAKS? (hook bank B + E, 6 words together, complete at frame one).
-- **Re-hooks:**
-  - «قطعة موزاريلا… جوّا الفانوس»
-  - «20 دقيقة بالفريزر»
-  - «العجينة: 6 مكوّنات»
-  - «سميكة ولزقة»
-  - «بانكو، واكبسه منيح»
-  - «175° لحتى يدهّب»
-  - «سكر فوراً، وكاتشب وخردل»
-- **The answer, at shot 09:** «السر: الفانوس بيحبس الجبنة جوّا» / "The cage keeps the cheese in."
-- **The send (kids):** «ابعتها للي ولاده بيحبوا الكورن دوغ», with the kicker «من الكتاب · إضافة من مطبخنا».
-- **Checks:** timeline.json META hook_formula ['B','E'], send_type 'kids'; hook_check 8/10 or more.
-- **Sound:** THE MEASURED RULE; open3.py 6+ onsets in 0-3 s; the respace() sound on every speed change.
-- **60 fps:** minterpolate on each segment (edits/_tools/steps_edit.py, its result-first segment order replaced).
-- **What changes against the step-by-step reels:** three things at once, the idea, the opening and the length (30 s
-  against 20). This is a new format test on the owner's call, not a one-variable test.
+===== EDIT =====
+- **Text:** none on the video (owner, 19 Nov). The comment keyword goes in the caption and the pinned comment only.
+- **Order:** the take's own order; trims only, cut on the motion; about 28-30 s.
+- **Sound:** THE MEASURED RULE (the take's own sound, -20 LUFS, the peak-only limiter); open3.py 6+ onsets in 0-3 s.
+- **60 fps:** minterpolate on each segment.
+- **The read against the no-text reel:** the last reel with no text was Pan Chocolate Cake v2 (12 Nov), skip 62.0%.
+  This one is read against it, and against the step-by-step reels with text, at 24 h.
