@@ -13,11 +13,15 @@ import { accentHex, getRecipe, recipePhoto, recipes, recipeText } from "@/data/r
 import { getProduct } from "@/data/products";
 import { site } from "@/data/site";
 import { recipeSeo } from "@/data/recipe-seo";
+import { RateRecipe, RatingSummary } from "@/components/RecipeRating";
+import { useRecipeRating } from "@/lib/ratings";
 
 const RecipePage = () => {
   const { slug } = useParams();
   const { t, L, lang } = useLang();
   const recipe = getRecipe(slug);
+  // Hooks run before the not-found return; an unknown slug simply has no rating.
+  const { rating } = useRecipeRating(recipe?.slug ?? "");
 
   useEffect(() => {
     window.scrollTo({ top: 0 });
@@ -73,6 +77,7 @@ const RecipePage = () => {
           tags: recipe.tags,
           ingredients: text.ingredients,
           steps: text.steps,
+          rating,
         })}
       />
 
@@ -120,6 +125,7 @@ const RecipePage = () => {
               {recipe.serves}
             </span>
           </div>
+          <RatingSummary slug={recipe.slug} />
         </div>
       </section>
 
@@ -170,6 +176,8 @@ const RecipePage = () => {
                 </p>
               </div>
             )}
+
+            <RateRecipe slug={recipe.slug} />
           </div>
         </div>
       </section>

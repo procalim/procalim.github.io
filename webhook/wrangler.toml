@@ -7,6 +7,16 @@ name = "edible-codex-webhook"
 main = "src/index.ts"
 compatibility_date = "2026-10-01"
 
+# The site's recipe ratings live on its own domain: Cloudflare hands
+# ediblecodex.com/api/* to this Worker, and every other path still goes to
+# the site. تقييمات الوصفات على نطاق الموقع نفسه.
+routes = [
+  { pattern = "ediblecodex.com/api/*", zone_name = "ediblecodex.com" },
+]
+# Whop posts to the workers.dev address; adding a route must not switch it off.
+# Whop يرسل إلى عنوان workers.dev، فيبقى مفعّلاً مع المسار الجديد.
+workers_dev = true
+
 [vars]
 EMAIL_FROM = "The Edible Codex <hello@ediblecodex.com>"
 # Days between the thank-you email and the review request.

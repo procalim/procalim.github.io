@@ -87,6 +87,25 @@ const [{ recipes, recipeText }, { products }, { videos }, schema, { dictionary }
   load("/src/data/guides.ts"),
   load("/src/data/recipe-seo.ts"),
 ]);
+/**
+ * Visitors' star ratings as they stand at build time, written into each
+ * recipe's structured data so Google sees them without running the app. The
+ * page itself loads the live figures. A build that cannot reach them (no
+ * network, the Worker down) simply writes no rating — never a made-up one.
+ * تقييمات الزوار وقت البناء؛ إن تعذّر جلبها لا يُكتب أي تقييم.
+ */
+const ratings = await fetch(`${origin}/api/ratings`, { signal: AbortSignal.timeout(8000) })
+  .then((response) => (response.ok ? response.json() : {}))
+  .then((data) =>
+    Object.fromEntries(
+      Object.entries(data && typeof data === "object" ? data : {}).filter(
+        ([, r]) => Number.isInteger(r?.count) && r.count > 0 && r.average >= 1 && r.average <= 5,
+      ),
+    ),
+  )
+  .catch(() => ({}));
+console.log(`prerender: ${Object.keys(ratings).length} recipes with ratings`);
+
 // A guide's picture is its cover recipe's photograph. صورة الدليل صورة وصفته.
 const guideCover = new Map(guides.map((g) => [g.slug, hashed(g.cover)]));
 await vite.close();
@@ -123,6 +142,7 @@ for (const lang of LANGS) {
       tags: recipe.tags,
       ingredients: text.ingredients,
       steps: text.steps,
+      rating: ratings[recipe.slug] ?? null,
     }));
   }
   for (const product of products) {

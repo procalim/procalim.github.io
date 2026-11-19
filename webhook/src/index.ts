@@ -1,6 +1,7 @@
 import { unwrapWebhook } from "@whop/sdk/helpers";
 import { PRODUCTS, type Product } from "./products";
 import { reviewEmail, thankYouEmail, type Email } from "./emails";
+import { handleRatings } from "./ratings";
 
 /**
  * Whop payment webhook → order emails · رسائل الطلب من Whop
@@ -228,6 +229,12 @@ export const sendDueReviews = async (env: Env, now = new Date()) => {
 
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
+    // The site's recipe ratings, routed here from ediblecodex.com/api/*.
+    // تقييمات الوصفات تصل هنا من مسار ‎/api‎ على الموقع.
+    const { pathname } = new URL(request.url);
+    if (pathname === "/api/ratings" || pathname === "/api/ratings/") return handleRatings(request, env);
+    if (pathname.startsWith("/api/")) return reply("not found", 404);
+
     if (request.method !== "POST") return new Response("Edible Codex webhook", { status: 200 });
 
     const body = await request.text();

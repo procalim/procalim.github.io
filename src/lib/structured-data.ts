@@ -101,6 +101,13 @@ export const recipeGraph = (args: {
   tags: string[];
   ingredients: string[];
   steps: string[];
+  /**
+   * Visitors' star ratings, from the site's own rating box (/api/ratings).
+   * Left out until someone has rated: Google wants a rating only when real
+   * people gave it, and it must match the stars shown on the page.
+   * تقييمات الزوار الحقيقية فقط، وتُترك حتى يقيّم أحد.
+   */
+  rating?: { count: number; average: number } | null;
 }) =>
   graph(args.trail, {
     "@type": "Recipe",
@@ -128,6 +135,17 @@ export const recipeGraph = (args: {
       text: step,
       url: `${pageUrl(args.trail[args.trail.length - 1].path)}#step-${i + 1}`,
     })),
+    ...(args.rating && args.rating.count > 0
+      ? {
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: args.rating.average,
+            ratingCount: args.rating.count,
+            bestRating: 5,
+            worstRating: 1,
+          },
+        }
+      : {}),
     isPartOf: { "@type": "Book", name: site.brand.name },
   });
 

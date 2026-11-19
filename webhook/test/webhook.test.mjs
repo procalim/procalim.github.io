@@ -195,3 +195,45 @@ test("a paid plan's membership is left to its payment", async () => {
   assert.equal(res.status, 200);
   assert.equal(sent.length, before);
 });
+
+/* ── Recipe ratings · تقييمات الوصفات ── */
+
+const SITE = "https://ediblecodex.com";
+const rate = (recipe, stars, { origin = SITE, ip = "203.0.113.7" } = {}) =>
+  fetch(`${WORKER}/api/ratings`, {
+    method: "POST",
+    headers: { "content-type": "application/json", origin, "cf-connecting-ip": ip },
+    body: JSON.stringify({ recipe, stars }),
+  });
+
+test("ratings start empty and count one vote per visitor", async () => {
+  assert.deepEqual(await (await fetch(`${WORKER}/api/ratings`)).json(), {});
+
+  let res = await rate("bagels", 5);
+  assert.equal(res.status, 200);
+  assert.deepEqual(await res.json(), { recipe: "bagels", yours: 5, count: 1, average: 5 });
+
+  // The same visitor changes their mind: still one vote.
+  res = await rate("bagels", 3);
+  assert.deepEqual(await res.json(), { recipe: "bagels", yours: 3, count: 1, average: 3 });
+
+  // A second visitor adds a vote.
+  res = await rate("bagels", 4, { ip: "198.51.100.9" });
+  assert.deepEqual(await res.json(), { recipe: "bagels", yours: 4, count: 2, average: 3.5 });
+
+  assert.deepEqual(await (await fetch(`${WORKER}/api/ratings`)).json(), { bagels: { count: 2, average: 3.5 } });
+});
+
+test("ratings refuse other sites, bad stars and bad recipe names", async () => {
+  assert.equal((await rate("pho", 5, { origin: "https://evil.example" })).status, 403);
+  assert.equal((await rate("pho", 6)).status, 400);
+  assert.equal((await rate("pho", 0)).status, 400);
+  assert.equal((await rate("../etc", 5)).status, 400);
+  assert.deepEqual(Object.keys(await (await fetch(`${WORKER}/api/ratings`)).json()), ["bagels"]);
+});
+
+test("other /api paths are not the Whop webhook", async () => {
+  const res = await fetch(`${WORKER}/api/other`, { method: "POST" });
+  assert.equal(res.status, 404);
+  assert.equal(sent.filter((m) => /other/.test(m.key ?? "")).length, 0);
+});
