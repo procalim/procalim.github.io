@@ -20,3 +20,8 @@
   - 14 frames out (0.58 s).
   - v2 final: media 652052da, 27.9 s, 1080x1920, 24 fps; -15.7 LUFS, true peak -0.8 dB, range 19.0 dB; 6 onsets in
     0-3 s. Read at 4.8-7.2 s: the door opens with the corn dog in his hand, then the cut to the frost.
+- **v3:** the owner: «برضو لسى موجودة ومبينة».
+  - The corn dog never goes into the freezer in the take, so every open-door frame shows it still in his hand.
+  - The whole open-door shot (part 1 frames 144-169) is out.
+  - The order is now: the wide shot of him holding the skewer (door shut), then the frost inside the freezer.
+  - Media 99852270: 27.4 s, 1080x1920, 24 fps, -15.7 LUFS, true peak -1.0 dB, range 18.9 dB.
