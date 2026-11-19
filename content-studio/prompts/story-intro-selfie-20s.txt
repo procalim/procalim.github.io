@@ -1,0 +1,39 @@
+Story: "who I am", a selfie he talks in with his own voice, about 20 s (owner, 2026-11-19: «ستوري كاني ماسك التلفون
+سلفي وعم بحكي بصوتي موجود على هيغسفيلد اعرف عن نفس بوصفاتي ... 20 ثانية»). Status: NOT generated (needs «ولد»).
+
+WHY AND WHERE
+- Stories go to followers only (Instagram Ranking Explained); the plan's stories reach 33-39 a story with 0 replies.
+  This one asks for one thing only: a reply with «بروتين» (a story reply is a DM, the closeness signal).
+- After the day, into a highlight «ابدأ هون» first in the row: 1,013 profile visits in 29 days, 8 bio link taps.
+- Meta asks creators to disclose photorealistic AI video and realistic AI audio, with penalties possible
+  (about.fb.com/news/2024/02/labeling-ai-generated-images-on-facebook-instagram-and-threads/): turn on the AI label
+  where the app offers it.
+- Only true lines: his name, his book (The Edible Codex, 361 recipes, halal), the series, the free PDF of 8 recipes.
+  No "I cooked", "I tried", no invented experiences.
+
+THE LINES (his voice element "Chef-Ahmad--1", d0a5674d; Intone runs the voice + 2.5 s, so the voice stays under 17.5 s)
+| s | Arabic (spoken and typed) | English (small line) |
+|---|---|---|
+| 0-3 | ٣٦١ وصفة حلال… بكتاب واحد. | 361 halal recipes. One book. |
+| 3-6 | أنا أحمد، وهاد كتابي: The Edible Codex. | I'm Ahmad. This is my book. |
+| 6-11 | كل حلقة من «بروتين من الكتاب» وصفة منه، فيها بروتين قد وجبة كاملة. | Every episode: a meal's worth of protein. |
+| 11-16 | بدك ٨ وصفات منهم ببلاش؟ ردّ على هالستوري بكلمة «بروتين». | Want 8 free? Reply PROTEIN. |
+| 16-17.5 | وأهلا فيك هون. | Welcome. |
+Text for the voice (one file): «تلاتمية وواحد وستين وصفة حلال… بكتاب واحد. أنا أحمد، وهاد كتابي: ذا إيديبل كودكس. كل حلقة
+من بروتين من الكتاب، وصفة منه، فيها بروتين قد وجبة كاملة. بدك تمن وصفات منهم ببلاش؟ ردّ على هالستوري بكلمة بروتين. وأهلا
+فيك هون.» Listen before the video: if the Arabic accent is off, record the same lines on the phone instead.
+
+THE VIDEO (Higgsfield Intone: talking head, a character image + voice recordings, 9:16, 1080p; not on unlimited)
+- character image: a still from the ep 4 take, f455 (his face front-on, black square sunglasses, mustard-yellow
+  t-shirt, the kitchen behind), 1080x1920; no new image generation.
+- prompt: A vertical selfie video. He holds the phone at arm's length in his dark kitchen (matte black cabinets with
+  brass trim, warm tungsten light), the camera at eye level a little above, a natural slight handheld sway. He talks
+  straight into the lens, relaxed and warm, small nods, one short smile on the last line. Black square sunglasses with
+  gold hinges on the whole time, a plain mustard-yellow t-shirt, a black apron with brown leather straps. One
+  continuous shot, no cuts, no music, no text.
+
+THE EDIT (the sandbox, after the take is read)
+- The take's own sound, THE MEASURED RULE master (-20 LUFS gain, the peak-only limiter).
+- Typed subtitles (anim-typed), one line at a time with the voice, Arabic big, English small, inside y 250-1500.
+- In the app: no sticker; the reply bar is the ask. The AI label if offered.
+- Read at 24 h: reach (bar 33-39), replies (bar 0), profile visits; then the highlight.
