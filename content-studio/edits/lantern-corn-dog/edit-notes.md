@@ -13,3 +13,10 @@
   - open3.py: 6 onsets in 0-3 s (the casing snaps), calm motion (4.2).
   - The join at 19.9-20.0 s: the same lantern in the oil on both sides.
 - **Package:** week4/lantern-corn-dog-package.txt (keyword «فانوس»).
+- **v2:** the owner's catch: «سكر باب الثلاجة والكورن دوغ لسا بايدي وبدها ببين جو الفريزر».
+  - Part 1 frames 156-169 (6.5-7.0 s) show the freezer door closing while the corn dog is still in his hand.
+  - The wide freezer shot now ends at frame 156: the door is open and the corn dog is in his hand. The cut goes
+    straight to the inside of the freezer, where the frost grows on the corn dog.
+  - 14 frames out (0.58 s).
+  - v2 final: media 652052da, 27.9 s, 1080x1920, 24 fps; -15.7 LUFS, true peak -0.8 dB, range 19.0 dB; 6 onsets in
+    0-3 s. Read at 4.8-7.2 s: the door opens with the corn dog in his hand, then the cut to the frost.

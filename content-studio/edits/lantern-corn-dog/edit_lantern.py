@@ -18,7 +18,8 @@ def cuts(take):
     return list(zip(b[:-1], b[1:]))
 out, takes = sys.argv[1], sys.argv[2:]
 SPEED = {('p1.mp4', 199): 1.6}            # the batter shot only
-segs = [(tk, f0, f1, SPEED.get((tk, f0), 1.0)) for tk in takes for f0, f1 in cuts(tk)]
+END = {('p1.mp4', 144): 156}             # owner: the door closes with the corn dog still in his hand: cut before it closes
+segs = [(tk, f0, END.get((tk, f0), f1), SPEED.get((tk, f0), 1.0)) for tk in takes for f0, f1 in cuts(tk)]
 from concurrent.futures import ThreadPoolExecutor
 import os
 jobs = []
