@@ -1,0 +1,45 @@
+TEMPLATE: RESULT FIRST, 20 s (reels-director THE MEASURED RULE item 8, owner 2026-11-19). Copy, fill the [brackets]
+from the book word for word, run the pre-generation check, then the owner generates on higgsfield.ai (unlimited).
+
+SETTINGS (higgsfield.ai):
+- Seedance 2.5, Omni reference, 20 s, 9:16, 720p, bitrate High, audio On.
+- Character element chef-ahmet-yellow (41e55e5e) (his hands; his face only in shot 07).
+- @Image1 = the kitchen: https://d2ol7oe51mr4n9.cloudfront.net/user_2x0tp0odsOo92J2AkNG46XQD8Gw/66c2248f-e130-4a3c-83df-1a715f172d69.jpg
+
+===== PROMPT =====
+SCENE CONTEXT: A vertical 9:16 premium food film, exactly 20 seconds, 7 shots, slow, calm and precise, the food the hero of every frame. One place only: the cook's kitchen exactly as in @Image1 (matte black cabinets with thin brass trim, a black marble counter with fine gold veins), falling to black. It opens on the finished [DISH], shows how it is made, and ends on the same finished [DISH].
+
+REFERENCE CONTROL: The cook is his character element: black nitrile gloves on both hands in every shot, a plain mustard-yellow t-shirt and a black apron with brown leather straps when his body is in frame. His face appears only in shot 07, his black square sunglasses with small gold hinges on. The food is always larger and sharper than he is. @Image1 is the place, never a prop. He never speaks.
+
+RECIPE (the book, word for word; every step once, in this order, nothing added):
+[TITLE]
+— [INGREDIENTS]
+[STEPS]
+
+FOOD SHAPES AND COLOURS (the same in every shot, never change): [each food: shape, size, colour, surface, how it moves]. [The serving dish: plain, no label, no print.]
+
+PROCESS ORDER / NON-REPETITION LOCK: shot 01 shows the finished [DISH]; shots 02-06 go from the first step to the last, each once, only forward; shot 07 returns to the finished [DISH] in shot 01's framing.
+
+SOUND, THE WHOLE VIDEO: a quiet kitchen. Only the real sounds of each action, each sharp, close and separate, near silence between them. In shot 01 a new sharp sound every half second: [0.3 s ..., 0.8 s ..., 1.3 s ..., 1.8 s ..., 2.3 s ..., 2.8 s ..., 3.3 s ...]. No music, no voice, no bass hits, no whooshes, no risers.
+
+SHOT 01 — 0.0-4.0s: THE RESULT. ONE CONTINUOUS LOCKED SHOT, NO CUT, the camera still. Close at the dish, slightly above, the finished [DISH] filling two thirds of the frame, razor sharp, on the black marble, warm light raking across its surface. [One slow motion that shows its texture: a spoon pulls one scoop / a knife goes down through it / a fork pulls it apart], with the sounds above. No face, gloved hands only. Nothing else moves.
+SHOT 02 — 4.0-7.0s: [step 1], macro, the food filling the frame, slow.
+SHOT 03 — 7.0-10.0s: [step 2], top-down or close, slow motion on the texture.
+SHOT 04 — 10.0-13.0s: [step 3], close, one visible change.
+SHOT 05 — 13.0-15.5s: [step 4], macro, slow motion.
+SHOT 06 — 15.5-17.5s: [the last step: into the dish / out of the oven / chilled], close.
+SHOT 07 — 17.5-20.0s: THE RESULT AGAIN, shot 01's framing: [the same motion as shot 01], then he lifts it toward the lens and takes one bite, his face and sunglasses entering the top of the frame, mouth closed as he chews. No cut to black.
+
+SPEED + TRANSITIONS: slow and calm; real time in shot 01; slow motion on every texture; clean hard cuts, no transitions, no whip pans, one slow camera move at most per shot, shot 01 locked still.
+
+LIGHTING: a hard warm tungsten key light (2700 K) from camera left raking across the food, the background falling to black, a warm rim on every glossy surface, sharp focus on the food.
+
+AVOID: a cut inside shot 01, a camera move in shot 01, his face before shot 07, raw ingredients in shot 01, fast motion, shaky camera, music, bass hits, whooshes, labels, print, packaging, sunglasses off, a white t-shirt, a chain, bare hands, other people, logos, pork, alcohol, wine, gelatin, talking, cut to black, text, extra fingers, deformed hands, distorted face, [dish-specific wrong versions].
+
+===== EDIT =====
+- The hook from research/hook-bank.md over shot 01 (6 words, typed by 1.5 s), re-hooks on every shot, the answer and
+  the send cards at the end; timeline.json + META; hook_check 8/10 or more.
+- Sound: THE MEASURED RULE (the take's own, -20 LUFS gain, the peak-only limiter, range 18 dB+); open3.py: 6+ onsets
+  in 0-3 s, calm motion.
+- 60 fps: the final cut through minterpolate=fps=60:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1; read the
+  in-between frames of every fast move; export 1080x1920, 60 fps.

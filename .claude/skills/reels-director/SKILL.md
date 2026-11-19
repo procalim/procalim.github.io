@@ -74,6 +74,24 @@ Every edit from now:
    779x, routine 16.3x). After the hook, a short card on every shot: no stretch over 2.5 s without text. The edit
    script writes timeline.json (with META hook_formula and send_type); `content-studio/edits/_tools/hook_check.py`
    must score 8/10 or more before delivery.
+8. RESULT FIRST (owner, 2026-11-19: «احنا أصلا عم بنبيع وصفات والصح يكون كل اشي باين في الأكل ... بنفس الهداوة
+   لكن ب 60 frame rate والقوة بالأكل ... كل وصفة تكون النتيجة النهاية ... 3 ثواني على الأقل ببين الأكل»). Replaces
+   item 2's "his face and glasses in a medium shot" for 0-3 s. Evidence: our highest-skip openings showed raw
+   ingredients by 1-2 s (protein 61.1%, skewers 58.2%, steak bites 53.3%); eps 2-4 opened on raw curds and beans (ep 2
+   39.6%); the top third of the 17 Nov swipe showed the finished food in the first second in 3 of 5, and ep 4's two
+   outliers opened on the finished dough at the lens (8.3x, 6.1x).
+   - Shot 01, 0-4 s: the finished dish, one locked continuous shot, close or macro, the food two thirds of the frame
+     and sharp, hands in black gloves only (no face); one slow motion that shows its texture (a spoon pulls a scoop, a
+     knife goes through, a fork pulls it apart) with item 5's sharp sounds every 0.5 s; a calm picture.
+   - Shots 02-06: the book's steps, once each, in order, the food big in every shot (close, macro, top-down), slow and
+     calm, slow motion on the textures; his face never covers or replaces the food.
+   - Shot 07: back to the result, the same framing as shot 01 (the loop); the bite is the only place for his face.
+   - Text: item 7 unchanged (the hook bank over the result, re-hooks, the answer and send cards at the end).
+   - 60 fps: Seedance gives 24 fps; the edit interpolates the final cut with `minterpolate=fps=60:mi_mode=mci:
+     mc_mode=aobmc:me_mode=bidir:vsbmc=1` (tested on ep 4's scoop and bite: clean in-between frames on calm slow
+     motion). Read every in-between frame of a fast move before delivery. Whether Instagram plays 60 fps or serves
+     30 is not settled (vendor guides disagree): read the posted file's frame rate through the API after the first one.
+   Template: `content-studio/prompts/_template-result-first-20s.txt`.
 The proof still owed: date bark v5 (flat) against v6 (same picture, dynamic) as two Trial Reels, same hour.
 
 ## BACK TO COOKCUT, 20 S (owner's call, 2026-11-15, after the two trial reads)
