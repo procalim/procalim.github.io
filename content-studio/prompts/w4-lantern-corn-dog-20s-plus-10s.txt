@@ -80,3 +80,30 @@ SHOT 05 — 8.0-10.0s: Medium shot of him at the counter in the warm-lit kitchen
 SOUND: only the real sounds of each action, sharp and separate with near silence between them: the oil's crackle, the sugar's crunch, the sauces, the crust cracking, a short silence, the crunch of the bite. No music, no voice, no whooshes.
 
 AVOID: the same dark background in every shot, an all-black frame, glowing or reflective sunglasses, light in his lenses, holes in the crust, a face shape, eye holes, a mask, a skull, a straight corn dog without the bulge, two corn dogs, cheese leaking before shot 04, a close-up of his mouth, pork, bacon, ham, alcohol, labels, brand names, text, writing, burnt crust, shaky camera, music, sunglasses off, a white t-shirt, bare hands, other people, logos, talking, extra fingers, deformed hands, distorted face.
+
+===== PART 2 v2 READ (job 62c95ab4, 10.05 s) AND PART 2 v3 =====
+- **v2 read:** the backgrounds change and the steps are right (out of the oil, sugar, ketchup and mustard, the break,
+  the bite), but there is no lantern in any shot.
+  - 0-2 s: a smooth, straight corn dog in the oil.
+  - 5-8 s: the break shows a plain sausage with cheese in the middle.
+  - Part 1 ends (19.85 s) on a ribbed lantern ball in the oil, so the two parts do not match.
+- **v3:** part 1's last frame is uploaded to the owner's Higgsfield media (4ba32810,
+  lantern-part1-last-frame.jpg). It is @Image2 and, where the site allows, the start frame. The lantern is written as
+  that ribbed ball; the break pulls the ribs apart.
+
+===== PART 2 v3 (10 s) =====
+A vertical 9:16 cinematic food film, exactly 10 seconds, no text. It continues straight from @Image2: the same lantern corn dog frying in the oil is lifted out, rolled in sugar, topped with ketchup and mustard, broken open to show the melted cheese, and tasted. Every shot has a different background, surface, colour and light, like a travelling camera in a busy warm kitchen; never two shots in a row with the same background.
+
+THE COOK: his character element: a plain mustard-yellow t-shirt, a black apron with brown leather straps, black nitrile gloves, black square sunglasses with small gold hinges. The sunglasses' lenses are solid matte black at all times: no light on them, no reflection, no glow. He never speaks.
+
+THE LANTERN (the same in every shot, exactly as in @Image2): on a wooden skewer, six golden panko-crusted ribs bowed outward into one round ball, like a paper lantern, with the white cube of mozzarella visible between the ribs. It stays this ribbed ball in every shot; it never becomes a smooth, long or straight corn dog.
+
+SHOT 01 — 0.0-1.5s: The first frame is exactly @Image2: the ribbed lantern in the bubbling oil. Its ribs turn deep golden brown and it is lifted out on its skewer, dripping, the crust crackling.
+SHOT 02 — 1.5-3.0s: Close on a white enamel tray of sugar on a light oak board: the ribbed lantern is rolled in the sugar, the crystals sticking to the golden ribs with a gritty crunch (1.8, 2.4 s).
+SHOT 03 — 3.0-4.5s: Top-down on a white plate: the ribbed lantern lies on its skewer; a thin red ketchup zigzag (3.3 s), then a yellow mustard zigzag (3.9 s) across the ribs.
+SHOT 04 — 4.5-8.0s: One locked close shot from the side, the white plate on the oak board, warm bokeh of brass pendant lights behind: two gloved hands slowly pull two ribs of the lantern apart sideways: the crust cracks (5.0 s) and crackles (5.4, 5.8 s); the cheese inside has melted and stretches between the ribs in long strands (6.0-7.8 s).
+SHOT 05 — 8.0-10.0s: Medium shot of him at the counter in the warm-lit kitchen as in @Image1, holding the lantern on its skewer: he takes a bite with a loud crunch and nods; his lenses matte black.
+
+SOUND: only the real sounds of each action, sharp and separate with near silence between them: the oil's crackle, the sugar's crunch, the sauces, the crust cracking, a short silence, the crunch of the bite. No music, no voice, no whooshes.
+
+AVOID: a smooth corn dog, a long straight corn dog, a sausage-shaped corn dog, the lantern closed up, the same dark background in every shot, an all-black frame, glowing or reflective sunglasses, light in his lenses, two corn dogs, cheese leaking before shot 04, a close-up of his mouth, pork, bacon, ham, alcohol, labels, brand names, text, writing, burnt crust, shaky camera, music, sunglasses off, a white t-shirt, bare hands, other people, logos, talking, extra fingers, deformed hands, distorted face.
