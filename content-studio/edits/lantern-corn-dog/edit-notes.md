@@ -25,3 +25,9 @@
   - The whole open-door shot (part 1 frames 144-169) is out.
   - The order is now: the wide shot of him holding the skewer (door shut), then the frost inside the freezer.
   - Media 99852270: 27.4 s, 1080x1920, 24 fps, -15.7 LUFS, true peak -1.0 dB, range 18.9 dB.
+- **v4 (media 17dc17db, 23.2 s):** tightened from v3's 1 h 20 min curve, which lost 41 points in 4-10 s, after the
+  lantern opens.
+  - Out: the wide standing shot (frames 120-144) and the first pour (301-325).
+  - Speeds: the cheese x1.3, the freezer x1.5, the batter x2.6, the second pour x1.5.
+  - The sound: -16.1 LUFS, range 16.8 dB, 6 onsets in 0-3 s.
+  - Script: the sandbox edit_lantern_v4.py, which is edit_lantern.py with these SPEED and END tables.
