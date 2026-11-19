@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # Weekly rebuild, so the visitors' recipe ratings written into each page's
+  # structured data stay current between merges. إعادة بناء أسبوعية للتقييمات.
+  schedule:
+    - cron: "41 3 * * 1"
 
 permissions:
   contents: read
