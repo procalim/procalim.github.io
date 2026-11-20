@@ -127,3 +127,5 @@ One short card on every shot after the hook, each 2-5 words, each a reason to st
 | 18 | When the oldest sibling cooks for everyone | لما الأخ الكبير يطبخ للكل | big batches |
 | 19 | 5 minutes before iftar | قبل الإفطار بخمس دقايق | Ramadan dishes |
 | 20 | POV: the street food closed early | لما محل الأكل سكّر بكير | street-food remakes |
+| 21 | POV: your daughter braided dinner | لما بنتك ضفّرت العشا | the braided corn dog |
+| 22 | When the hot dog went to the salon | لما النقانق راحت عالصالون | the braided corn dog |
