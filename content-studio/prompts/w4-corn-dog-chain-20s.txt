@@ -1,0 +1,50 @@
+Corn Dog Chain «سلسلة الكورن دوغ», 20 s (N° 059 + the link, book-additions/corn-dog-chain.md). The owner made the two
+reference images on 20 Nov and approved: «اكتب هيك مزبوط».
+Checked against the PROMPT MISTAKES list in reels-director:
+- no book in the prompt;
+- the lenses always matte;
+- a new surface and light in every shot;
+- the complex shape tied to the images;
+- the idea checked in the logs.
+From the lantern v4 curve (after 8 s it lost about 2 points a second; the bite lost 3 a second, the oil 2.2):
+- 20 s at most;
+- after 8 s, a new picture every 1.5-3 s;
+- the oil 1.5 s at most and the bite 1 s;
+- the last shot is the strongest picture (@Image3), with no wide standing shot.
+Not shown: ketchup and mustard (the owner's @Image3 has none); they stay in the DM recipe.
+Status: NOT generated.
+
+SETTINGS (higgsfield.ai): Seedance 2.5, Omni reference, 20 s, 9:16, 720p or 1080p, bitrate High, audio On; character
+element chef-ahmet-yellow (41e55e5e). Images in this order:
+- @Image1 = the kitchen (325df734);
+- @Image2 = the owner's raw chain on the oak board (IMG_6607);
+- @Image3 = the owner's fried chain hanging, with the cheese pull (IMG_6608).
+
+===== PROMPT =====
+A vertical 9:16 cinematic food film, exactly 20 seconds, no text. Plain beef hot dogs are linked into a chain, frozen, battered, crumbed, fried golden, sugared and pulled apart with melting cheese. Every shot has a different background, surface, colour and light, like a travelling camera in a busy warm kitchen; never two shots in a row with the same background.
+
+THE COOK: his character element: a plain mustard-yellow t-shirt, a black apron with brown leather straps, black nitrile gloves, black square sunglasses with small gold hinges. The sunglasses' lenses are solid matte black at all times: no light on them, no reflection, no glow. He never speaks.
+
+THE CHAIN (the hero shape, the same in every shot): four plain beef hot dogs, each with one long slit through its middle and both ends whole, opened into an oval loop; each hot dog passes through the loop of the one before, like the links of a chain, a white mozzarella stick inside each loop; a wooden skewer through the first link is the handle. Raw, it looks exactly as in @Image2. Battered, crumbed, fried and sugared, the four links keep their shape and look exactly as in @Image3.
+
+SHOT 01 — 0.0-3.5s: Close, at eye level on a light oak cutting board, his mustard t-shirt and apron soft behind, warm golden light, the camera still. His gloved fingers press the ends of a slit hot dog so it opens into a loop with a small snap of the casing (0.4 s), push a second hot dog and a mozzarella stick through the loop with a soft squeak (0.9 s), open the second one's loop with a snap (1.4 s), thread the third through it (1.9 s), open it with a snap (2.4 s) and thread the fourth (2.9 s): a chain of four links, as in @Image2.
+SHOT 02 — 3.5-5.0s: Macro against soft warm bokeh of brass pendant lights: he lifts the raw chain by its skewer to the lens; it hangs and turns slowly, the four links and the white cheese inside each loop clear.
+SHOT 03 — 5.0-6.0s: Inside a freezer, bright white and frosty: white frost grows over the hanging chain.
+SHOT 04 — 6.0-8.5s: Top-down over a stainless steel bowl on white parchment, bright even light, compressed time: flour poured in (6.1 s), sugar (6.5 s), a pinch of salt (6.8 s), an egg cracked on the rim (7.1 s), cold milk in a thin stream (7.4 s), baking powder from a small spoon (7.7 s); a whisk beats it into a thick, sticky, pale batter (7.8-8.5 s) with quick clinks.
+SHOT 05 — 8.5-9.5s: Low angle at counter level, warm orange backlight: the frosted chain is laid into a long deep tray of thick batter and turned until every link is coated, with a thick gloop.
+SHOT 06 — 9.5-10.5s: Top-down on white parchment: the coated chain is rolled through a heap of golden panko, gloved fingers pressing the flakes on with dry rustles.
+SHOT 07 — 10.5-12.0s: Medium at a stainless steel range, a ring of blue gas flame under a wide steel pot: he lowers the chain into the oil by its skewer, a loud crackling sizzle, steam rising; compressed time, the links turn deep golden; his lenses stay matte black.
+SHOT 08 — 12.0-13.5s: Macro against warm bokeh: the golden chain is lifted out of the oil by its skewer, dripping, the four links glowing, the crust crackling.
+SHOT 09 — 13.5-15.0s: Close on a white enamel tray of sugar on the oak board: the chain is rolled in the sugar, crystals sparkling and sticking, a gritty crunch (13.8, 14.4 s).
+SHOT 10 — 15.0-16.0s: Medium shot of him in the warm-lit kitchen as in @Image1, holding the chain by its skewer: he takes one bite of the bottom link with a loud crunch; his lenses matte black.
+SHOT 11 — 16.0-20.0s: One locked shot, exactly as in @Image3: the sugared golden chain hangs from the skewer held by one gloved hand at the top, warm bokeh behind, the chain filling the frame; his other gloved hand slowly pulls the bottom link down: the crust crackles (16.3, 16.8, 17.3 s) and melted mozzarella stretches in long strands between the links (17.5-19.8 s), a little steam rising. No cut to black.
+
+SOUND: only the real sounds of each action, sharp and separate with near silence between them: the snaps of the casing, the squeaks, the freezer's hum, the flour, the egg's crack, the whisk, the batter's gloop, the panko's rustle, the loud sizzle, the sugar's crunch, the bite's crunch, the crust crackling. No music, no voice, no whooshes.
+
+AVOID: the same dark background in every shot, an all-black frame, glowing or reflective sunglasses, light in his lenses, links that are not interlocked, straight corn dogs, hot dog pieces cut across, sausages tied with string, more or fewer than four links, two chains, cheese outside the loops before shot 11, ketchup, mustard, pork, bacon, ham, alcohol, labels, brand names, text, writing, burnt crust, shaky camera, music, sunglasses off, a white t-shirt, bare hands, other people, logos, talking, extra fingers, deformed hands, distorted face.
+
+===== EDIT =====
+- **Text:** none on the video.
+- **Order:** the take's own order, trims on the motion; 24 fps, 1080x1920, as the lantern v4 (edit_lantern.py).
+- **Sound:** the takes' own sound at -16 LUFS.
+- **Caption:** English first with the full recipe and the keyword LANTERN-style («CHAIN» / «سلسلة»); Arabic below.

@@ -1,4 +1,4 @@
-# Corn Dog Chain («سلسلة الكورن دوغ»): N° 059 Korean Corn Dog with an invented link (2026-11-20, for the owner's approval)
+# Corn Dog Chain («سلسلة الكورن دوغ»): N° 059 Korean Corn Dog with an invented link (2026-11-20, approved by the owner with his two reference images; the kitchen test is still owed)
 The owner, 20 Nov: «شو الفكرة الجاية؟ ... والفكرة معقدة نولد الها صورة لنقلل الأخطاء».
 - **Why this idea:**
   - The lantern (v4) reached 25,300 accounts, 13x our median of 1,909.
