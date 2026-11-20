@@ -1,0 +1,51 @@
+Braided Blue Corn Dog «ضفيرة الكورن دوغ الزرقا», 20 s (N° 059 + the braid + blue corn chips in place of the panko:
+book-additions/braided-blue-corn-dog.md). The owner made the three reference images on 20 Nov. Ep 3 of «ما حدا عملها».
+Checked against reels-director's PROMPT MISTAKES:
+- no book in the prompt;
+- the lenses always matte;
+- a new surface and light in every shot;
+- the complex shape and the chips tied to the images.
+The chain's structure:
+- 20 s;
+- after 8 s, a new picture every 1-1.5 s;
+- the oil 1.5 s and the bite 1 s;
+- it ends on the pull, as @Image4.
+Not shown: ketchup and mustard (the owner's @Image4 has none); they stay in the DM recipe.
+Status: NOT generated.
+
+SETTINGS (higgsfield.ai): Seedance 2.5, Omni reference, 20 s, 9:16, 720p or 1080p, bitrate High, audio On; character
+element chef-ahmet-yellow (41e55e5e). Images in this order:
+- @Image1 = the kitchen (325df734);
+- @Image2 = the raw braid on the oak board (IMG_6610);
+- @Image3 = the crushed blue corn chips in the white enamel tray (IMG_6611);
+- @Image4 = the fried blue braid with the cheese pull (IMG_6612).
+
+===== PROMPT =====
+A vertical 9:16 cinematic food film, exactly 20 seconds, no text. A beef hot dog and a strand of mozzarella are braided like hair, frozen, battered, rolled in crushed blue corn chips, fried, sugared and pulled apart with melting cheese. Every shot has a different background, surface, colour and light, like a travelling camera in a busy warm kitchen; never two shots in a row with the same background.
+
+THE COOK: his character element: a plain mustard-yellow t-shirt, a black apron with brown leather straps, black nitrile gloves, black square sunglasses with small gold hinges. The sunglasses' lenses are solid matte black at all times: no light on them, no reflection, no glow. He never speaks.
+
+THE BRAID (the hero shape, the same in every shot): one long beef hot dog cut lengthwise into two pink strands joined at one end, braided with a third strand of white stringy mozzarella into one neat three-strand plait, pink, pink and white, a wooden skewer running up through it; raw, it looks exactly as in @Image2. THE COATING: coarsely crushed blue corn tortilla chips, deep indigo and blue-purple triangular shards with flakes of salt, exactly as in @Image3. Fried and sugared, the braid keeps its plaited shape under a craggy indigo-blue chip crust with golden fried edges and a sparkle of sugar, exactly as in @Image4.
+
+SHOT 01 — 0.0-3.5s: Close, at eye level on a light oak cutting board, his mustard t-shirt and apron soft behind, warm golden light, the camera still. His gloved fingers braid the three strands like hair, right over the middle, left over the middle, each crossing with a soft slap (0.4, 0.9, 1.4, 1.9, 2.4 s), pink, pink and white, and pinch the end; a wooden skewer is pushed up through the braid with a small pop (3.0 s): the braid exactly as in @Image2.
+SHOT 02 — 3.5-5.0s: Macro against soft warm bokeh of brass pendant lights: he lifts the raw braid by its skewer to the lens; it turns slowly, the pink and white plait clear.
+SHOT 03 — 5.0-6.0s: Inside a freezer, bright white and frosty: white frost grows over the braid on its skewer.
+SHOT 04 — 6.0-8.5s: Top-down over a stainless steel bowl on white parchment, bright even light, compressed time: flour poured in (6.1 s), sugar (6.5 s), a pinch of salt (6.8 s), an egg cracked on the rim (7.1 s), cold milk in a thin stream (7.4 s), baking powder from a small spoon (7.7 s); a whisk beats it into a thick, sticky, pale batter (7.8-8.5 s) with quick clinks; the batter is pale cream, never blue.
+SHOT 05 — 8.5-9.5s: Low angle at counter level, warm orange backlight: the frosted braid is dipped into a tall clear glass of thick pale batter with a thick gloop and lifted out coated completely.
+SHOT 06 — 9.5-11.0s: Top-down in daylight, over the white enamel tray of crushed blue corn chips exactly as in @Image3: the coated braid is rolled through the indigo shards, gloved fingers pressing them on with a loud dry crunch; the braid turns deep blue.
+SHOT 07 — 11.0-12.5s: Medium at a stainless steel range, a ring of blue gas flame under a steel pot: he lowers the blue braid into the oil by its skewer, a loud crackling sizzle, steam rising; compressed time; his lenses stay matte black.
+SHOT 08 — 12.5-13.5s: Macro against warm bokeh: the braid is lifted out of the oil, dripping, its craggy indigo crust edged with gold, crackling.
+SHOT 09 — 13.5-14.5s: Close on a small white tray of sugar on the oak board: the braid is rolled in the sugar, crystals sparkling on the blue crust, a gritty crunch (13.8, 14.2 s).
+SHOT 10 — 14.5-15.5s: Medium shot of him in the warm-lit kitchen as in @Image1, holding the braid by its skewer: he takes one bite with a loud crunch; his lenses matte black.
+SHOT 11 — 15.5-20.0s: One locked shot, exactly as in @Image4: in a warm busy kitchen with glowing bokeh lights, the blue braid is held up by its skewer in one gloved hand at the top; his other gloved hand slowly pulls the bottom of the braid down: the crust crackles (15.8, 16.3, 16.8 s), a few blue crumbs fall, and melted white mozzarella stretches in long strands out of the blue crust (17.0-19.8 s), a little steam rising. No cut to black.
+
+SOUND: only the real sounds of each action, sharp and separate with near silence between them: the soft slaps of the braiding, the skewer's pop, the freezer's hum, the flour, the egg's crack, the whisk, the batter's gloop, the loud crunch of the blue chips, the loud sizzle, the sugar's crunch, the bite's crunch, the crust crackling. No music, no voice, no whooshes.
+
+AVOID: the same dark background in every shot, an all-black frame, glowing or reflective sunglasses, light in his lenses, a straight unbraided hot dog, a twisted spiral instead of a braid, more or fewer than three strands, two corn dogs, blue batter, a blue raw hot dog, whole tortilla shells, tacos, a chip bag, packaging, Doritos, orange cheese dust, panko, cheese leaking before shot 11, ketchup, mustard, pork, bacon, ham, alcohol, labels, brand names, text, writing, burnt crust, shaky camera, music, sunglasses off, a white t-shirt, bare hands, other people, logos, talking, extra fingers, deformed hands, distorted face.
+
+===== EDIT =====
+- **Video:** the whole take, 24 fps, 1080x1920, the take's own sound at -16 LUFS.
+- **Meme lines** (meme.mjs, as the chain): «POV: your daughter braided dinner» in the middle of the screen for 0-3.5 s; the
+  comment line over the pull.
+- **Caption:** English first, then a Thai line, then Arabic.
+- **Keyword:** BRAID, so it does not clash with the chain's CORNDOG automation (the owner's call).
