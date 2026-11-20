@@ -86,3 +86,44 @@ One short card on every shot after the hook, each 2-5 words, each a reason to st
 | 1 | The send line is a kids angle or a friend's mistake | sends 8.7/7.8 and 11-22 per 1K |
 | 1 | All text inside y 220-1540 and x 60-1020 | Reels UI safe zone |
 8 or more ships. Under 8: fix and re-run.
+
+## M. The POV / meme line (owner, 2026-11-20: «نجمع بنك هوكات كتابة pov مضحكة زي الألماني»; untested on our account)
+- **Source:** the format of @veganer.wandel (research/veganer-wandel-format.md). His outliers (571x, 25x, 16x, 12x) open
+  on a meme line in a white box at the top: "when Germans get hungry at 3 a.m.", "how Germans get their protein",
+  "Germans at 3:59 pm / 4:00 pm". That is an identity plus a moment everyone knows, over the first 3-4 s. His flop had
+  no line and no skit.
+- **Rules:**
+  - 8 words at most, one line, in a white box at the top, 0-3.5 s only. The video is clean after it (the owner's no-text
+    rule stays for the rest).
+  - The line names a moment everyone has lived; the picture answers it.
+  - Never the recipe's name, and never the answer.
+  - English for reels that travel (the lantern v4: 100% non-followers; Thailand, Indonesia, the US, Brazil, Mexico).
+    Arabic for posts to the followers.
+  - Self-irony only. No group made the butt of the joke, and nothing about religion.
+- **Test:**
+  - one reel with the line against one without, the same video, both as Trial Reels at the same hour;
+  - read skip, the 3 s point, sends per 1K and keyword comments;
+  - formula letter M in timeline.json; hook_check scores M 1/2 until it has its own numbers.
+
+| # | English (white box) | Arabic (white box) | Fits |
+|---|---|---|---|
+| 1 | POV: you only have one skewer | لما يكون عندك سيخ واحد بس | the corn dog chain |
+| 2 | When the hot dogs became a family | لما النقانق صارت عيلة | the corn dog chain |
+| 3 | Arab moms when 4 kids want 1 corn dog | الأم العربية لما ٤ ولاد بدهم كورن دوغ واحد | the corn dog chain |
+| 4 | POV: Ramadan came early this year | لما رمضان إجا بكير هالسنة | the lantern |
+| 5 | When Arabs get hungry at 3 a.m. | العرب لما يجوعوا الساعة ٣ الفجر | any late-night fry |
+| 6 | POV: mom said we have food at home | لما أمك تقلك في أكل بالبيت | any street-food remake |
+| 7 | Arab moms when you say you're full | الأم العربية لما تقلها شبعت | any big plate |
+| 8 | POV: guests are 5 minutes away | لما الضيوف على الباب بعد ٥ دقايق | any fast recipe |
+| 9 | POV: you said "just one bite" | لما قلت «بس لقمة وحدة» | any cheese pull |
+| 10 | When your diet starts tomorrow | لما الدايت بيبلّش بكرا | any fried or sweet |
+| 11 | Me at 2 a.m. pretending to sleep | أنا الساعة ٢ الفجر عامل حالي نايم | any late-night snack |
+| 12 | POV: the kids found the freezer | لما الولاد اكتشفوا الفريزر | frozen desserts |
+| 13 | Arab dads seeing a new kitchen trick | الأب العربي لما يشوف حركة جديدة بالمطبخ | any hack |
+| 14 | POV: you watched one cooking video | لما تحضر فيديو طبخ واحد | any invented shape |
+| 15 | When the fridge is full but you're bored | لما البراد مليان وانت زهقان | any leftover remake |
+| 16 | POV: your aunt asks "who made this?" | لما خالتك تسأل «مين عامل هاد؟» | any show-off dish |
+| 17 | Me after saying "I'm not hungry" | أنا بعد ما قلت «مش جوعان» | any bite ending |
+| 18 | When the oldest sibling cooks for everyone | لما الأخ الكبير يطبخ للكل | big batches |
+| 19 | 5 minutes before iftar | قبل الإفطار بخمس دقايق | Ramadan dishes |
+| 20 | POV: the street food closed early | لما محل الأكل سكّر بكير | street-food remakes |
