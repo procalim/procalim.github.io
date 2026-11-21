@@ -21,6 +21,19 @@ It still needs the owner's approval and a test in a real kitchen before it goes 
   - [mozzarella-centred mashed potato balls and fritters](https://potatogoodness.com/recipes/mozzarella-stuffed-potato-fritters/);
   - [cheddar slices in the cuts of an accordion potato](https://www.rizzoliusa.com/wp-content/uploads/2025/10/Phone-Eats-First_ACCORDION-POTATOES.pdf).
 
+## Second check (21 Nov, the owner: «انت متاكد هاذا الشكل ما حدا عملو»; 3 more searches, 2 of them extended)
+- **Still not found on the web:** a potato cored with an apple corer and filled with a mozzarella stick, then cut
+  and stretched on a skewer.
+- **Found, close to it:**
+  - [cheese pushed between the slices of hasselback potatoes](https://www.cookist.com/pizza-hasselback-potatoes/),
+    which is common; the crisp potato in @Image3 looks close to it;
+  - [tornado potatoes](https://en.wikipedia.org/wiki/Tornado_potato) with melted mozzarella on top, not inside;
+  - [the apple corer used on potatoes](https://www.tastingtable.com/1421655/unique-potato-hacks-learned-tiktok), for cuts, not to stuff them;
+  - [the cheese-stuffed sweet potato](https://spoonuniversity.com/news/people-eating-cheese-stuffed-sweet-potatoes-on-tiktok/),
+    a split sweet potato filled with cheese.
+- **Not checked:** Instagram and TikTok reels themselves. The web search does not index them, and ScrapeCreators (the
+  reel search) is out of credits (402). So "not found" is not "nobody made it".
+
 ## The book, word for word (N° 026, p173)
 Accordion Potatoes
 Potatoes cut to stretch like an accordion — a visual masterpiece.
