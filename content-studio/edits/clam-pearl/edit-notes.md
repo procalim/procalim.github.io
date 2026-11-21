@@ -119,3 +119,18 @@ is the long stretch.
 - Source: the 9.92 s cut (media 1f582ece), the one the 75 credits were priced on. The 16.67 s cut would be 125.
 - Seedance 2.5 video edit, 720p, no generated sound (the cut's own sound goes back on), the 12-shot list above with
   one line added (the lenses stay solid matte black). Job c8b8efc7, 75 credits, run on the owner's order with the price.
+
+### The Editing Room result (job c8b8efc7), read and finished: media a8046101, 9.71 s
+- The result: 9.71 s, 720p, 24 fps, silent. Its cuts (by frame): 0.63, 1.71, 2.42, 3.21, 3.67, 4.0, 4.67, 5.29, 6.21,
+  6.96, 7.79, 8.54.
+- **New angles:** a top-down knife on the roll (0-0.6), the cut at the side edge at board height (0.6-1.7), the pearl
+  set in from above (3.2-3.7), the dunk top-down in a pan of garlic butter (4.0-4.7), and the stretch from low
+  (7.79 to the end).
+- **Copied the original framing:** the opening on the hinge, the piping, him with the tray, the oven, the baked clam
+  on the tray.
+- **Drifts:**
+  - 6.96-7.75 s (frames 167-186): the crack macro shows a pale, unbaked roll where the clam is golden. Replaced with
+    the cut's own frames for the same seconds (the tray, then the gloved hands opening the golden clam). Time stays
+    the same.
+  - 3.2-3.5 s: from above, the top shell hovers over the base before it closes. Kept.
+- **Finish:** 1080x1920 lanczos, 24 fps, the 9.92 s cut's own sound trimmed to 9.71 s. Join checked frame by frame.
