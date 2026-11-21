@@ -77,6 +77,11 @@ Completion by design: the viewer stays to see the timer run out.
 3. **2.1 The Clam and the Pearl:** the lantern's audience; a silhouette the model knows.
 4. **6.1 The Cheese Hourglass:** a built-in timer.
 
+## Made from the bank
+| Date | Row | State |
+|---|---|---|
+| 2026-11-21 | 1.1 The Zipper | the owner's 3 images made; prompt written (prompts/w4-zipper-corn-dog-20s.txt); book-additions/korean-corn-dog-zipper.md |
+
 ## Reference images for 1.1 The Zipper (after the owner's IG check; 9:16, any photoreal model)
 ===== @Image2: THE ZIPPER, RAW =====
 Photorealistic macro food photograph, vertical 9:16. One long plain beef hot dog lies on a light oak cutting board, seen from above at a low angle. It is cut lengthwise through its middle along a zigzag line of small even square teeth, so its two halves interlock exactly like the teeth of a zipper. The top third is unzipped: the two halves are pulled apart into a V, their square teeth clearly visible, and a white mozzarella stick lies in the open V. The bottom two thirds are still zipped shut, the teeth locked together. Glossy pinkish-brown casing, paler pink cut faces. Warm golden tungsten light from the left, soft warm bokeh of brass pendant lights behind, shallow depth of field. No hands, no metal zipper, no fabric, no text, no labels, no other food.
