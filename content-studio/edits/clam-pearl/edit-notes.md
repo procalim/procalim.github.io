@@ -91,3 +91,7 @@ Shot 11, 8.3–9.0 s — 35 mm, low below the clam looking up: the cheese strand
 Shot 12, 9.0–10.0 s — 50 mm from the front, a slow push-in closer than in @Video1: the cheese at its longest stretch, a little steam; behind, warm bokeh. Accent: the longest stretch, held to the last frame.
 
 Faces, clothes, props and the place stay exactly as in @Video1 in every shot; the sound runs on unbroken across the cuts. No text.
+
+The owner, 21 Nov: «ما في مكان أحط برومبت يشتغلوا كل اشي». The Editing Room on the site takes no prompt and chooses
+the cameras itself. So the cut (media 1f582ece) goes in as it is; the shot lists above are kept for a run through the
+tools. The result is read from frame sheets, and the cut's sound is put back if it comes out silent.
