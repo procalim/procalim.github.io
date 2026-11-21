@@ -134,3 +134,24 @@ is the long stretch.
     the same.
   - 3.2-3.5 s: from above, the top shell hovers over the base before it closes. Kept.
 - **Finish:** 1080x1920 lanczos, 24 fps, the 9.92 s cut's own sound trimmed to 9.71 s. Join checked frame by frame.
+
+## The zoom edit (the house edit, no regeneration): media d29214dd, 16.47 s
+The owner: «اعمل الفيديو زي ما احنا بنعمله، احنا بدنا زومينج وإديتينج كويس مش نعيد توليد اللقطات». The 16.67 s long
+cut's own frames (395 frames) with edits/_tools/zoom_edit.py: every shot gets an eased push-in or pull-out on a 2x
+upscale; the cut's own sound.
+| Frames | Shot | Zoom | Centre |
+|---|---|---|---|
+| 0-31 | the knife taps | 1.00 → 1.10 | the roll, low middle |
+| 32-43 | the cut at the edge | 1.16 → 1.20 | the cut line |
+| 44-70 | the shell opens | 1.04 → 1.16 | the shell |
+| 71-98 | the cream cheese whipped | 1.10 → 1.00 (out) | the bowl |
+| 99-128 | the piping | 1.00 → 1.12 | the ribs |
+| 129-165 | the pearl in, the shell shut | 1.00 → 1.16 | the pearl |
+| 166-185 | the garlic butter whisked | 1.10 → 1.00 (out) | the bowl |
+| 186-208 | the dunk | 1.00 → 1.12 | the clam |
+| 209-228 | him with the tray | 1.00 → 1.10 | the clam |
+| 229-263 | the oven | 1.00 → 1.15 | the clam |
+| 264-284 | the baked clam on the tray | 1.14 → 1.02 (out) | the clam |
+| 285-394 | the pull | 1.00 → 1.22 | the stretch, held tight to the last frame |
+Frame sheets read: the food stays in frame in every shot; the top of his sunglasses leaves the frame in the first
+second; the last frames sit tight on the stretch.
