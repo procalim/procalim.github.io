@@ -28,7 +28,8 @@ THE PROMPT (no book, no recipe block, no text; the lenses solid matte black, no 
 
 THE EDIT
 - 24 fps, 1080x1920, the take's own sound at -16 LUFS.
-- The POV line (meme.mjs) in the middle for 0-3.0 s.
-- The send line on the last 1.5 s (a named person), or nothing.
+- The POV line (edits/_tools/meme.mjs, one line, 46 px) in the top band, centred on y 290, for 0-3.5 s; never in
+  the middle. Check a strip of 8 frames first: nothing of the food or the hands under it.
+- The send line (a named person) from the payoff to the end, in the same band (2 lines, 46 px, centred on y 275).
 - The cut ends on the peak frame.
 - Captions: English first with the full recipe, a Thai line, Arabic last; the comment keyword for the free PDF.

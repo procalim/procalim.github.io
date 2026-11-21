@@ -95,6 +95,9 @@ One short card on every shot after the hook, each 2-5 words, each a reason to st
 - **Rules:**
   - 8 words at most, one line, in a white box at the top, 0-3.5 s only. The video is clean after it (the owner's no-text
     rule stays for the rest).
+  - The place: 46 px, centred on y 290 of 1080x1920, above the food and the hands. Both chains put it in the middle
+    (y 960), over the hand and the chain: skip 32.4% (20 s) and 34.3% (14 s) against 22.9% for the lantern with no
+    text. Owner, 21 Nov: «نفس مكان pov خاطء».
   - The line names a moment everyone has lived; the picture answers it.
   - Never the recipe's name, and never the answer.
   - English for reels that travel (the lantern v4: 100% non-followers; Thailand, Indonesia, the US, Brazil, Mexico).

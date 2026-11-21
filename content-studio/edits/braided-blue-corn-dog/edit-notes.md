@@ -17,3 +17,18 @@
 - **Speeds:** the range x1.7, the sugar x1.5.
 - **Result:** 20.1 s becomes 14.3 s; the pull starts at 10.21 s; the send card from 10.22 s. Media e7c18565.
 - **Script:** edits/_tools/short_edit.py, the spec in the sandbox /home/user/short/b/braid.json.
+
+## The top cut, 13.3 s (2026-11-21; the owner: «نفس مكان pov خاطء ... قم بتحسين مكان الهووك ... افعل ما يتطلبه بالجدول»)
+- **Why:**
+  - The 14 s chain trial skipped 34.3% "Higher" (2,036 viewers, average watch 6 s, 0 shares). Its POV box sat in the
+    middle, over the hand and the chain, under the play button.
+  - The lantern with no text: 22.9%.
+- **What changed (THE TABLE in reels-director, row by row):**
+  1. Skip: «POV: your daughter braided dinner» in one line, 46 px, centred on y 290 (band about 245-335), 0-3.5 s.
+     A strip of 8 frames (0-3.4 s) shows it on his chin and neck, clear of the braid and the gloves.
+  2. Share: «Send this to the friend / who does your braids», 2 lines, 46 px, centred on y 275, from the pull (9.21 s)
+     to the end. It covers only the skewer's tip.
+  3. Like: the bite before the pull is gone (COMPLETION ENGINE rule 5); the reel ends on the longest stretch.
+- **Spec:** the 14 s spec with the bite segment (14.833-15.833) removed and the two new overlays (sandbox
+  /home/user/short/b2/braid2.json; the overlays from edits/_tools/meme.mjs).
+- **Result:** 13.33 s, 1080x1920, 24 fps, -15.2 LUFS, true peak -0.9 dB. The pull starts at 9.21 s. Media beb7bde5.

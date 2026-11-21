@@ -33,8 +33,11 @@ take read of job 462bf076.
    in each part.
 
 ## THE COMPLETION ENGINE (owner, 2026-11-21: «حط بنفسك بافكارنا وشغلنا نكمل لشخص للآخر مثل ما حلينا فكرت السكيب»)
-The skip is solved: frame one is a never-seen act with 6+ sharp hits, and a POV line.
-- Lantern v4: 22.4%. Chain: 9.3%.
+The skip: frame one is a never-seen act with 6+ sharp hits, and nothing on top of that act.
+- Lantern v4, no text on screen: 22.4% (22.9% at 35,530 reached).
+- The chain with the POV box in the middle, over the hand and the chain: 9.3% at 258 reached, then 32.4% at 1,485
+  (20 s) and 34.3% "Higher" at 2,036 viewers (14 s). Owner, 21 Nov: «المشكلة ليست في الطول ... نفس مكان pov خاطء».
+  The POV line now sits in the top band (THE TABLE below).
 - Lantern v4 at 23 s: lost 21 points in 0-3.7 s, 33 points in the process shots at 3.7-8.1 s (the batter alone 8.6 a
   second), then about 2 points a second to the end (14%).
 - The chain: an average watch of 6 s out of 20.
@@ -61,6 +64,21 @@ every edit from now:
    links), or a POV line that promises the end («wait for the inside»). One variable at a time, as Trial Reels.
 **Read:** the curve at 3, 6 and 10 s and at the end; the average watch as a share of the length; views per viewer.
 **Prompt template:** prompts/_template-never-made-14s.txt.
+
+## THE TABLE: "What impacts your views", row by row (owner, 2026-11-21: «افعل ما يتطلبه بالجدول»)
+Instagram lists these rates in order of importance to reach. Every edit and caption answers each row, in this order:
+1. **Skip rate:** frame one is the act, uncovered.
+   - The POV line: one line, 46 px (meme.mjs, edits/_tools), white box centred on y 290 (band about y 245-335).
+     That is under the Reels header, on his chin and neck in the opening, above the food and his hands.
+   - Never in the middle of the frame (the chain: the box sat on the hand and the chain, under the play button).
+   - Before rendering, check a strip of 8 frames over 0-3.5 s: nothing of the food or the hands under the box.
+2. **Share rate:** one send line naming a person, on screen at the payoff, in the same top band (2 lines, 46 px,
+   centred on y 275), and the same line in the caption.
+3. **Like rate:** the payoff is the last shot and ends on its peak. No bite before it (rule 5 above).
+4. **Save rate:** the full recipe in the caption, and "Save it for ..." in its first line.
+5. **Repost rate:** one caption line only («... or repost it 🔁»); nothing on screen.
+6. **Comment rate:** the keyword for the free PDF in the caption and the pinned comment, and one two-choice question
+   in the pinned comment (an answer of one word).
 
 ## Non-negotiable rules
 1. **Never generate** on Higgsfield without the user writing «ولد» or «قم بتوليد». Before that:
@@ -872,6 +890,7 @@ v5). The rehook takes a second formula from the bank. hookscore is a floor check
 Card position (owner, 2026-11-11): the text sits in the middle of the frame, centred on y 960 (band about y 860-1060),
 on the apron or the calm middle, never over the hero food; this replaces the top band (y 300). Keep the safe width
 x 230-850 and the 390 px phone check.
+Not for the POV / meme line or the send line (owner, 2026-11-21): those sit in the top band, as THE TABLE above.
 Next week (owner): re-cut the honey cake reel with a tested hook and the cards in the middle, then post it as the test.
 
 ## Honey Cake v5 read (2026-11-11, 1 h 17 min) and the owner's read of the hook

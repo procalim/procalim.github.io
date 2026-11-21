@@ -45,7 +45,8 @@ AVOID: the same dark background in every shot, an all-black frame, glowing or re
 
 ===== EDIT =====
 - **Video:** the whole take, 24 fps, 1080x1920, the take's own sound at -16 LUFS.
-- **Meme lines** (meme.mjs, as the chain): «POV: your daughter braided dinner» in the middle of the screen for 0-3.5 s; the
-  comment line over the pull.
+- **Meme lines** (edits/_tools/meme.mjs): «POV: your daughter braided dinner» in one line, 46 px, in the top band
+  (centred on y 290) for 0-3.5 s, never in the middle (owner, 21 Nov); the send line over the pull, in the same band.
+- **Final cut:** 13.3 s with no bite before the pull, media beb7bde5 (edits/braided-blue-corn-dog/edit-notes.md).
 - **Caption:** English first, then a Thai line, then Arabic.
 - **Keyword:** BRAID, so it does not clash with the chain's CORNDOG automation (the owner's call).
