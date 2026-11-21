@@ -22,7 +22,7 @@ the step log at the end: what we did, what came out, the mistake caught or misse
 | 3 | **The prompt** | `python3 edits/_tools/prompt_check.py <file>`: every FAIL fixed; the 5 questions answered in the file under PRE-FLIGHT; the prompt read once in Arabic | reels-director rules 1-10 |
 | 4 | **The owner's run, read** | the job's settings from the generation history: the element, the images in their order, the length; then frame sheets every 0.25 s (sheets.py) before any word to the owner, with the seconds that are wrong | this playbook |
 | 5 | **A fix** | only the wrong shot is made again (a 5 s take), and spliced in; never the whole take for one shot | 21 Nov, the clam |
-| 6 | **The Editing Room** (angles-hf, a Seedance video edit) | on the long one-camera shots only (the opening, the payoff); only on «ولد» | 21 Nov, the owner |
+| 6 | **The Editing Room** (angles-hf, a Seedance video edit) | on the longest approved cut, never a shorter version; 720p; the price put to the owner, only on «ولد» | 21 Nov, the owner |
 | 7 | **The completion cut**: as long as the take allows with no dead second (the owner: longer is better) | THE COMPLETION ENGINE: one question from frame one, answered in the last second; a new picture every 1-1.5 s; only dead frames are trimmed; no bite; the last frame is the peak | reels-director |
 | 8 | **Text on the video** | by the braid's read: the POV line in the top band, or none | reels-director THE TABLE |
 | 9 | **The caption** | THE TABLE: the full recipe (saves), a send line naming a person (shares), the keyword (comments, sales) | reels-director THE TABLE |
@@ -53,3 +53,4 @@ the step log at the end: what we did, what came out, the mistake caught or misse
 | 2026-11-21 | The Safe | 4 | the job's settings read: the single 20 s prompt with all four images, not part 1 of the split | frame sheets: the freezer turns the safe into grey metal (4.0-5.3 s); the fist shows the marshmallows and coins at 7.25 s | caught | the split's part 1 carries no @Image4 for this reason (rule 10) |
 | 2026-11-21 | The Safe | 7 | the two wrong parts cut out; every other shot kept | 16.46 s, media 2cf7fc25 | | |
 | 2026-11-21 | Clam and pearl | 6 | the Editing Room through the tools at 720p on the 9.92 s cut, the owner's order at 75 credits | job c8b8efc7 | | |
+| 2026-11-21 | Clam and pearl | 6 | the Editing Room run on the 9.92 s cut because the 75 credits had been priced on it | the owner: «حكينا الطول ما الو دخل ... شو بدنا بالفيديو تاع 9 ثواني» | missed: I chose the short version on my own | step 6: the Editing Room goes on the longest approved cut (the clam: 16.67 s, 125 credits at 720p); when the price changes, the new price is put to the owner first |
