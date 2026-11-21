@@ -48,6 +48,12 @@ Leave the base uncut — it is the only thing holding the flower together
    pearl, and close the shell. Then steps 05-07 as written.
 Halal: brioche made without lard; halal-certified cream cheese and mozzarella.
 
+## The owner's images (21 Nov), the 2nd and 3rd made with the 1st attached
+- @Image2 the raw clam, open, with the pearl: Brioche_roll_shaped_like_clam_5975deac_2K.jpeg.
+- @Image3 the baked clam, shut, on the tray: Brioche_roll_baked_as_clam_6ab9659b_2K.jpeg.
+- @Image4 the clam opened, the pearl's stretch: Gloves_opening_brioche_clam_shell_bf78a843_2K.jpeg.
+Prompt: prompts/w4-clam-pearl-garlic-bread-20s.txt.
+
 ## The reference images (rule 7: one CLAM block, word for word, in every image)
 Make @Image2 first. Then make @Image3 and @Image4 with @Image2 attached as the reference.
 

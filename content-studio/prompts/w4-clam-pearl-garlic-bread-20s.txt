@@ -1,0 +1,69 @@
+The Clam and the Pearl «المحارة واللؤلؤة», 20 s (N° 121 Korean Cream Cheese Garlic Bread + the clam cut and the
+mozzarella pearl: book-additions/garlic-bread-clam-pearl.md). Invention bank 2.1. The owner made the three reference
+images on 21 Nov, the 2nd and 3rd with the 1st attached (reels-director PROMPT MISTAKES rule 7).
+The reference is the lantern reel (v4: skip 22.4-22.9%, 35,530 reached).
+Checked against reels-director's PROMPT MISTAKES:
+- no book in the prompt;
+- the lenses always matte;
+- a new surface and light in every shot;
+- the CLAM block's first sentence is word for word the one in the image prompts.
+THE COMPLETION ENGINE:
+- one question from frame one: what happens to the pearl in the oven? It is answered only in the last shot;
+- the baked clam is not seen out of the oven before 13 s;
+- no bite; it ends on the longest stretch, as @Image4.
+Status: NOT generated.
+
+THE BOOK, STEP BY STEP -> SHOT (N° 121)
+| Book | Shot |
+|---|---|
+| 00 (our addition) cut across the middle, three quarters of the way: the hinge at the back | 01 |
+| 01 preheat to 350°F (175°C); line a baking sheet with parchment | 07 (the lined tray goes into the hot oven) |
+| 02 cut into 6 wedges, almost all the way down (on the top shell, fanned from the hinge) | 01 |
+| 03 whip the cream cheese, sugar and heavy cream; into a piping bag | 02 |
+| 04 pipe the cream cheese between every slice | 03 |
+| 04b (our addition) the mozzarella pearl on a bed of cream cheese; the shell closed | 04 |
+| 05 whisk the garlic butter dip | 05 |
+| 06 dunk the roll completely in the garlic butter, into the cuts | 06 |
+| 07 bake 15-20 minutes until the edges are crispy and the cream cheese is gooey | 07, 08, 09 |
+| Chef's note: leave the base uncut | the CLAM block: the hinge and the base stay whole |
+| (serving, as the lantern) the clam opened, the pearl's stretch | 10 |
+What may not match: step 01 (the preheat and the lined tray) shows at shot 07, when the tray goes in; the whip, the
+dip and the bake are compressed in time.
+
+SETTINGS (higgsfield.ai): Seedance 2.5, Omni reference, 20 s, 9:16, 720p or 1080p, bitrate High, audio On; character
+element chef-ahmet-yellow (41e55e5e). Images in this order (not the order they were sent in):
+- @Image1 = the kitchen (325df734);
+- @Image2 = the raw clam, open, with the pearl (Brioche_roll_shaped_like_clam_5975deac_2K.jpeg);
+- @Image3 = the baked clam, shut, on the tray (Brioche_roll_baked_as_clam_6ab9659b_2K.jpeg);
+- @Image4 = the clam opened, the pearl's stretch (Gloves_opening_brioche_clam_shell_bf78a843_2K.jpeg).
+Halal: brioche made without lard; halal-certified cream cheese and mozzarella; no meat.
+
+===== PROMPT =====
+A vertical 9:16 cinematic food film, exactly 20 seconds, no text. A round brioche roll is cut into a clam shell that opens on a hinge, filled with cream cheese and one big white mozzarella pearl, shut, dunked in garlic butter and baked golden, and at the end the shell opens and the pearl stretches. Every shot has a different background, surface, colour and light, like a travelling camera in a busy warm kitchen; never two shots in a row with the same background. The baked clam is never seen out of the oven before 13 seconds.
+
+THE COOK: his character element: a plain mustard-yellow t-shirt, a black apron with brown leather straps, black nitrile gloves, black square sunglasses with small gold hinges. The sunglasses' lenses are solid matte black at all times: no light on them, no reflection, no glow. He never speaks.
+
+THE CLAM (the hero shape, the same in every shot): one round golden brioche roll made into a scallop seashell: it is cut across through its middle and opens on a hinge at the back like a clam; its top shell has six deep cuts that fan out from the hinge like the ribs of a scallop shell, with cream cheese piped into every cut; inside, on a bed of white cream cheese, sits one big round ball of white mozzarella, the pearl. The hinge and the base are never cut through. Raw and open, it looks exactly as in @Image2. Baked and shut, deep golden, glossy with garlic butter and flecked with green parsley, it looks exactly as in @Image3. Opened after baking, it looks exactly as in @Image4.
+
+SHOT 01 — 0.0-3.5s: Close, at eye level on a light oak cutting board, his mustard t-shirt and apron soft behind, warm golden light, the camera still. A round soft brioche roll: a serrated knife slices across its middle with a crisp crunch, stopping short of the back (0.3 s); his gloved fingers lift the top and it opens on the hinge at the back with a soft crack (0.8 s); then the knife cuts six deep cuts into the top shell, fanning out from the hinge, one sharp tap each (1.2, 1.5, 1.8, 2.1, 2.4, 2.7 s): a clam shell, open. One continuous shot.
+SHOT 02 — 3.5-4.5s: Top-down over a stainless steel bowl on white parchment, bright even light: a whisk whips cream cheese, sugar and cream into a smooth white cream with quick clinks.
+SHOT 03 — 4.5-6.0s: Macro against soft warm bokeh of brass pendant lights: a piping bag fills each of the six cuts of the top shell with white cream cheese, a soft squeak each (4.7, 5.0, 5.3, 5.6 s).
+SHOT 04 — 6.0-7.5s: Eye level on the oak board, the dark kitchen and its brass pendant lights behind, exactly as in @Image2: his gloved fingers set the big white mozzarella pearl on the bed of cream cheese inside the open clam with a soft pat (6.3 s), then lower the top shell and it shuts on its hinge with a soft clap (7.2 s).
+SHOT 05 — 7.5-8.5s: Top-down on a pale stone counter in cool daylight: a whisk beats a glossy yellow garlic butter, flecked with chopped garlic and green parsley.
+SHOT 06 — 8.5-10.0s: Side view, slow motion, warm orange backlight: the shut clam is dunked completely into the bowl of garlic butter with a thick slosh and lifted out dripping, the butter running into its cuts.
+SHOT 07 — 10.0-11.0s: Medium shot of him in the warm-lit kitchen as in @Image1: he slides the clam on a parchment-lined black tray into a glowing oven and shuts the door with a thud (10.8 s); his lenses stay matte black.
+SHOT 08 — 11.0-13.0s: Inside the oven, lit orange by its glowing element, compressed time: the clam puffs and turns deep golden, its six ribs crisping, cream cheese bubbling in the cuts, with a faint crackle.
+SHOT 09 — 13.0-14.0s: The oven door opens and steam rises; top-down at a slight angle on the black tray and white parchment: the baked golden clam, shut, exactly as in @Image3.
+SHOT 10 — 14.0-20.0s: One locked shot, exactly as in @Image4: in a warm kitchen with glowing brass bokeh lights, the baked clam is held in one gloved hand at the bottom of the frame; his other gloved hand lifts the top shell open on its hinge: the crust crackles (14.3, 14.8, 15.3 s), the shells part, and the melted mozzarella pearl stretches up between them in long thick strands (15.5-19.8 s), a little steam rising, a few golden crumbs falling. No cut to black.
+
+SOUND: only the real sounds of each action, sharp and separate with near silence between them: the knife's crunch, the shell's soft crack, the six knife taps, the whisk's clinks, the piping's squeaks, the pearl's soft pat, the shell's clap, the garlic butter's whisk, the slosh of the dunk, the oven door's thud, the oven's faint crackle, the door opening, the crust crackling. No music, no voice, no whooshes.
+
+AVOID: the same dark background in every shot, an all-black frame, glowing or reflective sunglasses, light in his lenses, a flower with six petals, a real seashell, seafood, an oyster, two clams, the hinge cut through, the pearl leaking before shot 10, a bite, pork, bacon, ham, lard, alcohol, labels, brand names, text, writing, burnt crust, shaky camera, music, sunglasses off, a white t-shirt, bare hands, other people, logos, talking, extra fingers, deformed hands, distorted face.
+
+===== EDIT =====
+- **Video:** 24 fps, 1080x1920, the take's own sound at -16 LUFS.
+- **Cut:** to 13-15 s on the completion engine: the whip and the garlic butter whisk go first; it ends on the longest
+  stretch.
+- **Text:** decided by the braid's read (posted 21 Nov, the POV line at the top). Near the lantern's 22.9%: the POV
+  line in the top band; if not, no text, as the lantern.
+- **Caption:** English first with the full recipe, a Thai line, Arabic last; keyword PEARL for the free PDF.
