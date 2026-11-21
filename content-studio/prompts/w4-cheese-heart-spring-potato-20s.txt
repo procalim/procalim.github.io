@@ -1,0 +1,65 @@
+Cheese-Heart Spring Potato «زنبرك البطاطا بقلب جبنة», 20 s. Ep 1 of the potato family (N° 026 Accordion Potatoes +
+a mozzarella core: book-additions/cheese-heart-spring-potato.md). The owner made the three reference images on 21 Nov.
+The reference is the lantern reel (v4: skip 22.4-22.9%, 35,530 reached).
+Checked against reels-director's PROMPT MISTAKES:
+- no book in the prompt;
+- the lenses always matte;
+- a new surface and light in every shot;
+- the shape tied to the owner's images; the hero block written once (one take).
+THE COMPLETION ENGINE:
+- the finished potato is not seen whole before 11 s;
+- a new picture every 1-1.5 s;
+- no bite;
+- it ends on the longest stretch, as @Image4.
+Status: NOT generated.
+
+THE BOOK, STEP BY STEP -> SHOT
+| Book (N° 026, p173) | Shot |
+|---|---|
+| 00 (our addition) the core out, a frozen mozzarella stick in | 01 (the potato already cored; the cheese pushed in at 0.3 s) |
+| 01 the potato between two chopsticks | 01 |
+| 02 side 1: vertical straight cuts | 01 (0.8, 1.1, 1.4 s) |
+| 03 flip; diagonal cuts at 45 degrees | 01 (1.7, 2.0, 2.3 s) |
+| 04 pull the ends: it stretches open like a spring | 01 (2.6-3.4 s) |
+| 05 a skewer through the centre | 02 |
+| 06 garlic butter brushed into all the grooves (melted butter, garlic powder, parsley) | 03, 04 |
+| 07 air fry at 375°F (190°C) for 15-20 minutes until crispy | 05, 06, 07 (compressed time) |
+| Chef's note: even spacing makes the effect more dramatic | the hero block: even gaps |
+| (serving, as the lantern) the knock and the pull | 08, 09 |
+What may not match: the flip in 01 is fast, and the air fryer's 15-20 minutes are compressed into 3.5 s.
+
+SETTINGS (higgsfield.ai): Seedance 2.5, Omni reference, 20 s, 9:16, 720p or 1080p, bitrate High, audio On; character
+element chef-ahmet-yellow (41e55e5e). Images in this order (not the order they were sent in):
+- @Image1 = the kitchen (325df734);
+- @Image2 = the raw spring on the oak board (Spiral_potato_on_wooden_skewer_08161838_2K.jpeg);
+- @Image3 = the crisp spring on the air-fryer rack (Potato_spring_on_air-fryer_rack_92b2544c_2K.jpeg);
+- @Image4 = the pull (Hands_stretching_melted_mozzarella_50788e37_2K.jpeg).
+Halal: halal-certified mozzarella, butter (no lard); no meat in the dish.
+
+===== PROMPT =====
+A vertical 9:16 cinematic food film, exactly 20 seconds, no text. A long potato gets a stick of white cheese pushed through its heart, is cut and pulled open into a spring with cheese in every gap, brushed with garlic butter, air-fried golden and pulled apart with melting cheese. Every shot has a different background, surface, colour and light, like a travelling camera in a busy warm kitchen; never two shots in a row with the same background. The finished golden potato is never seen whole before 11 seconds.
+
+THE COOK: his character element: a plain mustard-yellow t-shirt, a black apron with brown leather straps, black nitrile gloves, black square sunglasses with small gold hinges. The sunglasses' lenses are solid matte black at all times: no light on them, no reflection, no glow. He never speaks.
+
+THE SPRING (the hero shape, the same in every shot): one long oblong potato, skin on, cut across into about eight thick round coils that stay joined and stand apart along a wooden skewer like a stretched spring, with even gaps between them; a white core of mozzarella runs through the centre of the potato and shows clearly in every gap. Raw, it looks exactly as in @Image2. Air-fried, the coils are deep golden and crisp at their edges, glossy with garlic butter and flecked with green parsley, the white core still showing, exactly as in @Image3. Pulled apart, it looks exactly as in @Image4.
+
+SHOT 01 — 0.0-3.5s: Close, at eye level on a light oak cutting board, his mustard t-shirt and apron soft behind, warm golden light, the camera still. A long raw potato with a round tunnel through its length lies between two wooden chopsticks; his gloved fingers push a frozen white mozzarella stick into the tunnel with a squeak (0.3 s) until it fills it. A large knife cuts straight down across the potato, stopping at the chopsticks, with sharp crisp taps (0.8, 1.1, 1.4 s); he rolls it over and cuts at an angle (1.7, 2.0, 2.3 s); then his fingertips pull the two ends apart and the potato stretches open into a spring, a white disc of cheese in every gap (2.6-3.4 s). One continuous shot.
+SHOT 02 — 3.5-5.0s: Macro against soft warm bokeh of brass pendant lights: a wooden skewer is pushed through the centre with a small pop (3.7 s); he lifts the raw spring to the lens and turns it slowly, the white cheese clear between the coils, exactly as in @Image2.
+SHOT 03 — 5.0-6.5s: Top-down on a sheet of white parchment in bright soft daylight: a pastry brush works melted golden garlic butter into every gap between the coils, glossy, with soft wet strokes.
+SHOT 04 — 6.5-7.5s: Macro against a soft pale green background: chopped green parsley falls onto the glossy coils in slow motion.
+SHOT 05 — 7.5-9.0s: Medium at a white stone counter in cool daylight: he lays the spring in the black basket of an air fryer and slides the drawer shut with a thud (8.7 s); his lenses stay matte black.
+SHOT 06 — 9.0-11.0s: Inside the air fryer, lit orange by its glowing heating coil, compressed time: the coils turn from pale to deep golden, their thin edges curling crisp, with a faint crackle.
+SHOT 07 — 11.0-12.5s: The drawer opens with a click and steam rises; top-down at a slight angle on the black air-fryer rack lined with white parchment, a small white bowl of garlic butter beside it: the crisp golden spring, exactly as in @Image3.
+SHOT 08 — 12.5-13.5s: Macro against warm bokeh: a gloved knuckle knocks the crisp coils twice (12.8, 13.2 s), crackling.
+SHOT 09 — 13.5-20.0s: One locked shot, exactly as in @Image4: in a warm busy kitchen with glowing bokeh lights, the golden spring is held up by its skewer in one gloved hand at the top; his other gloved hand slowly pulls the bottom coils down: the crust crackles (13.8, 14.3, 14.8 s), the coils separate and melted white mozzarella stretches in long strands between them (15.0-19.8 s), a little steam rising, a few golden crumbs falling. No cut to black.
+
+SOUND: only the real sounds of each action, sharp and separate with near silence between them: the squeak of the cheese, the knife's crisp taps, the soft stretch of the potato, the skewer's pop, the brush's wet strokes, the drawer's thud, the air fryer's crackle, the drawer's click, the knocks, the crust crackling. No music, no voice, no whooshes.
+
+AVOID: the same dark background in every shot, an all-black frame, glowing or reflective sunglasses, light in his lenses, loose potato slices falling off the skewer, a potato cut all the way through into separate chips, mashed potato, french fries, the cheese outside the potato, cheese leaking before shot 09, a hot dog, a sausage, meat, batter, breadcrumbs, a pot of frying oil, a bite, pork, bacon, ham, alcohol, labels, brand names, text, writing, burnt crust, shaky camera, music, sunglasses off, a white t-shirt, bare hands, other people, logos, talking, extra fingers, deformed hands, distorted face.
+
+===== EDIT =====
+- **Video:** 24 fps, 1080x1920, the take's own sound at -16 LUFS.
+- **Text:** decided by the braid's read (posted 21 Nov, the POV line at the top). If its skip is near the lantern's
+  (22.9%), the POV line in the top band (edits/_tools/meme.mjs); if not, no text, as the lantern.
+- **Cut:** to 13-15 s on the completion engine, ending on the longest stretch.
+- **Caption:** English first with the full recipe, a Thai line, Arabic last; keyword POTATO for the free PDF.

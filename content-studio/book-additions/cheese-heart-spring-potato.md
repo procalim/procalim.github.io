@@ -59,6 +59,9 @@ Eps 2 and 3 are written only after ep 1's read, as the corn dog family was.
 
 ## The reference images (the owner makes them, as the lantern's and the braid's; 9:16, GPT Image 2.6 or any photoreal model)
 Then the video prompt is written on them: @Image1 = the kitchen (325df734), @Image2-@Image4 as below.
+The owner made all three on 21 Nov (the raw spring, the crisp spring on the rack, the pull). In them the potato is a row
+of thick round coils with gaps and a white cheese core, not a thin spiral; the video prompt follows the images:
+prompts/w4-cheese-heart-spring-potato-20s.txt.
 
 ===== @Image2: THE RAW SPRING =====
 Photorealistic macro food photograph, vertical 9:16. One long oblong potato, skin on, lies on a light oak cutting board, seen from the side at eye level. It has been cut into one continuous spiral and stretched open along a wooden skewer running through its centre, like a long coiled spring, about twice its original length, with even gaps between the coils. Inside every coil sits one round bright-white disc of mozzarella, threaded on the skewer, so a white core runs through the whole spring and shows clearly in each gap. The cut faces are pale cream and moist; the skin is golden brown. Warm golden tungsten light from the left, soft warm bokeh of brass pendant lights behind, shallow depth of field, the spring razor sharp and filling the centre of the frame. No hands, no text, no labels, no sausage, no hot dog, no batter, no other food.
