@@ -104,3 +104,12 @@ AVOID: a cut down through the middle of the roll, the roll cut in two halves, ri
 
 EDIT: the new opening (trimmed to about 3.5 s, ending on the open shell) + the take from its cut to the whisk (about
 3.5 s) to the end; then the completion cut to 13-15 s.
+
+===== AFTER THE SPLICE: HIGGSFIELD EDITING ROOM (the owner, 21 Nov: «بس تخلص استخدم اداة هيغسفيلد الجديدة») =====
+The Editing Room changes the angle, light and camera of a video. Through the tools it is the angles-hf workflow (a
+Seedance 2.5 video edit that re-shoots one continuous take as a multi-camera edit, 4-30 s, the same performance and
+timing, the original sound put back). It works best on one continuous take, so it goes on the two long one-camera
+shots, not the whole cut:
+1. the new opening (the six taps, the cut at the edge, the hinge): inserts on the taps, a low angle on the opening;
+2. the pull (the last 6 s): a burst on the crackles, the strongest angle on the longest stretch, ending on it.
+Each re-shoot is a paid Seedance generation: only on «ولد», and on unlimited only if the owner asks for it.
