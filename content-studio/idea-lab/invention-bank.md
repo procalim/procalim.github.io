@@ -108,3 +108,4 @@ Photorealistic food photograph, vertical 9:16, in a warm busy kitchen with glowi
 ## Made from the bank, the next one
 | 2026-11-21 | 2.1 The Clam and the Pearl | the owner's 3 images made (the 2nd and 3rd with the 1st attached); prompt written: prompts/w4-clam-pearl-garlic-bread-20s.txt |
 | 2026-11-21 | 4.1 The Safe | the image prompts written (book-additions/hot-chocolate-safe.md); page 174 (N° 027) needed from the owner for the prompt |
+| 2026-11-21 | 5.1 The Ice Cubes That Aren't | page 167 (N° 020) read; the bite in the row became the back of a spoon that shatters a cube (no bite), and a sinking test in sparkling water was added; 3 image prompts (book-additions/tanghulu-ice-cubes.md) and the 20 s prompt (prompts/w4-tanghulu-ice-cubes-20s.txt) written; waiting for the owner's reel check and images |
