@@ -1,0 +1,71 @@
+The Safe «الخزنة», 20 s (N° 027 Hot Chocolate Bombs, p174 + the safe mould and the cookie coins:
+book-additions/hot-chocolate-safe.md). Invention bank 4.1. The owner's images of 21 Nov; @Image3 remade (the colour
+and the mug).
+THE COMPLETION ENGINE:
+- one question from frame one: what rattles in the safe? It is answered only in the last shot;
+- the inside is hidden in shot 05 (the fist drops it behind the wall of the half);
+- no bite; it ends on the coins and marshmallows floating up.
+Status: NOT generated.
+
+THE BOOK, STEP BY STEP -> SHOT (N° 027, p174)
+| Book | Shot |
+|---|---|
+| (the hook) the sealed safe shaken | 01 |
+| 01 coat the mould with melted chocolate; freeze 5 mins; a second coat | 02 (the double layer), 03 (the freezer) |
+| 02 pop the halves out of the mould | 04 |
+| 03 fill half with 1 tbsp cocoa powder and a handful of marshmallows (+ our cookie coins) | 05 (what goes in stays hidden) |
+| 04 warm a plate; rub the empty half's edges on it | 06 |
+| 05 stick the empty half onto the filled half to seal | 07 |
+| 06 place it in a mug; pour steaming hot milk over it | 08, 09, 10 |
+| Chef's note: two layers of coating so it doesn't crack | 02 (the double layer) |
+What may not match: shot 01 shows the finished safe before the making (the hook); the freeze is compressed.
+
+SETTINGS (higgsfield.ai): Seedance 2.5, Omni reference, 20 s, 9:16, bitrate High, audio On; character element
+chef-ahmet-yellow (41e55e5e). Images in this order:
+- @Image1 = the kitchen (325df734);
+- @Image2 = the safe shut on the oak board (Chocolate_safe_on_cutting_board_d5549af8_2K_2.jpeg);
+- @Image3 = the safe in the wide mug (the remake);
+- @Image4 = the melt (Hot_milk_melting_chocolate_safe_9266b9d2_2K.jpeg).
+Halal: gelatin-free mini marshmallows; no meat.
+
+===== PROMPT =====
+A vertical 9:16 cinematic food film, exactly 20 seconds, no text. A small chocolate safe rattles when it is shaken; it is made from melted chocolate in a safe-shaped mould, filled with something hidden and sealed, set in a wide glass mug, and at the end steaming hot milk melts it open and what was inside floats up. Every shot has a different background, surface, colour and light, like a travelling camera in a busy warm kitchen; never two shots in a row with the same background. What is inside the safe is never seen before 16 seconds.
+
+THE COOK: his character element: a plain mustard-yellow t-shirt, a black apron with brown leather straps, black nitrile gloves, black square sunglasses with small gold hinges. The sunglasses' lenses are solid matte black at all times: no light on them, no reflection, no glow. He never speaks.
+
+THE SAFE (the hero shape, the same in every shot): a small cube-shaped safe made of glossy dark chocolate, deep brown, almost black, about 7 cm on each side, with a square front door that opens on two hinges on its left edge, a round dial with tick marks in the middle of the door, a small bar handle beside the dial, and a row of small round rivets along every edge. Shut, it looks exactly as in @Image2; in the mug, exactly as in @Image3; melting in hot milk, exactly as in @Image4. THE MUG: a wide, round, clear glass mug, wider than it is tall, with a thick glass handle on its right side, exactly as in @Image3 and @Image4.
+
+SHOT 01 — 0.0-3.0s: Close, at eye level on a light oak cutting board, his mustard t-shirt and apron soft behind, warm golden light, the camera still. His gloved hand holds the closed chocolate safe up beside his ear, the safe exactly as in @Image2, and shakes it: something inside rattles, six sharp rattles (0.4, 0.8, 1.2, 1.6, 2.0, 2.4 s). One continuous shot.
+SHOT 02 — 3.0-4.5s: Top-down on white parchment in bright soft daylight: a spoon spreads glossy melted dark chocolate over the inside of a brown silicone mould shaped like the front half of the safe, the door, dial and rivets moulded in its floor, in a thick double layer.
+SHOT 03 — 4.5-5.5s: Inside a freezer, bright white and frosty: white frost forms over the coated mould on a shelf.
+SHOT 04 — 5.5-6.5s: Macro against soft warm bokeh of brass pendant lights: his gloved fingers peel the silicone back and pop out the chocolate front half of the safe, its door, dial and rivets glossy.
+SHOT 05 — 6.5-8.0s: Top-down on a white marble counter: into the open back half of the safe, one spoon of cocoa powder falls with a soft puff (6.8 s); then his closed gloved fist drops a handful of something in with a sharp rattle (7.5 s), hidden behind the chocolate wall of the half.
+SHOT 06 — 8.0-9.0s: Close on a warm white plate on a pale stone counter in cool daylight: he rubs the edge of the front half on the plate, and the chocolate edge melts glossy.
+SHOT 07 — 9.0-10.5s: Eye level on the oak board, the dark kitchen and its brass pendant lights behind: he presses the front half onto the back half, the seam closes, and the safe is shut exactly as in @Image2.
+SHOT 08 — 10.5-12.0s: Medium shot of him in the warm-lit kitchen as in @Image1: he sets the safe inside the wide glass mug on the dark marble counter, exactly as in @Image3; his lenses stay matte black.
+SHOT 09 — 12.0-13.0s: Close at a stainless steel range, a ring of blue gas flame under a small steel jug: the milk in it steams and starts to bubble.
+SHOT 10 — 13.0-20.0s: One locked shot, exactly as in @Image4: in a warm kitchen with glowing brass bokeh lights, a gloved hand pours steaming hot milk from the steel jug over the safe in the wide glass mug: the chocolate walls soften and sag (13.5-15.5 s), the door folds open (15.8 s), and small white marshmallows and small round golden cookies like coins rise and float up in the swirling cocoa-brown milk (16.0-19.8 s), steam rising. No cut to black.
+
+SOUND: only the real sounds of each action, sharp and separate with near silence between them: the six rattles, the spoon on the mould, the freezer's hum, the pop of the half, the puff of cocoa, the rattle of the handful, the soft hiss of the warm plate, the seam pressed shut, the clink of the safe in the mug, the gas flame and the bubbling milk, the pour, the soft creak of the door folding open. No music, no voice, no whooshes.
+
+AVOID: the same dark background in every shot, an all-black frame, glowing or reflective sunglasses, light in his lenses, the inside of the safe shown before shot 10, marshmallows or coins before shot 10, a sphere, a ball, a metal safe, a real lock, numbers, a tall mug, a mug with milk before shot 10, a bite, pork, gelatin, alcohol, labels, brand names, text, writing, shaky camera, music, sunglasses off, a white t-shirt, bare hands, other people, logos, talking, extra fingers, deformed hands, distorted face.
+
+===== PRE-FLIGHT =====
+prompt_check.py (21 Nov): first run WARN rule 9 on shot 01 (lift, shake, set down): the setting down is out; it now
+holds and shakes. Second run: no FAIL, no WARN.
+1. Anything before the action that makes it? Shot 01 shows the finished safe before the making, on purpose: the hook,
+   and the table says so. Inside the making, each half shows only after its mould (02, 04); the coins and the
+   marshmallows show only in shot 10.
+2. Every placement is named by a part: the front half, the back half, the hinges on the door's left edge, the seam,
+   the mug's handle on its right side.
+3. Read in Arabic (my own reading): each sentence keeps one meaning; "the shut safe" reads as «الخزنة المسكّرة», not a
+   verb.
+4. One action per shot: 01 the shake; 02 the spreading; 03 the frost; 04 the pop; 05 the filling (the cocoa and the
+   handful are one book step); 06 the rub; 07 the seal; 08 the safe into the mug; 09 the milk steaming; 10 the pour.
+5. The images per shot: @Image2 (shut) in 01 and 07, both shut; @Image3 (shut, in the mug) in 08; @Image4 (melting)
+   only in 10. No image shows the inside, so none can show it early.
+
+===== EDIT =====
+- 24 fps, 1080x1920, the take's own sound at -16 LUFS; no shot past about 1 s except the payoff (the owner's call).
+- The Editing Room through the tools at 720p on the finished cut only (about 75 credits for 10 s), on «ولد».
+- Text: by the braid's read. Caption: English first with the full recipe, Thai, Arabic last; keyword SAFE.

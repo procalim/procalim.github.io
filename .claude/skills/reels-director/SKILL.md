@@ -34,7 +34,8 @@ take read of job 462bf076.
 7. **One shape block in every reference image** (owner, 2026-11-21: «السحابة بكل صورة بتختلف»). The zipper's three
    image prompts described the teeth in different words, and each image drew different teeth. The shape is written
    once, word for word the same, in every image prompt. The first image is made, and is attached as the reference
-   when the next images are made.
+   when the next images are made. The same holds for every object that shows in two images (the safe's mug came out
+   tall in one and wide in the other), and the colour is written in the block («الصورة الثانية فيها اشي للون والكاسة»).
 8. **Name where the knife goes by a part of the food** (owner, 2026-11-21: «انت كاتب في البرومبت القطع في المنتصف وليس
    الأطراف»). "Slices across its middle" reads as a cut down through the middle, in English and in Arabic. Write the
    edge, the side, the top, the end, the front or the back, and the height ("level into the side edge at half its
