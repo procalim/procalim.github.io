@@ -95,3 +95,22 @@ Faces, clothes, props and the place stay exactly as in @Video1 in every shot; th
 The owner, 21 Nov: «ما في مكان أحط برومبت يشتغلوا كل اشي». The Editing Room on the site takes no prompt and chooses
 the cameras itself. So the cut (media 1f582ece) goes in as it is; the shot lists above are kept for a run through the
 tools. The result is read from frame sheets, and the cut's sound is put back if it comes out silent.
+
+## The long cut, 16.67 s (the owner: «المشكلة مش بطول ... كل ما كان اطول كان افضل»): media 4584d397
+Every shot kept; only dead frames trimmed; -15.0 LUFS, true peak -0.8 dB. Spec: sandbox /home/user/short/clam2/clam2.json.
+| Source | Speed | In the cut | What |
+|---|---|---|---|
+| opening 0.5-2.5 | x1.5 | 0.00-1.33 | the knife taps |
+| opening 2.5-3.0 | x1 | 1.33-1.83 | the cut at the side edge |
+| opening 3.6-4.75 | x1 | 1.83-3.00 | the top opens on its hinge |
+| take 3.7-4.9 | x1 | 3.00-4.21 | the cream cheese whipped |
+| take 5.0-6.1 | x1 | 4.21-5.29 | the piping into the ribs |
+| take 6.25-7.95 | x1 | 5.29-7.00 | the pearl in, the shell shut |
+| take 8.02-8.85 | x1 | 7.00-7.83 | the garlic butter whisked |
+| take 8.92-9.9 | x1 | 7.83-8.83 | the dunk |
+| take 10.0-10.85 | x1 | 8.83-9.67 | him with the tray |
+| take 10.92-12.85 | x1.3 | 9.67-11.17 | the oven |
+| take 12.95-13.85 | x1 | 11.17-12.08 | the baked clam on the tray |
+| take 13.92-19.9 | x1.3 | 12.08-16.67 | the pull to the longest stretch |
+Read from frame sheets: the joins are clean (the piping to the pearl at 5.29 s checked frame by frame); the last frame
+is the long stretch.

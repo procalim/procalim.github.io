@@ -23,7 +23,7 @@ the step log at the end: what we did, what came out, the mistake caught or misse
 | 4 | **The owner's run, read** | the job's settings from the generation history: the element, the images in their order, the length; then frame sheets every 0.25 s (sheets.py) before any word to the owner, with the seconds that are wrong | this playbook |
 | 5 | **A fix** | only the wrong shot is made again (a 5 s take), and spliced in; never the whole take for one shot | 21 Nov, the clam |
 | 6 | **The Editing Room** (angles-hf, a Seedance video edit) | on the long one-camera shots only (the opening, the payoff); only on «ولد» | 21 Nov, the owner |
-| 7 | **The completion cut**, 13-15 s | THE COMPLETION ENGINE: one question from frame one, answered in the last second; a new picture every 1-1.5 s; no bite; the last frame is the peak | reels-director |
+| 7 | **The completion cut**: as long as the take allows with no dead second (the owner: longer is better) | THE COMPLETION ENGINE: one question from frame one, answered in the last second; a new picture every 1-1.5 s; only dead frames are trimmed; no bite; the last frame is the peak | reels-director |
 | 8 | **Text on the video** | by the braid's read: the POV line in the top band, or none | reels-director THE TABLE |
 | 9 | **The caption** | THE TABLE: the full recipe (saves), a send line naming a person (shares), the keyword (comments, sales) | reels-director THE TABLE |
 | 10 | **The post** | 2:30 am, no location, a Trial Reel | plan |
@@ -49,3 +49,4 @@ the step log at the end: what we did, what came out, the mistake caught or misse
 | 2026-11-21 | (all) | 6 | the Editing Room through the tools priced for a 10 s cut: 480p 35 credits, 720p 75, 1080p 199 | 720p: the same resolution as our Seedance takes, which the edit lifts to 1080 | | step 6: 720p, on the finished cut only |
 | 2026-11-21 | The Safe | 2 | the owner's three images: @Image3 (the mug) drew a lighter chocolate and a tall mug | the owner caught it | missed: the mug was not one block and the colour was not written | rule 7 applies to every object that shows in two images (the mug), and the colour is written in the block |
 | 2026-11-21 | The Safe | 3 | page 174 read from the owner's PDF; the 20 s prompt; prompt_check: one WARN (3 actions in shot 01), fixed; the 5 answers in the file | no FAIL, no WARN | caught before sending | |
+| 2026-11-21 | Clam and pearl, The Safe | 7 | the owner: «المشكلة مش بطول ... كل ما كان اطول كان افضل» | the clam is cut again with every shot kept (about 16.6 s); the safe becomes 20 s + 10 s | missed: I had cut to about 10 s | reels-director completion rule 4 rewritten |

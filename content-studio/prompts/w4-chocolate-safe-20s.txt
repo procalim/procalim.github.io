@@ -5,7 +5,7 @@ THE COMPLETION ENGINE:
 - one question from frame one: what rattles in the safe? It is answered only in the last shot;
 - the inside is hidden in shot 05 (the fist drops it behind the wall of the half);
 - no bite; it ends on the coins and marshmallows floating up.
-Status: NOT generated.
+Status: REPLACED by prompts/w4-chocolate-safe-20s-plus-10s.txt (the owner: longer is better).
 
 THE BOOK, STEP BY STEP -> SHOT (N° 027, p174)
 | Book | Shot |

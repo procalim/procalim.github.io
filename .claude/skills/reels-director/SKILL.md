@@ -68,9 +68,11 @@ every edit from now:
      They stay in the caption recipe.
    - Each kept step is at most 1-1.5 s and changes the shape or the colour.
 3. **A new picture every 1-1.5 s after the hook:** a new shape, colour, place or sound. A shot with no change dies.
-4. **Length 12-15 s.**
-   - The 23 s lantern ended at 14%, the 27 s one at 10%, and the 20 s chain held 6 s on average.
-   - A test runs at 14 s (media e7c18565 and 84cc2186).
+4. **Length: longer is better, as long as no second is dead** (owner, 2026-11-21: «المشكلة مش بطول المهم الفيد الفكرة
+   موجودة وغير ممل كل ما كان اطول كان افضل»). The 12-15 s rule is gone.
+   - The edit trims only dead frames (a hold, a drag, a repeat); every new picture stays.
+   - No shot drags past about 1-1.5 s, except the payoff, which runs to its peak.
+   - Long takes are made as 20 s + 10 s (rule 6 of the PROMPT MISTAKES).
 5. **No bite before the payoff.** The bite lost 3 points a second. The bite goes after the pull for 0.5 s, or out.
 6. **End on the peak:** the last frame is the cheese at its longest stretch. No tail, no cut to black, no wide shot
    after it.
