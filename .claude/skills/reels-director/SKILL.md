@@ -63,7 +63,7 @@ every edit from now:
 8. **A count the viewer wants to finish** (to test): the step shown as the shape grows («1/4 … 4/4» on the chain's
    links), or a POV line that promises the end («wait for the inside»). One variable at a time, as Trial Reels.
 **Read:** the curve at 3, 6 and 10 s and at the end; the average watch as a share of the length; views per viewer.
-**Prompt template:** prompts/_template-never-made-14s.txt.
+**Prompt template:** prompts/_template-never-made-14s.txt. **The ideas:** idea-lab/invention-bank.md.
 
 ## THE TABLE: "What impacts your views", row by row (owner, 2026-11-21: «افعل ما يتطلبه بالجدول»)
 Instagram lists these rates in order of importance to reach. Every edit and caption answers each row, in this order:

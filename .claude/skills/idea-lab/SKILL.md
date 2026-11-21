@@ -10,6 +10,11 @@ that distribution is decided when the idea is chosen: 16 of 17 reels stayed at 1
 the two breakouts were the ones people sent (sweet potato patties 221 sends, 8.7 per 1,000 reach). So no prompt is
 written for an idea that has not passed this gate. reels-director takes over after the gate.
 
+## 0. Start from the invention bank (owner, 2026-11-21: «حطو منارة لترجع الها»)
+`content-studio/idea-lab/invention-bank.md`: our own inventions on book recipes, in families of 3-4 tricks, each with
+its frame one, its open question, its last second, its silhouette and its Instagram check terms. Take the next row
+from its order, unless the owner names one. New inventions are added there first.
+
 ## 1. Write the idea in one row
 `dish (book N°) | the send sentence | hook ≤6 words | the answer at the end | the sound in 0-0.5 s | series slot`
 The send sentence is «ابعتها لـ___ لأنو ___», a real person the viewer knows and a reason (craving, diet, kids'

@@ -1,0 +1,88 @@
+# The invention bank «بنك الاختراعات» (2026-11-21)
+The owner, 21 Nov: «اعمل بنك افكار جديد وحطو منارة لترجع الها من اختراعنا ومناسب يطلع كسكيب واكمال للفيديو ... اعمل بنك
+خاص فيك افكار ما بتخطر على اي بشر». This is the first place to look for the next reel. Every idea here is our own
+invention on a book recipe, built for the two numbers that decide reach: the skip and the completion.
+
+## What every idea must have (from our own reads)
+1. **Skip (frame one):** a food everyone knows does something nobody has seen, inside 0-3 s, with 6 or more sharp
+   sounds and nothing on top of it.
+   - The lantern did it with no text: skip 22.4-22.9%, 35,530 reached.
+   - The chain covered its act with a box in the middle: 32-35%.
+2. **Completion (the last second):** one question opens in frame one («شو جوّاها؟», «رح تمسك؟», «شو رح يطلع؟») and
+   is answered only in the last second.
+   - The finished food is never whole before the last 25%.
+   - The inside shows on the last frame, at its peak.
+   - The shot types that help: a lock that opens, a timer that runs out, a sealed thing that rattles.
+3. **The AI draws it right:** the shape is one silhouette the model already knows (a lantern, a zipper, an umbrella, a
+   safe, a clam). The owner makes 3 reference images (@Image2 raw, @Image3 cooked, @Image4 the payoff) before the
+   prompt. The potato spring's cuts did not render.
+4. **New on reels, not only on the web:** the owner searches Instagram with the listed terms before the images (idea-lab
+   rule 2b). If he finds it, the row is struck out, with the date.
+5. **The book:** the base recipe goes in word for word. The invention is one added step in book-additions, for the
+   owner's approval and a kitchen test. Halal as noted.
+
+## The families (3-4 tricks each; one family at a time, ep 1 first, the next eps after its read)
+
+### F1. Hot dogs that work like machines «نقانق بتشتغل» (base N° 059 Korean Corn Dog, p206; halal beef, halal-certified mozzarella)
+The proven base: the lantern reached 35,530, and the 58M AI reel is a hot dog.
+| # | Trick | Frame one (0-3 s) | The question → the last second | Silhouette | IG check |
+|---|---|---|---|---|---|
+| 1.1 | **The Zipper «السحّاب»** | a hot dog cut along its length in a zigzag of small square teeth; a gloved finger pulls one end and it unzips tooth by tooth, 8 ticks in 2.5 s; a mozzarella stick goes in and it is zipped shut | «رح يمسك بالزيت؟» → the fried, sugared corn dog unzipped: the cheese stretches between every tooth | a zipper | zipper hot dog, hot dog zipper cut |
+| 1.2 | **The Umbrella «الشمسية»** | the top half of a skewered hot dog slit into 8 ribs; a mozzarella ring pushed up the skewer opens the ribs one by one, 8 snaps | «شو رح يصير لما يسكّر؟» → the fried umbrella closed by pulling the ring down: cheese from every rib | an umbrella | hot dog umbrella |
+| 1.3 | **The Birdcage «القفص»** | 8 thin strips bow out into a domed cage on a skewer, a quail egg set inside, 8 snaps | «البيضة رح تطلع؟» → the fried cage snapped open, the soft yolk runs | a birdcage | hot dog cage egg, hot dog birdcage |
+
+### F2. Bread with a secret «خبز فيه سر» (base N° 121 Korean Cream Cheese Garlic Bread; brioche without lard, halal-certified cream cheese)
+Korean street food, the lantern's audience (Thailand 19.5%, Indonesia 13.2%).
+| # | Trick | Frame one | The question → the last second | Silhouette | IG check |
+|---|---|---|---|---|---|
+| 2.1 | **The Clam and the Pearl «المحارة واللؤلؤة»** | a round roll scored into clam ridges with 6 sharp knife taps, cut open on a hinge with a crack; a big white mozzarella ball, the pearl, set inside; it snaps shut | «اللؤلؤة شو بتصير؟» → the baked clam opens: the pearl stretches into long strings | a clam shell with a pearl | bread clam pearl, clam bread cheese |
+| 2.2 | **The Treasure Chest «صندوق الكنز»** | a square loaf; 4 fast cuts and the lid flips up on a hinge, hollow inside; cream cheese piped in with a squeak; the lid slams shut | «شو الكنز؟» → the lid lifted: the cheese stretches up like strings of gold, steam | a treasure chest | bread treasure chest |
+| 2.3 | **The Nesting Rolls «الدمى الروسية»** | a small roll pushed into a hollowed medium roll, that one into a hollowed big roll, each with a squeak of cream cheese | «كم وحدة جوّا؟» → the knife cuts it in half: 3 rings of bread and cheese, the core still molten | nesting dolls | matryoshka bread |
+
+### F3. Tortilla that behaves like paper «تورتيلا ورق» (base N° 008 The Tortilla Wrap Hack; the page is needed word for word; halal beef, halal-certified cheese)
+Every child made these out of paper. The model knows the shapes.
+| # | Trick | Frame one | The question → the last second | Silhouette | IG check |
+|---|---|---|---|---|---|
+| 3.1 | **The Paper Lantern «فانوس الورق»** | scissors snip 8 slits into a folded tortilla, 8 snips; it is rolled into a tube and pressed: it opens into the classic paper lantern | «بتحمل جبنة؟» → the pan-crisped lantern pulled apart: cheese between the slits | the children's paper lantern | tortilla lantern, tortilla paper lantern |
+| 3.2 | **The Folding Fan «المروحة»** | the tortilla pleated into a fan, each fold a soft slap, cheese in every pleat | «رح تنفتح؟» → the crisp fan snaps open: cheese strands across every pleat | a folding hand fan | tortilla fan |
+| 3.3 | **The Gift Box «علبة الهدية»** | a tortilla folded into a box with a lid and tied with a long green onion bow, 6 sharp folds | «شو الهدية؟» → the bow pulled, the lid lifts: steam and a cheese pull | a gift box | tortilla gift box |
+
+### F4. Chocolate that unlocks in hot milk «شوكولا بتنفتح بالحليب» (base N° 027 Hot Chocolate Bombs, p174; gelatin-free marshmallows only)
+Built for completion: the lock opens only when the milk is poured, in the last seconds.
+| # | Trick | Frame one | The question → the last second | Silhouette | IG check |
+|---|---|---|---|---|---|
+| 4.1 | **The Safe «الخزنة»** | a small chocolate safe with a dial; he shakes it: something rattles inside, 6 rattles; he turns the dial, 4 clicks | «شو بالخزنة؟» → hot milk poured: the door melts open, marshmallows and cookie coins rise | a safe with a dial | chocolate safe hot chocolate |
+| 4.2 | **The Bird in the Cage «العصفور بالقفص»** | a chocolate birdcage; a marshmallow bird inside; a knuckle taps the bars, 6 taps | «رح يطير؟» → hot milk: the bars melt and the marshmallow bird floats up | a birdcage | chocolate birdcage hot chocolate |
+| 4.3 | **The Gift That Unwraps Itself «الهدية اللي بتفتح حالها»** | a chocolate gift box with a chocolate bow; shaken, it rattles | «شو جوّا؟» → hot milk: the bow melts, the walls fall open, a surprise rises | a gift box | chocolate gift box hot milk |
+
+### F5. Glass you can eat «زجاج بينوكل» (base N° 020 Tanghulu, microwave method; nothing to change for halal)
+The loudest sound is the last: the glass breaking.
+| # | Trick | Frame one | The question → the last second | Silhouette | IG check |
+|---|---|---|---|---|---|
+| 5.1 | **The Ice Cubes That Aren't «تلج مش تلج»** | clear "ice cubes" dropped one by one into a glass, 6 clinks; a grape frozen inside each | «هاد تلج؟» → one taken out and bitten: the glass sugar cracks | an ice cube | tanghulu ice cube |
+| 5.2 | **The Snow Globe «كرة التلج»** | a clear sugar dome over a strawberry tree; shaken, coconut snow swirls; 6 taps on the glass | «بتنكسر؟» → one knock: the dome shatters | a snow globe | tanghulu snow globe |
+| 5.3 | **The Glass Lantern «فانوس الزجاج»** | strawberries hang inside a cage of thin sugar threads; the threads set in ice water with a hiss and a crack | «كيف بتطلع؟» → the cage knocked: it shatters around the fruit | a lantern | sugar cage strawberries |
+
+### F6. Timers you wait for «عدّاد بتستنّاه» (base N° 143 Volcano Cheese Ramen; halal-certified cheese, a halal ramen packet)
+Completion by design: the viewer stays to see the timer run out.
+| # | Trick | Frame one | The question → the last second | Silhouette | IG check |
+|---|---|---|---|---|---|
+| 6.1 | **The Cheese Hourglass «الساعة الرملية»** | two crisp noodle bowls joined at a narrow neck; it is flipped with a thud and melted cheese starts to pour through the neck onto a raw egg | «لما تخلص الجبنة شو بصير؟» → the last of the cheese falls and the yolk bursts into the noodles | an hourglass | ramen hourglass, cheese hourglass |
+| 6.2 | **The Lava Lamp «مصباح الحمم»** | a tall glass of hot broth; red chili-oil and white cheese blobs rise and fall; 6 drops fall in with a plop | «شو هاد؟» → poured over the noodle mountain: the lava covers it | a lava lamp | ramen lava lamp |
+
+## The order to make them (the owner can change it)
+1. **1.1 The Zipper:** the proven base, and the strongest frame one (8 ticks while it unzips). The question holds to
+   the last second.
+2. **4.1 The Safe:** a lock that opens only in the last 2 s; the rattle in frame one.
+3. **2.1 The Clam and the Pearl:** the lantern's audience; a silhouette the model knows.
+4. **6.1 The Cheese Hourglass:** a built-in timer.
+
+## Reference images for 1.1 The Zipper (after the owner's IG check; 9:16, any photoreal model)
+===== @Image2: THE ZIPPER, RAW =====
+Photorealistic macro food photograph, vertical 9:16. One long plain beef hot dog lies on a light oak cutting board, seen from above at a low angle. It is cut lengthwise through its middle along a zigzag line of small even square teeth, so its two halves interlock exactly like the teeth of a zipper. The top third is unzipped: the two halves are pulled apart into a V, their square teeth clearly visible, and a white mozzarella stick lies in the open V. The bottom two thirds are still zipped shut, the teeth locked together. Glossy pinkish-brown casing, paler pink cut faces. Warm golden tungsten light from the left, soft warm bokeh of brass pendant lights behind, shallow depth of field. No hands, no metal zipper, no fabric, no text, no labels, no other food.
+
+===== @Image3: THE ZIPPER, FRIED =====
+Photorealistic food photograph, vertical 9:16. One corn dog on a wooden skewer, lying on a white enamel tray of sugar: a craggy golden panko crust sparkling with sugar crystals, and along its whole length the zigzag line of square zipper teeth still shows clearly through the crust, zipped shut. Bright soft daylight, white and gold tones, crisp detail. No hands, no metal zipper, no text, no labels, no ketchup, no other food.
+
+===== @Image4: THE UNZIP =====
+Photorealistic food photograph, vertical 9:16, in a warm busy kitchen with glowing bokeh lights behind. The golden sugared corn dog is held upright by its wooden skewer in one hand in a black nitrile glove. The other gloved hand pulls the top of it to the side: the crust unzips along its zigzag teeth into two halves, and thick strands of melted white mozzarella stretch across every tooth, long and glossy, a little steam rising, a few golden crumbs falling. Razor sharp, the corn dog fills two thirds of the frame. No face, no metal zipper, no text, no labels.
