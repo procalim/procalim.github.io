@@ -114,3 +114,8 @@ Every shot kept; only dead frames trimmed; -15.0 LUFS, true peak -0.8 dB. Spec: 
 | take 13.92-19.9 | x1.3 | 12.08-16.67 | the pull to the longest stretch |
 Read from frame sheets: the joins are clean (the piping to the pearl at 5.29 s checked frame by frame); the last frame
 is the long stretch.
+
+## The Editing Room run through the tools (2026-11-21; the owner: «اعملو ايديتنغ على room ب 720 75 كريدت باحترافية مطلقة بنفس عدد الثواني»)
+- Source: the 9.92 s cut (media 1f582ece), the one the 75 credits were priced on. The 16.67 s cut would be 125.
+- Seedance 2.5 video edit, 720p, no generated sound (the cut's own sound goes back on), the 12-shot list above with
+  one line added (the lenses stay solid matte black). Job c8b8efc7, 75 credits, run on the owner's order with the price.

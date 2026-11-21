@@ -52,3 +52,4 @@ the step log at the end: what we did, what came out, the mistake caught or misse
 | 2026-11-21 | Clam and pearl, The Safe | 7 | the owner: «المشكلة مش بطول ... كل ما كان اطول كان افضل» | the clam is cut again with every shot kept (about 16.6 s); the safe becomes 20 s + 10 s | missed: I had cut to about 10 s | reels-director completion rule 4 rewritten |
 | 2026-11-21 | The Safe | 4 | the job's settings read: the single 20 s prompt with all four images, not part 1 of the split | frame sheets: the freezer turns the safe into grey metal (4.0-5.3 s); the fist shows the marshmallows and coins at 7.25 s | caught | the split's part 1 carries no @Image4 for this reason (rule 10) |
 | 2026-11-21 | The Safe | 7 | the two wrong parts cut out; every other shot kept | 16.46 s, media 2cf7fc25 | | |
+| 2026-11-21 | Clam and pearl | 6 | the Editing Room through the tools at 720p on the 9.92 s cut, the owner's order at 75 credits | job c8b8efc7 | | |
