@@ -1,4 +1,6 @@
 # Cheese-Heart Spring Potato («زنبرك البطاطا بقلب جبنة»): N° 026 Accordion Potatoes with a mozzarella core (2026-11-21)
+**DROPPED** (owner, 21 Nov: «الفكرة قديمة ومليان منها والAi مش عم يعملها صح»): it is common on reels, and the AI did not
+render it right. Not for the book.
 The owner, 21 Nov: «بلش بعائلة جديدة كل عائلة من 4 او ثلاث حركات وخلي مرجعك كفيديو الفانوس ... اما الشناقل ما نجح».
 Ep 1 of the potato family. The book recipe is kept word for word. One step is added before it: the cheese core.
 It still needs the owner's approval and a test in a real kitchen before it goes into the book and the new-recipes PDF.

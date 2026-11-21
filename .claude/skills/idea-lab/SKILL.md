@@ -26,6 +26,14 @@ lunch box, the family group, Ramadan). If it cannot be filled in specifically, s
 - Write every row with its account and link into content-studio/research/swipe-YYYY-MM-DD.md (creators' handles
   only, never commenters').
 
+## 2b. Never call an idea new from the web alone (owner, 2026-11-21)
+The Cheese-Heart Spring Potato was "not found" in 5 web searches. The owner found it all over reels: «الفكرة قديمة ومليان
+منها والAi مش عم يعملها صح». The web does not index reels.
+- **Before the images or a prompt:** check the reels themselves. Use the ScrapeCreators reel search, or give the owner
+  2-3 search terms for his own Instagram search, and wait for his word.
+- **The AI test:** the shape is one silhouette the model already knows (a paper lantern), shown in one reference image.
+  The potato's cuts and core did not render right.
+
 ## 3. Score it (10 points)
 | Points | Test |
 |---|---|
