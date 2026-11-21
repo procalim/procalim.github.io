@@ -35,3 +35,37 @@ braid's read decides it.
 ## The Editing Room (angles-hf), waiting for «ولد»
 - The opening, job 002512ae, 5 s at 1080p: 102 credits.
 - The pull, the take's 13.92-19.92 s uploaded as media f39cdf60, 6 s at 1080p: 120 credits.
+
+## The Editing Room: free on the site, not through the tools (2026-11-21)
+The owner: «يا صديقي هاي مجاني». Through the Higgsfield tools, Seedance 2.5's unlimited allowance reads
+"available: false" (models_explore), so a run from here costs credits (102 + 120). So the owner runs the two
+re-shoots on the site, with these shot lists (angles-hf's template), and sends the results; they go into the cut
+in place of shots 1-3 and 10-11.
+
+### The opening (job 002512ae, 5 s)
+Multi-camera re-shoot of @Video1: the same take — the same people, performance, sound and timing as @Video1, in real time from 0 to 5 s — covered by many cameras with different lenses around the same oak cutting board in a dark kitchen with brass pendant lights, and cut together into a bold, dynamic edit. Only the cameras change; nothing in front of them changes. The edit opens on shot 1 from its very first frame. 4 shots, hard cuts at 1.2 s, 2.6 s, 3.6 s. Time runs on across every cut: nothing repeats, skips, slows down or speeds up.
+
+@Video1: a round soft brioche roll on a floured light oak board; a chef in a mustard t-shirt, black apron and black gloves taps a knife into its top, cuts it level at the side edge, then tilts the top open on a hinge at the back like a clam; warm golden light.
+
+Photoreal, cinematic. 9:16. 5s. Same light, colour and sound as @Video1. No music, no extra people.
+
+Shot 1, 0.0–1.2 s, from the first frame — 100 mm macro, straight down above the roll, static: the knife tip tapping into the top crust; around it the floured oak board. Accent: the taps.
+Shot 2, 1.2–2.6 s — 35 mm, low at board height beside the roll, a slow push-in: the knife's last taps and the cuts in the top, seen across the crust; behind, the far side of the kitchen in soft focus. Accent: the last tap.
+Shot 3, 2.6–3.6 s — 50 mm, close at the front edge of the roll at board height, static: the serrated knife cutting level along the side edge, a few crumbs falling; behind, the edge of the board and the dark floor. Accent: the cut at the edge.
+Shot 4, 3.6–5.0 s — 24 mm, very low just in front of the roll looking up, a slow push-in: the top swings open on its hinge and stands up like a clam shell; above it the brass pendant lights. Accent: the clam opening.
+
+Faces, clothes, props and the place stay exactly as in @Video1 in every shot; the sound runs on unbroken across the cuts. No text.
+
+### The pull (media f39cdf60, the take's 13.92-19.92 s, 6 s)
+Multi-camera re-shoot of @Video1: the same take — the same hands, performance, sound and timing as @Video1, in real time from 0 to 6 s — covered by many cameras with different lenses around the same dark kitchen with brass pendant lights, and cut together into a bold, dynamic edit. Only the cameras change; nothing in front of them changes. The edit opens on shot 1 from its very first frame. 4 shots, hard cuts at 1.4 s, 2.6 s, 3.8 s. Time runs on across every cut: nothing repeats, skips, slows down or speeds up.
+
+@Video1: two black-gloved hands hold a baked golden brioche clam shell with six ribs; the top hand lifts the top shell open on its hinge and melted white mozzarella stretches between the two shells in long strands; dark kitchen, warm brass bokeh.
+
+Photoreal, cinematic. 9:16. 6s. Same light, colour and sound as @Video1. No music, no extra people.
+
+Shot 1, 0.0–1.4 s, from the first frame — 100 mm macro on the hinge at the back of the clam, static: the crust cracking as the top starts to lift, crumbs falling; behind, the dark kitchen floor out of focus. Accent: the first crack.
+Shot 2, 1.4–2.6 s — 35 mm, low below the clam looking up: the first strands of cheese appear between the shells; above, the brass pendant lights. Accent: the cheese appears.
+Shot 3, 2.6–3.8 s — 85 mm profile from the side at the clam's height, a slow dolly along it: the gap between the shells growing, strands stretching across it; behind, the side of the kitchen in soft focus. Accent: the stretch grows.
+Shot 4, 3.8–6.0 s — 50 mm from the front, a slow push-in closer than in @Video1: the cheese at its longest stretch, a little steam; behind, warm bokeh. Accent: the longest stretch, held to the last frame.
+
+Gloves, the clam and the place stay exactly as in @Video1 in every shot; the sound runs on unbroken across the cuts. No text.
