@@ -107,3 +107,4 @@ Photorealistic food photograph, vertical 9:16, in a warm busy kitchen with glowi
 
 ## Made from the bank, the next one
 | 2026-11-21 | 2.1 The Clam and the Pearl | the owner's 3 images made (the 2nd and 3rd with the 1st attached); prompt written: prompts/w4-clam-pearl-garlic-bread-20s.txt |
+| 2026-11-21 | 4.1 The Safe | the image prompts written (book-additions/hot-chocolate-safe.md); page 174 (N° 027) needed from the owner for the prompt |

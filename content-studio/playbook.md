@@ -45,3 +45,5 @@ the step log at the end: what we did, what came out, the mistake caught or misse
 | 2026-11-21 | Clam and pearl | 6 | the owner: the Editing Room costs credits on his side too; he made a zoom at 1.5 s himself | his version read from frames: the same shots, a push-in at 1.5 s, 9.92 s | | |
 | 2026-11-21 | Clam and pearl | 8 | the braid's read checked through the Instagram API: not posted yet | no text on the clam, as the lantern | | |
 | 2026-11-21 | Clam and pearl | 9 | the caption: the full recipe (saves), a send line and a repost line (shares), PEARL (comments, sales), a two-choice pinned question | week4/clam-pearl-package.txt | | |
+| 2026-11-21 | The Safe | 1-2 | the next bank row: three images, one SAFE block; the inside shown only in the melt image | waiting for the owner's reel check, images and page 174 | | |
+| 2026-11-21 | (all) | 6 | the Editing Room through the tools priced for a 10 s cut: 480p 35 credits, 720p 75, 1080p 199 | 720p: the same resolution as our Seedance takes, which the edit lifts to 1080 | | step 6: 720p, on the finished cut only |
