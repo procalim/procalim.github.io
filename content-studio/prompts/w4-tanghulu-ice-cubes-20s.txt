@@ -82,16 +82,21 @@ After the owner's run: the settings read from the history, then frame sheets eve
   - 5.0-8.0 s, centred on y 290: «Wait… since when is ice made of sugar? 🤔»
   - from the strike to the end, 2 lines centred on y 275: «It's not ice. It's candy 🍇<br>Send it to the friend
     you'd prank 😈»
-- The zoom edit (zoom_pro.py and a spec for this reel): one accent every 3-4 s, gentle eased drifts between them, a
-  shake on two hits only (the crunch and the strike), the 2-frame blur only on the accent cuts:
-  - 0.0 s, the hook edit: starts at 1.45 on the falling cube, eased pull-out to 1.0 by 1.2 s (the glass revealed), a
-    punch to 1.2 on the sixth clink;
-  - 3.0 s: the cut to the grapes with the blur, drift 1.0 to 1.1;
-  - 6.5 s: the microwave, an eased push-in to 1.4 under the re-hook line;
-  - 8.8 s: the crunch, a punch-in to 1.35 and one shake;
-  - 11.0 s: the hiss, a pull-out reveal from 1.3 to 1.0;
-  - 13.5 s: the sinking, a tilt down that follows the cubes to the bottom of the glass;
-  - 16.0 s: the strike, a punch to 1.5 and one shake; the slow burst held; the last frame is the grape among the
-    shards.
+- The zoom edit (zoom_pro.py and a spec for this reel; our own frames, no regeneration). NO SHAKE anywhere (owner,
+  21 Nov: «ما بدي هزة ... حاسس حالي بهزة أرضية»). Every shot gets its own camera move, one bigger accent every 3-4 s,
+  calm eased drifts between them:
+  - 0.0 s, the hook edit: starts at 1.45 on the falling cube, an eased pull-out to 1.0 by 1.2 s (the glass revealed),
+    then a slow push back in to 1.2 by the sixth clink;
+  - 3.0 s, the grapes: a slide left to right across the towel at 1.15;
+  - 4.0 s, the tray: a turning overhead (a 4° turn at 1.2);
+  - 5.0 s, the sugar: a tilt down from the jug to the sugar turning clear;
+  - 6.5 s, the microwave (an accent): an eased push-in to 1.4 under the re-hook line;
+  - 8.0 s, the crunch: a 3° dutch tilt at 1.15, a punch-in to 1.35 on the snap;
+  - 9.5 s, the pour: a slow push along the ribbon of syrup;
+  - 11.0 s, the hiss (an accent): a pull-out reveal from 1.35 to 1.0;
+  - 12.0 s, the pop: a slide right to left at 1.2 across the cubes;
+  - 13.5 s, the sinking: a tilt down that follows the cubes to the bottom of the glass;
+  - 15.0 s, the strike (the accent and the peak): a slow push from 1.0 to 1.25 while the spoon rises, a punch-in to 1.5
+    on the strike, the slow burst held; the last frame is the grape among the shards.
 - Caption: English first with the full recipe (N° 020 word for word, the tray marked as ours), a Thai line, Arabic
   last; keyword CANDY; the send line «Send it to the friend you'd prank 😈».

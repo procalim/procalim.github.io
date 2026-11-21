@@ -59,7 +59,7 @@ the last 3 s), which was craft and never measured here.
 |---|---|
 | J-cut audio pre-lap | each segment's audio starts 3-4 frames before its picture, crossfaded under the previous shot |
 | Speed ramp into impacts | fast (1.5-2x) up to the impact frame, real time on the impact and 4-6 frames after |
-| Punch-in on impacts | 6-10% scale over 4-6 frames on the impact frame, plus a 2-frame shake |
+| Punch-in on impacts | 6-10% scale over 4-6 frames on the impact frame; no shake (owner, 2026-11-21: «ما بدي هزة») |
 | Rising loudness | the last 3 s 2-3 dB above the median; the payoff the loudest; a 0.2-0.3 s dip before it |
 | Cuts on a steady grid | cut points every 12 or 18 frames at 24 fps where the footage allows: the rhythm feels intentional |
 | No wide transition shots | cut a walk or a reach between stations; keep the action frames only |

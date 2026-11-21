@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """The house edit, strong version (owner, 2026-11-21: «زوم إن زوم أوت. وحركات زوايا مختلفة بنفس السيستم»).
 Our own frames only, no regeneration. Per shot, keyframes of zoom, centre (a pan or a tilt when it moves) and rotation
-(a dutch tilt), each a jump ('step') or an eased move ('ease'); a short shake on impact frames (taken from the sound's
-own onsets); a 2-frame blur on the cut as a zoom transition; light sharpening. Zoom stays at least 1.1 under 3 degrees
+(a dutch tilt), each a jump ('step') or an eased move ('ease'); a 2-frame blur on the cut as a zoom transition; light
+sharpening. NO SHAKE (owner, 2026-11-21: «ما بدي هزة. الهزة مش فكرتنا ... زوم ان زوم اوت، حركات مختلفة بزوايا الكاميرا، مش هزة. حاسس حالي بهزة أرضية»): a hit gets a punch-in
+(a 'step' key) or a new angle, never a shake; an old spec's "sh" list is ignored. Zoom stays at least 1.1 under 3 degrees
 of rotation and 1.18 under 6 degrees, so no black corners show.
 Usage (Higgsfield sandbox): python3 zoom_pro.py SRC.mp4 OUT.mp4 spec.json
 spec: {"B": [shot boundaries in frames], "S": [{"k": [[frame, zoom, cx, cy, rot_deg, "step"|"ease"], ...],
-       "sh": [impact frames], "bl": true|false}, ...]}
+       "bl": true|false}, ...]}
 """
 import subprocess, sys, json
 SRC, OUT, SPEC = sys.argv[1], sys.argv[2], json.load(open(sys.argv[3]))
@@ -27,16 +28,12 @@ def piece(keys, idx, s, var):
     for f2, ex in reversed(parts[:-1]):
         e = f"if(lt({var},{f2}),{ex},{e})"
     return e
-def shake(imp, s, amp):
-    if not imp: return "0"
-    return "+".join(f"if(between(on,{i-s},{i-s+6}),{amp}*sin(2.4*(on-{i-s}))*(1-(on-{i-s})/7),0)" for i in imp)
 L = []
 for i, d in enumerate(S):
     s, e = B[i], B[i + 1]; n = e - s; K = d['k']
     z = piece(K, 1, s, 'on'); cx = piece(K, 2, s, 'on'); cy = piece(K, 3, s, 'on'); rot = piece(K, 4, s, 'n')
-    sx = shake(d.get('sh', []), s, 26); sy = shake(d.get('sh', []), s, 18)
-    x = f"max(0,min(iw-iw/zoom,(iw-iw/zoom)*{cx}+({sx})))"
-    y = f"max(0,min(ih-ih/zoom,(ih-ih/zoom)*{cy}+({sy})))"
+    x = f"max(0,min(iw-iw/zoom,(iw-iw/zoom)*{cx}))"
+    y = f"max(0,min(ih-ih/zoom,(ih-ih/zoom)*{cy}))"
     vf = f"select='between(n,{s},{e-1})',setpts=N/24/TB,scale=2160:3840:flags=lanczos,"
     if any(k[4] != 0 for k in K):
         vf += f"rotate=a='({rot})*PI/180':ow=iw:oh=ih:c=black,"

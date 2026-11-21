@@ -80,6 +80,12 @@ every edit from now:
    replay flows in. Read it as views per viewer in the insights (the chain: 4.1).
 8. **A count the viewer wants to finish** (to test): the step shown as the shape grows («1/4 … 4/4» on the chain's
    links), or a POV line that promises the end («wait for the inside»). One variable at a time, as Trial Reels.
+9. **The edit moves the camera, it never shakes it** (owner, 2026-11-21: «ما بدي هزة. الهزة مش فكرتنا ... زوم ان زوم اوت، حركات مختلفة بزوايا الكاميرا، مش هزة. حاسس حالي بهزة أرضية»).
+   On our own frames (edits/_tools/zoom_pro.py, no regeneration):
+   - every shot gets its own move: an eased push-in or pull-out, a pan, a tilt, a dutch tilt, a turning overhead;
+   - a hit gets a punch-in (a jump in zoom) or a new angle;
+   - one bigger accent every 3-4 s (the hook edit at 0 s), calm eased drifts between them;
+   - no shake, no wobble, anywhere.
 **Read:** the curve at 3, 6 and 10 s and at the end; the average watch as a share of the length; views per viewer.
 **Prompt template:** prompts/_template-never-made-14s.txt. **The ideas:** idea-lab/invention-bank.md.
 
@@ -618,7 +624,7 @@ CHARACTER: the man in the reference image (@Image1) is the chef, exactly his fac
 RECIPE (follow exactly, every step once, in this order, nothing added):
 [PASTE THE BOOK PAGE VERBATIM: title, INGREDIENTS, METHOD, CHEF'S NOTE. Do not write "from the book".]
 
-0.0-1.0s PUNCH 1: [most violent first action of the recipe: slam / smash / drop / crack]. The camera shakes on impact.
+0.0-1.0s PUNCH 1: [most violent first action of the recipe: slam / smash / drop / crack]. The camera holds steady on impact.
 1.0-3.0s: [next 1-2 recipe steps, fast cuts]
 3.0-4.0s PUNCH 2: Extreme macro. [biggest visual transformation: oil explosion / bubbling / melt / puff], debris or oil flying toward the lens.
 4.0-6.0s: [next recipe steps, fast cuts], the chef's face sharp behind the motion.
@@ -729,7 +735,8 @@ Motion adjustments that raise watching and cut the skip rate (from the retention
 - 0.5-3.5 s is where the sweet potato lost viewers (90% -> 57%) on calm raw steps: put the most violent version of
   the base step there (a slam, an oil spit, a pour), never a still or calm raw shot.
 - A new action on every cut, 0.5-1 s each; speed-ramp any action that takes longer.
-- Hands always moving in frame; a short push-in on each reveal, a shake on each impact.
+- Hands always moving in frame; a short push-in on each reveal, a punch-in or a new angle on each impact; never
+  a shake (owner, 2026-11-21).
 - Loud close-mic ASMR on every action; the loudest sound is the reveal (a crackle, a crunch, a tear).
 - The end runs straight into the flash so the reel loops.
 Generate 15 s with shots of 0.7-1.1 s (Seedance merges anything faster), then speed soft stretches 1.25-1.6x in the
