@@ -22,3 +22,9 @@
 - **The font:** @veganer.wandel's own font could not be read (his thumbnails are clean frames, and the shorts need a
   YouTube sign-in). The box style matches; the font is the closest one installed.
 - **Final:** media de84e33f, 20.08 s.
+
+## The 14.5 s cut (2026-11-21, the same reason)
+- **What goes:** the freezer and the batter shot.
+- **Speeds:** the batter tray x2 (0.5 s), the panko x1.5, the sugar x1.5.
+- **Result:** 20.1 s becomes 14.5 s; the pull starts at 11.12 s; the CORNDOG card from 11.1 s. Media 84cc2186.
+- **Test:** post it as a second trial against the 20 s chain. The only difference is the length.

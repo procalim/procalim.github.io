@@ -9,3 +9,11 @@
   a person, not the comment ask. The comment ask (BRAID) moves to the caption and the pinned comment. The full recipe
   is in the caption, because the lantern's saves doubled after its recipe went into the caption.
 - **Final:** media a228aa50, 20.08 s.
+
+## The 14 s cut (2026-11-21; the owner: «المشكلة في الإكمال ... الإكمال فقط 8%»)
+- **Why:** the lantern lost about 2 points a second after 8 s, and the batter shot was its steepest drop (8.6 a
+  second); the chain's average watch was 6 s of 20.
+- **What goes:** the freezer and the 6-ingredient batter shot; they stay in the caption recipe.
+- **Speeds:** the range x1.7, the sugar x1.5.
+- **Result:** 20.1 s becomes 14.3 s; the pull starts at 10.21 s; the send card from 10.22 s. Media e7c18565.
+- **Script:** edits/_tools/short_edit.py, the spec in the sandbox /home/user/short/b/braid.json.
