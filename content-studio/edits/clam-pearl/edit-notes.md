@@ -155,3 +155,20 @@ upscale; the cut's own sound.
 | 285-394 | the pull | 1.00 → 1.22 | the stretch, held tight to the last frame |
 Frame sheets read: the food stays in frame in every shot; the top of his sunglasses leaves the frame in the first
 second; the last frames sit tight on the stretch.
+
+## The strong zoom edit: media 2fa0f803, 16.47 s
+The owner on the 1.0-1.22 version: «وين الزومينج؟ وين الايديت؟ وين الاحترافية؟ بدي فيديو فايرال». The soft push-ins could
+not be seen, and he called the Editing Room version «مقرف».
+- **The sound's own hits, measured:** onsets at 0.27, 0.52, 0.81, 1.10 (the taps), 1.44 (the cut), 2.98, 4.25, 6.87,
+  7.12, 7.45, 7.62 (the whisk), 7.91, 8.03 (the dunk), 12.49, 12.65, 13.01, 13.53 (the crack).
+- **What each shot does now:**
+  - punch-in zooms that jump on those hits (the taps step 1.00, 1.12, 1.24, 1.36, 1.48);
+  - pushes to 1.4-1.58 on the hero moments (the cut, the piping, the pearl, the oven, the pull);
+  - pull-out reveals (the shell opening 1.5 → 1.0, the baked clam 1.45 → 1.0);
+  - a short shake on each impact;
+  - a 2-frame blur on each cut as a zoom transition;
+  - light sharpening after the zoom.
+- **Script:** sandbox /home/user/zoom/zoom_pro.py (keyframes per shot: the frame, the zoom, a step or an eased move;
+  the centre; the impact frames).
+- **Frame sheets read:** the zooms show in every shot; the food stays in frame; the pull ends tight on the stretch
+  at 1.58.
