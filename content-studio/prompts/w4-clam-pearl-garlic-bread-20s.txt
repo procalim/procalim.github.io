@@ -113,3 +113,10 @@ shots, not the whole cut:
 1. the new opening (the six taps, the cut at the edge, the hinge): inserts on the taps, a low angle on the opening;
 2. the pull (the last 6 s): a burst on the crackles, the strongest angle on the longest stretch, ending on it.
 Each re-shoot is a paid Seedance generation: only on «ولد», and on unlimited only if the owner asks for it.
+
+===== PRE-FLIGHT (prompt_check.py, run 21 Nov after the fact) =====
+- Prompt 1 (the 20 s take): FAIL rule 8 «cut across through its middle», «slices across its middle»; WARN rule 9 on
+  shot 01 (5 actions in 3.5 s), 04 and 06. The take's first 3.5 s went wrong exactly there.
+- Prompt 2 (the 5 s opening): FAIL halal, pork and alcohol missing from AVOID (a bread shot with no meat; kept as
+  sent, since the owner is running it). The cut is named at the side edge; one action per moment; only @Image1 and
+  @Image2.

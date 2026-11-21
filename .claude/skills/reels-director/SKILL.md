@@ -35,6 +35,17 @@ take read of job 462bf076.
    image prompts described the teeth in different words, and each image drew different teeth. The shape is written
    once, word for word the same, in every image prompt. The first image is made, and is attached as the reference
    when the next images are made.
+8. **Name where the knife goes by a part of the food** (owner, 2026-11-21: «انت كاتب في البرومبت القطع في المنتصف وليس
+   الأطراف»). "Slices across its middle" reads as a cut down through the middle, in English and in Arabic. Write the
+   edge, the side, the top, the end, the front or the back, and the height ("level into the side edge at half its
+   height, stopping at the back").
+9. **One action per shot.** The clam's shot 01 asked for 5 actions in 3.5 s; the model put them in the wrong order
+   (the ribs before the knife, the top lifted off). Split a shot that needs more.
+10. **No reference image of a later state in an early shot.** The finished-rib images made the model draw the ribs
+   before the knife cut them. Early shots get only the images of their own state.
+**PRE-FLIGHT, before any prompt goes to the owner:** `python3 content-studio/edits/_tools/prompt_check.py <file>`
+(every FAIL fixed, every WARN answered), and its 5 questions answered in the prompt file. Every step is logged in
+content-studio/playbook.md.
 
 ## THE COMPLETION ENGINE (owner, 2026-11-21: «حط بنفسك بافكارنا وشغلنا نكمل لشخص للآخر مثل ما حلينا فكرت السكيب»)
 The skip: frame one is a never-seen act with 6+ sharp hits, and nothing on top of that act.
