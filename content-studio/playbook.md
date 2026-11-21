@@ -42,3 +42,6 @@ the step log at the end: what we did, what came out, the mistake caught or misse
 | 2026-11-21 | Clam and pearl | 7 | the cut: every shot about 1 s or less (the owner's call), the pull sped x2.5 then x1.5 to end on the longest stretch | 9.92 s, media 1f582ece (edits/clam-pearl/edit-notes.md) | | the owner: no shot past about 1 s except the payoff |
 | 2026-11-21 | Clam and pearl | 6 | the Editing Room priced: the opening 102 credits, the pull 120 | waiting for «ولد» | | |
 | 2026-11-21 | Clam and pearl | 6 | the Editing Room on the site: no prompt box, it chooses the cameras itself | the owner runs it on the 9.92 s cut | | step 6: on the site, the whole cut goes in as it is; shot lists only for a run through the tools |
+| 2026-11-21 | Clam and pearl | 6 | the owner: the Editing Room costs credits on his side too; he made a zoom at 1.5 s himself | his version read from frames: the same shots, a push-in at 1.5 s, 9.92 s | | |
+| 2026-11-21 | Clam and pearl | 8 | the braid's read checked through the Instagram API: not posted yet | no text on the clam, as the lantern | | |
+| 2026-11-21 | Clam and pearl | 9 | the caption: the full recipe (saves), a send line and a repost line (shares), PEARL (comments, sales), a two-choice pinned question | week4/clam-pearl-package.txt | | |
