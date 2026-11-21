@@ -1,0 +1,34 @@
+TEMPLATE: «ما حدا عملها» (Never made before), 14 s. It joins the skip fix (the lantern, the chain, the braid) with THE
+COMPLETION ENGINE (reels-director, 2026-11-21). Fill the [brackets]. Check reels-director's PROMPT MISTAKES before
+sending.
+
+BEFORE THE PROMPT
+- The idea passes idea-lab. The invented shape and the coating get reference images, made by the owner: @Image2 the
+  raw shape on the oak board, @Image3 any unusual coating, @Image4 the final pull. @Image1 is the kitchen.
+- The question the video asks (POV line, 8 words at most), and its answer, shown only in the last second.
+
+THE PROMPT (no book, no recipe block, no text; the lenses solid matte black, no light on them)
+- SCENE: "A vertical 9:16 cinematic food film, exactly 14 seconds, no text. [one sentence: the strange act -> the
+  result]. Every shot has a different background, surface, colour and light; never two shots in a row with the same
+  background. The finished [food] is never seen whole before 12.5 s."
+- THE COOK block; THE [SHAPE] block ("exactly as in @Image2 / @Image4").
+- SHOT 01 0.0-3.0 s: close, eye level, the oak board, his apron behind, the camera still; the strange act with a sharp
+  sound every 0.5 s (6 or more).
+- SHOT 02 3.0-4.0 s: the raw shape lifted to the lens against warm bokeh (the first answer to "what is it").
+- SHOT 03 4.0-5.0 s: the coating goes on: [dip -> coat], one shot, the colour changes.
+- SHOT 04 5.0-6.5 s: into the oil at the steel range with the blue flame: a loud sizzle, compressed time.
+- SHOT 05 6.5-8.0 s: out of the oil, macro, dripping, a new colour; part of it hidden by steam or the frame edge.
+- SHOT 06 8.0-9.5 s: [sugar / the sauce], one sparkle or one drizzle.
+- SHOT 07 9.5-14.0 s: the LOOP shot. The same oak board and framing as shot 01, his apron behind. Hands pull it open:
+  crackles every 0.5 s, the inside appears at 12.5 s, the cheese at its longest stretch on the last frame. No bite, no
+  cut to black.
+- SOUND: only the real sounds, sharp and separate; the loudest sound is the last crackle.
+- AVOID: the PROMPT MISTAKES list, plus: the finished food whole before 12.5 s, a bite, a standing shot, a freezer shot,
+  ingredients going in one by one.
+
+THE EDIT
+- 24 fps, 1080x1920, the take's own sound at -16 LUFS.
+- The POV line (meme.mjs) in the middle for 0-3.0 s.
+- The send line on the last 1.5 s (a named person), or nothing.
+- The cut ends on the peak frame.
+- Captions: English first with the full recipe, a Thai line, Arabic last; the comment keyword for the free PDF.

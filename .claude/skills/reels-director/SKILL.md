@@ -32,6 +32,36 @@ take read of job 462bf076.
 6. **Split long takes on the owner's lengths** (20 + 10). The cook, hero-shape, sound and avoid blocks are identical
    in each part.
 
+## THE COMPLETION ENGINE (owner, 2026-11-21: «حط بنفسك بافكارنا وشغلنا نكمل لشخص للآخر مثل ما حلينا فكرت السكيب»)
+The skip is solved: frame one is a never-seen act with 6+ sharp hits, and a POV line.
+- Lantern v4: 22.4%. Chain: 9.3%.
+- Lantern v4 at 23 s: lost 21 points in 0-3.7 s, 33 points in the process shots at 3.7-8.1 s (the batter alone 8.6 a
+  second), then about 2 points a second to the end (14%).
+- The chain: an average watch of 6 s out of 20.
+- The 58M reel stacks a reveal every 3-5 s and keeps the inside for the end.
+The viewer stays while a question is still open and something new arrives before they get bored. Every prompt and
+every edit from now:
+1. **One open question from frame one, answered only in the last second.** The POV line and the strange act ask what
+   it will become. The finished food is never whole on screen before the last 25%. The inside (the cheese, the
+   cross-section) shows only in the last shot.
+2. **No shot that repeats what the viewer already knows.**
+   - Gone from the video: the batter ingredients one by one, the freezer, the walk to the range, a standing shot.
+     They stay in the caption recipe.
+   - Each kept step is at most 1-1.5 s and changes the shape or the colour.
+3. **A new picture every 1-1.5 s after the hook:** a new shape, colour, place or sound. A shot with no change dies.
+4. **Length 12-15 s.**
+   - The 23 s lantern ended at 14%, the 27 s one at 10%, and the 20 s chain held 6 s on average.
+   - A test runs at 14 s (media e7c18565 and 84cc2186).
+5. **No bite before the payoff.** The bite lost 3 points a second. The bite goes after the pull for 0.5 s, or out.
+6. **End on the peak:** the last frame is the cheese at its longest stretch. No tail, no cut to black, no wide shot
+   after it.
+7. **The loop:** the last shot uses the same place and framing as shot 01 (the oak board, his apron behind), so the
+   replay flows in. Read it as views per viewer in the insights (the chain: 4.1).
+8. **A count the viewer wants to finish** (to test): the step shown as the shape grows («1/4 … 4/4» on the chain's
+   links), or a POV line that promises the end («wait for the inside»). One variable at a time, as Trial Reels.
+**Read:** the curve at 3, 6 and 10 s and at the end; the average watch as a share of the length; views per viewer.
+**Prompt template:** prompts/_template-never-made-14s.txt.
+
 ## Non-negotiable rules
 1. **Never generate** on Higgsfield without the user writing «ولد» or «قم بتوليد». Before that:
    show the prompt, the line-by-line match with the book page, what may not match, and the
