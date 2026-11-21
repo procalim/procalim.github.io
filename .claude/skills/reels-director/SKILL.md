@@ -44,6 +44,13 @@ take read of job 462bf076.
    (the ribs before the knife, the top lifted off). Split a shot that needs more.
 10. **No reference image of a later state in an early shot.** The finished-rib images made the model draw the ribs
    before the knife cut them. Early shots get only the images of their own state.
+11. **A reference image is for the shape, never for a whole shot** (owner, 2026-11-21: «انت عم تشتغل ستارت فريم اند
+   فريم، انت ما عم تشتغل ريفرنس على الفيديوز»). Measured on the safe: the hook written "exactly as in @Image2" came out
+   as one picture for 3 s, and the pour written "exactly as in @Image4" for 7 s as the same picture for the last 4 s.
+   The model copies the still. Write "the cubes look as in @Image2" in the shape block only; motion, camera and pace
+   come from a video reference (@Video1: Seedance 2.5 Omni takes up to 10 video references, 4-30 s takes), with
+   "follow @Video1's camera movement and cutting pace; the food, the place and the cook are ours". Never copy another
+   creator's shots second by second (research: originality).
 **PRE-FLIGHT, before any prompt goes to the owner:** `python3 content-studio/edits/_tools/prompt_check.py <file>`
 (every FAIL fixed, every WARN answered), and its 5 questions answered in the prompt file. Every step is logged in
 content-studio/playbook.md.
