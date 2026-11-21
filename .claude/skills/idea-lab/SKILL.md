@@ -15,6 +15,9 @@ written for an idea that has not passed this gate. reels-director takes over aft
 its frame one, its open question, its last second, its silhouette and its Instagram check terms. Take the next row
 from its order, unless the owner names one. New inventions are added there first.
 
+Never more than 3 episodes of one base in a row (owner, 2026-11-21: «غير أصلا فكرة النقانق هاي الحلقة الرابعة»: the
+lantern, the chain, the braid, then the zipper).
+
 ## 1. Write the idea in one row
 `dish (book N°) | the send sentence | hook ≤6 words | the answer at the end | the sound in 0-0.5 s | series slot`
 The send sentence is «ابعتها لـ___ لأنو ___», a real person the viewer knows and a reason (craving, diet, kids'

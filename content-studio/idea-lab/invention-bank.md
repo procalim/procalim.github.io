@@ -23,7 +23,7 @@ invention on a book recipe, built for the two numbers that decide reach: the ski
 
 ## The families (3-4 tricks each; one family at a time, ep 1 first, the next eps after its read)
 
-### F1. Hot dogs that work like machines «نقانق بتشتغل» (base N° 059 Korean Corn Dog, p206; halal beef, halal-certified mozzarella)
+### F1. Hot dogs that work like machines «نقانق بتشتغل» (base N° 059 Korean Corn Dog, p206; halal beef, halal-certified mozzarella) — PARKED 21 Nov (4 hot dog episodes in a row)
 The proven base: the lantern reached 35,530, and the 58M AI reel is a hot dog.
 | # | Trick | Frame one (0-3 s) | The question → the last second | Silhouette | IG check |
 |---|---|---|---|---|---|
@@ -71,16 +71,20 @@ Completion by design: the viewer stays to see the timer run out.
 | 6.2 | **The Lava Lamp «مصباح الحمم»** | a tall glass of hot broth; red chili-oil and white cheese blobs rise and fall; 6 drops fall in with a plop | «شو هاد؟» → poured over the noodle mountain: the lava covers it | a lava lamp | ramen lava lamp |
 
 ## The order to make them (the owner can change it)
-1. **1.1 The Zipper:** the proven base, and the strongest frame one (8 ticks while it unzips). The question holds to
-   the last second.
-2. **4.1 The Safe:** a lock that opens only in the last 2 s; the rattle in frame one.
-3. **2.1 The Clam and the Pearl:** the lantern's audience; a silhouette the model knows.
+The owner, 21 Nov: «غير أصلا فكرة النقانق هاي الحلقة الرابعة روح لوصفات مختلفة وافكار من الي سجلتها». F1 is parked:
+the lantern, the chain, the braid and the zipper made four hot dog episodes in a row. Never more than 3 episodes of
+one base in a row.
+1. ~~1.1 The Zipper~~: dropped on 21 Nov (the fourth hot dog episode).
+2. **2.1 The Clam and the Pearl:** the lantern's audience; a silhouette the model knows; N° 121 is word for word in
+   our site data (src/data/recipes.ts). Started 21 Nov: book-additions/garlic-bread-clam-pearl.md.
+3. **4.1 The Safe:** a lock that opens only in the last 2 s; the rattle in frame one. Needs page 174 (N° 027) from the
+   book PDF, which is not in this container.
 4. **6.1 The Cheese Hourglass:** a built-in timer.
 
 ## Made from the bank
 | Date | Row | State |
 |---|---|---|
-| 2026-11-21 | 1.1 The Zipper | the owner's 3 images made; prompt written (prompts/w4-zipper-corn-dog-20s.txt); book-additions/korean-corn-dog-zipper.md. The teeth differ between the images (owner): @Image3 and @Image4 to be remade with @Image2 attached |
+| 2026-11-21 | 1.1 The Zipper | the owner's 3 images made; prompt written (prompts/w4-zipper-corn-dog-20s.txt); book-additions/korean-corn-dog-zipper.md. The teeth differ between the images (owner): @Image3 and @Image4 to be remade with @Image2 attached. Then dropped: the fourth hot dog episode (owner) |
 
 ## Reference images for 1.1 The Zipper (after the owner's IG check; 9:16, any photoreal model)
 The owner, 21 Nov: «السحابة بكل صورة بتختلف ... وبصورة الأخيرة السحابة بتختلف». The first three prompts described the
@@ -100,3 +104,6 @@ Photorealistic food photograph, vertical 9:16. Use the attached image as the ref
 
 ===== @Image4: THE UNZIP (remake with @Image2 attached) =====
 Photorealistic food photograph, vertical 9:16, in a warm busy kitchen with glowing bokeh lights behind. Use the attached image as the reference for the hot dog and its teeth: the same hot dog, the same teeth. THE ZIPPER: one long plain beef hot dog, cut lengthwise through its middle along a zigzag line of small even square teeth, each tooth about 5 mm, so its two halves interlock exactly like the teeth of a zipper; the teeth are square with straight sides, pink on their cut faces, never triangles and never a sawtooth; the two halves stay joined at the bottom end. The teeth look exactly as in the attached reference image. Here it is the fried, sugared corn dog, held upright by its wooden skewer in one hand in a black nitrile glove at the bottom of the frame. The other gloved hand pulls its top half to the side: it splits open along its seam, exactly down the zipper, from the top to two thirds of the way down; each half is a golden sugared crust lined inside with the pink hot dog and its square teeth, and thick strands of melted white mozzarella stretch across between the teeth, long and glossy, a little steam rising, a few golden crumbs falling. The bottom third stays zipped. Razor sharp, the corn dog fills two thirds of the frame. No face, no triangles, no sawtooth, no bread without the hot dog, no metal zipper, no text, no labels.
+
+## Made from the bank, the next one
+| 2026-11-21 | 2.1 The Clam and the Pearl | images prompted (book-additions/garlic-bread-clam-pearl.md): @Image2 first, then @Image3 and @Image4 with @Image2 attached |

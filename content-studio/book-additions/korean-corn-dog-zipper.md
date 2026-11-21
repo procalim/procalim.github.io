@@ -1,4 +1,5 @@
 # Zipper Corn Dog («كورن دوغ السحّاب»): N° 059 Korean Corn Dog with an invented zipper cut (2026-11-21)
+**DROPPED** (owner, 21 Nov: «غير أصلا فكرة النقانق هاي الحلقة الرابعة»). Not for the book.
 Invention bank 1.1 (idea-lab/invention-bank.md), the first row of its order. The owner made the three reference images
 on 21 Nov. The book recipe is kept word for word. One step is added before it: the zipper cut. It needs the owner's
 approval and a test in a real kitchen before it goes into the book and the new-recipes PDF.
