@@ -67,3 +67,36 @@ AVOID: the same dark background in every shot, an all-black frame, glowing or re
 - **Text:** decided by the braid's read (posted 21 Nov, the POV line at the top). Near the lantern's 22.9%: the POV
   line in the top band; if not, no text, as the lantern.
 - **Caption:** English first with the full recipe, a Thai line, Arabic last; keyword PEARL for the free PDF.
+
+===== THE TAKE, READ (job 6f1a5df2, 20.06 s, 720x1280, 24 fps; the owner: «الفيديو صح بس الثانية الاولى القصة غلط») =====
+- 0.1 s: the six ribs are already on the top of the roll before any knife touches it.
+- 0.5-1.0 s: the knife slices across the middle.
+- 1.3-1.7 s: both hands lift the top off the base, as a separate piece, not on a hinge.
+- 2.1-3.3 s: the knife then "cuts" ribs into the standing top that already has them.
+- 3.5 s on: right (the owner). From 4.6 s the top stands upright on its back edge behind the base, as in @Image2.
+The fix: a new 5 s opening in the right order (the ribs, the slice, the hinge), spliced in place of 0-3.5 s. The rest
+of the take stays.
+
+===== OPENING FIX (5 s) =====
+SETTINGS: Seedance 2.5, Omni reference, 5 s, 9:16, bitrate High, audio On; chef-ahmet-yellow (41e55e5e);
+@Image1 = the kitchen (325df734); @Image2 = the raw clam (Brioche_roll_shaped_like_clam_5975deac_2K.jpeg), for the
+shape of the open shell only. No @Image3 or @Image4: they show finished ribs.
+
+A vertical 9:16 cinematic food film, exactly 5 seconds, no text. One continuous close shot, the camera still: a smooth round brioche roll is cut into a clam shell that opens on a hinge.
+
+THE COOK: his character element: a plain mustard-yellow t-shirt, a black apron with brown leather straps, black nitrile gloves, black square sunglasses with small gold hinges. The sunglasses' lenses are solid matte black at all times: no light on them, no reflection, no glow. He never speaks.
+
+THE CLAM (the hero shape): one round golden brioche roll made into a scallop seashell: it is cut across through its middle and opens on a hinge at the back like a clam; its top shell has six deep cuts that fan out from the hinge like the ribs of a scallop shell. The hinge at the back is never cut through. Open, the shell has the shape of @Image2, but empty: no cream cheese and no pearl yet.
+
+0.0-0.3s: Close, at eye level on a light oak cutting board dusted with flour, the dark kitchen and its brass pendant lights behind, his mustard t-shirt and apron soft behind him, warm golden light. A round soft brioche roll sits on the board; its top is smooth and whole, with no cuts and no ridges.
+0.3-1.8s: A knife cuts six deep cuts into the top of the roll, fanning out from the back, one sharp tap each (0.3, 0.55, 0.8, 1.05, 1.3, 1.55 s); each cut appears only where the knife goes in.
+1.8-2.8s: A serrated knife slices across the middle of the roll from the front with a crisp crunch and stops before the back, leaving the back joined.
+2.8-4.5s: One gloved fingertip tilts the top up: it swings open on the hinge at the back with a soft crack (3.2 s) until it stands upright behind the base, its back edge still joined to the base, like a clam opening; the soft white crumb shows inside.
+4.5-5.0s: Hold: the open, empty clam shell, still.
+
+SOUND: only the real sounds, sharp and separate with near silence between them: the six knife taps, the knife's crunch through the crust, the soft crack of the hinge. No music, no voice, no whooshes.
+
+AVOID: ridges or cuts on the roll before the knife touches it, the top lifted off as a separate piece, the top held up in his hands, two hands lifting the top, a knife cutting a shell that is already standing, cream cheese, a pearl, mozzarella, the hinge cut through, a flower with six petals, a real seashell, seafood, two rolls, an all-black frame, glowing or reflective sunglasses, light in his lenses, text, writing, labels, shaky camera, music, sunglasses off, a white t-shirt, bare hands, other people, talking, extra fingers, deformed hands, distorted face.
+
+EDIT: the new opening (trimmed to about 3.5 s, ending on the open shell) + the take from its cut to the whisk (about
+3.5 s) to the end; then the completion cut to 13-15 s.
