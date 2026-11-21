@@ -17,7 +17,7 @@ approval and a test in a real kitchen before it goes into the book and the new-r
    cheese. Then step 01: the skewer goes in through the uncut end.
 Halal: halal beef hot dogs, halal-certified mozzarella.
 
-## Images (the owner's, 21 Nov)
+## Images (the owner's, 21 Nov; the teeth differ between them, so @Image3 and @Image4 are remade with @Image2 attached)
 - @Image2 the raw zipper, open at the top with the cheese stick: Beef_hot_dog_with_mozzarella_7c4ce7f4_2K.jpeg.
 - @Image3 fried and sugared on the white enamel tray, the teeth showing through the crust:
   Corn_dog_on_sugar_tray_2118753a_2K.jpeg.

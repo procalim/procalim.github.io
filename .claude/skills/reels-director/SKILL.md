@@ -31,6 +31,10 @@ take read of job 462bf076.
    carousels for the dish before proposing it (the Tornado Omelette had been made already).
 6. **Split long takes on the owner's lengths** (20 + 10). The cook, hero-shape, sound and avoid blocks are identical
    in each part.
+7. **One shape block in every reference image** (owner, 2026-11-21: «السحابة بكل صورة بتختلف»). The zipper's three
+   image prompts described the teeth in different words, and each image drew different teeth. The shape is written
+   once, word for word the same, in every image prompt. The first image is made, and is attached as the reference
+   when the next images are made.
 
 ## THE COMPLETION ENGINE (owner, 2026-11-21: «حط بنفسك بافكارنا وشغلنا نكمل لشخص للآخر مثل ما حلينا فكرت السكيب»)
 The skip: frame one is a never-seen act with 6+ sharp hits, and nothing on top of that act.

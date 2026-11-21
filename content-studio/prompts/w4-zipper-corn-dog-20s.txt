@@ -11,7 +11,8 @@ THE COMPLETION ENGINE:
   which opens the zipper again, tick by tick (the loop);
 - the finished corn dog is not seen whole before 12.5 s;
 - no bite; it ends on the longest stretch, as @Image4.
-Status: NOT generated.
+Status: NOT generated. Waiting for @Image3 and @Image4, remade with @Image2 attached so the teeth match (the owner:
+«السحابة بكل صورة بتختلف»; idea-lab/invention-bank.md).
 
 THE BOOK, STEP BY STEP -> SHOT (N° 059, p206)
 | Book | Shot |
@@ -30,8 +31,8 @@ SETTINGS (higgsfield.ai): Seedance 2.5, Omni reference, 20 s, 9:16, 720p or 1080
 element chef-ahmet-yellow (41e55e5e). Images in this order (not the order they were sent in):
 - @Image1 = the kitchen (325df734);
 - @Image2 = the raw zipper on the oak board (Beef_hot_dog_with_mozzarella_7c4ce7f4_2K.jpeg);
-- @Image3 = the fried zipper on the sugar tray (Corn_dog_on_sugar_tray_2118753a_2K.jpeg);
-- @Image4 = the unzip with the cheese (Pulling_apart_cheesy_corn_dog_980d90b1_2K.jpeg).
+- @Image3 = the fried zipper on the sugar tray (to be remade; was Corn_dog_on_sugar_tray_2118753a_2K.jpeg);
+- @Image4 = the unzip with the cheese (to be remade; was Pulling_apart_cheesy_corn_dog_980d90b1_2K.jpeg).
 Halal: halal beef hot dog (no pork), halal-certified mozzarella.
 
 ===== PROMPT =====
@@ -39,22 +40,22 @@ A vertical 9:16 cinematic food film, exactly 20 seconds, no text. A beef hot dog
 
 THE COOK: his character element: a plain mustard-yellow t-shirt, a black apron with brown leather straps, black nitrile gloves, black square sunglasses with small gold hinges. The sunglasses' lenses are solid matte black at all times: no light on them, no reflection, no glow. He never speaks.
 
-THE ZIPPER (the hero shape, the same in every shot): one long plain beef hot dog cut lengthwise through its middle along a zigzag line of small even square teeth, so its two halves interlock exactly like the teeth of a zipper, joined at the bottom end; a white mozzarella stick lies inside between the halves; a wooden skewer runs up through it. Raw and open at the top, it looks exactly as in @Image2. Battered, crumbed, fried and sugared, the line of zipper teeth still shows along its golden crust, exactly as in @Image3. Unzipped after frying, it looks exactly as in @Image4.
+THE ZIPPER (the hero shape, the same in every shot): one long plain beef hot dog cut lengthwise through its middle along a zigzag line of small even square teeth, so its two halves interlock exactly like the teeth of a zipper, joined at the bottom end; a white mozzarella stick lies inside between the halves; a wooden skewer runs up through it. Raw and open at the top, it looks exactly as in @Image2. The teeth are square with straight sides, pink on their cut faces, never triangles and never a sawtooth, the same in every shot. Battered, crumbed, fried and sugared, its golden crust has one thin straight seam where the tips of the same square teeth show, exactly as in @Image3. Unzipped after frying, each half of the crust is lined with the pink hot dog and the same square teeth, exactly as in @Image4.
 
 SHOT 01 — 0.0-3.5s: Close, at eye level on a light oak cutting board, his mustard t-shirt and apron soft behind, warm golden light, the camera still. The zipped hot dog lies on the board; his gloved fingers pull its top end apart and it unzips tooth by tooth into a V, each tooth letting go with a sharp tick (0.4, 0.7, 1.0, 1.3, 1.6, 1.9 s), exactly as in @Image2; he presses a frozen white mozzarella stick into the V with a squeak (2.3 s), then pinches the halves back together and the teeth lock shut with quick clicks (2.6-3.3 s). One continuous shot.
 SHOT 02 — 3.5-5.0s: Macro against soft warm bokeh of brass pendant lights: a wooden skewer is pushed up through the zipped hot dog with a small pop (3.7 s); he lifts it to the lens and turns it slowly, the zigzag line of locked teeth clear, a thin white line of cheese between them.
 SHOT 03 — 5.0-6.0s: Inside a freezer, bright white and frosty: white frost grows over the zipper on its skewer.
 SHOT 04 — 6.0-7.5s: Top-down over a stainless steel bowl on white parchment, bright even light, compressed time: a whisk beats a thick, sticky, pale batter with quick clinks, then it folds into a tall clear glass; the batter is pale cream.
 SHOT 05 — 7.5-8.5s: Low angle at counter level, warm orange backlight: the frosted zipper is dipped into the tall glass of batter with a thick gloop and lifted out coated completely.
-SHOT 06 — 8.5-10.0s: Top-down in daylight on white parchment: it is rolled through a heap of golden panko, gloved fingers pressing the flakes on with dry rustles; the zigzag line of teeth still shows through.
+SHOT 06 — 8.5-10.0s: Top-down in daylight on white parchment: it is rolled through a heap of golden panko, gloved fingers pressing the flakes on with dry rustles; the thin seam of teeth still shows.
 SHOT 07 — 10.0-11.5s: Medium at a stainless steel range, a ring of blue gas flame under a steel pot: he lowers it into the oil by its skewer, a loud crackling sizzle, steam rising; compressed time; his lenses stay matte black.
-SHOT 08 — 11.5-12.5s: Macro from above, the frame filled with bubbling orange-golden oil: it turns deep golden brown, the line of zipper teeth showing along it.
+SHOT 08 — 11.5-12.5s: Macro from above, the frame filled with bubbling orange-golden oil: it turns deep golden brown, the thin seam of teeth along it.
 SHOT 09 — 12.5-14.0s: Close on a white enamel tray of sugar: it is rolled in the sugar, crystals sparkling on the crust, a gritty crunch (12.8, 13.4 s), exactly as in @Image3.
-SHOT 10 — 14.0-20.0s: One locked shot, exactly as in @Image4: in a warm busy kitchen with glowing bokeh lights, the golden sugared corn dog is held upright by its skewer in one gloved hand; his other gloved hand pinches its top and pulls it to the side: the crust crackles (14.3, 14.8, 15.3 s), then it unzips tooth by tooth down the zigzag, a tick for each tooth (15.5-17.5 s), and melted white mozzarella stretches across every tooth in long strands (17.5-19.8 s), a little steam rising, a few golden crumbs falling. No cut to black.
+SHOT 10 — 14.0-20.0s: One locked shot, exactly as in @Image4: in a warm busy kitchen with glowing bokeh lights, the golden sugared corn dog is held upright by its skewer in one gloved hand; his other gloved hand pinches its top and pulls it to the side: the crust crackles (14.3, 14.8, 15.3 s), then it unzips tooth by tooth down the seam, the same square teeth letting go with a tick each (15.5-17.5 s), and melted white mozzarella stretches across every tooth in long strands (17.5-19.8 s), a little steam rising, a few golden crumbs falling. No cut to black.
 
 SOUND: only the real sounds of each action, sharp and separate with near silence between them: the ticks of the teeth letting go, the squeak of the cheese, the clicks of the teeth locking, the skewer's pop, the freezer's hum, the whisk, the batter's gloop, the panko's rustle, the loud sizzle, the sugar's crunch, the crust crackling, the ticks of the final unzip. No music, no voice, no whooshes.
 
-AVOID: the same dark background in every shot, an all-black frame, glowing or reflective sunglasses, light in his lenses, a metal zipper, a zipper slider or pull tab, fabric, a straight hot dog without the teeth, a hot dog cut across into pieces, two corn dogs, cheese leaking before shot 10, ketchup, mustard, a bite, pork, bacon, ham, alcohol, labels, brand names, text, writing, burnt crust, shaky camera, music, sunglasses off, a white t-shirt, bare hands, other people, logos, talking, extra fingers, deformed hands, distorted face.
+AVOID: the same dark background in every shot, an all-black frame, glowing or reflective sunglasses, light in his lenses, a metal zipper, a zipper slider or pull tab, fabric, a straight hot dog without the teeth, triangle teeth, a sawtooth, raised bumps on the crust, bread without the hot dog inside, a hot dog cut across into pieces, two corn dogs, cheese leaking before shot 10, ketchup, mustard, a bite, pork, bacon, ham, alcohol, labels, brand names, text, writing, burnt crust, shaky camera, music, sunglasses off, a white t-shirt, bare hands, other people, logos, talking, extra fingers, deformed hands, distorted face.
 
 ===== EDIT =====
 - **Video:** 24 fps, 1080x1920, the take's own sound at -16 LUFS.
