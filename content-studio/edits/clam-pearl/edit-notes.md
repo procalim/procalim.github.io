@@ -69,3 +69,25 @@ Shot 3, 2.6–3.8 s — 85 mm profile from the side at the clam's height, a slow
 Shot 4, 3.8–6.0 s — 50 mm from the front, a slow push-in closer than in @Video1: the cheese at its longest stretch, a little steam; behind, warm bokeh. Accent: the longest stretch, held to the last frame.
 
 Gloves, the clam and the place stay exactly as in @Video1 in every shot; the sound runs on unbroken across the cuts. No text.
+
+### The whole cut in one run (the owner: «يا زلمة كلهم مع بعض»): media 1f582ece, 9.92 s, as 10 s
+Multi-camera re-shoot of @Video1: the same take — the same people, performance, sound and timing as @Video1, in real time from 0 to 10 s — covered by many cameras with different lenses around the same dark kitchen with brass pendant lights, and cut together into a bold, dynamic edit. Only the cameras change; nothing in front of them changes. The edit opens on shot 1 from its very first frame. 12 shots, hard cuts at 1.0 s, 1.5 s, 2.5 s, 3.1 s, 4.2 s, 4.8 s, 5.4 s, 6.3 s, 7.0 s, 8.3 s, 9.0 s. Time runs on across every cut: nothing repeats, skips, slows down or speeds up.
+
+@Video1: a chef in a mustard t-shirt, black apron, black square sunglasses and black gloves cuts a round brioche roll on a floured light oak board into a clam shell that opens on a hinge at the back, pipes cream cheese into its six ribs, sets a white mozzarella pearl inside and shuts it, dunks it in garlic butter, bakes it golden in an oven, and two gloved hands open the baked clam so the melted cheese stretches between the shells; warm golden light, brass pendant lights.
+
+Photoreal, cinematic. 9:16. 10s. Same light, colour and sound as @Video1. No music, no extra people.
+
+Shot 1, 0.0–1.0 s, from the first frame — 100 mm macro, straight down above the roll, static: the knife tip tapping into the top crust; around it the floured oak board. Accent: the taps.
+Shot 2, 1.0–1.5 s — 50 mm, close at the front edge of the roll at board height, static: the serrated knife cutting level along the side edge, crumbs falling; behind, the edge of the board and the dark floor. Accent: the cut at the edge.
+Shot 3, 1.5–2.5 s — 24 mm, very low just in front of the roll looking up, a slow push-in: the top swings open on its hinge and stands up like a clam shell; above it the brass pendant lights. Accent: the clam opening.
+Shot 4, 2.5–3.1 s — 85 mm profile from the side of the shell at its height, static: the piping bag filling the ribs with white cream cheese; behind, the side of the kitchen in soft focus. Accent: the ribs filling.
+Shot 5, 3.1–4.2 s — 35 mm, high over the chef's shoulder looking down into the open clam: his gloved hands set the white pearl inside and the shell shuts; below, the floured board. Accent: the pearl going in.
+Shot 6, 4.2–4.8 s — 50 mm, straight down into the bowl: the shut clam plunging into the golden garlic butter, a slosh; around it the steel rim. Accent: the dunk.
+Shot 7, 4.8–5.4 s — 35 mm, low from the counter looking up at the chef holding the tray, a slow push-in; above him the brass pendant lights; his lenses solid matte black, no light on them. Accent: the chef.
+Shot 8, 5.4–6.3 s — 100 mm macro on the ribs of the clam inside the oven, static: the crust turning from pale to deep gold in the orange glow. Accent: the gold.
+Shot 9, 6.3–7.0 s — 50 mm, low at tray height from the side, a slow push-in: the baked golden clam on white parchment, a little steam; behind, the dark kitchen. Accent: the finished shell.
+Shot 10, 7.0–8.3 s — 100 mm macro on the hinge at the back of the clam, static: the crust cracking as the top lifts, crumbs falling; behind, the dark floor out of focus. Accent: the crack.
+Shot 11, 8.3–9.0 s — 35 mm, low below the clam looking up: the cheese strands stretching between the shells; above, the brass pendant lights. Accent: the stretch grows.
+Shot 12, 9.0–10.0 s — 50 mm from the front, a slow push-in closer than in @Video1: the cheese at its longest stretch, a little steam; behind, warm bokeh. Accent: the longest stretch, held to the last frame.
+
+Faces, clothes, props and the place stay exactly as in @Video1 in every shot; the sound runs on unbroken across the cuts. No text.
