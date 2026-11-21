@@ -27,3 +27,21 @@ Frame sheets read: no metal safe and no early inside.
 The owner: longer is better. Part 2 of prompts/w4-chocolate-safe-20s-plus-10s.txt (10 s: the milk hits, the milk
 rises, the door sags, the top caves in, the float) gives the melt five new angles. Its shots go between the take's
 pour and the float: about 22-24 s in all.
+
+## The strong edit: zoom in and out, and angle moves (media 2ec6be0e, 16.43 s)
+The owner: «زوم إن زوم أوت. وحركات زوايا مختلفة بنفس السيستم. فيديو أقوى شوي، ستايله أحلى شوي». Our own frames from
+the 16.46 s cut; edits/_tools/zoom_pro.py with edits/chocolate-safe/safe_zoom_spec.json.
+- **The sound's hits:** the six rattles 0.40, 0.85, 1.35, 1.81, 2.29, 2.77; the spoon 3.29; the cocoa 5.31; the seal
+  7.49; the clink in the mug 8.68; the pour 11.11; the door and the bubbles 12.59-13.76.
+| Shot | Move |
+|---|---|
+| the shake by his face | a punch-in on every rattle, 1.0 to 1.55, swinging left and right with a 1.5° dutch tilt each way, a shake on each |
+| the spoon in the mould | the overhead turns 6° while it pushes in |
+| the half out of the mould | a slide from right to left at 1.35 |
+| the cocoa | a punch-in on the puff, with a shake |
+| the edge on the warm plate | a tilt down at 1.30 |
+| the seal | a push to 1.40, a shake on the seal |
+| the safe into the mug | from a -3° dutch tilt to level while it pushes in; a punch-in on the clink |
+| the milk heating | a pull-out with a 3° turn |
+| the pour | wide, then a punch-in on the splash, punches on the door and the bubbles to 1.60, then a pull-out reveal of the coins and marshmallows floating |
+Frame sheets read: the moves show in every shot; no black corners; the food stays in frame; it ends wide on the float.
