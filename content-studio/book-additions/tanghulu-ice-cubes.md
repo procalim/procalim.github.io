@@ -10,17 +10,20 @@ ice-cube tray and the syrup is poured over them. It needs the owner's approval a
   - Every viewer knows what an ice cube looks like, and so does the model, so the AI can draw it right.
   - It is built for shares: «ابعتها للي رح تقشمره فيها» (send it to the friend you'd fool with it).
 - **The book:** tanghulu is word for word (N° 020, p167); only the shape changes, from a skewer to a cube tray.
-- **The three questions (the owner's hook, re-hook and answer):**
+- **The three questions (the owner's hook, re-hook and answer; v2 of the prompt):**
   - the hook, 0-3 s: «Would you put these in your drink? 🧊»;
-  - the re-hook, when the sugar goes into the mug (about 5-8 s): «Wait… since when is ice made of sugar? 🤔»;
-  - the answer, on the shatter to the end: «It's not ice. It's candy 🍇», with the send line «Send it to the friend you'd
+  - the re-hook, on the sinking (9-10.5 s): «Ice floats. Why did these sink? 🤔»;
+  - the answer, from the shatter to the end: «Because it's candy 🍇», with the send line «Send it to the friend you'd
     prank 😈».
+- **v2 (owner, 21 Nov: «اكتب برومت من اول جديد»):** from 3 s every shot changes the cubes or reveals something;
+  the ordinary prep (drying, the mug, the microwave, the chopstick) stays in the caption. The cube is 2.5 cm with a thin
+  candy wall, so the bite is real.
 - **A second surprise in the last quarter:** three cubes dropped into sparkling water sink to the bottom. Ice floats;
   hard candy is heavier than water, so this is real.
 - **Physical order (rules 8-10):**
   - nothing shows before the step that makes it: the cubes in the hook are the finished cubes, on purpose (the hook);
   - places are named by part: each cell of the tray, the tip of the chopstick, the board;
-  - no bite (the house rule): the back of a spoon shatters the cube;
+  - the back of a spoon shatters one cube (the loudest sound); the bite comes after it, last, as in the 58M reel;
   - one action per shot.
 - **Is it new?**
   - Web (2 searches, 21 Nov): no tanghulu poured into an ice-cube tray was found.
@@ -56,15 +59,15 @@ Halal: nothing to change.
 
 ## The reference images (rule 7: the same CUBES, GLASS and TRAY blocks, word for word; @Image2 first, then the others with it attached)
 ===== THE BLOCKS =====
-THE CUBES: square cubes of clear hard sugar candy, each about 3 cm, clear as glass with the faintest pale-amber tint and smooth glossy faces, one whole green grape sealed inside each cube, looking exactly like ice cubes with a grape frozen inside.
+THE CUBES: square cubes of clear hard sugar candy, each about 2.5 cm, clear as glass with the faintest pale-amber tint and smooth glossy faces, one whole green grape filling most of each cube under a thin clear candy wall, looking exactly like ice cubes with a grape frozen inside.
 THE GLASS: a tall, straight, clear drinking glass.
 THE TRAY: a white silicone ice-cube tray with six large square cells in two rows of three.
 
 ===== @Image2: THE CUBES IN THE GLASS (make first) =====
-Photorealistic macro food photograph, vertical 9:16. THE CUBES: square cubes of clear hard sugar candy, each about 3 cm, clear as glass with the faintest pale-amber tint and smooth glossy faces, one whole green grape sealed inside each cube, looking exactly like ice cubes with a grape frozen inside. THE GLASS: a tall, straight, clear drinking glass. Six of the cubes are stacked in the empty glass, which stands on a light oak cutting board, seen from the side at eye level; they catch the light exactly like ice. Warm golden tungsten light from the left, soft warm bokeh of brass pendant lights behind, shallow depth of field, the glass razor sharp in the centre of the frame. No water, no drink, no melting, no hands, no text, no labels, no other food.
+Photorealistic macro food photograph, vertical 9:16. THE CUBES: square cubes of clear hard sugar candy, each about 2.5 cm, clear as glass with the faintest pale-amber tint and smooth glossy faces, one whole green grape filling most of each cube under a thin clear candy wall, looking exactly like ice cubes with a grape frozen inside. THE GLASS: a tall, straight, clear drinking glass. Six of the cubes are stacked in the empty glass, which stands on a light oak cutting board, seen from the side at eye level; they catch the light exactly like ice. Warm golden tungsten light from the left, soft warm bokeh of brass pendant lights behind, shallow depth of field, the glass razor sharp in the centre of the frame. No water, no drink, no melting, no hands, no text, no labels, no other food.
 
 ===== @Image3: THE CUBES OUT OF THE TRAY (with @Image2 attached) =====
-Photorealistic food photograph, vertical 9:16. Use the attached image as the reference for the cubes: the same size, the same clear candy, the same green grape inside each one. THE CUBES: square cubes of clear hard sugar candy, each about 3 cm, clear as glass with the faintest pale-amber tint and smooth glossy faces, one whole green grape sealed inside each cube, looking exactly like ice cubes with a grape frozen inside. THE TRAY: a white silicone ice-cube tray with six large square cells in two rows of three. The tray lies flexed on a dark marble counter with thin gold veins; the six cubes have just popped out and lie beside it, one tipped on its side catching a bright highlight. Bright soft daylight from a window, cool white and green tones, crisp detail. No hands, no water, no text, no labels, no other food.
+Photorealistic food photograph, vertical 9:16. Use the attached image as the reference for the cubes: the same size, the same clear candy, the same green grape inside each one. THE CUBES: square cubes of clear hard sugar candy, each about 2.5 cm, clear as glass with the faintest pale-amber tint and smooth glossy faces, one whole green grape filling most of each cube under a thin clear candy wall, looking exactly like ice cubes with a grape frozen inside. THE TRAY: a white silicone ice-cube tray with six large square cells in two rows of three. The tray lies flexed on a dark marble counter with thin gold veins; the six cubes have just popped out and lie beside it, one tipped on its side catching a bright highlight. Bright soft daylight from a window, cool white and green tones, crisp detail. No hands, no water, no text, no labels, no other food.
 
 ===== @Image4: THE SHATTER (with @Image2 attached) =====
-Photorealistic food photograph, vertical 9:16, a warm kitchen with glowing brass bokeh lights behind. Use the attached image as the reference for the cubes: the same size, the same clear candy, the same green grape inside each one. THE CUBES: square cubes of clear hard sugar candy, each about 3 cm, clear as glass with the faintest pale-amber tint and smooth glossy faces, one whole green grape sealed inside each cube, looking exactly like ice cubes with a grape frozen inside. On a light oak cutting board, the back of a steel spoon held by a hand in a black nitrile glove has just struck one cube: it bursts into sharp clear glass-like shards frozen in mid-air, and the whole green grape from inside sits revealed among them, glossy. Razor sharp, the bursting cube fills two thirds of the frame. No face, no text, no labels, no ice, no water, no other food.
+Photorealistic food photograph, vertical 9:16, a warm kitchen with glowing brass bokeh lights behind. Use the attached image as the reference for the cubes: the same size, the same clear candy, the same green grape inside each one. THE CUBES: square cubes of clear hard sugar candy, each about 2.5 cm, clear as glass with the faintest pale-amber tint and smooth glossy faces, one whole green grape filling most of each cube under a thin clear candy wall, looking exactly like ice cubes with a grape frozen inside. On a light oak cutting board, the back of a steel spoon held by a hand in a black nitrile glove has just struck one cube: it bursts into sharp clear glass-like shards frozen in mid-air, and the whole green grape from inside sits revealed among them, glossy. Razor sharp, the bursting cube fills two thirds of the frame. No face, no text, no labels, no ice, no water, no other food.

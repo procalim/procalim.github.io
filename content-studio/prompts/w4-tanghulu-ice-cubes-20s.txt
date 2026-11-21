@@ -1,102 +1,99 @@
-Ice Cubes That Aren't «تلج مش تلج», 20 s (N° 020 Tanghulu (Microwave Method), p167, + the ice-cube tray:
-book-additions/tanghulu-ice-cubes.md). Invention bank 5.1, the first of family F5.
-THE OWNER'S STRUCTURE (21 Nov: «هوك كويشن ري هوك كويشن والانسور»):
-- the hook question, 0-3 s, on the cubes clinking into the glass: «Would you put these in your drink? 🧊»;
-- the re-hook question, when the sugar meets the water (5-8 s): «Wait… since when is ice made of sugar? 🤔»;
-- a second surprise in the last quarter: the cubes sink in sparkling water (ice floats);
-- the answer, on the shatter to the end: «It's not ice. It's candy 🍇» + «Send it to the friend you'd prank 😈».
-THE COMPLETION ENGINE: the question opens on frame one; a new picture every 1-1.5 s; no bite; the last shot is the
-loudest sound (the shatter) on the same oak board as shot 01 (the loop).
+Ice Cubes That Aren't «تلج مش تلج», 20 s, v2, written from scratch (N° 020 Tanghulu (Microwave Method), p167, + the
+ice-cube tray: book-additions/tanghulu-ice-cubes.md). Invention bank 5.1. The owner, 21 Nov: «اكتب برومت من اول جديد».
+v1 put 6 ordinary prep shots of 11 at 3-12 s (the towel, the water on the sugar, the microwave, the chopstick), the
+seconds where the lantern lost 33 points. v2 follows our read of the 58M AI reel (research/ai-account-58m-reel-2026-11-19.md):
+no voice, no music, no text in the take; a cut about every 1.5 s; a reveal every 3-4 s; his face mid-reel; the bite last.
+From 3 s, every shot changes the food or reveals something about it. The ordinary prep stays in the caption recipe.
 
-THE BOOK, STEP BY STEP -> SHOT (N° 020, p167)
-| Book | Shot |
+THE REVEALS (one every 3-4 s)
+| s | What the viewer learns | Shot |
+|---|---|---|
+| 0.0 | "ice cubes" clink into a glass | 01 |
+| 3.0 | it is hot syrup poured over grapes | 02 |
+| 4.5 | ice water sets it with a hiss | 03 |
+| 6.0 | the cubes are born out of the tray | 04 |
+| 9.0 | they sink in sparkling water (ice floats) | 06 |
+| 12.0 | a spoon shatters one like glass; the grape inside | 08 |
+| 16.0 | the bite, a loud crunch | 09 |
+
+THE BOOK -> SHOT (N° 020, p167)
+| Book | In the video |
 |---|---|
-| (the hook) the finished cubes dropped into a glass | 01 |
-| 01 skewer the fruit; fruit 100% dry (ours: one dry grape in each cell of the tray) | 02 (dry), 03 (into the tray) |
-| 02 in a microwave-safe mug, mix sugar and water; do not stir | 04 |
-| 03 microwave in 30-second intervals | 05 |
-| 04 test: a chopstick in the sugar then in ice water; it crunches | 06 |
-| 05 hot syrup on the fruit (ours: poured into the tray), straight into ice water | 07, 08 |
-| (ours) pop the cubes out | 09 |
-| (the proof) the cubes sink in sparkling water | 10 |
-| (the answer) a spoon shatters one cube | 11 |
-| Chef's note: work extremely fast | the whole making is 3-14.5 s |
-What may not match: shot 01 shows the finished cubes before the making (the hook); the microwave is compressed.
+| fruit 100% dry; sugar and water in a mug, not stirred; the microwave in 30 s intervals; the chopstick test | the caption only (ordinary prep) |
+| 05 hot syrup on the fruit (ours: poured over the grapes in the tray) | 02 |
+| 05 immediately into ice water to set the shell | 03 |
+| (ours) the cubes out of the tray | 04 |
+What may not match: shot 01 shows the finished cubes first (the hook).
+
+THE TEXT (the owner's structure; added in the edit, top band only, never in the take)
+- the hook question, 0-3 s: «Would you put these in your drink? 🧊»
+- the re-hook question, on the sinking (9.0-10.5 s): «Ice floats. Why did these sink? 🤔»
+- the answer, from the shatter to the end: «Because it's candy 🍇<br>Send it to the friend you'd prank 😈»
 
 SETTINGS (higgsfield.ai): Seedance 2.5, Omni reference, 20 s, 9:16, bitrate High, audio On; character element
 chef-ahmet-yellow (41e55e5e). Images in this order:
 - @Image1 = the kitchen (325df734);
 - @Image2 = the cubes in the glass (make first);
-- @Image3 = the cubes out of the tray;
-- @Image4 = the shatter.
+- @Image3 = the cubes out of the tray (with @Image2 attached);
+- @Image4 = the shatter (with @Image2 attached).
 Halal: sugar, water, grapes, sparkling water; nothing to change.
 
 ===== PROMPT =====
-A vertical 9:16 cinematic food film, exactly 20 seconds, no text. Six clear cubes that look exactly like ice cubes, each with a green grape inside, clink into a tall glass; then we see how they are made from sugar syrup poured over grapes in an ice-cube tray, they sink in sparkling water, and at the end the back of a spoon shatters one cube like glass and the grape inside is revealed. Every shot has a different background, surface, colour and light, like a travelling camera in a busy warm kitchen; never two shots in a row with the same background.
+A vertical 9:16 cinematic food film, exactly 20 seconds, no text. Six clear cubes that look exactly like ice cubes, each with a green grape inside, clink into a tall glass. Then the truth, one reveal after another: they are hot sugar syrup poured over grapes and set in ice water, they pop out of a tray, they sink in sparkling water, a spoon shatters one like glass, and he bites one with a loud crunch. From 3 seconds on, every shot shows the cubes change or reveals something new about them; no shot of ordinary preparation. Every shot has a different background, surface, colour and light, like a travelling camera in a busy warm kitchen; never two shots in a row with the same background.
 
 THE COOK: his character element: a plain mustard-yellow t-shirt, a black apron with brown leather straps, black nitrile gloves, black square sunglasses with small gold hinges. The sunglasses' lenses are solid matte black at all times: no light on them, no reflection, no glow. He never speaks.
 
-THE CUBES (the hero shape, the same in every shot): square cubes of clear hard sugar candy, each about 3 cm, clear as glass with the faintest pale-amber tint and smooth glossy faces, one whole green grape sealed inside each cube, looking exactly like ice cubes with a grape frozen inside. In the glass, exactly as in @Image2; out of the tray, exactly as in @Image3; shattering, exactly as in @Image4. THE GLASS: a tall, straight, clear drinking glass. THE TRAY: a white silicone ice-cube tray with six large square cells in two rows of three. THE MUG: a plain white ceramic mug. THE SYRUP: clear, glossy, pale amber, thick as honey.
+THE CUBES (the hero shape, the same in every shot): square cubes of clear hard sugar candy, each about 2.5 cm, clear as glass with the faintest pale-amber tint and smooth glossy faces, one whole green grape filling most of each cube under a thin clear candy wall, looking exactly like ice cubes with a grape frozen inside. In the glass, exactly as in @Image2; out of the tray, exactly as in @Image3; shattering, exactly as in @Image4. THE GLASS: a tall, straight, clear drinking glass. THE TRAY: a white silicone ice-cube tray with six large square cells in two rows of three. THE SYRUP: clear, glossy, pale amber, thick as honey, steaming hot.
 
-SHOT 01 — 0.0-3.0s: Close, at eye level on a light oak cutting board, his mustard t-shirt and black apron soft behind, warm golden light, the camera still. The tall glass stands empty on the board; his gloved fingers drop the cubes into it one at a time from just above its rim, six high glassy clinks (0.4, 0.8, 1.2, 1.6, 2.0, 2.4 s); by 2.6 s the glass looks exactly as in @Image2. One continuous shot.
-SHOT 02 — 3.0-4.0s: Close on a pale grey stone counter in cool window daylight: his gloved hands pat a pile of green grapes dry in a white cotton towel.
-SHOT 03 — 4.0-5.0s: Top-down on white parchment in bright soft daylight: his gloved fingers set the last green grape into the last empty cell of the white silicone tray; one grape sits in each of the six cells.
-SHOT 04 — 5.0-6.5s: Macro against soft warm bokeh of brass pendant lights: water pours from a small glass jug onto a mound of white sugar in the white mug, and the sugar turns wet and clear.
-SHOT 05 — 6.5-8.0s: Inside a microwave, lit warm yellow, the white mug turns on the glass turntable and the syrup inside bubbles up clear; two short beeps (7.0, 7.6 s).
-SHOT 06 — 8.0-9.5s: Close above a steel bowl of ice water on a dark slate surface, cool blue light: his gloved fingers snap the hardened clear sugar off the tip of a wooden chopstick with one sharp glassy crunch (8.8 s).
-SHOT 07 — 9.5-11.0s: Top-down on a dark walnut board, warm side light: the hot pale-amber syrup pours in a thick glossy ribbon from the white mug into each cell of the white silicone tray, covering the grapes.
-SHOT 08 — 11.0-12.0s: Close at the side of a wide steel basin full of ice water and ice, bright cool light: the white tray is set down into the ice water, a loud hiss and crackle, a puff of steam.
-SHOT 09 — 12.0-13.5s: Macro on a dark marble counter with thin gold veins in bright soft daylight: his gloved thumbs flex the white tray and the six cubes pop out onto the marble, exactly as in @Image3.
-SHOT 10 — 13.5-15.0s: Close at eye level on a white marble counter in cool daylight, a second tall clear glass full of fizzing sparkling water: three cubes drop in and sink straight to the bottom, bubbles streaming up around them.
-SHOT 11 — 15.0-20.0s: One locked shot, the same light oak cutting board and framing as shot 01, his mustard t-shirt and black apron soft behind, warm golden light; the tall glass of cubes stands at the back of the board and one cube sits alone at the front of it. His gloved hand raises a steel spoon (15.0-15.8 s) and strikes the cube with the back of the spoon (16.0 s): the cube bursts in slow motion into sharp clear glass-like shards, exactly as in @Image4 (16.0-18.0 s), the loudest sound of the film, and the whole glossy green grape sits revealed among the shards as they scatter across the oak (18.0-19.9 s). No cut to black.
+SHOT 01 — 0.0-3.0s: Close, at eye level on a light oak cutting board, his mustard t-shirt and black apron soft behind, warm golden light, the camera still. The tall glass stands empty on the board; his gloved fingers drop the cubes into it one at a time from just above its rim, six high glassy clinks (0.3, 0.7, 1.1, 1.5, 1.9, 2.3 s); by 2.5 s the glass looks exactly as in @Image2. One continuous shot.
+SHOT 02 — 3.0-4.5s: Top-down on white parchment in bright soft daylight: one green grape sits in each cell of the white silicone tray, and a thick glossy ribbon of steaming pale-amber syrup pours from above into the cells, covering the grapes like liquid glass.
+SHOT 03 — 4.5-6.0s: Close at the side of a wide steel basin of ice water and ice, bright cool blue light: the full white tray is set down into the ice water up to its rim, a loud hiss and crackle, and a burst of steam rises.
+SHOT 04 — 6.0-7.5s: Macro on a dark marble counter with thin gold veins in bright soft daylight: his gloved thumbs flex the white tray and the six cubes pop out onto the marble one after another, exactly as in @Image3.
+SHOT 05 — 7.5-9.0s: Macro against soft warm bokeh of brass pendant lights: his gloved fingertips raise one cube toward the lens, and warm light shines through the clear candy so the green grape inside glows like a jewel.
+SHOT 06 — 9.0-10.5s: Close at eye level on a white marble counter in cool daylight, a second tall clear glass full of fizzing sparkling water: three cubes drop in and sink straight to the bottom, bubbles streaming up around them.
+SHOT 07 — 10.5-12.0s: Medium shot of him in the warm-lit kitchen exactly as in @Image1, at the dark counter: he holds the tall glass of cubes up beside his face and tilts it, and the cubes clatter dry against the glass; his lenses stay solid matte black.
+SHOT 08 — 12.0-16.0s: One locked shot, the same light oak cutting board and framing as shot 01, his mustard t-shirt and black apron soft behind, warm golden light; one cube sits alone at the front of the board. His gloved hand brings the back of a steel spoon down on the cube (12.6 s): the cube bursts in slow motion into sharp clear glass-like shards, exactly as in @Image4 (12.6-14.6 s), the loudest sound of the film, and the whole glossy green grape sits revealed among the shards as they scatter across the oak (14.6-16.0 s).
+SHOT 09 — 16.0-20.0s: Close at eye level, a dark window with cool blue evening light behind him: he bites one cube clean in half with one loud glassy crunch (16.8 s) and holds the bitten half up beside his face, the clear candy wall and the juicy green grape inside it facing the lens (17.5-20.0 s). No cut to black.
 
-SOUND: only the real sounds of each action, sharp and separate with near silence between them: the six high glassy clinks, the soft pat of the towel, the soft tap of the grape in the silicone cell, the water pouring on the sugar, the microwave's hum and two beeps, the one sharp crunch of the sugar, the thick pour, the hiss and crackle in the ice water, the pop of the cubes on the marble, the fizz and the clink of the cubes on the bottom of the glass, then the loud glassy shatter and the shards tinkling on the board. No music, no voice, no whooshes.
+SOUND: only the real sounds of each action, sharp and separate with near silence between them: the six high glassy clinks, the thick pour, the hiss and crackle in the ice water, the pops of the cubes on the marble, the soft fizz and the clink of the cubes on the bottom of the glass, the dry clatter in the tilted glass, the loud glassy shatter and the shards tinkling on the oak, then the crunch of the bite. No music, no voice, no whooshes.
 
-AVOID: the same background in every shot, an all-black frame, glowing or reflective sunglasses, light in his lenses, real ice, water ice, melting cubes, water drops on the cubes, cubes floating, round balls, spheres, skewers, sticks through the grapes, strawberries, red or purple grapes, the drinking glass breaking or cracking, a cracked glass, a bite, a mouth, chewing, syrup in the tray before shot 07, the syrup turning dark brown, burnt sugar, smoke, pork, alcohol, labels, brand names, text, writing, numbers, shaky camera, music, sunglasses off, a white t-shirt, bare hands, other people, logos, talking, extra fingers, deformed hands, distorted face.
+AVOID: the same background in every shot, an all-black frame, glowing or reflective sunglasses, light in his lenses, real ice, water ice, melting cubes, water drops on the cubes, cubes floating, round balls, spheres, skewers, sticks through the grapes, strawberries, red or purple grapes, the drinking glass breaking or cracking, a cracked glass, a towel, a microwave, a mug, a chopstick, spoons of sugar, the syrup turning dark brown, burnt sugar, smoke, pork, alcohol, labels, brand names, text, writing, numbers, shaky camera, music, sunglasses off, a white t-shirt, bare hands, other people, logos, talking, extra fingers, deformed hands, distorted face.
 
 ===== PRE-FLIGHT =====
-prompt_check.py (21 Nov): no FAIL; one WARN, rule 3 at 11.0 s: "tray" is in shots 07 and 08. The word is the object,
-not the surface: 07 is a dark walnut board in warm side light, 08 a steel basin of ice water in bright cool light. Kept.
-1. Anything before the action that makes it? Shot 01 shows the finished cubes before the making, on purpose: the hook.
-   Inside the making, each state shows after its step: the grapes dry (02) before the tray (03); the syrup bubbles
-   (05) before the test (06); the syrup is poured (07) before the ice water (08); the cubes leave the tray only after
-   the ice water (09); the free grape shows only in 11.
-2. Every placement is named by a part: one grape into each cell of the tray, the sugar off the tip of the chopstick,
-   the syrup into each cell, the glass at the back of the board, the cube at the front of it. No knife in this reel.
-3. Read in Arabic (my own reading): "the back of the spoon" reads «ظهر المعلقة»; "sink straight to the bottom" reads
-   «بتغطس عالقاع»; "cubes" stays «مكعبات», never dice. Each sentence keeps one meaning.
-4. One action per shot: 01 the drop; 02 the pat dry; 03 the last grape set in; 04 the water on the sugar; 05 the
-   bubbling; 06 the snap; 07 the pour; 08 the tray into the ice water; 09 the pop; 10 the sink; 11 the strike (the
-   raise is its wind-up).
-5. The images per shot: @Image2 (the cubes in the glass) in 01, the same state; @Image3 (the cubes out, the tray
-   flexed) in 09, the same state; @Image4 (the shatter) only in 11. No image shows the grapes or the syrup, so none can
-   show a later state early except the hook, on purpose.
+prompt_check.py (21 Nov): no FAIL; two WARN, answered:
+- rule 10 at 6.0 s (@Image3 in the first third): @Image3 is the cubes just out of the tray, the same state as shot 04,
+  so no later state shows early.
+- a bite in the last shot: the owner's reference (the 58M reel) ends on the bite. The loudest sound stays the shatter
+  (shot 08); the bite comes after it.
+1. Anything before the action that makes it? Only the hook: shot 01 shows the finished cubes, on purpose. Then the
+   syrup (02) before the ice water (03); the cubes leave the tray only after the ice water (04); the free grape only
+   after the shatter (08).
+2. Every placement is named by a part: one grape in each cell of the tray, the tray into the ice water up to its rim,
+   the glass beside his face, the cube at the front of the board, the bitten half facing the lens. No knife.
+3. Read in Arabic (my own reading): "plunged ... up to its rim" reads «بينحط بالمي لحد حافته»; "the back of a spoon"
+   «ظهر المعلقة»; "sink straight to the bottom" «بتغطس عالقاع». Each sentence keeps one meaning.
+4. One action per shot: 01 the drop; 02 the pour; 03 into the ice water; 04 the pop; 05 the cube raised to the lens;
+   06 the sink; 07 the tilt; 08 the strike; 09 the bite.
+5. The images per shot: @Image2 (the cubes in the glass) in 01; @Image1 (the kitchen) in 07; @Image3 (out of the
+   tray) in 04, the same state; @Image4 (the shatter) only in 08.
 
 ===== EDIT =====
 After the owner's run: the settings read from the history, then frame sheets every 0.25 s, the wrong seconds first.
-- The cut: 24 fps, 1080x1920, the take's own sound at -16 LUFS. Only dead frames go (the spoon's raise to about 0.4 s,
-  the shards after the grape is still); every new picture stays (the owner: longer is better).
-- Text (edits/_tools/meme.mjs, 46 px, the top band only; the 8-frame strip checked first; the emoji only if the
-  sandbox font draws it):
-  - 0.0-3.0 s, centred on y 290: «Would you put these in your drink? 🧊»
-  - 5.0-8.0 s, centred on y 290: «Wait… since when is ice made of sugar? 🤔»
-  - from the strike to the end, 2 lines centred on y 275: «It's not ice. It's candy 🍇<br>Send it to the friend
-    you'd prank 😈»
-- The zoom edit (zoom_pro.py and a spec for this reel; our own frames, no regeneration). NO SHAKE anywhere (owner,
-  21 Nov: «ما بدي هزة ... حاسس حالي بهزة أرضية»). Every shot gets its own camera move, one bigger accent every 3-4 s,
-  calm eased drifts between them:
-  - 0.0 s, the hook edit: starts at 1.45 on the falling cube, an eased pull-out to 1.0 by 1.2 s (the glass revealed),
+- The cut: 24 fps, 1080x1920, the take's own sound at -16 LUFS. Only dead frames go (a hold, a reach, a repeat); every
+  reveal stays. A cut about every 1.5 s, as the take is written.
+- Text (meme.mjs, 46 px, the top band only; the 8-frame strip checked first): the three lines in THE TEXT above.
+- The zoom edit (zoom_pro.py and a spec for this reel; our own frames, no regeneration). NO SHAKE. Every shot its own
+  camera move, a bigger accent every 3-4 s, calm eased drifts between them:
+  - 01, 0.0 s (the hook): starts at 1.45 on the falling cube, an eased pull-out to 1.0 by 1.2 s (the glass revealed),
     then a slow push back in to 1.2 by the sixth clink;
-  - 3.0 s, the grapes: a slide left to right across the towel at 1.15;
-  - 4.0 s, the tray: a turning overhead (a 4° turn at 1.2);
-  - 5.0 s, the sugar: a tilt down from the jug to the sugar turning clear;
-  - 6.5 s, the microwave (an accent): an eased push-in to 1.4 under the re-hook line;
-  - 8.0 s, the crunch: a 3° dutch tilt at 1.15, a punch-in to 1.35 on the snap;
-  - 9.5 s, the pour: a slow push along the ribbon of syrup;
-  - 11.0 s, the hiss (an accent): a pull-out reveal from 1.35 to 1.0;
-  - 12.0 s, the pop: a slide right to left at 1.2 across the cubes;
-  - 13.5 s, the sinking: a tilt down that follows the cubes to the bottom of the glass;
-  - 15.0 s, the strike (the accent and the peak): a slow push from 1.0 to 1.25 while the spoon rises, a punch-in to 1.5
-    on the strike, the slow burst held; the last frame is the grape among the shards.
+  - 02, 3.0 s (accent): a turning overhead (0 to 4° at 1.2), a push to 1.35 along the ribbon of syrup;
+  - 03, 4.5 s: a pull-out reveal from 1.35 to 1.0 as the steam rises;
+  - 04, 6.0 s: a slide right to left at 1.2 across the cubes as they pop;
+  - 05, 7.5 s (accent): an eased push-in from 1.0 to 1.5 into the glowing grape;
+  - 06, 9.0 s: a tilt down at 1.25 that follows the cubes to the bottom of the glass;
+  - 07, 10.5 s (accent): a punch-in from 1.0 to 1.3 on his face at the tilt, a 3° dutch angle;
+  - 08, 12.0 s (the peak): a slow push from 1.0 to 1.2 into the strike, a punch-in to 1.5 on the strike, the slow
+    burst held, an ease back to 1.3 on the grape;
+  - 09, 16.0 s: a punch-in from 1.0 to 1.3 on the crunch, then a slow push to the bitten half.
 - Caption: English first with the full recipe (N° 020 word for word, the tray marked as ours), a Thai line, Arabic
   last; keyword CANDY; the send line «Send it to the friend you'd prank 😈».
