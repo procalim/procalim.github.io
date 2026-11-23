@@ -47,3 +47,17 @@ The first read compared only each shot's first and last frame, so it missed thes
 - **Going and coming back (الروحة والرجعة):** the cubes fall into the pot, rise back up in reverse, fall again
   (2.13-2.80 s); the tenders' landing does the same.
 - Slow motion on the throws, the spice dust glittering in the backlight.
+
+## Side by side with our v5 (0.1 s frames, after the owner: «ههههه مش نفسو»)
+The edit timing and effects now match; the gap is in the shots the generation gave us:
+- **Angles:** his camera is low, at counter height, or 45 degrees from the side, often with a Dutch tilt on the throws
+  (6.3-7.1 s, 14.3-15.3 s); a slow arc around the waffle iron (7.2-8.0 s). Ours is frontal, centred and symmetrical,
+  and the fillings are flat top-downs.
+- **Distance:** his skit is chest-up and close from the first frame, he moves toward the lens; our first shot is
+  full-body and small in the frame. Our grill shot (8.0-9.4 s) is mostly dark, the face cut at the frame top.
+- **Hands and face:** bare tattooed hands doing every action, his face in the frame looking at the food; ours black
+  gloves, the face often cropped.
+- **Light:** a deep blue-violet backlight behind him with warm food and skin, glitter dust in the backlight on the
+  landing; ours black with amber bokeh.
+- **The end:** three-quarter profile, the blue rim light, the plate in the foreground; ours frontal.
+These are prompt (camera) changes, not edit changes. The edit can only crop tighter, tilt and push the shadows blue.
