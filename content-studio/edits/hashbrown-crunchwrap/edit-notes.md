@@ -159,3 +159,17 @@ Measured against Kevin's file (the same script on both):
 - The rule is now in the reels-director skill (completion rule 11) for every video.
 - 25.0 s, 2160x3840, 0% silence, -16.6 LUFS, peak -0.7 dB.
 - B10 (the three lines): media 028037ec. A10 (no text): media 34ee7f65. Side by side with Kevin: media 11e51514.
+
+## v11 after the owner: «وين التداخل ... 10 مرات ولا وحدة صح»
+- What v10 missed, read again frame by frame (Kevin 2.63-3.07 s): in his overlap the pot stays exactly in place and
+  only he changes, so the eye reads "the same thing, with the rest dissolving over it" (the owner's «أمور متطابقة
+  وتتداخل»). v10 dissolved shots whose frames do not line up, at 6 frames, so it read as a flash and nobody saw it.
+- Our shots inside a setup line up once the punch-ins are off (SIFT: lettuce to sauce 711 inliers, sauce to cheese
+  642, lid to waffle 563).
+- v11 (build11.py, compose11.py): the 7 punch-ins off; 13 overlaps of 8 frames only where the shots share a setup (the
+  pile growing in the bowl; the egg, the cornstarch, the spices in one bowl; the slit, chicken, lettuce, sauce and cheese
+  appearing on one tortilla; the lid and the waffle; the two folds; the lift, the plate, the knife, the knife going
+  through), each lined up on what the two share (a similarity, eased from one framing to the other); the other cuts
+  hard on action; his two swells kept.
+- 25.0 s, 2160x3840, the v8 sound (-16.6 LUFS).
+- B11 (the three lines): media 71c5a90b. A11 (no text): media 226c51d4. Side by side with Kevin: media c94d8658.

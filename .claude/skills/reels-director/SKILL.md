@@ -103,12 +103,13 @@ every edit from now:
      swell into the lens and his forward-reverse-forward throws).
    - Export at the take's resolution: a 4K take stays 4K (edits/_tools/zoom_kevin.py).
 11. **Every edit cuts like Kevin, on every video** (owner, 2026-11-23: «نعم بالضبط ... طبق هذا الأمر على جميع
-   الفيديوهات»; the reference work is edits/hashbrown-crunchwrap/build10.py):
-   - Overlaps: the cuts become short overlaps (a dissolve of about 0.25 s, centred on the cut, from handle frames) where
-     the two shots meet; inside a long action, a moment dissolves into a later moment (his 2.70-2.94 s). Only the
-     swell cuts stay as swells.
+   الفيديوهات»; the reference work is edits/hashbrown-crunchwrap/build11.py and compose11.py):
+   - Overlaps (his 2.70-2.94 s): where two shots share a setup, the cut becomes an overlap of 8 frames or more, centred
+     on the cut (handle frames), with the shared object (the bowl, the tortilla, the pan, the plate) lined up so it
+     stays in place while the rest dissolves over it (compose11.py). Unaligned dissolves read as a flash: other cuts
+     stay hard cuts on action, and the swells stay swells.
    - Cut on action: every shot starts and ends mid-move, and the move carries into the next shot.
-   - Wide and close: inside one setup, consecutive shots alternate between the full frame and a punch-in on the action.
+   - Wide and close: a punch-in on the action where a cut is not an overlap (never inside an overlap run: it breaks the line-up).
    - Speed ramps: fast, slow on the moment (the drop, the landing, the pour), fast again.
    - The camera rhythm is the reference's, measured per shot (cmpcam), never faster: no added effects it does not have.
    - The take's own framing and colours unless the owner asks: no crop base, no Dutch tilt, no grade.
