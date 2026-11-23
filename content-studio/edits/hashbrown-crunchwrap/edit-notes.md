@@ -135,3 +135,16 @@ Measured against Kevin's file (the same script on both):
   potato swell kept on purpose (+43% in the last third against his -1%); the flip +14% against his +9%.
 - 25.0 s, 2160x3840, 0% silence, -16.6 LUFS, peak -0.7 dB.
 - B8 (the three lines): media ca6288f2. A8 (no text): media a5bdfa4d. Side by side with Kevin: media 6a8800db.
+
+## v9 after the owner: «شوف التنقل بام هالفيديو»
+- All 30 of Kevin's cuts read again, 4 frames each side: most of his cuts change the distance on the same action, which
+  keeps going (12.21 the pour wide then close; 16.95 and 17.28 the pan wide, punch-in, closer; 18.18 the waffle; 19.45
+  and 19.92 the tender; 20.95 the topping). Punch-in cuts made in the edit.
+- Ours cut between slots of the same setup (the egg/cornstarch/spices bowl, the five fillings, the folds, the plate, the
+  knife) with the same frame every time.
+- v9 (build9.py): v8 plus a punch-in on every second slot of a shared setup (7 slots, 1.40-1.45x from the 4K), framed on
+  the action (the egg to the cornstarch close-up, the slit to the chicken, the lettuce to the sauce, the lid to the
+  waffle, fold 1 to fold 2, the lift to the plate, the knife to the knife going through). The camera, the ramps and the
+  sound as v8.
+- 25.0 s, 2160x3840, 0% silence, -16.6 LUFS, peak -0.7 dB.
+- B9 (the three lines): media 95658f0e. A9 (no text): media fb74ad43. Side by side with Kevin: media 70d77e8d.
