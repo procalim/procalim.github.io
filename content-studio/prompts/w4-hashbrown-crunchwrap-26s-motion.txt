@@ -1,0 +1,66 @@
+The Hashbrown Crunchwrap, 26 s, on Kevin's motion as Higgsfield's video analysis read it (the owner, 23 Nov: «روح على
+هيغسفيلد واعطي فيديو كيفين ... وخلي يكتبلي مطالبة للحركة والموتيشن»; research/kevin-motion-higgsfield-2026-11-23.md).
+Its prompt's [ACTION]s filled with our recipe, word for word from the book (book-additions/hashbrown-crunchwrap.md:
+N° 110 + N° 008; ours: the hashbrown laid on the chicken quarter), on Kevin's measured seconds (his cuts from the file,
+research/kevin-motion-2026-11-23.md; Higgsfield's own seconds are approximate). Its motion kept: the camera mostly
+locked, the motion from the action toward and away from the lens, hard cuts, cuts on action, the overlaps (his 2.70 s
+and his 13.2-13.8 s), the punch-ins, the match cuts, slow motion and speed ramps on the throws and drops.
+
+SETTINGS (higgsfield.ai): Seedance 2.5, Omni reference, 26 s, 9:16, bitrate High, audio On. Character element
+char_ahmet-salameh-codex (fa420272; no sunglasses, mustache only). Images in this order: @Image1 the kitchen
+(325df734); @Image2 the crunchwrap, cut (d3590ce4); @Image3 the living room (a6a88ed7). Halal: grilled chicken.
+
+===== PROMPT =====
+A vertical 9:16 hyper-kinetic cooking montage, exactly 26 seconds, no text, precise shot-by-shot timing and transitions: a comic potato opening in a bright living room, then a dark cinematic kitchen where it becomes a waffle hashbrown folded into a toasted tortilla crunchwrap. The camera is mostly locked, never shaking; the motion comes from the action: food thrown up, dropped into frame, rushing at the lens; slow motion and speed ramps on every throw and drop; every edit lands while something is still moving.
+
+REFERENCES (look and shape only; the action and camera follow the shot list): @Image1 his kitchen, @Image2 the finished crunchwrap, @Image3 the living room.
+
+THE COOK: his character element, a mustard-yellow t-shirt; in the kitchen also a black apron with leather straps and black nitrile gloves. Face clearly visible, a thick dark mustache only, clean-shaven chin, no sunglasses, no glasses. He never speaks.
+
+THE CRUNCHWRAP: a flour tortilla folded into a fat triangle, toasted golden and crisp, cut in half from its tip to its long edge; its cut face: melted cheese, grilled chicken, a golden waffle-pattern potato hashbrown, lettuce, tomato, burger sauce.
+
+[0.00-1.20s] Medium, locked, eye level, the bright living room, no apron, no gloves: he tosses a big russet potato up high and catches it, real time. Hard cut on the catch to:
+[1.20-2.04s] Chest-up punch-in, the same room, locked: he holds the potato over his eyes, a comic pause, then pushes it at the lens until it fills the frame. Hard cut on action to:
+[2.04-3.47s] Low angle at counter height, dark kitchen, locked, a glass bowl low in frame, his face soft above: he grates a peeled potato fast on a box grater, the shreds raining into the bowl in 50% slow motion toward the lens; 2.70-2.94s a 0.25 s cross-dissolve overlap to the same bowl, fuller, the bowl staying exactly in place. Hard cut to:
+[3.47-4.40s] Close-up, side 45 degrees, locked, speed ramp fast to slow: his gloved fists twist the shreds hard in a clean white towel, the liquid spraying out in a slow-motion arc. Hard cut to:
+[4.40-4.84s] 45-degree macro, locked: an egg drops into the bowl of dry shreds. Hard cut to:
+[4.84-5.17s] Eye-level macro, locked: a spoon of cornstarch tips in with a soft white puff. Hard cut to:
+[5.17-5.61s] Eye-level macro, locked: onion powder, salt and black pepper shake down into the bowl. Hard cut to:
+[5.61-6.31s] Medium, slight high angle, locked: a fork mixes the dry shreds with the egg and seasonings, then lifts a clump. Cut on action to:
+[6.31-7.24s] Low angle from the counter, a slight Dutch tilt: he lifts a big clump of the mix on the fork straight at the lens. Hard cut to:
+[7.24-9.54s] Low angle up from an open black waffle iron, locked: oil spray mists the hot plates, he places a handful of the mixture down toward the lens, the lid swings down at the camera, steam bursting out. Hard cut to:
+[9.54-10.14s] 45-degree macro on a dark walnut board, locked: a flour tortilla lies flat; a knife makes a single slit from its bottom edge up to its centre point. Match cut, the same angle, to:
+[10.14-10.98s] The same macro angle, slow motion at 60%: grilled chicken slices drop from his gloved fingers onto the top-left quarter. Hard cut to:
+[10.98-12.21s] The same angle, slow motion at 60%: lettuce and tomato slices drop onto the top-right quarter. Hard cut to:
+[12.21-13.11s] Low-angle close-up, locked: burger sauce pours thick from a small jug onto the bottom-right quarter. Hard cut to:
+[13.11-13.91s] Eye-level macro, locked: two cheese slices laid on the bottom-left quarter; a 0.3 s cross-dissolve overlap, the tortilla staying exactly in place, to all four quarters filled. Hard cut to:
+[13.91-14.28s] Close-up, locked: the iron's lid lifts on a deeply golden waffle hashbrown, steaming. Hard cut to:
+[14.28-15.42s] Low angle, a slight Dutch tilt, speed ramp fast-slow-fast: he flips the hashbrown up off a spatula; it hangs in slow motion above his face. Cut on action to:
+[15.42-16.38s] Low and frontal over the tortilla, his arms up behind, speed ramp: the hashbrown falls in slow motion and lands flat on the chicken quarter, fast at impact, salt glittering in the backlight. Hard cut to:
+[16.38-17.62s] Four quick 0.3 s macro inserts, locked: the bottom-left quarter folds up over the top-left; that folds over to the top-right; then down onto the bottom-right, a fat triangle; it lands in a hot black skillet, sizzling. Punch-in cut to a tighter macro, the edge toasting golden. Hard cut to:
+[17.62-18.18s] Eye-level, a white plate below, locked: his gloved hands hold up the toasted triangle. Punch-in cut, the same action closer, to:
+[18.18-18.89s] Macro, locked: he sets the triangle down on the white plate. Hard cut to:
+[18.89-19.92s] Two quick macro inserts, locked: a big knife cuts it in half from its tip to its long edge with a loud crunch, the blade pushing through. Hard cut to:
+[19.92-20.95s] Macro, slight high angle, locked: his gloved hands pull the halves apart, the melted cheese stretching. Hard cut to:
+[20.95-22.06s] Macro side profile, locked: a pepper mill twists over the halves, pepper falling straight down. Hard cut to:
+[22.06-23.59s] Macro: he lifts one half toward the camera; match cut on the lift to an ultra-macro static cross-section, layer by layer, a little steam. Hard cut to:
+[23.59-26.00s] Medium, slight low angle, locked, at the kitchen counter: he takes a big crunchy bite, chews and leans back, satisfied. No cut to black.
+
+SOUND: punchy real sounds synced to each action: the grater, the squeeze, the iron's hiss, the drops, the landing, the sizzle, the crunch of the cut, the bite. No music, no voice.
+
+AVOID: shaky camera, sunglasses, glasses, a beard, stubble, a different face, apron or gloves in the living room, bare hands in the kitchen, a rolled burrito, a round wrap, a deep fryer, fries, bacon, ham, pork, cold cuts, alcohol, logos, brand names, text, numbers, music, talking, other people, extra fingers, deformed hands, distorted face.
+
+===== PRE-FLIGHT =====
+prompt_check.py (23 Nov): no FAIL, no WARN (two 'center' and 'middle' places fixed: the slit from the bottom edge up
+to its centre point; "every edit lands while something is still moving").
+1. Anything before the action that makes it? The hashbrown shows golden only when the lid lifts (13.91); the triangle
+   only after the folds (16.38); the cut face only after the knife (18.89). The filled quarters (13.11) come after
+   each filling dropped in.
+2. Places by part: the slit from the bottom edge up to the centre point (the book: «one cut from center down to the
+   bottom edge»); each filling on a named quarter (chicken top-left, lettuce and tomato top-right, sauce bottom-right,
+   cheese bottom-left, as the July prompt checked for the chef's note); the cut from the tip to the long edge.
+3. Read in Arabic: «شق واحد من الطرف التحتاني لنقطة النص»، «بيقلب الهاش براون لفوق عن السباتولا» — one meaning each.
+4. One action per shot, except the bursts (4.40-5.61 three inserts, 16.38-17.62 four inserts, 18.89-19.92 two
+   inserts), as Higgsfield read Kevin's.
+5. Images for look only, named once, no shot tied to an image (rule 11).
+Length: 6,002 characters (the 26 s prompt of job 8790f4de was 5,954).
