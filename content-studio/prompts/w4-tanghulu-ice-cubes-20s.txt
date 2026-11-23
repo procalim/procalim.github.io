@@ -1,3 +1,4 @@
+Status: REPLACED by prompts/w4-tanghulu-ice-cubes-30s.txt (23 Nov: the 58M reel as our reference, images as references only).
 Ice Cubes That Aren't «تلج مش تلج», 20 s, v2, written from scratch (N° 020 Tanghulu (Microwave Method), p167, + the
 ice-cube tray: book-additions/tanghulu-ice-cubes.md). Invention bank 5.1. The owner, 21 Nov: «اكتب برومت من اول جديد».
 v1 put 6 ordinary prep shots of 11 at 3-12 s (the towel, the water on the sugar, the microwave, the chopstick), the
