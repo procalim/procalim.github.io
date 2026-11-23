@@ -102,6 +102,17 @@ every edit from now:
    - Read the reference at its full frame rate, not first and last frames: its effects live inside the shots (Kevin's
      swell into the lens and his forward-reverse-forward throws).
    - Export at the take's resolution: a 4K take stays 4K (edits/_tools/zoom_kevin.py).
+11. **Every edit cuts like Kevin, on every video** (owner, 2026-11-23: «نعم بالضبط ... طبق هذا الأمر على جميع
+   الفيديوهات»; the reference work is edits/hashbrown-crunchwrap/build10.py):
+   - Overlaps: the cuts become short overlaps (a dissolve of about 0.25 s, centred on the cut, from handle frames) where
+     the two shots meet; inside a long action, a moment dissolves into a later moment (his 2.70-2.94 s). Only the
+     swell cuts stay as swells.
+   - Cut on action: every shot starts and ends mid-move, and the move carries into the next shot.
+   - Wide and close: inside one setup, consecutive shots alternate between the full frame and a punch-in on the action.
+   - Speed ramps: fast, slow on the moment (the drop, the landing, the pour), fast again.
+   - The camera rhythm is the reference's, measured per shot (cmpcam), never faster: no added effects it does not have.
+   - The take's own framing and colours unless the owner asks: no crop base, no Dutch tilt, no grade.
+   - Before sending: the side-by-side with the reference at the same second, and every cut read at full frame rate.
 **Read:** the curve at 3, 6 and 10 s and at the end; the average watch as a share of the length; views per viewer.
 **Prompt template:** prompts/_template-never-made-14s.txt. **The ideas:** idea-lab/invention-bank.md.
 

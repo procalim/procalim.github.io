@@ -148,3 +148,14 @@ Measured against Kevin's file (the same script on both):
   sound as v8.
 - 25.0 s, 2160x3840, 0% silence, -16.6 LUFS, peak -0.7 dB.
 - B9 (the three lines): media 95658f0e. A9 (no text): media fb74ad43. Side by side with Kevin: media 70d77e8d.
+
+## v10 after the owner: «كيف بصير في تداخل ... الثانية الثالثة للثانية الثانية» then «نعم بالضبط ... طبق هذا الأمر على جميع الفيديوهات»
+- Kevin's overlap read at full frame rate: 2.70-2.94 s, the cubes falling and him stirring play on top of each other
+  for 8 frames (a dissolve), and 3.20-3.40 s the hand with the cup fades in the same way.
+- v10 (build10.py, compose10.py): every slot rendered with 3 handle frames each side (the move continues at its edge
+  speed); 29 of 31 cuts become overlaps centred on the cut (6 frames, 4 for the quick inserts), so his cut times stay;
+  his two swell cuts (2.04, 7.24) stay swells; the shreds slot split at 2.82 s for his in-shot overlap (a moment
+  dissolving into a later moment). Camera, ramps, punch-ins and sound as v9.
+- The rule is now in the reels-director skill (completion rule 11) for every video.
+- 25.0 s, 2160x3840, 0% silence, -16.6 LUFS, peak -0.7 dB.
+- B10 (the three lines): media 028037ec. A10 (no text): media 34ee7f65. Side by side with Kevin: media 11e51514.
