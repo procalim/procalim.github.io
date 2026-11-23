@@ -36,3 +36,12 @@ and the skillet (17.6 s); quiet stretches at 1.0-1.7, 7.0-7.7 and 23-25 s.
   is a half-moon).
 - Sound: the take's own, to -14 LUFS (Kevin -14.2) with the house peak-only limiter; the music bed is the owner's
   trending Instagram sound, added in the app at low volume.
+
+## The result
+- 545 frames, 22.71 s, 1080x1920, 24 fps (from the 4K take); cuts at the bounds 0, 13, 49, 71, 105, 121, 131, 139, 149,
+  163, 185, 201, 223, 240, 251, 261, 268, 281, 291, 309, 325, 348, 365, 375, 397, 423, 454, 471, 509 (frames).
+- Sound: -16.9 LUFS, true peak -1.9 dB (+8.5 dB, the peak-only limiter at 0.75). Kevin's -14 includes his music bed; a
+  food-only track this dynamic reaches -14 only with heavy limiting, which flattens the crunches, so it stays at -16.9
+  and the owner's trending sound brings it up.
+- B (the three lines): media ca0ca918. A (no text): media 8fd96945.
+- The 0.25 s strip of the hook: the box sits above his head; the potato reaches the top edge at 0.5 s, above the box.
