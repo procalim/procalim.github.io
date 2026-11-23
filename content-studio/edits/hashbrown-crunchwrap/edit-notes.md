@@ -62,3 +62,14 @@ Measured against Kevin's file (the same script on both):
 - v3 look: the kitchen graded darker and richer with cool shadows (Kevin's dark kitchen and rim light); the skit stays
   bright.
 - B3 (the three lines): media 001eb344. A3 (no text): media 74d3f31f.
+
+## v4 after the owner: «شوف كيف الافكت تاعه وكيف التضخم وكيف الروحة والرجعة ... ونزلت لي جودة الفيديو من 4K ل HD»
+- What the frame-by-frame read of Kevin's file showed (30 fps sheets; research/kevin-motion-2026-11-23.md, the
+  effects section): the swell, a fast zoom into the lens with motion blur on the last frames of a shot and a zoom-out
+  settle on the next (1.93-2.10 s, 7.10-7.30 s); the going and coming back on a throw, forward, reverse, forward
+  (2.13-2.80 s), and on the tenders landing.
+- v4: 4K end to end (2160x3840, crf 17); the swell out of the potato over his eyes, the clump to the lens and the
+  hashbrown over his face, and the swell in on the next shots; the boomerang on the shreds throw and on the hashbrown
+  landing; the slow-motion hook and bite; the v3 sound (no silence, -17.1 LUFS, peak -0.2 dB) and grade; the text at
+  4K (deviceScaleFactor 2). 555 frames, 23.13 s.
+- B4 (the three lines): media 43a82283. A4 (no text): media 9f34f721.

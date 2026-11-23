@@ -99,6 +99,9 @@ every edit from now:
    - Never cut the take's sound into short pieces without L-cut tails.
    - Never stretch slow-motion sound; place it at real speed on its frame.
    - Keep a bed under everything: the reference's music, a trending sound, or a room tone.
+   - Read the reference at its full frame rate, not first and last frames: its effects live inside the shots (Kevin's
+     swell into the lens and his forward-reverse-forward throws).
+   - Export at the take's resolution: a 4K take stays 4K (edits/_tools/zoom_kevin.py).
 **Read:** the curve at 3, 6 and 10 s and at the end; the average watch as a share of the length; views per viewer.
 **Prompt template:** prompts/_template-never-made-14s.txt. **The ideas:** idea-lab/invention-bank.md.
 

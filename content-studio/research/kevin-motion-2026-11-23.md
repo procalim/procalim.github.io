@@ -38,3 +38,12 @@ estimate per shot (first vs last frame). Only the motion is taken; the food, the
 - 31 shots in 25.84 s (1.2 cuts a second); the skit 2.04 s; the end is him eating in the kitchen.
 - Sound: a continuous music bed under the food sounds (no gap below -33 dB; spectral flatness 0.24 against our
   foley-only 0.44), -14.2 LUFS.
+
+## The effects (read again at 30 fps, after the owner: «شوف كيف الافكت تاعه وكيف التضخم وكيف الروحة والرجعة»)
+The first read compared only each shot's first and last frame, so it missed these:
+- **The swell (التضخم):** at some cuts the shot zooms fast into the lens (+2 to +3% a frame for 5-9 frames) with motion
+  blur, the potato rushing at the camera before the cut to the kitchen (1.93-2.04 s), the dough at 7.10-7.24 s; the
+  next shot starts zoomed in and settles out (-1.5 to -2.5% a frame for about 10 frames after 2.04 s).
+- **Going and coming back (الروحة والرجعة):** the cubes fall into the pot, rise back up in reverse, fall again
+  (2.13-2.80 s); the tenders' landing does the same.
+- Slow motion on the throws, the spice dust glittering in the backlight.
