@@ -12,6 +12,18 @@ maestro's answer, built on the numbers read through the Instagram API on 23 Nov,
 | The Safe (16.4 s, no text) | 13.8 h | 1,101 | 40.5% | 7.6 s (46%) | 0 | 0 | 1 |
 | Spinach crinkle | 1 h | 158 | 22.6% | 6.7 s | 0 | 2 | 1 |
 
+## THE FORMULA, locked (the owner, 23 Nov: «هيك صح سجلها عند استراتيجية دايما بنفس البرومبت والقصة والشغل بس تغيير الوصفات»)
+- Every reel: the same prompt, the same story, the same work: prompts/_template-kevin-motion-26s.txt (Kevin's motion
+  as Higgsfield's video analysis read it, on his measured seconds). Only the recipe changes, word for word from the book.
+- The story: a comic opening with the hero ingredient in a bright living room (0-2.04 s), pushed at the lens; the dark
+  kitchen; the first big step falling into a bowl; the quick additions; the clump at the lens; the cooker's lid at the
+  camera; the assembly on one base with an overlap; the throw and the slow landing; the folds; the hold-up, the cut,
+  the pull-apart, the finishing touch, the cross-section; the bite.
+- The work: the take carries the motion; the edit only cuts on the prompt's seconds, keeps its two overlaps, adds the
+  three lines and the sound. No new effects per reel.
+- A reference video is read by Higgsfield's video analysis, never by Claude's still frames (Claude does not see motion;
+  eleven edits of the crunchwrap missed it, 23 Nov).
+
 ## The equation
 Sales = reach x want-to-make (saves/1K) x the ask (keyword comments/1K) x delivery (DM -> link) x buy.
 - The spectacle reel wins reach (lantern 35.7K) and loses every term after it (0.17 saves/1K, 0.03 comments/1K).

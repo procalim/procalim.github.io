@@ -115,7 +115,7 @@ every edit from now:
    - The take's own framing and colours unless the owner asks: no crop base, no Dutch tilt, no grade.
    - Before sending: the side-by-side with the reference at the same second, and every cut read at full frame rate.
 **Read:** the curve at 3, 6 and 10 s and at the end; the average watch as a share of the length; views per viewer.
-**Prompt template:** prompts/_template-never-made-14s.txt. **The ideas:** idea-lab/invention-bank.md.
+**Prompt template (locked 23 Nov, every reel):** prompts/_template-kevin-motion-26s.txt: the same prompt, story and edit; only the recipe changes («دايما بنفس البرومبت والقصة والشغل بس تغيير الوصفات»). A reference video is read by Higgsfield's video analysis (it watches motion; Claude reads still frames only, and says so). The older template: prompts/_template-never-made-14s.txt. **The ideas:** idea-lab/invention-bank.md.
 
 ## THE TABLE: "What impacts your views", row by row (owner, 2026-11-21: «افعل ما يتطلبه بالجدول»)
 Instagram lists these rates in order of importance to reach. Every edit and caption answers each row, in this order:

@@ -1,0 +1,68 @@
+THE TEMPLATE: every reel, the same prompt, story and work; only the recipe changes (the owner, 23 Nov: «هيك صح سجلها
+عند استراتيجية دايما بنفس البرومبت والقصة والشغل بس تغيير الوصفات»).
+Source: Higgsfield's video analysis of Kevin's file (research/kevin-motion-higgsfield-2026-11-23.md) on his measured
+seconds (research/kevin-motion-2026-11-23.md). The first filled one: prompts/w4-hashbrown-crunchwrap-26s-motion.txt.
+
+HOW TO FILL
+- The recipe comes from the book word for word (book-additions/ or the book), halal only. Map its steps onto the
+  slots below in order: the first big step falls into a bowl (2.04), a squeeze/flick/powder arc (3.47), three small
+  additions (4.40-5.61), the mix and the clump (5.61-7.24), the cooker with a lid or door toward the camera (7.24),
+  the assembly on one base in one macro angle (9.54-13.91), the reveal of the cooked part (13.91), the throw and the
+  landing (14.28-16.38), the folds or the finish in quick inserts (16.38), the hold-up, the cut, the pull-apart, the
+  finishing touch, the cross-section, the bite.
+- Change only what is in [BRACKETS]. Keep every second, every camera word, every speed and every transition.
+- A recipe with fewer steps: a slot keeps its seconds and shows the same step closer (a punch-in), never a new prep
+  shot of something ordinary (the cliff).
+- Then prompt_check.py and the 5 PRE-FLIGHT answers; the length near 6,000 characters.
+- A new reference video: Higgsfield's video analysis reads it (it watches motion; Claude reads still frames only).
+
+SETTINGS (higgsfield.ai): Seedance 2.5, Omni reference, 26 s, 9:16, bitrate High, audio On. Character element
+char_ahmet-salameh-codex (fa420272). Images in this order: @Image1 the kitchen (325df734); @Image2 [THE FINISHED DISH];
+@Image3 the living room (a6a88ed7).
+
+===== PROMPT =====
+A vertical 9:16 hyper-kinetic cooking montage, exactly 26 seconds, no text, precise shot-by-shot timing and transitions: a comic [HERO INGREDIENT] opening in a bright living room, then a dark cinematic kitchen where it becomes [THE DISH]. The camera is mostly locked, never shaking; the motion comes from the action: food thrown up, dropped into frame, rushing at the lens; slow motion and speed ramps on every throw and drop; every edit lands while something is still moving.
+
+REFERENCES (look and shape only; the action and camera follow the shot list): @Image1 his kitchen, @Image2 the finished [DISH], @Image3 the living room.
+
+THE COOK: his character element, a mustard-yellow t-shirt; in the kitchen also a black apron with leather straps and black nitrile gloves. Face clearly visible, a thick dark mustache only, clean-shaven chin, no sunglasses, no glasses. He never speaks.
+
+THE [DISH]: [ONE SENTENCE: its final shape and its cut face, layer by layer, the same words as the @Image2 prompt].
+
+[0.00-1.20s] Medium, locked, eye level, the bright living room, no apron, no gloves: he tosses [HERO INGREDIENT] up high and catches it, real time. Hard cut on the catch to:
+[1.20-2.04s] Chest-up punch-in, the same room, locked: he holds [HERO INGREDIENT] over his eyes, a comic pause, then pushes it at the lens until it fills the frame. Hard cut on action to:
+[2.04-3.47s] Low angle at counter height, dark kitchen, locked, [A GLASS BOWL OR POT] low in frame, his face soft above: [THE FIRST BIG STEP, FALLING INTO IT] in 50% slow motion toward the lens; 2.70-2.94s a 0.25 s cross-dissolve overlap to the same [BOWL], fuller, the [BOWL] staying exactly in place. Hard cut to:
+[3.47-4.40s] Close-up, side 45 degrees, locked, speed ramp fast to slow: [A SQUEEZE, A FLICK OR A POWDER ARC] in a slow-motion arc. Hard cut to:
+[4.40-4.84s] 45-degree macro, locked: [SMALL ADDITION 1] drops into the bowl. Hard cut to:
+[4.84-5.17s] Eye-level macro, locked: [SMALL ADDITION 2] tips in with a soft puff. Hard cut to:
+[5.17-5.61s] Eye-level macro, locked: [SMALL ADDITION 3] shakes down into the bowl. Hard cut to:
+[5.61-6.31s] Medium, slight high angle, locked: a fork mixes [THE MIX], then lifts a clump. Cut on action to:
+[6.31-7.24s] Low angle from the counter, a slight Dutch tilt: he lifts a big clump of the mix on the fork straight at the lens. Hard cut to:
+[7.24-9.54s] Low angle up from [THE COOKER: AN OPEN WAFFLE IRON, A PAN, AN OVEN DOOR], locked: [OIL OR HEAT], he places [THE MIX] down toward the lens, the [LID OR DOOR] swings at the camera, steam bursting out. Hard cut to:
+[9.54-10.14s] 45-degree macro on a dark walnut board, locked: [THE BASE] lies flat; [THE FIRST ASSEMBLY ACTION, ITS PLACE NAMED BY A PART: EDGE, SIDE, TOP, END]. Match cut, the same angle, to:
+[10.14-10.98s] The same macro angle, slow motion at 60%: [FILLING 1] drops from his gloved fingers onto [A NAMED PART]. Hard cut to:
+[10.98-12.21s] The same angle, slow motion at 60%: [FILLING 2] drops onto [A NAMED PART]. Hard cut to:
+[12.21-13.11s] Low-angle close-up, locked: [A SAUCE OR LIQUID] pours thick onto [A NAMED PART]. Hard cut to:
+[13.11-13.91s] Eye-level macro, locked: [FILLING 4] laid on [A NAMED PART]; a 0.3 s cross-dissolve overlap, the [BASE] staying exactly in place, to [THE BASE FULLY FILLED]. Hard cut to:
+[13.91-14.28s] Close-up, locked: the [LID OR DOOR] opens on [THE COOKED PART], deeply golden, steaming. Hard cut to:
+[14.28-15.42s] Low angle, a slight Dutch tilt, speed ramp fast-slow-fast: he flips [THE COOKED PART] up off a spatula; it hangs in slow motion above his face. Cut on action to:
+[15.42-16.38s] Low and frontal over the [BASE], his arms up behind, speed ramp: [THE COOKED PART] falls in slow motion and lands flat on [A NAMED PART], fast at impact, salt glittering in the backlight. Hard cut to:
+[16.38-17.62s] Four quick 0.3 s macro inserts, locked: [THE FOLDS OR THE FINISH, STEP BY STEP, AS THE BOOK SAYS]; [IT GOES INTO THE PAN OR THE PRESS], sizzling. Punch-in cut to a tighter macro, the edge toasting golden. Hard cut to:
+[17.62-18.18s] Eye-level, a white plate below, locked: his gloved hands hold up [THE DISH]. Punch-in cut, the same action closer, to:
+[18.18-18.89s] Macro, locked: he sets [THE DISH] down on the white plate. Hard cut to:
+[18.89-19.92s] Two quick macro inserts, locked: a big knife cuts it [FROM ONE NAMED PART TO ANOTHER] with a loud crunch, the blade pushing through. Hard cut to:
+[19.92-20.95s] Macro, slight high angle, locked: his gloved hands pull the halves apart, [THE PULL: CHEESE, STEAM, SAUCE]. Hard cut to:
+[20.95-22.06s] Macro side profile, locked: [THE FINISHING TOUCH: A PEPPER MILL, A GRATER, A DRIZZLE] over the halves, falling straight down. Hard cut to:
+[22.06-23.59s] Macro: he lifts one half toward the camera; match cut on the lift to an ultra-macro static cross-section, layer by layer, a little steam. Hard cut to:
+[23.59-26.00s] Medium, slight low angle, locked, at the kitchen counter: he takes a big crunchy bite, chews and leans back, satisfied. No cut to black.
+
+SOUND: punchy real sounds synced to each action: [THE 6-8 LOUDEST SOUNDS OF THIS RECIPE], the crunch of the cut, the bite. No music, no voice.
+
+AVOID: shaky camera, sunglasses, glasses, a beard, stubble, a different face, apron or gloves in the living room, bare hands in the kitchen, [WRONG SHAPES FOR THIS DISH], pork, bacon, ham, alcohol, logos, brand names, text, numbers, music, talking, other people, extra fingers, deformed hands, distorted face.
+
+===== THE EDIT (the same every time) =====
+- Cut on the prompt's seconds; the take carries the motion; no added zooms, tilts or effects beyond the prompt's.
+- The two overlaps where the prompt has them (2.70 and 13.11), lined up on the shared object (compose11.py) if the
+  take shows a plain cut there.
+- The text in the top band: the hook question to 2.04, the re-hook in the assembly, the answer from the cut.
+- The sound: the take's own, -14 to -16 LUFS, the house limiter; the owner's trending sound added in the app.

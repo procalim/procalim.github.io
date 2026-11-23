@@ -7,6 +7,8 @@ Instagram reels, Higgsfield video prompts and ChatPlace automations.
   `.claude/skills/reels-director/SKILL.md`.
 - Never generate on Higgsfield without «ولد». Never send messages or emails without «أرسل».
 - Recipes come from the book word for word. Halal only.
-- New reel ideas start from `content-studio/idea-lab/invention-bank.md` (the owner's reference bank).
+- Every reel uses `content-studio/prompts/_template-kevin-motion-26s.txt`: the same prompt, story and edit; only the
+  recipe changes (the owner, 23 Nov). A reference video is read by Higgsfield's video analysis, not by still frames.
+- New reel ideas from `content-studio/idea-lab/invention-bank.md` only when the owner asks for one.
 - Every reel follows `content-studio/playbook.md`: its steps and checks in order, and every step logged there.
 - Video editing tools live in `content-studio/` (installed by the SessionStart hook).
