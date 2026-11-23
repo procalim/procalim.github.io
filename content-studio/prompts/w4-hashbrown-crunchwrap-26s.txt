@@ -19,18 +19,18 @@ KEVIN -> OURS
 | 19.9-22.1 | the topping; the grater | the halves pulled apart; the pepper mill |
 | 22.1-25.8 | the hero macro; he eats | the hero macro; he eats |
 
-SETTINGS (higgsfield.ai): Seedance 2.5, Omni reference, 26 s, 9:16, bitrate High, audio On. The owner, 23 Nov:
-«تغيير واحد وهو رؤية الوجه شيل النظارات»: his face shows, no sunglasses. The character element chef-ahmet-yellow
-(41e55e5e) is NOT attached: its sunglasses are part of it. Images: @Image1 the kitchen (325df734); @Image2 the
-crunchwrap, cut; @Image3 the living room; @Image4 the owner's face photo (IMG_2316, the stone bench). Halal: grilled
-chicken, no cold cuts.
+SETTINGS (higgsfield.ai): Seedance 2.5, Omni reference, 26 s, 9:16, bitrate High, audio On. Character element
+char_ahmet-salameh-codex (fa420272; the owner, 23 Nov: no sunglasses, mustache only, the same outfit). Images in this
+order: @Image1 the kitchen (325df734); @Image2 the crunchwrap, cut (Cut_crunchwrap_on_cutting_board_d3590ce4: the
+four-quarter wedge, straight edges, the waffle grid); @Image3 the living room (Living_room_with_cream_sofa_dd7b784a).
+Halal: grilled chicken, no cold cuts.
 
 ===== PROMPT =====
 A vertical 9:16 cinematic food film, exactly 26 seconds, no text. A short comic opening in a bright living room with a potato, then a hard cut into a dark cinematic kitchen where the potato becomes a crunchy waffle hashbrown, folded with grilled chicken, lettuce, tomato, sauce and cheese inside a tortilla, toasted, cut open and eaten. The camera pushes in slowly on almost every shot and never shakes; food is thrown or dropped into the frame from above, often in slow motion; low frontal angles at counter height with his face soft behind the food; bursts of quick close inserts between longer hero shots.
 
-REFERENCES: @Image1 is the reference for his kitchen, @Image2 for the look of the finished crunchwrap, @Image3 for the bright living room, @Image4 for his face. Use them as references for look and shape only; the action and the camera in every shot follow the shot list below.
+REFERENCES: @Image1 is the reference for his kitchen, @Image2 for the look of the finished crunchwrap, @Image3 for the bright living room. Use them as references for look and shape only; the action and the camera in every shot follow the shot list below.
 
-THE COOK: the man in @Image4: his face, his eyes, his dark hair with short sides and a thick dark mustache only, his cheeks and chin clean-shaven, exactly his face, clearly visible in every shot where he appears; he wears no sunglasses and no glasses. He wears a plain mustard-yellow t-shirt; in the kitchen also a black apron with brown leather straps and black nitrile gloves. He never speaks.
+THE COOK: his character element: a plain mustard-yellow t-shirt; in the kitchen also a black apron with brown leather straps and black nitrile gloves. His face is clearly visible: his eyes, his short dark hair and a thick dark mustache only, his cheeks and chin clean-shaven; he wears no sunglasses and no glasses. He never speaks.
 
 THE CRUNCHWRAP: a large flour tortilla folded into a fat triangle and toasted golden-brown and crisp, cut in half from its tip to its long edge; its cut face shows the layers: melted cheese, sliced grilled chicken, a golden crunchy waffle-pattern potato hashbrown, crisp lettuce and tomato, and burger sauce.
 
@@ -78,8 +78,8 @@ prompt_check.py (23 Nov): no FAIL; three WARN, answered:
    الرغيف», a slit and not a cut through; "flips ... up into the air off a spatula" «بيقلبها لفوق بالهوا». One meaning each.
 4. One action per shot, except the quick bursts (05, 13, 16), which the edit splits into Kevin's inserts.
 5. The images are references for look only, named once; no shot is tied to an image (rule 11).
-(23 Nov, the owner's one change) No sunglasses: the face from @Image4, the element not attached (its sunglasses are
-built in); the lens line is gone with the sunglasses.
+(23 Nov) No sunglasses: the new element char_ahmet-salameh-codex (fa420272) carries the face with no sunglasses and
+the mustache only; the lens line is gone with the sunglasses.
 
 ===== EDIT (Kevin's edit, our frames) =====
 - Cut on Kevin's times (the take is written on them); the quick shots (05, 13, 16) split into his 0.3-0.45 s inserts.
