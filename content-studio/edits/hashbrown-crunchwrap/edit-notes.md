@@ -108,3 +108,18 @@ Measured against Kevin's file (the same script on both):
   shadows; the skit warmer. Our v4 grade made the mids darker than his (33 against 60); the LUT replaces it.
 - Checked side by side with his file at the same second (sbs6 media 793d5d51).
 - B6 (the three lines): media 05f998e0. A6 (no text): media b4bbae36.
+
+## v7 after the owner: «انت هيك خربت الفيديو ... وين الموتيشن» (v6 rejected: the crops and Dutch angles)
+- Asked which motion: he picked all four (cut on action, speed ramps, effects between the shots, camera moves inside
+  the shot) on «الفيديو الأصلي كما ولّدته»: the take's own framing and colours, no crop base, no tilt, no grade.
+- What Kevin's cuts showed at full frame rate (4 frames each side of all 30 cuts): almost every cut lands mid-move and
+  the move carries into the next shot (the potato coming down becomes the cubes dropping at 2.04 s; the clump flying
+  at the lens becomes the batter landing on the iron at 7.24 s).
+- v7 (build7.py): the take's motion read per frame (optical flow); every slot starts and ends mid-move; speed ramps on
+  15 slots (fast 1.2-1.4x, slow 0.4-0.6x on the toss, the drop, the squeeze, the clump, the landing, the knife, the
+  pepper); slow parts from motion interpolation, fast parts with shutter blending; effects at 10 cuts (zoom-blur on the
+  swells, the pull-apart and the hero; whips in the move's direction on the shreds, the fork, the grill, the waffle
+  and the flip into the landing); Kevin's push/pull per shot from the full frame; a whoosh on each effect.
+- The source limits the ramps: the take was generated near real speed, so the fast parts top out near 1.4x.
+- Measured: 25.0 s, 2160x3840, 0% silence, -15.9 LUFS, peak -0.5 dB, motion median 13.9 (v5 9.4).
+- B7 (the three lines): media d9ef39a1. A7 (no text): media cfcc2dac. Side by side with Kevin: media ed7e93d0.
