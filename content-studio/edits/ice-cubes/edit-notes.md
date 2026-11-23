@@ -38,3 +38,11 @@ Shot cuts at 3.0, 4.625, 5.75, 7.54, 8.79, 10.21, 11.42, 12.46, 14.125, 15.625, 
   - 15.08 s to the end «Because it's candy 🍇 / Send it to the friend you'd prank 😈» (y 275)
 - The 0.5 s viewer sheet of B: no box over the food; the strike's spoon hand at the top right touches the right edge of
   the answer box for about 1 s.
+
+## The read at about 2 h, and C (2026-11-23)
+- A (18351636907280287): reach 200, skip 14.5%, avg watch 5.6 s. B (17992747794083884): reach 255, skip 14.6%, avg 7.4 s.
+- The owner's curves: B 89% at 1 s, 68% at 3 s, 63% at 4 s, 31% at 6 s, 22% at 8 s, 18% at 12 s, 14% at 15 s, 6% at the
+  end; A 54% at 3 s, 23% at 7 s, 17% at 12 s, 7% at the end. The cliff is 4.6-7.1 s of the cut: the sugar, the water,
+  the microwave.
+- C: B with 4.58-8.46 s out (the sugar, the water, the microwave, the chopstick, the grape into the tray), the lines
+  moved with the cut (the re-hook 8.79-11.21 s, the answer from 11.21 s): 410 frames, 17.09 s, -16.6 LUFS, media 2c3b527e.

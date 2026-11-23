@@ -14,6 +14,11 @@ SURFACES = ["oak", "parchment", "bokeh", "steel bowl", "stainless", "freezer", "
 ACTIONS = ["cut", "slice", "lift", "open", "pipe", "pipes", "set", "shut", "dunk", "whisk", "roll", "dip", "push",
            "pull", "fry", "lower", "brush", "pour", "press", "pinch", "braid", "thread", "unzip", "zip", "tilt",
            "knock", "skewer", "bite", "slide", "sprinkle", "fill"]
+# The cliff (2026-11-23): ordinary prep after the hook. The ice cubes lost 32 points in 2 s on a white mug of sugar, the
+# water and the microwave (B: 63% at 4 s, 31% at 6 s); the lantern lost 33 points on its batter at 3.7-8.1 s.
+PREP = re.compile(r"\b(sugar|flour|water|milk|salt|oil|cocoa|eggs?|butter|batter|cream cheese|yogurt|spices?)\b[^.;:]{0,40}"
+                  r"\b(pours?|poured|falls?|into|onto|mix(es|ed)?|whisk(s|ed)?)\b|\b(microwave|whisk(s|ed|ing)?|stir(s|red|ring)?)\b",
+                  re.I)
 AMBIGUOUS_PLACE = re.compile(r"\b(cut|cuts|slice|slices|sliced|split|splits)\b[^.;:]{0,60}\b(middle|centre|center)\b",
                              re.I)
 
@@ -89,6 +94,14 @@ def check(p, n):
             for img in ("@Image3", "@Image4", "image_3", "image_4"):
                 if img in body and a < third:
                     warns.append(f"rule 10: the shot at {a} s follows {img}, a finished state, in the first third")
+    # The cliff: ordinary prep in the first half after the hook (completion engine rule 2).
+    if sh:
+        half = sh[0][0] + (sh[-1][1] - sh[0][0]) / 2
+        for a, b, body in sh[1:]:
+            mm = PREP.search(body)
+            if mm and a < half:
+                warns.append(f"the cliff: the shot at {a} s is ordinary prep ('{mm.group(0)}'); viewers left at 16 points a "
+                             "second on the ice cubes' sugar, water and microwave; move it to the caption or make it a change")
     if "bite" in (sh[-1][2].lower() if sh else ""):
         warns.append("completion: the last shot has a bite; it ends on the peak")
     print(f"--- prompt {n}: {head[:80]}")
