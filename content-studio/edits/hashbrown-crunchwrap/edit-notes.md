@@ -123,3 +123,15 @@ Measured against Kevin's file (the same script on both):
 - The source limits the ramps: the take was generated near real speed, so the fast parts top out near 1.4x.
 - Measured: 25.0 s, 2160x3840, 0% silence, -15.9 LUFS, peak -0.5 dB, motion median 13.9 (v5 9.4).
 - B7 (the three lines): media d9ef39a1. A7 (no text): media cfcc2dac. Side by side with Kevin: media ed7e93d0.
+
+## v8 after the owner: «مش نفس الإيقاع الكاميرا»
+- The camera measured on both files per shot (cmpcam: two trackers; zoom, pan and rotation, the zoom in thirds of each
+  shot, the fastest zoom): v7's ten effects drove the zoom at 350-700% a second on 10 cuts; Kevin's camera moves 5-160%
+  a second, a calm 2-20% push on most shots, and one real camera swell (the clump, 396% a second).
+- v8 (build8.py, tzoom.py): the take's own camera zoom read per frame; the added zoom is Kevin's zoom curve divided by
+  the take's own (after the time map), so the net zoom per shot is his, from the full frame; the 8 effects he does not
+  have removed; the potato swell at 2.04 kept (the owner's «التضخم»); cut on action and the speed ramps as v7.
+- Measured after: 27 of 31 shots within 2% of his zoom, thirds included. The two shots around 2.04 differ by the
+  potato swell kept on purpose (+43% in the last third against his -1%); the flip +14% against his +9%.
+- 25.0 s, 2160x3840, 0% silence, -16.6 LUFS, peak -0.7 dB.
+- B8 (the three lines): media ca6288f2. A8 (no text): media a5bdfa4d. Side by side with Kevin: media 6a8800db.
