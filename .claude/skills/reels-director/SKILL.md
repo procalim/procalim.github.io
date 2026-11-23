@@ -125,6 +125,10 @@ Instagram lists these rates in order of importance to reach. Every edit and capt
    @Image2), 2700 K tungsten light, black nitrile gloves, black apron with brown leather straps. From 2026-11-16
    (owner: «بس ب element الجديد») the element is chef-ahmet-yellow (41e55e5e): mustard-yellow t-shirt, black square
    sunglasses with small gold hinges and solid black lenses, no chain. Older reels: white t-shirt, gold chain, aviators.
+   From 2026-11-23 (owner: «تغيير واحد وهو رؤية الوجه شيل النظارات»): no sunglasses, his face visible. The face
+   reference is the owner's photo (IMG_2316, the stone bench) as an image; the element is not attached while its
+   sunglasses are built in. The mustard t-shirt, the apron and the gloves stay. PROMPT MISTAKES rule 2 (the lens line)
+   applies only to prompts where he still wears sunglasses.
 5. **Never blame the user.** Report numbers, not guesses. Change one variable per test.
    No guessing causes in replies (owner, 2026-11-12: «لا ضلك تخمن الأسباب»): the numbers, then the work on his call.
 6. Talk to the user in Levantine Arabic, minimal English words.

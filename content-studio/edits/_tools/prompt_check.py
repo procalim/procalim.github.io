@@ -52,10 +52,14 @@ def check(p, n):
         if w in low:
             fails.append(f"rule 1: '{w}' in the prompt")
     # Rule 2: the lenses.
-    if "solid matte black" not in low or "no glow" not in low:
-        fails.append("rule 2: the lens line (solid matte black, no glow) is missing")
-    if "glowing" not in avoid:
-        fails.append("rule 2: glowing sunglasses are not in AVOID")
+    # Rule 2 holds only while he wears the sunglasses (the owner, 23 Nov: «شيل النظارات» -> "no sunglasses").
+    if "no sunglasses" not in low:
+        if "solid matte black" not in low or "no glow" not in low:
+            fails.append("rule 2: the lens line (solid matte black, no glow) is missing")
+        if "glowing" not in avoid:
+            fails.append("rule 2: glowing sunglasses are not in AVOID")
+    elif "sunglasses" not in avoid:
+        fails.append("no sunglasses: put sunglasses in AVOID")
     # Text, halal, completion.
     if "no text" not in low:
         fails.append("no 'no text' in the prompt")

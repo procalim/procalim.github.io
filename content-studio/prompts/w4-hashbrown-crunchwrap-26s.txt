@@ -19,21 +19,23 @@ KEVIN -> OURS
 | 19.9-22.1 | the topping; the grater | the halves pulled apart; the pepper mill |
 | 22.1-25.8 | the hero macro; he eats | the hero macro; he eats |
 
-SETTINGS (higgsfield.ai): Seedance 2.5, Omni reference, 26 s, 9:16, bitrate High, audio On; character element
-chef-ahmet-yellow (41e55e5e). Images: @Image1 the kitchen (325df734); @Image2 the crunchwrap, cut; @Image3 the
-living room. Halal: grilled chicken, no cold cuts.
+SETTINGS (higgsfield.ai): Seedance 2.5, Omni reference, 26 s, 9:16, bitrate High, audio On. The owner, 23 Nov:
+«تغيير واحد وهو رؤية الوجه شيل النظارات»: his face shows, no sunglasses. The character element chef-ahmet-yellow
+(41e55e5e) is NOT attached: its sunglasses are part of it. Images: @Image1 the kitchen (325df734); @Image2 the
+crunchwrap, cut; @Image3 the living room; @Image4 the owner's face photo (IMG_2316, the stone bench). Halal: grilled
+chicken, no cold cuts.
 
 ===== PROMPT =====
 A vertical 9:16 cinematic food film, exactly 26 seconds, no text. A short comic opening in a bright living room with a potato, then a hard cut into a dark cinematic kitchen where the potato becomes a crunchy waffle hashbrown, folded with grilled chicken, lettuce, tomato, sauce and cheese inside a tortilla, toasted, cut open and eaten. The camera pushes in slowly on almost every shot and never shakes; food is thrown or dropped into the frame from above, often in slow motion; low frontal angles at counter height with his face soft behind the food; bursts of quick close inserts between longer hero shots.
 
-REFERENCES: @Image1 is the reference for his kitchen, @Image2 for the look of the finished crunchwrap, @Image3 for the bright living room. Use them as references for look and shape only; the action and the camera in every shot follow the shot list below.
+REFERENCES: @Image1 is the reference for his kitchen, @Image2 for the look of the finished crunchwrap, @Image3 for the bright living room, @Image4 for his face. Use them as references for look and shape only; the action and the camera in every shot follow the shot list below.
 
-THE COOK: his character element: a plain mustard-yellow t-shirt and black square sunglasses with small gold hinges; in the kitchen also a black apron with brown leather straps and black nitrile gloves. The sunglasses' lenses are solid matte black at all times: no light on them, no reflection, no glow. He never speaks.
+THE COOK: the man in @Image4: his face, his eyes, his dark hair with short sides and his short dark beard and mustache, exactly his face, clearly visible in every shot where he appears; he wears no sunglasses and no glasses. He wears a plain mustard-yellow t-shirt; in the kitchen also a black apron with brown leather straps and black nitrile gloves. He never speaks.
 
 THE CRUNCHWRAP: a large flour tortilla folded into a fat triangle and toasted golden-brown and crisp, cut in half from its tip to its long edge; its cut face shows the layers: melted cheese, sliced grilled chicken, a golden crunchy waffle-pattern potato hashbrown, crisp lettuce and tomato, and burger sauce.
 
 SHOT 01 — 0.0-1.2s: Medium-wide at chest height in the bright living room in soft daylight, no apron, no gloves, the camera locked: he tosses a big russet potato up in the air and catches it.
-SHOT 02 — 1.2-2.0s: Chest-up in the same living room, the camera pushing in: he holds the potato up over his sunglasses with both hands, a comic pause.
+SHOT 02 — 1.2-2.0s: Chest-up in the same living room, the camera pushing in: he holds the potato up over his eyes with both hands, a comic pause.
 SHOT 03 — 2.0-3.5s: Hard cut into the dark kitchen, low at counter height, his face soft above, the camera pushing in slowly: his gloved hands throw two handfuls of freshly grated potato shreds down into a glass bowl, the shreds flying in slow motion.
 SHOT 04 — 3.5-4.4s: From the side at 45 degrees, the camera pushing in: his gloved fists twist the shreds hard in a white kitchen towel and the starchy liquid streams out in a spray, backlit.
 SHOT 05 — 4.4-5.6s: Close, locked, quick: into the bowl of dry shreds an egg drops, then a spoon of cornstarch with a soft puff, then a shake of onion powder, salt and black pepper.
@@ -57,7 +59,7 @@ SHOT 22 — 23.6-26.0s: Medium, him at the dark kitchen counter, the camera pull
 
 SOUND: the real sounds of each action, close and crisp: the potato caught, the shreds landing, the squeeze, the egg, the puff of cornstarch, the fork, the waffle iron shutting with a hiss, the knife slit, the chicken and lettuce dropping, the thick pour, the iron opening, the flip, the landing, the skillet sizzle, the crunch of the cut, the cheese pull, the pepper mill, the bite. No music, no voice, no whooshes.
 
-AVOID: shaky camera, a handheld wobble, glowing or reflective sunglasses, light in his lenses, sunglasses off, an apron or gloves in the living room, bare hands in the kitchen, a white t-shirt, a rolled burrito, a round wrap, a deep fryer, french fries, bacon, ham, pork, cold cuts, alcohol, logos, golden arches, packaging, brand names, labels, text, writing, numbers, music, talking, other people, extra fingers, deformed hands, distorted face.
+AVOID: shaky camera, a handheld wobble, sunglasses, glasses, eyewear, a different face, a face hidden in shadow, an apron or gloves in the living room, bare hands in the kitchen, a white t-shirt, a rolled burrito, a round wrap, a deep fryer, french fries, bacon, ham, pork, cold cuts, alcohol, logos, golden arches, packaging, brand names, labels, text, writing, numbers, music, talking, other people, extra fingers, deformed hands, distorted face.
 
 ===== PRE-FLIGHT =====
 prompt_check.py (23 Nov): no FAIL; three WARN, answered:
@@ -76,6 +78,8 @@ prompt_check.py (23 Nov): no FAIL; three WARN, answered:
    الرغيف», a slit and not a cut through; "flips ... up into the air off a spatula" «بيقلبها لفوق بالهوا». One meaning each.
 4. One action per shot, except the quick bursts (05, 13, 16), which the edit splits into Kevin's inserts.
 5. The images are references for look only, named once; no shot is tied to an image (rule 11).
+(23 Nov, the owner's one change) No sunglasses: the face from @Image4, the element not attached (its sunglasses are
+built in); the lens line is gone with the sunglasses.
 
 ===== EDIT (Kevin's edit, our frames) =====
 - Cut on Kevin's times (the take is written on them); the quick shots (05, 13, 16) split into his 0.3-0.45 s inserts.
