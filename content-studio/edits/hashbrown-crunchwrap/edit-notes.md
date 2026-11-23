@@ -182,3 +182,16 @@ Measured against Kevin's file (the same script on both):
 - Before the full render, two samples (sample13.py), 4K, no text: the tortilla, slots 11-15 (9.54-13.58 s, overlaps
   of 6/6/6/5 frames each side), media f7137029; the shreds to the egg, slots 2-5 (2.04-4.83 s), media c7e5207a.
   The full render waits for the owner's word on the samples.
+
+## v14 (23 Nov): the locked template's edit on the owner's take, job 46d6c074
+The owner: «الفيديو جاهز سرره واعمل الباقي زيو بنفس الخطة», then «الهوك حطه في منتصف الفيديو وليس من فوق، وحطه
+باللون الأبيض بدون ملصق زي الألماني بفيديوهاته الثانية، لون أبيض فقط».
+- The take read at 0.25 s against prompts/w4-hashbrown-crunchwrap-26s-motion.txt: every shot in order. Its own cuts
+  at 1.12, 2.17, 4.67, 5.92, 6.33, 6.67, 7.00, 7.33, 8.12, 8.67, 10.12, 10.67, 12.33, 12.83, 13.50, 14.42, 15.62,
+  16.33, 17.04, 17.50, 18.33, 18.67, 19.12, 19.54, 20.54, 21.54, 22.46, 22.83, 24.54 s (later than the prompt's
+  seconds in the prep, on them from the assembly). The bowl fills in one continuous shot over 2.70; a 2-frame blend
+  at 13.12 to the filled tortilla. Nothing added there.
+- The face: mustache only, no sunglasses. Off the prompt: the apron and gloves already on in the living room.
+- The edit: the take as is; the three lines white with no box in the middle (whiteline.mjs); the sound +7.5 dB into
+  the house limiter, -15.4 LUFS, peak -0.6 dBFS; 26.04 s, 2160x3840, 24 fps. final14.sh.
+- B14 (text) media 1220fc69, A14 (no text, the take's video untouched) media 004c2964.

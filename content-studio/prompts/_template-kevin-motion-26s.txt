@@ -64,5 +64,7 @@ AVOID: shaky camera, sunglasses, glasses, a beard, stubble, a different face, ap
 - Cut on the prompt's seconds; the take carries the motion; no added zooms, tilts or effects beyond the prompt's.
 - The two overlaps where the prompt has them (2.70 and 13.11), lined up on the shared object (compose11.py) if the
   take shows a plain cut there.
-- The text in the top band: the hook question to 2.04, the re-hook in the assembly, the answer from the cut.
+- The text: white only, no box or sticker, in the middle of the frame (centred on y 960; edits/_tools/whiteline.mjs;
+  the owner, 23 Nov: «الهوك حطه في منتصف الفيديو ... باللون الأبيض بدون ملصق ... لون أبيض فقط»). The hook question to
+  the skit's end, the re-hook in the assembly, the answer from the cut; each line on at the take's own cut frame.
 - The sound: the take's own, -14 to -16 LUFS, the house limiter; the owner's trending sound added in the app.
