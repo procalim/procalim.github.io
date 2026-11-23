@@ -1,5 +1,5 @@
-# v10 finish (Higgsfield sandbox, xl): the overlaps (compose11.py), the three lines, the v8 sound (aud8.m4a, the same
-# timing). Before it: build11.py over the 8 changed slots (the others are v10's, copied as c11_) in 4 parallel workers. B10 (text), A10 (no text), crf 17.
+# v11 finish (Higgsfield sandbox, xl): the matched overlaps (compose11.py), the three lines, the v8 sound (aud8.m4a, the same
+# timing). Before it: build11.py over the 8 changed slots (the others are v10's, copied as c11_) in 4 parallel workers. B11 (text), A11 (no text), crf 17.
 cd "$(dirname "$0")"
 python3 compose11.py
 SK=49; SL=229; CH=326; CU=453   # the hook until the skit ends; the re-hook from the slit to the cheese end; the answer from the knife
