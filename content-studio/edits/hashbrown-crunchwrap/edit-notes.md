@@ -45,3 +45,20 @@ and the skillet (17.6 s); quiet stretches at 1.0-1.7, 7.0-7.7 and 23-25 s.
   and the owner's trending sound brings it up.
 - B (the three lines): media ca0ca918. A (no text): media 8fd96945.
 - The 0.25 s strip of the hook: the box sits above his head; the potato reaches the top edge at 0.5 s, above the box.
+
+## v3 after the owner: «خربت الصوت ... التعديل مش زي الألماني، فرق شاسع»
+Measured against Kevin's file (the same script on both):
+| | Kevin | v2 (mine) | v3 |
+|---|---|---|---|
+| time below -40 dB | 3% | 25% | 0% |
+| level p10 / p90 | -31 / -14.6 dB | -42.7 / -17.4 | -34.5 / -18.5 |
+| cuts a second (estimate) | 2.1 | 1.9 | 1.8 |
+| brightness (luma, the whole video) | 64 | 90 | 75 (the bright skit is 3 s) |
+- What broke the sound in v2: the take is 55% silence between its sounds; cutting it into 0.3-0.5 s pieces with short
+  fades left holes and clipped tails; the slow-motion pieces were stretched (atempo 0.5).
+- v3 sound (audio2.py): every sound whole with a 0.25 s L-cut tail into the next shot, the slow-motion pieces at real
+  speed on their frame, a soft room tone under everything; -17.4 LUFS, peak -0.6 dB. Kevin's continuity comes from a
+  music bed: the owner's trending Instagram sound (or a generated bed, credits, on «ولد»).
+- v3 look: the kitchen graded darker and richer with cool shadows (Kevin's dark kitchen and rim light); the skit stays
+  bright.
+- B3 (the three lines): media 001eb344. A3 (no text): media 74d3f31f.

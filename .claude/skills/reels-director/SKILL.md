@@ -93,6 +93,12 @@ every edit from now:
    - a hit gets a punch-in (a jump in zoom) or a new angle;
    - one bigger accent every 3-4 s (the hook edit at 0 s), calm eased drifts between them;
    - no shake, no wobble, anywhere.
+10. **An edit on a reference video is measured against that file before it goes to the owner** (owner, 2026-11-23:
+   «خربت الصوت ... فرق شاسع بين الألماني والتعديل تاعك»). The same script on both: the time below -40 dB, the cut
+   rate, the brightness and the saturation.
+   - Never cut the take's sound into short pieces without L-cut tails.
+   - Never stretch slow-motion sound; place it at real speed on its frame.
+   - Keep a bed under everything: the reference's music, a trending sound, or a room tone.
 **Read:** the curve at 3, 6 and 10 s and at the end; the average watch as a share of the length; views per viewer.
 **Prompt template:** prompts/_template-never-made-14s.txt. **The ideas:** idea-lab/invention-bank.md.
 
