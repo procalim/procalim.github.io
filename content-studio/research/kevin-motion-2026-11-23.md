@@ -61,3 +61,6 @@ The edit timing and effects now match; the gap is in the shots the generation ga
   landing; ours black with amber bokeh.
 - **The end:** three-quarter profile, the blue rim light, the plate in the foreground; ours frontal.
 These are prompt (camera) changes, not edit changes. The edit can only crop tighter, tilt and push the shadows blue.
+- Correction from the owner the same day: «هذا شغله كله معمول بالمونتاج». The framing, the Dutch angles and the moves
+  are made in the edit (crop, keyframes, rotation), so v6 copies them as keyframes from his measured camera
+  (edits/hashbrown-crunchwrap/kmotion.py, anim6.py).

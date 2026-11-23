@@ -91,3 +91,20 @@ Measured against Kevin's file (the same script on both):
 - The sandbox was replaced in the middle of the first single-file render; the build is now one file per slot,
   resumable, and zoom_kevin.py skips finished shots.
 - B5 (the three lines): media a8a743b2. A5 (no text): media f30a861b.
+
+## v6 after the owner: «هذا شغله كله معمول بالمونتاج ... اعمل زيه» (his look is the edit: keyframes, loops, framing)
+- His camera measured shot by shot from his file (kmotion.py: two trackers, the whole frame and the border only): a
+  push-in on every shot and a strong one on the key shots (the punch-in 21%, the first kitchen shot 24% ending in a ramp,
+  the clump 14% then +30% in its last 3 frames, the waffle iron 23-36%, the landing 18%, the hero a quick 20% at its
+  start), a pull-out on the skit start (16%) and the end (8%), tilts that follow the action (shifts of 9-20% of the
+  height). v5 pushed 0-8%.
+- His Dutch angles measured from the lines in his frames: the clump -17 to -19 degrees, the throw about -10, the
+  landing -1 to -7, the end +4 to +9.
+- v6 (anim6.py): his curves on our 32 slots as keyframes (zoom, rotation, shift), a base framing per slot (the skit
+  waist-up, the grill on the hashbrown, the bite chest-up), his Dutch angles on the clump (-17), the throw (-10), the
+  landing (-4) and the bite (+6), an automatic zoom margin so no border shows (the most: 2.1x on the clump swell, from
+  the 4K take), and real motion blur on the fast frames (up to 12 sub-frames).
+- His look (lut6.py): part of his tone curve, his colour per brightness zone, his blue-violet backlight in the kitchen
+  shadows; the skit warmer. Our v4 grade made the mids darker than his (33 against 60); the LUT replaces it.
+- Checked side by side with his file at the same second (sbs6 media 793d5d51).
+- B6 (the three lines): media 05f998e0. A6 (no text): media b4bbae36.
