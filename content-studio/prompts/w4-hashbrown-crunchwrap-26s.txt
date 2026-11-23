@@ -1,0 +1,89 @@
+The Hashbrown Crunchwrap, 26 s, on Kevin's motion (research/kevin-motion-2026-11-23.md): his shot timing, angles,
+pushes, throws and slow motion; our cook, our kitchen, our recipe (book-additions/hashbrown-crunchwrap.md:
+N° 110 + N° 008, word for word, the hashbrown on the chicken quarter ours). Images are references for look only.
+
+KEVIN -> OURS
+| Kevin s | Kevin | Ours |
+|---|---|---|
+| 0.0-2.0 | skit: the sweet potato tossed, then over his face | skit: the potato tossed, then over his sunglasses |
+| 2.0-3.5 | cubes thrown into boiling water, slow motion | grated shreds thrown down into a glass bowl, slow motion |
+| 3.5-4.4 | the steam cloud | the shreds squeezed in a towel, the liquid streaming |
+| 4.4-5.6 | three quick additions | the egg, the cornstarch, the spices |
+| 5.6-7.2 | the fork; the clump lifted to the lens | the fork; the clump lifted to the lens |
+| 7.2-9.5 | the waffle iron | the waffle iron |
+| 9.5-13.1 | the slaw: slice, drop, slice, pour | the tortilla: the slit, the chicken, the lettuce and tomato, the sauce |
+| 13.1-14.3 | three quick additions | the cheese; the lid lifted; the hashbrown off the iron |
+| 14.3-16.4 | the tenders thrown up, landing in the pan | the hashbrown flipped up, landing on the chicken quarter |
+| 16.4-17.6 | four quick pan inserts | the three folds and the skillet |
+| 17.6-19.9 | the waffle held up, the stack built | the triangle held up; the cut |
+| 19.9-22.1 | the topping; the grater | the halves pulled apart; the pepper mill |
+| 22.1-25.8 | the hero macro; he eats | the hero macro; he eats |
+
+SETTINGS (higgsfield.ai): Seedance 2.5, Omni reference, 26 s, 9:16, bitrate High, audio On; character element
+chef-ahmet-yellow (41e55e5e). Images: @Image1 the kitchen (325df734); @Image2 the crunchwrap, cut; @Image3 the
+living room. Halal: grilled chicken, no cold cuts.
+
+===== PROMPT =====
+A vertical 9:16 cinematic food film, exactly 26 seconds, no text. A short comic opening in a bright living room with a potato, then a hard cut into a dark cinematic kitchen where the potato becomes a crunchy waffle hashbrown, folded with grilled chicken, lettuce, tomato, sauce and cheese inside a tortilla, toasted, cut open and eaten. The camera pushes in slowly on almost every shot and never shakes; food is thrown or dropped into the frame from above, often in slow motion; low frontal angles at counter height with his face soft behind the food; bursts of quick close inserts between longer hero shots.
+
+REFERENCES: @Image1 is the reference for his kitchen, @Image2 for the look of the finished crunchwrap, @Image3 for the bright living room. Use them as references for look and shape only; the action and the camera in every shot follow the shot list below.
+
+THE COOK: his character element: a plain mustard-yellow t-shirt and black square sunglasses with small gold hinges; in the kitchen also a black apron with brown leather straps and black nitrile gloves. The sunglasses' lenses are solid matte black at all times: no light on them, no reflection, no glow. He never speaks.
+
+THE CRUNCHWRAP: a large flour tortilla folded into a fat triangle and toasted golden-brown and crisp, cut in half from its tip to its long edge; its cut face shows the layers: melted cheese, sliced grilled chicken, a golden crunchy waffle-pattern potato hashbrown, crisp lettuce and tomato, and burger sauce.
+
+SHOT 01 — 0.0-1.2s: Medium-wide at chest height in the bright living room in soft daylight, no apron, no gloves, the camera locked: he tosses a big russet potato up in the air and catches it.
+SHOT 02 — 1.2-2.0s: Chest-up in the same living room, the camera pushing in: he holds the potato up over his sunglasses with both hands, a comic pause.
+SHOT 03 — 2.0-3.5s: Hard cut into the dark kitchen, low at counter height, his face soft above, the camera pushing in slowly: his gloved hands throw two handfuls of freshly grated potato shreds down into a glass bowl, the shreds flying in slow motion.
+SHOT 04 — 3.5-4.4s: From the side at 45 degrees, the camera pushing in: his gloved fists twist the shreds hard in a white kitchen towel and the starchy liquid streams out in a spray, backlit.
+SHOT 05 — 4.4-5.6s: Close, locked, quick: into the bowl of dry shreds an egg drops, then a spoon of cornstarch with a soft puff, then a shake of onion powder, salt and black pepper.
+SHOT 06 — 5.6-6.3s: Close from above at 45 degrees: a fork turns the shreds through the egg.
+SHOT 07 — 6.3-7.2s: Medium, frontal, his face, the camera pushing in: he lifts a big clump of the potato mix high on the fork toward the lens.
+SHOT 08 — 7.2-9.5s: Medium at the open black waffle iron, his face soft behind, the camera tilting down onto the iron: he presses the clump onto the oiled hot plates and shuts the lid, steam bursting out of the sides.
+SHOT 09 — 9.5-10.1s: Close from the side on a dark walnut board, the camera pushing in: a knife makes a single slit in a large flour tortilla from its bottom edge up to its centre point.
+SHOT 10 — 10.1-11.0s: Close, low and frontal, locked: slices of grilled chicken drop from his gloved fingers onto the top-left quarter of the tortilla.
+SHOT 11 — 11.0-12.2s: Close, the camera pushing in: shredded lettuce and tomato slices drop onto the top-right quarter.
+SHOT 12 — 12.2-13.1s: Close, frontal, the camera pushing in: burger sauce pours thick from a small jug onto the bottom-right quarter.
+SHOT 13 — 13.1-14.3s: Close, locked, quick: two cheese slices laid on the bottom-left quarter, then the waffle iron lid lifts on a deeply golden waffle hashbrown, steaming.
+SHOT 14 — 14.3-15.4s: Medium, his face, the camera pushing in: he flips the golden waffle hashbrown up into the air off a spatula.
+SHOT 15 — 15.4-16.4s: Low and frontal over the tortilla, his arms raised behind, the camera pushing in, slow motion: the hashbrown lands flat on the chicken quarter, flakes of salt glittering in the backlight.
+SHOT 16 — 16.4-17.6s: Close, locked, quick: the quarters fold over one another into a fat triangle, then it lands in a hot black skillet with a loud sizzle.
+SHOT 17 — 17.6-18.9s: Close, low at a white plate, the camera tilting down with his hands: he holds up the golden toasted triangle and sets it on the plate.
+SHOT 18 — 18.9-19.9s: Close, locked: a big knife cuts the triangle in half from its tip to its long edge with a loud crunch.
+SHOT 19 — 19.9-21.0s: Close, the camera pushing in: his gloved hands pull the two halves apart and the melted cheese stretches between them.
+SHOT 20 — 21.0-22.1s: Close from the side, the camera pulling out slightly: a pepper mill twists over the cut halves.
+SHOT 21 — 22.1-23.6s: Macro side profile at plate level, shallow focus, the camera pushing in slowly: the cut face of one half, layer by layer, a little steam.
+SHOT 22 — 23.6-26.0s: Medium, him at the dark kitchen counter, the camera pulling out slowly: he takes a big crunchy bite of one half and leans back, satisfied. No cut to black.
+
+SOUND: the real sounds of each action, close and crisp: the potato caught, the shreds landing, the squeeze, the egg, the puff of cornstarch, the fork, the waffle iron shutting with a hiss, the knife slit, the chicken and lettuce dropping, the thick pour, the iron opening, the flip, the landing, the skillet sizzle, the crunch of the cut, the cheese pull, the pepper mill, the bite. No music, no voice, no whooshes.
+
+AVOID: shaky camera, a handheld wobble, glowing or reflective sunglasses, light in his lenses, sunglasses off, an apron or gloves in the living room, bare hands in the kitchen, a white t-shirt, a rolled burrito, a round wrap, a deep fryer, french fries, bacon, ham, pork, cold cuts, alcohol, logos, golden arches, packaging, brand names, labels, text, writing, numbers, music, talking, other people, extra fingers, deformed hands, distorted face.
+
+===== PRE-FLIGHT =====
+prompt_check.py (23 Nov): no FAIL; three WARN, answered:
+- rule 9 at 7.2-9.5 s: "open" is the iron's state and "tilt" the camera; the actions are the press and the lid shut,
+  Kevin's spread and shut in the same 2.3 s.
+- rule 9 at 23.6-26.0 s: "pulling out" is the camera and "cut" is "no cut to black"; the one action is the bite.
+- the bite last: Kevin ends on him eating; the loudest sound stays the crunch of the cut (18.9 s).
+- Not flagged by the script but checked: shot 05 is prep (the egg, the cornstarch, the spices). It is cut into three
+  inserts of about 0.4 s, Kevin's burst, never a held shot (the ice cubes' cliff was 1-1.5 s shots of a white mug).
+1. Anything before the action that makes it? The hashbrown shows golden only when the lid lifts (13); the cut face only
+   after the knife (18-19); the triangle only after the folds (16).
+2. Placements by part: the slit from the tortilla's bottom edge up to its centre point; each filling on a named
+   quarter (top-left the chicken, top-right the lettuce and tomato, bottom-right the sauce, bottom-left the cheese, so
+   the cheese ends on the outside); the cut from the triangle's tip to its long edge.
+3. Read in Arabic (my own reading): "a single slit ... up to its centre point" reads «شق واحد من الطرف التحتاني لنص
+   الرغيف», a slit and not a cut through; "flips ... up into the air off a spatula" «بيقلبها لفوق بالهوا». One meaning each.
+4. One action per shot, except the quick bursts (05, 13, 16), which the edit splits into Kevin's inserts.
+5. The images are references for look only, named once; no shot is tied to an image (rule 11).
+
+===== EDIT (Kevin's edit, our frames) =====
+- Cut on Kevin's times (the take is written on them); the quick shots (05, 13, 16) split into his 0.3-0.45 s inserts.
+- A slow push-in of 2-15% on every shot, the punch-in cut at 1.2 s, a slow pull-out on the bite; no shake.
+- Slow motion kept where the take has it (03, 15); hard cut from the bright room to the dark kitchen at 2.0 s.
+- Text, white box in the top band (meme.mjs 46 px): the hook question 0-2.0 s «Why is everyone putting hashbrowns in
+  tortillas? 🥔»; the re-hook question 9.5-12 s «Wait… why cut the tortilla? ✂️»; the answer from the cut (18.9 s)
+  «Fold it 4 ways = crunchwrap 🌯<br>Send it to your 3 a.m. friend 😮‍💨».
+- Sound like Kevin's: the food sounds, -14 LUFS; the music bed under them is a trending Instagram sound the owner adds
+  in the app at low volume.
+- Export 1080x1920, the take's 24 fps.
