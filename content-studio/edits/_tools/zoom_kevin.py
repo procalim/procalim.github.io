@@ -18,7 +18,9 @@ def piece(keys, idx, s, var):
     e=parts[-1][1]
     for f2,ex in reversed(parts[:-1]): e=f"if(lt({var},{f2}),{ex},{e})"
     return e
+import os
 for i in range(i0,i1):
+    if os.path.exists(f"q4_{i:02d}.mp4"): continue   # resumable: a sandbox replacement keeps finished shots
     s,e=B[i],B[i+1]; n=e-s; d=S[i]; K=d['k']
     z=piece(K,1,s,'on'); cx=piece(K,2,s,'on'); cy=piece(K,3,s,'on')
     vf=(f"select='between(n,{s},{e-1})',setpts=N/24/TB,zoompan=z='{z}':x='max(0,min(iw-iw/zoom,(iw-iw/zoom)*{cx}))':"
@@ -26,5 +28,6 @@ for i in range(i0,i1):
     for f0,f1,sg in d.get('blur',[]): vf+=f",gblur=sigma={sg}:enable='between(n,{f0},{f1})'"
     vf+=",format=yuv420p"
     subprocess.run(['ffmpeg','-v','error','-y','-i',SRC,'-vf',vf,'-frames:v',str(n),'-an','-c:v','libx264','-crf','15',
-                    '-preset','medium','-r','24',f"q4_{i:02d}.mp4"],check=True)
+                    '-preset','medium','-r','24',f"q4_{i:02d}.tmp.mp4"],check=True)
+    os.replace(f"q4_{i:02d}.tmp.mp4",f"q4_{i:02d}.mp4")
 print("done",i0,i1)

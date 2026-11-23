@@ -73,3 +73,21 @@ Measured against Kevin's file (the same script on both):
   landing; the slow-motion hook and bite; the v3 sound (no silence, -17.1 LUFS, peak -0.2 dB) and grade; the text at
   4K (deviceScaleFactor 2). 555 frames, 23.13 s.
 - B4 (the three lines): media 43a82283. A4 (no text): media 9f34f721.
+
+## v5 after the owner: «مش نفس الايدت» (the differences he picked: the transitions and effects, the speed and rhythm)
+- Kevin's timeline slot by slot: 32 slots at his shot lengths (his 31 shots plus the hook's slow tail), 25.0 s, 600
+  frames at 24 fps, 2160x3840 (build5.py, audio5.py, run5.sh).
+- His transitions at his times: the swell out of the potato over his eyes ends at 2.04 s (his 2.04), the settle on the
+  shreds after it, the zoom ramp into 3.46 s (his 3.47), the clump swell ends at 7.25 s (his 7.24).
+  The two swells have a whoosh rising into the cut.
+- The going and coming back: the shreds (forward, back, forward) and the hashbrown landing (it falls to the pile, rises
+  back up before it touches, then lands; its sound plays twice). The first v5 render reversed frames after the landing,
+  so nothing moved; caught on the frame sheet and rebuilt before sending.
+- Slow motion (motion interpolation) where our piece is shorter than his slot: the hook tail and the bite at 0.5x, the
+  squeeze, the grill, the chicken, the lettuce, the sauce, the flip at 0.58-0.85x; frames checked, no smearing.
+- Measured (the same script as v3): 0% silence, p10/p90 -34.5/-18.0 dB, 1.84 cuts a second estimated (Kevin 2.1 on the
+  same estimate; true count 31 cuts in 25.0 s, Kevin 31 in 25.8), luma 70.6 (Kevin 64; the bright skit is 2 s),
+  -16.8 LUFS, peak -0.8 dB.
+- The sandbox was replaced in the middle of the first single-file render; the build is now one file per slot,
+  resumable, and zoom_kevin.py skips finished shots.
+- B5 (the three lines): media a8a743b2. A5 (no text): media f30a861b.
