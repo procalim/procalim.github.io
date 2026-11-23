@@ -173,3 +173,12 @@ Measured against Kevin's file (the same script on both):
   hard on action; his two swells kept.
 - 25.0 s, 2160x3840, the v8 sound (-16.6 LUFS).
 - B11 (the three lines): media 71c5a90b. A11 (no text): media 226c51d4. Side by side with Kevin: media c94d8658.
+
+## v13 (in progress) after the owner: «بدي التداخل بين الثواني» and «أعطيني اشي عينة قبل ما تكمل»
+- The owner picked, for v11: the overlap not clear, an overlap at every cut, not this kind of overlap, something else.
+- v13 (build13.py, compose13.py): 6 handle frames each side; an overlap at every cut except his two swells, up to
+  12 frames (0.5 s) centred on the cut (less around the quick inserts), lined up on the shared object when the two
+  shots share a setup.
+- Before the full render, two samples (sample13.py), 4K, no text: the tortilla, slots 11-15 (9.54-13.58 s, overlaps
+  of 6/6/6/5 frames each side), media f7137029; the shreds to the egg, slots 2-5 (2.04-4.83 s), media c7e5207a.
+  The full render waits for the owner's word on the samples.
