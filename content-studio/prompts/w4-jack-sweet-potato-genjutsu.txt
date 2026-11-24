@@ -8,11 +8,13 @@ halal-certified; no pork, no alcohol. The recipe: book-additions/loaded-sweet-po
 This period (the owner, 24 Nov: «نريح الحساب ... فيديوهات قصيرة من 10 ل 12 ثانية»): the edit cuts it to 10-12 s.
 
 SETTINGS (Higgsfield Genjutsu, hf_mult_motion_control): resolution 1080p. Video reference: 894a2d76 (Jack_Early.mp4).
-Image reference: @Image1 Ahmet (f62eda22: mustard t-shirt, black apron with leather straps, black gloves).
+Image references: @Image1 Ahmet (f62eda22: mustard t-shirt, black apron with leather straps, black gloves); @Image2 his
+kitchen (325df734: black and brass, black marble counter, warm low light). The owner, 24 Nov: «بدي الخلفية تكون بنفس
+مطبخي، حكيت لك هوية بصرية»: the visual identity is the person and the kitchen. Quote: 320 credits at 1080p.
 The sound: the reference's track attached in the Instagram app (Use audio), not ripped.
 Nothing generated before «ولد».
 The owner, 24 Nov: «اكتب برومت يكون نقل فقط بالهوية، هو راح حاله راح ياخد الوصفة ... زي ما عملت بفيديو الالماني، ما
 كتبت له اشي»: the video carries the recipe and the motion; the prompt names only the identity (or is left empty).
 
 ===== PROMPT =====
-Replace the person with the man in @Image1: the same face, a thick dark mustache, clean-shaven chin, short dark hair, a mustard-yellow t-shirt, a black apron with brown leather straps, and black nitrile gloves on both hands. Keep everything else exactly as in the video.
+Replace the person with the man in @Image1: the same face, a thick dark mustache, clean-shaven chin, short dark hair, a mustard-yellow t-shirt, a black apron with brown leather straps, and black nitrile gloves on both hands. Replace the kitchen and the background with the kitchen in @Image2: black cabinets with brass trim, a black range hood, hanging black pans, a black marble counter, warm low golden light. Keep the food, the board, the bowl, every move and every cut exactly as in the video.
