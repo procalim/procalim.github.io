@@ -9,3 +9,5 @@ The reference: a tonkotsu (pork bone) ramen with a rolled pork-belly chashu, an 
 - The bowl still shows brown braised slices (the reference's chashu, not pink); N° 363 (book-additions/anime-fire-ramen.md)
   makes them halal beef.
 - A 59f2eae4, B 33ddd45d.
+- 24 Nov, after the crunchwrap's read (0 sends at a 15 s average watch): the save and send line moved to the egg cut
+  into the bowl (frame 249, 10.37 s). A 23c4e562, B e2a685a7 replace 59f2eae4 and 33ddd45d.
