@@ -1,0 +1,38 @@
+The Loaded Sweet Potato Bowl, Genjutsu (24 Nov). The owner: «هذا الفيديو المرفق شبه الفيديو اللي جاب لنا مشاركة وحفظ
+... جاب ما يقارب من 15 ل 16 مليون. راح نولده عن طريق هيجز فيلد جينستيف. ما تكتبوا برومت غير نقل الهوية البصرية، بس نفس
+الوصف ونوصف كل شيء ... خلي الوصفة زي ما هي بس اكتب بالبرومت يكون نقل من مكان لمكان فقط بنفس الموتيشن.»
+The reference: Jack_Early.mp4, 16.48 s, 30 fps, "this after a gym:", about 15-16M views; Higgsfield media 894a2d76.
+The video analysis (d8449399): halved, sprayed, seasoned, roasted, mashed, cheese, ground meat, pico de gallo, avocado,
+the cheese pull and the bite; a soul track ("Sunday..."). Halal: the meat is ground beef (halal beef), the cheese
+halal-certified; no pork, no alcohol. The recipe: book-additions/loaded-sweet-potato-bowl.md (N° 364, the owner's approval).
+This period (the owner, 24 Nov: «نريح الحساب ... فيديوهات قصيرة من 10 ل 12 ثانية»): the edit cuts it to 10-12 s.
+
+SETTINGS (Higgsfield Genjutsu, hf_mult_motion_control): resolution 1080p. Video reference: 894a2d76 (Jack_Early.mp4).
+Image reference: @Image1 Ahmet (f62eda22: mustard t-shirt, black apron with leather straps, black gloves).
+The sound: the reference's track attached in the Instagram app (Use audio), not ripped.
+The quote (24 Nov): 320 credits at 1080p (quote:xpvVBUaQs6Jm9kg6eIRnHw). Nothing generated before «ولد».
+
+===== PROMPT =====
+Identity transfer only. Recreate the reference video exactly as it is, shot for shot: the same recipe, the same ingredients in the same order and amounts, the same camera angles and framing, the same hand motions at the same speed, the same timing and cuts, the same kitchen, the same striped walnut board, the same black bowl, the same bright warm light. Only the person changes: he becomes the man in @Image1, his face, a thick dark mustache, clean-shaven chin, short dark hair, a mustard-yellow t-shirt, a black apron with brown leather straps, and black nitrile gloves on both hands in every shot. Nothing else changes.
+
+Shot by shot, as in the reference:
+0.00-1.07 Top-down on the walnut board: his gloved hands cut a sweet potato in half lengthwise with a big knife.
+1.07-2.00 Top-down: cooking spray mists both cut halves.
+2.00-3.10 Top-down: a shaker seasons the halves with salt and pepper; he lifts the seasoned halves toward the lens.
+3.10-3.70 Top-down: he flips the halves cut-side down onto a parchment-lined baking tray.
+3.70-4.43 Top-down: the roasted halves on the parchment, skins dark and blistered; his hands press them.
+4.43-5.37 He lifts the roasted halves off the parchment toward the lens, the cut sides golden and caramelized.
+5.37-5.80 Top-down: the two halves cut-side up in a black bowl on the board.
+5.80-6.97 Top-down: a fork mashes the soft orange flesh inside the skins.
+6.97-7.50 Top-down: his hand sprinkles shredded white cheese over the mash.
+7.50-8.40 Top-down: a black spoon piles browned seasoned ground beef over the cheese.
+8.40-9.70 Top-down: a spoon spreads fresh pico de gallo over the beef.
+9.70-10.77 Top-down: a chef's knife slides a fan of sliced avocado onto the centre.
+10.77-11.37 Top-down: a shaker seasons the avocado.
+11.37-12.73 Medium shot at the counter behind the board: he wipes his mouth with his hand, then picks up the bowl.
+12.73-13.50 He lifts a forkful high out of the bowl, a long cheese pull, smiling at the camera.
+13.50-14.43 He takes a big bite from the fork, holding the bowl.
+14.43-15.63 He sets the bowl down on the board and tips his head back, eyes closed.
+15.63-16.48 He puts both hands on his head and turns away, amazed.
+
+The same sounds: the knife, the spray, the fork mashing, the music. No on-screen text, no captions, no logos. Ground beef only, no pork.
