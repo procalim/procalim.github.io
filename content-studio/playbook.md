@@ -24,6 +24,29 @@ normal. The ice cubes (food close at frame one, a sound): 14.5%. The lantern (fo
    ramps, the overlap on the shared object, the punch-ins, the match cut. Length 20 s.
 First: prompts/w4-marry-me-ring-box-20s-door.txt.
 
+### THE PACE AND THE STORY (24 Nov, the owner: «قارن ... وشوف الفرق ... بدنا حل»), measured, not guessed
+| | length | cuts a second | average shot | motion inside a shot | saturation |
+|---|---|---|---|---|---|
+| The German's 60M reel | 29.8 s | 2.05 | 0.48 s | 10.2 | 137 |
+| Our motion-control copy | 30.0 s | 2.30 | 0.43 s | 9.9 | 148 |
+| The Onion Volcano take | 20.0 s | 1.20 | 0.80 s | 6.5 | 114 |
+| The Ring Box take | 20.0 s | 0.70 | 1.34 s | 4.8 | 98 |
+| The Hashbrown Crunchwrap take | 26.0 s | 1.27 | 0.77 s | 6.1 | 97 |
+Our takes are half his pace, a third less movement inside each shot, and grey-dark. The cause is in our own prompts:
+"slow motion and speed ramps on every throw and drop" and "Shot like a premium food commercial: ... deep shadows".
+His prep (grating, squeezing, chopping) is not a cliff: it is fast, 0.5 s a shot, real speed, a sound on every cut.
+And his reel is a story: one relatable line («when Germans get hungry at 3 a.m.»), a person at the start and the end
+(the couch, then asleep on it), the food in between.
+1. **The story line:** frame one carries a relatable situation with an identity, not the recipe's name: «ماما: في أكل
+   بالبيت», «لما العرب يجوعوا الساعة 3 الصبح», «لما الضيوف يوصلوا بعد 10 دقايق», «آخر الشهر والبراد فاضي». The
+   send line names the person in it (your mum, your 3 a.m. friend).
+2. **The pace:** 2 cuts a second, shots of 0.4-0.6 s, hands at real speed; slow motion on one or two hero moments only
+   (the eruption, the pull). Prompts ask for it; the edit cuts every shot to its action and speeds the model's slow
+   motion back (1.25-1.6x).
+3. **The warmth:** warm and saturated (his 137), a lived-in home light, not a black studio.
+4. **The person:** at the start and the end, in the story's place.
+5. Everything else in THE DOOR stays: food doing something in frame one, the reveal late, two Trial Reels.
+
 ## The numbers we chase
 | Metric | Where it is read | Now | Target |
 |---|---|---|---|
@@ -129,3 +152,4 @@ prompts/_template-kevin-motion-26s.txt). A reference video is read by Higgsfield
 | 2026-11-24 | (ideas) | 0 | the owner: «ابحث عن طريق جوجل عن الوصفات، ومن جوجل الوصفات احنا بنصير نخترع الشكل والافكار» | Google first: google_ideas.py (Google and YouTube autocomplete, Arabic and English, matched to the book per food word; runs in the Higgsfield sandbox), today's terms in research/google-trends-2026-11-24.json; the index titles fixed (22 split titles joined). Three ideas from the Arabic trends: the Onion Volcano 7, Cheetos Dynamite 7, the Cookie Record 6 (invention bank 7.4-7.6) | Google's daily trending feed has no food in it (news only); autocomplete does | live Arabic demand first, the shape on top |
 | 2026-11-24 | The Onion Volcano | 1-3 | the owner: «بركان البصل، كمّل» | N° 106 and N° 143 word for word, our crater and the ramen built in the onion (book-additions/onion-volcano.md); one @Image2 prompt with its block; the 20 s prompt on THE DOOR: the knife's X at 0.00 with two thunks, moves only, the eruption at 13.20, the bite back at the board; prompt_check clean, PRE-FLIGHT answered, 5,029 characters; 4K in SETTINGS; A/B hooks and the send line set | the Ring Box went out at 720p: 4K written into SETTINGS | Google's live Arabic demand, then the shape |
 | 2026-11-24 | The 3 a.m. Potato Crunchwrap (N° 362) | 1, 7, 8 | the owner: «فيديو الألماني موجود وبصوت ونفس الحركة ... والوصفة بتنضاف على الكتاب ... 362 وصفة ... ليش معقدها» | the recipe written from the video's frames as N° 362 (book-additions/3am-potato-crunchwrap.md: walnut mince as shown, halal beef as the swap; approval and kitchen test owed); the motion-control video kept whole (the German's tight edit, one 0.25 s still), 1080x1920, its sound through the house limiter -14.5 LUFS; the hook over the couch opening: A «لما العرب يجوعوا الساعة 3 الصبح 🌙» ab10fcc6, B the strategist's 25 «غالباً ما رح تعترف بهاي، بس…» ca5fbdf2; the send line from the couch bite | said once: the sound inside the file is the German's track (attach his audio in the app for the credit); a near copy ranks as unoriginal | the owner's call: new recipes go into the book as numbered additions (362 on) |
+| 2026-11-24 | (all) + The Onion Volcano | 1-8 | the owner: «قارن ... وشوف الفرق ... فيديوهاتنا ... مملة ... بدنا حل ... مش كوبي بيست» | measured five reels (cuts a second, shot length, motion inside shots, saturation): the German 2.05/s, 0.48 s, 10.2, 137; ours 0.70-1.27/s, 0.77-1.34 s, 4.8-6.5, 97-114. THE PACE AND THE STORY added to THE DOOR. The Onion Volcano re-cut on it: 13.8 s, every shot to its action, slow motion sped 1.25-1.6x, warmer; A «ماما: في أكل بالبيت 🧅», B «لما العرب يجوعوا الساعة 3 الصبح 🌙» | our prompts asked for slow motion everywhere and deep shadows | pace and story are measurable: check cuts a second and motion before sending |

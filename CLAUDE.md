@@ -11,7 +11,8 @@ Instagram reels, Higgsfield video prompts and ChatPlace automations.
 - Every reel follows THE DOOR in `content-studio/playbook.md` (the owner, 24 Nov: «اعطيني حل»): frame one is the food
   doing something close with a sound, the middle is moves only, the reveal in the last quarter, the bite back where it
   began, two Trial Reels that differ in the first second. Kevin's motion language (`content-studio/prompts/_template-kevin-motion-26s.txt`)
-  stays; its living-room skit and prep run do not (the crunchwrap: 47.3% skip). A reference video is read by
+  stays; its living-room skit and prep run do not (the crunchwrap: 47.3% skip). THE PACE AND THE STORY (same file):
+  a relatable situation line in frame one, 2 cuts a second at real speed (slow motion only on 1-2 hero moments), warm light. A reference video is read by
   Higgsfield's video analysis, not by still frames.
 - New reel ideas from `content-studio/idea-lab/invention-bank.md` only when the owner asks for one.
 - Every reel follows `content-studio/playbook.md`: its steps and checks in order, and every step logged there.
