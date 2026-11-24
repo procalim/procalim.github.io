@@ -1,0 +1,62 @@
+The Ring Box «علبة الخاتم», 20 s, on THE DOOR (the formula v2, 24 Nov). The owner: «بطلت اعرف شو بدي اعمل. هوك ولا مش
+هوك، شو البداية شو النهاية، اعطيني حل». The answer from our own reads, not from taste:
+- The hashbrown crunchwrap on the 26 s template (Trial, 78 viewers): skip 47.3%; 68% gone by 2 s inside the
+  living-room skit, 21 more points on the prep to 6 s, then flat; those who stayed liked, saved and commented above
+  the account's normal. The ice cubes (frame one: food close, with a sound): skip 14.5%. The lantern (food first, no
+  person): 22.4%, 35,530 reached.
+- So: frame one is the food doing something close, with a sound; the middle is moves only (no grating, mixing or
+  sprinkling: they cost 20-33 points every time); the reveal in the last quarter; the bite back where it began.
+Kept from Kevin's motion (Higgsfield's analysis): the locked camera, the motion from the action, hard cuts on action,
+slow motion and speed ramps on throws and drops, the overlap on the shared object, the punch-ins, the match cut.
+N° 005 Marry Me Chicken (p152) word for word in the DM; our box and ring: book-additions/marry-me-ring-box.md.
+
+SETTINGS (higgsfield.ai): Seedance 2.5, Omni reference, 20 s, 9:16, bitrate High, audio On. Character element
+char_ahmet-salameh-codex (fa420272; no sunglasses, mustache only). Images in this order: @Image1 the kitchen
+(325df734); @Image2 the ring box, open (146dc7db); @Image3 the candle-lit table (the owner's, from the prompt in
+book-additions/marry-me-ring-box.md). Halal: chicken, halal-certified parmesan, no wine.
+
+THE EDIT: the take as it comes; the hook white in the middle 0 to 2.0 s; the send line white in the middle from the
+ring (about 11 s) to the end; the sound at -14 to -16 LUFS. Two Trial Reels that differ only in the first second:
+A as generated (the empty box opens); B starts on the ring pulled out (12.4-14.0 moved to the front), then the take
+from 1.2 s. Keep the one with the lower skip; the next reel starts from it.
+
+===== PROMPT =====
+A vertical 9:16 hyper-kinetic cooking montage, exactly 20 seconds, no text, precise shot-by-shot timing and transitions: a crusty bread roll opened like a ring box at a candle-lit dinner table, then a dark cinematic kitchen where it is filled with creamy chicken and an edible parmesan ring. The camera is mostly locked, never shaking; the motion comes from the action: food slammed, dropped and thrown, rushing at the lens; slow motion and speed ramps on every throw and drop; every edit lands while something is still moving. Shot like a premium food commercial: cinematic light, deep shadows, rich contrast, shallow depth of field, crisp detail. The food fills the frame in every shot.
+
+REFERENCES (look and shape only; the action and camera follow the shot list): @Image1 his kitchen, @Image2 the finished ring box, @Image3 the candle-lit table.
+
+THE COOK: his character element, a mustard-yellow t-shirt; in the kitchen also a black apron with leather straps and black nitrile gloves. Face clearly visible, a thick dark mustache only, clean-shaven chin, no sunglasses, no glasses. He never speaks.
+
+THE RING BOX: a round crusty golden bread roll cut into a ring box, its top a lid hinged at the back crust; inside, golden seared chicken slices in a thick creamy sun-dried tomato sauce with fresh basil, and standing upright in the sauce an edible ring of golden lacy baked parmesan with a red sun-dried tomato piece set on top as its stone; no metal anywhere.
+
+[0.00-1.20s] Close-up, locked, eye level, the candle-lit dinner table, candles soft behind, no apron, no gloves: a round crusty bread roll fills the lower half of the frame, held up in his two hands like a ring box, his face just above it, eyes locked on the lens, eyebrows raised; at once his thumbs flip its top open toward the lens with a crunch of crust: the inside is hollow and empty. Hard cut on action to:
+[1.20-2.00s] Macro, dark kitchen, locked, speed ramp fast to slow: a seasoned chicken slice slams into a dish of flour, a white cloud bursting up toward the lens in slow motion. Hard cut to:
+[2.00-3.20s] Low angle up from a black skillet with a glass lid, locked: butter foams in hot oil, he lays the floured slices down toward the lens, sizzling hard, the glass lid swings down at the camera, steam bursting out. Hard cut to:
+[3.20-4.00s] Macro, slight high angle, locked: heavy cream pours into the skillet around the golden chicken, over red sun-dried tomatoes, bubbling up thick. Hard cut to:
+[4.00-4.60s] 45-degree macro on a dark walnut board, locked: the hollow bread roll; its lid, hinged at its back crust, swings open. Match cut, the same angle, to:
+[4.60-5.40s] The same macro angle, slow motion at 60%: fresh basil leaves drop from his gloved fingers onto the bottom of the hollow. Hard cut to:
+[5.40-6.40s] Low-angle close-up, locked: the thick sun-dried tomato cream pours from the skillet into the box; a 0.3 s cross-dissolve overlap, the box staying exactly in place, to the box full to its rim. Hard cut to:
+[6.40-7.60s] Low angle, a slight Dutch tilt, speed ramp fast-slow-fast: he flips a golden chicken slice up off a spatula; it hangs in slow motion above his face. Cut on action to:
+[7.60-8.60s] Low and frontal over the open box, speed ramp: the slice falls in slow motion and lands flat in the cream, fast at impact, a thick splash. Hard cut to:
+[8.60-10.00s] Three quick macro inserts, locked: his gloved fist sets something small, hidden in his fingers, into the centre; the lid swings shut on its hinge; the box lands in a hot buttered skillet, sizzling, the crust toasting golden. Hard cut to:
+[10.00-11.00s] Eye-level, a white plate below, locked: his gloved hands set the closed box down on the white plate. Punch-in cut, the same action closer, to:
+[11.00-12.40s] Macro, locked: the tip of a big knife lifts the lid on its hinge toward the lens with a loud crunch; inside, standing in the cream, the golden parmesan ring with its red stone, steam rising. Hard cut to:
+[12.40-14.00s] Macro, slight high angle, locked: his gloved fingers pull the ring up out of the box, the cream stretching from it in long strands, and hold it at the lens. Hard cut to:
+[14.00-15.60s] Ultra-macro, static: the box cut in half, layer by layer: the crust, the basil, the chicken, the sun-dried tomato cream, a little steam. Hard cut to:
+[15.60-20.00s] Medium close, slight low angle, locked, back at the candle-lit dinner table, no apron, no gloves: he takes a big crunchy bite of the box, chews with his eyes closed, then looks at the lens and slides the open box toward the camera. No cut to black.
+
+SOUND: punchy real sounds synced to each action: the crust's crunch as the lid flips open at 0.2 s, the flour slam, the sizzle, the lid's clank, the cream's pour, the splash, the knife's crunch, the bite. No music, no voice.
+
+AVOID: shaky camera, sunglasses, glasses, a beard, stubble, a different face, apron or gloves at the dinner table, bare hands in the kitchen, a metal or gold ring, jewellery, a velvet box, pasta, wine glasses, bottles, a grater, mixing bowls, pork, bacon, ham, wine, alcohol, logos, brand names, text, numbers, music, talking, other people, extra fingers, deformed hands, distorted face.
+
+===== PRE-FLIGHT =====
+prompt_check.py (24 Nov): no FAIL, no WARN. 5,207 characters.
+1. Anything before the action that makes it? The box shows empty at 0.2 s (hollowed before, the question); the golden
+   chicken after the sear (2.00); the cream after it is poured (3.20); the ring first when the lid lifts (11.00), set in
+   hidden at 8.60.
+2. Places by part: the lid hinged at its back crust; basil on the bottom of the hollow; the hidden thing into the
+   centre; the lid lifted toward the lens.
+3. Read in Arabic: «الرغيف مالي نص الكادر التحتاني»، «إبهاماته بيفتحوا غطاه عالعدسة»، «بيزحلق العلبة المفتوحة صوب
+   الكاميرا» — one meaning each.
+4. One action per shot, except the 8.60 burst (three inserts); 0.00-1.20 is one move (held up, flipped open at once).
+5. Images for look only, named once, no shot tied to an image; @Image2 (open, the ring) is the 11.00 look only.

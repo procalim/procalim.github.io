@@ -4,6 +4,26 @@ The owner, 21 Nov: «الفكرة سارت عنا واداة ig viral موجود
 Every reel goes through the steps below, in order, and each step's check runs before the next. Every step is logged in
 the step log at the end: what we did, what came out, the mistake caught or missed, and the rule it added.
 
+## THE DOOR (the formula v2, the owner, 24 Nov: «اعطيني حل»)
+Our own reads decide it, not taste. The crunchwrap on the 26 s template: skip 47.3%, 68% gone by 2 s inside the
+living-room skit, 21 more points on the prep to 6 s, then flat, and the ones who stayed liked, saved and commented above
+normal. The ice cubes (food close at frame one, a sound): 14.5%. The lantern (food first, no person): 22.4%, 35,530.
+1. **Frame one:** the food doing something, close, filling the frame, with a sound in 0-0.5 s. His face may be above
+   it, eyes on the lens; never a person standing in a room with the food small.
+2. **The hook:** yes, one white line in the middle, 6 words or fewer, over 0-2 s. The picture stops the scroll; the line
+   adds watch time (the ice cubes: the same skip with and without it, 7.4 s against 5.6 s average watch).
+3. **The middle:** moves only (slam, sizzle, lid, pour, throw, landing). No grating, mixing, sprinkling or measuring: it
+   cost 20-33 points each time (the crunchwrap, the ice cubes, the lantern).
+4. **The end:** the reveal in the last quarter (it opens, it is pulled, it is cut), the cross-section, then the bite
+   back where the reel began.
+5. **The send:** the send line on screen from the reveal (not the last seconds, where about 5% are left) and in the
+   caption.
+6. **The test:** two Trial Reels that differ only in the first second; the lower skip is shared and the next reel starts
+   from it. Instagram decides, not us.
+7. **Kept from Kevin's motion:** the locked camera, the motion from the action, hard cuts on action, slow motion and
+   ramps, the overlap on the shared object, the punch-ins, the match cut. Length 20 s.
+First: prompts/w4-marry-me-ring-box-20s-door.txt.
+
 ## The numbers we chase
 | Metric | Where it is read | Now | Target |
 |---|---|---|---|
@@ -104,3 +124,4 @@ prompts/_template-kevin-motion-26s.txt). A reference video is read by Higgsfield
 | 2026-11-24 | The Ring Box (Marry Me Chicken) | 1-3 | the owner: «خلينا نعمل الميري مي تشيكن» | N° 005 word for word, the box and the parmesan ring as our addition (book-additions/marry-me-ring-box.md); the one @Image2 prompt with its block; the template filled: prompts/w4-marry-me-ring-box-26s-motion.txt, prompt_check no FAIL, no WARN, PRE-FLIGHT answered, 6,233 characters; the knife slot lifts the lid and the pull takes the ring out (a box opens, it is not cut in half) | | a recipe whose payoff is an opening keeps the template's seconds and changes only those two slots' actions |
 | 2026-11-24 | The Ring Box (Marry Me Chicken) | 2-3 | the owner sent @Image2 (146dc7db) and asked: «نفس برومت الألماني ... فيديو مرة سينماتيك بروفيشنال ... وأول 3 ثواني حاول إنك تغير المكان، النظرة، المسكة، اشي جذاب» | the opening rewritten: a candle-lit dinner table (a new @Image3 prompt), on one knee, the roll held up like a ring box, eyes on the lens, the empty box opened at 1.20; the commercial-look line added; from 2.04 the template's motion unchanged. prompt_check clean, 6,610 characters (limit about 10,000). The template now allows the opening's place, look and grip to change | the @Image2 lid rests on the left side, not hinged at the back (look only) | the opening tells the dish's story; the template keeps its seconds |
 | 2026-11-24 | The Hashbrown Crunchwrap | 11 | the owner's insights screenshots: «شو رأيك باللي شايفه بالصور؟ شو اللي عم بصير؟» | skip 47.3%, 78 viewers; 60% left by 2 s inside the living-room skit, 21 more points on the prep to 6 s; after 6 s flat and the rates Higher (likes 1.9%, saves 1.0%, comments 1.0%); 0 shares (the send line at 19 s reached about 4) | the template's opening (a person in a room, the food small) and its prep run lose the cold audience; the reel holds the ones who pass 6 s | frame one is food doing something, close; the prep run is cut to the moves; asked before the Ring Box is generated |
+| 2026-11-24 | The Ring Box (Marry Me Chicken) | 1-8 | the owner: «بطلت اعرف شو بدي اعمل. هوك ولا مش هوك، شو البداية شو النهاية، اعطيني حل» | THE DOOR written from the account's reads (top of this playbook); the Ring Box rewritten on it: 20 s, the box flipped open at the lens at 0.2 s, moves only, the ring at 11 s, the bite back at the table; prompts/w4-marry-me-ring-box-20s-door.txt, prompt_check clean, 5,207 characters; A/B Trial on the first second | the 26 s template's skit and prep run lost 68% and 21 points | the formula comes from the account's own curves |
