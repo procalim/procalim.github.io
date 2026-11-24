@@ -1,3 +1,13 @@
+===== THE NEW FORMAT (the owner, 24 Nov; posted with this, the long caption below is kept only as a record) =====
+COVER TITLE (not the video's hook): كرانش راب البطاطا 🥔 / Potato Crunchwrap 🥔
+CAPTION (under 200 characters):
+أكل الساعة 3 الصبح بيستاهل السهر 🌙
+Crispy potato, cheesy wrap, zero regrets
+بطاطا مقرمشة، جبنة، وحشوة حلال
+الوصفة بالبايو 📖 علّق 🥔 وببعتلك ياها
+THE VIDEO: the end line now asks to save and send («احفظها وابعتها لصاحبك اللي بيجوع الساعة 3 🌙»):
+A e19f3fb9, B 479df928 (they replace ab10fcc6 and ca5fbdf2).
+
 The 3 a.m. Potato Crunchwrap (N° 362): the post package (2026-11-24). The video: edits/3am-crunchwrap/ (A ab10fcc6,
 B ca5fbdf2; two Trial Reels, only the hook differs; this caption and pinned comment on both).
 Keyword WRAP: the DM sends N° 362 (book-additions/3am-potato-crunchwrap.md) and the book link. ChatPlace needs

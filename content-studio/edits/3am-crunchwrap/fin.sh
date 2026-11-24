@@ -5,7 +5,7 @@
 # send line from the couch bite (frame 658, 27.42 s) to the end, not over the cut halves.
 #   node biline.mjs hA.png "لما العرب يجوعوا الساعة 3 الصبح 🌙" "When Arabs get hungry at 3 a.m. 🌙"
 #   node biline.mjs hB.png "غالباً ما رح تعترف بهاي، بس…" "You probably won't admit this, but…"   (the strategist's 25)
-#   node biline.mjs sL.png "ابعتها لصاحبك اللي بيجوع الساعة 3 🌙" "Send it to your 3 a.m. friend 🌙"
+#   node biline.mjs sL.png "احفظها وابعتها لصاحبك اللي بيجوع الساعة 3 🌙" "Save it & send it to your 3 a.m. friend 🌙"   (save and send, 24 Nov)
 cd "$(dirname "$0")"
 ffmpeg -v error -y -i out.mp4 -vn -af "aresample=192000,alimiter=limit=0.89:attack=1:release=60:level=disabled,aresample=48000" -c:a aac -b:a 256k aud.m4a
 for v in A B; do
