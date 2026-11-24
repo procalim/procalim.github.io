@@ -1,0 +1,62 @@
+The Onion Volcano «بركان البصل», 20 s, on THE DOOR (content-studio/playbook.md). The owner, 24 Nov: «بركان البصل، كمّل».
+From Google: the Arabic autocomplete «ترند البصل المحشي اندومي» and nine more onion terms. N° 106 The Onion Boil (p255)
+and N° 143 Volcano Cheese Ramen (p294) word for word in the DM; our crater and the ramen built in the onion:
+book-additions/onion-volcano.md (the owner's approval and a kitchen test owed).
+THE DOOR: frame one is the knife's X and the onion blooming, close, with its thunks; the middle is moves only; the
+eruption is the reveal; the bite back at the board where it began. Kevin's motion kept: the locked camera, the motion
+from the action, cuts on action, slow motion and ramps on the throws and drops, the oven door at the camera.
+
+SETTINGS (higgsfield.ai): Seedance 2.5, Omni reference, 20 s, 9:16, resolution 4K (the Ring Box went out at 720p),
+bitrate High, audio On. Character element char_ahmet-salameh-codex (fa420272; no sunglasses, mustache only). Images in
+this order: @Image1 the kitchen (325df734); @Image2 the onion volcano (the owner makes it from
+book-additions/onion-volcano.md). Halal: a halal ramen packet, halal-certified cheeses, no seafood.
+
+THE EDIT: the take as it comes, dead frames out; the hook white in the middle over the opening shot only, Arabic over
+English (_tools/biline.mjs); the send line from the reveal's end to the last frame; -14 to -16 LUFS. Two Trial Reels,
+the same picture, only the hook differs:
+A «اندومي… جوّا بصلة 🌋» / "Indomie… inside an onion 🌋"
+B the strategist's hook 4: «ياريت حدا قلّي هاي من زمان…» / "I wish someone had told me this sooner…"
+The send line: «ابعتها لصاحبك اللي ما بياكل غير اندومي 🌋» / "Send it to your friend who lives on instant noodles 🌋"
+
+===== PROMPT =====
+A vertical 9:16 hyper-kinetic cooking montage, exactly 20 seconds, no text, precise shot-by-shot timing and transitions: a whole onion cut and bloomed open in a dark cinematic kitchen, baked, hollowed into a crater, filled with a mountain of red ramen noodles and cheese, and erupting with cheese lava. The camera is mostly locked, never shaking; the motion comes from the action: food slammed, dropped and thrown, rushing at the lens; slow motion and speed ramps on every throw and drop; every edit lands while something is still moving. Shot like a premium food commercial: cinematic light, deep shadows, rich contrast, shallow depth of field, crisp detail. The food fills the frame in every shot.
+
+REFERENCES (look and shape only; the action and camera follow the shot list): @Image1 his kitchen, @Image2 the finished onion volcano.
+
+THE COOK: his character element, a mustard-yellow t-shirt, a black apron with leather straps and black nitrile gloves. Face clearly visible, a thick dark mustache only, clean-shaven chin, no sunglasses, no glasses. He never speaks.
+
+THE ONION VOLCANO: a large whole white onion, baked soft and golden, cut from its top into four thick petals that open outward like the slopes of a volcano, glossy with red paprika butter; its centre hollowed into a crater holding a tall mountain of curly red ramen noodles, a soft egg yolk on the peak, and melted mozzarella and American cheese pouring over the peak and down the petals like lava, chili flakes and sliced green onions on top.
+
+[0.00-1.20s] Macro, locked, low at a dark walnut board, his face soft behind, eyes on the lens: a big peeled white onion fills the frame; a big knife slams down through its top twice in a deep X, three quarters of the way down, two hard thunks, and his gloved thumbs spread it open into four petals, its base whole. Hard cut on action to:
+[1.20-2.20s] Macro, speed ramp fast to slow: red seasoned butter pours from a small jug over the onion and down inside its cuts, glossy, running through the petals. Hard cut to:
+[2.20-3.20s] Low angle up from an open oven, locked: he crimps heavy foil shut around the onion with a crinkle, slides it in, and the oven door swings shut at the camera. Hard cut to:
+[3.20-4.20s] Close-up, locked: the oven door swings open toward the lens, steam bursting out; his gloved hands tear the foil open on the onion, soft, golden and bloomed, glossy in red butter. Hard cut to:
+[4.20-5.20s] Macro, locked: tongs pull the soft centre layers up out of the onion, leaving a deep crater between the petals. Hard cut to:
+[5.20-6.40s] Macro, slight high angle, slow motion: a block of instant noodles drops into a small pot of boiling red soup with a splash toward the lens. Hard cut to:
+[6.40-7.60s] Low angle, a slight Dutch tilt, speed ramp fast-slow-fast: he lifts a big tangle of red noodles high on chopsticks; it hangs in slow motion above his face. Cut on action to:
+[7.60-8.80s] Low and frontal over the onion, speed ramp: the noodles fall into the crater and pile into a tall mountain peaking out of it, a red splash. Hard cut to:
+[8.80-9.60s] Macro, locked: an egg cracks onto the peak of the noodle mountain, the yolk settling in the centre. Hard cut to:
+[9.60-10.80s] Two quick macro inserts, slow motion at 60%: shredded mozzarella rains down over the mountain; a slice of American cheese drapes over the peak. Hard cut to:
+[10.80-12.00s] Low angle up from the open oven, locked: the foil closes over the top, he slides it in, and the oven door swings shut at the camera. Hard cut to:
+[12.00-13.20s] Eye-level, locked: his gloved hands set the closed foil parcel down on a dark plate, steam leaking from its top seam. Punch-in cut, the same action closer, to:
+[13.20-15.20s] Macro, locked: his gloved fingers tear the foil open toward the lens: the melted cheese erupts over the peak and runs down the onion's petals like lava, bubbling, steam rising. Hard cut to:
+[15.20-16.80s] Macro, slight high angle, locked: chopsticks pull noodles up out of the crater, long strands of cheese stretching from them, and hold them at the lens. Hard cut to:
+[16.80-17.60s] Macro side profile, locked: chili flakes and sliced green onions fall straight down onto the lava. Hard cut to:
+[17.60-20.00s] Medium close, slight low angle, locked, at the same walnut board where it began: he takes a big bite of a cheesy petal wrapped in noodles, chews with his eyes closed, then looks at the lens and slides the plate toward the camera. No cut to black.
+
+SOUND: punchy real sounds synced to each action: the two knife thunks, the butter's pour, the foil's crinkle, the oven door's clank, the foil tearing, the noodles' splash, the egg's crack, the cheese bubbling, the bite. No music, no voice.
+
+AVOID: shaky camera, sunglasses, glasses, a beard, stubble, a different face, bare hands, a red onion, seafood, shrimp, crab, a bowl of soup at the end, packaging, logos, brand names, pork, bacon, ham, alcohol, text, numbers, music, talking, other people, extra fingers, deformed hands, distorted face.
+
+===== PRE-FLIGHT =====
+prompt_check.py (24 Nov): no FAIL, no WARN. 5,029 characters.
+1. Anything before the action that makes it? The petals open after the X (0.00); the golden onion only after the bake
+   (3.20); the crater after the tongs (4.20); the noodles red after the boil (5.20); the lava only when the foil is torn
+   at 13.20, after the cheese went in (9.60) and the second bake (10.80).
+2. Places by part: the X through the onion's top, three quarters down, the base whole; the butter over and inside the
+   cuts; the centre layers pulled out; the noodles into the crater; the egg on the peak; the cheese over the peak and
+   down the petals.
+3. Read in Arabic: «السكين بتنزل مرتين على راس البصلة بشكل X لتلت أرباعها»، «الملاقط بتسحب الطبقات من النص وبتترك
+   فوهة»، «الجبنة بتسيل من القمة على البتلات متل الحمم» — one meaning each.
+4. One action per shot; 0.00-1.20 is the X and the spread (one move); 9.60 is two quick inserts.
+5. Images for look only; @Image2 (erupting) is the 13.20 look only; every shot before it shows an earlier state.
