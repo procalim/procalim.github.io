@@ -15,6 +15,11 @@ written for an idea that has not passed this gate. reels-director takes over aft
 its frame one, its open question, its last second, its silhouette and its Instagram check terms. Take the next row
 from its order, unless the owner names one. New inventions are added there first.
 
+The idea mixer (owner, 24 Nov: «اعطيني اداة ناخد منها ... اشياء ما بتخطر على البال»): `idea-lab/mixer.py` joins a
+book recipe (book-index.tsv, 227, halal notes), an object the model draws right and a send sentence, at random. On
+«ضرب افكار» run `python3 mixer.py 12`, keep the 2-3 that make sense as food, and score them here. Add every new
+invention's pair to its USED list.
+
 Never more than 3 episodes of one base in a row (owner, 2026-11-21: «غير أصلا فكرة النقانق هاي الحلقة الرابعة»: the
 lantern, the chain, the braid, then the zipper).
 
