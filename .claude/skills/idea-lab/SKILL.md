@@ -23,6 +23,14 @@ invention's pair to its USED list.
 Never more than 3 episodes of one base in a row (owner, 2026-11-21: «غير أصلا فكرة النقانق هاي الحلقة الرابعة»: the
 lantern, the chain, the braid, then the zipper).
 
+## 0b. Google first (the owner, 24 Nov: «ابحث عن طريق جوجل عن الوصفات، ومن جوجل الوصفات احنا بنصير نخترع الشكل والافكار»)
+Instagram cannot be searched from here and ScrapeCreators is at 0 credits; Google can. In the Higgsfield sandbox,
+`python3 google_ideas.py --terms --deep > terms.json` (Google's and YouTube's autocomplete for «وصفة ترند», "viral
+recipe" and the rest: what Arabs and others type right now); here, `python3 idea-lab/google_ideas.py --from terms.json`
+matches each term to the book per food word. Keep the terms file in research/google-trends-DATE.json. Then an object
+from mixer.py on top of the matched recipe (the trend is the dish, the invention is the shape), and the score below.
+A dish in Google's autocomplete counts 1 evidence point (live demand) until reel multiples are measured.
+
 ## 1. Write the idea in one row
 `dish (book N°) | the send sentence | hook ≤6 words | the answer at the end | the sound in 0-0.5 s | series slot`
 The send sentence is «ابعتها لـ___ لأنو ___», a real person the viewer knows and a reason (craving, diet, kids'
