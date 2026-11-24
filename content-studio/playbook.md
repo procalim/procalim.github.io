@@ -39,6 +39,17 @@ First: prompts/w4-marry-me-ring-box-20s-door.txt.
    reference reel's audio attached in the Instagram app (Use audio) for the credit, not ripped into the file.
 5. **The post:** two Trial Reels on the hook; the read at 1 h and 24 h logged here.
 
+### KNOWING THE AUDIENCE WANTS FOOD AND THE BOOK (the owner, 24 Nov: «كيف بدي أعرف إنه هذا الجمهور مهتم بالطهي والكتاب؟»)
+The dashboard (24 Nov): 1,181 followers (+90 net in 30 days, 122 follows); Arabic 73.5%, English 16.7%; ages 25-34
+50.5%, 18-24 20.6%, 35-44 18.4%; women 47.5%; Jordan 20.1%, Saudi Arabia 19.4%, UAE 5.8%, Iraq 5.7%, Egypt 5.2%; most
+active 6-9 pm and around midnight GMT+3, least at 3-6 am. Instagram does not show interests, so four counts stand in:
+1. **Recipe asks:** comments with the keyword or 🍜/🥔 per 1,000 viewers (someone who asks wants to cook it).
+2. **Saves per 1,000 viewers** (a save is "I will make this"): the 3 a.m. crunchwrap 1.5.
+3. **The book:** the bio link carries utm_campaign=<reel> (one link a reel), and the Whop pixel on ediblecodex.com counts
+   the visits and checkout starts (src/lib/pixel.ts): visits and checkouts per reel.
+4. **Ask them:** a story poll after each reel («بتطبخ بالبيت؟» / «بدك كتاب الوصفات بالعربي؟»), its answers logged here.
+Post at 6-9 pm GMT+3 (or about midnight for a 3 a.m. story), not in the morning.
+
 ### THE PACE AND THE STORY (24 Nov, the owner: «قارن ... وشوف الفرق ... بدنا حل»), measured, not guessed
 | | length | cuts a second | average shot | motion inside a shot | saturation |
 |---|---|---|---|---|---|
@@ -171,3 +182,4 @@ prompts/_template-kevin-motion-26s.txt). A reference video is read by Higgsfield
 | 2026-11-24 | (route) | 0-8 | the owner: «انا مش قاعد اجرب ... فيديو تو فيديو. هذا هو الحل، هيجزفيلد جينستيف» | THE GENJUTSU ROUTE written; Genjutsu takes 1080p (the first ran at 720p); the German's 80 shorts ranked: median 18,000, the crunchwrap 889x, then the cabbage soup 39x, the onion soup 26x, the dumpling nests 18x, the leek pasta 15x, the potato wraps 13x | the copy's 30 s ran at 720p | references by multiple, not by fame |
 | 2026-11-24 | Anime Fire Ramen (N° 363) | 1, 7-9 | the owner: «اعطيني التايتل ... كابشن بنوعية جديدة ... مش اكثر من 200 حرف، ودعوة للبايو وتعليق فقط ... والدعوة في الفيديو دايما تكون مشاركة وحفظ ... خذ هوك من اللي بعتلك اياهم» | the Genjutsu video read: the reference was a tonkotsu (pork) ramen with pork belly and a TONKOTSU RAMEN sign; the halal cut (pork shots out, the sign blurred), 14.4 s; N° 363 written halal (beef, chicken stock); hooks A «لما العرب يجوعوا… بيصيروا أنمي 🔥», B the strategist's 1; the save and send line; the new caption format (cover title, 122 characters, bio and comment only) into the reels-director skill; A 59f2eae4, B 33ddd45d | a pork reference would have gone out on a halal account: the Genjutsu route now checks the reference for pork and alcohol first | read every reference for halal before the edit |
 | 2026-11-24 | The 3 a.m. Crunchwrap read; Anime Fire Ramen | 11, 8 | the owner: «شوف نسبة اللي سكيب ما احلى ... بس ليش احنا بنخرب دايما بالاخر؟» | the read logged in ideas.md: skip 19.6%, watch 15 s, 1,301 viewers, 0 sends, 2 saves, flat after 75 min. The anime ramen's save and send line moved from 12.50 s to 10.37 s (the egg cut into the bowl, the reveal); its pinned comment asks for a mention | the save and send line came after the average viewer had left | the ask must land before the average watch ends |
+| 2026-11-24 | The 3 a.m. Crunchwrap, tightened; the audience | 7, 11 | the owner: «ليش ما عم بيكملوا للآخر؟ ... بدي أحل المشكلة مش بفيديو ثاني ... كيف بدي أعرف إنه هذا الجمهور مهتم بالطهي والكتاب؟» + the audience dashboard | the same video cut from 30 s to 20.6 s: the story, the grate, the folds, the cut and the couch end whole; the chopping, the garlic, the long mince and the slow assembly cut to their key moves (edits/3am-crunchwrap/tight.py); A 8e4a8ace, B f4c924c2 as Trial Reels. The audience and the four interest counts written above THE PACE AND THE STORY | posted at 10 am; the followers peak 6-9 pm GMT+3 | a long middle loses the end; post in the evening |
