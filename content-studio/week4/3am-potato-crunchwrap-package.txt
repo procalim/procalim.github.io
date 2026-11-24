@@ -5,6 +5,9 @@ CAPTION (under 200 characters):
 Crispy potato, cheesy wrap, zero regrets
 بطاطا مقرمشة، جبنة، وحشوة حلال
 الوصفة بالبايو 📖 علّق 🥔 وببعتلك ياها
+PINNED COMMENT (new format):
+الساعة 3 الصبح: كرانش راب ولا اندومي؟ 🌙 علّق 🥔 وببعتلك الوصفة
+3 a.m.: crunchwrap or instant noodles? Comment 🥔 for the recipe
 THE VIDEO: the end line now asks to save and send («احفظها وابعتها لصاحبك اللي بيجوع الساعة 3 🌙»):
 A e19f3fb9, B 479df928 (they replace ab10fcc6 and ca5fbdf2).
 
