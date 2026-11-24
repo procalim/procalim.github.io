@@ -161,7 +161,13 @@ Instagram lists these rates in order of importance to reach. Every edit and capt
 6. Talk to the user in Levantine Arabic, minimal English words.
    Work day by day (owner, 2026-10-27): one day's tasks per message, short, no multi-page plan documents or
    PDF dumps unless he asks. The prompt and the content come first.
-7. Captions: English first then Arabic, 3-5 hashtags, no em dashes, each copy item in its
+7. **The caption format from 24 Nov (owner: «ما بدي نفس الكابشن ... كابشن بنوعية جديدة وعنوان خطاف بنوعية مختلفة عن اللي
+   بتكون جوا الفيديو، وسمبل خفيف مش اكثر من 200 حرف، ودعوة للبايو وتعليق فقط لا غير. والدعوة في الفيديو دايما تكون
+   مشاركة وحفظ»):** a cover title that is not the video's hook; a caption of 200 characters or fewer, Arabic first,
+   light; its only asks are the link in bio and a comment (no save, share or repost lines in the caption); the ask on
+   the video is always save and send («احفظها وابعتها لـ…»). Example: week4/anime-fire-ramen-package.txt. The older
+   long-caption rules below stay for the DM text and the book.
+   Older: Captions: English first then Arabic, 3-5 hashtags, no em dashes, each copy item in its
    own code block. Recipe count is always 361. Book price 14.99 USD (was 9.99), instant download,
    30-day refund.
    Purchase line (owner's call, 2026-11-01): no price, emotional (home, family, the table, gathering),
