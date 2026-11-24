@@ -70,6 +70,15 @@ Completion by design: the viewer stays to see the timer run out.
 | 6.1 | **The Cheese Hourglass «الساعة الرملية»** | two crisp noodle bowls joined at a narrow neck; it is flipped with a thud and melted cheese starts to pour through the neck onto a raw egg | «لما تخلص الجبنة شو بصير؟» → the last of the cheese falls and the yolk bursts into the noodles | an hourglass | ramen hourglass, cheese hourglass |
 | 6.2 | **The Lava Lamp «مصباح الحمم»** | a tall glass of hot broth; red chili-oil and white cheese blobs rise and fall; 6 drops fall in with a plop | «شو هاد؟» → poured over the noodle mountain: the lava covers it | a lava lamp | ramen lava lamp |
 
+### F7. A trend recipe that becomes an object «الترند بيصير غرض» (the owner, 24 Nov: «وصفة ترند بس بشكل مثل الفانوس، بس مش زي الفانوس، بنفس السيستم، فكرة ما بتخطر على بال ناس، والناس بتقدر تعملها»)
+On the locked template (prompts/_template-kevin-motion-26s.txt): frame one stays the template's toss; the object shows
+only in the payoff (the cut, the pull-apart, the cross-section), so the question stays open to the last 25%.
+| # | Trick | The object, and where it shows | The question → the last second | Silhouette | IG check |
+|---|---|---|---|---|---|
+| 7.1 | **The Ring Box «علبة الخاتم»** (N° 005 Marry Me Chicken p152; halal chicken broth, halal-certified parmesan) | a round crusty roll cut into a ring box (the top cut three quarters across, the back left as the hinge, the bottom hollowed), filled with the book's chicken; the ring: grated parmesan melted in a dry pan into a lacy golden ring, a piece of sun-dried tomato pressed on as the stone, set upright in the sauce. The box opens toward the lens at the cut slot (18.89) | «شو بالعلبة؟» → the lid opens: the parmesan ring standing in the cream; pulled out, the sauce stretching | a ring box | marry me chicken bread bowl, marry me chicken ring, bread ring box |
+| 7.2 | **The Edible Book «كتاب بينوكل»** (N° 041 The 15-Hour Potato p188; melted butter, the book's own choice for the fat) | the cold pressed block cut into one thick "book", then cut crosswise into thin leaves almost through, the spine left whole; in the hot oil the leaves fan open like pages (as the lantern opened in the oil). The Edible Codex is a book: the account's name, eaten | «شو رح يصير بالزيت؟» → the golden book on the board, his thumb riffling the crisp pages, each one cracking | a book with its pages fanned | 15 hour potato book, potato book fried, potato pages |
+| 7.3 | **The Potato Mushrooms «فطر البطاطا»** (N° 031 Potato Pillows p178; nothing to change for halal) | the book's own step 4: a bottle rim pressed into each potato ball makes a mushroom; boiled, tossed in the chili sauce, served as a forest on a board | «كيف صارت فطر؟» → the knife halves one: a chewy stretch | mushrooms | potato mushrooms bottle, bubble potato mushroom |
+
 ## The order to make them (the owner can change it)
 The owner, 21 Nov: «غير أصلا فكرة النقانق هاي الحلقة الرابعة روح لوصفات مختلفة وافكار من الي سجلتها». F1 is parked:
 the lantern, the chain, the braid and the zipper made four hot dog episodes in a row. Never more than 3 episodes of
