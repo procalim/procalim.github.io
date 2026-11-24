@@ -126,7 +126,10 @@ Instagram lists these rates in order of importance to reach. Every edit and capt
      بفيديوهاته الثانية، لون أبيض فقط»): white text only, no box, no sticker, centred on y 960, the middle of the
      frame (whiteline.mjs, edits/_tools: Instrument Sans 600, 64 px, one or two lines, a soft shadow under the letters
      only). This replaces the top band and the white box (meme.mjs, 21 Nov), which are no longer used.
-   - The re-hook and the send line take the same style and place.
+   - Two languages (owner, 24 Nov: «عربي انجليزي لانه المحتوى لسه عم بيطلع لجمهور العربي»): the Arabic line (Cairo 600,
+     54 px) over the English line (Instrument Sans 600, 46 px), edits/_tools/biline.mjs.
+   - The re-hook and the send line take the same style and place; never over the reveal itself (the send line starts
+     after the reveal shot, e.g. the cross-section).
    - Before rendering, check the text at each line's first frame at full size: every word readable.
 2. **Share rate:** one send line naming a person, on screen at the payoff, white in the middle (2 lines, 64 px,
    centred on y 960), and the same line in the caption.

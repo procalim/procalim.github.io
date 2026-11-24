@@ -132,3 +132,24 @@ One short card on every shot after the hook, each 2-5 words, each a reason to st
 | 20 | POV: the street food closed early | لما محل الأكل سكّر بكير | street-food remakes |
 | 21 | POV: your daughter braided dinner | لما بنتك ضفّرت العشا | the braided corn dog |
 | 22 | When the hot dog went to the salon | لما النقانق راحت عالصالون | the braided corn dog |
+
+## The strategist's 30 story hooks (the owner's screenshots, 24 Nov: «انظر أيضا إلى بعض هذه الهوكات لقد أخذتها من خبير استراتيجي، حاول أن تطابق منها»)
+Story openers from a creator's list (Kienobi, "30 viral story hooks"). Ours take the shape, never the words of a story
+we do not have; the food answers the line.
+1 "I've deleted this video three times, but I'm posting it anyway..." 2 "I've never shared this publicly before..."
+3 "Have you ever felt like..." 4 "I wish someone had told me this sooner..." 5 "I spent 8 months solving a problem nobody
+had..." 6 "This was the day everything went wrong..." 7 "Looking back, I can't believe I did this..." 8 "If I could go
+back, I'd do one thing differently..." 9 "I almost quit because of this..." 10 "This lesson cost me _ months. You can
+have it in 60 seconds." 11 "I didn't realize it at the time, but..." 12 "Here's what actually happened..." 13 "The
+biggest lesson came from my biggest mistake..." 14 "Success didn't teach me this. Failure did." 15 "The thing I was
+most embarrassed about is now the reason people hire me." 16 "One conversation completely changed my perspective..."
+17 "I thought I knew the answer until this happened..." 18 "This experience made me rethink everything..." 19 "The
+advice that changed my life wasn't what I expected..." 20 "If you've ever doubted yourself, this is for you..." 21 "You
+might be making the same mistake I was..." 22 "If you've ever wanted to give up..." 23 "We've all had moments like
+this..." 24 "I thought I was the only one..." 25 "You probably won't admit this, but..." 26 "Three years ago, I was..."
+27 "I went from _ to _ because of one decision..." 28 "This is who I used to be..." 29 "Before this happened, I
+believed..." 30 "The old me would've handled this completely differently..."
+Used: 2 on the Ring Box B («عمري ما نزّلت هاي قبل…» / "I've never shared this publicly before…", over the empty box
+opening), against A «اعملها… وبيتقدّملك 💍» / "Make this and he'll propose 💍". The Trial read decides which stays.
+Next to try on food: 4 (a trick: «ياريت حدا قلّي هاي من زمان…»), 21 (a fix: «يمكن عم تعمل نفس غلطتي…»), 25 (a craving:
+«غالباً ما رح تعترف بهاي، بس…»).
