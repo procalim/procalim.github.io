@@ -33,6 +33,9 @@ lunch box, the family group, Ramadan). If it cannot be filled in specifically, s
   the on-screen words, speech or none, the length.
 - Write every row with its account and link into content-studio/research/swipe-YYYY-MM-DD.md (creators' handles
   only, never commenters').
+- ScrapeCreators at 0 credits: YouTube Shorts is the free second corpus (ig-viral step 2): edits/_tools/ytm.py in the
+  Higgsfield sandbox (YouTube is blocked from this container) gives the multiple per channel; read each top row's
+  upload date, since YouTube's search favours old hits.
 
 ## 2b. Never call an idea new from the web alone (owner, 2026-11-21)
 The Cheese-Heart Spring Potato was "not found" in 5 web searches. The owner found it all over reels: «الفكرة قديمة ومليان
