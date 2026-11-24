@@ -41,3 +41,9 @@ THE RING BOX: a round crusty golden bread roll cut into a ring box, its top a li
 
 ===== @Image2: THE RING BOX, OPEN =====
 Photorealistic food photograph, vertical 9:16. THE RING BOX: a round crusty golden bread roll cut into a ring box, its top a lid hinged at the back crust; inside, golden seared chicken slices in a thick creamy sun-dried tomato sauce with fresh basil, and standing upright in the sauce an edible ring of golden lacy baked parmesan with a red sun-dried tomato piece set on top as its stone; no metal anywhere. The lid stands open, tilted back on its hinge like an open jewellery box, and the box sits on a white plate on a dark walnut board in a dark kitchen, its open front toward the lens, a little steam rising. Warm golden side light, soft brass bokeh behind, shallow depth of field, the parmesan ring razor sharp. No hands, no metal ring, no gold, no diamond, no velvet box, no text, no labels, no logos, no other food.
+
+The owner made @Image2 on 24 Nov (Bread_roll_ring_box_chicken_146dc7db_2K.jpeg): the box, the lacy parmesan ring
+upright with its sun-dried tomato stone, the basil; the lid rests against the left side rather than hinged at the back.
+
+===== @Image3: THE CANDLE-LIT TABLE (the new opening place; the owner, 24 Nov: «أول 3 ثواني حاول إنك تغير المكان») =====
+Photorealistic interior photograph, vertical 9:16, eye level: a romantic dinner table for two at night in a cosy dark room, a white tablecloth, tall lit candles in brass holders, a few red rose petals on the cloth, two empty white plates, warm golden candlelight, soft string-light bokeh behind, deep shadows, cinematic. No people, no drinks, no bottles, no text, no logos.

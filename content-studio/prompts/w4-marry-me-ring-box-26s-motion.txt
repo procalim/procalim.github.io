@@ -4,23 +4,28 @@ and parmesan ring: book-additions/marry-me-ring-box.md (the owner's approval and
 Every second, camera word, speed and transition is the template's. One change, because a box opens and is not cut in
 half: the knife slot (18.89) lifts the lid, and the pull-apart slot (19.92) pulls the ring out. The ring is first seen
 when the lid opens: it is set in hidden in his fist at 16.38, so «what did he put in?» stays open to 73% of the reel.
+The opening (the owner, 24 Nov: «فيديو مرة سينماتيك بروفيشنال ... وأول 3 ثواني حاول إنك تغير المكان، النظرة، المسكة، اشي
+جذاب»): a new place (a candle-lit dinner table, @Image3 below), a new look (eyes locked on the lens, eyebrows up, a
+half-smile), a new grip (on one knee, the roll held up in both hands like a ring box); the empty box at 1.20 opens the
+question the ring answers at 18.89. Everything from 2.04 on is the template's motion: the cuts, the overlaps, the
+slow motion and the speed ramps back to speed.
 
 SETTINGS (higgsfield.ai): Seedance 2.5, Omni reference, 26 s, 9:16, bitrate High, audio On. Character element
 char_ahmet-salameh-codex (fa420272; no sunglasses, mustache only). Images in this order: @Image1 the kitchen
-(325df734); @Image2 the ring box, open (the owner makes it from book-additions/marry-me-ring-box.md); @Image3 the
-living room (a6a88ed7). Halal: chicken, halal-certified parmesan, no wine.
+(325df734); @Image2 the ring box, open (146dc7db, the owner's, 24 Nov); @Image3 the candle-lit
+table (new: the owner makes it from the @Image3 prompt at the end of this file). Halal: chicken, halal-certified parmesan, no wine.
 
 ===== PROMPT =====
-A vertical 9:16 hyper-kinetic cooking montage, exactly 26 seconds, no text, precise shot-by-shot timing and transitions: a comic crusty bread roll opening in a bright living room, then a dark cinematic kitchen where it becomes a bread ring box of creamy chicken with a parmesan ring inside. The camera is mostly locked, never shaking; the motion comes from the action: food thrown up, dropped into frame, rushing at the lens; slow motion and speed ramps on every throw and drop; every edit lands while something is still moving.
+A vertical 9:16 hyper-kinetic cooking montage, exactly 26 seconds, no text, precise shot-by-shot timing and transitions: a comic proposal with a crusty bread roll at a candle-lit dinner table, then a dark cinematic kitchen where it becomes a bread ring box of creamy chicken with a parmesan ring inside. The camera is mostly locked, never shaking; the motion comes from the action: food thrown up, dropped into frame, rushing at the lens; slow motion and speed ramps on every throw and drop; every edit lands while something is still moving. Shot like a premium food commercial: cinematic light, deep shadows, rich contrast, shallow depth of field, crisp detail.
 
-REFERENCES (look and shape only; the action and camera follow the shot list): @Image1 his kitchen, @Image2 the finished ring box, @Image3 the living room.
+REFERENCES (look and shape only; the action and camera follow the shot list): @Image1 his kitchen, @Image2 the finished ring box, @Image3 the candle-lit table.
 
 THE COOK: his character element, a mustard-yellow t-shirt; in the kitchen also a black apron with leather straps and black nitrile gloves. Face clearly visible, a thick dark mustache only, clean-shaven chin, no sunglasses, no glasses. He never speaks.
 
 THE RING BOX: a round crusty golden bread roll cut into a ring box, its top a lid hinged at the back crust; inside, golden seared chicken slices in a thick creamy sun-dried tomato sauce with fresh basil, and standing upright in the sauce an edible ring of golden lacy baked parmesan with a red sun-dried tomato piece set on top as its stone; no metal anywhere.
 
-[0.00-1.20s] Medium, locked, eye level, the bright living room, no apron, no gloves: he tosses a round crusty bread roll up high and catches it, real time. Hard cut on the catch to:
-[1.20-2.04s] Chest-up punch-in, the same room, locked: he holds the bread roll over his eyes, a comic pause, then pushes it at the lens until it fills the frame. Hard cut on action to:
+[0.00-1.20s] Medium, locked, eye level, a candle-lit dinner table at night, no apron, no gloves: he drops onto one knee into frame and holds up a round crusty bread roll in both hands like a ring box, his eyes locked on the lens, eyebrows raised, a cheeky half-smile, real time. Hard cut on action to:
+[1.20-2.04s] Chest-up punch-in, the same table, locked: his thumbs flip the roll's top open toward the lens like a ring box lid, the inside hollow and empty; a comic pause, his eyes from the box to the lens, then he pushes it at the lens until it fills the frame. Hard cut on action to:
 [2.04-3.47s] Low angle at counter height, dark kitchen, locked, a glass bowl low in frame, his face soft above: he grates a block of parmesan fast on a box grater, the cheese snowing into the bowl in 50% slow motion toward the lens; 2.70-2.94s a 0.25 s cross-dissolve overlap to the same bowl, fuller, the bowl staying exactly in place. Hard cut to:
 [3.47-4.40s] Close-up, side 45 degrees, locked, speed ramp fast to slow: a seasoned chicken slice drops into a dish of flour, a white cloud bursting up in a slow-motion arc. Hard cut to:
 [4.40-4.84s] 45-degree macro, locked: chopped sun-dried tomatoes drop into the bowl. Hard cut to:
@@ -48,14 +53,15 @@ THE RING BOX: a round crusty golden bread roll cut into a ring box, its top a li
 
 SOUND: punchy real sounds synced to each action: the grater, the flour thud, the sizzle, the lid's clank, the thick pour, the slice landing, the crunch of the crust as the lid opens, the bite. No music, no voice.
 
-AVOID: shaky camera, sunglasses, glasses, a beard, stubble, a different face, apron or gloves in the living room, bare hands in the kitchen, a metal or gold ring, jewellery, a velvet box, a loaf, pasta, pork, bacon, ham, wine, alcohol, logos, brand names, text, numbers, music, talking, other people, extra fingers, deformed hands, distorted face.
+AVOID: shaky camera, sunglasses, glasses, a beard, stubble, a different face, apron or gloves at the dinner table, bare hands in the kitchen, a metal or gold ring, jewellery, a velvet box, pasta, wine glasses, bottles, pork, bacon, ham, wine, alcohol, logos, brand names, text, numbers, music, talking, other people, extra fingers, deformed hands, distorted face.
 
 ===== PRE-FLIGHT =====
 prompt_check.py (24 Nov): no FAIL, no WARN.
 1. Anything before the action that makes it? The ring is first seen when the lid opens (18.89); at 16.38 it goes in
    hidden in his fist. The golden chicken shows first under the lifted lid (13.91), after the sear (7.24). The sauce in
    the jug (12.21) is the skillet's (steps 03-04 off screen, as the template has no slot for them); its add-ins were
-   mixed on screen (4.40-7.24). The box is hollowed before 9.54 (prep, as the tortilla was bought).
+   mixed on screen (4.40-7.24). The box is hollowed before the opening (prep, as the tortilla was bought): it shows
+   empty at 1.20 on purpose, the question.
 2. Places by part: the lid hinged at its back crust; basil on the bottom of the hollow; tomatoes at the front edge; the
    ring set into the centre (the chicken's centre, not a cut place); the lid lifted toward the lens.
 3. Read in Arabic: «علبة خبز غطاها معلّق من القشرة الخلفية»، «خاتم بارميزان محمّص وحجره قطعة طماطم مجففة»، «بيحط إشي
@@ -65,4 +71,7 @@ prompt_check.py (24 Nov): no FAIL, no WARN.
    shots before 18.89 show it closed or being filled, so the image is the payoff's look only.
 The template's one change for a box: the knife lifts the lid (18.89) and the pull takes the ring out (19.92), in
 place of a cut in half and two halves pulled apart; every second, camera word, speed and transition kept.
-Length: 6,233 characters (the hashbrown crunchwrap's was 6,002).
+Length: 6,610 characters (the hashbrown crunchwrap's was 6,002).
+
+===== @Image3: THE CANDLE-LIT TABLE (no people; make it like the living room image, 9:16) =====
+Photorealistic interior photograph, vertical 9:16, eye level: a romantic dinner table for two at night in a cosy dark room, a white tablecloth, tall lit candles in brass holders, a few red rose petals on the cloth, two empty white plates, warm golden candlelight, soft string-light bokeh behind, deep shadows, cinematic. No people, no drinks, no bottles, no text, no logos.

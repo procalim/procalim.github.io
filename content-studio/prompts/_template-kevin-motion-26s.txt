@@ -15,6 +15,13 @@ HOW TO FILL
   shot of something ordinary (the cliff).
 - Then prompt_check.py and the 5 PRE-FLIGHT answers; the length near 6,000 characters.
 - A new reference video: Higgsfield's video analysis reads it (it watches motion; Claude reads still frames only).
+- The opening (0-2.04) may take a new place, look and grip that tell the dish's story (the owner, 24 Nov: «أول 3 ثواني
+  حاول إنك تغير المكان، النظرة، المسكة، اشي جذاب»): eyes on the lens, a grip that shows the shape, the hero object held
+  up; @Image3 is then that place (no people). The two shots keep their seconds and cuts; the kitchen starts at 2.04.
+  First used: the Ring Box (a proposal on one knee at a candle-lit table).
+- Shot like a premium food commercial (the owner, 24 Nov: «فيديو مرة سينماتيك بروفيشنال»): the line "Shot like a premium
+  food commercial: cinematic light, deep shadows, rich contrast, shallow depth of field, crisp detail." after the camera
+  sentence.
 
 SETTINGS (higgsfield.ai): Seedance 2.5, Omni reference, 26 s, 9:16, bitrate High, audio On. Character element
 char_ahmet-salameh-codex (fa420272). Images in this order: @Image1 the kitchen (325df734); @Image2 [THE FINISHED DISH];
