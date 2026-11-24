@@ -15,4 +15,4 @@ The owner, 24 Nov: «اكتب برومت يكون نقل فقط بالهوية،
 كتبت له اشي»: the video carries the recipe and the motion; the prompt names only the identity (or is left empty).
 
 ===== PROMPT =====
-Replace the person with the man in @Image1. Keep everything else exactly as in the video.
+Replace the person with the man in @Image1: the same face, a thick dark mustache, clean-shaven chin, short dark hair, a mustard-yellow t-shirt, a black apron with brown leather straps, and black nitrile gloves on both hands. Keep everything else exactly as in the video.
