@@ -24,6 +24,16 @@ normal. The ice cubes (food close at frame one, a sound): 14.5%. The lantern (fo
    ramps, the overlap on the shared object, the punch-ins, the match cut. Length 20 s.
 First: prompts/w4-marry-me-ring-box-20s-door.txt.
 
+### THE GENJUTSU ROUTE (the owner, 24 Nov: «فيديو تو فيديو ... هذا هو الحل»), the owner's call
+1. **The reference:** an outlier only, by the multiple (views / that account's median): research/swipe-2026-11-24.md
+   ranks the German's shorts (median 18,000; the crunchwrap 889x, the next 39x and 26x). Outliers from other accounts
+   too, so the account is not one creator's copy.
+2. **Genjutsu** (hf_mult_motion_control) at **1080p**: the reference video and the character image.
+3. **The recipe:** written from the frames as the next book number (N° 363 on), halal swaps marked, the owner's approval.
+4. **The edit:** the story line (Arabic over English, white, middle), the send line from the bite, the sound: the
+   reference reel's audio attached in the Instagram app (Use audio) for the credit, not ripped into the file.
+5. **The post:** two Trial Reels on the hook; the read at 1 h and 24 h logged here.
+
 ### THE PACE AND THE STORY (24 Nov, the owner: «قارن ... وشوف الفرق ... بدنا حل»), measured, not guessed
 | | length | cuts a second | average shot | motion inside a shot | saturation |
 |---|---|---|---|---|---|
@@ -153,3 +163,4 @@ prompts/_template-kevin-motion-26s.txt). A reference video is read by Higgsfield
 | 2026-11-24 | The Onion Volcano | 1-3 | the owner: «بركان البصل، كمّل» | N° 106 and N° 143 word for word, our crater and the ramen built in the onion (book-additions/onion-volcano.md); one @Image2 prompt with its block; the 20 s prompt on THE DOOR: the knife's X at 0.00 with two thunks, moves only, the eruption at 13.20, the bite back at the board; prompt_check clean, PRE-FLIGHT answered, 5,029 characters; 4K in SETTINGS; A/B hooks and the send line set | the Ring Box went out at 720p: 4K written into SETTINGS | Google's live Arabic demand, then the shape |
 | 2026-11-24 | The 3 a.m. Potato Crunchwrap (N° 362) | 1, 7, 8 | the owner: «فيديو الألماني موجود وبصوت ونفس الحركة ... والوصفة بتنضاف على الكتاب ... 362 وصفة ... ليش معقدها» | the recipe written from the video's frames as N° 362 (book-additions/3am-potato-crunchwrap.md: walnut mince as shown, halal beef as the swap; approval and kitchen test owed); the motion-control video kept whole (the German's tight edit, one 0.25 s still), 1080x1920, its sound through the house limiter -14.5 LUFS; the hook over the couch opening: A «لما العرب يجوعوا الساعة 3 الصبح 🌙» ab10fcc6, B the strategist's 25 «غالباً ما رح تعترف بهاي، بس…» ca5fbdf2; the send line from the couch bite | said once: the sound inside the file is the German's track (attach his audio in the app for the credit); a near copy ranks as unoriginal | the owner's call: new recipes go into the book as numbered additions (362 on) |
 | 2026-11-24 | (all) + The Onion Volcano | 1-8 | the owner: «قارن ... وشوف الفرق ... فيديوهاتنا ... مملة ... بدنا حل ... مش كوبي بيست» | measured five reels (cuts a second, shot length, motion inside shots, saturation): the German 2.05/s, 0.48 s, 10.2, 137; ours 0.70-1.27/s, 0.77-1.34 s, 4.8-6.5, 97-114. THE PACE AND THE STORY added to THE DOOR. The Onion Volcano re-cut on it: 13.8 s, every shot to its action, slow motion sped 1.25-1.6x, warmer; A «ماما: في أكل بالبيت 🧅», B «لما العرب يجوعوا الساعة 3 الصبح 🌙» | our prompts asked for slow motion everywhere and deep shadows | pace and story are measurable: check cuts a second and motion before sending |
+| 2026-11-24 | (route) | 0-8 | the owner: «انا مش قاعد اجرب ... فيديو تو فيديو. هذا هو الحل، هيجزفيلد جينستيف» | THE GENJUTSU ROUTE written; Genjutsu takes 1080p (the first ran at 720p); the German's 80 shorts ranked: median 18,000, the crunchwrap 889x, then the cabbage soup 39x, the onion soup 26x, the dumpling nests 18x, the leek pasta 15x, the potato wraps 13x | the copy's 30 s ran at 720p | references by multiple, not by fame |
