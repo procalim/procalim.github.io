@@ -17,3 +17,10 @@ each on its action (Higgsfield sandbox /home/user/comm/foley.py):
 | 0-19.9 | under all | Kitchen Atmos Calm, Low Activity 01 |
 -19.0 LUFS, peak -1.0 (quiet, as real kitchen sound is). The result: 5518a5f4. Genjutsu quote with him (f62eda22) and his
 kitchen (325df734), 1080p: 400 credits; nothing generated before «ولد».
+
+## v2, 25 Nov (the owner: «صوت تكت الصحن مش مظبوط، ركبه بشكل مضبوط وقوه بصوت الصحن الحقيقي»)
+The first placement guessed (0.15, 0.45, 2.00, 3.40). Measured: the splatter lands on the lower plate at 0.80, 2.17 and
+3.63 s (the coloured pixels jump), so the spoon strikes the held plate at 0.77, 2.13 and 3.60. Each strike now three
+layers (Cutlery Hit Dish, Ceramics Plate Put Down Clink, Spoon Taps On Plate) at -1 to -2 dB, the loudest sounds of the
+reel; the ring on the plate at 4.32 (metal and plate layers); everything else 6-8 dB under them. -19.3 LUFS, peak -0.5.
+foley.py here. The result: 305a4b52 (replaces 5518a5f4).
