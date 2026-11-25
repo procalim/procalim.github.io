@@ -11,7 +11,7 @@ Tag your gym buddy 👇 Comment 🍠 for the recipe
 
 ===== THE STORY (his screen recording of the Arabic book: N° 49 Lemon Posset, N° 50 Volcano Pizza Toast, p. 192 of 380) =====
 Title (top): «قلّب معي الكتاب 📖 ٣٦١ وصفة حلال»
-Link sticker: «الكتاب كامل 📕» -> https://whop.com/the-edible-codex-cookbook
+Link sticker: «الكتاب كامل 📕» -> https://whop.com/checkout/plan_em9IY2N3WR5Je
 (25 Nov, the owner: «انت معطيني رابط المتجر بتاع ديجي ستور، مش ... ووب»: ediblecodex.com/codex opens the Digistore
 checkout (App.tsx, digistoreSlug); the store is Whop.)
 Poll (the playbook's count 4): «بدك الكتاب بالعربي؟» آه 😍 / أكيد 📕
