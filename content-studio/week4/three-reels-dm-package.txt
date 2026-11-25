@@ -7,6 +7,11 @@ PDF of 8 recipes does not hold these three, so it does not say «this one includ
 ######## 1. ANIME FIRE RAMEN (keyword 🍜) ########
 ===== TITLE =====
 رامن الأنمي 🔥 / Anime Ramen 🔥
+===== CAPTION (week4/anime-fire-ramen-package.txt) =====
+الرامن الساعة 3 الصبح غير 🍜🔥
+Ramen at 3 a.m. hits different
+بيض طري، خضار، ولحمة حلال
+الوصفة بالبايو 📖 علّق 🍜 وببعتلك ياها
 ===== PINNED =====
 منشن صاحبك اللي بيصير أنمي لما يجوع 👇 وعلّق 🍜 وببعتلك الوصفة
 Tag the friend who goes full anime when hungry 👇 Comment 🍜 for the recipe
@@ -46,6 +51,11 @@ The secret: 6½ minutes and straight into ice = a jammy yolk 🥚
 ######## 2. LOADED SWEET POTATO (keyword 🍠) ########
 ===== TITLE =====
 بطاطا حلوة محشية 🍠 / Loaded Sweet Potato 🍠
+===== CAPTION (under 200 characters; the bio and a comment the only asks) =====
+أكل بعد الجيم… بس بطعم مطعم 💪🍠
+Post-gym food that tastes like a restaurant
+بطاطا حلوة، لحمة حلال، جبنة وأفوكادو
+الوصفة بالبايو 📖 علّق 🍠 وببعتلك ياها
 ===== PINNED =====
 منشن رفيق الجيم اللي لازم يجربها 👇 وعلّق 🍠 وببعتلك الوصفة
 Tag your gym buddy 👇 Comment 🍠 for the recipe
