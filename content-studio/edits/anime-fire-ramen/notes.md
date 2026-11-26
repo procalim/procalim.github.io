@@ -11,3 +11,8 @@ The reference: a tonkotsu (pork bone) ramen with a rolled pork-belly chashu, an 
 - A 59f2eae4, B 33ddd45d.
 - 24 Nov, after the crunchwrap's read (0 sends at a 15 s average watch): the save and send line moved to the egg cut
   into the bowl (frame 249, 10.37 s). A 23c4e562, B e2a685a7 replace 59f2eae4 and 33ddd45d.
+- 26 Nov, three versions for 28 Nov (the owner: «3 نسخ تاع الأنمي بنفس الفكرة»): the halal cut (cut.mp4, 14.38 s; it ends 1.2 s
+  after the first bite, inside the end rule) with a zoom-in over the first 3.17 s (centred a little above the middle) and
+  the cards: hook 0-3.17 (1 «لما أمك تقلك «في أكل بالبيت» 😤», 2 the proven «لما خالتك تسأل «مين عامل هاد؟» 😏», 3 «يمكن عم
+  تسلق البيض غلط…»), re-hook 3.17-7.04 «استنى البيضة… 🥚», hook 7.04-10.38 «لما العرب يجوعوا الساعة ٣ الفجر 🌙», the save and
+  send line from the egg in the bowl (10.38 s) at y 330, clear of the bowl. 1 dd1aef7f, 2 248b243a, 3 2418d3fb.

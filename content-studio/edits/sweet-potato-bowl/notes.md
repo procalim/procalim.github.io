@@ -19,3 +19,9 @@ tipped back (the hands-on-head tail out; the audio faded over the last 0.3 s); t
 (12.30 s) to the end at y 1430, over the board, so the pull and the bite stay clear. Hook A now the proven shape of the
 salad's «لما خالتك تسأل «مين عامل هاد؟»»: «لما رفيقك بالجيم يسألك «شو بتاكل؟» 💪» / "When gym bros ask “what do you eat?” 💪";
 B the strategist's 21 (a mistake). The rest as fin.sh. /home/user/sp/cut15.sh. A 05c34d82, B e5516191.
+
+## Three versions for 27 Nov (the owner, 26 Nov: «3 نسخ للبطاطا الحلوة تاعت الجيم ... بكرة بنزل 3 نسخ للبطاطا الحلوة»)
+The 15.25 s cut with a zoom-in over the first 3.17 s (1.00 -> 1.15, eased, centred; back to 1.00 on the video's own cut at
+3.17 s, where the re-hook starts); the cards as cut15.sh. Hooks: 1 «لما رفيقك بالجيم يسألك «شو بتاكل؟» 💪»; 2 «لما الكوتش
+يقلك «ممنوع الأكل الطيب» 😏» / "When your coach says “no tasty food” 😏"; 3 «يمكن عم تشويها غلط من سنين…» / "You might’ve
+roasted it wrong for years…". 1 05193a33, 2 a6d7fac3, 3 43cb1973 (/home/user/three.sh).
