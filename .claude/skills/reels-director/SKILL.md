@@ -167,6 +167,8 @@ Instagram lists these rates in order of importance to reach. Every edit and capt
    light; its only asks are the link in bio and a comment (no save, share or repost lines in the caption); the ask on
    the video is always save and send («احفظها وابعتها لـ…»). Example: week4/anime-fire-ramen-package.txt. The older
    long-caption rules below stay for the DM text and the book.
+   The comment ask is a word to type, never «علّق» (owner, 26 Nov: «بدل كلمة علق واكتب. يعني مثلا اكتب شورت ريبس
+   وبعطلك الوصفة»): «اكتب «[اسم الأكلة]» وببعتلك الوصفة» / "Type “[dish]” and I’ll send you the recipe".
    Older: Captions: English first then Arabic, 3-5 hashtags, no em dashes, each copy item in its
    own code block. Recipe count is always 361. Book price 14.99 USD (was 9.99), instant download,
    30-day refund.
