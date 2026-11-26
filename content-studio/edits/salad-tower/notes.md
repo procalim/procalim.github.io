@@ -24,3 +24,8 @@ The first placement guessed (0.15, 0.45, 2.00, 3.40). Measured: the splatter lan
 layers (Cutlery Hit Dish, Ceramics Plate Put Down Clink, Spoon Taps On Plate) at -1 to -2 dB, the loudest sounds of the
 reel; the ring on the plate at 4.32 (metal and plate layers); everything else 6-8 dB under them. -19.3 LUFS, peak -0.5.
 foley.py here. The result: 305a4b52 (replaces 5518a5f4).
+
+## The read and the 16.5 s cut (26 Nov)
+At 3 h: 21,674 views, skip 20.1%, average watch 10 s of 20, completion about 10%; the curve about 35% at 16.5 s and 10%
+at 20 s (the orbit after the ring lift, the save card at 17 s). The same video cut at 16.5 s (the audio faded over the last
+0.3 s), the save line from the reveal at 14.92 s at y 1430: A 1778ffeb, B 409bce13 (/home/user/salad/cut16.sh).
