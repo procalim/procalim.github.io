@@ -1,0 +1,12 @@
+Cheesy Smashed Potatoes, Genjutsu (prepared 27 Nov; not generated). The reference: Nurgül Kotan's reel (about 310M views by
+the owner's count), 10.63 s, Higgsfield media 4803d87d: oil and cheese on paper, a boiled potato smashed flat with a glass,
+spice, oil, cheese, the oven, the knife through the crust, dipped in a white sauce. Hands only, no face.
+Halal: the cheese halal-certified; the sauce a yogurt dip. The glass that smashes is a stemmed glass, empty: it reads as
+glassware, but if the owner wants no stemmed glass on the account, Genjutsu keeps it, so another reference is the fix.
+The recipe: book-additions/cheesy-smashed-potatoes.md (N° 367, N° 015 Smashed Potatoes word for word plus the cheese and dip).
+SETTINGS: Genjutsu (hf_mult_motion_control), 1080p; @Image1 him (f62eda22), @Image2 his kitchen (325df734); the video
+4803d87d. Quote: 220 credits (quote:anIWjuoNyfa5-ZlICdJtMQ). Nothing generated before «ولد».
+The edit after: the end rule, the zoom-in over 0-3 s, three hooks from the bank.
+
+===== PROMPT =====
+Replace the person with the man in @Image1: his hands in black nitrile gloves. Replace the counter and the background with the kitchen in @Image2: a black marble counter, warm low golden light. Keep the food, every move and every cut exactly as in the video.

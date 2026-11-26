@@ -1,0 +1,11 @@
+Accordion Sweet Potatoes, Genjutsu (prepared 27 Nov; not generated). The owner: «ضايل عنا بطاطا الاكوريدان ... والبطاطا
+السماش، وهدول جهز لي اياهم بس ما راح اولدهم هسه». The reference: Cherie's reel (about 310M views by the owner's count),
+trimmed at 0.85 s so the burned-in title is gone and it opens on the hands pulling a slice apart: 10.97 s, Higgsfield
+media 0ede2883. One trick: two chopsticks either side so the knife stops. Hands only, no face. Halal: nothing to swap.
+The recipe: book-additions/accordion-sweet-potatoes.md (N° 366, on N° 026 Accordion Potatoes' chopstick trick).
+SETTINGS: Genjutsu (hf_mult_motion_control), 1080p; @Image1 him (f62eda22), @Image2 his kitchen (325df734); the video
+0ede2883. Quote: 220 credits (quote:MMVyYYa90hKkuWuNmGd3fw). Nothing generated before «ولد».
+The edit after: the end rule (at most 1.5 s after the reveal), the zoom-in over 0-3 s, three hooks from the bank.
+
+===== PROMPT =====
+Replace the person with the man in @Image1: his hands in black nitrile gloves. Replace the counter and the background with the kitchen in @Image2: a black marble counter, warm low golden light. Keep the food, every move and every cut exactly as in the video.
