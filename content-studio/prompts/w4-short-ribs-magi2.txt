@@ -1,0 +1,13 @@
+The Braised Short Ribs, MAGI-2 (26 Nov). The owner: «نفس الفكرة على الشورت ريبس، بس هاي الأداة جديدة من هيجزفيلد،
+معطيني 2 فيديو مجاني بنفس طريقة هيجزفيلد جينستيف. أعطيني برومت لهذا الفيديو اسم الأداة ميجي2.»
+The reference: Instagram_Media_2.mp4, 7.08 s, 30 fps: one close shot of braised beef short ribs in a pan, black-gloved hands
+pulling the long bones out of the meat, the meat shredding, rosemary and a glossy sauce; the cook seen only from the chest
+down (jeans, a dark top). Halal: beef (halal beef), no wine or alcohol seen.
+MAGI-2 (Sand AI) is not motion transfer: it generates from a prompt with image and video references, so the prompt says
+to follow the video and to take only the identity from the photos (the owner's rule: no recipe, no shot list).
+
+SETTINGS (higgsfield.ai, MAGI-2): video reference the short ribs video; image references 1) him (f62eda22), 2) his kitchen
+(325df734); duration 7 s (the default 5 s cuts the action); aspect 9:16; 1080p; audio on.
+
+===== PROMPT =====
+Recreate the reference video exactly: the same single close-up shot, the same framing and camera, the same food, the same gloved hand moves at the same speed and timing. Change only the visual identity: the cook is the man in the first photo, wearing a mustard-yellow t-shirt, a black apron with brown leather straps and black nitrile gloves; the counter and the background are the kitchen in the second photo, a black marble counter, black cabinets with brass trim, warm low golden light. The same natural sounds as the video. Vertical 9:16, 7 seconds, no text, no logos.
