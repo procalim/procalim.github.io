@@ -12,3 +12,10 @@ The text (fin.sh), white, middle, Arabic over English, each card changing on the
 | 12.30-13.49 | none | | | the cheese pull clean |
 | 13.50-16.04 | save and send | احفظها وابعتها لرفيق الجيم 💪 | Save it & send it to your gym buddy 💪 | the reference's "this after a gym" |
 A 00bad1a3, B e2607489: two Trial Reels, only the first card differs.
+
+## The 15.25 s cut for tonight (26 Nov; the owner: «بدنا نحل مشكلة الإكمال اللي هي بين الثواني الأخيرة ... راح أجرب البطاطا الحلوة اليوم بالليل»)
+The salad's read (about 35% at 16.5 s, 10% at 20 s over the tail) applied here: the video ends at 15.25 s, on his head
+tipped back (the hands-on-head tail out; the audio faded over the last 0.3 s); the save and send line from the cheese pull
+(12.30 s) to the end at y 1430, over the board, so the pull and the bite stay clear. Hook A now the proven shape of the
+salad's «لما خالتك تسأل «مين عامل هاد؟»»: «لما رفيقك بالجيم يسألك «شو بتاكل؟» 💪» / "When gym bros ask “what do you eat?” 💪";
+B the strategist's 21 (a mistake). The rest as fin.sh. /home/user/sp/cut15.sh. A 05c34d82, B e5516191.

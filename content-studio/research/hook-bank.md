@@ -153,3 +153,10 @@ Used: 2 on the Ring Box B («عمري ما نزّلت هاي قبل…» / "I've
 opening), against A «اعملها… وبيتقدّملك 💍» / "Make this and he'll propose 💍". The Trial read decides which stays.
 Next to try on food: 4 (a trick: «ياريت حدا قلّي هاي من زمان…»), 21 (a fix: «يمكن عم تعمل نفس غلطتي…»), 25 (a craving:
 «غالباً ما رح تعترف بهاي، بس…»).
+
+## Proven on this account (26 Nov)
+The owner, 26 Nov: «بنك الهوك الجديد ظبط لما خالتك تسألك مين عمل هاد، وبنفس الفكرة لجميع الفيديوهات، أو بنفس الفكرة لغلطة».
+«لما خالتك تسأل «مين عامل هاد؟» 😏» on the Salad Tower: skip 20.1%, 21,674 views in 3 h. The shape for every reel's first
+card: «لما [شخص قريب] يسأل/يقول «[جملته]»» (a person the viewer knows, their exact words, a face emoji), or the same shape
+on a mistake («يمكن عم تعمل نفس غلطتي…»). The person fits the dish: the aunt for a show-off plate, the gym friend for a
+protein bowl, mum for a street-food remake, guests at the door for a fast recipe.
