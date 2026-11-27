@@ -160,3 +160,22 @@ The owner, 26 Nov: «بنك الهوك الجديد ظبط لما خالتك ت�
 card: «لما [شخص قريب] يسأل/يقول «[جملته]»» (a person the viewer knows, their exact words, a face emoji), or the same shape
 on a mistake («يمكن عم تعمل نفس غلطتي…»). The person fits the dish: the aunt for a show-off plate, the gym friend for a
 protein bowl, mum for a street-food remake, guests at the door for a fast recipe.
+
+## Kienobi's fill-in hooks, 11-38 (the owner's screenshots, 27 Nov: «بنك الهوكات الجديد ... مع بنك الهوكات القديم أيضا»)
+Two lists from the same creator. Ours fill the blank with the dish or the trick; the food answers the line.
+11 "(Industry myth) BUSTED!" 12 "Are you making these mistakes?" 13 "The biggest mistake you're making in (industry)"
+14 "Why most (your audience) fail at…" 15 "The dark side of…" 16 "STOP wasting time on…" 17 "The inconvenient truth
+about…" 18 "Breaking down the failures of…" 19 "Why (new trend) might not be right for you!" 20 "Ugly truth about…"
+20 "Before you give up on ___ listen to this" 21 "I ignored this ___ red flag for too long" 22 "All my clients who ___
+tell me the same thing" 23 "A list of weird things I tell ___ in order to ___" 24 "___ obvious and simple things I do as
+a ___ that keeps ___" 25 "Here's what no one tells you about ___" 26 "Manifesting clients who are ready to ___"
+27 "Things that help me love ___ as a girl who ___" 28 "Things I did this week instead of ___ as a ___" 29 "4 questions
+I like to ask people that have a problem with ___" 30 "___ got so much easier when I learned the ___ rule" 31 "Rating
+___ as a ___" 32 "After ___ years of ___ these are the ___" 33 "Painfully simple ways I'm ___" 34 "Crazy to think ___"
+35 "So I just found out I've been doing ___ wrong this whole time" 36 "When people ask what my hobbies are, how do I tell
+them ___?" 37 "Watch ___ change after I ___" 38 "POV we're on FaceTime and I'm telling you ___"
+Food-ready: 12 «يمكن عم تعملوا هالغلطة؟», 16 «بطّلوا تقشروا البطاطا هيك…», 25 «الشي اللي ما حدا بيقلك ياه عن…», 30 «صارت
+أسهل بكتير لما عرفت السر…», 31 «بقيّم [الأكلة] كشيف…», 34 «مجنون إنه هاد كله من حبة بطاطا…», 35 «طلع إني عم بعمل [الأكلة] غلط طول
+عمري…», 37 «شوف كيف بتتغير بالفرن 👀».
+Used, 27 Nov, Accordion Sweet Potatoes: V1 hook 35 «طلع إني عم بقطّع البطاطا غلط طول عمري…» against V2 the proven aunt;
+re-hook from 30 «السر كله بعودين صيني 🥢»; hook 2 from 37 «شوف كيف بتتغير بالفرن 👀». The Trial read decides.
